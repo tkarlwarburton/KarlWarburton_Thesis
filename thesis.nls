@@ -1,0 +1,88 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$F$}]\begingroup complex function\nomeqref {2.1}
+		\nompageref{7}
+
+ \nomgroup{G}
+
+  \item [{$\gamma$}]\begingroup a simply closed curve on a complex plane\nomeqref {2.1}
+		\nompageref{7}
+  \item [{$\iota$}]\begingroup unit imaginary number $\sqrt{-1}$\nomeqref {2.1}
+		\nompageref{7}
+  \item [{$\pi$}]\begingroup  $\simeq 3.14\ldots$\nomeqref {2.1}
+		\nompageref{7}
+
+ \nomgroup{R}
+
+  \item [{$j$}]\begingroup superscript index\nomeqref {2.1}
+		\nompageref{7}
+
+ \nomgroup{S}
+
+  \item [{$0$}]\begingroup subscript index\nomeqref {2.1}\nompageref{7}
+  \item [{crit}]\begingroup Critical state\nomeqref {2.1}\nompageref{9}
+
+ \nomgroup{X}
+
+  \item [{$\oint_\gamma$}]\begingroup integration around a curve $\gamma$\nomeqref {2.1}
+		\nompageref{7}
+
+ \nomgroup{Z}
+
+  \item [{ALU}]\begingroup Arithmetic Logic Unit\nomeqref {2.1}
+		\nompageref{9}
+  \item [{BEM}]\begingroup Boundary Element Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{CD}]\begingroup Contact Dynamics\nomeqref {2.1}\nompageref{9}
+  \item [{CFD}]\begingroup Computational Fluid Dynamics\nomeqref {2.1}
+		\nompageref{9}
+  \item [{$CIF$}]\begingroup Cauchy's Integral Formula\nomeqref {2.1}
+		\nompageref{7}
+  \item [{CK}]\begingroup Carman - Kozeny\nomeqref {2.1}\nompageref{9}
+  \item [{DEM}]\begingroup Discrete Element Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{DKT}]\begingroup Draft Kiss Tumble\nomeqref {2.1}
+		\nompageref{9}
+  \item [{DNS}]\begingroup Direct Numerical Simulation\nomeqref {2.1}
+		\nompageref{9}
+  \item [{EFG}]\begingroup Element-Free Galerkin\nomeqref {2.1}
+		\nompageref{9}
+  \item [{FEM}]\begingroup Finite Element Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{FLOP}]\begingroup Floating Point Operations\nomeqref {2.1}
+		\nompageref{9}
+  \item [{FPU}]\begingroup Floating Point Unit\nomeqref {2.1}
+		\nompageref{9}
+  \item [{FVM}]\begingroup Finite Volume Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{GPU}]\begingroup Graphics Processing Unit\nomeqref {2.1}
+		\nompageref{9}
+  \item [{LBM}]\begingroup Lattice Boltzmann Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{LES}]\begingroup Large Eddy Simulation\nomeqref {2.1}
+		\nompageref{9}
+  \item [{MPM}]\begingroup Material Point Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{MRT}]\begingroup Multi-Relaxation Time\nomeqref {2.1}
+		\nompageref{9}
+  \item [{PCI}]\begingroup Peripheral Component Interconnect\nomeqref {2.1}
+		\nompageref{9}
+  \item [{PFEM}]\begingroup Particle Finite Element Method\nomeqref {2.1}
+		\nompageref{9}
+  \item [{PIC}]\begingroup Particle-in-cell\nomeqref {2.1}
+		\nompageref{9}
+  \item [{PPC}]\begingroup Particles per cell\nomeqref {2.1}
+		\nompageref{9}
+  \item [{RVE}]\begingroup Representative Elemental Volume\nomeqref {2.1}
+		\nompageref{9}
+  \item [{SH}]\begingroup Savage Hutter\nomeqref {2.1}\nompageref{9}
+  \item [{SM}]\begingroup Streaming Multiprocessors\nomeqref {2.1}
+		\nompageref{9}
+  \item [{USF}]\begingroup Update Stress First\nomeqref {2.1}
+		\nompageref{9}
+  \item [{USL}]\begingroup Update Stress Last\nomeqref {2.1}
+		\nompageref{9}
+
+\end{thenomenclature}
