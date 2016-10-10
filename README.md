@@ -1,4 +1,2 @@
-Readme for my thesis repo# KarlWarburton_Thesis
-# KarlWarburton_Thesis
-# KarlWarburton_Thesis
+Readme for my thesis report
 # KarlWarburton_Thesis

@@ -80,26 +80,18 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Acknowledgement
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix1/appendix1.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix2/appendix2.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Classes/PhDThesisPSnPDF.cls)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,DUNE/DUNE.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/declaration.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Dedication/dedication.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorBackground/FarDetectorBackground.tex)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorSimulations/FarDetectorSimulations.tex)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Introduction/Introduction.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Preamble/preamble.tex)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,The35tonCameras/The35tonCameras.tex)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Theory/Theory.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
 -include Figs/University_Crest.pdf.gpi.d
 thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
--include 35tonSimulation/Figs/Raster/minion.png.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/minion.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/minion.png)
--include 35tonSimulation/Figs/Raster/TomandJerry.png.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/TomandJerry.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/TomandJerry.png)
--include 35tonSimulation/Figs/Raster/WallE.png.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/WallE.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/WallE.png)
--include 35tonSimulation/Figs/Raster/minion.png.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/minion.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/minion.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)
