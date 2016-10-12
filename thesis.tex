@@ -1,7 +1,20 @@
 % ******************************* PhD Thesis Template **************************
 % Please have a look at the README.md file for info on how to use the template
 
-\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
+% If I want to make the entire thesis....
+%\documentclass[a4paper,12pt,oneside,times,numbered,print,index,draft,lineno]{Classes/PhDThesisPSnPDF}
+% If I only want to make a certain chapter....
+\documentclass[a4paper,12pt,oneside,times,numbered,print,index,lineno,chapter,draft]{Classes/PhDThesisPSnPDF}
+
+% ***************************** Chapter Mode ***********************************
+% The chapter mode allows user to only print particular chapters with references
+% Title, Contents, Frontmatter are disabled by default
+% Useful option to review a particular chapter or to send it to supervisior.
+% To use choose `chapter' option in the document class
+
+\ifdefineChapter
+ \includeonly{35tonData/35tonData}
+\fi
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -92,16 +105,6 @@
 \ifdefineAbstract
  \pagestyle{empty}
  \includeonly{Declaration/declaration, Abstract/abstract}
-\fi
-
-% ***************************** Chapter Mode ***********************************
-% The chapter mode allows user to only print particular chapters with references
-% Title, Contents, Frontmatter are disabled by default
-% Useful option to review a particular chapter or to send it to supervisior.
-% To use choose `chapter' option in the document class
-
-\ifdefineChapter
- \includeonly{Chapter3/chapter3}
 \fi
 
 % ******************************** Front Matter ********************************
