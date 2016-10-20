@@ -1,0 +1,56 @@
+\begin{thebibliography}{}
+
+\bibitem[ArgoNeuT Collaboration, 2012]{ArgoNeuT}
+ArgoNeuT Collaboration (2012).
+\newblock The argoneut detector in the numi low-energy beam line at fermilab.
+\newblock {\em JINST}, 7:10019.
+
+\bibitem[Cooley and Turkey, 1965]{CoTuFFT}
+Cooley, J. and Turkey, J. (1965).
+\newblock An algorithm for the machine calculation of complex fourier series.
+\newblock {\em Math. Comp.}, 19:297--301.
+
+\bibitem[DUNE DocDB 1704, 2016]{35tonNoiseMeeting}
+DUNE DocDB 1704 (2016).
+\newblock 35t observations and measurements.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
+
+\bibitem[J. Insler, LSU, 35 ton Meeting, 2016]{InslerStuckCode}
+J. Insler, LSU, 35 ton Meeting (2016).
+\newblock Module to unstick adc codes.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
+
+\bibitem[MicroBooNE Collaboration, 2016]{uBooNENoise}
+MicroBooNE Collaboration (2016).
+\newblock Noise characterization and filtering in the microboone tpc.
+\newblock [online]
+  \url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}.
+
+\bibitem[T. Yang, FNAL, 35 ton Meeting, 2016]{TingjunClustering}
+T. Yang, FNAL, 35 ton Meeting (2016).
+\newblock Update on reconstruction of 35t data.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
+
+\bibitem[Torr and Zisserman, 2000]{MLESAC}
+Torr, P. and Zisserman, A. (2000).
+\newblock Mlesac: A new robust estimator with application to estimating image
+  geometry.
+\newblock {\em Computer Vision and Image Understanding}, 17:138--156.
+
+\bibitem[T.Yang, FNAL, 35 ton Meeting, 2016]{TingjunLifetime}
+T.Yang, FNAL, 35 ton Meeting (2016).
+\newblock Update on 35 ton analysis.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}.
+
+\bibitem[Wiener, 1942]{WienerFilter}
+Wiener, N. (1942).
+\newblock {\em Extrapolation, Interpolation, and Smoothing of Stationary Time
+  Series}.
+\newblock [Cambridge]: Technology Press of the Massachusetts Institute of
+  Technology.
+
+\end{thebibliography}
