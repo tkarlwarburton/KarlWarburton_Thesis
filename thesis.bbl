@@ -5,10 +5,22 @@ ArgoNeuT Collaboration (2012).
 \newblock The argoneut detector in the numi low-energy beam line at fermilab.
 \newblock {\em JINST}, 7:10019.
 
+\bibitem[Atrazhev and Timoshkin, 1998]{Atrazhev-Timoshkin}
+Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
+\newblock {Trasport of electrons in atomic liquids in high electric fields}.
+\newblock {\em IEEE Trans. Dielectrics and Electrical Insulation}, 5:450--457.
+
 \bibitem[Cooley and Turkey, 1965]{CoTuFFT}
 Cooley, J. and Turkey, J. (1965).
 \newblock An algorithm for the machine calculation of complex fourier series.
 \newblock {\em Math. Comp.}, 19:297--301.
+
+\bibitem[D. Brailsford, Lancaster University, DUNE collaboration meeting,
+  2016]{DomSeptMeeting}
+D. Brailsford, Lancaster University, DUNE collaboration meeting (2016).
+\newblock Looking at electron diffusion in 35t data and mc.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
 
 \bibitem[DUNE DocDB 1704, 2016]{35tonNoiseMeeting}
 DUNE DocDB 1704 (2016).
@@ -21,6 +33,11 @@ J. Insler, LSU, 35 ton Meeting (2016).
 \newblock Module to unstick adc codes.
 \newblock [online]
   \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
+
+\bibitem[Li et~al., 2016]{Li:2015rqa}
+Li, Y. et~al. (2016).
+\newblock {Measurement of Longitudinal Electron Diffusion in Liquid Argon}.
+\newblock {\em Nucl. Instrum. Meth.}, A816:160--170.
 
 \bibitem[MicroBooNE Collaboration, 2016]{uBooNENoise}
 MicroBooNE Collaboration (2016).

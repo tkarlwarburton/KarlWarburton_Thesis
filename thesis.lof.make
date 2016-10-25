@@ -8,10 +8,12 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{18}{figure.caption.8}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{21}{figure.caption.9}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Recovering stuck ADC codes in the 35 ton}}{22}{figure.caption.10}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{23}{figure.caption.11}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{25}{figure.caption.12}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The dot product of track and counter coincidences}}{26}{figure.caption.13}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The alignment of tracks and counter coincidences}}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Applying Wiener filters to the 35 ton data}}{23}{figure.caption.12}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{26}{figure.caption.13}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The dot product of track and counter coincidences}}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The alignment of tracks and counter coincidences}}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{28}{figure.caption.16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
