@@ -12,12 +12,17 @@
 \newlabel{fig:DataDrops}
 \newlabel{fig:DataRecoEffics}
 \newlabel{fig:DataStructure}
+\newlabel{fig:DiffDataHitFit}
+\newlabel{fig:DiffLotsOfFlashes}
 \newlabel{fig:DistanceCanvas}
+\newlabel{fig:DomDiffSchem}
+\newlabel{fig:DomsHitModel}
 \newlabel{fig:FreqCollection}
 \newlabel{fig:FreqFFT}
 \newlabel{fig:FreqInduction}
 \newlabel{fig:FreqWaveform}
 \newlabel{fig:FrequencyFilter}
+\newlabel{fig:NoiseRemoval}
 \newlabel{fig:StuckCodes}
 \newlabel{fig:TingjunLifetime}
 \newlabel{fig:TwoDimCanvas}

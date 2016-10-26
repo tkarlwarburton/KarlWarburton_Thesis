@@ -23,7 +23,6 @@ A total of 22 days worth of data was collected with the electric field set at 25
   \label{fig:DataCollected}  
 \end{figure}
 
-
 %********************************** %First Section  **************************************
 \section{Organisation of the data structure} \label{Organisation of the data structure} %Section - X.1
 As previously noted the 35 ton consisted of three detector sub-systems: RCEs collecting TPC data, SSPs collecting photon detector data, and CRCs tagging cosmic rays. The DAQ combined these three data streams into synchronous events in time saved as LArSoft data objects called artdaq::Fragments. These data objects would later have to converted to the offline data products which the reconstruction tools developed on simulation used, this is discussed in Section~\ref{Reformatting the data to the offline structure}. This section describes the structure of the data objects in the raw form.\\
@@ -214,7 +213,7 @@ The inability to perform reliable calorimetry en masse means that the only parti
 
 By matching tracks in this way it possible to evaluate the reconstruction efficiencies for these muons at increasing drift distances and track angles. If multiple tracks are aligned with the coincidence and are within the expected time region then their track lengths are summed when calculating reconstruction efficiencies as it is expected that the track was split by a region of the detector either being turned off or too noisy to reliably reconstruct a track. A minimum reconstructed length of 50 cm is used to determine if the track was partially reconstructed as above this length the track is likely to have been stitched between TPCs, the verification of which was a design goal of the 35 ton. A reconstructed track that is 50 cm long is also likely to have a large number of hits on collection plane wires that are not noisy, these hits are needed when calculating purity or measuring the effect of diffusion as discussed in Section~\ref{DiffusionAnalysis}. \\
 
-From Figure~\ref{fig:DataRecoEffics} it is evident that the reconstruction efficiency for tracks with shallow angles relative to the APAs is extremely poor, with the efficiency for tracks with angles less than 8$^{\circ}$ never rising above 10\%. This is due to the coherent noise removal where hits which are correlated in time will be removed as they will be percieved as being noise as opposed to real signals. When considering tracks with angles in the 12$^{\circ}$ to 20$^{\circ}$ range the reconstruction is seen to be perform reasonably well for tracks whose centres are less than 140 cm away from the APAs, before decreasing for tracks which have a longer drift distance. A decrease in reconstruction efficiency for tracks which at large drift distances is due to the hits being below threshold and so not being reconstructed. It should be noted that in order to observe a drift distance effect on reconstruction efficiency the distance plotted is the average $x$ position of the counters, so a track going from 10 cm to 230 cm will have an average $x$ position of 120 cm (assuming a straight trajectory) as shown by the point for Counter difference 7 in Figure~\ref{fig:DistanceCanvas} with $\sim$23\% efficiency. \\
+From Figure~\ref{fig:DataRecoEffics} it is evident that the reconstruction efficiency for tracks with shallow angles relative to the APAs is extremely poor, with the efficiency for tracks with angles less than 8$^{\circ}$ never rising above 10\%. This is due to the coherent noise removal where hits which are correlated in time will be removed as they will be perceived as being noise as opposed to real signals. When considering tracks with angles in the 12$^{\circ}$ to 20$^{\circ}$ range the reconstruction is seen to be perform reasonably well for tracks whose centres are less than 140 cm away from the APAs, before decreasing for tracks which have a longer drift distance. A decrease in reconstruction efficiency for tracks which at large drift distances is due to the hits being below threshold and so not being reconstructed. It should be noted that in order to observe a drift distance effect on reconstruction efficiency the distance plotted is the average $x$ position of the counters, so a track going from 10 cm to 230 cm will have an average $x$ position of 120 cm (assuming a straight trajectory) as shown by the point for Counter difference 7 in Figure~\ref{fig:DistanceCanvas} with $\sim$23\% efficiency. \\
 
 \begin{figure}[h!]
   \centering
@@ -250,26 +249,91 @@ From Figure~\ref{fig:DataRecoEffics} it is evident that the reconstruction effic
     
 %********************************** % Fifth Section  *************************************
 \section{Measuring interaction times using electron diffusion}  \label{DiffusionAnalysis}%Section - X.5
-As electrons drift from the interaction point to the wire planes they become spread out in both time and space, this effect is known as diffusion and is an important property of electron transport in LAr which must be well understood. The mechanism by which diffusion occurs in LAr was first discussed by Atrazhev-Timoshkin~\citep{Atrazhev-Timoshkin}, and has since been developed to consist of a complete set of measurements for electric fields between 100 and 2000 V cm$^{-1}$~\citep{Li:2015rqa}. The diffusion of electrons is rarely isotropic and so the components that are in the transverse direction to the drift field and the component that is in the drift field direction are measured separately. Diffusion in the drift direction is called longitudinal diffusion and is generally smaller than the transverse diffusion. !!!FIXME!!!Figure~\ref{fig:DomDiffSchem}!!!! shows how diffusion can smear the electrons collected on a set of wires when the electrons are initially highly correlated in time and space. \\
+As electrons drift from the interaction point to the wire planes they become spread out in both time and space, this effect is known as diffusion and is an important property of electron transport in LAr which must be well understood. The mechanism by which diffusion occurs in LAr was first discussed by Atrazhev-Timoshkin~\citep{Atrazhev-Timoshkin}, and has since been developed to consist of a complete set of measurements for electric fields between 100 and 2000 V cm$^{-1}$~\citep{Li:2015rqa}. The diffusion of electrons is rarely isotropic and so the components that are in the transverse direction to the drift field and the component that is in the drift field direction are measured separately. Diffusion in the drift direction is called longitudinal diffusion and is generally smaller than the transverse diffusion. Figure~\ref{fig:DomDiffSchem} shows how diffusion can smear the electrons collected on a set of wires when the electrons are initially highly correlated in time and space. \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{}
+  \caption[Schematic showing the process of diffusion]{A schematic showing the difference between longitudinal diffusion (left) and transverse diffusion (right). In both cases four electrons are intially shown below four wires, a thermal wiggle is then applied in the direction of drift and perpendicular to the drift direction in the longitudinal and tranverse cases respectively. It can be seen that the effect of the thermal wiggles is to make the electrons spread out in time in the case of longitudinal diffusion and to spread out in space in the case of transverse diffusion\citep{DomSeptMeeting}.}
+  \label{fig:DomDiffSchem}
+\end{figure}
 
 Longitudinal diffusion has the effect of spreading the drifting electrons out in time causing signals to become wider in time and smaller in height as the total charge is conserved. The increasing hit width can be measured for increasing drift times (distances) provided the hits do not fall below a hit finding threshold. Transverse diffusion causes drifting electrons to spread out in space changing the amount of charge deposited on a wire and reducing the charge resolution of the detector. Transverse diffusion is measured by discerning how the width of the hit charge distribution changes for increasing drift distances~\citep{DomSeptMeeting}. \\
 
 Through-going particles make ideal tracks to study diffusion as they are minimally ionising and so have roughly constant energy depositions along their tracks. The tracks they produce can also cover a wide range of drift distances if they are not parallel to the APAs. The drift distances of hits within a track can be determined by matching the track with a counter coincidence as discussed at the end of Section~\ref{sec:DataAlgs} and then correcting the $x$ co-ordinates of the hits using Equation~\ref{eq:HitTime} where $T_{Hit} = T_{Measured} - T_{Interaction}$. \\
 
-Once the hits on a track have been corrected in time and space the hits on noisy wires and delta rays must be removed as the change in hit RMS from diffusion will be sub-dominant for these hits. Wires with a high level of correlated noise observe hits with a wider RMS as shown by !!!FIXME!!!Figure~\ref{fig:DomsHitModel}!!! where a baseline noise of 10 ADC counts was added to a simulated hit with a peak value of 50 ADC counts and RMS 10 ticks. Hits with delta rays need to be removed as the deposited energy will be larger and over a longer period of time than hits from the main track, this will make the RMS of the individual hit wider and also increase the width of the charge distribution for the track. In order to remove these hits only hits which satisfy the following cuts are used:
+Traditionally the only way to determine an interaction time for a track is to match it to either an external calibration source such as whether it alligns with an external counter coincidence, or to match it to a flash of scintillation light. These techniques are particularly crucial for neutrino detectors on the Earths surface such as MicroBooNE where each neutrino interaction has a background of many cosmic muons which need to be disentangled in order correctly assign a scintillation flash to a reconstructed track. An example of an event which has many scintillation flashes and cosmic muons which need to be correctly associated is shown in Figure~\ref{fig:DiffLotsOfFlashes}. However it may be possible that the change in hit width due to diffusion as a particle travels through the detector could be used to determine the interaction time, though this has not been attempted before. To study whether this is possible the effects of diffusion would have to be measured for a sample of tracks with known interaction times and orientations. \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{}
+  \caption[A simulated event display showing multiple tracks and flashes in the 35 ton]
+          {A simulated event display showing multiple tracks and flashes to be assigned to eachother in the 35 ton.}
+          \label{fig:DiffLotsOfFlashes}
+\end{figure}
+
+The 35 ton dataset is ideal for testing this hypothesis as the counters are able to provide a sample with known track angles and interaction times which can be used to tune an interaction time determination metric. This metric can then be applied to another sample of tracks where the interaction time is known but not used so that the accuracy of the calculated interaction times can be found. As longitudinal diffusion is the dominant effect that increases the hit width transverse diffusion will not be directly considered further. \\
+
+When calculating the determination metrics only hits on wires which are not on wires with high noise want to be considered. This is because wires with a high level of correlated noise observe hits with a wider RMS as shown by Figure~\ref{fig:DomsHitModel} where a baseline noise of 10 ADC counts was added to a simulated hit with a peak value of 50 ADC counts and RMS 10 ticks. Hits with delta rays also need to be removed as the deposited energy will be larger and over a longer period of time than hits from the main track, this will make the RMS of the individual hit wider and also increase the width of the charge distribution for the track. In order to remove these hits only hits which satisfy the following cuts are used:
 \begin{itemize}
 \item No hit on the same wire within 50 ticks of the hit in question - removes delta rays.
 \item No more than XXXX (10) hits on the same wire in the whole 15,000 tick data sample - removes noisy wires.
 \end{itemize}
 A further restriction applied to the hits is that only collection plane hits are used as the charge resolution is better and the signals are unipolar as opposed to bipolar meaning that a Gaussian can be easily fitted to the signals. Additionally the $signal/noise$ ratio on the collection planes was much higher than on the induction planes for the 35 ton dataset and so the hits could be much more reliably reconstructed. \\
 
-Diffusion is a track angle dependent property and so track angle ranges have to be considered independantly. From Figure~\ref{fig:DataRecoEffics} it can be seen that tracks with a counter difference of 4 are the best reconstructed in data and so reference will be given to these tracks, though the same procedure is applied to all track angles. The tracks are considered en masse and so the hits for every track are seperated into 10 cm regions of increasing drift distance from the APAs. The following quantities are calculated for each 10 cm region:
-\begin{itemize}
-\item The RMS of the hit - needed to measure the transverse diffusion.
-\item The charge of the hit, measured as the integral of Gaussian fit - needed to measure the longitudinal diffusion.
-\item The RMS/Charge of the hit - to attempt to remove the angular dependence of the track.
-\end{itemize}
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{A toy Gaussian hit with width 10 ticks, and amplitude 50 ADC counts.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{The reconstructed width when a noise baseline of 10 ADC counts is added.}
+  \end{subfigure}
+  \caption[The effect of adding a noise baseline to a hit]
+          {The width of a Gaussian fit is seen to increase by more than 10\% when a noise baseline is added to the signal showing that noise can cause the measured width of a hit to increase\citep{DomSeptMeeting}.}
+          \label{fig:DomsHitModel}
+\end{figure}  
 
+Diffusion is a track angle dependent property and so track angle ranges have to be considered independently. From Figure~\ref{fig:DataRecoEffics} it can be seen that tracks with a counter difference of 4 are the best reconstructed in data and so reference will be given to these tracks, though the same procedure is applied to all track angles. The tracks are considered en masse and so the hits for every track are separated into 10 cm regions of increasing drift distance from the APAs. The following quantities are calculated for each 10 cm region:
+\begin{itemize}
+\item The $RMS$ of the hit - the most direct way to measure transverse diffusion.
+\item The $RMS/charge$ of the hit - an attempt to remove the angular dependence and to incorporate an extra drift distance dependence on impurities for relatively low purity data.
+\end{itemize}
+Fitting Gaussians around the peaks of the distributions will yield the most probable values for the drift regions, as is shown in Figure~\ref{fig:DiffDataHitFit}. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{The most probable hit $RMS$ value for tracks with a counter difference of 4 at XXXX cm.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{The most probable hit $RMS$ value for tracks with a counter difference of 4 at XXXX cm.}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{The most probable hit $RMS/Charge$ value for tracks with a counter difference of 4 at XXXX cm.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{}
+    \caption{The most probable hit $RMS/Charge$ value for tracks with a counter difference of 4 at XXXX cm.}
+  \end{subfigure}
+  \caption[The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4]
+          {The most probable values for hits from tracks which triggered a counter difference of 4 at XXXX cm and XXXXX cm, when the $RMS$ of the hit and the $RMS/charge$ of the hit are considered.}
+          \label{fig:DiffDataHitFit}
+\end{figure}
 
 \subsection{Performing the analysis on 35 ton data}
 

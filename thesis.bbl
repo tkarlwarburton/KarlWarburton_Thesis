@@ -1,10 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[ArgoNeuT Collaboration, 2012]{ArgoNeuT}
-ArgoNeuT Collaboration (2012).
-\newblock The argoneut detector in the numi low-energy beam line at fermilab.
-\newblock {\em JINST}, 7:10019.
-
 \bibitem[Atrazhev and Timoshkin, 1998]{Atrazhev-Timoshkin}
 Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
 \newblock {Trasport of electrons in atomic liquids in high electric fields}.
@@ -27,6 +22,11 @@ DUNE DocDB 1704 (2016).
 \newblock 35t observations and measurements.
 \newblock [online]
   \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
+
+\bibitem[f, 2012]{ArgoNeuT}
+f (2012).
+\newblock The argoneut detector in the numi low-energy beam line at fermilab.
+\newblock {\em JINST}, 7:10019.
 
 \bibitem[J. Insler, LSU, 35 ton Meeting, 2016]{InslerStuckCode}
 J. Insler, LSU, 35 ton Meeting (2016).

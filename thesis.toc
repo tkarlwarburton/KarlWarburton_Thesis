@@ -34,13 +34,15 @@
 \contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{19}{section.6.2}
 \contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{20}{section.6.3}
 \contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{24}{section.6.4}
-\contentsline {section}{\numberline {6.5}???Measuring interaction times using electron diffusion???}{28}{section.6.5}
-\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{29}{chapter.7}
-\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{29}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{29}{section.7.2}
-\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{29}{section.7.3}
-\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{29}{section.7.4}
-\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{29}{section.7.5}
-\contentsline {chapter}{References}{30}{chapter*.17}
-\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{31}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{32}{Appendix.a.B}
+\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{28}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Performing the analysis on 35 ton data}{31}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Performing the analysis on 35 ton Monte Carlo}{31}{subsection.6.5.2}
+\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{32}{chapter.7}
+\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{32}{section.7.1}
+\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{32}{section.7.2}
+\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{32}{section.7.3}
+\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{32}{section.7.4}
+\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{32}{section.7.5}
+\contentsline {chapter}{References}{33}{chapter*.22}
+\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{34}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{35}{Appendix.a.B}
