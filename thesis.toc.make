@@ -35,14 +35,15 @@
 \contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{20}{section.6.3}
 \contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{24}{section.6.4}
 \contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{28}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Performing the analysis on 35 ton data}{31}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Performing the analysis on 35 ton Monte Carlo}{31}{subsection.6.5.2}
-\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{32}{chapter.7}
-\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{32}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{32}{section.7.2}
-\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{32}{section.7.3}
-\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{32}{section.7.4}
-\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{32}{section.7.5}
-\contentsline {chapter}{References}{33}{chapter*.22}
-\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{34}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{35}{Appendix.a.B}
+\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{30}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{34}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo when considering the limitations of the method}{35}{subsection.6.5.3}
+\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{36}{chapter.7}
+\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{36}{section.7.1}
+\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{36}{section.7.2}
+\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{36}{section.7.3}
+\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{36}{section.7.4}
+\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{36}{section.7.5}
+\contentsline {chapter}{References}{37}{chapter*.26}
+\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{38}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{39}{Appendix.a.B}

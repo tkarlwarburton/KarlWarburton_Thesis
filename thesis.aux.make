@@ -333,9 +333,9 @@
 \@LN{39}{14}
 \@LN{3}{9}
 \@LN{400}{29}
-\@LN{401}{29}
-\@LN{402}{29}
-\@LN{403}{29}
+\@LN{401}{30}
+\@LN{402}{30}
+\@LN{403}{30}
 \@LN{404}{30}
 \@LN{405}{30}
 \@LN{406}{30}
@@ -352,39 +352,39 @@
 \@LN{416}{30}
 \@LN{417}{30}
 \@LN{418}{30}
-\@LN{419}{31}
+\@LN{419}{30}
 \@LN{41}{14}
-\@LN{420}{31}
-\@LN{421}{31}
-\@LN{422}{31}
-\@LN{423}{31}
-\@LN{424}{31}
-\@LN{425}{31}
-\@LN{426}{31}
-\@LN{427}{32}
-\@LN{428}{32}
-\@LN{429}{32}
+\@LN{420}{30}
+\@LN{421}{30}
+\@LN{422}{30}
+\@LN{423}{30}
+\@LN{424}{30}
+\@LN{425}{30}
+\@LN{426}{30}
+\@LN{427}{30}
+\@LN{428}{30}
+\@LN{429}{31}
 \@LN{42}{14}
-\@LN{430}{32}
-\@LN{431}{32}
-\@LN{432}{32}
-\@LN{433}{32}
-\@LN{434}{32}
-\@LN{435}{32}
-\@LN{436}{32}
-\@LN{437}{32}
-\@LN{438}{32}
-\@LN{439}{32}
+\@LN{430}{31}
+\@LN{431}{31}
+\@LN{432}{31}
+\@LN{433}{31}
+\@LN{434}{31}
+\@LN{435}{31}
+\@LN{436}{31}
+\@LN{437}{31}
+\@LN{438}{31}
+\@LN{439}{31}
 \@LN{43}{14}
-\@LN{440}{32}
-\@LN{441}{32}
-\@LN{442}{32}
-\@LN{443}{32}
-\@LN{444}{32}
-\@LN{445}{32}
-\@LN{446}{32}
-\@LN{447}{32}
-\@LN{448}{32}
+\@LN{440}{31}
+\@LN{441}{31}
+\@LN{442}{31}
+\@LN{443}{31}
+\@LN{444}{31}
+\@LN{445}{31}
+\@LN{446}{31}
+\@LN{447}{31}
+\@LN{448}{31}
 \@LN{449}{32}
 \@LN{44}{14}
 \@LN{450}{32}
@@ -394,20 +394,104 @@
 \@LN{454}{32}
 \@LN{455}{32}
 \@LN{456}{32}
-\@LN{457}{33}
-\@LN{458}{33}
-\@LN{459}{34}
+\@LN{457}{32}
+\@LN{458}{32}
+\@LN{459}{32}
 \@LN{45}{14}
-\@LN{460}{34}
+\@LN{460}{32}
+\@LN{461}{32}
+\@LN{462}{32}
+\@LN{463}{32}
+\@LN{464}{32}
+\@LN{465}{32}
+\@LN{466}{32}
+\@LN{467}{32}
+\@LN{468}{32}
+\@LN{469}{32}
 \@LN{46}{14}
+\@LN{470}{32}
+\@LN{471}{32}
+\@LN{472}{32}
+\@LN{473}{32}
+\@LN{474}{33}
+\@LN{475}{33}
+\@LN{476}{33}
+\@LN{477}{33}
+\@LN{478}{33}
+\@LN{479}{33}
 \@LN{47}{14}
+\@LN{480}{33}
+\@LN{481}{33}
+\@LN{482}{33}
+\@LN{483}{33}
+\@LN{484}{33}
+\@LN{485}{33}
+\@LN{486}{33}
+\@LN{487}{33}
+\@LN{488}{33}
+\@LN{489}{33}
 \@LN{48}{14}
+\@LN{490}{33}
+\@LN{491}{33}
+\@LN{492}{33}
+\@LN{493}{33}
+\@LN{494}{33}
+\@LN{495}{33}
+\@LN{496}{33}
+\@LN{497}{33}
+\@LN{498}{33}
+\@LN{499}{34}
 \@LN{49}{14}
 \@LN{4}{10}
+\@LN{500}{34}
+\@LN{501}{34}
+\@LN{502}{34}
+\@LN{503}{35}
+\@LN{504}{35}
+\@LN{505}{35}
+\@LN{506}{35}
+\@LN{507}{35}
+\@LN{508}{35}
+\@LN{509}{35}
 \@LN{50}{14}
+\@LN{510}{35}
+\@LN{511}{36}
+\@LN{512}{36}
+\@LN{513}{36}
+\@LN{514}{36}
+\@LN{515}{36}
+\@LN{516}{36}
+\@LN{517}{36}
+\@LN{518}{36}
+\@LN{519}{36}
 \@LN{51}{14}
+\@LN{520}{36}
+\@LN{521}{36}
+\@LN{522}{36}
+\@LN{523}{36}
+\@LN{524}{36}
+\@LN{525}{36}
+\@LN{526}{36}
+\@LN{527}{36}
+\@LN{528}{36}
+\@LN{529}{36}
 \@LN{52}{14}
+\@LN{530}{36}
+\@LN{531}{36}
+\@LN{532}{36}
+\@LN{533}{36}
+\@LN{534}{36}
+\@LN{535}{36}
+\@LN{536}{36}
+\@LN{537}{36}
+\@LN{538}{36}
+\@LN{539}{36}
 \@LN{53}{14}
+\@LN{540}{36}
+\@LN{541}{37}
+\@LN{542}{37}
+\@LN{543}{38}
+\@LN{544}{38}
 \@LN{54}{14}
 \@LN{55}{14}
 \@LN{56}{14}
@@ -486,7 +570,11 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{29}{figure.caption.18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{30}{figure.caption.19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{31}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4}}{31}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{32}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{32}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{33}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{33}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{34}{figure.caption.25}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The 35 ton data sample}}{16}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{18}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{21}{figure.caption.9}}
@@ -505,18 +593,18 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{34}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{35}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{38}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{39}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{8}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{9}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{33}{chapter*.22}}
+\@writefile{toc}{\contentsline {chapter}{References}{37}{chapter*.26}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Theory}{11}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{12}{chapter.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}The 35 ton camera system}{13}{chapter.4}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Simulations of the 35ton prototype}{14}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}The 35 ton data sample}{15}{chapter.6}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{32}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{36}{chapter.7}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}XXXXX}{10}{section.1.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}XXXXXX}{10}{section.1.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Theory of neutrino physics}{11}{section.2.1}}
@@ -543,15 +631,16 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{20}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{24}{section.6.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{28}{section.6.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{32}{section.7.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{32}{section.7.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{32}{section.7.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{32}{section.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{32}{section.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{36}{section.7.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{36}{section.7.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{36}{section.7.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{36}{section.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{36}{section.7.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Neutrino physics}{12}{subsection.3.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Nucleon decay and supernovae neutrinos}{12}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Performing the analysis on 35 ton data}{31}{subsection.6.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Performing the analysis on 35 ton Monte Carlo}{31}{subsection.6.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{30}{subsection.6.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{34}{subsection.6.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo when considering the limitations of the method}{35}{subsection.6.5.3}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -594,6 +683,7 @@
 \newlabel{Reformatting the data to the offline structure}
 \newlabel{eq:HitTime}
 \newlabel{fig:AngleCanvas}
+\newlabel{fig:CDiff4DataFit}
 \newlabel{fig:CoherentNoise}
 \newlabel{fig:CounterCoincidence}
 \newlabel{fig:CounterDiffFreq}
@@ -602,8 +692,12 @@
 \newlabel{fig:DataDrops}
 \newlabel{fig:DataRecoEffics}
 \newlabel{fig:DataStructure}
+\newlabel{fig:DiffDataAvDiff}
+\newlabel{fig:DiffDataFit}
 \newlabel{fig:DiffDataHitFit}
+\newlabel{fig:DiffDataPredHit}
 \newlabel{fig:DiffLotsOfFlashes}
+\newlabel{fig:DiffMCHitFit}
 \newlabel{fig:DistanceCanvas}
 \newlabel{fig:DomDiffSchem}
 \newlabel{fig:DomsHitModel}
@@ -617,7 +711,9 @@
 \newlabel{fig:TingjunLifetime}
 \newlabel{fig:TwoDimCanvas}
 \newlabel{sec:DataAlgs}
+\newlabel{sec:DiffMCStudies}
 \newlabel{sub@fig:AngleCanvas}
+\newlabel{sub@fig:CDiff4DataFit}
 \newlabel{sub@fig:CounterDiffFreq}
 \newlabel{sub@fig:DistanceCanvas}
 \newlabel{sub@fig:FreqCollection}
@@ -727,10 +823,10 @@
 \setcounter{LN@truepage}{13}
 \setcounter{LN@truepage}{14}
 \setcounter{LN@truepage}{2}
-\setcounter{LN@truepage}{31}
-\setcounter{LN@truepage}{32}
-\setcounter{LN@truepage}{34}
 \setcounter{LN@truepage}{35}
+\setcounter{LN@truepage}{36}
+\setcounter{LN@truepage}{38}
+\setcounter{LN@truepage}{39}
 \setcounter{LN@truepage}{3}
 \setcounter{LN@truepage}{4}
 \setcounter{LN@truepage}{5}
@@ -755,10 +851,10 @@
 \setcounter{bookmark@seq@number}{18}
 \setcounter{bookmark@seq@number}{24}
 \setcounter{bookmark@seq@number}{31}
-\setcounter{bookmark@seq@number}{39}
-\setcounter{bookmark@seq@number}{45}
-\setcounter{bookmark@seq@number}{47}
+\setcounter{bookmark@seq@number}{40}
+\setcounter{bookmark@seq@number}{46}
 \setcounter{bookmark@seq@number}{48}
+\setcounter{bookmark@seq@number}{49}
 \setcounter{bookmark@seq@number}{6}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
@@ -850,7 +946,7 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{15}
+\setcounter{figure}{19}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -872,11 +968,11 @@
 \setcounter{linenumber}{19}
 \setcounter{linenumber}{27}
 \setcounter{linenumber}{35}
-\setcounter{linenumber}{419}
-\setcounter{linenumber}{427}
-\setcounter{linenumber}{459}
-\setcounter{linenumber}{461}
 \setcounter{linenumber}{4}
+\setcounter{linenumber}{503}
+\setcounter{linenumber}{511}
+\setcounter{linenumber}{543}
+\setcounter{linenumber}{545}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -895,11 +991,11 @@
 \setcounter{page}{13}
 \setcounter{page}{14}
 \setcounter{page}{15}
-\setcounter{page}{32}
-\setcounter{page}{33}
-\setcounter{page}{35}
 \setcounter{page}{36}
+\setcounter{page}{37}
+\setcounter{page}{39}
 \setcounter{page}{3}
+\setcounter{page}{40}
 \setcounter{page}{4}
 \setcounter{page}{5}
 \setcounter{page}{6}
@@ -980,7 +1076,7 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{4}
+\setcounter{subfigure}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
@@ -1006,7 +1102,7 @@
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
-\setcounter{subsection}{2}
+\setcounter{subsection}{3}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}

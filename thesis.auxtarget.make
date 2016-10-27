@@ -4,6 +4,7 @@
 \newlabel{Reformatting the data to the offline structure}
 \newlabel{eq:HitTime}
 \newlabel{fig:AngleCanvas}
+\newlabel{fig:CDiff4DataFit}
 \newlabel{fig:CoherentNoise}
 \newlabel{fig:CounterCoincidence}
 \newlabel{fig:CounterDiffFreq}
@@ -12,8 +13,12 @@
 \newlabel{fig:DataDrops}
 \newlabel{fig:DataRecoEffics}
 \newlabel{fig:DataStructure}
+\newlabel{fig:DiffDataAvDiff}
+\newlabel{fig:DiffDataFit}
 \newlabel{fig:DiffDataHitFit}
+\newlabel{fig:DiffDataPredHit}
 \newlabel{fig:DiffLotsOfFlashes}
+\newlabel{fig:DiffMCHitFit}
 \newlabel{fig:DistanceCanvas}
 \newlabel{fig:DomDiffSchem}
 \newlabel{fig:DomsHitModel}
@@ -27,7 +32,9 @@
 \newlabel{fig:TingjunLifetime}
 \newlabel{fig:TwoDimCanvas}
 \newlabel{sec:DataAlgs}
+\newlabel{sec:DiffMCStudies}
 \newlabel{sub@fig:AngleCanvas}
+\newlabel{sub@fig:CDiff4DataFit}
 \newlabel{sub@fig:CounterDiffFreq}
 \newlabel{sub@fig:DistanceCanvas}
 \newlabel{sub@fig:FreqCollection}

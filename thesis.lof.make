@@ -18,7 +18,11 @@
 \contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{29}{figure.caption.18}
 \contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{30}{figure.caption.19}
 \contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{31}{figure.caption.20}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4}}{31}{figure.caption.21}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{32}{figure.caption.21}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{33}{figure.caption.23}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{33}{figure.caption.24}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{34}{figure.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
