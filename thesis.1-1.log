@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  27 OCT 2016 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  29 OCT 2016 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,7 +1428,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
 \PHD@crest=\box56
-<Figs/University_Crest.pdf, id=196, 59.22125pt x 69.25874pt>
+<Figs/University_Crest.pdf, id=200, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
 Package pdftex.def Info: Figs/University_Crest.pdf used on input line 115.
@@ -1486,17 +1486,17 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-[7] (./thesis.lof)
+[7] (./thesis.lof [8
+
+])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[8
-
-] (./thesis.lot)
+[9] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-(./thesis.nls) [9
+(./thesis.nls) [10
 
 ]
 \openout2 = `Introduction/Introduction.aux'.
@@ -1511,7 +1511,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [10
+) [11
 
 
 ]
@@ -1519,7 +1519,7 @@ Package microtype Info: Loading generic settings for font family
 
 (./Theory/Theory.tex
 Chapter 2.
-) [11
+) [12
 
 
 
@@ -1530,7 +1530,7 @@ Chapter 2.
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
-) [12
+) [13
 
 
 
@@ -1539,7 +1539,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 (./The35tonCameras/The35tonCameras.tex
 Chapter 4.
-) [13
+) [14
 
 
 
@@ -1548,7 +1548,7 @@ Chapter 4.
 
 (./35tonSimulation/35tonSimulation.tex
 Chapter 5.
-) [14
+) [15
 
 
 
@@ -1565,7 +1565,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<35tonData/Figs/Raster/DataCollected.png, id=354, 963.6pt x 542.025pt>
+<35tonData/Figs/Raster/DataCollected.png, id=373, 963.6pt x 542.025pt>
 File: 35tonData/Figs/Raster/DataCollected.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCollected.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCollected.png used on input 
@@ -1574,7 +1574,7 @@ line 21.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15
+[16
 
 
 
@@ -1588,7 +1588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[16 <./35tonData/Figs/Raster/DataCollected.png>]
+[17 <./35tonData/Figs/Raster/DataCollected.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1598,7 +1598,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<35tonData/Figs/Raster/DataStructure.png, id=369, 646.415pt x 399.091pt>
+<35tonData/Figs/Raster/DataStructure.png, id=388, 646.415pt x 399.091pt>
 File: 35tonData/Figs/Raster/DataStructure.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataStructure.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataStructure.png used on input 
@@ -1612,17 +1612,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[18 <./35tonData/Figs/Raster/DataStructure.png>]
+[19 <./35tonData/Figs/Raster/DataStructure.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -1632,7 +1632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-<35tonData/Figs/Raster/DataDrops.png, id=389, 757.229pt x 360.547pt>
+<35tonData/Figs/Raster/DataDrops.png, id=408, 757.229pt x 360.547pt>
 File: 35tonData/Figs/Raster/DataDrops.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataDrops.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataDrops.png used on input line
@@ -1652,11 +1652,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
  []
 
 
-Package natbib Warning: Citation `uBooNENoise' on page 20 undefined on input li
+Package natbib Warning: Citation `uBooNENoise' on page 21 undefined on input li
 ne 72.
 
 
-Package natbib Warning: Citation `uBooNENoise' on page 20 undefined on input li
+Package natbib Warning: Citation `uBooNENoise' on page 21 undefined on input li
 ne 72.
 
 
@@ -1664,17 +1664,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[20]
+[21]
 
-Package natbib Warning: Citation `CoTuFFT' on page 21 undefined on input line 7
+Package natbib Warning: Citation `CoTuFFT' on page 22 undefined on input line 7
 4.
 
 
-Package natbib Warning: Citation `WienerFilter' on page 21 undefined on input l
+Package natbib Warning: Citation `WienerFilter' on page 22 undefined on input l
 ine 74.
 
 
-Package natbib Warning: Citation `35tonNoiseMeeting' on page 21 undefined on in
+Package natbib Warning: Citation `35tonNoiseMeeting' on page 22 undefined on in
 put line 74.
 
 
@@ -1682,52 +1682,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-[21 <./35tonData/Figs/Raster/DataDrops.png>] <35tonData/Figs/Raster/StuckCodes.
-png, id=402, 502.87875pt x 521.95pt>
+[22 <./35tonData/Figs/Raster/DataDrops.png>] <35tonData/Figs/Raster/StuckCodes.
+png, id=421, 502.87875pt x 521.95pt>
 File: 35tonData/Figs/Raster/StuckCodes.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes.png used on input lin
 e 80.
 (pdftex.def)             Requested size: 196.85616pt x 204.31628pt.
-<35tonData/Figs/Raster/StuckCodes2.png, id=403, 678.535pt x 692.5875pt>
+<35tonData/Figs/Raster/StuckCodes2.png, id=422, 678.535pt x 692.5875pt>
 File: 35tonData/Figs/Raster/StuckCodes2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes2.png used on input li
 ne 85.
 (pdftex.def)             Requested size: 196.85616pt x 200.92976pt.
 
-Package natbib Warning: Citation `InslerStuckCode' on page 22 undefined on inpu
+Package natbib Warning: Citation `InslerStuckCode' on page 23 undefined on inpu
 t line 87.
 
 
-Package natbib Warning: Citation `InslerStuckCode' on page 22 undefined on inpu
+Package natbib Warning: Citation `InslerStuckCode' on page 23 undefined on inpu
 t line 87.
 
-<35tonData/Figs/Raster/BeforeCoherent.png, id=404, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/BeforeCoherent.png, id=423, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/BeforeCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/BeforeCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/BeforeCoherent.png used on input
  line 95.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/AfterCoherent.png, id=405, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/AfterCoherent.png, id=424, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/AfterCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AfterCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AfterCoherent.png used on input 
 line 101.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/Waveforms.png, id=406, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Waveforms.png, id=425, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Waveforms.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Waveforms.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Waveforms.png used on input line
  112.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/NoiseFFTs.png, id=407, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/NoiseFFTs.png, id=426, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/NoiseFFTs.png Graphic file (type png)
 <use 35tonData/Figs/Raster/NoiseFFTs.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/NoiseFFTs.png used on input line
  119.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/Collection.png, id=408, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Collection.png, id=427, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Collection.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Collection.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Collection.png used on input lin
@@ -1739,7 +1739,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
-<35tonData/Figs/Raster/Induction.png, id=409, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Induction.png, id=428, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Induction.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Induction.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Induction.png used on input line
@@ -1753,14 +1753,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[22 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCode
+[23 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCode
 s2.png> <./35tonData/Figs/Raster/BeforeCoherent.png> <./35tonData/Figs/Raster/A
 fterCoherent.png>]
 
-Package natbib Warning: Citation `35tonNoiseMeeting' on page 23 undefined on in
+Package natbib Warning: Citation `35tonNoiseMeeting' on page 24 undefined on in
 put line 159.
 
-[23 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Figs/Raster/NoiseFFTs.
+[24 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Figs/Raster/NoiseFFTs.
 png> <./35tonData/Figs/Raster/Collection.png> <./35tonData/Figs/Raster/Inductio
 n.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
@@ -1772,17 +1772,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Package natbib Warning: Citation `TingjunClustering' on page 25 undefined on in
+Package natbib Warning: Citation `TingjunClustering' on page 26 undefined on in
 put line 188.
 
 
-Package natbib Warning: Citation `MLESAC' on page 25 undefined on input line 18
+Package natbib Warning: Citation `MLESAC' on page 26 undefined on input line 18
 8.
 
 
@@ -1791,7 +1791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--189
  []
 
 
-Package natbib Warning: Citation `ArgoNeuT' on page 25 undefined on input line 
+Package natbib Warning: Citation `ArgoNeuT' on page 26 undefined on input line 
 191.
 
 
@@ -1799,18 +1799,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-<35tonData/Figs/Raster/TingjunLifetime.png, id=429, 1201.48875pt x 554.07pt>
+<35tonData/Figs/Raster/TingjunLifetime.png, id=450, 1201.48875pt x 554.07pt>
 File: 35tonData/Figs/Raster/TingjunLifetime.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TingjunLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/TingjunLifetime.png used on inpu
 t line 195.
 (pdftex.def)             Requested size: 371.84462pt x 171.47247pt.
 
-Package natbib Warning: Citation `TingjunLifetime' on page 25 undefined on inpu
+Package natbib Warning: Citation `TingjunLifetime' on page 26 undefined on inpu
 t line 197.
 
 
-Package natbib Warning: Citation `TingjunLifetime' on page 25 undefined on inpu
+Package natbib Warning: Citation `TingjunLifetime' on page 26 undefined on inpu
 t line 197.
 
 
@@ -1821,13 +1821,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[25] <35tonData/Figs/Raster/CosTheta_Data.png, id=438, 569.0058pt x 534.798pt>
+[26] <35tonData/Figs/Raster/CosTheta_Data.png, id=457, 569.0058pt x 534.798pt>
 File: 35tonData/Figs/Raster/CosTheta_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosTheta_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosTheta_Data.png used on input 
 line 207.
 (pdftex.def)             Requested size: 196.85616pt x 185.0196pt.
-<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=439, 569.0058pt x 534.798pt>
+<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=458, 569.0058pt x 534.798pt>
 File: 35tonData/Figs/Raster/CosThetaZoom_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosThetaZoom_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosThetaZoom_Data.png used on in
@@ -1836,13 +1836,13 @@ put line 211.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<35tonData/Figs/Raster/North-South.png, id=440, 543.02875pt x 496.85625pt>
+<35tonData/Figs/Raster/North-South.png, id=459, 543.02875pt x 496.85625pt>
 File: 35tonData/Figs/Raster/North-South.png Graphic file (type png)
 <use 35tonData/Figs/Raster/North-South.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/North-South.png used on input li
 ne 221.
 (pdftex.def)             Requested size: 196.85616pt x 180.11903pt.
-<35tonData/Figs/Raster/East-West.png, id=441, 553.06625pt x 492.84125pt>
+<35tonData/Figs/Raster/East-West.png, id=460, 553.06625pt x 492.84125pt>
 File: 35tonData/Figs/Raster/East-West.png Graphic file (type png)
 <use 35tonData/Figs/Raster/East-West.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/East-West.png used on input line
@@ -1861,40 +1861,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-[26 <./35tonData/Figs/Raster/TingjunLifetime.png>] [27 <./35tonData/Figs/Raster
+[27 <./35tonData/Figs/Raster/TingjunLifetime.png>] [28 <./35tonData/Figs/Raster
 /CosTheta_Data.png> <./35tonData/Figs/Raster/CosThetaZoom_Data.png> <./35tonDat
 a/Figs/Raster/North-South.png> <./35tonData/Figs/Raster/East-West.png>] <35tonD
-ata/Figs/Raster/AngleCanvas_50.png, id=458, 851.18pt x 475.7775pt>
+ata/Figs/Raster/AngleCanvas_50.png, id=477, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/AngleCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AngleCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AngleCanvas_50.png used on input
  line 239.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/DistanceCanvas_50.png, id=459, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/DistanceCanvas_50.png, id=478, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/DistanceCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DistanceCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DistanceCanvas_50.png used on in
 put line 246.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
 
-<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=460, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=479, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/TwoDimensional_50cm.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TwoDimensional_50cm.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/TwoDimensional_50cm.png used on 
 input line 252.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/CounterDiffCan.png, id=461, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/CounterDiffCan.png, id=480, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/CounterDiffCan.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiffCan.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiffCan.png used on input
  line 259.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
 
-Package natbib Warning: Citation `Atrazhev-Timoshkin' on page 28 undefined on i
+Package natbib Warning: Citation `Atrazhev-Timoshkin' on page 29 undefined on i
 nput line 269.
 
 
-Package natbib Warning: Citation `Li:2015rqa' on page 28 undefined on input lin
+Package natbib Warning: Citation `Li:2015rqa' on page 29 undefined on input lin
 e 269.
 
 
@@ -1902,19 +1902,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-[28 <./35tonData/Figs/Raster/AngleCanvas_50.png> <./35tonData/Figs/Raster/Dista
+[29 <./35tonData/Figs/Raster/AngleCanvas_50.png> <./35tonData/Figs/Raster/Dista
 nceCanvas_50.png> <./35tonData/Figs/Raster/TwoDimensional_50cm.png> <./35tonDat
 a/Figs/Raster/CounterDiffCan.png>]
 
-Package natbib Warning: Citation `DomSeptMeeting' on page 29 undefined on input
+Package natbib Warning: Citation `DomSeptMeeting' on page 30 undefined on input
  line 274.
 
 
-Package natbib Warning: Citation `DomSeptMeeting' on page 29 undefined on input
+Package natbib Warning: Citation `DomSeptMeeting' on page 30 undefined on input
  line 274.
 
 
-Package natbib Warning: Citation `DomSeptMeeting' on page 29 undefined on input
+Package natbib Warning: Citation `DomSeptMeeting' on page 30 undefined on input
  line 278.
 
 
@@ -1932,56 +1932,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-[29]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-[30]
-
-Package natbib Warning: Citation `DomSeptMeeting' on page 31 undefined on input
- line 316.
-
-
-Package natbib Warning: Citation `DomSeptMeeting' on page 31 undefined on input
- line 316.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+Package natbib Warning: Citation `DomSeptMeeting' on page 32 undefined on input
+ line 317.
+
+
+Package natbib Warning: Citation `DomSeptMeeting' on page 32 undefined on input
+ line 317.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
-[33]) [34]
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+
+ []
+
+
+Overfull \hbox (0.10681pt too wide) in paragraph at lines 581--581
+[]\T1/ptm/b/n/14.4 Limitations of in-ter-ac-tion time de-ter-mi-na-tion us-ing 
+dif-fu-sion and|
+ []
+
+) [37]
 \openout2 = `FarDetectorSimulations/FarDetectorSimulations.aux'.
 
 (./FarDetectorSimulations/FarDetectorSimulations.tex
 Chapter 7.
-) [35
+) [38
 
 
 
@@ -1991,7 +2017,7 @@ No file thesis.bbl.
 
 (./Appendix1/appendix1.tex
 Appendix A.
-) [36
+) [39
 
 
 
@@ -2001,7 +2027,11 @@ Appendix A.
 
 (./Appendix2/appendix2.tex
 Appendix B.
-) [37
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+) [40
 
 
 
@@ -2020,19 +2050,19 @@ ndix1.aux) (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5E71BF2FF7303B33DCF9818EB8E304D0;12253.
+(rerunfilecheck)             Checksum: 2139D76AF2E3F605F31BAA2DE54A91D9;12822.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 25061 strings out of 493089
- 447048 string characters out of 6134843
- 512679 words of memory out of 5000000
- 27738 multiletter control sequences out of 15000+600000
- 87125 words of font info for 280 fonts, out of 8000000 for 9000
+ 25122 strings out of 493089
+ 448178 string characters out of 6134843
+ 515778 words of memory out of 5000000
+ 27782 multiletter control sequences out of 15000+600000
+ 88015 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,92p,10395b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,92p,10395b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
@@ -2043,10 +2073,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on thesis.pdf (37 pages, 1182069 bytes).
+Output written on thesis.pdf (40 pages, 1192024 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
- 59370 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 534 compressed objects within 6 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 59378 words of extra memory for PDF output out of 61914 (max. 10000000)
 

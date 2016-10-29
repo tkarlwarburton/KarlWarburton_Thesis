@@ -291,6 +291,7 @@ Traditionally the only way to determine an interaction time for a track is to ma
 
 The 35 ton dataset is ideal for testing this hypothesis as the counters are able to provide a sample with known track angles and interaction times which can be used to tune an interaction time determination metric. This metric can then be applied to another sample of tracks where the interaction time is known but not used so that the accuracy of the calculated interaction times can be found. As longitudinal diffusion is the dominant effect that increases the hit width transverse diffusion will not be directly considered further. However, as noted in Section~\ref{sec:DataAlgs} the noise level in the 35 ton data causes reconstruction issues and so a baseline measurement on an ideal detector is also useful, Monte Carlo can provide this sample. \\
 
+%********************************** % Fifth.First Section  *************************************
 \subsection{Determining interaction times in 35 ton data}
 When calculating the determination metrics only hits on wires which are not on wires with high noise want to be considered. This is because wires with a high level of correlated noise observe hits with a wider RMS as shown by Figure~\ref{fig:DomsHitModel} where a baseline noise of 10 ADC counts was added to a simulated hit with a peak value of 50 ADC counts and RMS 10 ticks. Hits with delta rays also need to be removed as the deposited energy will be larger and over a longer period of time than hits from the main track, this will make the RMS of the individual hit wider and also increase the width of the charge distribution for the track. In order to remove these hits only hits which satisfy the following cuts are used:
 \begin{itemize}
@@ -349,7 +350,7 @@ Fitting Gaussian's around the peaks of the distributions will yield the most pro
     \caption{The most probable hit $RMS/Charge$ value for tracks with a counter difference of 4 at XXXX cm.}
   \end{subfigure}
   \caption[The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data]
-          {The most probable values for hits from tracks which triggered a counter difference of 4 at XXXX cm and XXXXX cm, when the $RMS$ of the hit and the $RMS/charge$ of the hit are considered.}
+          {The most probable values for hits from tracks which triggered a counter difference of 4 at XXXX cm and XXXX cm, when the $RMS$ of the hit and the $RMS/charge$ of the hit are considered.}
           \label{fig:DiffDataHitFit}
 \end{figure}
 
@@ -374,9 +375,9 @@ The drift distance effect of diffusion can then be observed for a given range of
           \label{fig:DiffDataFit}
 \end{figure}
 
-In order to consider single tracks the best line fits for the counter differences for a large sample of tracks, such as in Figure~\ref{fig:CDiff4DataFit}, need to be used to predict the drift position you would expect a hit to originate from given a value for its hit RMS and the angle of track to which it belongs. The predicted positions can then be comparedto the known position from the counter co-incidence to determine the accuracy of the prediction. As the distributions shown in Figure~\ref{fig:DiffDataHitFit} are roughly symmetric around the most probable value one would naiively expect that if a track has a sufficient number of hits then the distribution of RMS values for those hits would match that found over a large sample. If this were to be the case then the difference in reconstructed and predicted hit times should be peaked around the track interaction time. \\
+In order to consider single tracks the best line fits for the counter differences for a large sample of tracks, such as in Figure~\ref{fig:CDiff4DataFit}, need to be used to predict the drift position you would expect a hit to originate from given a value for its hit RMS and the angle of track to which it belongs. The predicted positions can then be compared to the known position from the counter co-incidence to determine the accuracy of the prediction. As the distributions shown in Figure~\ref{fig:DiffDataHitFit} are roughly symmetric around the most probable value one would naively expect that if a track has a sufficient number of hits then the distribution of RMS values for those hits would match that found over a large sample. If this were to be the case then the difference in reconstructed and predicted hit times should be peaked around the track interaction time. \\
 
-An instrinsic assumption in this method is that the track has a large number of collection plane hits that do not contain delta rays and are on wires which would not be identified as noisy. The tracks being considered will have crossed all $z$ values in the detector meaning that a total of 336 collection hits could potentially be reconstructed. Given the reconstruction problems in the 35 ton very few tracks will have hits on all of these collection wires, however requiring at least 100 collection plane hits is not unreasonable and would correspond to a reconstructed track length of at least 50 cm. The predicted hit times and the difference in predicted and reconstructed hit times are shown in Figure~\ref{fig:DiffDataPredHit} for both prediction metrics. It can be seen that in this dataset the $RMS/Charge$ metric appears to provide a more robust measurement of the interaction time as the peak is more closely centered around 0 as the tracks were centered around the time of the counter coincidence which caused them. 
+An intrinsic assumption in this method is that the track has a large number of collection plane hits that do not contain delta rays and are on wires which would not be identified as noisy. The tracks being considered will have crossed all $z$ values in the detector meaning that a total of 336 collection hits could potentially be reconstructed. Given the reconstruction problems in the 35 ton very few tracks will have hits on all of these collection wires, however requiring at least 100 collection plane hits is not unreasonable and would correspond to a reconstructed track length of at least 50 cm. The predicted hit times and the difference in predicted and reconstructed hit times are shown in Figure~\ref{fig:DiffDataPredHit} for both prediction metrics. It can be seen that in this dataset the $RMS/Charge$ metric appears to provide a more robust measurement of the interaction time as the peak is more closely centred around 0 as the tracks were centred around the time of the counter coincidence which caused them. 
 
 \begin{figure}[h!]
   \centering
@@ -388,7 +389,7 @@ An instrinsic assumption in this method is that the track has a large number of 
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
-%    \includegraphics[width=\textwidth]{}
+    %    \includegraphics[width=\textwidth]{}
     \caption{The difference in reconstructed and predicted hit time for each hit in all tracks with more than 100 'good' collection plane hits.}
   \end{subfigure}
   \caption[The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data]
@@ -406,27 +407,178 @@ When evaluating interaction times the average difference in reconstructed and pr
           \label{fig:DiffDataAvDiff}
 \end{figure}
 
-Figure~\ref{fig:DiffDataAvDiff} shows that the ineraction time of a reconstructed track in the 35 ton dataset can be determined using the effects of diffusion to an accuracy of 55.6$\pm$210.4 $\mu$s when using the hit $RMS/Charge$ metric and to an accuracy of 298.0$\pm$267.0 $\mu$s when using the hit $RMS$ metric. This resolution is impressive as even with the issues with regards to data quality in the 35 ton tracks can be cleanly separated throughout a drift window of 5200 $\mu$s. The application of the method to a low noise environment would provide the true accuracy of the method, because one would expect that the problems with data quality would adversely affect the accuracy to which diffusion can be measured. For this reason the next section presents a complementary analysis performed on a low background sample of 35 ton Monte Carlo with the same electronics settings as the data presented here. 
+Figure~\ref{fig:DiffDataAvDiff} shows that the interaction time of a reconstructed track in the 35 ton dataset can be determined using the effects of diffusion to an accuracy of 298.0$\pm$267.0 $\mu$s when using the hit $RMS$ metric and to an accuracy of 55.6$\pm$210.4 $\mu$s when using the hit $RMS/Charge$ metric. This resolution is impressive as even with the issues with regards to data quality in the 35 ton tracks can be cleanly separated throughout a drift window of 5200 $\mu$s. The application of the method to a low noise environment would provide the true accuracy of the method, because one would expect that the problems with data quality would adversely affect the accuracy to which diffusion can be measured. For this reason the next section presents a complementary analysis performed on a low background sample of 35 ton Monte Carlo with the same electronics settings as the data presented here. 
 
+%********************************** % Fifth.Second Section  *************************************
 \subsection{Determining interaction times in a low noise detector and differences with data}
-When determining interaction times in an ideal detector exactly the same criteria are applied to the hits, as delta rays would still change the measured hit width and will be present in any sample. In a low noise detector one would expect that no wires would be removed due to being noisy but for consistency there is no danger in applying this cut. Imposing a minimum number of collection plane hits is again important to ensure that the distribution of predicted hit times is centered on the interaction time. In addition to the same criteria being imposed on which wires are used, the same metrics are calculated. In all plots shown below the Monte Carlo has been normalised to the size of the 35 ton dataset. \\
+When determining interaction times in an ideal detector exactly the same criteria are applied to the hits, as delta rays would still change the measured hit width and will be present in any sample. In a low noise detector one would expect that no wires would be removed due to being noisy but for consistency there is no danger in applying this cut. Imposing a minimum number of collection plane hits is again important to ensure that the distribution of predicted hit times is centred on the interaction time. In addition to the same criteria being imposed on which wires are used, the same metrics are calculated. In all plots shown below the Monte Carlo has been normalised to the size of the 35 ton dataset. \\
 
-Figure~\ref{fig:DiffMCHitFit} shows both the $RMS$ and $RMS/Charge$ distributions for hits that are 100 cm away from the APAs and are from tracks with a counter difference of 4.  
+Figure~\ref{fig:DiffMCHitFit} shows both the $RMS$ and $RMS/Charge$ distributions for hits that are 100 cm away from the APAs and are from tracks with a counter difference of 4. It can be seen that the distributions from the low noise Monte Carlo are tighter than those from the 35 ton data and also peaked at a lower hit RMS. This is likely due to the fact that a coherent noise baseline can increase the width of hits as shown in Figure~\ref{fig:DomsHitModel}. !!!??? WILL THE PEAK BE NOTICEABLY LOWER??? CHECK THAT THEY ARE ???!!! In addition, the most probable values of hit $RMS$ at increasing drift distance is shown in Figure~\ref{fig:DiffMCDataCompFit} where the low noise Monte Carlo is again shown against the values from the data, along with the most probable values of hit $RMS$ at a range of angles in Figure~\ref{fig:DiffMCDataCompInt}. As was seen when considering the distributions at specific distances and angles the most probable hit $RMS$ in the low noise Monte Carlo is systematically lower than in the data, this is due to the elevated noise level in the data. Another difference between the Monte Carlo and the data is that the gradient of the most probable hit $RMS$ values in data is roughly half of that in the Monte Carlo, this could be due to an overestimation of longitudinal diffusion in the Monte Carlo. \\
 
 \begin{figure}[h!]
   \centering
-%  \includegraphics[width=0.85\textwidth]{}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The distribution of hit $RMS$ values at $x =$ 100 cm.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The distribution of hit $RMS/Charge$ values at $x =$ 100 cm.}
+  \end{subfigure}
   \caption[The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector]
           {The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
           \label{fig:DiffMCHitFit}
 \end{figure}
 
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The most probable hit $RMS$ values for tracks with a counter difference of 4 in a low noise Monte Carlo sample.}
+    \label{fig:DiffMCDataCompFit}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The most probable values at $x = $ 0 for a range of track angles in a low noise Monte Carlo sample.}
+    \label{fig:DiffMCDataCompInt}
+  \end{subfigure}
+  \caption[Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset]
+          {A comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
+          \label{fig:DiffMCDataComp}
+\end{figure}
 
-Here I want to say that you go down exactly the same route for an ideal detector - make sure don't have noisy channels etc. Show the same plots as before, but with Monte Carlo overlayed on top of the data plots...\\
+Upon calculating the fit metrics in the low noise Monte Carlo sample it is then possible to use these to predict track interaction times, this is shown in Figure~\ref{fig:DiffMCDataRes}. As observed when considering the data sample, the $RMS/Charge$ metric appears to be better able to accurately predict interaction times, this is again due to the ability to incorporate information about loses due to impurities which increase with drift distance. Also, as expected from the previous figures and the lower noise state in the Monte Carlo it is seen that the interaction times predicted in the Monte Carlo more closely match the true interaction times than in the data. The accuracy of interaction time determination in Monte Carlo (data) is shown to be 168.1$\pm$126.5 (298.0$\pm$267.0) $\mu$s and -41.2$\pm$107.8 (55.6$\pm$210.4) $\mu$s for the hit $RMS$ and $RMS/Charge$ metrics respectively. An important feature to observe is that the widths of the distributions in Monte Carlo is less than half of that in the data, again this is attributed to the lower noise level in the Monte Carlo.
 
-Figure of the final result for the matching comparing Monte Carlo and data!!!\\
+\begin{figure}[h!]
+  \centering
+    \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The accuracy to which interaction times are determined using the hit $RMS$ metric.}
+    \label{fig:DiffMCDataResRMS}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The accuracy to which interaction times are determined using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffMCDataResRMSQ}
+  \end{subfigure}
+  \caption[A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples]
+          {A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples for both the $RMS$ and $RMS/Charge$ prediction metrics. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
+          \label{fig:DiffMCDataRes}
+\end{figure}
 
-Explain the differences, and limitations of the method referring to noise. 
-
+%********************************** % Fifth.Third Section  *************************************
 \subsection{Discerning the impact of noise and electron lifetime in Monte Carlo when considering the limitations of the method} \label{sec:DiffMCStudies}
-Still waiting on this stuff to be finished, but I can explain the method by which the noise is being added, and get up to the placeholders for the figures...
+Many of the difficulties with the reconstruction and analsysis of the 35 ton data have been explained by stating that the noise level made studies difficult, it is important to verify these claims with a study showing the effect of increased noise on the accuracy of the interaction time predicted metrics. This study has been done using the same muons used in the previous Monte Carlo with only the noise level of the detector being increased and the inclusion of the noise mitigation algorithms to attempt to reduce the effects of noise as is done in the data sample. The results of this study are shown in Figure~\ref{fig:DiffNoiseComp}, where the metric distributions for tracks with a counter difference of 4 are shown at 100 cm in Figures~\ref{fig:DiffNoiseComp1} and~\ref{fig:DiffNoiseComp2}, the most probable values for hit $RMS$ and the most probable values of hit $RMS$ are shown in Figures~\ref{fig:DiffNoiseComp3} and~\ref{fig:DiffNoiseComp4} respectively and the accuracy of the metrics are shown in Figures~\ref{fig:DiffNoiseComp5} and~\ref{fig:DiffNoiseComp6}. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp1}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp2}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp3}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp4}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp5}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffNoiseComp6}
+  \end{subfigure}
+  \caption[The effect of increased noise in the accuracy of interaction time determination]
+          {A study into how increased noise affects the accuracy to which interactions can be determined in the 35 ton.}
+          \label{fig:DiffNoiseComp}
+\end{figure}
+
+!!!!!! EXPLANATIONINGS OF WHAT IT LOOKS LIKE !!!!!!! \\
+
+Another important constraint on the effectiveness of interaction time determination is the electron lifetime of the liquid Argon. As the electron lifetime increase fewer electrons will recombine as they drift towards to the APAs meaning that the amount of charge collected will be less affected by the drift distance, potentially greatly affecting the improved accuracy of the hit $RMS/Charge$ metrics with regards to the hit $RMS$ metric. The results of a further study to observe the effect of increased electron lifetime are shown in Figure~\ref{fig:DiffLifetimeComp}. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp1}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp2}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp3}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp4}
+  \end{subfigure}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp5}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=\textwidth]{}
+    \caption{The .}
+    \label{fig:DiffLifetimeComp6}
+  \end{subfigure}
+  \caption[The effect of increased noise in the accuracy of interaction time determination]
+          {A study into how increased noise affects the accuracy to which interactions can be determined in the 35 ton.}
+          \label{fig:DiffLifetimeComp}
+\end{figure}
+
+!!!!!! EXPLANATIONINGS OF WHAT IT LOOKS LIKE !!!!!!! \\
+
+ANY OTHER STUDIES? The effect of using less / more hits? The effect of using coherent noise subtraction in Monte Carlo on low noise data?
+
+%********************************** % Fifth.Fourth Section  *************************************
+\subsection{The limitations of and future improvements to the method of interaction time determination using diffusion} \label{sec:DiffLimitations}
+sdfsd
