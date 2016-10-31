@@ -54,6 +54,7 @@
 \newlabel{sec:DataAlgs}
 \newlabel{sec:DiffLimitations}
 \newlabel{sec:DiffMCStudies}
+\newlabel{sec:SimInteractionTimes}
 \newlabel{sub@fig:AngleCanvas}
 \newlabel{sub@fig:CDiff4DataFit}
 \newlabel{sub@fig:CounterDiffFreq}

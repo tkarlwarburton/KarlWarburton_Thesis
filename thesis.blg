@@ -16,44 +16,44 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
-You've used 12 entries,
+You've used 13 entries,
             1935 wiz_defined-function locations,
-            562 strings with 6188 characters,
-and the built_in function-call counts, 3408 in all, are:
-= -- 357
+            567 strings with 6347 characters,
+and the built_in function-call counts, 3613 in all, are:
+= -- 381
 > -- 66
 < -- 6
 + -- 24
 - -- 20
-* -- 256
-:= -- 589
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 74
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 144
-empty$ -- 275
+* -- 270
+:= -- 623
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 80
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 154
+empty$ -- 293
 format.name$ -- 33
-if$ -- 683
+if$ -- 725
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 7
-newline$ -- 63
+newline$ -- 68
 num.names$ -- 18
-pop$ -- 38
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 75
+purify$ -- 81
 quote$ -- 0
-skip$ -- 115
+skip$ -- 123
 stack$ -- 0
-substring$ -- 247
+substring$ -- 259
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 76
 warning$ -- 0
 while$ -- 17
 width$ -- 0
-write$ -- 151
+write$ -- 163

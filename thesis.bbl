@@ -23,6 +23,11 @@ DUNE DocDB 1704 (2016).
 \newblock [online]
   \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
 
+\bibitem[DUNE DocDB 1834, 2016]{35tonNoiseDoc}
+DUNE DocDB 1834 (2016).
+\newblock 35t noise studies summary - apa wire readout noise.
+\newblock [online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}.
+
 \bibitem[f, 2012]{ArgoNeuT}
 f (2012).
 \newblock The argoneut detector in the numi low-energy beam line at fermilab.
