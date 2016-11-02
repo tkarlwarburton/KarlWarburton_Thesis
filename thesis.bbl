@@ -1,21 +1,32 @@
 \begin{thebibliography}{}
 
+\bibitem[Anderson et~al., 2012]{ArgoNeuT}
+Anderson, C. et~al. (2012).
+\newblock {The ArgoNeuT Detector in the NuMI Low-Energy beam line at Fermilab}.
+\newblock {\em JINST}, 7:P10019.
+
 \bibitem[Atrazhev and Timoshkin, 1998]{Atrazhev-Timoshkin}
 Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
 \newblock {Trasport of electrons in atomic liquids in high electric fields}.
 \newblock {\em IEEE Trans. Dielectrics and Electrical Insulation}, 5:450--457.
 
+\bibitem[Brailsford, D. Lancaster University. DUNE collaboration meeting,
+  2016]{DomSeptMeeting}
+Brailsford, D. Lancaster University. DUNE collaboration meeting (2016).
+\newblock Looking at electron diffusion in 35t data and mc.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
+
+\bibitem[Bromberg et~al., 2015]{LongBo}
+Bromberg, C., Carls, B., Edmunds, D., Hahn, A., Jaskierny, W., Jostlein, H.,
+  Kendziora, C., Lockwitz, S., Pahlka, B., Pordes, S., et~al. (2015).
+\newblock Design and operation of longbo: a 2 m long drift liquid argon tpc.
+\newblock {\em Journal of Instrumentation}, 10(07):P07015.
+
 \bibitem[Cooley and Turkey, 1965]{CoTuFFT}
 Cooley, J. and Turkey, J. (1965).
 \newblock An algorithm for the machine calculation of complex fourier series.
 \newblock {\em Math. Comp.}, 19:297--301.
-
-\bibitem[D. Brailsford, Lancaster University, DUNE collaboration meeting,
-  2016]{DomSeptMeeting}
-D. Brailsford, Lancaster University, DUNE collaboration meeting (2016).
-\newblock Looking at electron diffusion in 35t data and mc.
-\newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
 
 \bibitem[DUNE DocDB 1704, 2016]{35tonNoiseMeeting}
 DUNE DocDB 1704 (2016).
@@ -28,13 +39,8 @@ DUNE DocDB 1834 (2016).
 \newblock 35t noise studies summary - apa wire readout noise.
 \newblock [online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}.
 
-\bibitem[f, 2012]{ArgoNeuT}
-f (2012).
-\newblock The argoneut detector in the numi low-energy beam line at fermilab.
-\newblock {\em JINST}, 7:10019.
-
-\bibitem[J. Insler, LSU, 35 ton Meeting, 2016]{InslerStuckCode}
-J. Insler, LSU, 35 ton Meeting (2016).
+\bibitem[Insler, J. LSU. 35 ton Meeting, 2016]{InslerStuckCode}
+Insler, J. LSU. 35 ton Meeting (2016).
 \newblock Module to unstick adc codes.
 \newblock [online]
   \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
@@ -50,23 +56,16 @@ MicroBooNE Collaboration (2016).
 \newblock [online]
   \url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}.
 
-\bibitem[T. Yang, FNAL, 35 ton Meeting, 2016]{TingjunClustering}
-T. Yang, FNAL, 35 ton Meeting (2016).
-\newblock Update on reconstruction of 35t data.
-\newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
+\bibitem[Thiesse, M. Sheffield University. 35 ton Meeting, 2016]{MattMLESAC}
+Thiesse, M. Sheffield University. 35 ton Meeting (2016).
+\newblock Something.
+\newblock [online] /url{SOMETHING}.
 
 \bibitem[Torr and Zisserman, 2000]{MLESAC}
 Torr, P. and Zisserman, A. (2000).
 \newblock Mlesac: A new robust estimator with application to estimating image
   geometry.
-\newblock {\em Computer Vision and Image Understanding}, 17:138--156.
-
-\bibitem[T.Yang, FNAL, 35 ton Meeting, 2016]{TingjunLifetime}
-T.Yang, FNAL, 35 ton Meeting (2016).
-\newblock Update on 35 ton analysis.
-\newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}.
+\newblock {\em Computer Vision and Image Understanding}, 78(1):138--156.
 
 \bibitem[Wiener, 1942]{WienerFilter}
 Wiener, N. (1942).
@@ -74,5 +73,17 @@ Wiener, N. (1942).
   Series}.
 \newblock [Cambridge]: Technology Press of the Massachusetts Institute of
   Technology.
+
+\bibitem[Yang, T. Fermilab. 35 ton Meeting, 2016a]{TingjunLifetime}
+Yang, T. Fermilab. 35 ton Meeting (2016a).
+\newblock Update on 35 ton analysis.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}.
+
+\bibitem[Yang, T. Fermilab. 35 ton Meeting, 2016b]{TingjunClustering}
+Yang, T. Fermilab. 35 ton Meeting (2016b).
+\newblock Update on reconstruction of 35t data.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
 
 \end{thebibliography}

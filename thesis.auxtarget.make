@@ -17,6 +17,13 @@
 \newlabel{fig:DiffDataFit}
 \newlabel{fig:DiffDataHitFit}
 \newlabel{fig:DiffDataPredHit}
+\newlabel{fig:DiffEFieldComp1}
+\newlabel{fig:DiffEFieldComp2}
+\newlabel{fig:DiffEFieldComp3}
+\newlabel{fig:DiffEFieldComp4}
+\newlabel{fig:DiffEFieldComp5}
+\newlabel{fig:DiffEFieldComp6}
+\newlabel{fig:DiffEFieldComp}
 \newlabel{fig:DiffLifetimeComp1}
 \newlabel{fig:DiffLifetimeComp2}
 \newlabel{fig:DiffLifetimeComp3}
@@ -58,6 +65,12 @@
 \newlabel{sub@fig:AngleCanvas}
 \newlabel{sub@fig:CDiff4DataFit}
 \newlabel{sub@fig:CounterDiffFreq}
+\newlabel{sub@fig:DiffEFieldComp1}
+\newlabel{sub@fig:DiffEFieldComp2}
+\newlabel{sub@fig:DiffEFieldComp3}
+\newlabel{sub@fig:DiffEFieldComp4}
+\newlabel{sub@fig:DiffEFieldComp5}
+\newlabel{sub@fig:DiffEFieldComp6}
 \newlabel{sub@fig:DiffLifetimeComp1}
 \newlabel{sub@fig:DiffLifetimeComp2}
 \newlabel{sub@fig:DiffLifetimeComp3}

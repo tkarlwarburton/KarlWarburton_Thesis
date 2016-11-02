@@ -95,6 +95,9 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Theory/Theory.t
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
+-include Figs/University_Crest.pdf.gpi.d
+thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)
