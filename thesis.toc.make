@@ -25,25 +25,24 @@
 \contentsline {section}{\numberline {4.5}Performance in the 35 ton}{19}{section.4.5}
 \contentsline {chapter}{\numberline {5}Simulations of the 35 ton prototype}{20}{chapter.5}
 \contentsline {section}{\numberline {5.1}Determination of interaction times}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}Calibrating calorimetric responses}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Discerning reconstruction efficiencies}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Performing particle identification}{20}{section.5.4}
-\contentsline {chapter}{\numberline {6}The 35 ton data sample}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Organisation of the data structure}{22}{section.6.1}
-\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{24}{section.6.2}
-\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{26}{section.6.3}
-\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{30}{section.6.4}
-\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{35}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{37}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{42}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo}{45}{subsection.6.5.3}
-\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{47}{subsection.6.5.4}
-\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{48}{chapter.7}
-\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{48}{section.7.1}
-\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{48}{section.7.2}
-\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{48}{section.7.3}
-\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{48}{section.7.4}
-\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{48}{section.7.5}
-\contentsline {chapter}{References}{49}{chapter*.35}
-\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{51}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{52}{Appendix.a.B}
+\contentsline {section}{\numberline {5.2}Calibrating calorimetric responses}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Discerning reconstruction efficiencies}{21}{section.5.3}
+\contentsline {section}{\numberline {5.4}Performing particle identification}{21}{section.5.4}
+\contentsline {chapter}{\numberline {6}The 35 ton data sample}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}Organisation of the data structure}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{25}{section.6.2}
+\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{27}{section.6.3}
+\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{31}{section.6.4}
+\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{36}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{38}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{43}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo}{46}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{48}{subsection.6.5.4}
+\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{49}{section.7.1}
+\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{49}{section.7.2}
+\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{49}{section.7.3}
+\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{49}{section.7.4}
+\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{49}{section.7.5}
+\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{50}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{51}{Appendix.a.B}

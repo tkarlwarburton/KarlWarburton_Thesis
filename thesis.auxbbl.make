@@ -66,13 +66,13 @@
 \@LN{159}{19}
 \@LN{15}{12}
 \@LN{160}{19}
-\@LN{161}{20}
-\@LN{162}{20}
-\@LN{163}{20}
-\@LN{164}{20}
-\@LN{165}{20}
-\@LN{166}{20}
-\@LN{167}{20}
+\@LN{161}{19}
+\@LN{162}{19}
+\@LN{163}{19}
+\@LN{164}{19}
+\@LN{165}{19}
+\@LN{166}{19}
+\@LN{167}{19}
 \@LN{168}{20}
 \@LN{169}{20}
 \@LN{16}{12}
@@ -93,9 +93,9 @@
 \@LN{183}{20}
 \@LN{184}{20}
 \@LN{185}{20}
-\@LN{186}{21}
-\@LN{187}{21}
-\@LN{188}{21}
+\@LN{186}{20}
+\@LN{187}{20}
+\@LN{188}{20}
 \@LN{189}{21}
 \@LN{18}{12}
 \@LN{190}{21}
@@ -116,15 +116,15 @@
 \@LN{203}{21}
 \@LN{204}{21}
 \@LN{205}{21}
-\@LN{206}{22}
-\@LN{207}{22}
-\@LN{208}{22}
-\@LN{209}{22}
+\@LN{206}{21}
+\@LN{207}{21}
+\@LN{208}{21}
+\@LN{209}{21}
 \@LN{20}{12}
-\@LN{210}{22}
-\@LN{211}{22}
-\@LN{212}{22}
-\@LN{213}{22}
+\@LN{210}{21}
+\@LN{211}{21}
+\@LN{212}{21}
+\@LN{213}{21}
 \@LN{214}{22}
 \@LN{215}{22}
 \@LN{216}{22}
@@ -147,15 +147,15 @@
 \@LN{231}{22}
 \@LN{232}{22}
 \@LN{233}{22}
-\@LN{234}{22}
-\@LN{235}{22}
-\@LN{236}{22}
-\@LN{237}{22}
-\@LN{238}{22}
-\@LN{239}{22}
+\@LN{234}{23}
+\@LN{235}{23}
+\@LN{236}{23}
+\@LN{237}{23}
+\@LN{238}{23}
+\@LN{239}{23}
 \@LN{23}{13}
-\@LN{240}{22}
-\@LN{241}{22}
+\@LN{240}{23}
+\@LN{241}{23}
 \@LN{242}{23}
 \@LN{243}{23}
 \@LN{244}{23}
@@ -172,20 +172,20 @@
 \@LN{254}{23}
 \@LN{255}{23}
 \@LN{256}{23}
-\@LN{257}{24}
-\@LN{258}{24}
-\@LN{259}{24}
+\@LN{257}{23}
+\@LN{258}{23}
+\@LN{259}{23}
 \@LN{25}{13}
-\@LN{260}{24}
-\@LN{261}{24}
-\@LN{262}{24}
-\@LN{263}{24}
-\@LN{264}{24}
-\@LN{265}{24}
-\@LN{266}{24}
-\@LN{267}{24}
-\@LN{268}{24}
-\@LN{269}{24}
+\@LN{260}{23}
+\@LN{261}{23}
+\@LN{262}{23}
+\@LN{263}{23}
+\@LN{264}{23}
+\@LN{265}{23}
+\@LN{266}{23}
+\@LN{267}{23}
+\@LN{268}{23}
+\@LN{269}{23}
 \@LN{26}{13}
 \@LN{270}{24}
 \@LN{271}{24}
@@ -203,11 +203,11 @@
 \@LN{282}{24}
 \@LN{283}{24}
 \@LN{284}{24}
-\@LN{285}{24}
-\@LN{286}{24}
-\@LN{287}{24}
-\@LN{288}{24}
-\@LN{289}{24}
+\@LN{285}{25}
+\@LN{286}{25}
+\@LN{287}{25}
+\@LN{288}{25}
+\@LN{289}{25}
 \@LN{28}{13}
 \@LN{290}{25}
 \@LN{291}{25}
@@ -240,15 +240,15 @@
 \@LN{315}{25}
 \@LN{316}{25}
 \@LN{317}{25}
-\@LN{318}{25}
-\@LN{319}{25}
+\@LN{318}{26}
+\@LN{319}{26}
 \@LN{31}{13}
-\@LN{320}{25}
-\@LN{321}{25}
-\@LN{322}{25}
-\@LN{323}{25}
-\@LN{324}{25}
-\@LN{325}{25}
+\@LN{320}{26}
+\@LN{321}{26}
+\@LN{322}{26}
+\@LN{323}{26}
+\@LN{324}{26}
+\@LN{325}{26}
 \@LN{326}{26}
 \@LN{327}{26}
 \@LN{328}{26}
@@ -268,54 +268,54 @@
 \@LN{340}{26}
 \@LN{341}{26}
 \@LN{342}{26}
-\@LN{343}{27}
-\@LN{344}{27}
-\@LN{345}{27}
-\@LN{346}{27}
-\@LN{347}{27}
-\@LN{348}{27}
-\@LN{349}{27}
+\@LN{343}{26}
+\@LN{344}{26}
+\@LN{345}{26}
+\@LN{346}{26}
+\@LN{347}{26}
+\@LN{348}{26}
+\@LN{349}{26}
 \@LN{34}{13}
-\@LN{350}{27}
-\@LN{351}{27}
-\@LN{352}{27}
-\@LN{353}{28}
-\@LN{354}{28}
-\@LN{355}{29}
-\@LN{356}{29}
-\@LN{357}{29}
-\@LN{358}{29}
-\@LN{359}{29}
+\@LN{350}{26}
+\@LN{351}{26}
+\@LN{352}{26}
+\@LN{353}{26}
+\@LN{354}{27}
+\@LN{355}{27}
+\@LN{356}{27}
+\@LN{357}{27}
+\@LN{358}{27}
+\@LN{359}{27}
 \@LN{35}{13}
-\@LN{360}{29}
-\@LN{361}{29}
-\@LN{362}{29}
-\@LN{363}{29}
-\@LN{364}{29}
-\@LN{365}{29}
-\@LN{366}{29}
-\@LN{367}{29}
-\@LN{368}{29}
-\@LN{369}{29}
+\@LN{360}{27}
+\@LN{361}{27}
+\@LN{362}{27}
+\@LN{363}{27}
+\@LN{364}{27}
+\@LN{365}{27}
+\@LN{366}{27}
+\@LN{367}{27}
+\@LN{368}{27}
+\@LN{369}{27}
 \@LN{36}{13}
-\@LN{370}{29}
-\@LN{371}{29}
-\@LN{372}{29}
-\@LN{373}{29}
-\@LN{374}{29}
-\@LN{375}{29}
-\@LN{376}{29}
-\@LN{377}{29}
-\@LN{378}{29}
-\@LN{379}{29}
+\@LN{370}{27}
+\@LN{371}{28}
+\@LN{372}{28}
+\@LN{373}{28}
+\@LN{374}{28}
+\@LN{375}{28}
+\@LN{376}{28}
+\@LN{377}{28}
+\@LN{378}{28}
+\@LN{379}{28}
 \@LN{37}{13}
-\@LN{380}{29}
+\@LN{380}{28}
 \@LN{381}{29}
 \@LN{382}{29}
-\@LN{383}{29}
-\@LN{384}{29}
-\@LN{385}{29}
-\@LN{386}{29}
+\@LN{383}{30}
+\@LN{384}{30}
+\@LN{385}{30}
+\@LN{386}{30}
 \@LN{387}{30}
 \@LN{388}{30}
 \@LN{389}{30}
@@ -348,10 +348,10 @@
 \@LN{412}{30}
 \@LN{413}{30}
 \@LN{414}{30}
-\@LN{415}{30}
-\@LN{416}{30}
-\@LN{417}{30}
-\@LN{418}{30}
+\@LN{415}{31}
+\@LN{416}{31}
+\@LN{417}{31}
+\@LN{418}{31}
 \@LN{419}{31}
 \@LN{41}{13}
 \@LN{420}{31}
@@ -378,58 +378,58 @@
 \@LN{43}{13}
 \@LN{440}{31}
 \@LN{441}{31}
-\@LN{442}{32}
-\@LN{443}{32}
-\@LN{444}{32}
-\@LN{445}{32}
-\@LN{446}{32}
+\@LN{442}{31}
+\@LN{443}{31}
+\@LN{444}{31}
+\@LN{445}{31}
+\@LN{446}{31}
 \@LN{447}{32}
 \@LN{448}{32}
 \@LN{449}{32}
 \@LN{44}{13}
-\@LN{450}{33}
-\@LN{451}{33}
-\@LN{452}{33}
-\@LN{453}{33}
-\@LN{454}{33}
-\@LN{455}{33}
-\@LN{456}{33}
-\@LN{457}{33}
-\@LN{458}{33}
-\@LN{459}{33}
+\@LN{450}{32}
+\@LN{451}{32}
+\@LN{452}{32}
+\@LN{453}{32}
+\@LN{454}{32}
+\@LN{455}{32}
+\@LN{456}{32}
+\@LN{457}{32}
+\@LN{458}{32}
+\@LN{459}{32}
 \@LN{45}{13}
-\@LN{460}{33}
-\@LN{461}{33}
-\@LN{462}{34}
-\@LN{463}{34}
-\@LN{464}{34}
-\@LN{465}{34}
-\@LN{466}{34}
-\@LN{467}{34}
-\@LN{468}{34}
-\@LN{469}{34}
+\@LN{460}{32}
+\@LN{461}{32}
+\@LN{462}{32}
+\@LN{463}{32}
+\@LN{464}{32}
+\@LN{465}{32}
+\@LN{466}{32}
+\@LN{467}{32}
+\@LN{468}{32}
+\@LN{469}{32}
 \@LN{46}{13}
-\@LN{470}{34}
-\@LN{471}{34}
-\@LN{472}{34}
-\@LN{473}{34}
-\@LN{474}{34}
-\@LN{475}{35}
-\@LN{476}{35}
-\@LN{477}{35}
-\@LN{478}{35}
-\@LN{479}{35}
+\@LN{470}{33}
+\@LN{471}{33}
+\@LN{472}{33}
+\@LN{473}{33}
+\@LN{474}{33}
+\@LN{475}{33}
+\@LN{476}{33}
+\@LN{477}{33}
+\@LN{478}{34}
+\@LN{479}{34}
 \@LN{47}{13}
-\@LN{480}{35}
-\@LN{481}{35}
-\@LN{482}{35}
-\@LN{483}{35}
-\@LN{484}{35}
-\@LN{485}{35}
-\@LN{486}{35}
-\@LN{487}{35}
-\@LN{488}{35}
-\@LN{489}{35}
+\@LN{480}{34}
+\@LN{481}{34}
+\@LN{482}{34}
+\@LN{483}{34}
+\@LN{484}{34}
+\@LN{485}{34}
+\@LN{486}{34}
+\@LN{487}{34}
+\@LN{488}{34}
+\@LN{489}{34}
 \@LN{48}{13}
 \@LN{490}{35}
 \@LN{491}{35}
@@ -446,15 +446,15 @@
 \@LN{500}{35}
 \@LN{501}{35}
 \@LN{502}{35}
-\@LN{503}{35}
-\@LN{504}{35}
-\@LN{505}{35}
-\@LN{506}{35}
-\@LN{507}{35}
-\@LN{508}{35}
-\@LN{509}{35}
+\@LN{503}{36}
+\@LN{504}{36}
+\@LN{505}{36}
+\@LN{506}{36}
+\@LN{507}{36}
+\@LN{508}{36}
+\@LN{509}{36}
 \@LN{50}{13}
-\@LN{510}{35}
+\@LN{510}{36}
 \@LN{511}{36}
 \@LN{512}{36}
 \@LN{513}{36}
@@ -478,13 +478,13 @@
 \@LN{52}{13}
 \@LN{530}{36}
 \@LN{531}{36}
-\@LN{532}{37}
-\@LN{533}{37}
-\@LN{534}{37}
-\@LN{535}{37}
-\@LN{536}{37}
-\@LN{537}{37}
-\@LN{538}{37}
+\@LN{532}{36}
+\@LN{533}{36}
+\@LN{534}{36}
+\@LN{535}{36}
+\@LN{536}{36}
+\@LN{537}{36}
+\@LN{538}{36}
 \@LN{539}{37}
 \@LN{53}{14}
 \@LN{540}{37}
@@ -501,74 +501,74 @@
 \@LN{550}{37}
 \@LN{551}{37}
 \@LN{552}{37}
-\@LN{553}{38}
-\@LN{554}{38}
-\@LN{555}{38}
-\@LN{556}{38}
-\@LN{557}{38}
-\@LN{558}{38}
-\@LN{559}{38}
+\@LN{553}{37}
+\@LN{554}{37}
+\@LN{555}{37}
+\@LN{556}{37}
+\@LN{557}{37}
+\@LN{558}{37}
+\@LN{559}{37}
 \@LN{55}{14}
 \@LN{560}{38}
 \@LN{561}{38}
 \@LN{562}{38}
 \@LN{563}{38}
-\@LN{564}{39}
-\@LN{565}{39}
-\@LN{566}{39}
-\@LN{567}{39}
-\@LN{568}{39}
-\@LN{569}{39}
+\@LN{564}{38}
+\@LN{565}{38}
+\@LN{566}{38}
+\@LN{567}{38}
+\@LN{568}{38}
+\@LN{569}{38}
 \@LN{56}{14}
-\@LN{570}{39}
-\@LN{571}{39}
-\@LN{572}{39}
-\@LN{573}{39}
-\@LN{574}{39}
-\@LN{575}{39}
-\@LN{576}{39}
-\@LN{577}{39}
-\@LN{578}{39}
-\@LN{579}{39}
+\@LN{570}{38}
+\@LN{571}{38}
+\@LN{572}{38}
+\@LN{573}{38}
+\@LN{574}{38}
+\@LN{575}{38}
+\@LN{576}{38}
+\@LN{577}{38}
+\@LN{578}{38}
+\@LN{579}{38}
 \@LN{57}{14}
-\@LN{580}{39}
+\@LN{580}{38}
 \@LN{581}{39}
 \@LN{582}{39}
 \@LN{583}{39}
 \@LN{584}{39}
 \@LN{585}{39}
-\@LN{586}{40}
-\@LN{587}{40}
-\@LN{588}{40}
-\@LN{589}{40}
+\@LN{586}{39}
+\@LN{587}{39}
+\@LN{588}{39}
+\@LN{589}{39}
 \@LN{58}{14}
-\@LN{590}{40}
-\@LN{591}{40}
+\@LN{590}{39}
+\@LN{591}{39}
 \@LN{592}{40}
 \@LN{593}{40}
 \@LN{594}{40}
 \@LN{595}{40}
-\@LN{596}{41}
-\@LN{597}{41}
-\@LN{598}{41}
-\@LN{599}{41}
+\@LN{596}{40}
+\@LN{597}{40}
+\@LN{598}{40}
+\@LN{599}{40}
 \@LN{59}{14}
 \@LN{5}{11}
-\@LN{600}{41}
-\@LN{601}{41}
-\@LN{602}{41}
-\@LN{603}{41}
-\@LN{604}{41}
-\@LN{605}{41}
-\@LN{606}{41}
-\@LN{607}{41}
-\@LN{608}{41}
-\@LN{609}{41}
+\@LN{600}{40}
+\@LN{601}{40}
+\@LN{602}{40}
+\@LN{603}{40}
+\@LN{604}{40}
+\@LN{605}{40}
+\@LN{606}{40}
+\@LN{607}{40}
+\@LN{608}{40}
+\@LN{609}{40}
 \@LN{60}{14}
-\@LN{610}{41}
-\@LN{611}{41}
-\@LN{612}{41}
-\@LN{613}{41}
+\@LN{610}{40}
+\@LN{611}{40}
+\@LN{612}{40}
+\@LN{613}{40}
 \@LN{614}{41}
 \@LN{615}{41}
 \@LN{616}{41}
@@ -580,12 +580,12 @@
 \@LN{621}{41}
 \@LN{622}{41}
 \@LN{623}{41}
-\@LN{624}{41}
-\@LN{625}{41}
-\@LN{626}{41}
-\@LN{627}{41}
-\@LN{628}{41}
-\@LN{629}{41}
+\@LN{624}{42}
+\@LN{625}{42}
+\@LN{626}{42}
+\@LN{627}{42}
+\@LN{628}{42}
+\@LN{629}{42}
 \@LN{62}{14}
 \@LN{630}{42}
 \@LN{631}{42}
@@ -595,37 +595,37 @@
 \@LN{635}{42}
 \@LN{636}{42}
 \@LN{637}{42}
-\@LN{638}{43}
-\@LN{639}{43}
+\@LN{638}{42}
+\@LN{639}{42}
 \@LN{63}{14}
-\@LN{640}{43}
-\@LN{641}{43}
-\@LN{642}{43}
-\@LN{643}{43}
-\@LN{644}{43}
-\@LN{645}{43}
-\@LN{646}{43}
-\@LN{647}{43}
-\@LN{648}{43}
-\@LN{649}{43}
+\@LN{640}{42}
+\@LN{641}{42}
+\@LN{642}{42}
+\@LN{643}{42}
+\@LN{644}{42}
+\@LN{645}{42}
+\@LN{646}{42}
+\@LN{647}{42}
+\@LN{648}{42}
+\@LN{649}{42}
 \@LN{64}{14}
-\@LN{650}{43}
-\@LN{651}{43}
-\@LN{652}{43}
-\@LN{653}{43}
-\@LN{654}{43}
-\@LN{655}{43}
-\@LN{656}{43}
-\@LN{657}{43}
+\@LN{650}{42}
+\@LN{651}{42}
+\@LN{652}{42}
+\@LN{653}{42}
+\@LN{654}{42}
+\@LN{655}{42}
+\@LN{656}{42}
+\@LN{657}{42}
 \@LN{658}{43}
-\@LN{659}{44}
+\@LN{659}{43}
 \@LN{65}{14}
-\@LN{660}{44}
-\@LN{661}{44}
-\@LN{662}{44}
-\@LN{663}{44}
-\@LN{664}{44}
-\@LN{665}{44}
+\@LN{660}{43}
+\@LN{661}{43}
+\@LN{662}{43}
+\@LN{663}{43}
+\@LN{664}{43}
+\@LN{665}{43}
 \@LN{666}{44}
 \@LN{667}{44}
 \@LN{668}{44}
@@ -649,12 +649,12 @@
 \@LN{684}{44}
 \@LN{685}{44}
 \@LN{686}{44}
-\@LN{687}{44}
-\@LN{688}{44}
-\@LN{689}{44}
+\@LN{687}{45}
+\@LN{688}{45}
+\@LN{689}{45}
 \@LN{68}{15}
-\@LN{690}{44}
-\@LN{691}{44}
+\@LN{690}{45}
+\@LN{691}{45}
 \@LN{692}{45}
 \@LN{693}{45}
 \@LN{694}{45}
@@ -676,40 +676,40 @@
 \@LN{708}{45}
 \@LN{709}{45}
 \@LN{70}{15}
-\@LN{710}{46}
-\@LN{711}{46}
-\@LN{712}{46}
-\@LN{713}{47}
-\@LN{714}{47}
-\@LN{715}{47}
-\@LN{716}{47}
-\@LN{717}{47}
-\@LN{718}{47}
-\@LN{719}{47}
+\@LN{710}{45}
+\@LN{711}{45}
+\@LN{712}{45}
+\@LN{713}{45}
+\@LN{714}{45}
+\@LN{715}{45}
+\@LN{716}{45}
+\@LN{717}{45}
+\@LN{718}{45}
+\@LN{719}{45}
 \@LN{71}{15}
-\@LN{720}{47}
-\@LN{721}{48}
-\@LN{722}{48}
-\@LN{723}{48}
-\@LN{724}{48}
-\@LN{725}{48}
-\@LN{726}{48}
-\@LN{727}{48}
-\@LN{728}{48}
-\@LN{729}{48}
+\@LN{720}{46}
+\@LN{721}{46}
+\@LN{722}{46}
+\@LN{723}{46}
+\@LN{724}{46}
+\@LN{725}{46}
+\@LN{726}{46}
+\@LN{727}{46}
+\@LN{728}{46}
+\@LN{729}{46}
 \@LN{72}{15}
-\@LN{730}{48}
-\@LN{731}{48}
-\@LN{732}{48}
-\@LN{733}{48}
-\@LN{734}{48}
-\@LN{735}{48}
-\@LN{736}{48}
-\@LN{737}{48}
-\@LN{738}{48}
-\@LN{739}{48}
+\@LN{730}{46}
+\@LN{731}{46}
+\@LN{732}{46}
+\@LN{733}{46}
+\@LN{734}{46}
+\@LN{735}{46}
+\@LN{736}{46}
+\@LN{737}{46}
+\@LN{738}{47}
+\@LN{739}{47}
 \@LN{73}{15}
-\@LN{740}{48}
+\@LN{740}{47}
 \@LN{741}{48}
 \@LN{742}{48}
 \@LN{743}{48}
@@ -718,40 +718,13 @@
 \@LN{746}{48}
 \@LN{747}{48}
 \@LN{748}{48}
-\@LN{749}{48}
+\@LN{749}{49}
 \@LN{74}{15}
-\@LN{750}{48}
-\@LN{751}{48}
-\@LN{752}{49}
-\@LN{753}{49}
-\@LN{754}{49}
-\@LN{755}{49}
-\@LN{756}{49}
-\@LN{757}{49}
-\@LN{758}{49}
-\@LN{759}{49}
+\@LN{750}{49}
+\@LN{751}{50}
+\@LN{752}{50}
 \@LN{75}{15}
-\@LN{760}{49}
-\@LN{761}{49}
-\@LN{762}{49}
-\@LN{763}{49}
-\@LN{764}{49}
-\@LN{765}{49}
-\@LN{766}{49}
-\@LN{767}{49}
-\@LN{768}{49}
-\@LN{769}{49}
 \@LN{76}{15}
-\@LN{770}{49}
-\@LN{771}{49}
-\@LN{772}{49}
-\@LN{773}{49}
-\@LN{774}{49}
-\@LN{775}{49}
-\@LN{776}{50}
-\@LN{777}{50}
-\@LN{778}{51}
-\@LN{779}{51}
 \@LN{77}{15}
 \@LN{78}{15}
 \@LN{79}{15}
@@ -804,30 +777,31 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The co-ordinate system in LArSoft}}{15}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Reconstructed hits from a simulated energy deposition}}{16}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Performing disambiguation with different wire pitches.}}{17}{figure.caption.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.10}{\ignorespaces The alignment of tracks and counter coincidences}}{33}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.11}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{34}{figure.caption.21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{35}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{37}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{38}{figure.caption.24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{39}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{40}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{41}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{41}{figure.caption.28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{43}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The 35 ton data sample}}{22}{figure.caption.11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.20}{\ignorespaces Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset}}{43}{figure.caption.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.21}{\ignorespaces A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples}}{44}{figure.caption.31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.22}{\ignorespaces The effect that an increased noise level has on the accuracy of interaction time determination}}{46}{figure.caption.32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.23}{\ignorespaces The effect that an increased electron lifetime has on the accuracy of interaction time determination}}{46}{figure.caption.33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.24}{\ignorespaces The effect that an increased electric field has on the accuracy of interaction time determination}}{47}{figure.caption.34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{24}{figure.caption.12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{27}{figure.caption.13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Recovering stuck ADC codes in the 35 ton}}{28}{figure.caption.14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{28}{figure.caption.15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Applying Wiener filters to the 35 ton data}}{29}{figure.caption.16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces The effect of noise removal algorithms in the 35 ton}}{29}{figure.caption.17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{32}{figure.caption.18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces The dot product of track and counter coincidences}}{33}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton}}{21}{figure.caption.11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.10}{\ignorespaces The alignment of tracks and counter coincidences}}{34}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.11}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{35}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{36}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{38}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{39}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{40}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{41}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{42}{figure.caption.28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{42}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{44}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The 35 ton data sample}}{23}{figure.caption.12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.20}{\ignorespaces Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset}}{44}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.21}{\ignorespaces A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples}}{45}{figure.caption.32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.22}{\ignorespaces The effect that an increased noise level has on the accuracy of interaction time determination}}{47}{figure.caption.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.23}{\ignorespaces The effect that an increased electron lifetime has on the accuracy of interaction time determination}}{47}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.24}{\ignorespaces The effect that an increased electric field has on the accuracy of interaction time determination}}{48}{figure.caption.35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{25}{figure.caption.13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{28}{figure.caption.14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Recovering stuck ADC codes in the 35 ton}}{29}{figure.caption.15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{29}{figure.caption.16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Applying Wiener filters to the 35 ton data}}{30}{figure.caption.17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces The effect of noise removal algorithms in the 35 ton}}{30}{figure.caption.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{33}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces The dot product of track and counter coincidences}}{34}{figure.caption.20}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -837,18 +811,17 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{51}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{52}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Something mildly interesting}{50}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{51}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{8}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{10}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{49}{chapter*.35}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Theory}{12}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{13}{chapter.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}The 35 ton camera system}{19}{chapter.4}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Simulations of the 35 ton prototype}{20}{chapter.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}The 35 ton data sample}{21}{chapter.6}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{48}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}The 35 ton data sample}{22}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{49}{chapter.7}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}XXXXX}{11}{section.1.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}XXXXXX}{11}{section.1.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Theory of neutrino physics}{12}{section.2.1}}
@@ -866,25 +839,25 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Safety reviews and installation}{19}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Performance in the 35 ton}{19}{section.4.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}Determination of interaction times}{20}{section.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Calibrating calorimetric responses}{20}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Discerning reconstruction efficiencies}{20}{section.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Performing particle identification}{20}{section.5.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Organisation of the data structure}{22}{section.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{24}{section.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{26}{section.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{30}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{35}{section.6.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{48}{section.7.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{48}{section.7.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{48}{section.7.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{48}{section.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{48}{section.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Calibrating calorimetric responses}{21}{section.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Discerning reconstruction efficiencies}{21}{section.5.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Performing particle identification}{21}{section.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Organisation of the data structure}{23}{section.6.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{25}{section.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{27}{section.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{31}{section.6.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{36}{section.6.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}The MUSUN and MUSIC generators}{49}{section.7.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Simulations of the LBNE surface detector}{49}{section.7.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Incorporation of MUSUN into LArSoft}{49}{section.7.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Simulation of background for DUNE}{49}{section.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Cosmogenic background for nucleon decay channels in DUNE}{49}{section.7.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Neutrino physics}{13}{subsection.3.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Nucleon decay and supernovae neutrinos}{13}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{37}{subsection.6.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{42}{subsection.6.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo}{45}{subsection.6.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{47}{subsection.6.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{38}{subsection.6.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low noise detector and differences with data}{43}{subsection.6.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of noise and electron lifetime in Monte Carlo}{46}{subsection.6.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{48}{subsection.6.5.4}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -1032,14 +1005,14 @@
 \setcounter{LN@truepage}{12}
 \setcounter{LN@truepage}{18}
 \setcounter{LN@truepage}{19}
-\setcounter{LN@truepage}{20}
+\setcounter{LN@truepage}{21}
 \setcounter{LN@truepage}{2}
 \setcounter{LN@truepage}{3}
-\setcounter{LN@truepage}{47}
 \setcounter{LN@truepage}{48}
+\setcounter{LN@truepage}{49}
 \setcounter{LN@truepage}{4}
+\setcounter{LN@truepage}{50}
 \setcounter{LN@truepage}{51}
-\setcounter{LN@truepage}{52}
 \setcounter{LN@truepage}{5}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
@@ -1052,8 +1025,8 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{23}
-\setcounter{NAT@ctr}{23}
+\setcounter{NAT@ctr}{0}
+\setcounter{NAT@ctr}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
@@ -1064,8 +1037,8 @@
 \setcounter{bookmark@seq@number}{30}
 \setcounter{bookmark@seq@number}{40}
 \setcounter{bookmark@seq@number}{46}
+\setcounter{bookmark@seq@number}{47}
 \setcounter{bookmark@seq@number}{48}
-\setcounter{bookmark@seq@number}{49}
 \setcounter{bookmark@seq@number}{6}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
@@ -1155,7 +1128,7 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{1}
 \setcounter{figure}{24}
 \setcounter{figure}{4}
 \setcounter{footnote}{0}
@@ -1178,12 +1151,12 @@
 \setcounter{linenumber}{10}
 \setcounter{linenumber}{134}
 \setcounter{linenumber}{142}
-\setcounter{linenumber}{161}
+\setcounter{linenumber}{189}
 \setcounter{linenumber}{4}
-\setcounter{linenumber}{713}
-\setcounter{linenumber}{721}
-\setcounter{linenumber}{778}
-\setcounter{linenumber}{780}
+\setcounter{linenumber}{741}
+\setcounter{linenumber}{749}
+\setcounter{linenumber}{751}
+\setcounter{linenumber}{753}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -1201,13 +1174,13 @@
 \setcounter{page}{13}
 \setcounter{page}{19}
 \setcounter{page}{20}
-\setcounter{page}{21}
+\setcounter{page}{22}
 \setcounter{page}{3}
-\setcounter{page}{48}
 \setcounter{page}{49}
 \setcounter{page}{4}
+\setcounter{page}{50}
+\setcounter{page}{51}
 \setcounter{page}{52}
-\setcounter{page}{53}
 \setcounter{page}{5}
 \setcounter{page}{6}
 \setcounter{paragraph}{0}

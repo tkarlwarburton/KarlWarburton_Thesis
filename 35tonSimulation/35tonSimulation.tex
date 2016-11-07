@@ -1,5 +1,5 @@
 %*******************************************************************************
-%*********************************** Chapter XXXXXXXX *****************************
+%********************************** Chapter XXXXXXXX ***************************
 %*******************************************************************************
 
 \chapter{Simulations of the 35 ton prototype}  %Title of chapter
@@ -10,8 +10,17 @@
 \section{Determination of interaction times} \label{sec:SimInteractionTimes} %Section - X.1
 As outlined at the end of Section~\ref{sec:LArSoft} it is important to know the interaction time of a track when performing calorimetric reconstruction. When performing simulations the simplest interaction time to assign to a reconstructed object is the Monte Carlo truth time of when the particle was created. The creation time can be used as the distances considered in simulations are small compared to the velocities which the particles are initially travelling meaning that interactions throughout the volume are less than the resolution of the detector (500 ns). When matching a reconstructed object with a GEANT4 particle the particle which contributed the most overall deposited charge to the whole track is chosen. This means that the energy deposited for each hit on the track is broken down into how much each particle contributed to the charge of the individual hit, with the energies summed over all hits. The ability to assign the true interaction times to 3D objects is vital when wanting to benchmark how well other determinations of interaction times perform or to determine the efficiency of the tracking algorithms as described in Section~\ref{sec:SimRecoEffic}. \\
 
-In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}, however in simulation the scintillation light was used as this would have been more powerful during continuous running as not all particles would pass through counters but one wold expect almost all of them to produce recosntructable scintillation light.
+In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}, however in simulation the scintillation light was used as this would have been more powerful during continuous running as not all particles would pass through counters but one wold expect almost all of them to produce reconstructable scintillation light. Flashes of lights are reconstructed by using a prebuilt library which models the expected number of photoelectrons to be measured on each photon detector given the 3D position of the source of the flash. This library takes into account the expected quantum efficiencies of each photon detector. \\
 
+When trying to produce an association metric a sample of 10,000 Anti-Muons with a cosmic-like distribution was used as then there there should only be one long track with which to match one reconstructed flash. A cosmic-like distribution is defined as a set of particles which have a $\cos^{2}$ angular distribution, no minimum or maximum energies and have a flat distrbution of initial positions in the $xz$ plane and a uniform initial $y$ position. When this sample was simulated it was clear that the photon detector reconstruction using the prebuilt libraries worked well as the reconstructed flash source normally lay very close to the track which caused it. It was found that a calculation of a Point Of Closest Approach (PoCA)!!~citep{PoCA}!! of the reconstructed track to the flash source gave an effective metric by which the two could be combined. Other metrics such as the distance between the flash source and the track centre, and the perpendicular distance between the flash source and the line joining the start and end of track were investigated but found to provide a less reliable metrics. The latter of these metrics is less effective because the reconstructed tracks are rarely straight lines, due to particles scattering as they travel through the LAr and so the perpendicular distance at each hit must be calculated. A comparison of these metrics is shown in Figure~\ref{fig:PDYZDist}.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{}
+  \caption[A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton]
+          {A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton.}
+  \label{fig:PDYZDist}
+\end{figure}
 
 %********************************** % Second Section  *************************************
 \section{Calibrating calorimetric responses}  %Section - X.2

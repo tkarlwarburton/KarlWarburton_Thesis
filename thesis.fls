@@ -457,14 +457,14 @@ INPUT The35tonCameras/The35tonCameras.tex
 OUTPUT 35tonSimulation/35tonSimulation.aux
 INPUT 35tonSimulation/35tonSimulation.tex
 INPUT 35tonSimulation/35tonSimulation.tex
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT 35tonData/35tonData.aux
 INPUT 35tonData/35tonData.tex
 INPUT 35tonData/35tonData.tex
 INPUT 35tonData/Figs/Raster/DataCollected.png
 INPUT ./35tonData/Figs/Raster/DataCollected.png
 INPUT ./35tonData/Figs/Raster/DataCollected.png
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT 35tonData/Figs/Raster/DataStructure.png
 INPUT ./35tonData/Figs/Raster/DataStructure.png
 INPUT ./35tonData/Figs/Raster/DataStructure.png
@@ -628,8 +628,6 @@ INPUT ./35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png
 OUTPUT FarDetectorSimulations/FarDetectorSimulations.aux
 INPUT FarDetectorSimulations/FarDetectorSimulations.tex
 INPUT FarDetectorSimulations/FarDetectorSimulations.tex
-INPUT thesis.bbl
-INPUT thesis.bbl
 OUTPUT Appendix1/appendix1.aux
 INPUT Appendix1/appendix1.tex
 INPUT Appendix1/appendix1.tex
