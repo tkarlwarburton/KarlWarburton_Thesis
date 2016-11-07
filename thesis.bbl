@@ -1,9 +1,30 @@
 \begin{thebibliography}{}
 
+\bibitem[Agostinelli et~al., 2003]{GEANT4}
+Agostinelli, S. et~al. (2003).
+\newblock Geant4—a simulation toolkit.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 506(3):250
+  -- 303.
+
 \bibitem[Anderson et~al., 2012]{ArgoNeuT}
 Anderson, C. et~al. (2012).
 \newblock {The ArgoNeuT Detector in the NuMI Low-Energy beam line at Fermilab}.
 \newblock {\em JINST}, 7:P10019.
+
+\bibitem[Andreopoulos et~al., 2010]{GENIE}
+Andreopoulos, C. et~al. (2010).
+\newblock The \{GENIE\} neutrino monte carlo generator.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 614(1):87
+  -- 104.
+
+\bibitem[Antonioli et~al., 1997]{MUSIC}
+Antonioli, P., Ghetti, C., Korolkova, E.~V., Kudryavtsev, V.~A., and
+  Sartorelli, G. (1997).
+\newblock {A Three-dimensional code for muon propagation through the rock:
+  Music}.
+\newblock {\em Astropart. Phys.}, 7:357--368.
 
 \bibitem[Atrazhev and Timoshkin, 1998]{Atrazhev-Timoshkin}
 Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
@@ -18,10 +39,25 @@ Brailsford, D. Lancaster University. DUNE collaboration meeting (2016).
   \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
 
 \bibitem[Bromberg et~al., 2015]{LongBo}
-Bromberg, C., Carls, B., Edmunds, D., Hahn, A., Jaskierny, W., Jostlein, H.,
-  Kendziora, C., Lockwitz, S., Pahlka, B., Pordes, S., et~al. (2015).
+Bromberg, C. et~al. (2015).
 \newblock Design and operation of longbo: a 2 m long drift liquid argon tpc.
 \newblock {\em Journal of Instrumentation}, 10(07):P07015.
+
+\bibitem[Brun and Rademakers, 1997]{ROOT}
+Brun, R. and Rademakers, F. (1997).
+\newblock {ROOT: An object oriented data analysis framework}.
+\newblock {\em Nucl. Instrum. Meth.}, A389:81--86.
+
+\bibitem[Casper, 2002]{Nuance}
+Casper, D. (2002).
+\newblock {The Nuance neutrino physics simulation, and the future}.
+\newblock {\em Nucl. Phys. Proc. Suppl.}, 112:161--170.
+\newblock [,161(2002)].
+
+\bibitem[Church, 2013]{Church_LArSoft}
+Church, E.~D. (2013).
+\newblock {LArSoft: A Software Package for Liquid Argon Time Projection Drift
+  Chambers}.
 
 \bibitem[Cooley and Turkey, 1965]{CoTuFFT}
 Cooley, J. and Turkey, J. (1965).
@@ -39,11 +75,23 @@ DUNE DocDB 1834 (2016).
 \newblock 35t noise studies summary - apa wire readout noise.
 \newblock [online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}.
 
+\bibitem[Hagman, C. et al., 2012]{CRY}
+Hagman, C. et al. (2012).
+\newblock Cosmic-ray shower library \{CRY\}.
+\newblock [online]
+  \url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf}.
+
 \bibitem[Insler, J. LSU. 35 ton Meeting, 2016]{InslerStuckCode}
 Insler, J. LSU. 35 ton Meeting (2016).
 \newblock Module to unstick adc codes.
 \newblock [online]
   \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
+
+\bibitem[Kudryavtsev, 2009]{MUSUN}
+Kudryavtsev, V. (2009).
+\newblock Muon simulation codes \{MUSIC\} and \{MUSUN\} for underground
+  physics.
+\newblock {\em Computer Physics Communications}, 180(3):339 -- 346.
 
 \bibitem[Li et~al., 2016]{Li:2015rqa}
 Li, Y. et~al. (2016).

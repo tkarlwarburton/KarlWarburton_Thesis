@@ -98,6 +98,23 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 -include Figs/University_Crest.pdf.gpi.d
 thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
+-include DUNE/Figs/Raster/35ton_APASchem.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35ton_APASchem.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_APASchem.png)
+-include DUNE/Figs/Raster/35ton_xCenter.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35ton_xCenter.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_xCenter.png)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
+-include DUNE/Figs/PDF/WireAngleCondition.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/PDF/WireAngleCondition.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/PDF/WireAngleCondition.pdf)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)

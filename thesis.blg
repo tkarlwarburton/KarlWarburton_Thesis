@@ -16,44 +16,46 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
-You've used 15 entries,
+Warning--empty journal in Church_LArSoft
+You've used 23 entries,
             1935 wiz_defined-function locations,
-            580 strings with 6722 characters,
-and the built_in function-call counts, 4526 in all, are:
-= -- 467
-> -- 130
-< -- 6
-+ -- 47
-- -- 44
-* -- 363
-:= -- 785
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 101
-chr.to.int$ -- 14
-cite$ -- 15
-duplicate$ -- 178
-empty$ -- 342
-format.name$ -- 59
-if$ -- 896
+            637 strings with 7994 characters,
+and the built_in function-call counts, 7104 in all, are:
+= -- 734
+> -- 173
+< -- 13
++ -- 59
+- -- 54
+* -- 564
+:= -- 1228
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 145
+chr.to.int$ -- 22
+cite$ -- 24
+duplicate$ -- 285
+empty$ -- 560
+format.name$ -- 81
+if$ -- 1420
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 78
-num.names$ -- 21
-pop$ -- 55
+missing$ -- 15
+newline$ -- 118
+num.names$ -- 42
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 146
 quote$ -- 0
-skip$ -- 142
+skip$ -- 229
 stack$ -- 0
-substring$ -- 306
-swap$ -- 7
+substring$ -- 539
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
-warning$ -- 0
-while$ -- 21
+type$ -- 136
+warning$ -- 1
+while$ -- 41
 width$ -- 0
-write$ -- 188
+write$ -- 290
+(There was 1 warning)

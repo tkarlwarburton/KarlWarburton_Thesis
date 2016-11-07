@@ -2,29 +2,23 @@
 %*********************************** Chapter XXXXXXXX *****************************
 %*******************************************************************************
 
-\chapter{Simulations of the 35ton prototype}  %Title of chapter
+\chapter{Simulations of the 35 ton prototype}  %Title of chapter
 
-\ifpdf
-    \graphicspath{{35tonSimulation/Figs/Raster/}{35tonSimulation/Figs/PDF/}{35tonSimulation/Figs/}}
-\else
-    \graphicspath{{35tonSimulation/Figs/Vector/}{35tonSimulation/Figs/}}
-\fi
+\graphicspath{{35tonSimulation/Figs/PDF/}{35tonSimulation/Figs/Raster/}{35tonSimulation/Figs/}}
 
-%********************************** %First Section  **************************************
-\section{Structure of LArSoft} %Section - X.1 
+%********************************** %First Section  *************************************
+\section{Determination of interaction times} \label{sec:SimInteractionTimes} %Section - X.1
+As outlined at the end of Section~\ref{sec:LArSoft} it is important to know the interaction time of a track when performing calorimetric reconstruction. When performing simulations the simplest interaction time to assign to a reconstructed object is the Monte Carlo truth time of when the particle was created. The creation time can be used as the distances considered in simulations are small compared to the velocities which the particles are initially travelling meaning that interactions throughout the volume are less than the resolution of the detector (500 ns). When matching a reconstructed object with a GEANT4 particle the particle which contributed the most overall deposited charge to the whole track is chosen. This means that the energy deposited for each hit on the track is broken down into how much each particle contributed to the charge of the individual hit, with the energies summed over all hits. The ability to assign the true interaction times to 3D objects is vital when wanting to benchmark how well other determinations of interaction times perform or to determine the efficiency of the tracking algorithms as described in Section~\ref{sec:SimRecoEffic}. \\
 
-%********************************** %Second Section  **************************************
-\section{Making production event samples} %Section - X.2
+In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}, however in simulation the scintillation light was used as this would have been more powerful during continuous running as not all particles would pass through counters but one wold expect almost all of them to produce recosntructable scintillation light.
 
-%********************************** %Second Section  *************************************
-\section{Determination of interaction times} \label{sec:SimInteractionTimes}%Section - X.3
+
+%********************************** % Second Section  *************************************
+\section{Calibrating calorimetric responses}  %Section - X.2
 
 %********************************** % Third Section  *************************************
-\section{Calibrating calorimetric responses}  %Section - X.4
+\section{Discerning reconstruction efficiencies} \label{sec:SimRecoEffic} %Section - X.3
 
 %********************************** % Fourth Section  *************************************
-\section{Discerning reconstruction efficiencies}  %Section - X.5
-
-%********************************** % Fifth Section  *************************************
-\section{Performing particle identification}  %Section - X.6
+\section{Performing particle identification}  %Section - X.4
 

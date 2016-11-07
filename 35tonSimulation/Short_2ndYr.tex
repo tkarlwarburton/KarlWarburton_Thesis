@@ -1,0 +1,272 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{report} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=1.75cm} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\DeclareGraphicsExtensions{.png,.pdf,.jpg,.mps}
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage[english]{babel}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{braket}
+\usepackage{esvect}
+\usepackage{commath}
+\usepackage{amsmath}
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\usepackage[none]{hyphenat}
+
+
+\setcounter{secnumdepth}{4}
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{\Huge Second year PhD status report}
+\author{\LARGE Thomas Karl Warburton\\ \\ \normalsize Supervisor:\\Dr. Vitaly Kudryavtsev}
+
+
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+
+\begin{document}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand\bibname{References}
+%\renewcommand\abstract{\Large\textbf{Abstract}\\ \normalsize}
+\maketitle
+
+\tableofcontents
+
+\newpage 
+
+\section*{Abstract}
+A review of the progress made in the past year. Progress has been made in simulations for the 35 ton, where calorimetry has been tuned, tracking algorithms have been benchmarked, photon detector track matching been implemented and the initial workings for a proton identification method have been developed. Work has also been carried out on preparing a camera system for installation in the 35 ton as well as the incorporation of two muon generators into LArSoft. 
+
+\section{Introduction to LArSoft}
+All simulation work has been done in LArSoft which is a simulation, analysis and reconstruction package for Liquid Argon (LAr) Time Projection Chambers (TPC's) which is being used by many of the LAr-TPC's in operation, construction and planning within the US program {\cite{Church_LArSoft}. LArSoft has been developed to be detector agnostic, meaning that much of the code is shared between experiments. To this end it is envisioned that it will be used as a platform for constant development for existing experiments through to those still in the planning phases such as DUNE. \\ 
+
+LArSoft is built around the Fermilab-supported analysis reconstruction framework (\emph{art}), which accomdates the whole simulation process from event generation to final analyses. External packages such as ROOT and GEANT4 are incorporated into LArSoft meaning that the user does not have to co-ordinate specific versions of the packages as the newest versions are automatically incorporated. \\
+
+There are numerous mechanisms by which particles can be generated within the software with external packages such as GENIE, NuANCE and CRY already having been incorporated. It is also possible to load in pre-made event files made my user defined modules, or to use an inbuilt single particle generation mode. The inbuilt particle generation is fully tunable as particle type, momenta, positions and direction can all be varied. For the studies presented here a combination of both CRY and user defined generation events have been used.\\
+
+The co-ordinates and angles in LArSoft are defined as; 
+\begin{itemize}
+\item X - The beam direction (for the 35 ton prototype where there is no beam, positive x is in the opposite direction to that which electrons drift in the large TPC, 
+\item Y - The vertical direction, 
+\item Z - Defined as such to have a right handed co-ordinate system.
+\item $\theta$ - Angle the quanta makes from the X axis in the XY plane.
+\item $\phi$ - Angle between the Z axis and the quanta direction.
+\end{itemize}
+
+\section{Tuning of calorimetry}
+Correctly simulating the behaviour of different particles in the detector is an essential part of the simulation work for the 35 ton, therefore it is vital that the calorimetric corrections made are correctly. One way of ensuring this is to make sure that the 'Minimally Ionising Particle' (MIP) peak for muons has a \( \frac{dE}{dx} \) value of 2.1 MeV cm\(^{-3}\). \\
+
+To do this samples of 10,000 Anti-Muons have been simulated and reconstructed whenever there has been a change to the simulation framework. Using a modified box model \cite{ModBox} corrections are made to the measured \( \frac{dQ}{dx} \) on the wires to calculate a value for \( \frac{dE}{dx} \). Before this is done however, a conversion of ADC counts to number of electrons is made. This correction is crucial as when the detector properties or conditions change then the relationship between number of electrons per ADC count is likely to change and for all physics results it is essential to know the number of electrons produced which gave the observed effect. It is this parameter which is regularly tuned to ensure accuracy of reconstruction.
+
+\section{Benchmarking of tracking algorithms}
+Knowledge of the strengths and weaknesses of different tracking algorithms is vital when using them for physics analyses. To this end it is beneficial to develop a module which calculates and compares the efficiencies with which tracks are reconstructed. Efficiencies are calculated for two simulated samples, an idealised sample of primary Anti-Muons, and a more realistic CRY sample. \\ 
+
+The muons used in the idealised sample have cosmic ray like properties. Whereby they have no minimum or maximum energy, the angular distribution of the muons follows a $\cos^2$ distribution and the positions follow a flat distribution in the X and Z directions and have a constant starting position in Y above the cryostat. \\
+
+In the more realistic CRY sample particles are generated from a time of -1.6 ms to 16 ms which corresponds to a total of 11 drift windows, where 1 drift window is defined as the time it takes for an electron to drift from the Cathode Plane Assembly (CPA) to the Anode Plane Assembly (APA). This corresponds to a time of 1.6 ms for an electric field of 500 V cm\(^{-1}\), which is the nominal running field of the 35 ton phase II. A period of 10 drift windows or 'milliblock' is used as data from the 35 ton prototype is proposed to be read out in this way. Particles are also generated 1 drift window before the start of the milliblock as the electrons these particles produce could still be in the detector if they have not yet drifted to the APA's, as will be the case for real data. An important consideration for tracks caused by the particles which enter before, but cause tracks after T = 0 is that their initial positions in the cryostat have to be corrected in order to reflect their Monte Carlo positions at T = 0, so as to not calculate a Monte Carlo length which is not reconstructable. \\
+
+Due to the random timing of events in this milliblock sample it is important to know the interaction time of the particles, as the reconstruction algorithms all assume that a particle entered the detector at T = 0. Two methods for attributing the interaction time have been written, one which utilises Monte Carlo Truth and another which uses photon detectors. The method using photon detector information matches tracks with flashes using the correlation between track space points and the position of the reconstructed flash in the YZ plane. It then combines this with a relationship between photoelectrons collected and the predicted flash distance from the APA in X to attribute a flash to a given track. This has been found to be very effective, and assigns a T0 less than 1 ms different from a Monte Carlo Truth T0 for over 60\% of tracks. \\
+
+When calculating tracking efficiencies a reconstructed track is compared to the Monte Carlo Truth particle which produced it. A track is considered successfully reconstructed if it meets the following criteria;
+\begin{itemize}
+\item Reconstructed track length is more than or equal to \( 75\% \) of the Monte Carlo track length.
+\item Reconstructed track length is less than or equal to \( 125\% \) of the Monte Carlo track length.
+\item Only one reconstructed track can be matched per Monte Carlo particle.
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{Length_MCC4_ALL.png}
+  \caption{Plot of the reconstructed efficiencies as a function of Monte Carlo Truth detector path length for the milliblock CRY sample.}
+  \label{fig:TrackEff_Length_All}
+\end{figure}
+
+A plot of tracking efficiency for the different reconstruction algorithms as a function of Monte Carlo truth length is shown in Figure \ref{fig:TrackEff_Length_All}. There are a number of interesting features in the figure, such as the decrease in efficiency for particles with detector path length $\sim$200 cm. Tracks with this path length tend to be vertically down-going particles and so deposit a significant amount of charge on one collection plane wire. When this occurs the reconstruction algorithms are unable to perform disambiguation correctly and so the particle is poorly reconstructed. Another feature is the decrease in efficiency of Pandora for particles with path lengths greater than 250 cm, it is found that this is due to particles being stitched due to their correlation in the YZ plane before the X corrections are applied to hits at large times. As noted above hits at large times are reconstructed with X positions far away from the APA's and so stitching across APA's causes large changes in X, significantly increasing track length and resulting in a poorly reconstructed track. 
+
+\section{Development of a proton identification method}
+Before proton identification can be performed using real data it is vitally important that a thorough simulation is performed to assess both the viability of the study and its proposed method. The early stages of this have been performed using the large sample of CRY events used to measure tracking efficiency and to match photon flashes and tracks. \\
+
+An extrapolation from this sample leads to the estimatation that in one hours running there will be roughly 40,000 protons produced compared to almost 3 million muons, however when only stopping particles were considered the numbers became much more similar as almost all muons above 2 GeV are MIP's. As protons are significantly outnumbered by muons in cosmic ray showers it is neccessary to establish a mechanism by which protons can be separated from a cosmic sample. One of the main methods by which particle identification is performed in LAr is using the relationship between $\frac{dE}{dx}$ and residual range. This relationship is particularly powerful near the end of the track, as described in \cite{PIDA} where a theoretical power-law dependence (PIDA) is used to identify protons in ArgoNeuT. Equation \ref{eq:PIDA_eq} shows the power law.
+
+\begin{equation}
+  \label{eq:PIDA_eq}
+  \frac{dE}{dx}_{hyp} = A R^b 
+\end{equation}
+
+As a residual range is required PIDA can only be calculated for stopping particles. There are two methods by which a sample of stopping particles can be acquired, either through cheating (using Monte Carlo information) or using reconstructed data. Only the former has been done thus far, work on using on reconstructed information will continue in parralel with other work. \\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=12cm]{PIDA_Comp_CRY.png}
+  \caption{Plot of the calculated PIDA for protons and muons from the milliblock CRY sample using Monte Carlo Truth to identify the particle type of the reconstructed track.}
+  \label{fig:PIDA_Comp}
+\end{figure}
+
+A filter is applied to reconstructed Monte Carlo data to select only particles which stop in the detector. However, one can imagine the case where a long muon stops in the detector but is reconstructed as two separate tracks. In this case one of the partial tracks would end whilst the muon is still a MIP and so the $\frac{dE}{dx}$ versus residual range of this track would not increase as expected as this track ends. This causes there to still be a MIP peak in the cheated data sets, which contaminate the resulting PIDA calculation. Figure \ref{fig:PIDA_Comp} shows the separation of reconstructed protons and muons from a proton enriched sample of milliblock events. It is clear that further considerations will have to be made to cleanly separate a proton sample from the 35 ton data, however a cut on PIDA values over 17 would gatherproduce a roughly 50\% pure sample of protons with well over 50\% of the reconstructed proton tracks remaining.\\
+
+\section{Incorporating muon generators}
+Two muon generators have been incorporated into LArSoft for use by both the DUNE collaboration and wider community which use LArSoft. A muon generator for surface fluxes developed by Joel Klinger, referred to as Gaissers parameterisation module and a muon generator for underground fluxes developed by Vitaly Kudryavtsev called MUSUN.\\
+
+The MUSUN code will be used for simulations of cosmic background for the DUNE far detector, as along with MUSIC it is a specialised muon transportation and simulation package for detectors at depth. The code was originally written in FORTRAN, though a conversion to C++ had been written for the LZ collaboration. Through combining the two pieces of code it was incorporated into the LArSoft framework where an extensive comparison of muon positions, energies and depths was performed. The results were found to be consistent and so studies using the generator are beginning.\\
+
+\section{Status of camera modules in the 35 ton prototype}
+Following work done in the previous year the camera system was sent to Fermilab to await installation into the 35 ton cryostat. To comply with cleanliness standards full cleaning of all components using an ultrasound cleaner and alcohol was performed in November. A test installation of one camera onto one of the cryostat pipes was also carried out and it was found that the method for securing the modules was not substantial. Technicians at Fermilab agreed to use another method to attach them which they ensured would be sufficient for the modules. \\
+
+The cold and warm cables were made and suitably labelled in preparation for its installation into the cryostat. Prior to installation it was neccessary to build the rack which would house the components for the system. This required writing the documents for unattended use at Fermilab, which was granted in April. \\
+
+At the time of writing all documentation has been produced and the camera system has been transfered to PC4 where the 35 ton resides and is awaiting installation within the coming weeks. Once installed the camera system will look at the high voltage (HV) breakdown in the cryostat. 
+
+\newpage
+
+\section{Thesis plan}
+\begin{itemize}
+
+\item Introduction
+  
+\item Theory
+  \subitem Neutrino oscillations
+  \subitem Status of knowledge from experiments
+  \subitem Liquid Argon detectors
+
+\item Outline of LArSoft
+  \subitem Structure and vision
+  \subitem Geometries
+  \subitem Simulations and analyses
+  
+\item The Deep Underground Neutrino Experiment (DUNE) detector
+  \subitem Goals and status
+  \subitem Modular design
+
+\item The 35 ton prototype
+  \subitem Phase I
+  \subitem Phase II 
+  
+\item Service work for Phase II of the 35 ton prototype
+  \subitem Simulations
+  \subitem Shifts
+  \subitem Hardware
+  
+\item The 35 ton camera system
+
+\item Proton identification in the 35 ton prototype
+  \subitem Basis for identifcation
+  \subitem Simulations
+  \subitem Identification from data
+  
+\item Cosmic background for the DUNE far detector
+  \subitem Cosmic background for the LBNE surface detector
+  \subitem Incorporation of generators into LArSoft
+  \subitem Description of simulations and calculated backgrounds
+    
+\end{itemize}
+
+\section{Thesis timetable}
+Introduction - A brief overview of the work presented in the thesis and its relevance to the DUNE experiment.\\
+
+Theory - Attendence at INSS will prove invaluable as many of the topics which will be in this section were covered there. In addition a reworking of the theory I did during my literature review last year will provide an excellent base at which to start. I would imagine this will be the first chapter to write, though the current experimental best fit data will need to be revisited upon completion.\\
+
+Outline of LArSoft - An overview of how LArSoft is used and how it works as all simualtions and analyses showed in the thesis are done using LArSoft. Is distinct from theory, but still is an introductory part of the thesis and so can be written in early stages. \\
+
+DUNE - Upon the completion of the CD1-refresh a clear statement is made of the design, capabilities and future plans for the experiment are made so this can be used to write this chapter. It is envisioned that this will provide an excellent base with which to write this chapter. \\
+
+The 35 ton prototype - The workings of the prototype are known and papers and reference documents exist detailing the finer structure and results. These will be used to write this chapter, along with any future documents detailing the running of the phase II run. \\
+
+Service work for the 35 ton - Lab book notes are being recorded for work and presentations being made as well as formal notes written. The service tasks performed are well integrated into the wider study of proton identification, and so these notes can likely be included with little change. Shifting will be recorded and observations noted for inclusion. Hardware work will also be recorded. \\
+
+Camera system - Information for development and operation needs to be collated, will also include any results and papers which are written from running. \\
+
+Proton identification - Monte Carlo studies are progressing and look promising, notes need to carry on being recorded. Identification from data will be done upon completion of data taking in early 2016. \\
+
+Cosmic background studies - Notes kept and written detailing the incorporation of muon generation methods. No work has been done on calculating the cosmic background rate for the far detector thus far.
+
+\section{List of conferences attended}
+\begin{itemize}
+
+\item Neutrino School for Theory-Experiment Collaboration (NuSTEC), Fermilab Oct 2014
+  \subitem An interesting school devoted to neutrino cross section physics.
+\item DUNE collaboration meeting, Fermilab, Jan 2015
+\item DUNE collaboartion meeting, Fermilab, Apr 2015
+\item International Neutrino Summer School (INSS), Sao Paulo, Aug 2015
+  \subitem An interesting school covering a wide range of topics in neutrino physics, from its theoretical basis to current and future experimental capabilities. 
+\item DUNE collaboartion meeting, Fermilab, Aug 2015
+
+\end{itemize}
+
+\section{Doctoral Development Programme}
+Participation in the Research and Ethics and Integrity module was continued through a study group done remotely whereby example highlighting examples of good and poor ethics were found and discussed with other students. Continued development of theoretical knowledge was also achieved through attendance at conferences and schools. Development of computing knowledge was increased through further exposure, and a high level of competency has been gained with LArSoft due to its use every day. 
+
+\begin{thebibliography}{56}
+ 
+\bibitem{Church_LArSoft}
+Eric Church, 
+\emph{LArSoft: A Software Package for Liquid Argon Time Projection Drift Chambers},
+\emph{arXiv:1311.6774v2}
+
+\bibitem{Higgs}
+CMS Collaboration,
+\emph{Measurement of the properties of a Higgs boson in the four-lepton final state},
+CMS-HIG-13-002, CERN-PH-EP-2013-220
+\emph{arXiv:1312.5353v1}.
+
+\bibitem{ModBox}
+  S.Amoruso et al.,
+\emph{Study of electron recombination in liquid argon with the ICARUS TPC},
+Nucl. Instr. Meth. A, 523, 2004, 275.
+
+\bibitem{PIDA}
+R. Acciarri et al.,
+  \emph{A study of electron recombination using highly ionizing particles in the ArgoNeuT Liquid Argon TPC}, 
+  FERMILAB-PUB-13-184-E,
+  \emph{arXiv:1306.1712}.
+
+  
+\end{thebibliography}
+\end{document}
