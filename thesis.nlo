@@ -1,0 +1,6 @@
+\nomenclatureentry{z-CRC$CRC$@[{$CRC$}]\begingroup Cosmic Ray Counter\nomeqref {3.0}|nompageref}{13}
+\nomenclatureentry{a-tick$tick$@[{$tick$}]\begingroup Unit of time equal to 500 ns\nomeqref {3.0}|nompageref}{13}
+\nomenclatureentry{z-SiPM$ADC$@[{$ADC$}]\begingroup Analogue to Digital Converter\nomeqref {3.0}|nompageref}{13}
+\nomenclatureentry{z-TPC$TPC$@[{$TPC$}]\begingroup Time Projection Chamber\nomeqref {3.0}|nompageref}{13}
+\nomenclatureentry{z-SiPM$SiPM$@[{$SiPM$}]\begingroup Silicon Photo Multiplier\nomeqref {3.0}|nompageref}{13}
+\nomenclatureentry{z-CRC$SSP$@[{$SSP$}]\begingroup SiPM Signal Processor\nomeqref {3.0}|nompageref}{13}

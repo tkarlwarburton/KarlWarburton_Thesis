@@ -12,14 +12,55 @@ As outlined at the end of Section~\ref{sec:LArSoft} it is important to know the 
 
 In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}, however in simulation the scintillation light was used as this would have been more powerful during continuous running as not all particles would pass through counters but one wold expect almost all of them to produce reconstructable scintillation light. Flashes of lights are reconstructed by using a prebuilt library which models the expected number of photoelectrons to be measured on each photon detector given the 3D position of the source of the flash. This library takes into account the expected quantum efficiencies of each photon detector. \\
 
-When trying to produce an association metric a sample of 10,000 Anti-Muons with a cosmic-like distribution was used as then there there should only be one long track with which to match one reconstructed flash. A cosmic-like distribution is defined as a set of particles which have a $\cos^{2}$ angular distribution, no minimum or maximum energies and have a flat distrbution of initial positions in the $xz$ plane and a uniform initial $y$ position. When this sample was simulated it was clear that the photon detector reconstruction using the prebuilt libraries worked well as the reconstructed flash source normally lay very close to the track which caused it. It was found that a calculation of a Point Of Closest Approach (PoCA)!!~citep{PoCA}!! of the reconstructed track to the flash source gave an effective metric by which the two could be combined. Other metrics such as the distance between the flash source and the track centre, and the perpendicular distance between the flash source and the line joining the start and end of track were investigated but found to provide a less reliable metrics. The latter of these metrics is less effective because the reconstructed tracks are rarely straight lines, due to particles scattering as they travel through the LAr and so the perpendicular distance at each hit must be calculated. A comparison of these metrics is shown in Figure~\ref{fig:PDYZDist}.
+When trying to produce an association metric a sample of 10,000 Anti-Muons with a cosmic-like distribution was used as then there there should only be one long track with which to match one reconstructed flash. A cosmic-like distribution is defined as a set of particles which have a $\cos^{2}$ angular distribution, no minimum or maximum energies and have a flat distrbution of initial positions in the $xz$ plane and a uniform initial $y$ position. When this sample was simulated it was clear that the photon detector reconstruction using the prebuilt libraries worked well as the reconstructed flash source normally lay very close to the track which caused it. It was found that a calculation of a Point Of Closest Approach (PoCA)!!~citep{PoCA}!! of the reconstructed track to the flash source gave an effective metric by which the two could be combined. Other metrics such as the distance between the flash source and the track centre, and the perpendicular distance between the flash source and the line joining the start and end of track were investigated but found to provide a less reliable metrics. The latter of these metrics is less effective because the reconstructed tracks are rarely straight lines, due to particles scattering as they travel through the LAr and so the perpendicular distance at each hit must be calculated. A comparison of these metrics is shown in Figure~\ref{fig:PDYZDist}. \\
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{}
-  \caption[A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton]
+  \caption[Matching tracks and flashes in the 35 ton using positions in the $yz$ plane]
           {A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton.}
   \label{fig:PDYZDist}
+\end{figure}
+
+Another metric by which flashes could be assigned to reconstructed tracks is by utilising the relationship between the number of measured photoelectrons and the distance from the APAs at which they were produced. When considering two flashes of scintillation light that are produced at different distances from the APAs, it would be expected that more photoelectrons would be collected from the photons produced closer to the APAs. Utilising this relationship, shown in Figure~\ref{fig:PD_PExPlot}, means that the distance from the APAs can be predicted from the number of photoelectrons which are measured. This predicted distance can then be compared to the expected $x$ position of a reconstructed track given the difference in flash time and hit times, this is shown in Figure~\ref{fig:PD_PEDiffX}. The difference in these two quantities is used as the second metric as it gives an indication of how well a flash properties match the reconstructed $x$ position of the track, with a value of 0 representing an excellent match. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{}
+    \caption{How the number of photoelectrons measured changes with drift distance.}
+    \label{fig:PD_PExPlot}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{}
+    \caption{The difference in $x$ position using the relationship in Fig~\ref{fig:PD_PExPlot} and the difference in flash and hit times.}
+    \label{fig:PD_PEDiffX}
+  \end{subfigure}
+  \caption[Matching tracks and flashes in the 35 ton using photoelectron information]
+          {How the number of reconstructed photoelectrons changes with increasing drift distance, and how this can be used to predict the interaction time of tracks. How consistent the predicted ineraction times using this method replicate the $x$ positions one would expect given the drift times they correspond to, there is one entry for every track/flash pair.}
+\end{figure}
+
+Using these two metrics it is possible to attempt to assign reconstructed flashes to reconstructed tracks. This is done by finding the track/flash associations which give the lowest sum of the two metrics when they are added in quadrature. Only flashes which are within one drift window of a given track are considered, as flashes outside of this time window cannot have been caused by the reconstructed track. Once flashes are assigned to tracks it is possible to determine how well the matching has performed by comparing the Monte Carlo truth interaction time with the photon detector interaction time. When doing this it is more useful to use a long (16 ms, 32,000 tick) CRY sample as then particles come at random timings as opposed to all at $T$ = 0 as with the Anti-Muon sampe initially considered. This comparison is shown in Figure~\ref{fig:PD_MCPDDiff}, where there is a clear peak at a time difference of 0 $ms$ in the Monte Carlo truth and photon detector interaction times. When zooming in on this peak it can be seen that there is a systematic offset of 0.6 $\mu$s, this is due to an electronics offset applied in the simulation to the photon detector system. Three lines are shown in Figure~\ref{fig:PD_MCPDDiff}, one showing when both metrics are utilised and also one each for when only one of single metrics are used. The single metric comparisons are made as if the absolute light levels in a detector are unknown the difference in predicted $x$ metric would not be able to be used as the expected number of photoelectrons for a given drift distance would be difficult to determine.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{}
+    \caption{The difference in interaction times.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.45\textwidth]{}
+    \caption{Zoomed in at low time differences.}
+  \end{subfigure}
+  \caption[The difference in Monte Carlo interaction times and the predicted interaction times using the photon detectors]
+          {The difference in Monte Carlo interaction times and the predicted interaction times using the photon detectors.}
+          \label{fig:PD_MCPDDiff}
 \end{figure}
 
 %********************************** % Second Section  *************************************

@@ -119,6 +119,22 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/PDF/WireAngleCond
 -include .gpi.d
 thesis.d: $$(call graphics-source,)
 thesis.pdf thesis._graphics: $$(call graphics-target,)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
+# MISSING stem "" - allowed extensions are ".png,.jpg,.pdf" - leave comment here - it affects the build
+-include .gpi.d
+thesis.d: $$(call graphics-source,)
+thesis.pdf thesis._graphics: $$(call graphics-target,)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)
