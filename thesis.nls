@@ -1,0 +1,25 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$tick$}]\begingroup Unit of time equal to 500 ns\nomeqref {3.0}
+		\nompageref{12}
+
+ \nomgroup{Z}
+
+  \item [{$CRC$}]\begingroup Cosmic Ray Counter\nomeqref {3.0}
+		\nompageref{12}
+  \item [{$SSP$}]\begingroup SiPM Signal Processor\nomeqref {3.0}
+		\nompageref{12}
+  \item [{$MIP$}]\begingroup Minimally Ionising Particle\nomeqref {4.0}
+		\nompageref{20}
+  \item [{$MPV$}]\begingroup Most Probable Value\nomeqref {4.0}
+		\nompageref{20}
+  \item [{$ADC$}]\begingroup Analogue to Digital Converter\nomeqref {3.0}
+		\nompageref{12}
+  \item [{$SiPM$}]\begingroup Silicon Photo Multiplier\nomeqref {3.0}
+		\nompageref{12}
+  \item [{$TPC$}]\begingroup Time Projection Chamber\nomeqref {3.0}
+		\nompageref{12}
+
+\end{thenomenclature}

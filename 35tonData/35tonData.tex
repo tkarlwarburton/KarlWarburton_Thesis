@@ -157,9 +157,6 @@ Transitions to a higher noise state associated with strong signals at high frequ
 Following the noise removal outlined above hit and track finding was still more difficult than in simulations due to the still elevated noise level. In order for a sensible number of hits to be reconstructed the hit finding threshold had to be substantially increased in data as compared to Monte Carlo, this meant that many of the low energy hits would not be reconstructed. \\
 
 A potential solution to not reconstructing the low energy hits is to use the counter positions to select only hits which could have caused co-incidences. When determining whether a reconstructed hit could have caused the counter co-incidence a two-dimensional window around the counter edges in the YZ plane is constructed and timing information is used to extend this to three dimensions.  The $x$ position of the hit can be calculated using the hit time and electron drift velocity using Equation~\ref{eq:HitTime}.
-\begin{equation} \label{eq:HitTime}
-  X_{Hit} = T_{Hit} \times V_{Drift}
-\end{equation}
 
 Determining whether collection plane hits are within the counter window is trivial as they have a constant Z position and either cover the full detector height (tall APAs) or roughly half of the detector height (short APAs). The wrapping of the induction planes however means that each wire segment has to be considered individually and that multiple segments of a given wire could lie within the counter shadow. Choosing between these potential wire segments is done by iterating through the following steps. If at any point only one segment satisfies the condition then this segment is chosen:
 \begin{itemize}

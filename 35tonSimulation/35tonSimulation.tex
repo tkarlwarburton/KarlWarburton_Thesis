@@ -2,6 +2,9 @@
 %********************************** Chapter XXXXXXXX ***************************
 %*******************************************************************************
 
+\nomenclature[z-MIP]{MIP}{Minimally Ionising Particle}
+\nomenclature[z-MPV]{MPV}{Most Probable Value} 
+
 \chapter{Simulations of the 35 ton prototype}  %Title of chapter
 
 \graphicspath{{35tonSimulation/Figs/PDF/}{35tonSimulation/Figs/Raster/}{35tonSimulation/Figs/}}
@@ -16,7 +19,7 @@ When trying to produce an association metric a sample of 10,000 Anti-Muons with 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{}
+  %\includegraphics[width=0.85\textwidth]{}
   \caption[Matching tracks and flashes in the 35 ton using positions in the $yz$ plane]
           {A comparison of $yz$ comparisons of reconstructed tracks and flashes in the 35 ton.}
   \label{fig:PDYZDist}
@@ -28,14 +31,14 @@ Another metric by which flashes could be assigned to reconstructed tracks is by 
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
-    \includegraphics[width=0.45\textwidth]{}
+    %\includegraphics[width=0.45\textwidth]{}
     \caption{How the number of photoelectrons measured changes with drift distance.}
     \label{fig:PD_PExPlot}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
-    \includegraphics[width=0.45\textwidth]{}
+    %\includegraphics[width=0.45\textwidth]{}
     \caption{The difference in $x$ position using the relationship in Fig~\ref{fig:PD_PExPlot} and the difference in flash and hit times.}
     \label{fig:PD_PEDiffX}
   \end{subfigure}
@@ -43,19 +46,19 @@ Another metric by which flashes could be assigned to reconstructed tracks is by 
           {How the number of reconstructed photoelectrons changes with increasing drift distance, and how this can be used to predict the interaction time of tracks. How consistent the predicted ineraction times using this method replicate the $x$ positions one would expect given the drift times they correspond to, there is one entry for every track/flash pair.}
 \end{figure}
 
-Using these two metrics it is possible to attempt to assign reconstructed flashes to reconstructed tracks. This is done by finding the track/flash associations which give the lowest sum of the two metrics when they are added in quadrature. Only flashes which are within one drift window of a given track are considered, as flashes outside of this time window cannot have been caused by the reconstructed track. Once flashes are assigned to tracks it is possible to determine how well the matching has performed by comparing the Monte Carlo truth interaction time with the photon detector interaction time. When doing this it is more useful to use a long (16 ms, 32,000 tick) CRY sample as then particles come at random timings as opposed to all at $T$ = 0 as with the Anti-Muon sampe initially considered. This comparison is shown in Figure~\ref{fig:PD_MCPDDiff}, where there is a clear peak at a time difference of 0 $ms$ in the Monte Carlo truth and photon detector interaction times. When zooming in on this peak it can be seen that there is a systematic offset of 0.6 $\mu$s, this is due to an electronics offset applied in the simulation to the photon detector system. Three lines are shown in Figure~\ref{fig:PD_MCPDDiff}, one showing when both metrics are utilised and also one each for when only one of single metrics are used. The single metric comparisons are made as if the absolute light levels in a detector are unknown the difference in predicted $x$ metric would not be able to be used as the expected number of photoelectrons for a given drift distance would be difficult to determine.
+Using these two metrics it is possible to attempt to assign reconstructed flashes to reconstructed tracks. This is done by finding the track/flash associations which give the lowest sum of the two metrics when they are added in quadrature. Only flashes which are within one drift window of a given track are considered, as flashes outside of this time window cannot have been caused by the reconstructed track. Once flashes are assigned to tracks it is possible to determine how well the matching has performed by comparing the Monte Carlo truth interaction time with the photon detector interaction time. When doing this it is more useful to use a long (16 ms, 32,000 tick) CRY sample as then particles come at random timings as opposed to all at $T$ = 0 as with the Anti-Muon sampe initially considered. This comparison is shown in Figure~\ref{fig:PD_MCPDDiff}, where there is a clear peak at a time difference of 0 $ms$ in the Monte Carlo truth and photon detector interaction times. When zooming in on this peak it can be seen that there is a systematic offset of 0.6 $\mu$s, this is due to an electronics offset applied in the simulation to the photon detector system. \\
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
-    \includegraphics[width=0.45\textwidth]{}
+    %\includegraphics[width=0.45\textwidth]{}
     \caption{The difference in interaction times.}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
-    \includegraphics[width=0.45\textwidth]{}
+    %\includegraphics[width=0.45\textwidth]{}
     \caption{Zoomed in at low time differences.}
   \end{subfigure}
   \caption[The difference in Monte Carlo interaction times and the predicted interaction times using the photon detectors]
@@ -63,11 +66,82 @@ Using these two metrics it is possible to attempt to assign reconstructed flashe
           \label{fig:PD_MCPDDiff}
 \end{figure}
 
-%********************************** % Second Section  *************************************
-\section{Calibrating calorimetric responses}  %Section - X.2
+Three lines are shown in Figure~\ref{fig:PD_MCPDDiff}, one showing when both metrics are utilised and also one each for when only one of single metrics are used. The single metric comparisons are made as if the absolute light levels in a detector are unknown the difference in predicted $x$ metric would not be able to be used as the expected number of photoelectrons for a given drift distance would be difficult to determine. It can be seen that by utilising both metrics there are less incorrect assigments, though the track/flash matching still performs well when only a single metric is used. 
 
+%********************************** % Second Section  *************************************
+\section{Calibrating calorimetric constants}  %Section - X.2
+Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameters which need to be tuned in order to ensure that this is doen correctly are the $Recomb_A$ and $Recomb_B$ of Equations~\ref{eq:ModBox_A} and~\ref{eq:ModBox_B} respectively. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the Minimally Ionising Particle (MIP) peak which in LAr should have a value of 2.1 MeV cm$^{-3}$. To do this the sample of 10,000 Anti-Muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
+
+To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, with the different planes separated out as each one will have its own normalisation factor. A Landau!!citep{LandaDist} distribution is then fitted to each of the planes to discern the Most Probable Value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 2.1 MeV cm$^{-3}$ then the normalisation factors are scaled through a process of trial and error until the correct MPVs are measured. An example of the tuning being applied in shown in Figure~\ref{fig:CaloTune}. Tuning of the calorimetric constants is requried whenever the electronics gains or signal shaping functions are changed.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=0.45\textwidth]{}
+    \caption{Before a normalisation correction is applied.}
+    \label{fig:CaloTune_Before}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=0.45\textwidth]{}
+    \caption{After a normalisation correction is applied.}
+    \label{fig:CaloTune_After}
+  \end{subfigure}
+  \caption[The tuning of the calorimetric constants in the 35 ton]
+          {How the $\frac{dE}{dx}$ MPVs change for each plane when a change is made to the electronics gains in the 35 ton. Figure~\ref{fig:CaloTune_Before} shows the MPVs after the change using the previous constants, whilst Figure~\ref{fig:CaloTune_After} shows the MPVs after a retuning of the constants.}
+          \label{fig:CaloTune}
+\end{figure}
+        
 %********************************** % Third Section  *************************************
 \section{Discerning reconstruction efficiencies} \label{sec:SimRecoEffic} %Section - X.3
+Knowledge of the strengths and weaknesses of different tracking algorithms is vital when using them for physics analyses, to this end it is useful to develop a metric by which they can be compared. In order to do this a series of conditions have to be applied to the reconstructed tracks from a large set of simulated particles which are reconstructed using different tracking algorithms. It is interesting to observe what the effect of event complexity has on the reconstruction algorithms and so efficiencies will be calculated for both the Anti-Muon and CRY samples used in Section~\ref{sec:SimInteractionTimes}. \\
+
+The critera upon which to determine whether a particle is well reconstructed has to be carefully chosen as every definition will have limitations. For example, consider a particle that travels 100 cm in the active volume of the detector but is reconstructed as 2 separate tracks (tracks 1 and 2), with lengths 77 cm and 23 cm respectively. Firstly, should these tracks should be merged, or left separate? If the reconstruction algorithms have found them to be separate tracks then it would be difficult to ascertain that they are from the sample particle in real data, and so in considerations here they are not merged. One metric of efficiency would be to consider a track well reconstructed if it has a length between 75$\%$ and 125$\%$ of the Monte Carlo truth length that the particle traversed in the detector, in which case track 1 would be considered well reconstructed. Another metric however would be to consider a track well reconstructed if the Monte Carlo truth distance the particle traversed in the detector is between 75$\%$ and 125$\%$ of the reconstructed length, in which case neither track would be considered well matched. Both metrics have used exactly the same tracks and a seemingly identical method of evaluating whether a track is well reconstructed or not, but have got the opposite results. As such it is wrong to say which consideration gives the correct result, but instead the result of each should be considered equally. In discussions here the former definition of efficency will be used, such that a track is considered well reconstructed if:
+\begin{itemize}
+\item Reconstructed track length is more than or equal to 75$\%$ of the Monte Carlo track length.
+\item Reconstructed track length is less than or equal to 125$\%$ of the Monte Carlo track length.
+\item Only one reconstructed track can be matched per Monte Carlo particle.
+\end{itemize}
+
+When calculating efficiencies it is important to consider much more than just the ratio of reconstructed to true track length. To this end efficiencies with regards to many aspects of the tracks are calculated:
+\begin{itemize}
+\item Track length
+\item Energy deposited in the active volume of the detector
+\item The angle $\theta$ of the track
+\item The angle $\phi$ of the track
+\end{itemize}
+In all efficiency plots the Monte Carlo truth quantity, not the reconstructed quantity is shown so as to reflect how the variations of these quantities affect the reconstruction efficiencies. It is also useful to observe the effect on reconstruction of failed disambiguation and incorrect interaction time determination. To show this two forms of reconstruction are ran on the particles, one no Monte Carlo information is used and another where the disambiguation and interaction time are cheated. Cheated disambiguation means using the Monte Carlo truth information of the energy despoition to correctly assign which wire segment the energy was deposited on. \\
+
+The calculation of reconstruction efficiencies also serves as an effective method upon which reconstruction algorithms can be further developed as it identifies aspects which do not work as expected. For example when the efficiencies for the CRY sample were initially calculated they were significantly lower than for the Anti-Muon sample, but only when disambiguation was not cheated. It transpired that this was because the disambiguation was only selecting the largest collection of hits on each plane for each TPC. This is not a problem when only 1 particle is simulated and will reduce the number of noise hits but in a CRY sample of 16 ms there will almost certainly be multiple particles in each TPC. Removing the hits from all but one of these multiple particles will cause them to have no reconstructed track, and thus cause the efficiency to drop significantly. Upon making the dismabiguation algorithm no longer have this restriction the reconstruction efficiencies of the Anti-Muon and CRY samples were observed to become much more similar. \\
+
+Another initial feautre of the CRY sample not present in the Anti-Muon sample was a rapid decrease in reconstruction efficiency for track lengths above 250 cm, which is roughly the length of the long drift volume. The cause of this is that tracks are reconstructed separately in the long and short drift volumes before being merged when they are found to be co-linear in the $yz$ plane. This is not a problem in the Anti-Muon sample as the $x$ position of the hits calculated using Equation~\ref{eq:HitTime} will be correct. However, when the same is done for hits in the CRY sample using particles with large interaction times the $x$ positions will have offsets proportional to the interaction time unless the hit time is corrected by Equation~\ref{eq:HitTime_Int}. The result of this is that merged tracks can have discontinuities in their $x$ coordinates of more than 20 m. As the interaction time of the track is calculated using the output of the tracking algorithms it is not possible to directly correct for the interaction time at present. It is however possible to carefully construct the stitched tracks so as not to have a jump in $x$ by ......
+
+\begin{subequations} \begin{align}
+  X_{Hit} &= T_{Hit} \times V_{Drift} \label{eq:HitTime} \\
+  T_{Hit} &= T_{Measured} - T_{Interaction} \label{eq:HitTime_Int}
+\end{align} \end{subequations}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=0.45\textwidth]{}
+    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \label{fig:SimEffic_Length_Before}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    %\includegraphics[width=0.45\textwidth]{}
+    \caption{Reconstruction efficiencies for a CRY sample.}
+    \label{fig:SimEffic_Length_After}
+  \end{subfigure}
+  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length.]
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length. The efficiencies are shown for non-cheated reconstruction (square blocks) and cheated reconstruction (triangle blocks) for both PMTrack (black) and Pandora (blue).}
+          \label{fig:SimEffic_Length}
+\end{figure}
 
 %********************************** % Fourth Section  *************************************
 \section{Performing particle identification}  %Section - X.4

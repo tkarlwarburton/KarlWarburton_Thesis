@@ -1,20 +1,16 @@
 %*******************************************************************************
 %*********************************** Chapter XXXXXXXX *****************************
 %*******************************************************************************
-
 \chapter{The Deep Underground Neutrino Experiment}  %Title of chapter
 
 \graphicspath{{DUNE/Figs/PDF/}{DUNE/Figs/Raster/}{DUNE/Figs/Vector}}
 
-\nomenclature[z-CRC]{$CRC$}{Cosmic Ray Counter}
-
-\nomenclature[a-tick]{$tick$}{Unit of time equal to 500 ns}
-\nomenclature[z-SiPM]{$ADC$}{Analogue to Digital Converter}
-\nomenclature[z-TPC]{$TPC$}{Time Projection Chamber}
-
-\nomenclature[z-SiPM]{$SiPM$}{Silicon Photo Multiplier}
-\nomenclature[z-CRC]{$SSP$}{SiPM Signal Processor}
-
+\nomenclature[a-tick]{tick}{Unit of time equal to 500 ns}
+\nomenclature[z-CRC]{CRC}{Cosmic Ray Counter}
+\nomenclature[z-SiPM]{ADC}{Analogue to Digital Converter}
+\nomenclature[z-TPC]{TPC}{Time Projection Chamber}
+\nomenclature[z-SiPM]{SiPM}{Silicon Photo Multiplier}
+\nomenclature[z-CRC]{SSP}{SiPM Signal Processor}
 
 %********************************** %First Section  **************************************
 \section{DUNE location and beamline} %Section - X.1 
@@ -36,7 +32,7 @@
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.85\textwidth]{}
+  %\includegraphics[width=0.85\textwidth]{}
   \caption[The wrapped wires of the 35 ton]{A schematic showing what the wrapped wire planes of the DUNE detector designs looked like in the 35 ton.}
   \label{fig:35tonWireGeom}
 \end{figure}
@@ -100,7 +96,7 @@ The deconvoluted signals are reconstructed into hits by identifying regions that
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.85\textwidth]{}
+  %\includegraphics[width=0.85\textwidth]{}
   \caption[Reconstructed hits from a simulated energy deposition]{The deconvoluted signal and reconstructed hits on a single wire for a simulated energy deposition in the 35 ton. The plot is shown with increasing charge on the $y$ axis, and increasing time (in ticks) on the $x$ axis. The black line shows the deconvoluted signal, whilst the orange lines show the reconstructed hits.}
   \label{fig:LotsOfHits}
 \end{figure}
@@ -119,8 +115,19 @@ The inclination of the wire planes has to be carefully chosen so as to minise bo
 
 Once the hits have been disambiguated they are combined to make clusters in each of the three planes, before the clusters are merged to make reconstructed tracks or showers. The clustering process is usually performed in wire-tick space on each plane separately with hits from a single physical entitiy being grouped together. It is possible to help seed the start of clusters by using imaging techniques such as a Harris transform, or to identify straight lines by using Hough transforms. As hits from a physical entity are unlikely to remain on a single channel or all come at identical times, clusters are often spread out over many channels for a range of times especially when performing clustering for showers. \\
 
-Once clusters have been identified in each plane they can then be merged into 3-dimensional tracks and showers. The two most common tracking algorithms are PMATrack!!citep{PMATrack}!! and Pandora!!citep{Pandora}!!, and the two most common showering algorithms are EMShower3D!!citep{EMShower3D}!! and EMShower!!citep{EMShower}!!. Once 3D objects have been reconstructed the calorimetric quantities need to be determined, this is often done separately for each plane. Two models exist for calculating $\frac{dE}{dx}$ in LArSoft, Birks model!!citep{BirksModel}!! and a modified box model!!citep{ModBox}!!, though traditionally the later is used. The modified box model uses the deposited charge ($dQ$) and track pitch ($dx$) information and then corrects them for the recombination effects to calculate the $\frac{dE}{dx}$ of the hit as in Equation~\ref{eq:ModBox}. When performing calorimetry it is important that the interaction time is known so that the $x$ positions of hits can be corrected, as they will be reconstructed assuming an interaction time of 0 s meaning that when the interaction time is non-zero the hit and track positions will be incorrect. 
+Once clusters have been identified in each plane they can then be merged into 3-dimensional tracks and showers. The two most common tracking algorithms are PMATrack!!citep{PMATrack}!! and Pandora!!citep{Pandora}!!, and the two most common showering algorithms are EMShower3D!!citep{EMShower3D}!! and EMShower!!citep{EMShower}!!. Once 3D objects have been reconstructed the calorimetric quantities need to be determined, this is often done separately for each plane. Two models exist for calculating $\frac{dE}{dx}$ in LArSoft, Birks model!!citep{BirksModel}!! and a modified box model!!citep{ModBox}!!, though traditionally the later is used. Both models calculate the $\frac{dE}{dx}$ of a hit using the deposited charge ($dQ$) and the track pitch ($dx$) of the hit as well as the conversion of ADC value to number of electrons ($C_{GeV \rightarrow e^{-}}$), the LAr density ($\rho$), the electric field ($E_{field}$) and the tunable electron recombination factors ($Recomb_{X}$). The series of equations used in Birks model is shown in Equation~\ref{eq:Birks}, whilst those used in the modified box are shown in Equation~\ref{eq:ModBox}.
 
-\begin{equation} \label{eq:ModBox}
-  \frac{dE}{dx} = 
-\end{equation}
+\begin{subequations}\begin{align}
+    \frac{dE}{dx} &= \frac{ dQdx_{e} }{ A - B } \label{eq:Birks} \\
+    dQdx_{e} &= \frac{ dQ \times C_{lifetime} }{ dx \times C_{ADC \rightarrow e^{-}} } \\
+    A &= \frac{ Recomb_{A} }{ C_{GeV \rightarrow e^{-}} } \label{eq:Birks_A}\\
+    B &= \frac{ \frac{Recomb_{B}}{\rho} }{ E_{field} \times dQdx_{e} } \label{eq:Birks_B}
+\end{align}\end{subequations}
+
+\begin{subequations}\begin{align}
+    \frac{dE}{dx} &= \frac{ e^{A} - Recomb_{A} }{ B } \label{eq:ModBox} \\
+    A &= B \times C_{GeV \rightarrow e^{-}} \times \frac{dQ}{dx} \label{eq:ModBox_A}\\
+    B &= \frac{ Recomb_{B} }{ \rho \times E_{field} } \label{eq:ModBox_B}
+\end{align}\end{subequations}
+        
+When performing calorimetry it is also important that the interaction time is known so that the $x$ positions of hits can be corrected, as they will be reconstructed assuming an interaction time of 0 s meaning that when the interaction time is non-zero the hit and track positions will be incorrect. 
