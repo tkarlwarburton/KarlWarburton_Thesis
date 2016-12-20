@@ -92,18 +92,32 @@ The computational process is often split into five separate distinct processes t
 
 Later significant focus will be given to the reconstruction of TPC data, and so it is neccessary to briefly illustrate the mechanisms by which TPC data is reconstructed in LArSoft. After the full detector simulation or data taking, detector effects such as the electronics response function and a pedestal offset have to removed. Once these effects are removed the signal is estimated using the optimal value of $signal/noise$ which would produce the measured signal. This process does not conserve pulse height and is not gauranteed to preserve the normalisation and is called deconvolution. The deconvoluted signals are all unipolar distributions which means that Gaussian distributions can then be fitted to them when trying to reconstruct hits. \\
 
-The deconvoluted signals are reconstructed into hits by identifying regions that are above a threshold value and then attempting to replicate the signal in these regions by introducing Gaussian ditrbutions. For isolated hits this is typically acheived using only one Gaussian distrbution, however for large energy depositions over a large period time where many particles are involved multiple Guassian distributions are often required. The hits reconstructed due to one such complex deposition is shown in Figure~\ref{fig:LotsOfHits}, where the black line shows the deconvoluted signal and the orange lines show the reconstructed hits. \\
+The deconvoluted signals are reconstructed into hits by identifying regions that are above a threshold value and then attempting to replicate the signal in these regions by introducing Gaussian ditrbutions. For isolated hits this is typically acheived using only one Gaussian distrbution, however for large energy depositions over a large period time where many particles are involved multiple Guassian distributions are often required. Large energy depositions are also possible when the orientation of the particle alligns with a wire, this means that all of the deposited energy is collected on this single wire. The hits reconstructed due to one such deposition on a single wire is shown in Figure~\ref{fig:LotsOfHits} along with examples of more simple energy depositions on each of the collection and induction planes.\\
 
 \begin{figure}[h]
   \centering
-  %\includegraphics[width=0.85\textwidth]{}
-  \caption[Reconstructed hits from a simulated energy deposition]{The deconvoluted signal and reconstructed hits on a single wire for a simulated energy deposition in the 35 ton. The plot is shown with increasing charge on the $y$ axis, and increasing time (in ticks) on the $x$ axis. The black line shows the deconvoluted signal, whilst the orange lines show the reconstructed hits.}
+  \begin{subfigure}{0.95\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{CollectionPlane}
+    \caption{Collection plane depositions.}
+  \end{subfigure}
+  \begin{subfigure}{0.95\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{InductionPlane}
+    \caption{Induction plane depositons.}
+  \end{subfigure}
+  \begin{subfigure}{0.95\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Complex}
+    \caption{A large collection plane deposition over a large period of time.}
+  \end{subfigure}
+  \caption[Reconstructed hits from a simulated energy deposition]{The raw and deconvoluted signals with reconstructed hits on a single wire for a simulated energy deposition. The plot is shown with increasing charge on the $y$ axis, and increasing time (in ticks) on the $x$ axis. The black line shows the raw signal, the blue line shows the deconvoluted signal and the orange lines show the reconstructed hits.}
   \label{fig:LotsOfHits}
 \end{figure}
 
 As noted in Section~\ref{sec:DUNEDetector} and Section~\ref{sec:The35tonDetector} the DUNE FD and the 35 ton both have wrapped wires on the induction planes. A result of this is that the location of where the reconstructed hit occured on an induction wire is ambiguous as a single wire has many wire segments, as shown in Figure~\ref{fig:35tonWireGeom}. An important feature of this ambiguity is that the TPC in which the hit occured cannot be identified unless it is combined with another hit. These ambiguities do not extend to the collection plane wires as they are not wrapped and so consist of only a single wire segment in a single TPC. Hits are combined across the three planes by identifying wire segments on each plane which intersect and have hits at common times. In the traditional reconstruction process only hits that make these so-called 'triple points' are considered dismabiguated, with other hits being identified as noise hits causing them to be discarded. \\
 
-The inclination of the wire planes has to be carefully chosen so as to minise both the number of wires requried and the number of times that wire triplets intersect. It is also important that all wires on a given APA are either read at the top or base of the APA due to the number of APAs required to build a detector of DUNEs scale. The inclination of wires in the 35 ton was 45$^{\circ}$ $\pm$ 0.7$^{\circ}$ meaning that many wire triplets cross twice and some wire pairs cross three times. When wire triplets cross multiple times the triplet which has the smallest distance between the common intersection point and the two-wire intersection points is chosen as the best intersection candidate. The different wire pitches are neccessary so that one of the triple points can be evaluated to be a better candidate, as with a wire pitch of 45$^{\circ}$ both triple points would be equally good fits. The inclination of wires in the FD was chosen to be 36$^{\circ}$ to remove the possibility of multiple intersection points as given the geometry of the APAs multiple intersection points are impossible and so disambiguation is much simpler, but there are more wires on each of the induction planes making it more expensive to instrument. This is shown in Figure~\ref{fig:WirePitches}.
+The inclination of the wire planes has to be carefully chosen so as to minise both the number of wires requried and the number of times that wire triplets intersect. It is also important that all wires on a given APA are either read at the top or base of the APA due to the number of APAs required to build a detector of DUNEs scale. The inclination of wires in the 35 ton was 45$^{\circ}$ $\pm$ 0.7$^{\circ}$ meaning that many wire triplets cross twice and some wire pairs cross three times. When wire triplets cross multiple times the triplet which has the smallest distance between the common intersection point and the two-wire intersection points is chosen as the best intersection candidate. The different wire pitches are neccessary so that one of the triple points can be evaluated to be a better candidate, as with a wire pitch of 45$^{\circ}$ both triple points would be equally good fits. The inclination of wires in the FD was chosen to be 36$^{\circ}$ to remove the possibility of multiple intersection points as given the geometry of the APAs multiple intersection points are impossible and so disambiguation is much simpler, but there are more wires on each of the induction planes making it more expensive to instrument. This is shown in Figure~\ref{fig:WirePitches}. \\
 
 \begin{figure}[h]
   \centering
@@ -130,4 +144,4 @@ Once clusters have been identified in each plane they can then be merged into 3-
     B &= \frac{ Recomb_{B} }{ \rho \times E_{field} } \label{eq:ModBox_B}
 \end{align}\end{subequations}
         
-When performing calorimetry it is also important that the interaction time is known so that the $x$ positions of hits can be corrected, as they will be reconstructed assuming an interaction time of 0 s meaning that when the interaction time is non-zero the hit and track positions will be incorrect. 
+When performing calorimetry it is also important that the interaction time is known so that the $x$ positions of hits can be corrected, as they will be reconstructed assuming an interaction time of 0 s. This assumption is made because when using beam events the beam trigger is placed at a time of $T = 0$. An unknown interaction time causes the hit and track positions to be calculated incorrectly, and will also skew the calorimetrics corrections, as recombination is a drift dependant effect.

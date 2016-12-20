@@ -104,9 +104,39 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_APAS
 -include DUNE/Figs/Raster/35ton_xCenter.png.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35ton_xCenter.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_xCenter.png)
+-include DUNE/Figs/Raster/CollectionPlane.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/CollectionPlane.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/CollectionPlane.png)
+-include DUNE/Figs/Raster/InductionPlane.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/InductionPlane.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/InductionPlane.png)
+-include DUNE/Figs/Raster/Complex.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/Complex.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/Complex.png)
 -include DUNE/Figs/PDF/WireAngleCondition.pdf.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/PDF/WireAngleCondition.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/PDF/WireAngleCondition.pdf)
+-include 35tonSimulation/Figs/Raster/DiffTrackSeps.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+-include 35tonSimulation/Figs/Raster/NumPE_Distance.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+-include 35tonSimulation/Figs/Raster/DiffFlashPredReco.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+-include 35tonSimulation/Figs/Raster/UnCorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/CorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)

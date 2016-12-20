@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Acciarri et~al., 2013]{PIDA_Paper}
+Acciarri, R. et~al. (2013).
+\newblock {A study of electron recombination using highly ionizing particles in
+  the ArgoNeuT Liquid Argon TPC}.
+\newblock {\em JINST}, 8:P08005.
+
 \bibitem[Agostinelli et~al., 2003]{GEANT4}
 Agostinelli, S. et~al. (2003).
 \newblock Geant4—a simulation toolkit.
