@@ -137,6 +137,15 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster
 -include 35tonSimulation/Figs/Raster/CorrectedCanvas.png.gpi.d
 thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/BetheBlock.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/BetheBlock.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/BetheBlock.png)
+-include 35tonSimulation/Figs/Raster/StoppingPower.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/StoppingPower.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/StoppingPower.png)
+-include 35tonSimulation/Figs/Raster/TruthPIDA.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/TruthPIDA.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/TruthPIDA.png)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)

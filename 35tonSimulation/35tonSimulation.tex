@@ -72,10 +72,10 @@ From Figure~\ref{fig:PD_MCPDDiff} it can clearly be seen that the metric using t
 
 
 %********************************** % Second Section  *************************************
-\section{Calibrating calorimetric constants}  %Section - X.2
-Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameters which need to be tuned in order to ensure that this is doen correctly are the $Recomb_A$ and $Recomb_B$ of Equations~\ref{eq:ModBox_A} and~\ref{eq:ModBox_B} respectively. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the Minimally Ionising Particle (MIP) peak which in LAr should have a value of 2.1 MeV cm$^{-3}$. To do this the sample of 10,000 Anti-Muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
+\section{Calibrating calorimetric constants} \label{sec:MCCalib} %Section - X.2
+Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameters which need to be tuned in order to ensure that this is doen correctly are the $Recomb_A$ and $Recomb_B$ of Equations~\ref{eq:ModBox},~\ref{eq:ModBox_B},~\ref{eq:Birks_A} and~\ref{Birks_B} respectively. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the Minimally Ionising Particle (MIP) peak which in LAr should have a value of 1.8 MeV cm$^{-3}$. To do this the sample of 10,000 Anti-Muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
 
-To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, with the different planes separated out as each one will have its own normalisation factor. A Guassian distribution is then fitted around the peaks for each of the planes to discern the Most Probable Value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 2.1 MeV cm$^{-3}$ then the normalisation factors are scaled through a process of trial and error until the correct MPVs are measured. An example of the tuning being applied in shown in Figure~\ref{fig:CaloTune}. Tuning of the calorimetric constants is requried whenever the electronics gains or signal shaping functions are changed.
+To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, with the different planes separated out as each one will have its own normalisation factor. A Guassian distribution is then fitted around the peaks for each of the planes to discern the Most Probable Value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 1.8 MeV cm$^{-3}$ then the normalisation factors are scaled through a process of trial and error until the correct MPVs are measured. An example of the tuning being applied is shown in Figure~\ref{fig:CaloTune}. Tuning of the calorimetric constants is requried whenever the electronics gains or signal shaping functions are changed.
 
 \begin{figure}[h!]
   \centering
@@ -228,45 +228,29 @@ A striking feature of Figure~\ref{fig:SimEffic_Length} is the rapid decrease in 
   T_{Hit} &= T_{Measured} - T_{Interaction} \label{eq:HitTime_Int}
 \end{align} \end{subequations}
 
+It is clear from Figure~\ref{fig:SimEffic_Length} that tracks of lengths less than 30 cm are poorly reconstructed. The very low efficiency for tracks of less than 10 cm can be partially attributed to particles of lengths less than 1 cm as these particles are too short to be reconstructed using the current reconstruction process. These very short particles represent ~30\% of the particles with lengths below 10 cm. Though these particles will need to be reconstructed when looking for supernovea bursts special algorithms will probably be written as these particles will only cross 1 or 2 wires in each plane and so may look similar to noise hits meaning that they will not be combined into clusters. Another issue is that the low energies of these particles may mean that the hits are below threshold and so will not be reconstructed. The reconstruction of longer tracks will also be affected by the number of wires which they cross, though this should matter much less for particles with lengths of more than 5 cm as they will have crossed roughly 10 wires in each plane, this should be enough to reliably construct clusters. This can be seen to be the case for PMTrack when considering the Anti-Muon sample, as the efficiencies for track lengths between 10 and 20 cm is roughly the same as that for track lengths between 20 and 30 cm, however when considering the CRY sample there is still a significant decrease in efficiency. This is attributed to the more complex event structure in the CRY sample, where secondary particles are produced which are mis-reconstructed, as when considering only muons the reconstruction efficiency is seen to be the same as that for the Anti-Muon sample. \\
 
+The trend of increasing efficiency for longer track lengths from Figure~\ref{fig:SimEffic_Length} can also be seen in Figure~\ref{fig:SimEffic_EnDepos} as the energy deposited increases. This is because particles which deposit more energy will tend to have travel further in the detector. The amount of energy that paticles deposit is limited by the size of the detector though as particles with an energy of more than 1 GeV are energetic enough to through-going MIPS. This results in few particles depositing more than 1 GeV in the detector causing the uncertainty in the reconstrution efficiency to increase above this energy. \\
+
+It is also interesting to note the pronounced decreases in reconstruction efficiencies for particular angles shown in Figure~\ref{fig:SimEffic_Theta} and Figure~\ref{fig:SimEffic_Phi}. The decrease in efficiency at $\phi = \frac{\pi}{2}$ can be attributed to the drop in efficiency for tracks of ~200 cm, as this corresponds to the vertical height of the detector meaning that few colletion wires are hit and so determining the triple points needed by the disambiguation are difficult to find. This is verified by the large increase in efficiency achieved by cheating the disambiguation. Similarly the decrease in efficiency at $\theta = \frac{\pi}{2}$ can be attributed to particles which are perpendicular to the collection wires resulting in few collection wires being hit. \\  
+
+The information from Figures~\ref{fig:SimEffic_Theta} and~\ref{fig:SimEffic_Phi} is combined in Figure~\ref{fig:SimEffic_ThetaPhi} where the sharp drops in efficiency for the CRY sample are particularly visible. The effect of cheated disambiguation is clear in Figure~\ref{fig:SimEffic_ThetaPhi_CRY} where the dip in efficiency as a function of $\theta$ at fixed $\phi=\frac{\pi}{2}$ is completely removed. The same is not true for the dip in efficiency as a funciton $\phi$ at fixed $\theta = \frac{\pi}{2}$, though the reduction in efficiency was not uniform or as severe across all values of $\theta$ as it remains mainly confined to values of $\theta$ close to 0 or $\pi$, particularly when using Pandora . The observation that a significant improvement in the quality of reconstruction can be made in improving the disambiguation is a driving force in the wire pitches being 36$^{\circ}$ for the DUNE FD as opposed 45$\pm$0.7$^{\circ}$ in the 35 ton, because as discussed in Section~\ref{sec:LArSoft} the shallower wire pitch makes disambiguation easier. Though disambiguation will be easier in the different geometry, further efforts to improve disambiguation are still required, as are continued efforts to reconstruct the shortest tracks. \\
 
 %********************************** % Fourth Section  *************************************
 \section{Performing particle identification}  %Section - X.4
-Being able to perform reliable particle identification (PID) is key deliverable for the DUNE experiment, and so efforts have been made to establish a metric by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residiual range of the track, defined as being the distance between a point on the track and the stopping point of the track. The relationship between these particle is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation!!!citep{BetheBloch}!!! which is shown in Figure~\ref{fig:BetheBloch}. The sharp increase in energy loss per unit length can be seen to occur at different energies for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly between muons and protons. \\
+Being able to perform reliable particle identification (PID) is key deliverable for the DUNE experiment, and so efforts have been made to establish a metric by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residiual range of the track, defined as being the distance between a point on the track and the stopping point of the track. The relationship between these particle is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation!!!citep{BetheBloch}!!! which is shown in Figure~\ref{fig:BetheBloch}. The sharp increase in energy loss per unit length can be seen to occur at different momenta for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly. One example of a large change in the peak value of $\frac{dE}{dx}$ can be seen by comparing muons and protons, whist muons and pions are very similar. \\
 
 \begin{figure}[h!]
   \centering
-  %\includegraphics[width=0.85\textwidth]{}
+  \includegraphics[width=0.5\textwidth]{BetheBlock}
   \caption[The medium and particle type dependence of the Bethe-Bloch equation]
           {The Bethe-Bloch equation describes energy loss per unit length as a function of energy in different mediums. The energy losses expected for different particle types is shown in different mediums. Liquid Argon with a density of 1.4 g cm$^{-3}$ has a density slightly less than that of Carbon at 1.8 g cm$^{-3}$.}
   \label{fig:BetheBloch}
 \end{figure}
 
-The particle mass dependance can be seen by plotting the $\frac{dE}{dx}$ against the residiual range of the particle on a log-log plot, as shown in Figure~\ref{fig:PIDA_loglog}. A power law dependence is found to describe the relationship~\citep{PIDA_Paper}, as shown in Equation~\ref{eq:PIDA}. The dependence on $b$ is found to be weak, and able to be set to -0.42 for all particle masses. This means that the main discriminant used is $A$ which has a strong dependence on particle mass. The values for $A$ and $b$ calculated from Figure~\ref{fig:PIDA_loglog} are shown in Table~\ref{tab:PIDAVals}. \\
+The particle mass dependance can be seen by plotting the $\frac{dE}{dx}$ against the residiual range of the particle on a log-log plot, as shown in Figure~\ref{fig:PIDA_loglog}. A power law dependence is found to describe the relationship~\citep{PIDA_Paper}, as shown in Equation~\ref{eq:PIDA}. The dependence on $b$ is found to be weak, and so can be set to -0.42 for all particle masses. This means that the main discriminant used is the $A$ parameter, which has a strong dependence on particle mass. The values for $A$ and $b$ calculated from Figure~\ref{fig:PIDA_loglog} are shown in Table~\ref{tab:PIDAVals}. It is found that the error introduced by fixing the $b$ parameter is small compared to the error from ionization fluctuations. \\
 
-Once the $b$ parameter is set to be constant for all particle types it is possible to calculate a value for the $A$ parameter for each hit on the track using Equation~\ref{eq:PIDA_A}, where $R_i$ is the residual range of the track at that point. The particle type discriminant, called PIDA, can then be calculated for a track by finding the average value of $A_i$ found for the track. As the particle mass dependant increase in $\frac{dE}{dx}$ only occurs near the end of the track, the PIDA variable can only be calculated for particles which stop in the detector as all other particles will have very similar $\frac{dE}{dx}$ distributions. As shown in Figure~\ref{fig:PIDA_loglog} the average value of $A$ is normally calculated for the last 30 cm of the track. \\
-
-The PIDA method was tested in~\citep{PIDA_Paper}, 
-
-\begin{figure}[h!]
-  \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{Stopping power for different particle masses.}
-    \label{fig:PIDA_loglog}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{Distribution of PIDA values for different particle masses.}
-    \label{fig:PIDA_MC}
-  \end{subfigure}
-  \caption[Defining the PIDA metric for particle identification.]
-          {Defining the PIDA metric for particle identification and testing it on a Monte Carlo truth sample.}
-          \label{fig:PIDAPlots}
-\end{figure}
+Once the $b$ parameter is set to be constant for all particle types it is possible to calculate a value for the $A$ parameter for each hit on the track using Equation~\ref{eq:PIDA_A}, where $R_i$ is the residual range of the track at that point. The particle type discriminant, called PIDA, can then be calculated for a track by finding the average value of $A_i$ found for the track. As the particle mass dependant increase in $\frac{dE}{dx}$ only occurs near the end of the track, the PIDA variable can only be calculated for particles which stop in the detector as all other particles will have MIP-like $\frac{dE}{dx}$ distributions and so cannot be identified in this way. As shown by the plotted range of Figure~\ref{fig:PIDA_loglog} the average value of $A$ is normally calculated for the last 30 cm of the track. \\
 
 \begin{equation}
   \label{eq:PIDA}
@@ -278,18 +262,65 @@ The PIDA method was tested in~\citep{PIDA_Paper},
   A_i = (\frac{dE}{dx}_{calo})_i \times R^{0.42}_i
 \end{equation}
 
-\begin{table}
-\caption{Values of the $A$ and $b$ parameters from Equation~\ref{eq:PIDA} for different particle masses from Figure~\ref{fig:PIDA_loglog}~\citep{PIDA_Paper}.}
-\centering
-\label{tab:PIDAVals}
-\begin{tabular}{l c c}
-\toprule
-Particle & $A$ (MeV cm$^{-1}$) & $b$ \\ 
-\hline
-Pion     & 8  & -0.37 \\
-Kaon     & 14 & -0.41 \\
-Proton   & 17 & -0.42 \\
-Deuteron & 25 & -0.43 \\
-\bottomrule
-\end{tabular}
-\end{table}
+The PIDA method was tested in~\citep{PIDA_Paper}, where the PIDA values were calculated for Monte Carlo particles which stopped in the detector using truth information over the last 30 cm of the particle lengths. This is shown in Figure~\ref{fig:PIDA_MC}, where a clear separation can be seen between the peaks for Muons, Pions, Kaons and Protons. Though the Muon and Pion peaks are relatively close together they can still be resolved in the plot due to little overlap. It is interesting to note how tight the PIDA distributions found in the paper are, which allows the different particles types to cleanly separated in the truth study. The author notes that an incorrect tuning of the recombination effects will cause the distributions to become broader, and an incorrect calibration of the detector will introduce a systematic shift in the expected values of PIDA. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{StoppingPower}
+    \caption{Stopping power for different particle masses.}
+    \label{fig:PIDA_loglog}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{TruthPIDA}
+    \caption{Distribution of PIDA values for different particle masses.}
+    \label{fig:PIDA_MC}
+  \end{subfigure}
+  \caption[Defining the PIDA metric for particle identification.]
+          {Defining the PIDA metric for particle identification and testing it on a Monte Carlo sample using truth information.}
+          \label{fig:PIDAPlots}
+\end{figure}
+
+From Figure~\ref{fig:PIDAPlots} it can be seen that the most distinct PIDA distributions are that of muons and protons, these are also two of the most common particle types in cosmic rays. For these reasons particle identification using the PIDA varaible will be attempted on simulations of the 35 ton. As outlined in Sections~\ref{sec:SimInteractionTimes} and ~\ref{sec:MCCalib} in order to do this the interaction times of particles have to be well known and the calibration constants must be tuned so as to ensure that the effects of recombination are properly accounted for. It is also useful to use the information found in Section~\ref{sec:SimRecoEffic} about the efficiency with which tracks are reconstructed. In this regard it is useful to produce additional figures showing the reconstruction efficiencies of protons in the CRY sample, these are shown in Figure~\ref{Prot_Effic}.\\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Length}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track length.}
+        \label{fig:Prot_Effic_Len}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_EnDepos}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth deposited energy.}
+        \label{fig:Prot_Effic_EnDepos}
+  \end{subfigure}
+  \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Theta}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta.}
+        \label{fig:Prot_Effic_Theta}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Phi}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in phi.}
+        \label{fig:Prot_Effic_Phi}
+  \end{subfigure}
+  \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_PhiTheta}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta and phi.}
+        \label{fig:Prot_Effic_PhiTheta}
+  \end{subfigure}
+  \caption[The reconstruction efficiencies for protons in a sample generated using CRY.]
+          {The reconstruction efficiencies for protons in a sample generated using CRY. The efficiencies are shown for non-cheated reconstruction (square blocks) and cheated reconstruction (triangle blocks) for both PMTrack (black) and Pandora (blue).}
+  \label{fig:Prot_Effic}
+\end{figure}

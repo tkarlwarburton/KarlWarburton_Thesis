@@ -78,6 +78,12 @@
 \newlabel{fig:PIDAPlots}
 \newlabel{fig:PIDA_MC}
 \newlabel{fig:PIDA_loglog}
+\newlabel{fig:Prot_Effic_EnDepos}
+\newlabel{fig:Prot_Effic_Len}
+\newlabel{fig:Prot_Effic_PhiTheta}
+\newlabel{fig:Prot_Effic_Phi}
+\newlabel{fig:Prot_Effic_Theta}
+\newlabel{fig:Prot_Effic}
 \newlabel{fig:SimEffic_EnDepos_AMu}
 \newlabel{fig:SimEffic_EnDepos_CRY}
 \newlabel{fig:SimEffic_EnDepos}
@@ -103,6 +109,7 @@
 \newlabel{sec:DiffMCStudies}
 \newlabel{sec:FDIncorporation}
 \newlabel{sec:LArSoft}
+\newlabel{sec:MCCalib}
 \newlabel{sec:SimInteractionTimes}
 \newlabel{sec:SimRecoEffic}
 \newlabel{sec:The35tonDetector}
@@ -142,6 +149,11 @@
 \newlabel{sub@fig:PD_PExPlot}
 \newlabel{sub@fig:PIDA_MC}
 \newlabel{sub@fig:PIDA_loglog}
+\newlabel{sub@fig:Prot_Effic_EnDepos}
+\newlabel{sub@fig:Prot_Effic_Len}
+\newlabel{sub@fig:Prot_Effic_PhiTheta}
+\newlabel{sub@fig:Prot_Effic_Phi}
+\newlabel{sub@fig:Prot_Effic_Theta}
 \newlabel{sub@fig:SimEffic_EnDepos_AMu}
 \newlabel{sub@fig:SimEffic_EnDepos_CRY}
 \newlabel{sub@fig:SimEffic_Length_AMu}
@@ -153,4 +165,3 @@
 \newlabel{sub@fig:SimEffic_Theta_AMu}
 \newlabel{sub@fig:SimEffic_Theta_CRY}
 \newlabel{sub@fig:TwoDimCanvas}
-\newlabel{tab:PIDAVals}
