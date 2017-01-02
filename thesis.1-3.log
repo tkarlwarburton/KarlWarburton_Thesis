@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  20 DEC 2016 09:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  2 JAN 2017 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1549,13 +1549,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) <DUNE/Figs/Raster/35ton_APASchem.png, id=420, 427.5975pt x 492.84125pt>
+) <DUNE/Figs/Raster/35ton_APASchem.png, id=435, 427.5975pt x 492.84125pt>
 File: DUNE/Figs/Raster/35ton_APASchem.png Graphic file (type png)
 <use DUNE/Figs/Raster/35ton_APASchem.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35ton_APASchem.png used on input line
  71.
 (pdftex.def)             Requested size: 196.85616pt x 226.8902pt.
-<DUNE/Figs/Raster/35ton_xCenter.png, id=422, 578.16pt x 433.62pt>
+<DUNE/Figs/Raster/35ton_xCenter.png, id=437, 578.16pt x 433.62pt>
 File: DUNE/Figs/Raster/35ton_xCenter.png Graphic file (type png)
 <use DUNE/Figs/Raster/35ton_xCenter.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35ton_xCenter.png used on input line 
@@ -1575,19 +1575,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<DUNE/Figs/Raster/CollectionPlane.png, id=442, 1008.76875pt x 188.705pt>
+<DUNE/Figs/Raster/CollectionPlane.png, id=457, 1008.76875pt x 188.705pt>
 File: DUNE/Figs/Raster/CollectionPlane.png Graphic file (type png)
 <use DUNE/Figs/Raster/CollectionPlane.png>
 Package pdftex.def Info: DUNE/Figs/Raster/CollectionPlane.png used on input lin
 e 101.
 (pdftex.def)             Requested size: 415.58672pt x 77.74098pt.
-<DUNE/Figs/Raster/InductionPlane.png, id=443, 1006.76125pt x 190.7125pt>
+<DUNE/Figs/Raster/InductionPlane.png, id=458, 1006.76125pt x 190.7125pt>
 File: DUNE/Figs/Raster/InductionPlane.png Graphic file (type png)
 <use DUNE/Figs/Raster/InductionPlane.png>
 Package pdftex.def Info: DUNE/Figs/Raster/InductionPlane.png used on input line
  106.
 (pdftex.def)             Requested size: 415.58672pt x 78.72516pt.
-<DUNE/Figs/Raster/Complex.png, id=444, 1012.78375pt x 172.645pt>
+<DUNE/Figs/Raster/Complex.png, id=459, 1012.78375pt x 172.645pt>
 File: DUNE/Figs/Raster/Complex.png Graphic file (type png)
 <use DUNE/Figs/Raster/Complex.png>
 Package pdftex.def Info: DUNE/Figs/Raster/Complex.png used on input line 111.
@@ -1605,7 +1605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[17] <DUNE/Figs/PDF/WireAngleCondition.pdf, id=454, 722.7pt x 542.025pt>
+[17] <DUNE/Figs/PDF/WireAngleCondition.pdf, id=469, 722.7pt x 542.025pt>
 File: DUNE/Figs/PDF/WireAngleCondition.pdf Graphic file (type pdf)
 <use DUNE/Figs/PDF/WireAngleCondition.pdf>
 Package pdftex.def Info: DUNE/Figs/PDF/WireAngleCondition.pdf used on input lin
@@ -1636,12 +1636,12 @@ Chapter 4.
 (./35tonSimulation/35tonSimulation.tex
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -1650,131 +1650,467 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
 
-<35tonSimulation/Figs/Raster/DiffTrackSeps.png, id=716, 700.6175pt x 476.78125p
-t>
-File: 35tonSimulation/Figs/Raster/DiffTrackSeps.png Graphic file (type png)
-<use 35tonSimulation/Figs/Raster/DiffTrackSeps.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/DiffTrackSeps.png used on 
-input line 23.
-(pdftex.def)             Requested size: 371.84462pt x 253.04933pt.
+<35tonSimulation/Figs/PDF/DiffTrackSeps.pdf, id=731, 569.12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/DiffTrackSeps.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/DiffTrackSeps.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/DiffTrackSeps.pdf used on inp
+ut line 24.
+(pdftex.def)             Requested size: 218.73056pt x 148.90466pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[23 <./35tonSimulation/Figs/Raster/DiffTrackSeps.png>]
-<35tonSimulation/Figs/Raster/NumPE_Distance.png, id=723, 700.6175pt x 476.78125
+[23 <./35tonSimulation/Figs/PDF/DiffTrackSeps.pdf, page is rotated 90 degrees>]
+
+<35tonSimulation/Figs/PDF/NumPE_Distance.pdf, id=781, 569.12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/NumPE_Distance.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/NumPE_Distance.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/NumPE_Distance.pdf used on in
+put line 36.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
+
+<35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf, id=782, 569.12625pt x 387.4475
 pt>
-File: 35tonSimulation/Figs/Raster/NumPE_Distance.png Graphic file (type png)
-<use 35tonSimulation/Figs/Raster/NumPE_Distance.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/NumPE_Distance.png used on
- input line 35.
-(pdftex.def)             Requested size: 88.58466pt x 60.28136pt.
-
-<35tonSimulation/Figs/Raster/DiffFlashPredReco.png, id=724, 700.6175pt x 476.78
-125pt>
-File: 35tonSimulation/Figs/Raster/DiffFlashPredReco.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/DiffFlashPredReco.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/DiffFlashPredReco.png used
- on input line 42.
-(pdftex.def)             Requested size: 88.58466pt x 60.28136pt.
+File: 35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf used on
+ input line 43.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-<35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png, id=728, 700.6175pt x 476.781
-25pt>
-File: 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png Graphic file (type png)
-<use 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png used 
-on input line 56.
-(pdftex.def)             Requested size: 88.58466pt x 60.28136pt.
+<35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf, id=786, 569.12625pt x 387.4475p
+t>
+File: 35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf used on 
+input line 57.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
 
-<35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png, id=729, 700.6175pt x 476.781
-25pt>
-File: 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png Graphic file (type png)
-<use 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png used 
-on input line 62.
-(pdftex.def)             Requested size: 88.58466pt x 60.28136pt.
+<35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf, id=787, 569.12625pt x 387.4475p
+t>
+File: 35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf used on 
+input line 63.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[24 <./35tonSimulation/Figs/Raster/NumPE_Distance.png> <./35tonSimulation/Figs/
-Raster/DiffFlashPredReco.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[24 <./35tonSimulation/Figs/PDF/NumPE_Distance.pdf, page is rotated 90 degrees>
+ <./35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf, page is rotated 90 degrees>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[25 <./35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png> <./35tonSimulation/Fig
-s/Raster/Pred_Reco_T_Zoom.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+[25 <./35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf, page is rotated 90 degree
+s> <./35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf, page is rotated 90 degrees
+>]
+<35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf, id=977, 569.12625pt x 386.4437
+6pt>
+File: 35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf used on
+ input line 85.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/CorrectedCanvas.pdf, id=978, 569.12625pt x 386.44376p
+t>
+File: 35tonSimulation/Figs/PDF/CorrectedCanvas.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/CorrectedCanvas.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/CorrectedCanvas.pdf used on i
+nput line 92.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[26 <./35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf, page is rotated 90 degre
+es> <./35tonSimulation/Figs/PDF/CorrectedCanvas.pdf, page is rotated 90 degrees
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+<35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Length.pdf, id=1084, 569.1262
+5pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Length.pdf Graphic file 
+(type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Length.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Lengt
+h.pdf used on input line 129.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
 
- []
-
+<35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Length.pdf, id=1085, 569.12625
+pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Length.pdf Graphic file (
+type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Length.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Length
+.pdf used on input line 136.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
- []
+<35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_EnDepos.pdf, id=1086, 569.126
+25pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_EnDepos.pdf Graphic file
+ (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_EnDepos.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_EnDep
+os.pdf used on input line 149.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
 
-[29]
+<35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_EnDepos.pdf, id=1087, 569.1262
+5pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_EnDepos.pdf Graphic file 
+(type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_EnDepos.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_EnDepo
+s.pdf used on input line 156.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Theta.pdf, id=1088, 569.12625
+pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Theta.pdf Graphic file (
+type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Theta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Theta
+.pdf used on input line 169.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Theta.pdf, id=1089, 569.12625p
+t x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Theta.pdf Graphic file (t
+ype pdf)
+<use 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Theta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Theta.
+pdf used on input line 176.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Phi.pdf, id=1090, 569.12625pt
+ x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Phi.pdf Graphic file (ty
+pe pdf)
+<use 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Phi.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Phi.p
+df used on input line 189.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Phi.pdf, id=1091, 569.12625pt 
+x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Phi.pdf Graphic file (typ
+e pdf)
+<use 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Phi.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Phi.pd
+f used on input line 196.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_PhiTheta.pdf, id=1092, 569.12
+625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_PhiTheta.pdf Graphic fil
+e (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_PhiTheta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_PhiTh
+eta.pdf used on input line 209.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_PhiTheta.pdf, id=1093, 569.126
+25pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_PhiTheta.pdf Graphic file
+ (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_PhiTheta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_PhiThe
+ta.pdf used on input line 216.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+ []
+
+[29 <./35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Length.pdf, page is rot
+ated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Length.pdf,
+ page is rotated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_Al
+l_EnDepos.pdf, page is rotated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_Co
+smics_500V_All_EnDepos.pdf, page is rotated 90 degrees>] [30 <./35tonSimulation
+/Figs/PDF/Effic_AntiMuon_500V_All_Theta.pdf, page is rotated 90 degrees> <./35t
+onSimulation/Figs/PDF/Effic_Cosmics_500V_All_Theta.pdf, page is rotated 90 degr
+ees> <./35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_Phi.pdf, page is rotat
+ed 90 degrees> <./35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_Phi.pdf, page
+ is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+[31 <./35tonSimulation/Figs/PDF/Effic_AntiMuon_500V_All_PhiTheta.pdf, page is r
+otated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_Cosmics_500V_All_PhiTheta.
+pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+<35tonSimulation/Figs/PDF/BetheBlock.pdf, id=1560, 597.23125pt x 845.1575pt>
+File: 35tonSimulation/Figs/PDF/BetheBlock.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/BetheBlock.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/BetheBlock.pdf used on input 
+line 246.
+(pdftex.def)             Requested size: 218.73056pt x 309.53094pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
+[33 <./35tonSimulation/Figs/PDF/BetheBlock.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+<35tonSimulation/Figs/PDF/StoppingPower.pdf, id=1597, 597.23125pt x 845.1575pt>
+File: 35tonSimulation/Figs/PDF/StoppingPower.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/StoppingPower.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/StoppingPower.pdf used on inp
+ut line 292.
+(pdftex.def)             Requested size: 196.85616pt x 278.58043pt.
+
+Underfull \hbox (badness 1132) in paragraph at lines 293--293
 []\T1/ptm/m/n/10.95 (+20) (a) |Stop-ping power for dif-fer-ent par-ti-cle
  []
 
-[30]) [31]
+<35tonSimulation/Figs/PDF/TruthPIDA.pdf, id=1598, 597.23125pt x 845.1575pt>
+File: 35tonSimulation/Figs/PDF/TruthPIDA.pdf Graphic file (type pdf)
+<use 35tonSimulation/Figs/PDF/TruthPIDA.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/TruthPIDA.pdf used on input l
+ine 299.
+(pdftex.def)             Requested size: 196.85616pt x 278.58043pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+[34]
+<35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Length.pdf, id=1608, 5
+69.12625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Length.pdf Graphi
+c file (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Length.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proto
+n_Length.pdf used on input line 314.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_EnDepos.pdf, id=1609, 
+569.12625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_EnDepos.pdf Graph
+ic file (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_EnDepos.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proto
+n_EnDepos.pdf used on input line 321.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Theta.pdf, id=1610, 56
+9.12625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Theta.pdf Graphic
+ file (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Theta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proto
+n_Theta.pdf used on input line 327.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Phi.pdf, id=1611, 569.
+12625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Phi.pdf Graphic f
+ile (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Phi.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proto
+n_Phi.pdf used on input line 334.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+<35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_PhiTheta.pdf, id=1612,
+ 569.12625pt x 386.44376pt>
+File: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_PhiTheta.pdf Grap
+hic file (type pdf)
+<use 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_PhiTheta.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proto
+n_PhiTheta.pdf used on input line 340.
+(pdftex.def)             Requested size: 196.85616pt x 133.67114pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+[35 <./35tonSimulation/Figs/PDF/StoppingPower.pdf> <./35tonSimulation/Figs/PDF/
+TruthPIDA.pdf>] [36 <./35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_
+Length.pdf, page is rotated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_Proto
+nEnrich_500V_Proton_EnDepos.pdf, page is rotated 90 degrees> <./35tonSimulation
+/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Theta.pdf, page is rotated 90 degrees>
+ <./35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Phi.pdf, page is ro
+tated 90 degrees> <./35tonSimulation/Figs/PDF/Effic_ProtonEnrich_500V_Proton_Ph
+iTheta.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+[37]
+<35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_PIDA.pdf, id=1879, 
+569.12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_PIDA.pdf Graph
+ic file (type pdf)
+<use 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_PIDA.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Pr
+oton_PIDA.pdf used on input line 419.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
+
+<35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_PIDA.pdf, id=1880, 569.
+12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_PIDA.pdf Graphic f
+ile (type pdf)
+<use 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_PIDA.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon
+_PIDA.pdf used on input line 426.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+[38 <./35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_PIDA.pdf, pag
+e is rotated 90 degrees> <./35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_M
+uon_PIDA.pdf, page is rotated 90 degrees>]
+<35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_dEdx.pdf, id=1978, 
+569.12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_dEdx.pdf Graph
+ic file (type pdf)
+<use 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_dEdx.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Pr
+oton_dEdx.pdf used on input line 443.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
+
+<35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_dEdx.pdf, id=1979, 569.
+12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_dEdx.pdf Graphic f
+ile (type pdf)
+<use 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon_dEdx.pdf>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_Muon
+_dEdx.pdf used on input line 450.
+(pdftex.def)             Requested size: 196.85616pt x 134.01833pt.
+
+<35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA.pdf, id
+=1982, 569.12625pt x 387.4475pt>
+File: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA.pd
+f Graphic file (type pdf)
+
+<use 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA.pdf
+>
+Package pdftex.def Info: 35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Pr
+oton_MCPIDA_PIDA.pdf used on input line 461.
+(pdftex.def)             Requested size: 218.73056pt x 148.90466pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+
+ []
+
+[39 <./35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_dEdx.pdf, pag
+e is rotated 90 degrees> <./35tonSimulation/Figs/PDF/IsolatedMuons_500V_Dec16_M
+uon_dEdx.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+ []
+
+[40 <./35tonSimulation/Figs/PDF/IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA.p
+df, page is rotated 90 degrees>]) [41]
 \openout2 = `35tonData/35tonData.aux'.
 
 (./35tonData/35tonData.tex
@@ -1789,7 +2125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<35tonData/Figs/Raster/DataCollected.png, id=801, 1020.4524pt x 509.7444pt>
+<35tonData/Figs/Raster/DataCollected.png, id=2136, 1020.4524pt x 509.7444pt>
 File: 35tonData/Figs/Raster/DataCollected.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCollected.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCollected.png used on input 
@@ -1803,7 +2139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[32
+[42
 
 
 
@@ -1817,12 +2153,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[33 <./35tonData/Figs/Raster/DataCollected.png>]
+[43 <./35tonData/Figs/Raster/DataCollected.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<35tonData/Figs/Raster/DataStructure.png, id=814, 646.415pt x 399.091pt>
+<35tonData/Figs/Raster/DataStructure.png, id=2150, 646.415pt x 399.091pt>
 File: 35tonData/Figs/Raster/DataStructure.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataStructure.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataStructure.png used on input 
@@ -1836,12 +2172,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[34]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[35 <./35tonData/Figs/Raster/DataStructure.png>]
+[45 <./35tonData/Figs/Raster/DataStructure.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -1851,12 +2187,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[36]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<35tonData/Figs/Raster/DataDrops.png, id=832, 757.229pt x 360.547pt>
+<35tonData/Figs/Raster/DataDrops.png, id=2168, 757.229pt x 360.547pt>
 File: 35tonData/Figs/Raster/DataDrops.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataDrops.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataDrops.png used on input line
@@ -1867,7 +2203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[37 <./35tonData/Figs/Raster/DataDrops.png>]
+[47 <./35tonData/Figs/Raster/DataDrops.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -1882,49 +2218,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[38] <35tonData/Figs/Raster/StuckCodes.png, id=854, 502.87875pt x 521.95pt>
+[48] <35tonData/Figs/Raster/StuckCodes.png, id=2189, 502.87875pt x 521.95pt>
 File: 35tonData/Figs/Raster/StuckCodes.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes.png used on input lin
 e 73.
 (pdftex.def)             Requested size: 196.85616pt x 204.31628pt.
-<35tonData/Figs/Raster/StuckCodes2.png, id=855, 678.535pt x 692.5875pt>
+<35tonData/Figs/Raster/StuckCodes2.png, id=2190, 678.535pt x 692.5875pt>
 File: 35tonData/Figs/Raster/StuckCodes2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes2.png used on input li
 ne 78.
 (pdftex.def)             Requested size: 196.85616pt x 200.92976pt.
-<35tonData/Figs/Raster/BeforeCoherent.png, id=858, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/BeforeCoherent.png, id=2193, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/BeforeCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/BeforeCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/BeforeCoherent.png used on input
  line 89.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/AfterCoherent.png, id=859, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/AfterCoherent.png, id=2194, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/AfterCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AfterCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AfterCoherent.png used on input 
 line 95.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/Waveforms.png, id=860, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Waveforms.png, id=2195, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Waveforms.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Waveforms.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Waveforms.png used on input line
  106.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/NoiseFFTs.png, id=861, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/NoiseFFTs.png, id=2196, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/NoiseFFTs.png Graphic file (type png)
 <use 35tonData/Figs/Raster/NoiseFFTs.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/NoiseFFTs.png used on input line
  113.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/Collection.png, id=862, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Collection.png, id=2197, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Collection.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Collection.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Collection.png used on input lin
 e 119.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/Induction.png, id=863, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Induction.png, id=2198, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Induction.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Induction.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Induction.png used on input line
@@ -1938,13 +2274,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-<35tonData/Figs/Raster/Evd_BeforeNoise.png, id=865, 602.25pt x 529.98pt>
+<35tonData/Figs/Raster/Evd_BeforeNoise.png, id=2200, 602.25pt x 529.98pt>
 File: 35tonData/Figs/Raster/Evd_BeforeNoise.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Evd_BeforeNoise.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Evd_BeforeNoise.png used on inpu
 t line 140.
 (pdftex.def)             Requested size: 196.85616pt x 173.23613pt.
-<35tonData/Figs/Raster/Evd_AfterNoise.png, id=866, 607.26875pt x 530.98375pt>
+
+<35tonData/Figs/Raster/Evd_AfterNoise.png, id=2201, 607.26875pt x 530.98375pt>
 File: 35tonData/Figs/Raster/Evd_AfterNoise.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Evd_AfterNoise.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Evd_AfterNoise.png used on input
@@ -1953,9 +2290,9 @@ Package pdftex.def Info: 35tonData/Figs/Raster/Evd_AfterNoise.png used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCode
+[49 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCode
 s2.png> <./35tonData/Figs/Raster/BeforeCoherent.png> <./35tonData/Figs/Raster/A
-fterCoherent.png>] [40 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Fig
+fterCoherent.png>] [50 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Fig
 s/Raster/NoiseFFTs.png> <./35tonData/Figs/Raster/Collection.png> <./35tonData/F
 igs/Raster/Induction.png> <./35tonData/Figs/Raster/Evd_BeforeNoise.png> <./35to
 nData/Figs/Raster/Evd_AfterNoise.png>]
@@ -1968,7 +2305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[41]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
@@ -1978,7 +2315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-<35tonData/Figs/Raster/TingjunLifetime.png, id=894, 1201.48875pt x 554.07pt>
+<35tonData/Figs/Raster/TingjunLifetime.png, id=2230, 1201.48875pt x 554.07pt>
 File: 35tonData/Figs/Raster/TingjunLifetime.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TingjunLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/TingjunLifetime.png used on inpu
@@ -1992,13 +2329,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-[42] <35tonData/Figs/Raster/CosTheta_Data.png, id=907, 569.0058pt x 534.798pt>
+[52] <35tonData/Figs/Raster/CosTheta_Data.png, id=2245, 569.0058pt x 534.798pt>
 File: 35tonData/Figs/Raster/CosTheta_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosTheta_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosTheta_Data.png used on input 
 line 198.
 (pdftex.def)             Requested size: 196.85616pt x 185.0196pt.
-<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=908, 569.0058pt x 534.798pt>
+
+<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=2246, 569.0058pt x 534.798pt>
 File: 35tonData/Figs/Raster/CosThetaZoom_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosThetaZoom_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosThetaZoom_Data.png used on in
@@ -2007,13 +2345,13 @@ put line 204.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<35tonData/Figs/Raster/North-South.png, id=909, 543.02875pt x 496.85625pt>
+<35tonData/Figs/Raster/North-South.png, id=2247, 543.02875pt x 496.85625pt>
 File: 35tonData/Figs/Raster/North-South.png Graphic file (type png)
 <use 35tonData/Figs/Raster/North-South.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/North-South.png used on input li
 ne 216.
 (pdftex.def)             Requested size: 196.85616pt x 180.11903pt.
-<35tonData/Figs/Raster/East-West.png, id=910, 553.06625pt x 492.84125pt>
+<35tonData/Figs/Raster/East-West.png, id=2248, 553.06625pt x 492.84125pt>
 File: 35tonData/Figs/Raster/East-West.png Graphic file (type png)
 <use 35tonData/Figs/Raster/East-West.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/East-West.png used on input line
@@ -2032,329 +2370,334 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-[43 <./35tonData/Figs/Raster/TingjunLifetime.png>] [44 <./35tonData/Figs/Raster
-/CosTheta_Data.png> <./35tonData/Figs/Raster/CosThetaZoom_Data.png> <./35tonDat
-a/Figs/Raster/North-South.png> <./35tonData/Figs/Raster/East-West.png>] <35tonD
-ata/Figs/Raster/AngleCanvas_50.png, id=930, 851.18pt x 475.7775pt>
+[53 <./35tonData/Figs/Raster/TingjunLifetime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+[54 <./35tonData/Figs/Raster/CosTheta_Data.png> <./35tonData/Figs/Raster/CosThe
+taZoom_Data.png> <./35tonData/Figs/Raster/North-South.png> <./35tonData/Figs/Ra
+ster/East-West.png>] <35tonData/Figs/Raster/AngleCanvas_50.png, id=2266, 851.18
+pt x 475.7775pt>
 File: 35tonData/Figs/Raster/AngleCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AngleCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AngleCanvas_50.png used on input
- line 238.
+ line 240.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/DistanceCanvas_50.png, id=931, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/DistanceCanvas_50.png, id=2267, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/DistanceCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DistanceCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DistanceCanvas_50.png used on in
-put line 245.
+put line 247.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
 
-<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=932, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=2268, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/TwoDimensional_50cm.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TwoDimensional_50cm.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/TwoDimensional_50cm.png used on 
-input line 251.
+input line 253.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
-<35tonData/Figs/Raster/CounterDiffCan.png, id=933, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/CounterDiffCan.png, id=2269, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/CounterDiffCan.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiffCan.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiffCan.png used on input
- line 258.
+ line 260.
 (pdftex.def)             Requested size: 196.85616pt x 110.02907pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-[45 <./35tonData/Figs/Raster/AngleCanvas_50.png> <./35tonData/Figs/Raster/Dista
+[55 <./35tonData/Figs/Raster/AngleCanvas_50.png> <./35tonData/Figs/Raster/Dista
 nceCanvas_50.png> <./35tonData/Figs/Raster/TwoDimensional_50cm.png> <./35tonDat
 a/Figs/Raster/CounterDiffCan.png>]
-<35tonData/Figs/PDF/DiffusionSchematic.pdf, id=943, 883.04514pt x 647.35571pt>
+<35tonData/Figs/PDF/DiffusionSchematic.pdf, id=2278, 883.04514pt x 647.35571pt>
 File: 35tonData/Figs/PDF/DiffusionSchematic.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/DiffusionSchematic.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/DiffusionSchematic.pdf used on inpu
-t line 272.
+t line 274.
 (pdftex.def)             Requested size: 371.84462pt x 272.59874pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-[46 <./35tonData/Figs/PDF/DiffusionSchematic.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-
+[56 <./35tonData/Figs/PDF/DiffusionSchematic.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-<35tonData/Figs/Raster/LotsOfTrackFlash.png, id=1235, 885.3075pt x 333.245pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+<35tonData/Figs/Raster/LotsOfTrackFlash.png, id=2572, 885.3075pt x 333.245pt>
 File: 35tonData/Figs/Raster/LotsOfTrackFlash.png Graphic file (type png)
 <use 35tonData/Figs/Raster/LotsOfTrackFlash.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/LotsOfTrackFlash.png used on inp
-ut line 285.
+ut line 287.
 (pdftex.def)             Requested size: 371.84462pt x 139.9721pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-[47 <./35tonData/Figs/Raster/LotsOfTrackFlash.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+[57 <./35tonData/Figs/Raster/LotsOfTrackFlash.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<35tonData/Figs/PDF/ToyGauss_Raw.pdf, id=1243, 827.98923pt x 562.80447pt>
+<35tonData/Figs/PDF/ToyGauss_Raw.pdf, id=2580, 827.98923pt x 562.80447pt>
 File: 35tonData/Figs/PDF/ToyGauss_Raw.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/ToyGauss_Raw.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/ToyGauss_Raw.pdf used on input line
- 306.
+ 308.
 (pdftex.def)             Requested size: 196.85616pt x 133.80484pt.
-<35tonData/Figs/PDF/ToyGauss_Noise.pdf, id=1244, 829.22296pt x 558.91623pt>
+<35tonData/Figs/PDF/ToyGauss_Noise.pdf, id=2581, 829.22296pt x 558.91623pt>
 File: 35tonData/Figs/PDF/ToyGauss_Noise.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/ToyGauss_Noise.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/ToyGauss_Noise.pdf used on input li
-ne 312.
+ne 314.
 (pdftex.def)             Requested size: 196.85616pt x 132.68428pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
-<35tonData/Figs/Raster/DataCan_0.png, id=1253, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_0.png, id=2590, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_0.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_0.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_0.png used on input line
- 331.
+ 333.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
-<35tonData/Figs/Raster/DataCan_1.png, id=1254, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_1.png, id=2591, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_1.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_1.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_1.png used on input line
- 337.
+ 339.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
-<35tonData/Figs/Raster/DataCan_2.png, id=1255, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_2.png, id=2592, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_2.png used on input line
- 342.
+ 344.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
-<35tonData/Figs/Raster/DataCan_3.png, id=1256, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_3.png, id=2593, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_3.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_3.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_3.png used on input line
- 348.
+ 350.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 
-<35tonData/Figs/Raster/CounterDiff4_Data.png, id=1258, 700.6175pt x 476.78125pt
+<35tonData/Figs/Raster/CounterDiff4_Data.png, id=2595, 700.6175pt x 476.78125pt
 >
 File: 35tonData/Figs/Raster/CounterDiff4_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiff4_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiff4_Data.png used on in
-put line 362.
+put line 364.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-<35tonData/Figs/Raster/InterceptCanvasData.png, id=1259, 700.6175pt x 476.78125
+<35tonData/Figs/Raster/InterceptCanvasData.png, id=2596, 700.6175pt x 476.78125
 pt>
 File: 35tonData/Figs/Raster/InterceptCanvasData.png Graphic file (type png)
 <use 35tonData/Figs/Raster/InterceptCanvasData.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/InterceptCanvasData.png used on 
-input line 369.
+input line 371.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-
- []
-
-[49 <./35tonData/Figs/PDF/ToyGauss_Raw.pdf> <./35tonData/Figs/PDF/ToyGauss_Nois
-e.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-[50 <./35tonData/Figs/Raster/DataCan_0.png> <./35tonData/Figs/Raster/DataCan_1.
+[59 <./35tonData/Figs/PDF/ToyGauss_Raw.pdf> <./35tonData/Figs/PDF/ToyGauss_Nois
+e.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+[60 <./35tonData/Figs/Raster/DataCan_0.png> <./35tonData/Figs/Raster/DataCan_1.
 png> <./35tonData/Figs/Raster/DataCan_2.png> <./35tonData/Figs/Raster/DataCan_3
 .png>]
-<35tonData/Figs/Raster/PredictedInteractionTime_Data.png, id=1334, 700.6175pt x
+<35tonData/Figs/Raster/PredictedInteractionTime_Data.png, id=2670, 700.6175pt x
  476.78125pt>
 File: 35tonData/Figs/Raster/PredictedInteractionTime_Data.png Graphic file (typ
 e png)
 <use 35tonData/Figs/Raster/PredictedInteractionTime_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/PredictedInteractionTime_Data.pn
-g used on input line 385.
+g used on input line 387.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-<35tonData/Figs/Raster/DifferenceInteractionTime_Data.png, id=1335, 700.6175pt 
+<35tonData/Figs/Raster/DifferenceInteractionTime_Data.png, id=2671, 700.6175pt 
 x 476.78125pt>
 File: 35tonData/Figs/Raster/DifferenceInteractionTime_Data.png Graphic file (ty
 pe png)
 <use 35tonData/Figs/Raster/DifferenceInteractionTime_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DifferenceInteractionTime_Data.p
-ng used on input line 391.
+ng used on input line 393.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
-[51 <./35tonData/Figs/Raster/CounterDiff4_Data.png> <./35tonData/Figs/Raster/In
+[61 <./35tonData/Figs/Raster/CounterDiff4_Data.png> <./35tonData/Figs/Raster/In
 terceptCanvasData.png>]
-<35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png, id=1346, 700.6175pt x 476.78125
+<35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png, id=2683, 700.6175pt x 476.78125
 pt>
 File: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png used on 
-input line 405.
+input line 407.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-<35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png, id=1347, 700.6175pt x 476.7
+<35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png, id=2684, 700.6175pt x 476.7
 8125pt>
 File: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png Graphic file (type png)
 
 <use 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png used
- on input line 411.
+ on input line 413.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
-[52 <./35tonData/Figs/Raster/PredictedInteractionTime_Data.png> <./35tonData/Fi
+[62 <./35tonData/Figs/Raster/PredictedInteractionTime_Data.png> <./35tonData/Fi
 gs/Raster/DifferenceInteractionTime_Data.png> <./35tonData/Figs/Raster/Data_AvT
 imeDiff_RMS.png> <./35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-<35tonData/Figs/Raster/CombCan_0.png, id=1357, 700.6175pt x 476.78125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+<35tonData/Figs/Raster/CombCan_0.png, id=2694, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_0.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_0.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_0.png used on input line
- 431.
+ 433.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
-<35tonData/Figs/Raster/CombCan_2.png, id=1358, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/CombCan_2.png, id=2695, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_2.png used on input line
- 437.
+ 439.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<35tonData/Figs/Raster/CounterDiff4_Overlay.png, id=1359, 700.6175pt x 476.7812
+<35tonData/Figs/Raster/CounterDiff4_Overlay.png, id=2696, 700.6175pt x 476.7812
 5pt>
 File: 35tonData/Figs/Raster/CounterDiff4_Overlay.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiff4_Overlay.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiff4_Overlay.png used on
- input line 449.
+ input line 451.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-<35tonData/Figs/Raster/InterceptCanvasOverlay.png, id=1360, 700.6175pt x 476.78
+<35tonData/Figs/Raster/InterceptCanvasOverlay.png, id=2697, 700.6175pt x 476.78
 125pt>
 File: 35tonData/Figs/Raster/InterceptCanvasOverlay.png Graphic file (type png)
 <use 35tonData/Figs/Raster/InterceptCanvasOverlay.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/InterceptCanvasOverlay.png used 
-on input line 456.
+on input line 458.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53] [54 <./35tonData/Figs/Raster/CombCan_0.png> <./35tonData/Figs/Raster/CombC
+[63] [64 <./35tonData/Figs/Raster/CombCan_0.png> <./35tonData/Figs/Raster/CombC
 an_2.png> <./35tonData/Figs/Raster/CounterDiff4_Overlay.png> <./35tonData/Figs/
 Raster/InterceptCanvasOverlay.png>]
-<35tonData/Figs/Raster/PredictedTimeFromRMSFits.png, id=1370, 700.6175pt x 476.
+<35tonData/Figs/Raster/PredictedTimeFromRMSFits.png, id=2707, 700.6175pt x 476.
 78125pt>
 File: 35tonData/Figs/Raster/PredictedTimeFromRMSFits.png Graphic file (type png
 )
 <use 35tonData/Figs/Raster/PredictedTimeFromRMSFits.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/PredictedTimeFromRMSFits.png use
-d on input line 471.
+d on input line 473.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-<35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png, id=1371, 700.6175pt x 
+<35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png, id=2708, 700.6175pt x 
 476.78125pt>
 File: 35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png Graphic file (type
  png)
 <use 35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/PredictedTimeFromRMS_IntFits.png
- used on input line 478.
+ used on input line 480.
 (pdftex.def)             Requested size: 196.85616pt x 133.96344pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
-[55 <./35tonData/Figs/Raster/PredictedTimeFromRMSFits.png> <./35tonData/Figs/Ra
+[65 <./35tonData/Figs/Raster/PredictedTimeFromRMSFits.png> <./35tonData/Figs/Ra
 ster/PredictedTimeFromRMS_IntFits.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 590--591
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
+
+ []
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--593
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57]) [58]
+[67]) [68]
 \openout2 = `FarDetectorSimulations/FarDetectorSimulations.aux'.
 
 (./FarDetectorSimulations/FarDetectorSimulations.tex
 Chapter 7.
-) [59
+) [69
 
 
 
-] (./thesis.bbl [60
+] (./thesis.bbl [70
 
 
 
-]) [61]
+]) [71]
 \openout2 = `Appendix1/appendix1.aux'.
 
 (./Appendix1/appendix1.tex
 Appendix A.
-) [62
+) [72
 
 
 ]
@@ -2366,7 +2709,7 @@ Appendix B.
 Package lineno Warning: Linenumber reference failed, 
 (lineno)                rerun to get it right.
 
-) [63
+) [73
 
 
 
@@ -2382,14 +2725,14 @@ ndix1.aux) (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 46A172E61007DAEE946A820097D6EBE4;12632.
+(rerunfilecheck)             Checksum: 7A285E01B3B47E760385CC474558DF35;12632.
  ) 
 Here is how much of TeX's memory you used:
- 25580 strings out of 493089
- 459315 string characters out of 6134843
- 527342 words of memory out of 5000000
- 28092 multiletter control sequences out of 15000+600000
- 94813 words of font info for 308 fonts, out of 8000000 for 9000
+ 25805 strings out of 493089
+ 467913 string characters out of 6134843
+ 534840 words of memory out of 5000000
+ 28260 multiletter control sequences out of 15000+600000
+ 97067 words of font info for 317 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,92p,10395b,930s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -2402,10 +2745,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on thesis.pdf (63 pages, 2879440 bytes).
+Output written on thesis.pdf (73 pages, 5282787 bytes).
 PDF statistics:
- 1528 PDF objects out of 1728 (max. 8388607)
- 1103 compressed objects within 12 object streams
- 195 named destinations out of 1000 (max. 500000)
- 63647 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 2869 PDF objects out of 2984 (max. 8388607)
+ 1720 compressed objects within 18 object streams
+ 215 named destinations out of 1000 (max. 500000)
+ 63772 words of extra memory for PDF output out of 74296 (max. 10000000)
 

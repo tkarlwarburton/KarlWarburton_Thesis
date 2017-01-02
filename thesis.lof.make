@@ -17,33 +17,38 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi.}}{30}{figure.caption.19}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi.}}{31}{figure.caption.20}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces The medium and particle type dependence of the Bethe-Bloch equation}}{33}{figure.caption.21}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Defining the PIDA metric for particle identification.}}{34}{figure.caption.22}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces The reconstruction efficiencies for protons in a sample generated using CRY.}}{36}{figure.caption.23}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Defining the PIDA metric for particle identification.}}{35}{figure.caption.23}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces The reconstruction efficiencies for protons in a sample generated using CRY.}}{36}{figure.caption.24}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The reconstruction efficiencies for single muons and protons in the 35 ton.}}{37}{figure.caption.26}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces The calculated PIDA values for single muons and protons in the 35 ton.}}{38}{figure.caption.27}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces The $\frac {dE}{dx}$ versus residual range plot for single muons and protons in the 35 ton.}}{39}{figure.caption.28}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces A comparison between PIDA values calculated using truth and reconstructed information}}{40}{figure.caption.29}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces The calculated PIDA values for muons and protons in a CRY sample through the 35 ton}}{41}{figure.caption.32}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The 35 ton data sample}}{38}{figure.caption.24}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{40}{figure.caption.25}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{42}{figure.caption.26}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Recovering stuck ADC codes in the 35 ton}}{44}{figure.caption.27}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{44}{figure.caption.28}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Applying Wiener filters to the 35 ton data}}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The effect of noise removal algorithms in the 35 ton}}{45}{figure.caption.30}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{48}{figure.caption.31}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The dot product of track and counter coincidences}}{49}{figure.caption.32}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces The alignment of tracks and counter coincidences}}{49}{figure.caption.33}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{50}{figure.caption.34}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{51}{figure.caption.35}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{52}{figure.caption.36}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{54}{figure.caption.37}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{55}{figure.caption.38}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{56}{figure.caption.39}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{57}{figure.caption.40}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{57}{figure.caption.41}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{59}{figure.caption.42}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset}}{59}{figure.caption.43}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples}}{60}{figure.caption.44}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces The effect that an increased noise level has on the accuracy of interaction time determination}}{62}{figure.caption.45}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces The effect that an increased electron lifetime has on the accuracy of interaction time determination}}{62}{figure.caption.46}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces The effect that an increased electric field has on the accuracy of interaction time determination}}{63}{figure.caption.47}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The 35 ton data sample}}{43}{figure.caption.33}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The 35 ton data structure}}{45}{figure.caption.34}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Dropped TPC data in the 35 ton}}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Recovering stuck ADC codes in the 35 ton}}{49}{figure.caption.36}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Removing coherent noise in the 35 ton}}{49}{figure.caption.37}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Applying Wiener filters to the 35 ton data}}{50}{figure.caption.38}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The effect of noise removal algorithms in the 35 ton}}{50}{figure.caption.39}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The dot product of track and counter coincidences}}{54}{figure.caption.41}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The alignment of tracks and counter coincidences}}{54}{figure.caption.42}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{55}{figure.caption.43}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Schematic showing the process of diffusion}}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces The effect of adding a noise baseline to a hit}}{59}{figure.caption.46}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{60}{figure.caption.47}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces The drift distance and angular dependence of diffusion in the 35 ton data}}{61}{figure.caption.48}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data}}{62}{figure.caption.49}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The difference in predicted and reconstructed interaction times in the 35 ton data}}{62}{figure.caption.50}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector}}{64}{figure.caption.51}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset}}{64}{figure.caption.52}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples}}{65}{figure.caption.53}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces The effect that an increased noise level has on the accuracy of interaction time determination}}{67}{figure.caption.54}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces The effect that an increased electron lifetime has on the accuracy of interaction time determination}}{67}{figure.caption.55}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces The effect that an increased electric field has on the accuracy of interaction time determination}}{68}{figure.caption.56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -17,6 +17,8 @@
 		\nompageref{19}
   \item [{PID}]\begingroup Particle IDentification\nomeqref {4.0}
 		\nompageref{19}
+  \item [{ROI}]\begingroup Region Of Interest\nomeqref {4.0}
+		\nompageref{19}
   \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {3.0}
 		\nompageref{11}
   \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {3.0}
