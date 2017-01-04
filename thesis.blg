@@ -17,45 +17,46 @@ A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
 Warning--empty journal in Church_LArSoft
-You've used 24 entries,
+Warning--empty booktitle in HarrisTrans
+You've used 35 entries,
             1935 wiz_defined-function locations,
-            643 strings with 8144 characters,
-and the built_in function-call counts, 7476 in all, are:
-= -- 771
-> -- 186
-< -- 14
-+ -- 63
-- -- 58
-* -- 594
-:= -- 1294
-add.period$ -- 72
-call.type$ -- 24
-change.case$ -- 151
-chr.to.int$ -- 23
-cite$ -- 25
-duplicate$ -- 299
-empty$ -- 588
-format.name$ -- 87
-if$ -- 1494
+            719 strings with 9704 characters,
+and the built_in function-call counts, 11105 in all, are:
+= -- 1146
+> -- 266
+< -- 25
++ -- 91
+- -- 82
+* -- 869
+:= -- 1901
+add.period$ -- 105
+call.type$ -- 35
+change.case$ -- 220
+chr.to.int$ -- 34
+cite$ -- 37
+duplicate$ -- 462
+empty$ -- 879
+format.name$ -- 126
+if$ -- 2232
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 123
-num.names$ -- 45
-pop$ -- 80
+missing$ -- 24
+newline$ -- 178
+num.names$ -- 69
+pop$ -- 128
 preamble$ -- 1
-purify$ -- 152
+purify$ -- 221
 quote$ -- 0
-skip$ -- 241
+skip$ -- 370
 stack$ -- 0
-substring$ -- 569
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 839
+swap$ -- 36
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 142
-warning$ -- 1
-while$ -- 44
+type$ -- 208
+warning$ -- 2
+while$ -- 71
 width$ -- 0
-write$ -- 303
-(There was 1 warning)
+write$ -- 443
+(There were 2 warnings)

@@ -11,6 +11,7 @@
 		\nompageref{11}
   \item [{SSP}]\begingroup SiPM Signal Processor\nomeqref {3.0}
 		\nompageref{11}
+  \item [{FD}]\begingroup Far Detector\nomeqref {3.0}\nompageref{11}
   \item [{MIP}]\begingroup Minimally Ionising Particle\nomeqref {4.0}
 		\nompageref{19}
   \item [{MPV}]\begingroup Most Probable Value\nomeqref {4.0}

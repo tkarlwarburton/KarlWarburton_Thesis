@@ -25,6 +25,12 @@ Andreopoulos, C. et~al. (2010).
   Accelerators, Spectrometers, Detectors and Associated Equipment}, 614(1):87
   -- 104.
 
+\bibitem[Antonello et~al., 2013]{PMTrack}
+Antonello, M. et~al. (2013).
+\newblock {Precise 3D track reconstruction algorithm for the ICARUS T600 liquid
+  argon time projection chamber detector}.
+\newblock {\em Adv. High Energy Phys.}, 2013:260820.
+
 \bibitem[Antonioli et~al., 1997]{MUSIC}
 Antonioli, P., Ghetti, C., Korolkova, E.~V., Kudryavtsev, V.~A., and
   Sartorelli, G. (1997).
@@ -36,6 +42,22 @@ Antonioli, P., Ghetti, C., Korolkova, E.~V., Kudryavtsev, V.~A., and
 Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
 \newblock {Trasport of electrons in atomic liquids in high electric fields}.
 \newblock {\em IEEE Trans. Dielectrics and Electrical Insulation}, 5:450--457.
+
+\bibitem[Bethe, 1930]{Bethe}
+Bethe, H. (1930).
+\newblock Zur theorie des durchgangs schneller korpuskularstrahlen durch
+  materie.
+\newblock {\em Annalen der Physik}, 397(3):325--400.
+
+\bibitem[Birks, 1960]{BirksModel}
+Birks, J. (1960).
+\newblock The efficiency of organic scintillatois.
+\newblock {\em ORGANIC}, page~12.
+
+\bibitem[Bloch, 1933]{Bloch}
+Bloch, F. (1933).
+\newblock Zur bremsung rasch bewegter teilchen beim durchgang durch materie.
+\newblock {\em Annalen der Physik}, 408(3):285--320.
 
 \bibitem[Brailsford, D. Lancaster University. DUNE collaboration meeting,
   2016]{DomSeptMeeting}
@@ -70,6 +92,19 @@ Cooley, J. and Turkey, J. (1965).
 \newblock An algorithm for the machine calculation of complex fourier series.
 \newblock {\em Math. Comp.}, 19:297--301.
 
+\bibitem[DUNE DocDB 1369, 2016]{EMShower}
+DUNE DocDB 1369 (2016).
+\newblock Emshower reconstruction.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}.
+
+\bibitem[DUNE DocDB 1689, 2016]{LArSoftRecoNote}
+DUNE DocDB 1689 (2016).
+\newblock The current status of simulation and reconstruction for the dune far
+  detector.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}.
+
 \bibitem[DUNE DocDB 1704, 2016]{35tonNoiseMeeting}
 DUNE DocDB 1704 (2016).
 \newblock 35t observations and measurements.
@@ -86,6 +121,18 @@ Hagman, C. et al. (2012).
 \newblock Cosmic-ray shower library \{CRY\}.
 \newblock [online]
   \url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf}.
+
+\bibitem[Harris and Stephens, 1988]{HarrisTrans}
+Harris, C. and Stephens, M. (1988).
+\newblock A combined corner and edge detector.
+\newblock Citeseer.
+
+\bibitem[Hough, 1959]{HoughTrans}
+Hough, P. V.~C. (1959).
+\newblock {Machine Analysis Of Bubble Chamber Pictures}.
+\newblock In {\em {Proceedings, 2nd International Conference on High-Energy
+  Accelerators and Instrumentation, HEACC 1959: CERN, Geneva, Switzerland,
+  September 14-19, 1959}}, volume C590914, pages 554--558.
 
 \bibitem[Insler, J. LSU. 35 ton Meeting, 2016]{InslerStuckCode}
 Insler, J. LSU. 35 ton Meeting (2016).
@@ -104,16 +151,31 @@ Li, Y. et~al. (2016).
 \newblock {Measurement of Longitudinal Electron Diffusion in Liquid Argon}.
 \newblock {\em Nucl. Instrum. Meth.}, A816:160--170.
 
+\bibitem[Marshall and Thomson, 2015]{Pandora}
+Marshall, J.~S. and Thomson, M.~A. (2015).
+\newblock {The Pandora Software Development Kit for Pattern Recognition}.
+\newblock {\em Eur. Phys. J.}, C75(9):439.
+
 \bibitem[MicroBooNE Collaboration, 2016]{uBooNENoise}
 MicroBooNE Collaboration (2016).
 \newblock Noise characterization and filtering in the microboone tpc.
 \newblock [online]
   \url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}.
 
+\bibitem[The LArSoft Collaboration, 2017]{LArSoftOrg}
+The LArSoft Collaboration (2017).
+\newblock Larsoft.
+\newblock [online] \url{http://larsoft.org}.
+
 \bibitem[Thiesse, M. Sheffield University. 35 ton Meeting, 2016]{MattMLESAC}
 Thiesse, M. Sheffield University. 35 ton Meeting (2016).
 \newblock Something.
 \newblock [online] /url{SOMETHING}.
+
+\bibitem[Thomas and Imel, 1987]{BoxModel}
+Thomas, J. and Imel, D.~A. (1987).
+\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
+\newblock {\em Phys. Rev. A}, 36:614--616.
 
 \bibitem[Torr and Zisserman, 2000]{MLESAC}
 Torr, P. and Zisserman, A. (2000).

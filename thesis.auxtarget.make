@@ -84,6 +84,9 @@
 \newlabel{fig:Isol_dEdx_Proton}
 \newlabel{fig:Isol_dEdx}
 \newlabel{fig:LArSoft_coords}
+\newlabel{fig:LotsOfHits_Big}
+\newlabel{fig:LotsOfHits_Col}
+\newlabel{fig:LotsOfHits_Ind}
 \newlabel{fig:LotsOfHits}
 \newlabel{fig:MCPIDA}
 \newlabel{fig:NoiseRemoval}
@@ -173,8 +176,9 @@
 \newlabel{sub@fig:Isol_PIDA_Proton}
 \newlabel{sub@fig:Isol_dEdx_Muon}
 \newlabel{sub@fig:Isol_dEdx_Proton}
-\newlabel{sub@fig:PD_PEDiffX}
-\newlabel{sub@fig:PD_PExPlot}
+\newlabel{sub@fig:LotsOfHits_Big}
+\newlabel{sub@fig:LotsOfHits_Col}
+\newlabel{sub@fig:LotsOfHits_Ind}
 \newlabel{sub@fig:PIDA_MC}
 \newlabel{sub@fig:PIDA_loglog}
 \newlabel{sub@fig:Prot_Effic_EnDepos}
@@ -195,5 +199,6 @@
 \newlabel{sub@fig:TwoDimCanvas}
 \newlabel{tab:IsolProp}
 \newlabel{tab:Isol_PIDA_Muon}
+\newlabel{tab:Isol_PIDA_PrimProton}
 \newlabel{tab:Isol_PIDA_Proton}
 \newlabel{tab:PIDAVals}
