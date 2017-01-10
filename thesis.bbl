@@ -1,205 +1,200 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[Acciarri et~al., 2013]{PIDA_Paper}
-Acciarri, R. et~al. (2013).
-\newblock {A study of electron recombination using highly ionizing particles in
-  the ArgoNeuT Liquid Argon TPC}.
-\newblock {\em JINST}, 8:P08005.
+\bibitem{Church_LArSoft}
+E.~D. Church, ``{LArSoft: A Software Package for Liquid Argon Time Projection
+  Drift Chambers},'' 2013.
 
-\bibitem[Agostinelli et~al., 2003]{GEANT4}
-Agostinelli, S. et~al. (2003).
-\newblock Geant4—a simulation toolkit.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment}, 506(3):250
-  -- 303.
+\bibitem{LArSoftOrg}
+``Larsoft,'' 2017.
+\newblock [online] \url{http://larsoft.org}.
 
-\bibitem[Anderson et~al., 2012]{ArgoNeuT}
-Anderson, C. et~al. (2012).
-\newblock {The ArgoNeuT Detector in the NuMI Low-Energy beam line at Fermilab}.
-\newblock {\em JINST}, 7:P10019.
+\bibitem{ROOT}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
 
-\bibitem[Andreopoulos et~al., 2010]{GENIE}
-Andreopoulos, C. et~al. (2010).
-\newblock The \{GENIE\} neutrino monte carlo generator.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment}, 614(1):87
-  -- 104.
+\bibitem{GEANT4}
+S.~Agostinelli {\em et~al.}, ``Geant4—a simulation toolkit,'' {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~506, no.~3, pp.~250
+  -- 303, 2003.
 
-\bibitem[Antonello et~al., 2013]{PMTrack}
-Antonello, M. et~al. (2013).
-\newblock {Precise 3D track reconstruction algorithm for the ICARUS T600 liquid
-  argon time projection chamber detector}.
-\newblock {\em Adv. High Energy Phys.}, 2013:260820.
+\bibitem{GENIE}
+C.~Andreopoulos {\em et~al.}, ``The \{GENIE\} neutrino monte carlo generator,''
+  {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, vol.~614,
+  no.~1, pp.~87 -- 104, 2010.
 
-\bibitem[Antonioli et~al., 1997]{MUSIC}
-Antonioli, P., Ghetti, C., Korolkova, E.~V., Kudryavtsev, V.~A., and
-  Sartorelli, G. (1997).
-\newblock {A Three-dimensional code for muon propagation through the rock:
-  Music}.
-\newblock {\em Astropart. Phys.}, 7:357--368.
-
-\bibitem[Atrazhev and Timoshkin, 1998]{Atrazhev-Timoshkin}
-Atrazhev, V.~M. and Timoshkin, I.~V. (1998).
-\newblock {Trasport of electrons in atomic liquids in high electric fields}.
-\newblock {\em IEEE Trans. Dielectrics and Electrical Insulation}, 5:450--457.
-
-\bibitem[Bethe, 1930]{Bethe}
-Bethe, H. (1930).
-\newblock Zur theorie des durchgangs schneller korpuskularstrahlen durch
-  materie.
-\newblock {\em Annalen der Physik}, 397(3):325--400.
-
-\bibitem[Birks, 1960]{BirksModel}
-Birks, J. (1960).
-\newblock The efficiency of organic scintillatois.
-\newblock {\em ORGANIC}, page~12.
-
-\bibitem[Bloch, 1933]{Bloch}
-Bloch, F. (1933).
-\newblock Zur bremsung rasch bewegter teilchen beim durchgang durch materie.
-\newblock {\em Annalen der Physik}, 408(3):285--320.
-
-\bibitem[Brailsford, D. Lancaster University. DUNE collaboration meeting,
-  2016]{DomSeptMeeting}
-Brailsford, D. Lancaster University. DUNE collaboration meeting (2016).
-\newblock Looking at electron diffusion in 35t data and mc.
-\newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
-
-\bibitem[Bromberg et~al., 2015]{LongBo}
-Bromberg, C. et~al. (2015).
-\newblock Design and operation of longbo: a 2 m long drift liquid argon tpc.
-\newblock {\em Journal of Instrumentation}, 10(07):P07015.
-
-\bibitem[Brun and Rademakers, 1997]{ROOT}
-Brun, R. and Rademakers, F. (1997).
-\newblock {ROOT: An object oriented data analysis framework}.
-\newblock {\em Nucl. Instrum. Meth.}, A389:81--86.
-
-\bibitem[Casper, 2002]{Nuance}
-Casper, D. (2002).
-\newblock {The Nuance neutrino physics simulation, and the future}.
-\newblock {\em Nucl. Phys. Proc. Suppl.}, 112:161--170.
+\bibitem{Nuance}
+D.~Casper, ``{The Nuance neutrino physics simulation, and the future},'' {\em
+  Nucl. Phys. Proc. Suppl.}, vol.~112, pp.~161--170, 2002.
 \newblock [,161(2002)].
 
-\bibitem[Church, 2013]{Church_LArSoft}
-Church, E.~D. (2013).
-\newblock {LArSoft: A Software Package for Liquid Argon Time Projection Drift
-  Chambers}.
-
-\bibitem[Cooley and Turkey, 1965]{CoTuFFT}
-Cooley, J. and Turkey, J. (1965).
-\newblock An algorithm for the machine calculation of complex fourier series.
-\newblock {\em Math. Comp.}, 19:297--301.
-
-\bibitem[DUNE DocDB 1369, 2016]{EMShower}
-DUNE DocDB 1369 (2016).
-\newblock Emshower reconstruction.
-\newblock [online]
-  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}.
-
-\bibitem[DUNE DocDB 1689, 2016]{LArSoftRecoNote}
-DUNE DocDB 1689 (2016).
-\newblock The current status of simulation and reconstruction for the dune far
-  detector.
-\newblock [online]
-  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}.
-
-\bibitem[DUNE DocDB 1704, 2016]{35tonNoiseMeeting}
-DUNE DocDB 1704 (2016).
-\newblock 35t observations and measurements.
-\newblock [online]
-  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
-
-\bibitem[DUNE DocDB 1834, 2016]{35tonNoiseDoc}
-DUNE DocDB 1834 (2016).
-\newblock 35t noise studies summary - apa wire readout noise.
-\newblock [online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}.
-
-\bibitem[Hagman, C. et al., 2012]{CRY}
-Hagman, C. et al. (2012).
-\newblock Cosmic-ray shower library \{CRY\}.
+\bibitem{CRY}
+``Cosmic-ray shower library \{CRY\},'' 2012.
 \newblock [online]
   \url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf}.
 
-\bibitem[Harris and Stephens, 1988]{HarrisTrans}
-Harris, C. and Stephens, M. (1988).
-\newblock A combined corner and edge detector.
-\newblock Citeseer.
+\bibitem{MUSUN}
+V.~Kudryavtsev, ``Muon simulation codes \{MUSIC\} and \{MUSUN\} for underground
+  physics,'' {\em Computer Physics Communications}, vol.~180, no.~3, pp.~339 --
+  346, 2009.
 
-\bibitem[Hough, 1959]{HoughTrans}
-Hough, P. V.~C. (1959).
-\newblock {Machine Analysis Of Bubble Chamber Pictures}.
-\newblock In {\em {Proceedings, 2nd International Conference on High-Energy
-  Accelerators and Instrumentation, HEACC 1959: CERN, Geneva, Switzerland,
-  September 14-19, 1959}}, volume C590914, pages 554--558.
+\bibitem{MUSUN2}
+V.~A. Kudryavtsev, N.~J.~C. Spooner, and J.~E. McMillan, ``{Simulations of muon
+  induced neutron flux at large depths underground},'' {\em Nucl. Instrum.
+  Meth.}, vol.~A505, pp.~688--698, 2003.
 
-\bibitem[Insler, J. LSU. 35 ton Meeting, 2016]{InslerStuckCode}
-Insler, J. LSU. 35 ton Meeting (2016).
-\newblock Module to unstick adc codes.
+\bibitem{MUSIC}
+P.~Antonioli, C.~Ghetti, E.~V. Korolkova, V.~A. Kudryavtsev, and G.~Sartorelli,
+  ``{A Three-dimensional code for muon propagation through the rock: Music},''
+  {\em Astropart. Phys.}, vol.~7, pp.~357--368, 1997.
+
+\bibitem{MUSIC2}
+V.~A. Kudryavtsev, E.~V. Korolkova, and N.~J.~C. Spooner, ``{Narrow muon
+  bundles from muon pair production in rock},'' {\em Phys. Lett.}, vol.~B471,
+  pp.~251--256, 1999.
+
+\bibitem{LArSoftRecoNote}
+``The current status of simulation and reconstruction for the dune far
+  detector,'' 2016.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}.
+
+\bibitem{HarrisTrans}
+C.~Harris and M.~Stephens, ``A combined corner and edge detector.,'' Citeseer,
+  1988.
+
+\bibitem{HoughTrans}
+P.~V.~C. Hough, ``{Machine Analysis Of Bubble Chamber Pictures},'' in {\em
+  {Proceedings, 2nd International Conference on High-Energy Accelerators and
+  Instrumentation, HEACC 1959: CERN, Geneva, Switzerland, September 14-19,
+  1959}}, vol.~C590914, pp.~554--558, 1959.
+
+\bibitem{PMTrack}
+M.~Antonello {\em et~al.}, ``{Precise 3D track reconstruction algorithm for the
+  ICARUS T600 liquid argon time projection chamber detector},'' {\em Adv. High
+  Energy Phys.}, vol.~2013, p.~260820, 2013.
+
+\bibitem{Pandora}
+J.~S. Marshall and M.~A. Thomson, ``{The Pandora Software Development Kit for
+  Pattern Recognition},'' {\em Eur. Phys. J.}, vol.~C75, no.~9, p.~439, 2015.
+
+\bibitem{EMShower}
+``Emshower reconstruction,'' 2016.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}.
+
+\bibitem{BirksModel}
+J.~Birks, ``The efficiency of organic scintillatois,'' {\em ORGANIC}, p.~12,
+  1960.
+
+\bibitem{PIDA_Paper}
+R.~Acciarri {\em et~al.}, ``{A study of electron recombination using highly
+  ionizing particles in the ArgoNeuT Liquid Argon TPC},'' {\em JINST}, vol.~8,
+  p.~P08005, 2013.
+
+\bibitem{BoxModel}
+J.~Thomas and D.~A. Imel, ``Recombination of electron-ion pairs in liquid argon
+  and liquid xenon,'' {\em Phys. Rev. A}, vol.~36, pp.~614--616, Jul 1987.
+
+\bibitem{Bethe}
+H.~Bethe, ``Zur theorie des durchgangs schneller korpuskularstrahlen durch
+  materie,'' {\em Annalen der Physik}, vol.~397, no.~3, pp.~325--400, 1930.
+
+\bibitem{Bloch}
+F.~Bloch, ``Zur bremsung rasch bewegter teilchen beim durchgang durch
+  materie,'' {\em Annalen der Physik}, vol.~408, no.~3, pp.~285--320, 1933.
+
+\bibitem{InslerStuckCode}
+``Module to unstick adc codes,'' 2016.
 \newblock [online]
   \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
 
-\bibitem[Kudryavtsev, 2009]{MUSUN}
-Kudryavtsev, V. (2009).
-\newblock Muon simulation codes \{MUSIC\} and \{MUSUN\} for underground
-  physics.
-\newblock {\em Computer Physics Communications}, 180(3):339 -- 346.
-
-\bibitem[Li et~al., 2016]{Li:2015rqa}
-Li, Y. et~al. (2016).
-\newblock {Measurement of Longitudinal Electron Diffusion in Liquid Argon}.
-\newblock {\em Nucl. Instrum. Meth.}, A816:160--170.
-
-\bibitem[Marshall and Thomson, 2015]{Pandora}
-Marshall, J.~S. and Thomson, M.~A. (2015).
-\newblock {The Pandora Software Development Kit for Pattern Recognition}.
-\newblock {\em Eur. Phys. J.}, C75(9):439.
-
-\bibitem[MicroBooNE Collaboration, 2016]{uBooNENoise}
-MicroBooNE Collaboration (2016).
-\newblock Noise characterization and filtering in the microboone tpc.
+\bibitem{uBooNENoise}
+``Noise characterization and filtering in the microboone tpc,'' 2016.
 \newblock [online]
   \url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}.
 
-\bibitem[The LArSoft Collaboration, 2017]{LArSoftOrg}
-The LArSoft Collaboration (2017).
-\newblock Larsoft.
-\newblock [online] \url{http://larsoft.org}.
+\bibitem{CoTuFFT}
+J.~Cooley and J.~Turkey, ``An algorithm for the machine calculation of complex
+  fourier series,'' {\em Math. Comp.}, vol.~19, pp.~297--301, 1965.
 
-\bibitem[Thiesse, M. Sheffield University. 35 ton Meeting, 2016]{MattMLESAC}
-Thiesse, M. Sheffield University. 35 ton Meeting (2016).
-\newblock Something.
-\newblock [online] /url{SOMETHING}.
-
-\bibitem[Thomas and Imel, 1987]{BoxModel}
-Thomas, J. and Imel, D.~A. (1987).
-\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
-\newblock {\em Phys. Rev. A}, 36:614--616.
-
-\bibitem[Torr and Zisserman, 2000]{MLESAC}
-Torr, P. and Zisserman, A. (2000).
-\newblock Mlesac: A new robust estimator with application to estimating image
-  geometry.
-\newblock {\em Computer Vision and Image Understanding}, 78(1):138--156.
-
-\bibitem[Wiener, 1942]{WienerFilter}
-Wiener, N. (1942).
-\newblock {\em Extrapolation, Interpolation, and Smoothing of Stationary Time
+\bibitem{WienerFilter}
+N.~Wiener, {\em Extrapolation, Interpolation, and Smoothing of Stationary Time
   Series}.
 \newblock [Cambridge]: Technology Press of the Massachusetts Institute of
-  Technology.
+  Technology., 1942.
 
-\bibitem[Yang, T. Fermilab. 35 ton Meeting, 2016a]{TingjunLifetime}
-Yang, T. Fermilab. 35 ton Meeting (2016a).
-\newblock Update on 35 ton analysis.
+\bibitem{35tonNoiseMeeting}
+``35t observations and measurements,'' 2016.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
+
+\bibitem{35tonNoiseDoc}
+``35t noise studies summary - apa wire readout noise,'' 2016.
+\newblock [online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}.
+
+\bibitem{TingjunClustering}
+``Update on reconstruction of 35t data,'' 2016.
+\newblock [online]
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
+
+\bibitem{MLESAC}
+P.~Torr and A.~Zisserman, ``Mlesac: A new robust estimator with application to
+  estimating image geometry,'' {\em Computer Vision and Image Understanding},
+  vol.~78, no.~1, pp.~138--156, 2000.
+
+\bibitem{MattMLESAC}
+``Something,'' 2016.
+\newblock [online] /url{SOMETHING}.
+
+\bibitem{ArgoNeuT}
+C.~Anderson {\em et~al.}, ``{The ArgoNeuT Detector in the NuMI Low-Energy beam
+  line at Fermilab},'' {\em JINST}, vol.~7, p.~P10019, 2012.
+
+\bibitem{TingjunLifetime}
+``Update on 35 ton analysis,'' 2016.
 \newblock [online]
   \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}.
 
-\bibitem[Yang, T. Fermilab. 35 ton Meeting, 2016b]{TingjunClustering}
-Yang, T. Fermilab. 35 ton Meeting (2016b).
-\newblock Update on reconstruction of 35t data.
+\bibitem{Atrazhev-Timoshkin}
+V.~M. Atrazhev and I.~V. Timoshkin, ``{Trasport of electrons in atomic liquids
+  in high electric fields},'' {\em IEEE Trans. Dielectrics and Electrical
+  Insulation}, vol.~5, pp.~450--457, 1998.
+
+\bibitem{Li:2015rqa}
+Y.~Li {\em et~al.}, ``{Measurement of Longitudinal Electron Diffusion in Liquid
+  Argon},'' {\em Nucl. Instrum. Meth.}, vol.~A816, pp.~160--170, 2016.
+
+\bibitem{DomSeptMeeting}
+``Looking at electron diffusion in 35t data and mc,'' 2016.
 \newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
+  \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
+
+\bibitem{LongBo}
+C.~Bromberg {\em et~al.}, ``Design and operation of longbo: a 2 m long drift
+  liquid argon tpc,'' {\em Journal of Instrumentation}, vol.~10, no.~07,
+  p.~P07015, 2015.
+
+\bibitem{Mei:2009py}
+D.~M. Mei, C.~Zhang, K.~Thomas, and F.~Gray, ``{Early Results on Radioactive
+  Background Characterization for Sanford Laboratory and DUSEL Experiments},''
+  {\em Astropart. Phys.}, vol.~34, pp.~33--39, 2010.
+
+\bibitem{PhysRevD.27.1444}
+M.~L. Cherry, M.~Deakyne, K.~Lande, C.~K. Lee, R.~I. Steinberg, B.~Cleveland,
+  and E.~J. Fenyves, ``Multiple muons in the homestake underground detector,''
+  {\em Phys. Rev. D}, vol.~27, pp.~1444--1447, Apr 1983.
+
+\bibitem{NDKTFNote}
+``September 2016 progress report from the atmospheric neutrinos, nucleon decay,
+  and cosmogenics working groups,'' 2016.
+\newblock [online]
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644}.
+
+\bibitem{MUSUNLBNE}
+``Muon simulations for lbne using music and musun,'' 2014.
+\newblock [online]
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673}.
 
 \end{thebibliography}

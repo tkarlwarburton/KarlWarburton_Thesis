@@ -20,7 +20,7 @@ A total of 22 days worth of data was collected with the electric field set at 25
 \section{Organisation of the data structure} \label{Organisation of the data structure} %Section - X.1
 As previously noted the 35 ton consisted of three detector sub-systems: RCEs collecting TPC data, SSPs collecting photon detector data, and CRCs tagging cosmic rays. The DAQ combined these three data streams into synchronous events in time and saved them as LArSoft data objects. These data objects would later have to be converted to the offline data products which the reconstruction tools developed on simulation used, this is discussed in Section~\ref{Reformatting the data to the offline structure}. This section describes the structure of the data objects in the raw form.\\
 
-During operations the DAQ was configured to maximise data throughput and physics potential. This meant recording different lengths of times for each of the three sub-systems as the data volumes and length of physics information were significantly different. For example due to the emission of prompt light the physics information from the SSPs is of a much shorter length of time than from the RCEs where data has to be recorded whilst the electrons drift through the LAr. During the running period the recorded data was triggered by through-going muons which produced coincidences on the CRCs on opposites side of the cryostat. A coincidence is defined as two CRC modules recording a hit within 30??? ns. The system used to collect the CRC data was also responsible for generating the triggers and so this meant that the trigger rate could be suppressed to approximately 1 Hz by only producing triggers every N times a coincidence occured, where N was a tunable variable. A trigger rate of 1 Hz was used as the maximum speed at which data could be written to disk was approximately 60 MB s$^{-1}$, which is roughly equal to the size of each triggered event when the entire detector is read-out in the configuration discussed below. The rate at which events were recorded could have been increased if zero-suppression of the TPC data had been used, however the noise level meant that this was not feasible. \\ 
+During operations the DAQ was configured to maximise data throughput and physics potential. This meant recording different lengths of times for each of the three sub-systems as the data volumes and length of physics information were significantly different. For example due to the emission of prompt light the physics information from the SSPs is of a much shorter length of time than from the RCEs where data has to be recorded whilst the electrons drift through the LAr. During the running period the recorded data was triggered by through-going muons which produced coincidences on the CRCs on opposites side of the cryostat. A coincidence is defined as two CRC modules recording a hit within 30??? ns. The system used to collect the CRC data was also responsible for generating the triggers and so this meant that the trigger rate could be suppressed to approximately 1 Hz by only producing triggers every N times a coincidence occurred, where N was a tuneable variable. A trigger rate of 1 Hz was used as the maximum speed at which data could be written to disk was approximately 60 MB s$^{-1}$, which is roughly equal to the size of each triggered event when the entire detector is read-out in the configuration discussed below. The rate at which events were recorded could have been increased if zero-suppression of the TPC data had been used, however the noise level meant that this was not feasible. \\ 
 
 With an electric field of 250 V cm$^{-1}$ and a drift of 2.25 m, the drift time for electrons at the long drift CPA was roughly 2.6 ms or 5200 ticks (where 1 tick is 500 ns). It was decided that in order for a track causing a counter coincidence to be separated from other tracks it was necessary to have roughly one drift window both before and after the drift window around the coincidence, meaning that data was recorded for 7.5 ms or 15,000 ticks around each coincidence. Only the prompt light from through-going particles was collected and so only 200 $\mu$s of SSP data was recorded for each event. The CRCs produced the least volume of data and so were able to be read out constantly. \\
 
@@ -36,7 +36,7 @@ The time synchronous events produced by the DAQ did not, however, correspond to 
   \label{fig:DataStructure}
 \end{figure}
 
-During normal data taking the last N microslices are buffered in the RCEs so that if a trigger is issued the previous millislices can be accessed before they are deleted. As the data is buffered in the form of microslices, previous microslices may only be accessed in whole. This means that a whole number of microslices must be loaded before the trigger so, when a trigger is issued part way through a microslice, the previous X microslices are sent to the event builders. As a result during running there are always a minimum number of ticks both before (5,000 ticks) and after the trigger (9,000 ticks) but the exact numbers can change by up to 1,000 ticks for a given event depending on where in a microslice the trigger came. The result of this is that it is impossible to apriori know the number of ticks before/after a given counter coincidence. This is shown in Figure~\ref{fig:DataStructure} where the black lines representing triggers, are seen to occur at different points within the microslices. For example, physics event 1 will have more data after the trigger than physics event 2 as the trigger occurs earlier in the triggered microslice.
+During normal data taking the last N microslices are buffered in the RCEs so that if a trigger is issued the previous millislices can be accessed before they are deleted. As the data is buffered in the form of microslices, previous microslices may only be accessed in whole. This means that a whole number of microslices must be loaded before the trigger so, when a trigger is issued part way through a microslice, the previous X microslices are sent to the event builders. As a result during running there are always a minimum number of ticks both before (5,000 ticks) and after the trigger (9,000 ticks) but the exact numbers can change by up to 1,000 ticks for a given event depending on where in a microslice the trigger came. The result of this is that it is impossible to a priori know the number of ticks before/after a given counter coincidence. This is shown in Figure~\ref{fig:DataStructure} where the black lines representing triggers, are seen to occur at different points within the microslices. For example, physics event 1 will have more data after the trigger than physics event 2 as the trigger occurs earlier in the triggered microslice.
 
 %********************************** %Second Section  *************************************
 \section{Reformatting the data to the offline structure} \label{Reformatting the data to the offline structure} %Section - X.2
@@ -160,9 +160,9 @@ Transitions to a higher noise state associated with strong signals at high frequ
 \section{Performance of reconstruction algorithms} \label{sec:DataAlgs}  %Section - X.4
 Following the noise removal outlined above hit and track finding was still more difficult than in simulations due to the still elevated noise level. In order for a sensible number of hits to be reconstructed the hit finding threshold had to be substantially increased in data as compared to Monte Carlo, this meant that many of the low energy hits would not be reconstructed. \\
 
-A potential solution to not reconstructing the low energy hits is to use the counter positions to select only hits which could have caused coincidences. When determining whether a reconstructed hit could have caused the counter coincidence a two-dimensional window around the counter edges in the YZ plane is constructed and timing information is used to extend this to three dimensions.  The $x$ position of the hit can be calculated using the hit time and electron drift velocity using Equation~\ref{eq:HitTime}. \\
+A potential solution to not reconstructing the low energy hits is to use the counter positions to select only hits which could have caused coincidences. When determining whether a reconstructed hit could have caused the counter coincidence a two-dimensional window around the counter edges in the $yz$ plane is constructed and timing information is used to extend this to three dimensions.  The $x$ position of the hit can be calculated using the hit time and electron drift velocity using Equation~\ref{eq:HitTime}. \\
 
-Determining whether collection plane hits are within the counter window is trivial as they have a constant Z position and either cover the full detector height (tall APAs) or roughly half of the detector height (short APAs). The wrapping of the induction planes however means that each wire segment has to be considered individually and that multiple segments of a given wire could lie within the counter shadow. Choosing between these potential wire segments is done by iterating through the following steps. If at any point only one segment satisfies the condition then this segment is chosen:
+Determining whether collection plane hits are within the counter window is trivial as they have a constant $z$ position and either cover the full detector height (tall APAs) or roughly half of the detector height (short APAs). The wrapping of the induction planes, however, means that each wire segment has to be considered individually and that multiple segments of a given wire could lie within the counter shadow. The 3-dimensional volume that is enclosed by connecting the edges of the counters which were hit to cause the counter coincidence, is called the ``counter shadow,'' and the wires which lie within the 2-dimensional projection of this volume onto the $yz$ plane are considered here. Choosing between these potential wire segments is done by iterating through the following steps. If at any point only one segment satisfies the condition then this segment is chosen:
 \begin{itemize}
 \item Does the wire segment intersect any collection plane wires which record hits?
   \begin{itemize}
@@ -172,28 +172,38 @@ Determining whether collection plane hits are within the counter window is trivi
   \begin{itemize}
   \item This is because one would expect a track to deposit energy on multiple adjacent wire segments. 
   \end{itemize}
-\item Which hit lies closest to the line defined by unique collection plane hits in the XZ plane?
+\item Which hit lies closest to the line defined by unique collection plane hits in the $xz$ plane?
   \begin{itemize}
-  \item This is follows identical logic to the first criteria, but selects the hit which best matches the collection plane hits and attempts to remove the effect of noisy collection plane wires by only using wires which have one hit within the counter shadow. This would also hopefully improve the quality of the fit as there will not be numerous outlying hits.
+  \item This is follows identical logic to the first criterion, but selects the hit which best matches the collection plane hits and attempts to remove the effect of noisy collection plane wires by only using wires which have one hit within the counter shadow. This would also hopefully improve the quality of the fit as there will not be numerous outlying hits.
   \item This can be changed to consider the line defined by previously selected hits in the given TPC and plane where the hit choices are.
   \end{itemize}
 \end{itemize}
 %DO I WANT SOME SORT OF FIGURE SHOWING THIS? LOTS OF HITS -> ONLY TRACK HITS? COL HITS USED IN ITEM 3, OVERLAYED WITH ALL INDUCTION PLANE HITS CONSIDERED, WITH THE ONES KEPT IN A DIFFERENT COLOUR? \\
 
-Following a re-optimisation of the clustering algorithms it was observed that the standard reconstruction could achieve track reconstruction to a similar efficiency as the counter shadowing and so the standard reconstruction has been used in the discussions to follow \citep{TingjunClustering}. There has since been an effort to improve the counter shadowing hit disambiguation to remove the outlying collection plane hits using the MLESAC method \citep{MLESAC} whereby points which are far away from a best fit are ignored, these studies are still on-going~\citep{MattMLESAC}. \\
+Following a re-optimisation of the clustering algorithms it was observed that the standard reconstruction could achieve track reconstruction to a similar efficiency as the counter shadowing and so the standard reconstruction has been used in the discussions to follow \citep{TingjunClustering}. There has since been an effort to improve the counter shadowing hit disambiguation to remove the outlying collection plane hits using the MLESAC method \citep{MLESAC} whereby points which are far away from a best fit are ignored. These studies are still on-going~\citep{MattMLESAC}. \\
 
 %****** Now to talk about the reconstruction efficiencies... ******%
-A symptom of the elevated noise state is that signals are often dropped on one of the induction planes, this means that the tracking algorithms often have to combine clusters in only two of the three planes. Reconstruction using two planes was shown to be effective by the ArgoNeuT collaboration \citep{ArgoNeuT} so the loss of signal in one of the three planes is not prohibitive to track reconstruction. Another consequence of the elevated noise level is that even when the counters are used to seed hit finding the hit finding threshold is too high to reconstruct the very lowest hits. This causes the plot of $dQ/dx$ for muons, shown in Figure~\ref{fig:TingjunLifetime}, to look flat due to a cutoff at 100 ADC cm$^{-1}$ below which no hits are found. The inability to reconstruct the lowest energy hits means that calorimetry is all but impossible on the 35 ton dataset even though the tracking algorithms perform relatively well. \\
+A symptom of the elevated noise state is that signals are often dropped on one of the induction planes, this means that the tracking algorithms often have to combine clusters in only two of the three planes. Reconstruction using two planes was shown to be effective by the ArgoNeuT collaboration \citep{ArgoNeuT} so the loss of signal in one of the three planes is not prohibitive to track reconstruction. Another consequence of the elevated noise level is that even when the counters are used to seed hit finding, the hit finding threshold is too high to reconstruct the very lowest hits. This causes the plot of $dQ/dx$ for muons, shown in Figure~\ref{fig:TingjunLifetime}, to look flat due to a cutoff at 100 ADC cm$^{-1}$ below which no hits are found. The inability to reconstruct the lowest energy hits means that calorimetry is all but impossible on the 35 ton dataset even though the tracking algorithms perform relatively well. The inability to perform reliable calorimetry en masse means that the only particles which can be assuredly identified are the muons which triggered the counter coincidences, making the analysis proposed in Section~\ref{sec:PID} extremely difficult, if not impossible. \\
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{TingjunLifetime}
   \caption[$dQ/dx$ in the 35 ton as a function of drift time]
-          {The $dQ/dx$ values for a sample of muon collection plane hits \citep{TingjunLifetime}, note the cutoff at 100 ADC cm$^{-1}$ due to the hit finding threshold.}
+          {The $dQ/dx$ values for a sample of muon collection plane hits, note the cutoff at 100 ADC cm$^{-1}$ due to the hit finding threshold. Figure taken from\citep{TingjunLifetime}.}
   \label{fig:TingjunLifetime}
 \end{figure}  
 
-The inability to perform reliable calorimetry en masse means that the only particles which can be assuredly identified are the muons which triggered the counter coincidences, making the analysis proposed in Section~\ref{sec:PID} extremely difficult if not impossible. The muons in the triggered sample will all traverse the detector but their orientations can be carefully selected by the user, for example one could easily select a sample of muons which cross the APAs at increasing angles, or are parallel to the wire planes at increasing drift distances. A reconstructed track is assigned to a given counter coincidence if the dot product of the track and the coincidence is more than 0.98 and the hit times are consistent with the $x$ positions of the counters, as shown in Figure~\ref{fig:CounterCoincidence}. This should result in a pure sample of tracks as parallel muons are unlikely to be highly correlated in time and any tracks reconstructed from the noise will have random directions and so will not pass the dot product cut. This is shown in data where if multiple tracks pass the dot product cut they are co-linear and are not randomly orientated, as shown in Figure~\ref{fig:CounterTrackAngle}. \\
+The muons in the triggered sample will all traverse the detector but their orientations can be carefully selected by the user, for example one could easily select a sample of muons which cross the APAs at increasing angles, or are parallel to the wire planes at increasing drift distances by matching through-going muons with counter coincidences. The process by which this is done is identical for both North-South and East-West coincidences, though more focus will be given to the later and so it will be presented in that regard. The same matching technique would also have been applied to vertical muons had the telescope triggered been utilised. For a reference as to the location of the counter positions around the cryostat see Figure~\ref{fig:35tonCounterLoc}, and for a representation of only the East-West counters see Figure~\ref{fig:EWCounters}. \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.65\textwidth]{CounterSchematic}
+  \caption[The numbering scheme for the East - West counters in the 35 ton]
+          {The numbering scheme for the East - West counters in the 35 ton. The counters have been numbered from 0 to 10 depending on their position from the end of the short drift volume. This is different to the LArSoft numbering scheme shown in Figure~\ref{fig:35tonCounterLoc} where they go from 6-15 and 28-37 for the East and West counters respectively. Three muons which would have caused coincidence triggers are shown as dashed lines, and the reconstructed tracks they produced are shown as solid lines. The red track would be an APA crossing event, and produced tracks in TPCs 1 and 6. The black muon was fully reconstructed as one continuous track, however the blue particle was not reconstructed in the middle TPCs and so was reconstructed as two separate tracks.}
+  \label{fig:EWCounters}
+\end{figure}
+
+It is possible to construct a line in the $yz$ plane joining the centres of the two counters which were hit when a coincidence occurred, shown by the dashed line in Figure~\ref{fig:EWCounters}. This can then be compared with the trajectory of a track in the $yz$ plane and a dot product of the two vectors calculated. A reconstructed track is assigned to a given counter coincidence if the dot product of the track and the coincidence is more than 0.98 and the hit times are consistent with the $x$ positions of the counters. The results of the dot product calculation are shown in Figure~\ref{fig:CounterCoincidence}. Matching only tracks which are well aligned with a counter coincidence should produce a pure sample of tracks, as parallel muons are unlikely to be highly correlated in time and any tracks reconstructed from the noise will have random directions. This is shown in data where if multiple tracks pass the dot product cut they are co-linear and are not randomly orientated, as shown in Figure~\ref{fig:CounterTrackAngle}. \\
 
 \begin{figure}[h!]
   \centering
@@ -208,8 +218,8 @@ The inability to perform reliable calorimetry en masse means that the only parti
     \includegraphics[width=\textwidth]{CosThetaZoom_Data}
     \caption{Dot product values close to 1.}
   \end{subfigure}
-  \caption[The dot product of track and counter coincidences]
-          {The dot product of track and counter coincidences.}
+  \caption[The dot product of the track and vector joining the centres of the coincidence counters in the $yz$ plane]
+          {The dot product of the track and vector joining the centres of the coincidence counters in the $yz$ plane. A threshold value of 0.98 is required for a track to be considered to be due to the counter coincidence. It can be seen that many tracks are well aligned with counter coincidences, having dot products of more than 0.99.}
           \label{fig:CounterCoincidence}
 \end{figure}
 
@@ -226,46 +236,82 @@ The inability to perform reliable calorimetry en masse means that the only parti
     \includegraphics[width=\textwidth]{East-West}
     \caption{An East-West counter coincidence.}
   \end{subfigure}
-  \caption[The alignment of tracks and counter coincidences]
-          {The alignment of reconstructed tracks and the counter coincidences they cause.}
+  \caption[The alignment of reconstructed tracks with the vectors joining the centres of the coincidence counters]
+          {The alignment of reconstructed tracks with the vectors joining the centres of the coincidence counters. The dashed lines show the vectors joining the centres of counters hit in the coincidence, whilst the solid lines show the reconstructed tracks. Figures taken from~\citep{TingjunClustering}.}
           \label{fig:CounterTrackAngle}
 \end{figure}
 
-THIS IS WHERE I WANT TO DESCRIBE THE COUNTER COINCIDENCES \\
+By matching tracks in this way it is possible to evaluate the reconstruction efficiencies for these muons at increasing drift distances and track angles. If multiple tracks are aligned with the coincidence and are within the expected time region then their track lengths are summed when calculating reconstruction efficiencies as it is expected that the track was split by a region of the detector either being turned off or too noisy to reliably reconstruct a track. If these tracks have a combined track length of more than 50 cm then the coincidence is identified as having been successfully reconstructed. This threshold is much lower than the true track length which should be reconstructed, >150 cm, but few particles are fully reconstructed in the data and so a compromise is made to achieve a large enough sample of tracks upon which analyses can be performed. A reconstructed track that is 50 cm long is likely to have a large number of hits on collection plane wires that are not noisy, and it is these hits which are required when calculating purity or measuring the effect of diffusion as discussed in Section~\ref{DiffusionAnalysis}. A track with length more than 50 cm is also likely to have been stitched between TPCs due to the geometry of the 35 ton and track trajectories. The demonstration of stitching tracks between TPCs was a design goal of the 35 ton, and so identifying tracks where this was achieved satisfies that goal. \\
 
-By matching tracks in this way it possible to evaluate the reconstruction efficiencies for these muons at increasing drift distances and track angles. If multiple tracks are aligned with the coincidence and are within the expected time region then their track lengths are summed when calculating reconstruction efficiencies as it is expected that the track was split by a region of the detector either being turned off or too noisy to reliably reconstruct a track. A minimum reconstructed length of 50 cm is used to determine if the track was partially reconstructed as above this length the track is likely to have been stitched between TPCs, the verification of which was a design goal of the 35 ton. A reconstructed track that is 50 cm long is also likely to have a large number of hits on collection plane wires that are not noisy, these hits are needed when calculating purity or measuring the effect of diffusion as discussed in Section~\ref{DiffusionAnalysis}. \\
+An important concept that must be introduced before these reconstruction efficiencies can be described is that of a ``counter difference.'' The ``counter difference'' of a coincidence and it's associated tracks is defined as the absolute difference between the counter numbers of the East and West counters that were hit, as shown in Figure~\ref{fig:CounterCoincidence}. As such, the ``counter differences'' of the coincidences shown in Figure~\ref{fig:CounterCoincidence} are 2, 3 and 6 for the black, red and blue coincidences respectively. Given the orientation of the counters, the rarest counter difference will be 9, as only particles which hit counters ($E_0$ and $W_9$) and ($E_9$ and $W_0$) will have a counter difference of 9. In contrast to this, the most common value for the counter difference is 1, as there are many possible combinations of East and West counters being hit to give this counter difference. In the discussions below ``counter difference'' is occasionally referred to as ``delta counter'' or ``$\Delta$ counter.'' The approximate angles which tracks with given counter differences have relative to the APA frames is shown in Table~\ref{tab:CDiffAng}. \\
 
-From Figure~\ref{fig:DataRecoEffics} it is evident that the reconstruction efficiency for tracks with shallow angles relative to the APAs is extremely poor, with the efficiency for tracks aligned with counter differences of 0 or 1 never rising above 10\%. This is due to the coherent noise removal where hits which are correlated in time will be removed as they will be perceived as being noise as opposed to real signals. When considering tracks aligned with counter differences of between 3 and 5 the reconstruction is seen to be perform reasonably well for tracks whose centres are less than 140 cm away from the APAs, before decreasing for tracks which have a longer drift distance. A decrease in reconstruction efficiency for tracks at large drift distances is due to the hits being below threshold and so not being reconstructed. It should be noted that in order to observe a drift distance effect on reconstruction efficiency the distance plotted is the average $x$ position of the counters, so a track going from 10 cm to 230 cm will have an average $x$ position of 120 cm (assuming a straight trajectory) as shown by the point for Counter difference 7 in Figure~\ref{fig:DistanceCanvas} with $\sim$23\% efficiency. \\
+Figure~\ref{fig:DataRecoEffics} shows a range of reconstruction efficiency plots for combinations of different counter differences and different drift distances. As the counter coincidences with large counter differences will have large variations in drift positions, the drift distance plotted here is the average $x$ position of the counter centres that were hit. For example, if the two counters that produced the coincidence are at 10 cm and 230 cm respectively, then the drift distance plotted would be 120 cm. This distance is called the ``coincidence centre'' in the following discussion. It should be noted that only coincidences which would produce tracks that are contained within the long drift volume are considered here, hence there being no negative $x$ positions. \\
+
+\begin{table}
+\caption[The angles relative to the APAs corresponding to given counter differences]
+        {The angles relative to the APAs corresponding to given counter differences. Though the East and West counters have a width in the $y$ (vertical) direction, this is much less than their extent in the $z$ direction. The depth of the counters, their extent in $x$ is negligible compared to the separation of the East-West counters. The counters have identical widths in both the $y$ and $z$ directions. The angles are calculated using the difference in the centres of the counters in the $z$ direction divided by the separation of the East and West counters in $z$.}
+\centering
+\label{tab:CDiffAng}
+\begin{tabular}{c c}
+\toprule
+{Absolute counter difference} & {Approximate angle ($^{\circ}$)} \\ 
+\midrule
+0 & 0    $\pm$ 2.1 \\
+
+1 & 4.2  $\pm$ 2.1 \\
+
+2 & 8.4  $\pm$ 2.0 \\
+
+3 & 12.5 $\pm$ 2.0 \\
+
+4 & 16.5 $\pm$ 2.0 \\
+
+5 & 20.3 $\pm$ 1.9 \\
+
+6 & 23.9 $\pm$ 1.8 \\
+
+7 & 27.3 $\pm$ 1.7 \\
+
+8 & 30.7 $\pm$ 1.6 \\
+
+9 & 33.5 $\pm$ 1.5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+From Figure~\ref{fig:AngleCanvas} it is evident that the reconstruction efficiency for tracks with shallow angles relative to the APAs is extremely poor, with the efficiency for tracks aligned with counter differences of 0 or 1 never rising above 10\%. This is due to the coherent noise removal where hits which are correlated in time will be removed as they will be perceived as being noise as opposed to real signals. As the difference in counter number increases the efficiency is seen to increase, though the rate of this increase is seen to depend on the ``coincidence centre''. The effect of increasing ``coincidence centre'' can be seen more clearly in Figure~\ref{fig:DistanceCanvas} where the efficiency for each counter difference as a function of ``coincidence centre'' is plotted. Here it can be seen that the reconstruction efficiency decreases for coincidences that are centred further away from the APAs. This is due to the fact that when an energy deposition has further to drift, it will induce a smaller pulse on the wires meaning that it is more likely to be below the hit threshold. Figure~\ref{fig:TwoDimCanvas} combines Figures~\ref{fig:AngleCanvas} and~\ref{fig:DistanceCanvas} to show how the reconstruction efficiency for increasing ``coincidence centre'' changes with increasing counter difference. It can be seen that tracks with counter differences of between 3 and 5 where the ``coincidence centre'' is between 60 cm and 140 cm away from the APAs are the best reconstructed coincidences. Finally, Figure~\ref{fig:CounterDiffFreq} shows how the frequency of coincidences of a given counter difference occurs compared to how many events contain reconstructed tracks which are aligned with the coincidence. It can be seen that as stated earlier, the most common counter difference is 1, with the least common being a counter difference of 9. However, given the low reconstruction efficiency seen for the lowest counter differences few tracks are reconstructed. This means that when considering the reconstructed tracks, most are due to coincidences with counter differences of either 3, 4 or 5.
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.65\textwidth}
     \centering
     \includegraphics[width=\textwidth]{AngleCanvas_50}
-    \caption{The difference in efficiencies of different track angles relative to the APAs plotted for increasing distance from the APAs.}
+    \caption{The reconstruction efficiency as a function of counter difference for different coincidence centres.}
     \label{fig:AngleCanvas}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  %\hspace{0.08\textwidth}
+  \begin{subfigure}{0.65\textwidth}
     \centering
     \includegraphics[width=\textwidth]{DistanceCanvas_50}
-    \caption{The difference in efficiencies at increasing distances from the APAs plotted for increasing track angles relative to the APAs.}
+    \caption{The reconstruction efficiency as a function of coincidence centres for different counter differences.}
     \label{fig:DistanceCanvas}
   \end{subfigure}
+
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{TwoDimensional_50cm}
-    \caption{The difference in efficiencies at increasing distance from the APAs against increasing track angles relative to the APAs.}
+    \caption{How the reconstruction efficiency changes for increasing coincidence centres and counter differences.}
     \label{fig:TwoDimCanvas}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{CounterDiffCan}
-    \caption{The number of coincidences for each track angle.}
+    \caption{The number of events for each counter difference that were recorded in the data and the number of those which were successfully reconstructed.}
     \label{fig:CounterDiffFreq}
   \end{subfigure}
-  \caption[Reconstruction efficiencies of through going tracks in the 35 ton data]{The reconstruction efficiencies for tracks which trigger an East-West coincidence in the 35 ton data and the number of events with each coincidence over a 2 day running period.}
+  \caption[Reconstruction efficiencies of through going tracks in the 35 ton data]
+          {The reconstruction efficiencies for coincidences that trigger an East-West coincidence in the 35 ton data over a 2 day running period.}
   \label{fig:DataRecoEffics}
 \end{figure}
     
@@ -276,374 +322,396 @@ As electrons drift from the interaction point to the wire planes they become spr
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.85\textwidth]{DiffusionSchematic}
-  \caption[Schematic showing the process of diffusion]{A schematic showing the difference between longitudinal diffusion (left) and transverse diffusion (right). In both cases four electrons are initially shown below four wires, a thermal wiggle is then applied in the drift direction and perpendicular to the drift direction in the longitudinal and transverse cases respectively. It can be seen that the effect of the thermal wiggles is to make the electrons spread out in time in the case of longitudinal diffusion and to spread out in space in the case of transverse diffusion~\citep{DomSeptMeeting}.}
+  \caption[Schematic showing the process of diffusion]
+          {A schematic showing the longitudinal diffusion (left) and transverse diffusion (right) of electrons. In both cases four electrons are initially shown below four wires, and are allowed to diffuse in either the drift direction or perpendicular to the drift direction in the longitudinal and transverse cases respectively. It can be seen that the effect of the diffusion is to make the electrons spread out in time in the case of longitudinal diffusion and to spread out in space in the case of transverse diffusion. Figure taken from~\citep{DomSeptMeeting}.}
   \label{fig:DomDiffSchem}
 \end{figure}
 
-Longitudinal diffusion has the effect of spreading the drifting electrons out in time causing signals to become wider in time and smaller in height as the total charge is conserved. The increasing hit width can be measured for increasing drift times (distances) provided the hits do not fall below a hit finding threshold. Transverse diffusion causes drifting electrons to spread out in space, changing the amount of charge deposited on a wire and reducing the charge resolution of the detector. Transverse diffusion is measured by discerning how the width of the hit charge distribution changes for increasing drift distances~\citep{DomSeptMeeting}. \\
+Longitudinal diffusion has the effect of spreading the drifting electrons out in time causing signals to become wider in time and smaller in height as the total charge is conserved. The increasing hit width can be measured for increasing drift times (distances) provided the hits do not fall below a hit finding threshold. Transverse diffusion causes drifting electrons to spread out in space, changing the amount of charge deposited on a wire and reducing the charge resolution of the detector. Transverse diffusion is measured by discerning how the width of the hit charge distribution changes for increasing drift distances~\citep{Li:2015rqa}. \\
 
 Through-going particles make ideal tracks to study diffusion as they are minimally ionising and so have roughly constant energy depositions along their tracks. The tracks they produce can also cover a wide range of drift distances if they are not parallel to the APAs. The drift distances of hits within a track can be determined by matching the track with a counter coincidence as discussed at the end of Section~\ref{sec:DataAlgs} and then correcting the $x$ co-ordinates of the hits using the result of Equation~\ref{eq:HitTime_Int} in Equation~\ref{eq:HitTime}. \\
 
-Traditionally the only way to determine an interaction time for a track is to match it to either an external calibration source such as whether it aligns with an external counter coincidence, or to match it to a flash of scintillation light as in Section~\ref{sec:SimInteractionTimes}. These techniques are particularly crucial for neutrino detectors on the Earths surface such as MicroBooNE where each neutrino interaction has a background of many cosmic muons which need to be disentangled in order correctly assign a scintillation flash to a reconstructed track. An example of an event which has many scintillation flashes and cosmic muons which need to be correctly associated is shown in Figure~\ref{fig:DiffLotsOfFlashes}. !!!I MAY HAVE A FIGURE FROM A PREVIOUS SECTION!!! However it may be possible that the change in hit width due to diffusion as a particle travels through the detector could be used to determine the interaction time, though this has not been attempted before. To study whether this is possible the effects of diffusion would have to be measured for a sample of tracks with known interaction times and orientations. \\
+Traditionally the only way to determine an interaction time for a track is to match it to either an external calibration source such as whether it aligns with an external counter coincidence, or to match it to a flash of scintillation light as in Section~\ref{sec:SimInteractionTimes}. These techniques are particularly crucial for neutrino detectors on the Earths surface such as MicroBooNE where each neutrino interaction usually has a background of at least one cosmic muon. The reconstructed tracks from this muon background has to be distinguished from those due to the neutrino interaction in order correctly assign a scintillation flash to the reconstructed tracks. An example of an event that has many scintillation flashes and cosmic muons which need to be correctly associated, is shown in Figure~\ref{fig:DiffLotsOfFlashes}. However, it may be possible that the change in hit width due to diffusion as a particle travels through the detector, could be used to determine the interaction time; though this has not been attempted before. To study whether this is possible, the effects of diffusion would have to be measured for a sample of tracks with known interaction times and orientations. \\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{LotsOfTrackFlash}
+  \includegraphics[width=0.95\textwidth]{LotsOfTrackFlash}
   \caption[A simulated event display showing multiple tracks and flashes in the 35 ton]
           {A simulated event display showing multiple tracks and flashes to be assigned to each other in the 35 ton. The coloured lines represent reconstructed tracks, whilst the coloured dashed boxes represent flashes.}
           \label{fig:DiffLotsOfFlashes}
 \end{figure}
 
-The 35 ton dataset is ideal for testing this hypothesis as the counters are able to provide a sample of tracks with known angles and interaction times which can be used to tune interaction time determination metrics. These metrics can then be applied to another sample of tracks where the interaction time is known but not used so that the accuracy of the calculated interaction times can be found. As longitudinal diffusion is the dominant effect that increases the hit width transverse diffusion will not be directly considered further. However, as noted in Section~\ref{sec:DataAlgs} the noise level in the 35 ton data causes reconstruction issues and so a baseline measurement on an ideal detector is also useful, Monte Carlo can provide this sample. \\
+The 35 ton dataset is ideal for testing this hypothesis as the counters are able to provide a sample of tracks with known angles and interaction times which can be used to tune interaction time determination metrics. These metrics can then be applied to another sample of tracks where the interaction time is known but not used so that the accuracy of the calculated interaction times can be found. As longitudinal diffusion is the dominant effect that increases the hit width, transverse diffusion will not be directly considered further. However, as noted in Section~\ref{sec:DataAlgs}, the noise level in the 35 ton data causes reconstruction issues and so it is also useful to compare the method against a low noise detector. Monte Carlo can provide this sample, and this comparison is shown in Section~\ref{sec:MCDataComp}. It is also useful to observe the effects that different detector conditions such as, the electric field, the electron lifetime, noise level and rate of diffusion have on the method. This is shown in Section~\ref{sec:DiffMCStudies}. First though, the method is performed on the 35 ton dataset.
 
 %********************************** % Fifth.First Section  *************************************
 \subsection{Determining interaction times in 35 ton data}
-When calculating the determination metrics only hits on wires which are not noisy want to be considered. This is because wires with a high level of correlated noise observe hits with a wider RMS as shown by Figure~\ref{fig:DomsHitModel} where when a baseline noise of 10 ADC counts was added to a simulated hit with a peak value of 50 ADC counts and RMS 10 ticks the width was seen to increase by over 10\%. Hits with delta rays also need to be removed as the deposited energy will be larger and over a longer period of time than hits from the main track, this will make the RMS of the individual hit wider and also increase the width of the charge distribution for the track. In order to remove these hits only hits which satisfy the following cuts are used:
+When calculating the determination metrics, only hits on wires which are not noisy want to be considered. This is because wires with a high level of correlated noise observe hits with a wider RMS. This is shown in Figure~\ref{fig:DomsHitModel}, where, when a baseline noise of 10 ADC counts is added to a simulated hit with a peak value of 50 ADC counts and an RMS of 10 ticks, the width increases by over 10\%. Hits with delta rays also need to be removed as the deposited energy will be larger and over a longer period of time than hits from the main track, this will make the RMS of the individual hit wider and also increase the width of the charge distribution for the track. To remove these hits only hits which satisfy the following cuts are used:
 \begin{itemize}
 \item No hit on the same wire within 50 ticks of the hit in question - removes delta rays.
 \item No more than 10 hits on the same wire in the whole 15,000 tick data sample - removes clearly noisy wires.
 \end{itemize}
-These cuts will clearly become much more restrictive as the noise level in the detector increases, but they are essential in order to collect a dataset which is not overpowered by noise. A further restriction applied is that only collection plane hits are used as the charge resolution is better and the signals are unipolar as opposed to bipolar meaning that a Gaussian can be easily fitted to the signals. Additionally the $signal/noise$ ratio on the collection planes was much higher than on the induction planes for the 35 ton dataset and so the hits could be much more reliably reconstructed. \\
+These cuts will clearly become much more restrictive as the noise level in the detector increases, but they are essential in order to collect a dataset which is not overpowered by noise. Only collection plane hits are used, as the charge resolution is better and the signals are unipolar as opposed to bipolar meaning that a Gaussian function can be easily fitted to the signals. Additionally the $signal/noise$ ratio on the collection planes was much higher than on the induction planes for the 35 ton dataset and so the hits could be much more reliably reconstructed. \\
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{ToyGauss_Raw}
-    \caption{A toy Gaussian hit with width 10 ticks, and amplitude 50 ADC counts.}
+    \caption{A simulated signal.}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{ToyGauss_Noise}
-    \caption{The reconstructed width when a noise baseline of 10 ADC counts is added.}
+    \caption{A simulated signal with a constant noise baseline added.}
   \end{subfigure}
   \caption[The effect of adding a noise baseline to a hit]
-          {The width of a Gaussian fit is seen to increase by more than 10\% when a noise baseline is added to the signal showing that noise can cause the measured width of a hit to increase~\citep{DomSeptMeeting}.}
+          {A simulated signal with a width of 10 ticks and an amplitude of 50 ADC counts, both before and after a constant noise baseline, of 10 ADC counts, is added. In reality the noise would fluctuate with time. When a Gaussian function is fitted to each signal, it is seen to be more than 10\% larger for the signal where the noise baseline is added. This shows that noise can cause the measured width of a hit to increase. Figure taken from~\citep{DomSeptMeeting}.}
           \label{fig:DomsHitModel}
 \end{figure}  
 
-Diffusion is a track angle dependent property and so track angle ranges have to be considered independently. From Figure~\ref{fig:DataRecoEffics} it can be seen that tracks with a counter difference of 4 are the best reconstructed in data and so reference will be given to these tracks, though the same procedure is applied to all track angles. The tracks are considered en masse and so the hits for every track are separated into 10 cm regions of increasing drift distance from the APAs. The following quantities are calculated for each 10 cm drift region:
+Diffusion is a track angle dependent property and so track angle ranges have to be considered independently. To minimise the number of figures presented, only graphs made for tracks which have a counter difference of 4 are shown, though the procedure is identical for tracks of all counter differences. Tracks with a counter difference of 4 were chosen as they were one of the angles for which tracks were well recosntructed in the data, see Figure~\ref{fig:DataRecoEffics}. The tracks are considered en masse, and so the hits for every track are separated into 10 cm regions of increasing drift distance from the APAs. The following quantities are calculated for each 10 cm drift region:
 \begin{itemize}
 \item The hit $RMS$ - the most direct way to measure transverse diffusion.
 \item The hit $RMS/Charge$ - an attempt to incorporate the effect of impurities in the LAr for relatively low purity data which will have a drift distance dependence.
+  \begin{itemize}
+  \item The charge of a hit is calculated by integrating the ADCs of the reconstructed hit over time. 
+  \end{itemize}
 \end{itemize}
-Fitting Gaussian's around the peaks of the distributions will yield the most probable values for the drift regions, as is shown in Figure~\ref{fig:DiffDataHitFit}. \\
+Fitting Gaussian functions around the peaks of the distributions will yield the most probable values for the drift regions, as is shown in Figure~\ref{fig:DiffDataHitFit}. \\
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{DataCan_0}
-    \caption{The most probable hit $RMS$ value at $x =$ 20 cm for tracks with a counter difference of 4.}
+    \caption{The most probable hit $RMS$ value for hits between $x =$ 20 cm and $x =$ 30 cm.}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{DataCan_1}
-    \caption{The most probable hit $RMS$ value at $x =$ 140 cm for tracks with a counter difference of 4.}
+    \caption{The most probable hit $RMS$ value for hits between $x =$ 140 cm and $x =$ 150 cm.}
   \end{subfigure}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{DataCan_2}
-    \caption{The most probable hit $RMS/Charge$ value at $x =$ 20 cm for tracks with a counter difference of 4.}
+    \caption{The most probable hit $RMS/Charge$ value for hits between $x =$ 20 cm and $x =$ 30 cm.}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{DataCan_3}
-    \caption{The most probable hit $RMS/Charge$ value at $x =$ 140 cm for tracks with a counter difference of 4.}
+    \caption{The most probable hit $RMS/Charge$ value for hits between $x =$ 140 cm and $x =$ 150 cm.}
   \end{subfigure}
   \caption[The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data]
-          {The most probable values for hits from at 20 cm and 140 cm from tracks which triggered a counter difference of 4, when the $RMS$ of the hit and the $RMS/charge$ of the hit are considered.}
+          {Distribtuions of the most probable values of $RMS$ of the hits (top) and $RMS/Charge$ of the hits (bottom), for points between 20 and 30 cm from the APAs (left) and points between 140 and 150 cm from the APAs (right), for tracks associated with a coincidences that have counter differences of 4. }
           \label{fig:DiffDataHitFit}
 \end{figure}
 
-The drift distance effect of diffusion can then be observed for a given range of track angles by fitting these most probable values as drift distance increases. The angular dependence can then be shown by observing how the most probable fit value at a drift distance of 0 cm changes for increasing angles, this is shown in Figure~\ref{fig:DiffDataFit}. A drift distance dependence can clearly be seen in the data as the most probable hit $RMS$ is seen to increase for hits which originate further from the APAs. It also clear that there is an angular dependence on the hit width as the most probable hit widths next to the APAs is seen to rise for tracks which are more inclined relative to the APAs. These dependencies show that when considering a large sample diffusion can be separated into distance and angular dependant dependencies, however whether this can be observed for individual tracks has not yet been considered. \\
+The drift distance effect of diffusion can then be observed by fitting these most probable values as drift distance increases. This drift distance dependence is shown in Figure~\ref{fig:CDiff4DataFit} for tracks that are associated with a coincidence which had a counter difference of 4. The angular dependence can then be shown by observing how the most probable fit value at a drift distance of 0 cm changes for increasing angles, this is shown in Figure~\ref{fig:DiffData_AngFit}. A drift distance dependence can clearly be seen in the data as the most probable hit $RMS$ is seen to increase for hits which originate further from the APAs. It also clear that there is an angular dependence on the hit width as the most probable hit widths next to the APAs is seen to rise for tracks associated with coincidences with large counter differences. These dependencies show that, when considering a large sample, diffusion can be separated into distance and angular dependant dependencies, however whether this can be observed for individual tracks has not yet been considered. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{CounterDiff4_Data}
-    \caption{The most probable hit $RMS$ value for tracks with a counter difference of 4 for a range of drift distances.}
-    \label{fig:CDiff4DataFit}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{InterceptCanvasData}
-    \caption{The most probable value of hit $RMS$ at a drift distance of 0 cm at increasing track angles.}
-  \end{subfigure}
-  \caption[The drift distance and angular dependence of diffusion in the 35 ton data]
-          {Fits showing the drift distance and angular dependence of diffusion in the 35 ton dataset.}
-          \label{fig:DiffDataFit}
+  \includegraphics[width=0.6\textwidth]{CounterDiff4_Data}
+  \caption[The drift distance dependence of diffusion in the 35 ton dataset for coincidences with a counter difference of 4]
+          {The most probable values of hit $RMS$ as a function of drift distance, for tracks associated with a coincidence that had a counter difference of 4.}
+  \label{fig:CDiff4DataFit}
 \end{figure}
 
-In order to consider single tracks the best line fits for the counter differences for a large sample of tracks, such as in Figure~\ref{fig:CDiff4DataFit}, need to be used to predict the drift position you would expect a hit to originate from given a value for its hit $RMS$ and the angle of track to which it belongs. The predicted positions can then be compared to the known position from the counter coincidence to determine the accuracy of the prediction. As the distributions shown in Figure~\ref{fig:DiffDataHitFit} are roughly symmetric around the most probable value one would naively expect that if a track has a sufficient number of hits then the distribution of RMS values for those hits would match that found over a large sample. If this were to be the case then the difference in reconstructed and predicted hit times should be peaked around the track interaction time. \\
-
-An intrinsic assumption in this method is that the track has a large number of collection plane hits that do not contain delta rays and are on wires which would not be identified as noisy. The tracks being considered will have crossed all $z$ values in the detector meaning that a total of 336 collection hits could potentially be reconstructed. Given the reconstruction problems in the 35 ton very few tracks will have hits on all of these collection wires, however requiring at least 100 collection plane hits is not unreasonable and would correspond to a reconstructed track length of at least 50 cm. The predicted hit times and the difference in predicted and reconstructed hit times are shown in Figure~\ref{fig:DiffDataPredHit} for both prediction metrics. It can be seen that in the 35 ton dataset the $RMS/Charge$ metric appears to provide a more robust measurement of the interaction time as the peak value for the predicted minus reconstructed hit time is more closely centred around 0 and is much larger than for the RMS metric. The peak is centred around a difference of 0 as the hits had previously been corrected so as to be centred around the measured interaction time from the counter coincidence. \\
-
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{PredictedInteractionTime_Data}
-    \caption{The predicted hit time for each hit in all tracks with more than 100 'good' collection plane hits.}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{DifferenceInteractionTime_Data}
-    \caption{The difference in reconstructed and predicted hit time for each hit in all tracks with more than 100 'good' collection plane hits.}
-  \end{subfigure}
-  \caption[The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data]
-          {The predicted hit times for tracks with more than 100 'good' hit collection plane hits in the 35 ton data. The times predicted by the hit $RMS$ metric are shown in black, whilst the times predicted by the hit $RMS/Charge$ metric are shown in blue.}
-          \label{fig:DiffDataPredHit}
+  \includegraphics[width=0.6\textwidth]{InterceptCanvasData}
+  \caption[The angular dependence of diffusion in the 35 ton dataset for hits within 10 cm of the APAs]
+          {The most probable values of hit $RMS$ within 10 cm of the APAs, as a function of the counter difference of the coincidence, that the track was associated with.}
+  \label{fig:DiffData_AngFit}
 \end{figure}
 
-When evaluating interaction times the average difference in reconstructed and predicted hit times across every hit on the track must be considered. This is shown in Figure~\ref{fig:DiffDataAvDiff}, where as expected from Figure~\ref{fig:DiffDataPredHit} the $RMS/Charge$ metric provides a better estimation of the interaction time. The reason for this is that by utilising the charge information due to losses from impurities this metric gains an extra handle on the drift distance and hence the reconstructed time of the hits. The losses due to impurities are difficult to measure in very high purity LAr environments though as the decrease in collected charge at increasing drift distances becomes small~\citep{LongBo}. The effect of increasing LAr purity is shown in Section~\ref{sec:DiffMCStudies}. Using the change in hit charge in the 35 ton is not without its own dangers though, because as shown in Figure~\ref{fig:TingjunLifetime} there is a thresholding effect for hits with large drift times. However, as the same thresholding effect is present in all 35 ton data samples the limitation it introduces is mainly in the efficiency with which 'good' collection plane hits will be reconstructed and so this information can be confidently used. \\
+To consider single tracks, the best line fits for the counter differences for a large sample of tracks, such as in Figure~\ref{fig:CDiff4DataFit}, need to be used to predict the position you would expect a hit to originate from given a value for its hit $RMS$ and the angle of the track to which it belongs. The predicted positions can then be compared to the known position from the counter coincidence to determine the accuracy of the prediction. As the distributions shown in Figure~\ref{fig:DiffDataHitFit} are roughly symmetric around the most probable value one would naively expect that if a track has a sufficient number of hits then the distribution of RMS values for those hits would match that found over a large sample. If this were to be the case then the difference in reconstructed and predicted hit times should be peaked around the track interaction time. \\
+
+An intrinsic assumption in this method is that the track has a large number of collection plane hits that do not contain delta rays and are on wires which would not be identified as noisy. The tracks being considered will have crossed all $z$ values in the detector meaning that a total of 336 collection hits could potentially be reconstructed. Given the reconstruction problems in the 35 ton detector, very few tracks will have hits on all of these collection wires. However, requiring at least 100 collection plane hits is not unreasonable and would correspond to a reconstructed track length of at least 50 cm. The difference between the predicted and reconstructed hit time for each hit is shown in Figure~\ref{fig:DiffDataPredHit} for both the hit $RMS$ and hit $RMS/Charge$ metrics. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \includegraphics[width=0.6\textwidth]{DifferenceInteractionTime_Data}
+  \caption[The difference between the predicted and reconstructed hit times in the 35 ton dataset]
+          {The difference between the predicted and reconstructed hit times in the 35 ton dataset. The differences in time when the hit $RMS$ metric is used are shown in black, whilst the differences in time when the hit $RMS/Charge$ metric is used are shown in blue.}
+  \label{fig:DiffDataPredHit}
+\end{figure}
+
+It can be seen from Figure~\ref{fig:DiffDataPredHit}, that in the 35 ton dataset both distributions are centred around a time difference of 0 $\mu$s which is encouraging as it shows that the method has potential. The width of the distribution for the $RMS/Charge$ metric is smaller, and the peak larger, so it is expected that this will provide the more robust metric. This is because these features show that the hit times which are predicted, are more likely to be close to the reconstructed hit times. The peaks are centred around a time difference of 0 as the hit times had previously had the measured interaction time, from the counter coincidence, subtracted from them. This was done so as to avoid the uncertainty which would arise from allowing the coincidences to remain at random times between ticks 5000 and 6000, see the discussion concerning Figure~\ref{fig:DataStructure} for an explanation as to why this occurs. \\
+
+When evaluating interaction times the average difference in reconstructed and predicted hit times across every hit on the track must be considered. This is shown in Figures~\ref{fig:DiffDataAvDiff_RMS} and~\ref{fig:DiffDataAvDiff_RMS_Int}, where, as expected from Figure~\ref{fig:DiffDataPredHit}, the $RMS/Charge$ metric provides a better estimation of the interaction time. The reason for this is that by utilising the charge information due to losses from impurities this metric gains an extra handle on the drift distance and hence the reconstructed time of the hits. The losses due to impurities are difficult to measure in high-purity LAr environments as the decrease in collected charge with increasing drift distances is small~\citep{LongBo}. The effect of increasing LAr purity is shown in Section~\ref{sec:DiffMCStudies}. Using the change in hit charge in the 35 ton may have a drawback though, because, as shown in Figure~\ref{fig:TingjunLifetime}, there is a threshold effect for hits with large drift times. However, as the same threshold effect is present in all 35 ton data samples the limitation it introduces is mainly in the efficiency with which 'good' collection plane hits will be reconstructed and so this information can be confidently used. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Data_AvTimeDiff_RMS}
     \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffDataAvDiff_RMS_T}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{Data_AvTimeDiff_RMS_Int}
-    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
+    \includegraphics[width=\textwidth]{Data_AvXPosDiff_RMS}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffDataAvDiff_RMS_X}
   \end{subfigure}
-  \caption[The difference in predicted and reconstructed interaction times in the 35 ton data]
-          {The difference in predicted and reconstructed interaction times in the 35 ton data.}
-          \label{fig:DiffDataAvDiff}
+  \caption[The accuracy of the hit $RMS$ method in the 35 ton dataset]
+          {The accuracy of the hit $RMS$ method in the 35 ton dataset.}
+  \label{fig:DiffDataAvDiff_RMS}
 \end{figure}
 
-Figure~\ref{fig:DiffDataAvDiff} shows that the interaction time of a reconstructed track in the 35 ton dataset can be determined using the effects of diffusion to an accuracy of 298.0$\pm$267.0 $\mu$s when using the hit $RMS$ metric and to an accuracy of 55.6$\pm$210.4 $\mu$s when using the hit $RMS/Charge$ metric. This resolution is impressive as even with the issues with regards to data quality in the 35 ton tracks can be cleanly separated throughout a drift window of 5200 $\mu$s. The application of the method to a low noise environment would provide the true accuracy of the method, because one would expect that the problems with data quality would adversely affect the accuracy to which diffusion can be measured. For this reason the next section presents a complementary analysis performed on a low background sample of 35 ton Monte Carlo with the same electronics settings as the data presented here. 
+Figure~\ref{fig:DiffDataAvDiff_RMS} shows that using the effects of diffusion, and the hit $RMS$, the interaction time and central $x$ position of a track can be reliably predicted in the 35 ton dataset. The accuracy in determing the interaction time is found to be 298 $\mu$s, where the distrbitution has a FWHM of 267 $\mu$s. When this is converted into the difference in central $x$ position of the track the accuracy is found to be 32.2 cm with a FWHM of 28.8 cm. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Data_AvTimeDiff_RMS_Int}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffDataAvDiff_RMS_Int_T}
+  \end{subfigure}
+
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Data_AvXPosDiff_RMS_Int}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffDataAvDiff_RMS_Int_X}
+  \end{subfigure}
+  \caption[The accuracy of the hit $RMS/Charge$ method in the 35 ton dataset]
+          {The accuracy of the hit $RMS/Charge$ method in the 35 ton dataset.}
+  \label{fig:DiffDataAvDiff_RMS_Int}
+\end{figure}
+
+Figure~\ref{fig:DiffDataAvDiff_RMS_Int} shows that using the effects of diffusion, and the hit $RMS/Charge$, the interaction time and central $x$ position of a track can be reliably predicted in the 35 ton dataset. The accuracy in determing the interaction time is found to be 55.3 $\mu$s, where the distrbitution has a FWHM of 212 $\mu$s. When this is converted into the difference in central $x$ position of the track the accuracy is found to be 6.88 cm with a FWHM of 23.1 cm. \\
+
+The resolutions found are quite impressive as given that the total drift time for electrons through the whole 35 ton detector volume of 250 cm is roughly 5200 ticks, it means that tracks can be distinguished throughout the detector volume. As discussed earlier, the issues with noise in the 35 ton dataset affect the accuracy with which tracking and calorimetry can be performed, and so it is reasonable to expect that the effectiveness of the interaction time determination was also affected. Therefore, it is purdent to repeat the study on a Monte Carlo dataset where the detector noise is much lower. This is presented in Section~\ref{sec:MCDataComp}.
 
 %********************************** % Fifth.Second Section  *************************************
-\subsection{Determining interaction times in a low noise detector and differences with data}
-When determining interaction times in an ideal detector exactly the same criteria are applied to the hits, as delta rays would still change the measured hit width and will be present in any sample. In a low noise detector it is expected that few wires would be removed due to being noisy but for consistency there is no danger in applying this cut. Imposing a minimum number of collection plane hits is again important to ensure that the distribution of predicted hit times is centred on the interaction time. In addition to the same criteria being imposed on which wires are used, the same metrics are calculated. In all plots shown below the Monte Carlo dataset has been normalised to the size of the 35 ton dataset. \\
+\subsection{Determining interaction times in a low-noise detector using Monte Carlo, and differences with data} \label{sec:MCDataComp}
+When determining interaction times in Monte Carlo simulations, exactly the same criteria are applied to the hits, as $\delta$-rays would still change the measured hit width and will be present in any sample. In a low noise detector it is expected that few wires would be removed due to being noisy but for consistency there is no danger in applying this cut. Imposing a minimum number of collection plane hits is again important to ensure that the distribution of predicted hit times is centred on the interaction time. In addition to the same criteria being imposed on which wires are used, the same metrics are calculated. In all plots shown below the Monte Carlo dataset has been normalised to the size of the 35 ton dataset. \\
 
-Figure~\ref{fig:DiffMCHitFit} shows both the $RMS$ and $RMS/Charge$ distributions for hits that are 100 cm away from the APAs and are from tracks with a counter difference of 4. It can be seen that the distributions from the low noise Monte Carlo are tighter than those from the 35 ton data and are also peaked at a lower hit RMS. This is likely due to the fact that the coherent noise baseline seen in data can increase the width of hits as shown in Figure~\ref{fig:DomsHitModel} and a higher noise state will affect how well individual hits can be reconstructed. In addition, the most probable values of hit $RMS$ at increasing drift distance is shown in Figure~\ref{fig:DiffMCDataCompFit} where the low noise Monte Carlo is again shown against the values from the data. The most probable value of hit $RMS$ at a drift distance of 0 cm for a range of angles is also shown in Figure~\ref{fig:DiffMCDataCompInt}. As was seen when considering the distributions at specific distances and angles the most probable hit $RMS$ in the low noise Monte Carlo is systematically lower than in the data due to the elevated noise level in the data. Another difference between the Monte Carlo and the data is that the gradient of the most probable hit $RMS$ values in data is roughly half of that in the Monte Carlo, this could be due to an overestimation of longitudinal diffusion in the Monte Carlo. \\
+Figure~\ref{fig:DiffMCHitFit} shows both the hit $RMS$ and hit $RMS/Charge$ distributions for hits that are 100 cm away from the APAs and are from tracks assoicated with a coincidence that has a counter difference of 4. It can be seen that the distributions from the Monte Carlo simulation are tighter than those from the 35 ton data and are also peaked at a lower values of hit $RMS$. This is likely due to the fact that the coherent noise baseline seen in data can increase the width of hits as shown in Figure~\ref{fig:DomsHitModel} and a higher noise state will affect how well individual hits can be reconstructed. In addition, the most probable values of hit $RMS$ at increasing drift distance are shown in Figure~\ref{fig:DiffMCDataCompFit} where the Monte Carlo simulation is again shown with the values from the data. The most probable value of hit $RMS$ at a drift distance of 0 cm for a range of counter differences is also shown in Figure~\ref{fig:DiffMCDataCompInt}. As was seen when considering the distributions at specific distances and counter differences, the most probable values of hit $RMS$ in the Monte Carlo simulation is systematically lower than in the data due to the elevated noise level seen in the data. Another difference between the Monte Carlo and the data is that the gradient of the most probable values of hit $RMS$ in data is roughly half of that in the Monte Carlo, this could be due to an overestimation of longitudinal diffusion in the Monte Carlo. \\
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{CombCan_0}
-    \caption{The distribution of hit $RMS$ values at $x =$ 20 cm.}
+    \caption{The most probable hit $RMS$ values for hits between $x =$ 20 cm and $x =$ 30 cm.}
+    \label{fig:DiffMCHitFit_RMS}
   \end{subfigure}
   \hspace{0.08\textwidth}
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\textwidth]{CombCan_2}
-    \caption{The distribution of hit $RMS/Charge$ values at $x =$ 20 cm.}
+    \caption{The most probably hit $RMS/Charge$ values for hits between $x =$ 20 cm and $x =$ 30 cm.}
+    \label{fig:DiffMCHitFit_RMS_Int}
   \end{subfigure}
-  \caption[The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector]
-          {The most probable values of the $RMS$ and $RMS/Charge$ distributions at $x =$ 20 cm for tracks with a counter difference of 4. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
+  \caption[The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4 in a low noise 35 ton detector]
+          {The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for hits between $x =$ 20 cm and $x =$ 30 cm, for tracks with a counter difference of 4. The distributions from the 35 ton dataset are shown in black, whilst the distributions from the Monte Carlo simulation are shown in blue.}
           \label{fig:DiffMCHitFit}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{CounterDiff4_Overlay}
-    \caption{The most probable hit $RMS$ values for tracks with a counter difference of 4.}
-    \label{fig:DiffMCDataCompFit}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{InterceptCanvasOverlay}
-    \caption{The most probable hit $RMS$ values at $x = $ 0 for a range of track angles.}
-    \label{fig:DiffMCDataCompInt}
-  \end{subfigure}
-  \caption[Comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset]
-          {A comparison of the drift distance and angular dependence of diffusion in a low noise 35 ton detector and the 35 ton dataset. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
-          \label{fig:DiffMCDataComp}
+  \includegraphics[width=0.6\textwidth]{CounterDiff4_Overlay}
+  \caption[The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4]
+          {The most probable values of hit $RMS$ as a function of drift distance, for tracks associated with a coincidence that had a counter difference of 4. The distributions from the 35 ton dataset are shown in black, whilst the distribution for the Monte Carlo simulation is shown in blue.}
+  \label{fig:DiffMCDataCompFit}
 \end{figure}
-
-Upon calculating the fit metrics in the low noise Monte Carlo sample it is then possible to use these to predict track interaction times, this is shown in Figure~\ref{fig:DiffMCDataRes}. As observed when considering the data sample, the $RMS/Charge$ metric appears to be better able to accurately predict interaction times, this is again due to the ability to incorporate information about loses due to impurities which increase with drift distance. Also, as expected from the previous figures and the lower noise state in the Monte Carlo it is seen that the interaction times predicted in the Monte Carlo more closely match the true interaction times than in the data. The accuracy of interaction time determination in Monte Carlo (data) is shown to be 168.1$\pm$126.5 (298.0$\pm$267.0) $\mu$s and -41.2$\pm$107.8 (55.6$\pm$210.4) $\mu$s for the hit $RMS$ and $RMS/Charge$ metrics respectively. An important feature to observe is that the widths of the distributions in Monte Carlo is less than half of that in the data, again this is attributed to the lower noise level in the Monte Carlo.
 
 \begin{figure}[h!]
   \centering
-    \begin{subfigure}{0.45\textwidth}
+  \includegraphics[width=0.6\textwidth]{InterceptCanvasOverlay}
+  \caption[The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs]
+          {The most probable values of hit $RMS$ within 10 cm of the APAs, as a function of the counter difference of the coincidence, that the track was associated with. The distributions from the 35 ton dataset are shown in black, whilst the distribution for the Monte Carlo simulation is shown in blue.}
+  \label{fig:DiffMCDataCompInt}
+\end{figure}
+
+Upon calculating the fit metrics in the low-noise Monte Carlo dataset it is then possible to use these to predict track interaction times, this is shown in Figures~\ref{fig:DiffOverlayAvDiff_RMS} and~\ref{fig:DiffOverlayAvDiff_RMS}. Figure~\ref{fig:DiffOverlayAvDiff_RMS} compares how reliably the interaction time and central $x$ position of a track can be predicted, using the effect that diffusion has on the hit $RMS$, in the 35 ton dataset and a low-noise Monte Carlo sample. The accuracy in determing the interaction time in Monte Carlo (data) is found to be 168 (298) $\mu$s, where the distrbitution has a FWHM of 127 (267) $\mu$s. When this is converted into the difference in central $x$ position of the track the accuracy is found to be 19.4 (32.2) cm with a FWHM of 14.0 (28.8) cm. Figure~\ref{fig:DiffOverlayAvDiff_RMS} compares how reliably the interaction time and central $x$ position of a track can be predicted, using the effect that diffusion has on the hit $RMS/Charge$, in the 35 ton dataset and a low-noise Monte Carlo sample. The accuracy in determing the interaction time in Monte Carlo (data) is found to be -40.9 (55.3) $\mu$s, where the distrbitution has a FWHM of 110 (212) $\mu$s. When this is converted into the difference in central $x$ position of the track the accuracy is found to be -3.5 (6.88) cm with a FWHM of 12.1 (23.1) cm. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{PredictedTimeFromRMSFits}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS$ metric.}
-    \label{fig:DiffMCDataResRMS}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffOverlayAvDiff_RMS_T}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    \includegraphics[width=\textwidth]{PredictedTimeFromRMS_IntFits}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS/Charge$ metric.}
-    \label{fig:DiffMCDataResRMSQ}
+    \includegraphics[width=\textwidth]{Overlay_AvXPosDiff_RMS}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffOverlayAvDiff_RMS_X}
   \end{subfigure}
-  \caption[A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples]
-          {A comparison of the accuracy of the interaction time prediction metrics for the low noise Monte Carlo and data 35 ton samples for both the $RMS$ and $RMS/Charge$ prediction metrics. The distributions from the 35 ton data are shown in black, whilst the distributions from the low noise simulation are shown in blue.}
-          \label{fig:DiffMCDataRes}
+  \caption[Comparing the accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation]
+          {The accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation. The distributions from the 35 ton dataset are shown in black, whilst the distribution for the Monte Carlo simulation is shown in blue}
+  \label{fig:DiffOverlayAvDiff_RMS}
 \end{figure}
-
-The calculation of interaction times is clearly much better in the low noise Monte Carlo than in the 35 ton dataset, however the distributions are still not centred around 0 implying that there is a systematic error in the method which has not been removed when considering a low noise environment. Looking at Figure~\ref{fig:DiffMCHitFit} the impact of delta rays can still be seen where the $RMS$ plot still has quite a significant tail above the most probable value. This will cause the predicted interaction times to be skewed towards larger times as the hits containing delta rays will be wider and so appear to come at later times than they actually do. Hits containing unseparated delta rays are difficult to remove without looking for slight dips in the raw signals caused by the delta ray beginning to separate from the main track. This would be almost impossible in the 35 ton dataset given the oscillatory nature of the noise. Delta rays can also offer an explanation for the $RMS/Charge$ plot underestimating interaction time as hits containing delta rays would deposit more charge and this increased charge would likely be larger than the increased width, causing the $RMS/Charge$ to decrease. This is seen in Figure~\ref{fig:DiffMCHitFit} where both the data and Monte Carlo samples have consistent tails at small values of $RMS/Charge$, this decrease would then lead to an underestimate of the interaction time. The increased noise level in the 35 ton dataset still causes an overestimation of interaction time, but the most probable difference in predicted and reconstructed interaction times is lower using the $RMS/Charge$ metric than the $RMS$ metric in data suggesting this effect is still present. \\
-
-The widths of the distributions shows that whilst tracks can be disentangled over an entire drift window it is potentially difficult to do so over periods of around 100 $\mu$s, this width is likely due to interpreting distributions which are not Gaussian as Gaussian. This may mean that more sophisticated fits to the distributions used to make the prediction metrics are required which take into account the tails of the distributions as opposed to focusing only on the peaks. The non-Gaussian nature of the distributions will also affect the assumption that over a large number of hits the Gaussian nature of the hit distribution would tend to dominate as if this is not true then one would expect to measure a wide distribution of interaction hit times. It appears that this is the case and that the tails seen in Figure~\ref{fig:DiffMCHitFit} are causing the predicted hit time distribution to be too broad. This feature could potentially be suppressed by performing a fit to the difference in predicted and reconstructed hit times for a track as opposed to taking an average. 
-
-%********************************** % Fifth.Third Section  *************************************
-\subsection{Discerning the impact of noise and electron lifetime in Monte Carlo} \label{sec:DiffMCStudies}
-Many of the difficulties with the reconstruction and analysis of the 35 ton data have been explained by stating that the noise level made studies difficult, it is important to verify these claims with a study showing the effect of increased noise on the accuracy of the interaction time predicted metrics. This study has been done using the same muons used in the previous Monte Carlo sample with only the noise level of the detector being increased and the inclusion of the noise mitigation algorithms to attempt to reduce the effects of noise as is done in the data sample. The results of this study are shown in Figure~\ref{fig:DiffNoiseComp}, where the metric distributions for tracks with a counter difference of 4 are shown at 20 cm in Figures~\ref{fig:DiffNoiseComp1} and~\ref{fig:DiffNoiseComp2}, the most probable values of hit $RMS$ for tracks due to a counter difference of 4 at all drift distances and the most probable values of hit $RMS$ at $x =$ 0 cm for all counter differences are shown in Figures~\ref{fig:DiffNoiseComp3} and~\ref{fig:DiffNoiseComp4} respectively and the accuracy of the metrics are shown in Figures~\ref{fig:DiffNoiseComp5} and~\ref{fig:DiffNoiseComp6}. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS$ values at $x =$ 20 cm.}
-    \label{fig:DiffNoiseComp1}
+    \includegraphics[width=\textwidth]{PredictedTimeFromRMS_IntFits}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffOverlayAvDiff_RMS_Int_T}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS/Charge$ values at $x =$ 20 cm.}
-    \label{fig:DiffNoiseComp2}
+    \includegraphics[width=\textwidth]{Overlay_AvXPosDiff_RMS_Int}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffOverlayAvDiff_RMS_Int_X}
   \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values for tracks with a counter difference of 4.}
-    \label{fig:DiffNoiseComp3}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values at $x = $ 0 for a range of track angles.}
-    \label{fig:DiffNoiseComp4}
-  \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS$ metric.}
-    \label{fig:DiffNoiseComp5}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS/Charge$ metric.}
-    \label{fig:DiffNoiseComp6}
-  \end{subfigure}
-  \caption[The effect that an increased noise level has on the accuracy of interaction time determination]
-          {A study into how increased noise affects the accuracy to which interactions can be determined in the 35 ton.}
-          \label{fig:DiffNoiseComp}
+  \caption[Comparing the accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation]
+          {The accuracy of the hit $RMS/Charge$ method in the 35 ton dataset and a Monte Carlo simulation. The distributions from the 35 ton dataset are shown in black, whilst the distribution for the Monte Carlo simulation is shown in blue}
+  \label{fig:DiffOverlayAvDiff_RMS_Int}
 \end{figure}
 
-!!!!!! EXPLANATIONS OF WHAT IT LOOKS LIKE !!!!!!! \\
+The hit $RMS/Charge$ metric appears to be able to more accurately predict interaction times, as was seen in when considering the 35 ton dataset. This is again due to the ability to incorporate information about loses due to impurities which increase with drift distance. Also, as expected from the previous figures and the lower noise state in the Monte Carlo it is seen that the interaction times predicted in the Monte Carlo more closely match the true interaction times than in the data. An important feature to observe is that, as well as more accurately predicting the interaction times, the widths of the distributions in Monte Carlo are less than half of that in the data. This means that the resolution with which tracks can be distinguished in the Monte Carlo sample is much better than in the 35 ton dataset, again this is attributed to the lower noise level in the Monte Carlo. \\
 
-Another important constraint on the effectiveness of interaction time determination is the electron lifetime of the liquid Argon. As the electron lifetime increase fewer electrons will recombine as they drift towards to the APAs meaning that the amount of charge collected will be less affected by the drift distance, potentially greatly affecting the accuracy of the hit $RMS/Charge$ metric. The results of a study to observe the effect of increased electron lifetime are shown in Figure~\ref{fig:DiffLifetimeComp}. \\
+The calculation of interaction times is clearly much better in the low-noise Monte Carlo than in the 35 ton dataset, however, the distributions are still not centred around 0 implying that there is a systematic error in the method which has not been removed when considering a low-noise environment. Looking at Figure~\ref{fig:DiffMCHitFit} the impact of $\delta$-rays can still be seen where the hit $RMS$ plot still has quite a significant tail above the most probable value. This will cause the predicted interaction times to be skewed towards larger times as the hits containing $\delta$-rays will be wider and so appear to come at later times than they actually do. Hits containing undistinguishable $\delta$-rays are difficult to remove without looking for slight dips in the raw signals caused by the $\delta$-ray beginning to separate from the main track. This would be almost impossible in the 35 ton dataset given the oscillatory nature of the noise. $\Delta$-rays can also offer an explanation for the $RMS/Charge$ plot underestimating interaction time as hits containing $\delta$-rays would deposit more charge and this increased charge would likely be larger than the increased width, causing the $RMS/Charge$ to decrease. This is seen in Figure~\ref{fig:DiffMCHitFit} where both the data and Monte Carlo samples have tails at small values of hit $RMS/Charge$, this decrease in hit $RMS/Charge$ would lead to an underestimation of the interaction time. The 35 ton dataset as a whole overestimates the interaction time though, and this is due to the tail at large values of hit $RMS/Charge$ seen in the 35 ton dataset. It is thought that the collection of hits with large values of hit $RMS/Charge$ is correlated with the noise level in the detector, as it is not seen in the lower noise Monte Carlo sample. \\
+
+%********************************** % Fifth.Third Section  *************************************
+\subsection{Discerning the impact of changing detector properties using Monte Carlo samples} \label{sec:DiffMCStudies}
+The difficulty of the reconstruction and analysis of the 35 ton data is due to the elevated noise level. We are now going to verify this statement with a study whereby the noise level in a Monte Carlo sample is changed from the low-noise state used in the previous section, to a level more similar to that which is seen in the 35 ton dataset. If the claim that the noise level made reconstruction difficult is correct, then the the accuracy with which the interaction time can be determined, should be seen to anti-correlate with the noise level of the simualted detector. This study and the ones which follow have all been performed using the same muons, so as to ensure that the only difference between the different samples are the detector conditions, and only one detector condition is varied at a time. As such, there is one sample that is consistent to all samples, which is where the RMS of the noise is 2.5 ADCs, the electron lifetime is 3 ms, the electric field is 500 V cm$^{-1}$ and the coefficient of longitudinal diffusion is 6.2$\times$10$^9$. When presenting the studies with changing detector conditions, the analagous figures presented in the previous section are repeated so as to show how the critical aspects of the methodology are affected. \\
+
+%%%%%%%% The noise simulation....
+
+%%%%%%%% The Electron lifetime study
+
+Figures~\ref{fig:DiffLifeStudy_AvDiff_RMS} and~\ref{fig:DiffLifeStudy_AvDiff_RMS_Int} show the accuracy to which the interaction time and central $x$ position of a track can be determined using the effect that diffusion has on the hit $RMS$ and hit $RMS/Charge$ for changing electron lifetimes respectively. Figure~\ref{fig:DiffLifeStudy_AvDiff_RMS} shows that with an electron lifetime of 1 ms, the hit $RMS$ metric is very inaccurate, this is likely due to hits which are a large distance away from the APAs being very difficult to reconstruct due to the extremely poor lifetime. For this reason, the accuracy to which the hit $RMS$ metric predicts the interaction time improves as the electron lifetime increases, though this increase in small between the 3 ms, 5 ms and 8 ms samples. Figure~\ref{fig:DiffLifeStudy_AvDiff_RMS_Int} shows the opposite effect, the accuracy to which the interaction time can be determined decreases with increasing electron lifetime for the hit $RMS/Charge$ metric. This is because the decrease in hit charge is much greater when the electron lifetime is lower. This dependence is the corner stone of this metric, which is why it performs so well for low electron lifetimes, and so the decrease in its accuracy is an unavoidable consequence of increasing electron lifetime. \\
 
 \begin{figure}[h!]
-  \centering  \begin{subfigure}{0.45\textwidth}
+  \centering
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS$ values at $x =$ 20 cm.}
-    \label{fig:DiffLifetimeComp1}
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_ElecLifetime}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffLifeStudy_AvDiffRMS_T}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS/Charge$ values at $x =$ 20 cm.}
-    \label{fig:DiffLifetimeComp2}
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_ElecLifetime}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffLifeStudy_AvDiffRMS_X}
   \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values for tracks with a counter difference of 4.}
-    \label{fig:DiffLifetimeComp3}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values at $x = $ 0 for a range of track angles.}
-    \label{fig:DiffLifetimeComp4}
-  \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS$ metric.}
-    \label{fig:DiffLifetimeComp5}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS/Charge$ metric.}
-    \label{fig:DiffLifetimeComp6}
-  \end{subfigure}
-  \caption[The effect that an increased electron lifetime has on the accuracy of interaction time determination]
-          {A study into how increased noise affects the accuracy to which interactions can be determined in the 35 ton.}
-          \label{fig:DiffLifetimeComp}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electron lifetime changes]
+          {The accuracy of the hit $RMS$ method, for changing values of the electron lifetime. }
+  \label{fig:DiffLifeStudy_AvDiff_RMS}
 \end{figure}
-
-!!!!!! EXPLANATIONS OF WHAT IT LOOKS LIKE !!!!!!! \\
-
-The electric field in all of these studies has been 250 V cm$^{-1}$, however diffusion is known to be affected by the applied electric field. Many LArTPC detectors, including DUNE, are being designed to have an electric field of 500 V cm$^{-1}$ and so it is important to observe the effect which a higher electric field has on the accuracy of the method. An intermediate field of 375 V cm$^{-1}$ is considered as this was the next planned electric field for the 35 ton data taking before the filtration pump breakage stopped data taking. The results of a study to observe the effect of increased electric field are shown in Figure~\ref{fig:DiffEFieldComp}. \\
 
 \begin{figure}[h!]
-  \centering  \begin{subfigure}{0.45\textwidth}
+  \centering
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS$ values at $x =$ 20 cm.}
-    \label{fig:DiffEFieldComp1}
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_ElecLifetime}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffLifeStudy_AvDiff_RMS_Int_T}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The distribution of hit $RMS/Charge$ values at $x =$ 20 cm.}
-    \label{fig:DiffEFieldComp2}
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_Q_ElecLifetime}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffLifeStudy_AvDiff_RMS_Int_X}
   \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values for tracks with a counter difference of 4.}
-    \label{fig:DiffEFieldComp3}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The most probable hit $RMS$ values at $x = $ 0 for a range of track angles.}
-    \label{fig:DiffEFieldComp4}
-  \end{subfigure}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS$ metric.}
-    \label{fig:DiffEFieldComp5}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    %\includegraphics[width=\textwidth]{}
-    \caption{The accuracy to which interaction times are determined using the hit $RMS/Charge$ metric.}
-    \label{fig:DiffEFieldComp6}
-  \end{subfigure}
-  \caption[The effect that an increased electric field has on the accuracy of interaction time determination]
-          {A study into how increased noise affects the accuracy to which interactions can be determined in the 35 ton.}
-          \label{fig:DiffEFieldComp}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electron lifetime changes]
+          {The accuracy of the hit $RMS/Charge$ method, for changing values of the electron lifetime. }
+  \label{fig:DiffLifeStudy_AvDiff_RMS_Int}
 \end{figure}
 
-!!!!!! EXPLANATIONS OF WHAT IT LOOKS LIKE !!!!!!!
+%%%%%%%% The Electric field study
+
+Figures~\ref{fig:DiffElecStudy_AvDiff_RMS} and~\ref{fig:DiffElecStudy_AvDiff_RMS_Int} show the accuracy to which the interaction time and central $x$ position of a track can be determined using the effect that diffusion has on the hit $RMS$ and hit $RMS/Charge$ for changing electric field values respectively. Figures~\ref{fig:DiffElecStudy_AvDiffRMS_T} and~\ref{fig:DiffElecStudy_AvDiffRMS_Int_T} show that the accuracy to which the interaction time can be determined is relatively unaffected by the electric field for both the hit $RMS$ and hit $RMS/Charge$ methods. However, when these interaction times are used to predict the central $x$ position the larger drift velocity in the higher electric field samples causes the accuracy to decrease. This decrease in accuracy is because within the same time period electrons will have drifted further in a higher drift field, meaning that the same error in time will produce a larger $x$ offset when compared a lower electric field. The increased field also causes the distributions of the difference in predicted and reconstructed central $x$ position to become wider, particularly in Figure~\ref{fig:DiffElecStudy_AvDiff_RMS_Int_X}, again this is due to the increase drift velocity as the widths of Figure~\ref{fig:DiffElecStudy_AvDiff_RMS_Int_T} are consistent. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_ElecField}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffElecStudy_AvDiffRMS_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_ElecField}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffElecStudy_AvDiffRMS_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electric field changes]
+          {The accuracy of the hit $RMS$ method, for changing values of the electric field. }
+  \label{fig:DiffElecStudy_AvDiff_RMS}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_ElecField}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffElecStudy_AvDiff_RMS_Int_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_Q_ElecField}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffElecStudy_AvDiff_RMS_Int_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electric field changes]
+          {The accuracy of the hit $RMS/Charge$ method, for changing values of the electric field. }
+  \label{fig:DiffElecStudy_AvDiff_RMS_Int}
+\end{figure}
+
+%%%%%%%% The diffusion constant study
+Figures~\ref{fig:DiffLDiff_AvDiff_RMS} and~\ref{fig:DiffLDiff_AvDiff_RMS_Int} show the accuracy to which the interaction time and central $x$ position of a track can be determined using the effect that diffusion has on the hit $RMS$ and hit $RMS/Charge$ for changing values of the longitudinal diffusion constant respectively. As would be expected, both figures show that the accuracy to which the interaction time and central $x$ position can be predicted are highly dependant on the longitudinal diffusion constant. It is interesting to note that the extremely poor resolution when there is no longitudinal seen in Figure~\ref{fig:DiffLDiff_AvDiff_RMS} is not present in Figure~\ref{fig:DiffLDiff_AvDiff_RMS_Int}. It is thought that this is due to charge attentuation which will still occur due to the finite electron lifetime.  
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Diffusion}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffLDiff_AvDiffRMS_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_Diffusion}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffLDiff_AvDiffRMS_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the constant of longitudinal diffusion changes]
+          {The accuracy of the hit $RMS$ method, for changing values of the constant of longitudinal diffusion. }
+  \label{fig:DiffLDiff_AvDiff_RMS}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_Diffusion}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffLDiff_AvDiff_RMS_Int_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_Q_Diffusion}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffLDiff_AvDiff_RMS_Int_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the constant of longitudinal diffusion changes]
+          {The accuracy of the hit $RMS/Charge$ method, for changing values of the constant of longitudinal diffusion. }
+  \label{fig:DiffLDiff_AvDiff_RMS_Int}
+\end{figure}
 
 %********************************** % Fifth.Fourth Section  *************************************
 \subsection{The limitations of and future improvements to the method of interaction time determination using diffusion} \label{sec:DiffLimitations}
-sdfsdsdas
+The comparison of the 35 ton data and Monte Carlo samples, as well as the Monte Carlo samples with differeing detector conditions, show that there is potential in the ability to determine interaction times using the effects of diffusion. However, there are still some issues which need to be overcome. These will be discussed briefly below. \\
+
+All of the figures shown that had the difference in predicted and reconstructed interaction times were not centered around 0 $\mu$s and also had large FWHMs. It is thought that this is due to interpreting distributions which are not Gaussian as Gaussian functions, such as Figure~\ref{fig:DiffMCHitFit}. This means that when the MPVs are calculated using only the values around the peaks, there are large tails at both high and low values which are not counted. As the hits which make up these tails are still used to predict the interaction times they will introduce the observed offsets as the times which they would predict will be far from that which the MPV would predict. The result of this is that the assumption made earlier, that over a large number of hits the average predicted interaction time will be correct, could no longer hold. A potential solution to remedy this, is to refine the selection of hits that are used to predict the interaction time to exclude the extreme values of these tails. However, to do this accurately would require some knowledge of the hit location, as the MPV of hit $RMS$ can change significantly over the drift length of the detector. This is shown in Figure~\ref{fig:DiffMCDataCompFit}, where the MPV of hit $RMS$ in Monte Carlo changes from roughly 1.9 ticks near the APAs to roughly 2.8 ticks 200 cm away from the APAs. Looking at Figure~\ref{fig:DiffMCHitFit_RMS}, this range encompasses the entire distrbibution of Monte Carlo hit $RMS$ values, including the tail of hit $RMS$ above 2.3 ticks which we would like to remove. Another solution to improving the accuracy of the predicted interaction time could be to weight the predicted interaction times from each hit in some way which better represents the distribution of hit $RMS$ and hit $RMS/Charge$ seen in Figure~\ref{fig:DiffMCHitFit}. \\
+
+An important improvement to the method would be to expand it to include the induction plane wires, as this will greatly increase both the number of wires which can be used, and the range of track angles whose interaction times can be predicted. The angular range of the method would increase as, when using only collection plane wires it is impossible to reconstruct enough hits for nearly vertical muons as very few wires would be hit, this was discussed in Section~\ref{sec:SimRecoEffic}. This was not attempted here as the electronics noise in the 35 ton data was too large to able to reliably reconstruct all hits on the induction planes without reconstructing many noise hits, and so the hit threshold was very high. \\

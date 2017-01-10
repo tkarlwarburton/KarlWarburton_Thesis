@@ -12,51 +12,51 @@ A level-1 auxiliary file: The35tonCameras/The35tonCameras.aux
 A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
 A level-1 auxiliary file: 35tonData/35tonData.aux
 A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
-The style file: apalike.bst
+The style file: ieeetr.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
 Warning--empty journal in Church_LArSoft
 Warning--empty booktitle in HarrisTrans
-You've used 35 entries,
-            1935 wiz_defined-function locations,
-            719 strings with 9704 characters,
-and the built_in function-call counts, 11105 in all, are:
-= -- 1146
-> -- 266
-< -- 25
-+ -- 91
-- -- 82
-* -- 869
-:= -- 1901
-add.period$ -- 105
-call.type$ -- 35
-change.case$ -- 220
-chr.to.int$ -- 34
-cite$ -- 37
-duplicate$ -- 462
-empty$ -- 879
-format.name$ -- 126
-if$ -- 2232
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 24
-newline$ -- 178
-num.names$ -- 69
-pop$ -- 128
+You've used 41 entries,
+            1876 wiz_defined-function locations,
+            765 strings with 10603 characters,
+and the built_in function-call counts, 9532 in all, are:
+= -- 1012
+> -- 234
+< -- 0
++ -- 99
+- -- 58
+* -- 541
+:= -- 1211
+add.period$ -- 57
+call.type$ -- 41
+change.case$ -- 40
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 507
+empty$ -- 996
+format.name$ -- 58
+if$ -- 2478
+int.to.chr$ -- 0
+int.to.str$ -- 41
+missing$ -- 28
+newline$ -- 142
+num.names$ -- 27
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 0
 quote$ -- 0
-skip$ -- 370
+skip$ -- 410
 stack$ -- 0
-substring$ -- 839
-swap$ -- 36
-text.length$ -- 3
+substring$ -- 593
+swap$ -- 229
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
+type$ -- 0
 warning$ -- 2
-while$ -- 71
-width$ -- 0
-write$ -- 443
+while$ -- 74
+width$ -- 43
+write$ -- 387
 (There were 2 warnings)

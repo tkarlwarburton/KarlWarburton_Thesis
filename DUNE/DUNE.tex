@@ -37,11 +37,19 @@
   \label{fig:35tonWireGeom}
 \end{figure}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.85\textwidth]{35tonFullDetect}
+  \caption[A representation of the counter locations in the 35 ton]
+          {A representation of the counter locations in the 35 ton, with the magnetic and LArSoft co-ordinate systems shown. The other detector components can be seen inside the cryostat, such that the counters on the North wall are behind the short drift volume. The East - West counters are numbered 6-15 and 28-37 respectively. The North Lower - South Upper counters are numbered 16-21 and 38 - 43 respectively. The North Upper - South Lower counters are numbered 22-27 and 0-5 respectively. The telescope triggers are numbered 44-92 and are split into four groups.}
+  \label{fig:35tonCounterLoc}
+\end{figure}
+
 %********************************** % Fifth Section  *************************************
 \section{The DUNE software} \label{sec:LArSoft} %Section - X.5
 The software package used by DUNE is called LArSoft~\citep{Church_LArSoft}~\citep{LArSoftOrg} which is a simulation, reconstruction and analysis package for LArTPCs that is being used by many of the experiments in the US neutrino program. LArSoft has been developed to be detector agnostic, meaning that much of the code is shared between experiments. To this end it is envisioned that it will be used as a platform for constant development in both existing experiments and those still in the planning phases such as DUNE. LArSoft is built around the Fermilab-supported analysis reconstruction framework (\emph{art}). External packages such as ROOT~\citep{ROOT} and GEANT4~\citep{GEANT4} are incorporated into LArSoft meaning that the user does not have to co-ordinate specific versions of the packages as the newest versions are automatically incorporated. \\
 
-There are numerous mechanisms by which particles can be generated within the software with external packages such as GENIE~\citep{GENIE}, Nuance~\citep{Nuance} and CRY~\citep{CRY} already having been incorporated. Recently the MUon Simulations UNderground (MUSUN)~\citep{MUSUN} generator which takes the output of MUon SImulation Code (MUSIC)~\citep{MUSIC} has also been incorporated, see Section~\ref{sec:FDIncorporation} for further details. It is also possible to use an inbuilt single particle generation mode which is fully tunable as particle type, momenta, positions and directions can all be varied. \\
+There are numerous mechanisms by which particles can be generated within the software with external packages such as GENIE~\citep{GENIE}, Nuance~\citep{Nuance} and CRY~\citep{CRY} already having been incorporated. Recently the MUon Simulations UNderground (MUSUN)~\citep{MUSUN}~\citep{MUSUN2} generator which takes the output of MUon SImulation Code (MUSIC)~\citep{MUSUN}~\citep{MUSIC}~\citep{MUSIC2} has also been incorporated, see Section~\ref{sec:FDIncorporation} for further details. It is also possible to use an inbuilt single particle generation mode which is fully tunable as particle type, momenta, positions and directions can all be varied. \\
 
 The co-ordinates and angles in LArSoft are defined as follows, and schmeatic representations of how this appears in the 35 ton are shown in Figure~\ref{fig:LArSoft_coords}:
 \begin{itemize}
