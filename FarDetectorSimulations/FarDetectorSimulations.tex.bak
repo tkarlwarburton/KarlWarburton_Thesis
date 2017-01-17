@@ -1,0 +1,133 @@
+%*******************************************************************************
+%*********************************** Chapter XXXXXXXX *****************************
+%*******************************************************************************
+
+\chapter{Simulations of the DUNE Far Detector}  %Title of chapter
+\graphicspath{{FarDetectorSimulations/Figs/Raster/}{FarDetectorSimulations/Figs/PDF/}{FarDetectorSimulations/Figs/}}
+
+Previous work presented has been done concerning the 35 ton prototype, however it is also important to simulate the DUNE Far Detector (FD). Simulations in the FD have concentrated on cosmogenic background to neutrino oscillations, in Section~\ref{sec:LBNESurf}, and the muon background to nucleon decay, in Section~\ref{sec:DUNENDK}. The simulations shown in Section~\ref{sec:LBNESurf} are discussed in!!!!~citep{MartinsThesis}!!!!, and were performed for the Long Baseline Neutrino Experiment (LBNE) which along with the Long Baseline Neutrino Oscillation (LBNO) experiment formed the basis for DUNE and so are included here for completeness. The other work presented was performed for the DUNE collaboration in conjunction with work done by Vitaly Kudryavtsev and Matthew Robinson, both of the University of Sheffield, and was performed with the aim of producing muon-induced background limits to nucleon decay. \\
+
+%********************************** %Second Section  **************************************
+\section{Simulations of the LBNE surface detector} \label{sec:LBNESurf} %Section - X.2
+
+%********************************** % Third Section  *************************************
+\section{The use of MUSUN in LArSoft} \label{sec:FDIncorporation}  %Section - X.3
+The primary muons in the following discussions are all generated using MUSIC~\citep{MUSUN}~\citep{MUSIC}~\citep{MUSIC2} and MUSUN~\citep{MUSUN}~\citep{MUSUN2}, and so a brief overview of them is required. MUSIC first propogates muons through a medium defined by the user for given initial energies, positions and direction cosines. A range of energies between 10$^2$ and 10$^7$ GeV are considered and their energy distributions are stored at depths of between 100 and 15,000 m w.e. Energy losses due to four processes are considered; ionisation, bremsstrahlung, electron-positron pair production and muon-nucleus inelastic scattering. The output of MUSIC is then used by MUSUN to generate a muon energy spectrum and angular distribution for a given detector location given details about the local surface profile. \\
+
+The location of the DUNE detector near the Ross shaft at SURF has global coordinates of: latitude = 44$^{\circ|}$20$'$45.21$''$ N and longitude 103$^{\circ}$45$'$16.13$''$ West. The rock composition is assumed to be $< Z >$ = 12.09 and $< A >$ = 24.17, and the density is assumed to be 2.70 g cm${-3}$~\citep{Mei:2009py}. The flux calculated by MUSIC/MUSUN of 5.18 $\times$ 10$^{-9}$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$ is well matched to the flux measured by the active veto system of the Davis' experiment which was (5.38 $\pm$ 0.07) $\times$ 10$^{-9}$ cm$^{-2}$ s$^{-1}$ sr$^{-1}$~\citep{PhysRevD.27.1444}. Given small differences in these values and another measurement by the Majorana demonstator, the systematic uncertainty in calculating the muon flux is estimated to be 20\%~\citep{NDKTFNote}. \\
+
+The surface profile around the proposed detector location is shown in Figure~\ref{fig:SurfProf_Col}, where the proposed location is in the centre of the map. Each quadrant on the map has been divided into 4 angles of 22$^{\circ}$ to help quide the eye when comparing to Figure~\ref{fig:SurfProf_Azi}, where the distribution of azimuth angles is plotted. The vertical lines in Figure~\ref{fig:SurfProf_Azi} show the division of the quadrants when the angle is calcualted from East. When moving from East to North it is possible to discern how the peaks and troughs on the surface profile correspond to troughs and peaks in the distribution of azimuthal angle. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{dune-surface-map}
+    \caption{The surface profile of the DUNE far detector site at SURF.}
+    \label{fig:SurfProf_Col}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{phi-map}
+    \caption{The distribution of azimuthal angles of muons at the DUNE far detector site at SURF.}
+    \label{fig:SurfProf_Azi}
+  \end{subfigure}
+  \caption[The correlation between the surface profile and distribution of azimuthal angles at the DUNE far detector site]
+          {The correlation between the surface profile and distribution of azimuthal angles at the DUNE far detector site. The quadrants have been divided into four angles of equal size. The azimuthal angle, calculated as the angle from East (pointing to the right in Fig.~\ref{fig:SurfProf_Col}), and increasing counterclockwise, is seen to follow the contours of the surface profile.}
+\end{figure}
+
+Given these parameters the muon flux when assuming a spherical detector geometry without simulating a detector cavern is given by Table~\ref{tab:MUSUNflux}. \\
+\begin{table}[h!]
+\caption[Muon flux parameters as calculated with MUSIC/MUSUN.]
+        {Muon flux parameters as calculated with MUSIC/MUSUN.}
+\centering
+\label{tab:MUSUNflux}
+\begin{tabular}{c c c c}
+\toprule
+{Total flux (cm$^{-2}$ s$^{-1}$)} & {Mean E$_{\mu}$ (GeV)} & {Mean slant depth (m w.e)} & {Mean $\theta$ ($^{\circ}$)} \\ 
+\midrule
+5.66 $\times$ 10$^{-9}$           & 283                    & 4532                       & 26                           \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The muons simulated for DUNE are sampled on a the surface of a box surrounding the detector hall that also encompassed 7 m of rock above the cavern, and 5 m of rock on all other sides. This is to ensure that there is sufficient rock to induce cascades both above and around the detector hall, as it is mainly the secondaries produced in these interactions that enter the detector which are of concern to nucleon decay searches. This will be discussed in Section~\ref{sec:DUNENDK}. The size of the box the muons are sampled from is 74.43 $\times$ 29.54 $\times$ 30.18 m$^3$, compared to the simulated cryostat that has dimensions of 61.62 $\times$ 14.94 $\times$ 13.58 m$^3$, where these dimensions are (length $\times$ width $\times$ height). The muons are sampled randomly according to their energy spectrum for a given zenith and azimuthal angle, using the angular distribution obtained with MUSIC. \\
+
+Before this could be done however, MUSUN had to be incorporated into the DUNE software framework as it has previously been maintained in FORTRAN as an external package. This involved building on the work done by the LZ collaboration in porting the code to C++~!!!!!citep{Kareem}. The process by which this was done was to first reproduce the distributions produced by the LZ collaboration using the DUNE software framework. Once the distributions could be reproduced for the Davis shaft at SURF, the muon distributions produced by the original FORTRAN code for the DUNE detector location were reproduced. The dsitributions produced by the DUNE software framework are shown in Figure~\ref{fig:MUSUNIncorp}, these are seen to be consistent with the same distributions shown in~\citep{MUSUNLBNE}. The initial positions of 10,000 muons generated in LArSoft around the DUNE 10 kt module that is simulated is shown in Figure~\ref{fig:10ktPos}. The initial positions of the muons are shown as blue points, whilst the cryostat is a single black box and each TPC is a single red box. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{ZenithCan}
+    \caption{Distribution of zenith angles.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{AzimuthCan}
+    \caption{Distribution of azimuthal angles.}
+  \end{subfigure}
+  % ========
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{DepthCan}
+    \caption{Distribution of slant depths.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{EnergyPerGeVCan}
+    \caption{The energy spectrum of muon energies.}
+  \end{subfigure}
+  % ========
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{AziZenCan}
+    \caption{The distribution of zenith and azimuthal angles.}
+  \end{subfigure}
+  \hspace{0.08\textwidth}
+  \begin{subfigure}{0.45\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{AziZenColzCan}
+    \caption{The distribution of zenith and azimuthal angles, shown with a colour $z$ scale.}
+  \end{subfigure}
+  \caption[The distributions of some of the important quantities for muons generated by MUSUN in LArSoft]
+          {The distributions of some of the important quantities for muons generated by MUSUN in LArSoft.}
+  \label{fig:MUSUNIncorp}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{MuonPosCan}
+  \caption[The initial positions of muons generated by MUSUN around a DUNE 10 kt module]
+          {The initial positions of muons generated by MUSUN around a DUNE 10 kt module. The initial positions of the muons are shown as blue points, whilst the cryostat is a single black box and each TPC is a single red box.}
+  \label{fig:10ktPos}
+\end{figure}
+
+It is found that the muon rate through the box upon which the muons are sampled is 0.1579 Hz, this rate is later used to normalise the background event rate in Section~\ref{sec:DUNENDK}. Of the muons that are sampled, roughly a third pass through the active volume, to give a muon rate through the active volume of 0.053 Hz. \\ 
+
+%********************************** % Fifth Section  *************************************
+\section{Cosmogenic background for nucleon decay channels in DUNE} \label{sec:DUNENDK} %Section - X.5
+When searching for rare processes where an experiment is unlikely to see more than a few real signatures, an exhaustive study of the potential backgrounds is required so as to establish that if a signal is observed, it could provide overwhelming evidence for the process. The search for nucelon decay in DUNE is one such process, and so an exhaustive study of the background to nucleon decay is required. As discussed in Section~\ref{sec:BkNDK} cosmogenic muons cause background to nucleon decay signatures by creating secondary particles which are able to mimic the nucleon decay signatures. For this reason it is neccessary to simulate this background, and to develop a series of cuts that can be applied to the cosmogenic background to establish that the energy depositions which they cause, are not due to nucleon decays. When doing this it is important to use a simulation that is as accurate as possible to the DUNE far detector. It is for this reason that the MUSUN was incorporated into LArSoft, as the muons which it generates are well matched to the observed muon flux, as described in Section~\ref{sec:FDIncorporation}. \\
+
+To ensure that the background has been properly simulated it is advantageous to simulate many more background events than will be collected by the experiment. As the DUNE detector will run for roughly 20 years, it was decided that an initial sample representing 200 years of detector live time would be simulated. Given that the muon rate through the cavern is 0.1579 Hz, 200 years of detector live time corresponds to roughly 10$^9$ muons. This only represents one of the DUNE 10 kt modules, and so an even larger dataset will be required to represent the full live time of the 4 10 kt modules. For this reason, muons will continue to be generated even though the initial sample size has been reached. \\
+
+Producing samples of this size requires significant computer power, both in terms of running time, and storage space. As such, many of the simulated events are discarded before being saved to disk, through the application of a filter after GEANT4. It is essential that the events which are discarded could not have been mistaken for signal events, and so only very generous cuts are applied. Only events satisfying one of the following cuts are discarded;
+\begin{itemize}
+\item Contain a muon track of more than 1 m.
+\item There are no energy depositions in the entire detector volume.
+\end{itemize}
+It is envisioned that a muon track of more than a metre would not be misreconstructed. It is also assumed that any signatures observed within one drift window of such a track would not be studied in a nucleon decay search, as there would be doubt as to their authenticity. As the muon rate through the active volume is 0.053 Hz, and the drift time is a few ms, ignoring all times where a large track from a cosmogenic muon is present results in less than 0.1\% dead time, which is assumed to be acceptable. \\
+
+
+
+\subsection{Future improvements to cosmogenic background studies}
+Thus far the cosmogenic studies have been performed on the Monte Carlo truth information, and so have not used reconstructed objects such as tracks. The extension of the analyses to include work on tracks is an important next step as then the full analysis which would be applied on real data can be tested. Preliminary studies have begun on hit reconstruction, and involve running a filter on the muons used in the earlier analyses. This is because the number of events which are saved to disk would be prohibitive to running the full reconstruction process. As such, only events which meet the following criteria will be reconstructed;
+\begin{itemize}
+\item A minimum of 10 MeV deposited in the detector volume.
+\item A maximum of 3,000 MeV deposited in the detector volume.
+\item A maximum of 5 MeV deposited within 10 cm of the detector edge.
+\end{itemize}
+These criteria are designed to be broad enough that the full range of nucleon decay modes can be studied, hence the maximum deposited energy greatly exceeding the rest mass of a single nucleon. \\

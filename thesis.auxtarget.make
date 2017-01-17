@@ -1,14 +1,18 @@
-\newlabel{All the noise}
 \newlabel{DiffusionAnalysis}
 \newlabel{Organisation of the data structure}
 \newlabel{Reformatting the data to the offline structure}
+\newlabel{eq:Bethe-Bloch}
+\newlabel{eq:Birks_1}
 \newlabel{eq:Birks_A}
 \newlabel{eq:Birks_B}
+\newlabel{eq:Birks_Correc}
 \newlabel{eq:Birks}
 \newlabel{eq:HitTime_Int}
 \newlabel{eq:HitTime}
+\newlabel{eq:ModBox_1}
 \newlabel{eq:ModBox_A}
 \newlabel{eq:ModBox_B}
+\newlabel{eq:ModBox_Correc}
 \newlabel{eq:ModBox}
 \newlabel{eq:PIDA_A}
 \newlabel{eq:PIDA}
@@ -74,6 +78,15 @@
 \newlabel{fig:DiffMCHitFit_RMS_Int}
 \newlabel{fig:DiffMCHitFit_RMS}
 \newlabel{fig:DiffMCHitFit}
+\newlabel{fig:DiffNoiseStudy_AvDiffRMS_T}
+\newlabel{fig:DiffNoiseStudy_AvDiffRMS_X}
+\newlabel{fig:DiffNoiseStudy_AvDiff_RMS_Int_T}
+\newlabel{fig:DiffNoiseStudy_AvDiff_RMS_Int_X}
+\newlabel{fig:DiffNoiseStudy_AvDiff_RMS_Int}
+\newlabel{fig:DiffNoiseStudy_AvDiff_RMS}
+\newlabel{fig:DiffNoiseStudy_CDiff4}
+\newlabel{fig:DiffNoiseStudy_HitFit}
+\newlabel{fig:DiffNoiseStudy_RMS0cm}
 \newlabel{fig:DiffOverlayAvDiff_RMS_Int_T}
 \newlabel{fig:DiffOverlayAvDiff_RMS_Int_X}
 \newlabel{fig:DiffOverlayAvDiff_RMS_Int}
@@ -143,16 +156,22 @@
 \newlabel{fig:TingjunLifetime}
 \newlabel{fig:TwoDimCanvas}
 \newlabel{fig:WirePitches}
+\newlabel{sec:AllTheNoise}
+\newlabel{sec:BkNDK}
 \newlabel{sec:DUNEDetector}
 \newlabel{sec:DUNENDK}
 \newlabel{sec:DataAlgs}
 \newlabel{sec:DiffLimitations}
+\newlabel{sec:DiffMCPlots}
 \newlabel{sec:DiffMCStudies}
 \newlabel{sec:FDIncorporation}
 \newlabel{sec:LArSoft}
 \newlabel{sec:LBNESurf}
 \newlabel{sec:MCCalib}
 \newlabel{sec:MCDataComp}
+\newlabel{sec:NDKCosmBk}
+\newlabel{sec:NDKSig}
+\newlabel{sec:NDK_Atmos}
 \newlabel{sec:PID}
 \newlabel{sec:SimInteractionTimes}
 \newlabel{sec:SimRecoEffic}
@@ -181,6 +200,10 @@
 \newlabel{sub@fig:DiffLifeStudy_AvDiff_RMS_Int_X}
 \newlabel{sub@fig:DiffMCHitFit_RMS_Int}
 \newlabel{sub@fig:DiffMCHitFit_RMS}
+\newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_T}
+\newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_X}
+\newlabel{sub@fig:DiffNoiseStudy_AvDiff_RMS_Int_T}
+\newlabel{sub@fig:DiffNoiseStudy_AvDiff_RMS_Int_X}
 \newlabel{sub@fig:DiffOverlayAvDiff_RMS_Int_T}
 \newlabel{sub@fig:DiffOverlayAvDiff_RMS_Int_X}
 \newlabel{sub@fig:DiffOverlayAvDiff_RMS_T}
@@ -228,4 +251,5 @@
 \newlabel{tab:Isol_PIDA_PrimProton}
 \newlabel{tab:Isol_PIDA_Proton}
 \newlabel{tab:MUSUNflux}
+\newlabel{tab:NDKLim}
 \newlabel{tab:PIDAVals}

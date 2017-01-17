@@ -119,39 +119,36 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/Complex.pn
 -include DUNE/Figs/Raster/WireAngleCondition.png.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/Raster/WireAngleCondition.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/WireAngleCondition.png)
--include 35tonSimulation/Figs/PDF/DiffTrackSeps.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/DiffTrackSeps.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/DiffTrackSeps.pdf)
--include 35tonSimulation/Figs/PDF/NumPE_Distance.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/NumPE_Distance.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/NumPE_Distance.pdf)
--include 35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/DiffFlashPredReco.pdf)
--include 35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/Pred_Reco_T_Full.pdf)
--include 35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/Pred_Reco_T_Zoom.pdf)
--include 35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/UnCorrectedCanvas.pdf)
--include 35tonSimulation/Figs/PDF/CorrectedCanvas.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/CorrectedCanvas.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/CorrectedCanvas.pdf)
--include 35tonSimulation/Figs/PDF/BetheBlock.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/BetheBlock.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/BetheBlock.pdf)
--include 35tonSimulation/Figs/PDF/StoppingPower.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/StoppingPower.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/StoppingPower.pdf)
--include 35tonSimulation/Figs/PDF/TruthPIDA.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/TruthPIDA.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/TruthPIDA.pdf)
--include 35tonSimulation/Figs/PDF/Effic_SingSamps_Phi.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonSimulation/Figs/PDF/Effic_SingSamps_Phi.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/PDF/Effic_SingSamps_Phi.pdf)
+-include 35tonSimulation/Figs/Raster/DiffTrackSeps.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+-include 35tonSimulation/Figs/Raster/NumPE_Distance.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+-include 35tonSimulation/Figs/Raster/DiffFlashPredReco.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+-include 35tonSimulation/Figs/Raster/UnCorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/CorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/Bethe-Bloch.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Bethe-Bloch.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Bethe-Bloch.png)
+-include 35tonSimulation/Figs/Raster/StoppingPower.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/StoppingPower.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/StoppingPower.png)
+-include 35tonSimulation/Figs/Raster/TruthPIDA.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/TruthPIDA.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/TruthPIDA.png)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)
@@ -296,6 +293,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs
 -include FarDetectorSimulations/Figs/Raster/MuonPosCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+-include Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf.gpi.d
+thesis.d: $$(call graphics-source,Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf)
 -include Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf.gpi.d
 thesis.d: $$(call graphics-source,Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf)

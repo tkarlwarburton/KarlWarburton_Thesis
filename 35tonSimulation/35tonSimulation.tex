@@ -1,6 +1,7 @@
 %*****************************************************A**************************
 %********************************** Chapter XXXXXXXX ***************************
 %*******************************************************************************
+\newcommand{\BigO}[1]{\ensuremath{\operatorname{O}\bigl(#1\bigr)}}
 
 \nomenclature[z-MIP]{MIP}{Minimally Ionising Particle}
 \nomenclature[z-MPV]{MPV}{Most Probable Value} 
@@ -10,59 +11,58 @@
 
 \chapter{Simulations of the 35 ton prototype}  %Title of chapter
 
-\graphicspath{ {35tonSimulation/Figs/PDF/} {35tonSimulation/Figs/Vector/} } %{35tonSimulation/Figs/Raster/}
+\graphicspath{ {35tonSimulation/Figs/Raster/} {35tonSimulation/Figs/PDF/} {35tonSimulation/Figs/Vector/} }
 
 %********************************** %First Section  *************************************
 \section{Determination of interaction times} \label{sec:SimInteractionTimes} %Section - X.1
-As outlined at the end of Section~\ref{sec:LArSoft} it is important to know the interaction time of a track when performing calorimetric reconstruction. When performing simulations the simplest interaction time to assign to a reconstructed object is the Monte Carlo truth time of when the particle was created. The creation time can be used as the time taken to travel the relatively modest distances considered in simulations are small when compared to the resolution of the detector (500 ns). When matching a reconstructed object with a GEANT4 particle the particle which contributed the most overall deposited charge to the whole track is chosen. This means that the energy deposited for each hit on the track is broken down into how much each particle contributed to the charge of the individual hit, with the energies summed over all hits. The ability to assign the true interaction times to 3D objects is vital when wanting to benchmark how well other determinations of interaction times perform or to determine the efficiency of the tracking algorithms as described in Section~\ref{sec:SimRecoEffic}. \\
+As outlined at the end of Section~\ref{sec:LArSoft} it is important to know the interaction time of a track when performing calorimetric reconstruction. When performing simulations the simplest interaction time to assign to a reconstructed object is the Monte Carlo truth time of when the particle was created. The generation time can be used, as the time taken to travel the distances considered in simulations, less than 100 ns, is small when compared to the resolution of the detector (500 ns). When matching a reconstructed object with a GEANT4 particle the particle which contributed the most overall deposited charge to the whole track is chosen. This means that the energy deposited for each hit on the track is broken down into how much each particle contributed to the charge of the individual hit, with the energies summed over all hits. The ability to assign the true interaction times to 3D objects is vital when wanting to benchmark how well other algorithms to estimate interaction times perform or to determine the efficiency of the tracking algorithms as described in Section~\ref{sec:SimRecoEffic}. \\
 
-In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}, however in simulation the scintillation light was used as this would have been more powerful during continuous running as not all particles would pass through the counters but one wold expect almost all of them to produce reconstructable scintillation light. The flashes of light are reconstructed using a pre-built library which models the expected number of photoelectrons to be measured on each photon detector given the 3D position of the source of the flash. This library takes into account the expected quantum efficiencies of each photon detector. \\
+In the 35 ton detector, it was envisioned that there would be at least two ways in which interaction times could be assigned to tracks, one using the external cosmic ray counters and another using reconstructed scintillation light collected by the photon detectors. The cosmic ray counters were used extensively in the 35 ton data, as described in Section~\ref{sec:DataAlgs}. However, in simulations the scintillation light was used as this would have been more powerful during continuous running. This is because, not all particles would pass through the counters but, one wold expect almost all of them to produce reconstructable scintillation light. The flashes of light are reconstructed using a pre-built library which models the expected number of photoelectrons to be measured on each photon detector given the 3D position of the source of the flash. Using the library it is then possible to reconstruct the location of a flash in three dimsenions, given the relative amounts of light that each photon detector collects. For example, less scintillation light will be collected for a flash that originated further away from the photon detectors. This library also takes into account the expected quantum efficiencies of each photon detector. \\
 
-When trying to produce an association metric a sample of 10,000 Anti-Muons with a cosmic-like distribution was used as then there there should only be one long track with which to match one reconstructed flash. A cosmic-like distribution is defined as a set of particles that have a $\cos^{2}$ angular distribution, no minimum or maximum energies and have a uniform $y$ position with flat distrbutions of positions in $x$ and $z$. When this sample was simulated it was clear that the photon detector reconstruction using the pre-built libraries worked well as the reconstructed flash source normally lay very close to the track which caused it. It was found that a calculation of a Point of Closest Approach (PoCA) of the reconstructed track to the flash source gave an effective metric by which the two could be combined. Other metrics such as the distance between the flash source and the track centre, and the perpendicular distance between the flash source and the line joining the start and end of track were investigated but found to provide less reliable metrics. The latter of these metrics is less effective because the reconstructed tracks are rarely straight lines, due to particles scattering as they travel through the LAr and so the perpendicular distance at each hit must be calculated. A comparison of these metrics is shown in Figure~\ref{fig:PDYZDist}. \\
+When trying to produce an association metric a sample of 10,000 isolated positive muons generated with CRY at $T$ = 0 was used. Isolated particles were used as then there should only be one long track with which to match one reconstructed flash. The positive muons were generated outside of the detector with a constant $y$ position, above the uppermost scintillation counters, and flat distributions in $x$ and $z$. When this sample was simulated it was clear that the photon detector reconstruction using the pre-built libraries worked well as the reconstructed flash source normally lay very close to the track which caused it. It was found that a Point of Closest Approach (PoCA) calculation of the reconstructed track to the reconstructed flash centre, gave an effective metric by which the flash and track could be associated. Other metrics such as the distance between the flash and track centres, and the perpendicular distance between the flash centre and the line joining the start and end of track were investigated but found to provide less reliable metrics. The latter of these metrics is less effective because the reconstructed tracks are rarely straight lines, due to particles scattering as they travel through the LAr, and so the perpendicular distance at each hit must be calculated. A comparison of these metrics is shown in Figure~\ref{fig:PDYZDist}. \\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{DiffTrackSeps}
+  \includegraphics[width=0.6\textwidth]{DiffTrackSeps}
   \caption[Matching tracks and flashes in the 35 ton using positions in the $yz$ plane]
-          {A comparison of metrics to match tracks and flashes in the 35 ton detector using the proximity of tracks and flashes in the $yz$ plane.}
+          {The number of events as a function of the calculated distance between a reconstructed track and a reconstructed flash for various metrics. The distance between track centre and the flash centre is shown in black. The perpendicular distance between the flash centre and the line joining the start and end of the track is shown in red. The point of closest approach between the flash centre and all hits along the track is shown in red.}
   \label{fig:PDYZDist}
 \end{figure}
 
-Another metric by which flashes could be assigned to reconstructed tracks is by utilising the relationship between the number of measured photoelectrons and the distance from the APAs at which they were produced. When considering two flashes of scintillation light that are produced at different distances from the APAs, it would be expected that more photoelectrons would be collected when the photons were produced closer to the APAs. This relationship is shown in Figure~\ref{fig:PD_PExPlot} where it can be seen that there is an exponential decay in the number of photoelectrons which are measured with increasing drift distances. Utilising this relationship, means that the distance from the APAs can be predicted from the number of photoelectrons which are measured. This predicted distance from the APA planes can then be compared to the expected $x$ position of a reconstructed track given the difference in flash time and hit times, this is shown in Figure~\ref{fig:PD_PEDiffX}. The difference in these two quantities can then be used as the second metric as it gives an indication of how well the properties of a flash match the reconstructed $x$ position of the track. If the predicted and reconstructed $x$ positions are identical then the track and flash are well matched, this corresponds to the collection of points around the $y=x$ line in Figure~\ref{fig:PD_PEDiffX}. \\
+Another metric by which flashes could be assigned to reconstructed tracks is by utilising the relationship between the number of measured photoelectrons in the simulation, and the distance from the APAs at which they were produced. When considering two flashes of scintillation light that are produced at different distances from the APAs, it would be expected that more photoelectrons would be collected when the photons were produced closer to the APAs. This relationship is shown in Figure~\ref{fig:PD_PExPlot} where it can be seen that there is an exponential decay in the number of photoelectrons which are measured with increasing drift distances. Utilising this relationship, means that the distance from the APAs can be predicted from the number of photoelectrons which are measured. This predicted distance from the APA planes can then be compared to the expected $x$ position of a reconstructed track given the difference in flash time and hit times, this is shown in Figure~\ref{fig:PD_PEDiffX}. The difference in these two quantities can then be used as the second metric as it gives an indication of how well the properties of a flash match the reconstructed $x$ position of the track. If the predicted and reconstructed $x$ positions are identical then the track and flash are well matched, this corresponds to the collection of points around the $y=x$ line in Figure~\ref{fig:PD_PEDiffX}. \\
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.6\textwidth]{NumPE_Distance}
-  \caption[How the number of photoelectrons measured changes with drift distance]
-          {How the number of photoelectrons measured changes with drift distance. The red line corresponds to a parameterisation of the distribution which can be used to predict the $x$ position of a flash given the number of photoelectrons that are collected.}
+  \caption[The central $x$ position of a reconstructed track versus the number of detected photoelectrons]
+          {The central $x$ position of a reconstructed track versus the number of detected photoelectrons. The red line corresponds to a parameterisation of the distribution, so that the measured number of photonelectrons can be used to predict the central $x$ position of the track, that the flash should be associated with.}
   \label{fig:PD_PExPlot}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.6\textwidth]{DiffFlashPredReco}
-  \caption[The predited $x$ positions of flashes using the relationship between photoelectron and drift distance]
+  \caption[The predicted $x$ positions of flashes using the relationship between photoelectron and drift distance]
           {A comparison of the $x$ position predicted using the relationship in Fig~\ref{fig:PD_PExPlot} and the $x$ position predicted by using the difference in flash and hit times.}
   \label{fig:PD_PEDiffX}
 \end{figure}
 
-Using these metrics it is possible to attempt to assign reconstructed flashes to reconstructed tracks. Only flashes which are within one drift window of a given track are considered, as flashes outside of this time window cannot have been caused by the reconstructed track. Once flashes are assigned to tracks it is possible to determine how well the matching has performed by comparing the Monte Carlo truth interaction time with the photon detector interaction time. When doing this it is more useful to use a long (16 ms, 32,000 tick) CRY sample as then particles come at random timings as opposed to all at $T$ = 0 in the Anti-Muon sample initially considered. This comparison is shown in Figure~\ref{fig:PD_MCPDDiff}, where there is a clear peak at a time difference of 0 ms in the Monte Carlo truth and photon detector interaction times. When zooming in on this peak it can be seen that there is a systematic offset of 0.6 $\mu$s, this is due to an electronics offset applied in the simulation to the photon detector system. \\
+Using these metrics it is possible to attempt to assign reconstructed flashes to reconstructed tracks. Only flashes which are within one drift window of a given track are considered, as flashes outside of this time window cannot have been caused by the reconstructed track. Once flashes are assigned to tracks it is possible to determine how well the matching has performed by comparing the Monte Carlo truth interaction time with the photon detector interaction time. When doing this it is more useful to use a CRY sample which spans multiple drift windows, as then incoming particles will create scintillation flashes at random timings as opposed to all at $T$ = 0 in the positive muon sample initially considered. The CRY sample over multiple windows contains many particles generated by CRY, and is not limited to only producing positive muons, meaning that it better represents the cosmic flux observed by the 35 ton detector. This comparison is shown in Figure~\ref{fig:PD_MCPDDiff}, where there is a clear peak at a time difference of 0 ms in the Monte Carlo truth and photon detector times. When zooming in on this peak it can be seen that there is a systematic offset of 0.6 $\mu$s, this is due to an electronics offset applied in the simulation to the photon detector system. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Pred_Reco_T_Full}
     \caption{The difference in interaction times.}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Pred_Reco_T_Zoom}
     \caption{Zoomed in at low time differences.}
   \end{subfigure}
-  \caption[The difference in Monte Carlo interaction times and the predicted interaction times using the photon detectors]
-          {The difference in Monte Carlo interaction times and the predicted interaction times using the photon detectors.}
+  \caption[The number of events as a function of the difference between Monte Carlo and photon detector times]
+          {The number of events as a function of the difference between Monte Carlo and photon detector times. The difference in interaction times over a large range of times is shown top. The peak at a time difference of 0 is expanded to show a sytematic offset of 0.6 $\mu$s, due to an electronics offset is shown bottom.}
           \label{fig:PD_MCPDDiff}
 \end{figure}
 
@@ -70,33 +70,32 @@ From Figure~\ref{fig:PD_MCPDDiff} it can clearly be seen that the metric using t
 
 %********************************** % Second Section  *************************************
 \section{Calibrating calorimetric constants} \label{sec:MCCalib} %Section - X.2
-Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameters which need to be tuned in order to ensure that this is done correctly are the $Recomb_A$ and $Recomb_B$ of Equations~\ref{eq:Birks_A}, ~\ref{eq:Birks_B}, ~\ref{eq:ModBox} and ~\ref{eq:ModBox_B},. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the Minimally Ionising Particle (MIP) peak which in LAr should have a value of 1.8 MeV cm$^{-3}$. To do this the sample of 10,000 Anti-Muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
+Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameter which has to be tuned in order to ensure that this is done correctly is the number of electrons that each ADC corresponds to. This was presented in Equations~\ref{eq:Birks} and ~\ref{eq:ModBox} as $C_{ADC \rightarrow e^{-}}$. Each plane will have a different response function, and so each plane has to be treated separately. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the minimally ionising particle (MIP) peak, which in LAr should have a value of 1.8 MeV cm$^{-1}$. To do this the sample of 10,000 positive muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
 
-To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, with the different planes separated out as each one will have its own normalisation factor. A Gaussian distribution is then fitted around the peaks for each of the planes to discern the Most Probable Value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 1.8 MeV cm$^{-3}$ then the normalisation factors are scaled through a process of trial and error until the correct MPVs are measured. An example of the tuning being applied is shown in Figure~\ref{fig:CaloTune}. Tuning of the calorimetric constants is required whenever the electronics gains or signal shaping functions are changed.
+To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, and the different planes are considered separately. A Gaussian distribution is then fitted around the peaks for each of the planes to discern the most probable value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 1.8 MeV cm$^{-1}$ then the ADC to electron parameters are scaled by the factor between the measured MPV and the MIP peak. As the relationship between $\frac{dE}{dx}$ and $C_{ADC \rightarrow e^{-}}$ is not linear an element of trial and error is required until the correct MPVs are measured. An example of the tuning being applied is shown in Figure~\ref{fig:CaloTune}. Tuning of the response functions is required whenever the electronics gains or signal shaping functions are changed.
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{UnCorrectedCanvas}
-    \caption{Before a normalisation correction is applied.}
+    \caption{Before tuning is performed.}
     \label{fig:CaloTune_Before}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{CorrectedCanvas}
-    \caption{After a normalisation correction is applied.}
+    \caption{After tuning is performed.}
     \label{fig:CaloTune_After}
   \end{subfigure}
   \caption[The tuning of the calorimetric constants in the 35 ton]
-          {How the $\frac{dE}{dx}$ MPVs change for each plane when a change is made to the electronics gains in the 35 ton. Figure~\ref{fig:CaloTune_Before} shows the MPVs before the constants are corrected, whilst Figure~\ref{fig:CaloTune_After} shows the MPVs after the constants are retuned.}
+          {The number of hits as a function the hit $\frac{dE}{dx}$, before and after a tuning is applied to the response functions for the conversion of ADC to number of electrons for each plane. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ before tuning is shown top. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ after tuning is shown bottom.}
           \label{fig:CaloTune}
 \end{figure}
         
 %********************************** % Third Section  *************************************
 \section{Discerning reconstruction efficiencies} \label{sec:SimRecoEffic} %Section - X.3
-Knowledge of the strengths and weaknesses of different tracking algorithms is vital when using them for physics analyses, to this end it is useful to develop a metric by which they can be compared. In order to do this a series of conditions have to be applied to the reconstructed tracks from a large set of simulated particles which are reconstructed using different tracking algorithms. It is interesting to observe what the effect of event complexity has on the reconstruction algorithms and so efficiencies will be calculated for both the Anti-Muon and CRY samples used in Section~\ref{sec:SimInteractionTimes}. \\
+Knowledge of the strengths and weaknesses of different tracking algorithms is vital when using them for physics analyses. To this end it is useful to develop a metric by which they can be compared. In order to do this a series of conditions have to be applied to the reconstructed tracks from a large set of simulated particles which are reconstructed using different tracking algorithms. It is interesting to observe what the effect of event complexity has on the reconstruction algorithms and so efficiencies will be calculated for both of the CRY samples used in Section~\ref{sec:SimInteractionTimes}. The sample referred to as the positive muon sample contains single positive muons generated at $T$ = 0, with a constant $y$ position above the scintillation panels, and flat distributions in $x$ and $z$. The sample reffered to as the CRY sample, contains multiple particles of multiple particle types, generated at times spanning multiple drift windows, and at an altitude above sea level of 0 m. \\
 
 The criteria upon which to determine whether a particle is well reconstructed has to be carefully chosen as every definition will have limitations. For example, consider a particle that travels 100 cm in the active volume of the detector but is reconstructed as 2 separate tracks (tracks 1 and 2), with lengths 77 cm and 23 cm respectively. Firstly, should these tracks be merged, or left separate? If the reconstruction algorithms have found them to be separate tracks then it is likely that it would be difficult to ascertain that they are from the same particle in real data, and so in considerations here they are not merged. One metric of efficiency would be to consider a track well reconstructed if it has a length between 75$\%$ and 125$\%$ of the Monte Carlo truth length that the particle traversed in the detector, in which case track 1 would be considered well reconstructed. Another metric however would be to consider a track well reconstructed if the Monte Carlo truth distance the particle traversed in the detector is between 75$\%$ and 125$\%$ of the reconstructed length, in which case neither track would be considered well matched. Both metrics have used exactly the same tracks and a seemingly identical method of evaluating whether a track is well reconstructed or not, but have got the opposite results. As such it is wrong to say which consideration gives the correct result, but instead the result of each should be considered equally. It should also be noted that these are just two of a wide range of definitions one could use to quantify a well reconstructed track. In discussions here the former definition of efficiency will be used, such that a track is considered well reconstructed if:
 \begin{itemize}
@@ -107,141 +106,151 @@ The criteria upon which to determine whether a particle is well reconstructed ha
 
 When calculating efficiencies it is important to consider much more than just the ratio of reconstructed to true track length. To this end efficiencies with regards to many aspects of the tracks are calculated:
 \begin{itemize}
-\item Track length
-\item Energy deposited in the active volume of the detector
-\item The angle $\theta$ of the track
-\item The angle $\phi$ of the track
+\item Track length,
+\item Energy deposited in the active volume of the detector,
+\item The angle $\theta$ of the track, defined as the angle that a vector makes from the $x$ axis in the $xy$ plane,
+\item The angle $\phi$ of the track, defined as the angle between the $z$ axis and the vector.
 \end{itemize}
-In all efficiency plots the Monte Carlo truth quantity, not the reconstructed quantity is shown so as to reflect how the variations of these quantities affect the reconstruction efficiencies. It is also useful to observe the effect on reconstruction of failed disambiguation and incorrect interaction time determination. To show this, two forms of reconstruction are ran on the particles. One reconstruction path uses no Monte Carlo information and so the interaction time is determined using the photon detectors as described in Section~\ref{sec:SimInteractionTimes}. The second reconstruction path uses cheated disambiguation and interaction time determination. Cheated disambiguation means using the Monte Carlo truth information of the energy deposition to correctly assign which wire segment the energy was deposited on. \\
+In all efficiency plots the Monte Carlo truth quantity, not the reconstructed quantity is shown so as to reflect how the variations of these quantities affect the reconstruction efficiencies. It is also useful to observe the effect on reconstruction of failed disambiguation and incorrect interaction time determination. To show this, two forms of reconstruction are ran on the particles. One reconstruction path uses no Monte Carlo information and so the interaction time is determined using the simulated photon detectors as described in Section~\ref{sec:SimInteractionTimes}. The second reconstruction path uses cheated disambiguation and interaction time determination. Cheated disambiguation means using the Monte Carlo truth information of the energy deposition to correctly assign which wire segment the energy was deposited on. \\
 
-The calculation of reconstruction efficiencies also serves as an effective method upon which reconstruction algorithms can be further developed as it identifies aspects which do not work as expected. For example when the efficiencies for the CRY sample were initially calculated they were significantly lower than for the Anti-Muon sample, but only when disambiguation was not cheated. It transpired that this was because the disambiguation was only selecting the largest collection of hits on each plane for each TPC. This is not a problem when only 1 particle is simulated and will reduce the number of noise hits but in a CRY sample of 16 ms there will almost certainly be multiple particles in each TPC. Removing the hits from all but one of these multiple particles will cause them to have no reconstructed track, and thus cause the efficiency to drop significantly. Upon making the disambiguation algorithm no longer have this restriction the reconstruction efficiencies of the Anti-Muon and CRY samples were observed to become much more similar. \\
+The calculation of reconstruction efficiencies also serves as an effective method upon which reconstruction algorithms can be further developed as it identifies aspects which do not work as expected. For example when the efficiencies for the CRY sample were initially calculated they were significantly lower than for the positive muon sample, but only when disambiguation was not cheated. It transpired that this was because the disambiguation was only selecting the largest collection of hits on each plane for each TPC. This is not a problem when only 1 particle is simulated and will reduce the number of noise hits but in a CRY sample of 16 ms there will almost certainly be multiple particles in each TPC. Removing the hits from all but one of these multiple particles will cause them to have no reconstructed track, and thus cause the efficiency to drop significantly. Upon making the disambiguation algorithm no longer have this restriction the reconstruction efficiencies of the positive muon and CRY samples were observed to become much more similar. \\
 
-The reconstruction efficiencies given the current state of the most commonly used reconstruction algorithms are shown in Figures~\ref{fig:SimEffic_Length},~\ref{fig:SimEffic_EnDepos},~\ref{fig:SimEffic_Theta},~\ref{fig:SimEffic_Phi} and~\ref{fig:SimEffic_ThetaPhi}. Efficiencies are shown for both the Anti-Muon and CRY samples, where it can be seen that the efficiency tends to be lower for the CRY sample. It is thought that this is due to the more complex event structure, as particles will have large interaction times and particles which have similar interaction times may cross causing reconstruction errors. The reconstruction efficiencies for the CRY sample are more realistic as events will rarely be isolated in the detector due to the large flux of cosmic particles on the Earth's surface. \\
+The reconstruction efficiencies given the current state of the most commonly used reconstruction algorithms are shown in Figures~\ref{fig:SimEffic_Length},~\ref{fig:SimEffic_EnDepos},~\ref{fig:SimEffic_Theta},~\ref{fig:SimEffic_Phi} and~\ref{fig:SimEffic_ThetaPhi}. Efficiencies are shown for both the positive muon and CRY samples, where it can be seen that the efficiency tends to be lower for the CRY sample. It is thought that this is due to the more complex event structure in the CRY sample, as multiple primary particles will be present in the detector at any given time. The relatively slow drift velocity of LAr may mean that these tracks cross in wire-tick space. Tracks crossing in wire-tick space could cause reconstruction errors as the overlaps may be mistaken for interactions, which would cause the tracks to be split, resulting in the interaction time calculated from the photon detectors to be incorrect. This error, in the calculation of interaction time using the photon detectors, was seen in Figure~\ref{fig:PD_MCPDDiff}. The reconstruction efficiencies for the CRY sample are more realistic as events will rarely be isolated in the detector due to the large flux of cosmic particles on the Earth's surface. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Length}
-    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \caption{Reconstruction efficiencies for an positive muon sample.}
     \label{fig:SimEffic_Length_AMu}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_Cosmics_500V_All_Length}
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_Length_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both Pandora (square blocks) and PMTrack (triangle blocks).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
           \label{fig:SimEffic_Length}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_EnDepos}
-    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \caption{Reconstruction efficiencies for an positive muon sample.}
     \label{fig:SimEffic_EnDepos_AMu}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_Cosmics_500V_All_EnDepos}
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_EnDepos_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both Pandora (square blocks) and PMTrack (triangle blocks).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
           \label{fig:SimEffic_EnDepos}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Theta}
-    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \caption{Reconstruction efficiencies for an positive muon sample.}
     \label{fig:SimEffic_Theta_AMu}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_Cosmics_500V_All_Theta}
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_Theta_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both Pandora (square blocks) and PMTrack (triangle blocks).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
           \label{fig:SimEffic_Theta}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Phi}
-    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \caption{Reconstruction efficiencies for an positive muon sample.}
     \label{fig:SimEffic_Phi_AMu}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_Cosmics_500V_All_Phi}
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_Phi_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both Pandora (square blocks) and PMTrack (triangle blocks).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
           \label{fig:SimEffic_Phi}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.8\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_PhiTheta}
-    \caption{Reconstruction efficiencies for an Anti-Muon sample.}
+    \caption{Reconstruction efficiencies for an positive muon sample.}
     \label{fig:SimEffic_ThetaPhi_AMu}
   \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.8\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_Cosmics_500V_All_PhiTheta}
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_ThetaPhi_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi. The efficiencies are shown for non-cheated reconstruction (plots on the left) and cheated reconstruction (plots on the right) for both Pandora (plots on the top) and PMTrack (plots on the bottom).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi. The track angle in theta is shown on the $x$ axis, and the track angle in phi is shown on the $y$ axis. The efficiencies are shown for non-cheated reconstruction (plots on the left) and cheated reconstruction (plots on the right) for both Pandora (plots on the top) and PMTrack (plots on the bottom).}
           \label{fig:SimEffic_ThetaPhi}
 \end{figure}
 
-A striking feature of Figure~\ref{fig:SimEffic_Length} is the rapid decrease in reconstructed efficiency for the CRY sample for track lengths above 250 cm when using Pandora. The cause of this is that tracks are reconstructed separately in the long and short drift volumes before being merged when they are found to be co-linear in the $yz$ plane. This is not a problem in the Anti-Muon sample as the $x$ position of the hits calculated using Equation~\ref{eq:HitTime} will be correct. However, when the same is done for hits in the CRY sample using particles with large interaction times the $x$ positions will have offsets proportional to the interaction time unless the hit time is corrected by Equation~\ref{eq:HitTime_Int}. The result of this is that merged tracks can have discontinuities in their $x$ coordinates of more than 20 m. As the interaction time of the track is calculated using the output of the tracking algorithms it is not possible to directly correct for the interaction time at present. It is however possible to subtract this jump in $x$ position from the track length quantity which is calculated when the stitched track is stored in the event, this will give the correct track length though the user will still have to correct individual hit positions in later analyses using the calculated interaction time. This is what is done by PMTrack, hence it not exhibiting this rapid decrease in reconstruction efficiency for long tracks. \\
+A striking feature of Figure~\ref{fig:SimEffic_Length} is the rapid decrease in reconstructed efficiency for the CRY sample for track lengths above 250 cm when using Pandora. The cause of this is that tracks are reconstructed separately in the long and short drift volumes before being merged when they are found to be co-linear in the $yz$ plane. This is not a problem in the positive muon sample as the $x$ position of the hits calculated using Equation~\ref{eq:HitTime} will be correct. Where, $x_{Hit}$ is the calculated $x$ position of the hit, $T_{Hit}$ is the measured time of the hit, and $v_{Drift}$ is the electron drift velocity. An electron, in an electric field of 500 V cm$^{-1}$, in LAr, drifts at a speed of 0.160563 cm $\mu$s$^{-1}$.
+\begin{equation}
+   \label{eq:HitTime}
+   x_{Hit} = T_{Hit} \times v_{Drift}
+\end{equation}
+However, when the same is done for hits in the CRY sample using particles with large interaction times, the $x$ positions will have offsets proportional to the interaction time of the particle, unless the hit time is corrected
+by Equation~\ref{eq:HitTime_Int}. Where $T_{Hit}$ is the corrected hit time, $T_{Measured}$ is the measured time of the hit, and $T_{Interaction}$ is the calculated interaction of the particle which caused the hit.
+\begin{equation}
+   \label{eq:HitTime_Int}
+   T_{Hit} = T_{Measured} - T_{Interaction}
+\end{equation}
+This is due to particles being generated at large interaction times, as opposed to all at $T$ = 0, as in the positive muons sample. For example, if a particle is generated at a time of $T$ = 12.5 ms, then the offset in $x$ position would be more than 20 m, using Equation~\ref{eq:HitTime}. Obviously the hits could not have occured at those positions, as the drift distances are roughly 30 cm in the 'short' drift volume, and 250 cm in the 'long' drift volume. However, if tracks which are reconstructed separately in the 'short' and 'long' drift volumes, are merged before this $x$ offset is corrected for, then the combined track length will have a discontinuity in $x$ of more than 40 m! As the interaction time of the track is calculated using the output of the tracking algorithms it is not possible to prevent this by using the interaction time at present. It is however, possible to subtract this jump in $x$ position from the track length quantity which is calculated when the stitched track is stored in the event. This will give the correct track length, though the user will still have to correct individual hit positions in later analyses, using the calculated interaction time. This is what is done by PMTrack, hence it not exhibiting this rapid decrease in reconstruction efficiency for long tracks. The interaction time can be found from, among other things, the Monte Carlo truth generation time, or the photon detectors.\\
 
-\begin{subequations} \begin{align}
-  x_{Hit} &= T_{Hit} \times v_{Drift} \label{eq:HitTime} \\
-  T_{Hit} &= T_{Measured} - T_{Interaction} \label{eq:HitTime_Int}
-\end{align} \end{subequations}
+It is clear from Figure~\ref{fig:SimEffic_Length} that particles with track lengths less than 30 cm are poorly reconstructed. The very low efficiency for particles with track lengths less than 10 cm can be partially attributed to, Monte Carlo truth particles with track lengths of less than 1 cm, in the active volume of the detector. These particles, which represent ~30\% of the particles with active volume track lengths of less than 10 cm, are too short to be reconstructed using the current reconstruction process. These particles will need to be reconstructed when looking for supernovae bursts, though special algorithms will be written to do this, as the traditional hit finding and clustering algorithms may discard them due to the isolated nature of the hits. Another issue is that the low energies of these particles may mean that the signals that they produce are below threshold and so will not even be reconstructed, or if hits are reconstructed, they may be too close to a more energetic track, and get absorbed into them. The reconstruction of tracks is affected by the number of wires which they cross, though this should not matter for particles with lengths of more than 5 cm in the active volume, as they will have crossed roughly 10 wires in each plane, which should produce enough unique hits for a cluster to be reliably constructed. This can be seen to be the case for PMTrack when considering the positive muon sample, as the efficiency for particle track lengths between 10 and 20 cm is roughly the same as that for track lengths between 20 and 30 cm, however when considering the CRY sample there is still a significant decrease in efficiency. This is attributed to secondary particles which are produced in hadronic interactions with the concrete surrounding the detector. Many of these particles will travel only very short distances in the active volume, though those that travel slightly larger distances are likely to cause energy depositions that will be confined to the detector edges. The tracking algorithms may struggle to accurately reconstruct these tracks, as signifcant portions of the track will be close to the detector edge, where the field is poorly modelled and hits may be more difficult to disambiguate. \\
 
-It is clear from Figure~\ref{fig:SimEffic_Length} that tracks of lengths less than 30 cm are poorly reconstructed. The very low efficiency for tracks with lengths less than 10 cm can be partially attributed to particles with lengths of less than 1 cm as these particles, which represent ~30\% of the particles with lengths below 10 cm, are too short to be reconstructed using the current reconstruction process. These particles will need to be reconstructed when looking for supernovae bursts though special algorithms will be written to do this, as the traditional hit finding and clustering algorithms may discard them due to the isolated nature of the hits. Another issue is that the low energies of these particles may mean that the signals that they produce are below threshold and so will not even be reconstructed, or if hits are reconstructed they may be too close to a more energetic track and get absorbed into them. The reconstruction of tracks is affected by the number of wires which they cross, though this should not matter for particles with lengths of more than 5 cm as they will have crossed roughly 10 wires in each plane which should produce enough unique hits for a cluster to be reliably constructed. This can be seen to be the case for PMTrack when considering the Anti-Muon sample, as the efficiency for track lengths between 10 and 20 cm is roughly the same as that for track lengths between 20 and 30 cm, however when considering the CRY sample there is still a significant decrease in efficiency. This is attributed to the more complex event structure in the CRY sample, where secondary particles are produced which are mis-reconstructed even though they travel reasonable distances. This is can be seen to be the case as when only primary muons in the CRY sample are considered the reconstruction efficiency is seen to be the same as that for the Anti-Muon sample. \\
+The trend of increasing efficiency for longer track lengths from Figure~\ref{fig:SimEffic_Length} can also be seen in Figure~\ref{fig:SimEffic_EnDepos} as the amount of deposited energy increases. This is because particles which deposit more energy will tend to have travelled further in the detector. The amount of energy that particles deposit is limited by the size of the detector, as particles with an energy of more than 1 GeV are energetic enough to be MIPS. This results in few particles depositing more than 1 GeV in the detector. The result of this is that the uncertainty in the reconstruction efficiency increases above 1 GeV. The larger range in the amount of energy deposited seen in Figure~\ref{fig:SimEffic_EnDepos_CRY}, is due to the larger number of muons in the CRY that create large electromagnetic showers upon entering the LAr. \\
 
-The trend of increasing efficiency for longer track lengths from Figure~\ref{fig:SimEffic_Length} can also be seen in Figure~\ref{fig:SimEffic_EnDepos} as the energy deposited increases. This is because particles which deposit more energy will tend to have travelled further in the detector. The amount of energy that particles deposit is limited by the size of the detector though as particles with an energy of more than 1 GeV are energetic enough to through-going MIPS. This results in few particles depositing more than 1 GeV in the detector causing the uncertainty in the reconstruction efficiency to increase above this energy. The increased statistics at high despoited energies in Figure~\ref{fig:SimEffic_EnDepos_CRY} is due to the larger number of muons generated in the CRY which create large electromagnetic showers showers when they enter the LAr. \\
+It is also interesting to note the pronounced decreases in reconstruction efficiencies for particular angles, shown in Figure~\ref{fig:SimEffic_Theta} and Figure~\ref{fig:SimEffic_Phi}. The decrease in efficiency at $\phi = \frac{\pi}{2}$ can be attributed to the drop in efficiency for particles with track lengths between 190 cm and 200 cm. This is because the vertical height of the detector is approximately 195 cm, and near vertical tracks will hit few collection wires, meaning that determining the triple points needed by the disambiguation is very difficult. This is verified by the large increase in efficiency achieved by cheating the disambiguation, as seen in Figure~\ref{fig:SimEffic_Theta_AMu}, where the reduction in reconstruction efficiency is seen to become much less pronounced. Similarly the decrease in efficiency at $\theta = \frac{\pi}{2}$ can be attributed to particles which are perpendicular to the collection wires resulting in few collection wires being hit. \\  
 
-It is also interesting to note the pronounced decreases in reconstruction efficiencies for particular angles shown in Figure~\ref{fig:SimEffic_Theta} and Figure~\ref{fig:SimEffic_Phi}. The decrease in efficiency at $\phi = \frac{\pi}{2}$ can be attributed to the drop in efficiency for tracks of ~200 cm, as this corresponds to the vertical height of the detector meaning that few collection wires are hit and so determining the triple points needed by the disambiguation are difficult to find. This is verified by the large increase in efficiency achieved by cheating the disambiguation. Similarly the decrease in efficiency at $\theta = \frac{\pi}{2}$ can be attributed to particles which are perpendicular to the collection wires resulting in few collection wires being hit. \\  
-
-The information from Figures~\ref{fig:SimEffic_Theta} and~\ref{fig:SimEffic_Phi} is combined in Figure~\ref{fig:SimEffic_ThetaPhi} where the sharp drops in efficiency for the CRY sample are particularly visible. The effect of cheated disambiguation is clear in Figure~\ref{fig:SimEffic_ThetaPhi_CRY} where the dip in efficiency as a function of $\theta$ at fixed $\phi=\frac{\pi}{2}$ is completely removed. The same is not true for the dip in efficiency as a function $\phi$ at fixed $\theta = \frac{\pi}{2}$, though the reduction in efficiency was not uniform or as severe across all values of $\theta$ as it remains mainly confined to values of $\theta$ close to 0 or $\pi$, particularly when using Pandora . The observation that a significant improvement in the quality of reconstruction can be made in improving the disambiguation is a driving force in the wire pitches being 36$^{\circ}$ for the DUNE FD as opposed 45$\pm$0.7$^{\circ}$ in the 35 ton, because as discussed in Section~\ref{sec:LArSoft} the shallower wire pitch makes disambiguation easier. Though disambiguation will be easier in the different geometry, further efforts to improve disambiguation are still required, as are continued efforts to reconstruct the shortest tracks. \\
+The information from Figures~\ref{fig:SimEffic_Theta} and~\ref{fig:SimEffic_Phi} is combined in Figure~\ref{fig:SimEffic_ThetaPhi}, where the sharp drop in efficiency at $\phi = \frac{\pi}{2}$ for the 'non-cheated' CRY sample, is particularly visible. The effect of cheated disambiguation is clear in Figure~\ref{fig:SimEffic_ThetaPhi_CRY} where the dip in efficiency as a function of $\theta$ at fixed $\phi=\frac{\pi}{2}$ is completely removed. The same is not true however, for the dip in efficiency as a function $\phi$ at fixed $\theta = \frac{\pi}{2}$, though the reduction in efficiency was not as severe as that seen for fixed values of $\phi = \frac{\pi}{2}$. The effect of 'cheated disambiguation' can still be seen though, as the reconstruction efficiency in Figure~\ref{fig:SimEffic_ThetaPhi_CRY} can be seen to improve for values of $\phi$. There are still however, noticeable decreases in the reconstruction efficiency for values of $\phi$ close to 0 or $\pi$, when using Pandora. The improvement in the performance of the reconstruction algorithms that comes from 'cheating' the reconstruction is part of the motivation for the wire pitches in the DUNE FD being 36$^{\circ}$ as opposed to the 45$\pm$0.7$^{\circ}$ used in the 35 ton. This is because, as discussed in Section~\ref{sec:LArSoft}, the shallower wire pitch makes disambiguation easier. Though disambiguation will be easier in the different geometry, further efforts to improve disambiguation are still required, as are continued efforts to reconstruct the shortest tracks. \\
 
 %********************************** % Fourth Section  *************************************
 \section{Performing particle identification}  \label{sec:PID} %Section - X.4
-Being able to perform reliable particle identification (PID) is a key requirement for the DUNE experiment, and so efforts have been made to establish a metric by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residual range of the track, defined as being the distance between a point on the track and the stopping point of the track. This relationship is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation~\citep{Bethe}~\citep{Bloch} which is shown in Figure~\ref{fig:BetheBloch}. The sharp increase in energy loss per unit length can be seen to occur at different momenta for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly. One example of a large change in the peak value of $\frac{dE}{dx}$ can be seen by comparing muons and protons, whist muons and pions are very similar. \\
+Being able to perform reliable particle identification (PID) is a key requirement for the DUNE experiment, and so efforts have been made to establish a procedure by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residual range of the track, defined as being the distance between a point on the track and the stopping point of the track. This relationship is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation~\citep{Bethe}~\citep{Bloch} which is shown in Figure~\ref{fig:BetheBloch} and presented in Equation~\ref{eq:Bethe-Bloch}.
+\begin{equation}
+  \label{eq:Bethe-Bloch}
+  -\frac{dE}{dx} = K z^2 \frac{Z}{A} \varrho \frac{1}{\beta^2} \left[ \frac{1}{2} \ln{\frac{2 m_e c^2 \beta^2 \gamma^2 T_{max}}{I^2}} - \beta^2 - \frac{\delta(\beta\gamma)}{2}\right]
+\end{equation}
+The sharp increase in energy loss per unit length can be seen to occur at different momenta for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly. One example of a large change in the peak value of $\frac{dE}{dx}$ can be seen by comparing muons and protons, whist muons and pions are very similar. \\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{BetheBlock}
+  \includegraphics[width=0.5\textwidth]{Bethe-Bloch}
   \caption[The medium and particle type dependence of the Bethe-Bloch equation]
-          {The Bethe-Bloch equation describes energy loss per unit length as a function of energy in different mediums. The energy losses expected for different particle types is shown in different mediums. Liquid Argon with a density of 1.4 g cm$^{-3}$ has a density slightly less than that of Carbon at 1.8 g cm$^{-3}$.}
+          {The Bethe-Bloch equation describes energy loss per unit length as a function of energy in different mediums. The energy losses expected for different particle types is shown in different mediums. Liquid Argon with a density of 1.4 g cm$^{-3}$ has a density slightly less than that of Carbon at 1.8 g cm$^{-3}$~\citep{PDGReview}.}
   \label{fig:BetheBloch}
 \end{figure}
 
@@ -249,12 +258,12 @@ The particle mass dependence can be seen by plotting the $\frac{dE}{dx}$ against
 
 \begin{equation}
   \label{eq:PIDA}
-  \frac{dE}{dx}_{calo} = A R^b
+  \frac{dE}{dx} = A R^b
 \end{equation}
 
 \begin{equation}
   \label{eq:PIDA_A}
-  A_i = (\frac{dE}{dx}_{calo})_i \times R^{0.42}_i
+  A_i = (\frac{dE}{dx})_i \times R^{0.42}_i
 \end{equation}
 
 \begin{table}
@@ -283,14 +292,14 @@ The PIDA method was tested in~\citep{PIDA_Paper}, where the PIDA values were cal
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{StoppingPower}
     \caption{Stopping power for different particle masses.}
     \label{fig:PIDA_loglog}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{0.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{TruthPIDA}
     \caption{Distribution of PIDA values for different particle masses.}
@@ -305,40 +314,40 @@ From Figure~\ref{fig:PIDAPlots} it can be seen that the most distinct PIDA distr
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Length}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track length.}
         \label{fig:Prot_Effic_Len}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_EnDepos}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth deposited energy.}
         \label{fig:Prot_Effic_EnDepos}
   \end{subfigure}
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Theta}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta.}
         \label{fig:Prot_Effic_Theta}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Phi}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in phi.}
         \label{fig:Prot_Effic_Phi}
   \end{subfigure}
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.8\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_PhiTheta}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta and phi.}
         \label{fig:Prot_Effic_PhiTheta}
-  \end{subfigure}
+  \end{subfigure}%
   \caption[The reconstruction efficiencies for protons in a sample generated using CRY.]
-          {The reconstruction efficiencies for protons in a sample generated using CRY. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both Pandora (square blocks) and PMTrack (triangle blocks).}
+          {The reconstruction efficiencies for protons in a sample generated using CRY. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
   \label{fig:Prot_Effic}
 \end{figure}
 
@@ -369,38 +378,38 @@ Initial $\theta_{YZ}$ $(^{\circ})$ & -45 $\pm$ 45  & -45 $\pm$ 45  \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_Length}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track length.}
         \label{fig:Isol_Effic_Len}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_EnDepos}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth deposited energy.}
         \label{fig:Isol_Effic_EnDepos}
   \end{subfigure}
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_Theta}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta.}
         \label{fig:Isol_Effic_Theta}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_Phi}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in phi.}
         \label{fig:Isol_Effic_Phi}
   \end{subfigure}
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.8\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_PhiTheta}
         \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta and phi.}
         \label{fig:Isol_Effic_PhiTheta}
-  \end{subfigure}
+  \end{subfigure}%
   \caption[The reconstruction efficiencies for single muons and protons in the 35 ton.]
           {The reconstruction efficiencies for single muons and protons in the 35 ton. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both muons (square blocks) and protons (triangle blocks).}
   \label{fig:Isol_Effic}
@@ -410,14 +419,14 @@ As the increase in $\frac{dE}{dx}$ is only visible when the particle stops in th
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{IsolatedProtons_500V_Dec16_Proton_PIDA}
         \caption{The PIDA values calculated for the single proton sample.}
         \label{fig:Isol_PIDA_Proton}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{IsolatedMuons_500V_Dec16_Muon_PIDA}
         \caption{The PIDA values calculated for the single muon sample.}
@@ -434,14 +443,14 @@ The relationship between the $\frac{dE}{dx}$ and residual range of a track is sh
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{IsolatedProtons_500V_Dec16_Proton_dEdx}
         \caption{The $\frac{dE}{dx}$ versus residual range plot for the single proton sample.}
         \label{fig:Isol_dEdx_Proton}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{IsolatedMuons_500V_Dec16_Muon_dEdx}
         \caption{The $\frac{dE}{dx}$ versus residual range plot for the single muon sample.}
@@ -550,14 +559,14 @@ The PIDA values calculated for protons and muons in the CRY sample are shown in 
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{.45\textwidth}
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{EnrinchedSample_500V_v06_18_00_Proton_PIDA}
         \caption{The PIDA values calculated for protons.}
         \label{fig:CRY_PIDA_Proton}
-  \end{subfigure}
-  \hspace{0.08\textwidth}
-  \begin{subfigure}{.45\textwidth}
+  \end{subfigure}%
+  \hspace{0.03\textwidth}%
+  \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{EnrinchedSample_500V_v06_18_00_Muon_PIDA}
         \caption{The PIDA values calculated for muons.}

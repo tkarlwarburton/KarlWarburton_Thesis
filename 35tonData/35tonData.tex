@@ -47,7 +47,7 @@ The format that the data reformatter followed was that upon unpacking each of th
 At all points in this process it is important to integrate flexibility so that the user can choose the length of events, which sub-systems are in the events and what the conditions are for making events. It was also important for users to be able to run the service on already formatted events as the unpacking services were the major overhead in running the interface. It is also conceivable that users would want to reformat Monte Carlo events so as to centre them around their chosen conditions and so the use of the unpacking was determined by the interface depending on the format of the input file.
 
 %********************************** % Third Section  *************************************
-\section{Observations on data quality and noise mitigation} \label{All the noise} %Section - X.3
+\section{Observations on data quality and noise mitigation} \label{sec:AllTheNoise} %Section - X.3
 Reformatting the online data to the offline format was an important step in maintaining data quality as subsequently there was no access to the raw data due to the framework of the 35 ton software. Some of the important checks which were performed are outlined in Figure~\ref{fig:DataDrops}. If any of these issues were present in a given physics event then it is discarded as the integrity of the data cannot be guaranteed. It was decided that these events would be discarded as non-synchronous events would lead to hits in the detector being at incorrect times and padding empty events with pedestals could mean that tracks seem to disappear and later reappear as they travel through the detector. \\
 
 Another example of inconsistent events is when the sub-systems are not synchronised with each other. This is normally caused by one of the sub-systems missing a clock increment from the master timing unit due to the data trigger being issued close to an increment from the master unit. This misalignment causes an incorrect time sample being read out and so the data from each sub-system within a millislice is not consistent meaning that it will fail the timestamp check and so won't be added to the event record. To avoid incomplete events these physics events are also discarded when observed. \\
@@ -470,7 +470,7 @@ Figure~\ref{fig:DiffDataAvDiff_RMS} shows that using the effects of diffusion, a
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Data_AvTimeDiff_RMS_Int}
-    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
     \label{fig:DiffDataAvDiff_RMS_Int_T}
   \end{subfigure}
 
@@ -558,7 +558,7 @@ Upon calculating the fit metrics in the low-noise Monte Carlo dataset it is then
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{PredictedTimeFromRMS_IntFits}
-    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
     \label{fig:DiffOverlayAvDiff_RMS_Int_T}
   \end{subfigure}
 
@@ -582,6 +582,58 @@ The calculation of interaction times is clearly much better in the low-noise Mon
 The difficulty of the reconstruction and analysis of the 35 ton data is due to the elevated noise level. We are now going to verify this statement with a study whereby the noise level in a Monte Carlo sample is changed from the low-noise state used in the previous section, to a level more similar to that which is seen in the 35 ton dataset. If the claim that the noise level made reconstruction difficult is correct, then the the accuracy with which the interaction time can be determined, should be seen to anti-correlate with the noise level of the simualted detector. This study and the ones which follow have all been performed using the same muons, so as to ensure that the only difference between the different samples are the detector conditions, and only one detector condition is varied at a time. As such, there is one sample that is consistent to all samples, which is where the RMS of the noise is 2.5 ADCs, the electron lifetime is 3 ms, the electric field is 500 V cm$^{-1}$ and the coefficient of longitudinal diffusion is 6.2$\times$10$^9$. When presenting the studies with changing detector conditions, the analagous figures presented in the previous section are repeated so as to show how the critical aspects of the methodology are affected. \\
 
 %%%%%%%% The noise simulation....
+Figures~\ref{fig:DiffLifeStudy_AvDiff_RMS} and~\ref{fig:DiffLifeStudy_AvDiff_RMS_Int} show the accuracy to which the interaction time and central $x$ position of a track can be determined using the effect that diffusion has on the hit $RMS$ and hit $RMS/Charge$ as the changing electronics noise level respectively. Figures~\ref{fig:DiffLifeStudy_AvDiff_RMS} and~\ref{fig:DiffLifeStudy_AvDiff_RMS_Int} both show that the integrity of the fits decrease with increasing noise levels, but they show this in very different ways which is very interesting. As discussed in Section~\ref{sec:AllTheNoise}, the 35 ton data had significant amounts of coherent noise which was not expected and so had been previously simulated. As this level of coherent noise is not expected in future detectors, coherent noise has not been simulated in these increased noise level samples. Instead, the electronics noise, or 'thermal noise,' has been varied. The lowest noise level was the design noise level for the 35 ton and is what is used in the 'baseline' sample in the plots to follow. This level of thermal noise is very minimal, and so only noise levels which are more than this have been simualted as the $signal/noise$ ratio which one gets with such a low ADC RMS is large, and so a decrease in this noise level is unlikely to make a significant difference in the accuracy of the method. However, as can be seen in the 35 ton data and the following plots, increasing the noise level has serious consequences. \\
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_NoiseLevel}
+    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \label{fig:DiffNoiseStudy_AvDiffRMS_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_NoiseLevel}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS$ metric.}
+    \label{fig:DiffNoiseStudy_AvDiffRMS_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electronic noise changes]
+          {The accuracy of the hit $RMS$ method, for different electronic noise levels.}
+  \label{fig:DiffNoiseStudy_AvDiff_RMS}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_NoiseLevel}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffNoiseStudy_AvDiff_RMS_Int_T}
+  \end{subfigure}
+  \begin{subfigure}{0.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Canvas_AvDiff_X_RMS_Q_NoiseLevel}
+    \caption{The average difference in the central $x$ position of a track using the hit $RMS/Charge$ metric.}
+    \label{fig:DiffNoiseStudy_AvDiff_RMS_Int_X}
+  \end{subfigure}
+  \caption[Comparing the accuracy of the hit $RMS$ method, as the electronic noise level changes]
+          {The accuracy of the hit $RMS/Charge$ method, for different electronic noise levels.}
+  \label{fig:DiffNoiseStudy_AvDiff_RMS_Int}
+\end{figure}
+
+A key factor that has to be considered here when comparing the following plots to those that are from data, is that, no noise mitigation algorithms have been applied to the increased noise samples. Instead, the threshold that the hit finder uses has been increased to the level that was neccessary for a reasonable number of hits to be reconstructed. Here, a reasonable number of hits simply means, not reconstructing such a large number of noise pulses that they outwiegh the number of true signals from tracks. The hit threshold which was required was determined by looking at the deconvoluted signal and choosing a threshold which was above the majority of the noise signals. The hit threshold used for each level are summarised below:
+\begin{itemize}
+\item Noise level of 2.5 ADC RMS - hit threshold of 6 ADC
+\item Noise level of 5 ADC RMS - hit threshold of 10 ADC
+\item Noise level of 7.5 ADC RMS - hit threshold of 15 ADC
+\item Noise level of 10 ADC RMS - hit threshold of 20 ADC
+\end{itemize}
+This means that the main effect of increasing the noise level is to remove the low charge hits, as the will fall below threshold as it increases due to the noise level. \\
+
+Firstly, considering Figure~\ref{fig:DiffLifeStudy_AvDiff_RMS}, it can be seen that the accuracy to which interaction times can be determined rapidly decreases as the noise level increases. In the case of the highest noise level considered here, the fits used to make the prediction metrics do not converge for counter differences of 1, 2, 3 and 4 as the MPV of hit $RMS$ is not seen to increase for increasing drift distances. For evidence of this, see the Figures in Appendix~\ref{sec:DiffMCPlots}. Though this is the extreme case, it can be seen that the validity of the hit $RMS$ for increasing drift distances becomes less predictable as the noise is increased. The result of this is a less accurate prediction metric, which leads to the large offsets and widths of the distributions that are shown in Figure~\ref{fig:DiffLifeStudy_AvDiff_RMS}.\\
+
+The most striking feature of Figure~\ref{fig:DiffLifeStudy_AvDiff_RMS_Int} is the decrease in statistics seen for the increasing noise levels. This shows the effect that increasing the noise level and hence hit threshold has as fewer tracks in total are reconstructed, and those that do are less likely to meet the criteria about the number of collection hits required to make predictions. It is however interesting to note that the centre of the distributions moves closer to the true interaction time as the noise increases. Supposing that two groups of hits from the same point have the same hit $RMS$, but one group deposits significantly more charge than the other, then removing the hits with the lower charge will cause the number of hits in the hit $RMS$ plot to decrease, but the shape of the distribution will be unchaged. However, removing the hits with lower charge will siginificantly change the $RMS/Charge$ distribution, as the tail which they cause will no longer be there. The result of this is that more of the hits used to make predictions are within the peak of the distribution, and so the prediction should become more accurate. The reduction in hit and track reconstruction which this entails is not justified when performing whole-scale reconstruction, however, only using hits with a minimum charge could prove beneficial when making predictions. \\
 
 %%%%%%%% The Electron lifetime study
 
@@ -611,7 +663,7 @@ Figures~\ref{fig:DiffLifeStudy_AvDiff_RMS} and~\ref{fig:DiffLifeStudy_AvDiff_RMS
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_ElecLifetime}
-    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
     \label{fig:DiffLifeStudy_AvDiff_RMS_Int_T}
   \end{subfigure}
   \begin{subfigure}{0.6\textwidth}
@@ -653,7 +705,7 @@ Figures~\ref{fig:DiffElecStudy_AvDiff_RMS} and~\ref{fig:DiffElecStudy_AvDiff_RMS
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_ElecField}
-    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
     \label{fig:DiffElecStudy_AvDiff_RMS_Int_T}
   \end{subfigure}
   \begin{subfigure}{0.6\textwidth}
@@ -694,7 +746,7 @@ Figures~\ref{fig:DiffLDiff_AvDiff_RMS} and~\ref{fig:DiffLDiff_AvDiff_RMS_Int} sh
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Canvas_AvDiff_T_RMS_Q_Diffusion}
-    \caption{The average difference in interaction times using the hit $RMS$ metric.}
+    \caption{The average difference in interaction times using the hit $RMS/Charge$ metric.}
     \label{fig:DiffLDiff_AvDiff_RMS_Int_T}
   \end{subfigure}
   \begin{subfigure}{0.6\textwidth}
