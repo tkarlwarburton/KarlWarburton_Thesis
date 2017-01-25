@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {3.3}Physics opportunities of DUNE}{16}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Neutrino physics}{16}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Nucleon decay and supernovae neutrinos}{16}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Background to nucleon decay}{17}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Background to nucleon decay}{16}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Path to building DUNE - The 35 ton prototype}{17}{section.3.4}
 \contentsline {section}{\numberline {3.5}The DUNE software}{17}{section.3.5}
 \contentsline {chapter}{\numberline {4}The 35 ton camera system}{25}{chapter.4}
@@ -30,23 +30,23 @@
 \contentsline {section}{\numberline {5.2}Calibrating calorimetric constants}{30}{section.5.2}
 \contentsline {section}{\numberline {5.3}Discerning reconstruction efficiencies}{31}{section.5.3}
 \contentsline {section}{\numberline {5.4}Performing particle identification}{39}{section.5.4}
-\contentsline {chapter}{\numberline {6}The 35 ton data sample}{53}{chapter.6}
-\contentsline {section}{\numberline {6.1}Organisation of the data structure}{53}{section.6.1}
-\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{57}{section.6.2}
-\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{58}{section.6.3}
-\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{63}{section.6.4}
-\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{69}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{73}{subsection.6.5.1}
+\contentsline {chapter}{\numberline {6}The 35 ton data sample}{52}{chapter.6}
+\contentsline {section}{\numberline {6.1}Organisation of the data structure}{52}{section.6.1}
+\contentsline {section}{\numberline {6.2}Reformatting the data to the offline structure}{56}{section.6.2}
+\contentsline {section}{\numberline {6.3}Observations on data quality and noise mitigation}{57}{section.6.3}
+\contentsline {section}{\numberline {6.4}Performance of reconstruction algorithms}{62}{section.6.4}
+\contentsline {section}{\numberline {6.5}Measuring interaction times using electron diffusion}{70}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Determining interaction times in 35 ton data}{72}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Determining interaction times in a low-noise detector using Monte Carlo, and differences with data}{80}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of changing detector properties using Monte Carlo samples}{85}{subsection.6.5.3}
-\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{93}{subsection.6.5.4}
-\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{96}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simulations of the LBNE surface detector}{96}{section.7.1}
-\contentsline {section}{\numberline {7.2}The use of MUSUN in LArSoft}{96}{section.7.2}
-\contentsline {section}{\numberline {7.3}Nucleon decay channels in DUNE}{99}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{101}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{102}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Future improvements to nucleon decay studies}{102}{subsection.7.3.3}
-\contentsline {chapter}{References}{104}{chapter*.76}
-\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{107}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{114}{Appendix.a.B}
+\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of changing detector properties using Monte Carlo samples}{86}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{94}{subsection.6.5.4}
+\contentsline {chapter}{\numberline {7}Simulations of the DUNE Far Detector}{97}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simulations of the LBNE surface detector}{97}{section.7.1}
+\contentsline {section}{\numberline {7.2}The use of MUSUN in LArSoft}{97}{section.7.2}
+\contentsline {section}{\numberline {7.3}Nucleon decay channels in DUNE}{100}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{102}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{106}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Future improvements to nucleon decay studies}{106}{subsection.7.3.3}
+\contentsline {chapter}{References}{107}{chapter*.80}
+\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{110}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{119}{Appendix.a.B}

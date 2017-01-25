@@ -1,4 +1,3 @@
-\newlabel{DiffusionAnalysis}
 \newlabel{Organisation of the data structure}
 \newlabel{Reformatting the data to the offline structure}
 \newlabel{eq:Bethe-Bloch}
@@ -18,6 +17,7 @@
 \newlabel{eq:PIDA}
 \newlabel{fig:10ktPos}
 \newlabel{fig:35tonCounterLoc}
+\newlabel{fig:35tonWireGeom}
 \newlabel{fig:35tonWireGeom}
 \newlabel{fig:AngleCanvas}
 \newlabel{fig:BetheBloch}
@@ -45,6 +45,7 @@
 \newlabel{fig:DiffDataHitFit}
 \newlabel{fig:DiffDataPredHit}
 \newlabel{fig:DiffData_AngFit}
+\newlabel{fig:DiffData_ChargeCut}
 \newlabel{fig:DiffElecStudy_AvDiffRMS_T}
 \newlabel{fig:DiffElecStudy_AvDiffRMS_X}
 \newlabel{fig:DiffElecStudy_AvDiff_RMS_Int_T}
@@ -52,6 +53,7 @@
 \newlabel{fig:DiffElecStudy_AvDiff_RMS_Int}
 \newlabel{fig:DiffElecStudy_AvDiff_RMS}
 \newlabel{fig:DiffElecStudy_CDiff4}
+\newlabel{fig:DiffElecStudy_ChargeCut}
 \newlabel{fig:DiffElecStudy_HitFit}
 \newlabel{fig:DiffElecStudy_RMS0cm}
 \newlabel{fig:DiffLDiff_AvDiffRMS_T}
@@ -70,13 +72,12 @@
 \newlabel{fig:DiffLifeStudy_AvDiff_RMS_Int}
 \newlabel{fig:DiffLifeStudy_AvDiff_RMS}
 \newlabel{fig:DiffLifeStudy_CDiff4}
+\newlabel{fig:DiffLifeStudy_ChargeCut}
 \newlabel{fig:DiffLifeStudy_HitFit}
 \newlabel{fig:DiffLifeStudy_RMS0cm}
 \newlabel{fig:DiffLotsOfFlashes}
 \newlabel{fig:DiffMCDataCompFit}
 \newlabel{fig:DiffMCDataCompInt}
-\newlabel{fig:DiffMCHitFit_RMS_Int}
-\newlabel{fig:DiffMCHitFit_RMS}
 \newlabel{fig:DiffMCHitFit}
 \newlabel{fig:DiffNoiseStudy_AvDiffRMS_T}
 \newlabel{fig:DiffNoiseStudy_AvDiffRMS_X}
@@ -85,6 +86,8 @@
 \newlabel{fig:DiffNoiseStudy_AvDiff_RMS_Int}
 \newlabel{fig:DiffNoiseStudy_AvDiff_RMS}
 \newlabel{fig:DiffNoiseStudy_CDiff4}
+\newlabel{fig:DiffNoiseStudy_ChargeCut}
+\newlabel{fig:DiffNoiseStudy_ChargeCut}
 \newlabel{fig:DiffNoiseStudy_HitFit}
 \newlabel{fig:DiffNoiseStudy_RMS0cm}
 \newlabel{fig:DiffOverlayAvDiff_RMS_Int_T}
@@ -104,7 +107,6 @@
 \newlabel{fig:FrequencyFilter}
 \newlabel{fig:Isol_Effic_EnDepos}
 \newlabel{fig:Isol_Effic_Len}
-\newlabel{fig:Isol_Effic_PhiTheta}
 \newlabel{fig:Isol_Effic_Phi}
 \newlabel{fig:Isol_Effic_Theta}
 \newlabel{fig:Isol_Effic}
@@ -119,19 +121,18 @@
 \newlabel{fig:LotsOfHits_Col}
 \newlabel{fig:LotsOfHits_Ind}
 \newlabel{fig:LotsOfHits}
-\newlabel{fig:MCPIDA}
 \newlabel{fig:MUSUNIncorp}
+\newlabel{fig:NDK_CosmoBack_Norm}
+\newlabel{fig:NDK_CosmoBack_Raw}
 \newlabel{fig:NoiseRemoval}
 \newlabel{fig:PDYZDist}
 \newlabel{fig:PD_MCPDDiff}
 \newlabel{fig:PD_PEDiffX}
 \newlabel{fig:PD_PExPlot}
-\newlabel{fig:PIDAPlots}
 \newlabel{fig:PIDA_MC}
 \newlabel{fig:PIDA_loglog}
 \newlabel{fig:Prot_Effic_EnDepos}
 \newlabel{fig:Prot_Effic_Len}
-\newlabel{fig:Prot_Effic_PhiTheta}
 \newlabel{fig:Prot_Effic_Phi}
 \newlabel{fig:Prot_Effic_Theta}
 \newlabel{fig:Prot_Effic}
@@ -164,12 +165,14 @@
 \newlabel{sec:DiffLimitations}
 \newlabel{sec:DiffMCPlots}
 \newlabel{sec:DiffMCStudies}
+\newlabel{sec:DiffusionAnalysis}
 \newlabel{sec:FDIncorporation}
 \newlabel{sec:LArSoft}
 \newlabel{sec:LBNESurf}
 \newlabel{sec:MCCalib}
 \newlabel{sec:MCDataComp}
 \newlabel{sec:NDKCosmBk}
+\newlabel{sec:NDKImprov}
 \newlabel{sec:NDKSig}
 \newlabel{sec:NDK_Atmos}
 \newlabel{sec:PID}
@@ -198,8 +201,6 @@
 \newlabel{sub@fig:DiffLifeStudy_AvDiffRMS_X}
 \newlabel{sub@fig:DiffLifeStudy_AvDiff_RMS_Int_T}
 \newlabel{sub@fig:DiffLifeStudy_AvDiff_RMS_Int_X}
-\newlabel{sub@fig:DiffMCHitFit_RMS_Int}
-\newlabel{sub@fig:DiffMCHitFit_RMS}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_T}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_X}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiff_RMS_Int_T}
@@ -215,7 +216,6 @@
 \newlabel{sub@fig:FreqWaveform}
 \newlabel{sub@fig:Isol_Effic_EnDepos}
 \newlabel{sub@fig:Isol_Effic_Len}
-\newlabel{sub@fig:Isol_Effic_PhiTheta}
 \newlabel{sub@fig:Isol_Effic_Phi}
 \newlabel{sub@fig:Isol_Effic_Theta}
 \newlabel{sub@fig:Isol_PIDA_Muon}
@@ -225,11 +225,8 @@
 \newlabel{sub@fig:LotsOfHits_Big}
 \newlabel{sub@fig:LotsOfHits_Col}
 \newlabel{sub@fig:LotsOfHits_Ind}
-\newlabel{sub@fig:PIDA_MC}
-\newlabel{sub@fig:PIDA_loglog}
 \newlabel{sub@fig:Prot_Effic_EnDepos}
 \newlabel{sub@fig:Prot_Effic_Len}
-\newlabel{sub@fig:Prot_Effic_PhiTheta}
 \newlabel{sub@fig:Prot_Effic_Phi}
 \newlabel{sub@fig:Prot_Effic_Theta}
 \newlabel{sub@fig:SimEffic_EnDepos_AMu}

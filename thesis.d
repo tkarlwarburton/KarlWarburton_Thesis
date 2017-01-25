@@ -248,6 +248,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Count
 -include 35tonData/Figs/Raster/InterceptCanvasData.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/InterceptCanvasData.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/InterceptCanvasData.png)
+-include 35tonData/Figs/Raster/ChargeCutData.png.gpi.d
+thesis.d: $$(call graphics-source,35tonData/Figs/Raster/ChargeCutData.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/ChargeCutData.png)
 -include 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png)
@@ -263,43 +266,43 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_
 -include 35tonData/Figs/Raster/CombCan_0.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_0.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_0.png)
+-include 35tonData/Figs/Raster/CombCan_1.png.gpi.d
+thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_1.png)
 -include 35tonData/Figs/Raster/CombCan_2.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_2.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_2.png)
+-include 35tonData/Figs/Raster/CombCan_3.png.gpi.d
+thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_3.png)
 -include 35tonData/Figs/Raster/CounterDiff4_Overlay.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CounterDiff4_Overlay.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CounterDiff4_Overlay.png)
 -include 35tonData/Figs/Raster/InterceptCanvasOverlay.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
+-include 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png.gpi.d
+thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)
 -include 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
 -include FarDetectorSimulations/Figs/Raster/phi-map.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/phi-map.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/phi-map.png)
+-include FarDetectorSimulations/Figs/Raster/DepthCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/DepthCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/DepthCan.png)
 -include FarDetectorSimulations/Figs/Raster/ZenithCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
 -include FarDetectorSimulations/Figs/Raster/AzimuthCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
--include FarDetectorSimulations/Figs/Raster/DepthCan.png.gpi.d
-thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/DepthCan.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/DepthCan.png)
 -include FarDetectorSimulations/Figs/Raster/AziZenCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
 -include FarDetectorSimulations/Figs/Raster/MuonPosCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
--include Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf.gpi.d
-thesis.d: $$(call graphics-source,Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,Appendix1/Figs/PDF/Canvas_RMS_20cm_NoiseLevel.pdf)
--include Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf.gpi.d
-thesis.d: $$(call graphics-source,Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,Appendix1/Figs/PDF/Canvas_RMS_20cm_ElecField.pdf)
--include Appendix1/Figs/PDF/Canvas_RMS_20cm_Diffusion.pdf.gpi.d
-thesis.d: $$(call graphics-source,Appendix1/Figs/PDF/Canvas_RMS_20cm_Diffusion.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,Appendix1/Figs/PDF/Canvas_RMS_20cm_Diffusion.pdf)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

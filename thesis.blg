@@ -18,45 +18,45 @@ A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
 Warning--empty journal in Church_LArSoft
 Warning--empty booktitle in HarrisTrans
-You've used 42 entries,
+You've used 43 entries,
             1876 wiz_defined-function locations,
-            772 strings with 10694 characters,
-and the built_in function-call counts, 9824 in all, are:
-= -- 1045
-> -- 242
+            780 strings with 10971 characters,
+and the built_in function-call counts, 10130 in all, are:
+= -- 1068
+> -- 268
 < -- 0
-+ -- 102
-- -- 60
-* -- 555
-:= -- 1247
-add.period$ -- 58
-call.type$ -- 42
-change.case$ -- 41
++ -- 111
+- -- 68
+* -- 581
+:= -- 1297
+add.period$ -- 59
+call.type$ -- 43
+change.case$ -- 42
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 528
-empty$ -- 1020
-format.name$ -- 60
-if$ -- 2556
+cite$ -- 45
+duplicate$ -- 543
+empty$ -- 1041
+format.name$ -- 68
+if$ -- 2627
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 29
-newline$ -- 145
-num.names$ -- 28
-pop$ -- 182
+int.to.str$ -- 43
+missing$ -- 30
+newline$ -- 148
+num.names$ -- 29
+pop$ -- 185
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 430
+skip$ -- 440
 stack$ -- 0
-substring$ -- 605
-swap$ -- 242
+substring$ -- 611
+swap$ -- 249
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 76
-width$ -- 44
-write$ -- 398
+while$ -- 78
+width$ -- 45
+write$ -- 408
 (There were 2 warnings)

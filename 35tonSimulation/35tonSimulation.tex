@@ -72,24 +72,24 @@ From Figure~\ref{fig:PD_MCPDDiff} it can clearly be seen that the metric using t
 \section{Calibrating calorimetric constants} \label{sec:MCCalib} %Section - X.2
 Having the correct calorimetric responses is vital when trying to calculate $\frac{dE}{dx}$ as the measured change in charge has to be correctly converted to the change in energy. The parameter which has to be tuned in order to ensure that this is done correctly is the number of electrons that each ADC corresponds to. This was presented in Equations~\ref{eq:Birks} and ~\ref{eq:ModBox} as $C_{ADC \rightarrow e^{-}}$. Each plane will have a different response function, and so each plane has to be treated separately. These parameters have to be tuned in such a way as to make a known particle energy deposition have the correct $\frac{dE}{dx}$, the easiest deposition to tune against is the minimally ionising particle (MIP) peak, which in LAr should have a value of 1.8 MeV cm$^{-1}$. To do this the sample of 10,000 positive muons made to calibrate the photon detector track/flash assignment will be used as many of these particles will be MIPs. \\
 
-To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, and the different planes are considered separately. A Gaussian distribution is then fitted around the peaks for each of the planes to discern the most probable value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 1.8 MeV cm$^{-1}$ then the ADC to electron parameters are scaled by the factor between the measured MPV and the MIP peak. As the relationship between $\frac{dE}{dx}$ and $C_{ADC \rightarrow e^{-}}$ is not linear an element of trial and error is required until the correct MPVs are measured. An example of the tuning being applied is shown in Figure~\ref{fig:CaloTune}. Tuning of the response functions is required whenever the electronics gains or signal shaping functions are changed.
+To select the MIPs in the sample only tracks caused by through-going muons are used. The $\frac{dE}{dx}$ value for all hits in all tracks is then calculated, and the different planes are considered separately. A Gaussian distribution is then fitted around the peaks for each of the planes to discern the most probable value (MPV) of $\frac{dE}{dx}$ for that plane. If the MPVs are not equal to 1.8 MeV cm$^{-1}$ then the ADC to electron parameters are scaled by the factor between the measured MPV and the MIP peak. As the relationship between $\frac{dE}{dx}$ and $C_{ADC \rightarrow e^{-}}$ is not linear an element of trial and error is required until the correct MPVs are measured. An example of the calibration being applied is shown in Figure~\ref{fig:CaloTune}. Calibration of the response functions is required whenever the electronics gains or signal shaping functions are changed.
 
 \begin{figure}[h!]
   \centering
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{UnCorrectedCanvas}
-    \caption{Before tuning is performed.}
+    \caption{Before calibration is performed.}
     \label{fig:CaloTune_Before}
   \end{subfigure}
   \begin{subfigure}{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{CorrectedCanvas}
-    \caption{After tuning is performed.}
+    \caption{After calibration is performed.}
     \label{fig:CaloTune_After}
   \end{subfigure}
-  \caption[The tuning of the calorimetric constants in the 35 ton]
-          {The number of hits as a function the hit $\frac{dE}{dx}$, before and after a tuning is applied to the response functions for the conversion of ADC to number of electrons for each plane. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ before tuning is shown top. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ after tuning is shown bottom.}
+  \caption[The calibration of the calorimetric constants in the 35 ton]
+          {The number of hits as a function the hit $\frac{dE}{dx}$, before and after calibration of the response functions, for the conversion of ADC to number of electrons, for each plane is performed. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ before calibration is shown top. The distribution of hit $\frac{dE}{dx}$ and the MPV of $\frac{dE}{dx}$ after calibration is shown bottom.}
           \label{fig:CaloTune}
 \end{figure}
         
@@ -122,7 +122,7 @@ The reconstruction efficiencies given the current state of the most commonly use
   \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Length}
-    \caption{Reconstruction efficiencies for an positive muon sample.}
+    \caption{Reconstruction efficiencies for a positive muon sample.}
     \label{fig:SimEffic_Length_AMu}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
@@ -133,7 +133,7 @@ The reconstruction efficiencies given the current state of the most commonly use
     \label{fig:SimEffic_Length_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track length. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (triangles) and PMTrack (squares).}
           \label{fig:SimEffic_Length}
 \end{figure}
 
@@ -142,7 +142,7 @@ The reconstruction efficiencies given the current state of the most commonly use
   \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_EnDepos}
-    \caption{Reconstruction efficiencies for an positive muon sample.}
+    \caption{Reconstruction efficiencies for a positive muon sample.}
     \label{fig:SimEffic_EnDepos_AMu}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
@@ -153,7 +153,7 @@ The reconstruction efficiencies given the current state of the most commonly use
     \label{fig:SimEffic_EnDepos_CRY}
   \end{subfigure}
   \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth deposited energy. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (triangles) and PMTrack (squares).}
           \label{fig:SimEffic_EnDepos}
 \end{figure}
 
@@ -162,7 +162,7 @@ The reconstruction efficiencies given the current state of the most commonly use
   \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Theta}
-    \caption{Reconstruction efficiencies for an positive muon sample.}
+    \caption{Reconstruction efficiencies for a positive muon sample.}
     \label{fig:SimEffic_Theta_AMu}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
@@ -172,8 +172,8 @@ The reconstruction efficiencies given the current state of the most commonly use
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_Theta_CRY}
   \end{subfigure}
-  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
+  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\theta$.]
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\theta$. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (triangles) and PMTrack (squares).}
           \label{fig:SimEffic_Theta}
 \end{figure}
 
@@ -182,7 +182,7 @@ The reconstruction efficiencies given the current state of the most commonly use
   \begin{subfigure}{0.48\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_Phi}
-    \caption{Reconstruction efficiencies for an positive muon sample.}
+    \caption{Reconstruction efficiencies for a positive muon sample.}
     \label{fig:SimEffic_Phi_AMu}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
@@ -192,8 +192,8 @@ The reconstruction efficiencies given the current state of the most commonly use
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_Phi_CRY}
   \end{subfigure}
-  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in phi. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
+  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\phi$.]
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\phi$. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (triangles) and PMTrack (squares).}
           \label{fig:SimEffic_Phi}
 \end{figure}
 
@@ -202,7 +202,7 @@ The reconstruction efficiencies given the current state of the most commonly use
   \begin{subfigure}{0.8\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Effic_AntiMuon_500V_All_PhiTheta}
-    \caption{Reconstruction efficiencies for an positive muon sample.}
+    \caption{Reconstruction efficiencies for a positive muon sample.}
     \label{fig:SimEffic_ThetaPhi_AMu}
   \end{subfigure}
   \begin{subfigure}{0.8\textwidth}
@@ -211,8 +211,8 @@ The reconstruction efficiencies given the current state of the most commonly use
     \caption{Reconstruction efficiencies for a CRY sample.}
     \label{fig:SimEffic_ThetaPhi_CRY}
   \end{subfigure}
-  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi.]
-          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in theta and phi. The track angle in theta is shown on the $x$ axis, and the track angle in phi is shown on the $y$ axis. The efficiencies are shown for non-cheated reconstruction (plots on the left) and cheated reconstruction (plots on the right) for both Pandora (plots on the top) and PMTrack (plots on the bottom).}
+  \caption[The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\theta$ and $\phi$.]
+          {The reconstruction efficiencies for simulated events as a function of Monte Carlo truth track angle in $\theta$ and $\phi$. The track angle in $\theta$ is shown on the $x$ axis, and the track angle in $\phi$ is shown on the $y$ axis. The colour $z$ axis shows the reconstruction efficency. The efficiencies are shown for non-cheated reconstruction (plots on the left) and cheated reconstruction (plots on the right) for both Pandora (plots on the top) and PMTrack (plots on the bottom).}
           \label{fig:SimEffic_ThetaPhi}
 \end{figure}
 
@@ -239,41 +239,38 @@ The information from Figures~\ref{fig:SimEffic_Theta} and~\ref{fig:SimEffic_Phi}
 
 %********************************** % Fourth Section  *************************************
 \section{Performing particle identification}  \label{sec:PID} %Section - X.4
-Being able to perform reliable particle identification (PID) is a key requirement for the DUNE experiment, and so efforts have been made to establish a procedure by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residual range of the track, defined as being the distance between a point on the track and the stopping point of the track. This relationship is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation~\citep{Bethe}~\citep{Bloch} which is shown in Figure~\ref{fig:BetheBloch} and presented in Equation~\ref{eq:Bethe-Bloch}.
-\begin{equation}
-  \label{eq:Bethe-Bloch}
-  -\frac{dE}{dx} = K z^2 \frac{Z}{A} \varrho \frac{1}{\beta^2} \left[ \frac{1}{2} \ln{\frac{2 m_e c^2 \beta^2 \gamma^2 T_{max}}{I^2}} - \beta^2 - \frac{\delta(\beta\gamma)}{2}\right]
-\end{equation}
-The sharp increase in energy loss per unit length can be seen to occur at different momenta for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly. One example of a large change in the peak value of $\frac{dE}{dx}$ can be seen by comparing muons and protons, whist muons and pions are very similar. \\
+Being able to perform reliable particle identification (PID) is a key requirement for the DUNE experiment, and so efforts have been made to establish a procedure by which this can be achieved. The predominant method of performing PID in LAr is to use the relationship between $\frac{dE}{dx}$ and the residual range of the track, defined as being the distance between a point on the track and the stopping point of the track. This relationship is observed to be dependent on particle mass and is quantified by the Bethe-Bloch equation~\citep{Bethe}~\citep{Bloch} which is shown in Figure~\ref{fig:BetheBloch} and presented in Equation~\ref{eq:Bethe-Bloch}. \\
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{Bethe-Bloch}
-  \caption[The medium and particle type dependence of the Bethe-Bloch equation]
-          {The Bethe-Bloch equation describes energy loss per unit length as a function of energy in different mediums. The energy losses expected for different particle types is shown in different mediums. Liquid Argon with a density of 1.4 g cm$^{-3}$ has a density slightly less than that of Carbon at 1.8 g cm$^{-3}$~\citep{PDGReview}.}
+  \caption[The mean energy loss per unit track length of different particle masses in different materials]
+          {The mean energy loss per unit track length of different particle masses in different materials~\citep{PDGReview}. The $\frac{Z}{A}$ of Liquid Argon is slightly less than that of Carbon.}
   \label{fig:BetheBloch}
 \end{figure}
 
-The particle mass dependence can be seen by plotting the $\frac{dE}{dx}$ against the residual range of the particle on a log-log plot, as shown in Figure~\ref{fig:PIDA_loglog}. A power law dependence is found to describe the relationship~\citep{PIDA_Paper}, as shown in Equation~\ref{eq:PIDA}. The dependence on $b$ is found to be weak, and so can be set to -0.42 for all particle masses. This means that the main discriminant used is the $A$ parameter, which has a strong dependence on particle mass. The values for $A$ and $b$ calculated from Figure~\ref{fig:PIDA_loglog} are shown in Table~\ref{tab:PIDAVals}. It is found that the error introduced by fixing the $b$ parameter is small compared to the error from ionisation fluctuations. \\
+\begin{equation}
+  \label{eq:Bethe-Bloch}
+  -\frac{dE}{dx} = K z^2 \frac{Z}{A} \varrho \frac{1}{\beta^2} \left[ \frac{1}{2} \ln{\frac{2 m_e c^2 \beta^2 \gamma^2 T_{max}}{I^2}} - \beta^2 - \frac{\delta(\beta\gamma)}{2}\right]
+\end{equation}
 
+The sharp increase in energy loss per unit length can be seen to occur at different momenta for different particle masses meaning that the peak value of $\frac{dE}{dx}$ can change significantly. When comparing muons and protons, it can be seen that the momenta at which the $\frac{dE}{dx}$ increases is very different. When muons and pions are compared, it can be seen that the momenta at which an increase occurs is very similar. \\
+
+The particle mass dependence can be seen by plotting the $\frac{dE}{dx}$ against the residual range of the particle on a log-log plot, as shown in Figure~\ref{fig:PIDA_loglog}. A power law dependence is found to describe the relationship~\citep{PIDA_Paper}, as shown in Equation~\ref{eq:PIDA}.
 \begin{equation}
   \label{eq:PIDA}
   \frac{dE}{dx} = A R^b
 \end{equation}
-
-\begin{equation}
-  \label{eq:PIDA_A}
-  A_i = (\frac{dE}{dx})_i \times R^{0.42}_i
-\end{equation}
+The dependence on $b$ is found to be weak, and so can be set to -0.42 for all particle masses. This means that the main discriminant used is the $A$ parameter, which has a strong dependence on particle mass. The values for $A$ and $b$ calculated from Figure~\ref{fig:PIDA_loglog} are shown in Table~\ref{tab:PIDAVals}. It is found that the error introduced by fixing the $b$ parameter is small compared to the error from ionisation fluctuations. \\
 
 \begin{table}
 \caption[Stopping power parameterization for various particle types in liquid Argon]
-        {Stopping power parameterization for various particle types in LAr~\citep{PIDA_Paper}.}
+        {Stopping power parameterization for various particle types in liquid Argon. The table is taken from~\citep{PIDA_Paper}.}
 \centering
 \label{tab:PIDAVals}
 \begin{tabular}{l c c}
 \toprule
-{Particle} & {A MeV cm$^{-(1-b)}$} & {b} \\ 
+{Particle} & {A (MeV cm$^{b-1}$)} & {b} \\ 
 \midrule
 Pion     & 8  & -0.37 \\
 
@@ -286,31 +283,32 @@ Deuteron & 25 & -0.43 \\
 \end{tabular}
 \end{table}
 
-Once the $b$ parameter is set to be constant for all particle types it is possible to calculate a value for the $A$ parameter for each hit on the track using Equation~\ref{eq:PIDA_A}, where $R_i$ is the residual range of the track at that point. The particle type discriminant, called PIDA, can then be calculated for a track by finding the average value of $A_i$ for the track. As the particle mass dependant increase in $\frac{dE}{dx}$ only occurs near the end of the track, the PIDA variable can only be calculated for particles which stop in the detector as all other particles will have MIP-like $\frac{dE}{dx}$ distributions and so cannot be identified in this way. As shown by the plotted range of Figure~\ref{fig:PIDA_loglog} the average value of $A$ is normally calculated for the last 30 cm of the track. \\
-
-The PIDA method was tested in~\citep{PIDA_Paper}, where the PIDA values were calculated for Monte Carlo particles which stopped in the detector using truth information over the last 30 cm of the particle lengths. This is shown in Figure~\ref{fig:PIDA_MC}, where a clear separation can be seen between the peaks for Muons, Pions, Kaons and Protons. Though the Muon and Pion peaks are relatively close together they can still be resolved in the plot due to little overlap. It is interesting to note how tight the PIDA distributions found in the paper are, which allows the different particles types to cleanly separated in the truth study. The author notes that an incorrect tuning of the recombination effects will cause the distributions to become broader, and an incorrect calibration of the detector will introduce a systematic shift in the expected values of PIDA. \\
+Once the $b$ parameter is set to be constant for all particle types it is possible to calculate a value for the $A$ parameter for each hit on the track using Equation~\ref{eq:PIDA_A}, where $R_i$ is the residual range of the track at that point.
+\begin{equation}
+  \label{eq:PIDA_A}
+  A_i = \left(\frac{dE}{dx}\right)_i \times \left(R_{i}\right)^{0.42}
+\end{equation}
+The particle type discriminant, called PIDA, can then be calculated for a track by finding the average value of $A_i$ for the track. As the particle mass dependant increase in $\frac{dE}{dx}$ only occurs near the end of the track, the PIDA variable can only be calculated for particles which stop in the detector as all other particles will have MIP-like $\frac{dE}{dx}$ distributions and so cannot be identified in this way. As shown by the plotted range of Figure~\ref{fig:PIDA_loglog} the average value of $A$ is normally calculated for the last 30 cm of the track. \\
 
 \begin{figure}[h!]
   \centering
-  \begin{subfigure}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{StoppingPower}
-    \caption{Stopping power for different particle masses.}
-    \label{fig:PIDA_loglog}
-  \end{subfigure}%
-  \hspace{0.03\textwidth}%
-  \begin{subfigure}{0.48\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{TruthPIDA}
-    \caption{Distribution of PIDA values for different particle masses.}
-    \label{fig:PIDA_MC}
-  \end{subfigure}
-  \caption[Defining the PIDA metric for particle identification.]
-          {Defining the PIDA metric for particle identification and testing it on a Monte Carlo sample using truth information.}
-  \label{fig:PIDAPlots}
+  \includegraphics[width=0.5\textwidth]{StoppingPower}
+  \caption[Stopping power for different particle masses as a function of residual range in liquid Argon]
+          {Stopping power for different particle masses as a function of residual range in liquid Argon. The figure is taken from~\citep{PIDA_Paper}.}
+  \label{fig:PIDA_loglog}
 \end{figure}
 
-From Figure~\ref{fig:PIDAPlots} it can be seen that the most distinct PIDA distributions are that of muons and protons, these are also two of the most common particle types in cosmic rays. For these reasons particle identification using the PIDA variable will be attempted on simulations of the 35 ton. As outlined in Sections~\ref{sec:SimInteractionTimes} and ~\ref{sec:MCCalib} in order to do this the interaction times of particles have to be well known and the calibration constants must be tuned so as to ensure that the effects of recombination are properly accounted for. It is also useful to use the information found in Section~\ref{sec:SimRecoEffic} about the efficiency with which tracks are reconstructed. In this regard it is useful to produce additional figures showing the reconstruction efficiencies of protons in the CRY sample, these are shown in Figure~\ref{fig:Prot_Effic}.\\
+The PIDA method was tested in~\citep{PIDA_Paper}, where the PIDA values were calculated for simulated particles which stopped in the detector, using truth information over the last 30 cm of the particle tracks. This is shown in Figure~\ref{fig:PIDA_MC}, where a clear separation can be seen between the peaks for muons, pions, kaons and protons. Though the muon and pion peaks are relatively close together they can still be resolved in the plot due to little overlap. It is interesting to note how tight the PIDA distributions found in the paper are, which allows the different particles types to cleanly separated in the truth study. The author notes that an incorrect tuning of the electron recombination effects will cause the distributions in Figure~\ref{fig:PIDA_MC} to become broader. The dependence of $\frac{dE}{dx}$ on the recombination effects ($Recomb_{X}$) were presented in Equations~\ref{eq:Birks} and~\ref{eq:ModBox}. The author also notes that an incorrect calibration of the detector will introduce a systematic shift in the expected values of PIDA, this is why the work presented in Section~\ref{sec:MCCalib} is important. \\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{TruthPIDA}
+  \caption[The distribution of PIDA values, calculated using Monte Carlo truth, for different particle masses]
+          {The distribution of PIDA values, calculated using Monte Carlo truth, for different particle masses. The figure is taken from~\citep{PIDA_Paper}.}
+  \label{fig:PIDA_MC}
+\end{figure}
+
+From Figure~\ref{fig:PIDA_MC} it can be seen that the most distinct PIDA distributions are that of muons and protons, these are also two of the most common particle types in cosmic rays. For these reasons particle identification using the PIDA variable will be attempted on simulations of the 35 ton. As outlined in Sections~\ref{sec:SimInteractionTimes} and ~\ref{sec:MCCalib} in order to do this the interaction times of particles have to be well known and the calibration constants must be tuned so as to ensure that the effects of recombination are properly accounted for. It is also useful to use the information found in Section~\ref{sec:SimRecoEffic} about the efficiency with which tracks are reconstructed. In this regard it is useful to produce additional figures showing the reconstruction efficiencies of protons in the CRY sample, these are shown in Figure~\ref{fig:Prot_Effic}.\\
 
 \begin{figure}[h!]
   \centering
@@ -330,35 +328,36 @@ From Figure~\ref{fig:PIDAPlots} it can be seen that the most distinct PIDA distr
   \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Theta}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta.}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\theta$.}
         \label{fig:Prot_Effic_Theta}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
   \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_Phi}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in phi.}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\phi$.}
         \label{fig:Prot_Effic_Phi}
   \end{subfigure}
-  \begin{subfigure}{0.8\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_PhiTheta}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta and phi.}
-        \label{fig:Prot_Effic_PhiTheta}
-  \end{subfigure}%
+%  \begin{subfigure}{0.8\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{Effic_ProtonEnrich_500V_Proton_PhiTheta}
+%        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\theta$ and $\phi$. The track angle in $\theta$ is shown on the $x$ axis, and the track angle in $\phi$ is shown on the $y$ axis. The colour $z$ axis shows the reconstruction efficency.}
+%        \label{fig:Prot_Effic_PhiTheta}
+%  \end{subfigure}%
   \caption[The reconstruction efficiencies for protons in a sample generated using CRY.]
-          {The reconstruction efficiencies for protons in a sample generated using CRY. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (squares) and PMTrack (triangles).}
+          {The reconstruction efficiencies for protons in a sample generated using CRY. Top left, shows the efficiencies as a fucntion of Monte Carlo truth track length. Top right, shows the efficiencies as a function of Monte Carlo truth deposited energy. Bottom left, shows the efficiencies as a function of Monte Carlo truth track angle in $\theta$. Bottom right, shows the efficiencies as a function of Monte Carlo truth track angle as a function of $\phi$. The efficiencies are shown for 'non-cheated' reconstruction (in red), and 'cheated' reconstruction (in blue), for both pandora (triangles) and PMTrack (squares).}
   \label{fig:Prot_Effic}
 \end{figure}
 
-Figure~\ref{fig:Prot_Effic} shows that the average reconstruction efficiency for PMTrack is higher than that for Pandora when considering protons, as the efficiency for the former is roughly 10\% higher for all angles as shown in Figure~\ref{fig:Prot_Effic_Theta}, though it is much lower than the overall efficiency seen in Figure~\ref{fig:SimEffic_Theta_CRY}. From Figure~\ref{fig:Prot_Effic_Len} it is evident that the efficiency for protons with track lengths of more than 10 cm is similar to that of the overall efficiency for the CRY sample, but the efficiency for the shortest tracks is significantly lower than that of the whole CRY sample. A review of the true path lengths of the simulated particles shows that 60\% of the protons have path lengths of less than 1 cm and that none of these particles were reconstructed, it is this large number of very short particles which causes the overall reconstruction to be relatively low. When a minimum path length of 1 cm (10 cm) is required the reconstruction efficiency rises to 37\% (58\%), so when the shortest tracks are not counted the reconstruction performs reasonably well. \\
+Figure~\ref{fig:Prot_Effic} shows that the average reconstruction efficiency for PMTrack is higher than that for Pandora when considering protons. This can be easily seen in Figure~\ref{fig:Prot_Effic_Theta} where the efficiency for PMTrack is roughly 10\% higher than that for Pandora, for all values of $\theta$. The reconstruction efficiency is still much lower than the overall efficiency shown in Figure~\ref{fig:SimEffic_Theta}, for both the positive muon and CRY samples though. This shows that the overall reconstruction efficiency for protons is quite low. Comparing Figures~\ref{fig:SimEffic_Length_CRY} and~\ref{fig:Prot_Effic_Len}, it is evident that the reconstruction efficiency for protons with track lengths of more than 10 cm is reasonably similar, to that of the overall reconstruction efficiency for the CRY sample, when using PMTrack. However, the reconstruction efficiency is significantly lower for protons with tracks of less than 10 cm. When using Pandora to reconstruct protons, the reconstruction efficiency is lower for all track lengths. It is found that 60\% of simulated protons have track lengths of less than 1 cm, and that none of these particles are reconstructed. It is this large number of very short particles which causes the overall reconstruction efficiency to be relatively low. When particles with track lengths of less than 1 cm (10 cm) are removed, the average reconstruction efficiency for PMTrack rises to 37\% (58\%). This shows that, when the shortest tracks are not counted the reconstruction performs reasonably well. \\
 
-It is also useful to produce samples where the primary particle is a single muon or proton located in the active volume of the detector. This allows for a sample of isolated tracks to be made upon which the capabilities of the PIDA metric can be tested. It also allows the reconstruction efficiency to be found for particles in isolation. The properties of the generated particles are illustrated below in Table~\ref{tab:IsolProp}. The values of the simulated quantities were found by changing the given parameters by an amount taken from a random sampling of a Gaussian distribution of width equal to the error listed. These simulation parameters were chosen to produce samples which would contain both exiting and stopping particles whilst generating the particles in the LAr would ensure that there should always be a reconstructable track in the detector. \\
+It is also useful to produce samples where the primary particle is a single muon or proton located in the active volume of the detector. This allows for a sample of isolated tracks to be made upon which the capabilities of the PIDA metric can be tested. It also allows the reconstruction efficiency to be found for particles in isolation. The properties of the generated particles are illustrated below in Table~\ref{tab:IsolProp}. The values of the simulated quantities were found by changing the given parameters by an amount taken from a random sampling of a Gaussian distribution of width equal to the error listed. These simulation parameters were chosen to produce samples which would contain both exiting and stopping particles whilst generating the particles in the LAr would ensure that there should always be a reconstructable track in the detector. The reconstruction efficiencies when using the PMTrack reconstruction method are shown for the simulated particles in Figure~\ref{fig:Isol_Effic}. \\
 
-The reconstruction efficiencies when using the PMTrack reconstruction method are shown for the simulated particles in Figure~\ref{fig:Isol_Effic}. It should be noted that truth particles with track lengths of less than 1 cm have been excluded from these plots which is why the angular reconstruction efficiencies for protons in Figures~\ref{fig:Isol_Effic_Theta} and~\ref{fig:Isol_Effic_Phi}, are higher than those seen in Figures~\ref{fig:Prot_Effic_Theta} and~\ref{fig:Prot_Effic_Phi}. This was done as due to how the initial momenta and positions are sampled many of the primary simulated particles may travel very short distances that are contained in spaces between TPCs and including these particles would artificially reduce the efficiency presented. After discounting these very short particles the efficiencies generally follow similar patterns observed in the earlier efficiency plots, though there is a decrease in efficiencies for the longest track lengths which is not observed in other samples. This is attributed to the initial positions for the particles being within the detector volume, as this means that any particle travelling over 100 cm would have a very peculiar trajectory as the edge of the detector should never be more than 100 cm away from the starting position. The only exception to this is if a particle travelled along the x axis to the other end of the detector, which as discussed earlier is a very problematic orientation to reconstruct as all of the charge would be deposited over a large range of time on very few collection plane wires. \\
+
+Particles with track lengths of less than 1 cm have been excluded from these plots which is why the angular reconstruction efficiencies for protons in Figures~\ref{fig:Isol_Effic_Theta} and~\ref{fig:Isol_Effic_Phi}, are higher than those seen in Figures~\ref{fig:Prot_Effic_Theta} and~\ref{fig:Prot_Effic_Phi}. This was done as none of these particles were reconstructed due to the very short distances which they travel. After discounting these very short particles, the efficiencies generally follow similar patterns observed in the earlier efficiency plots, though there is a decrease in efficiencies for the longest track lengths which is not observed in other samples. This is attributed to the initial positions of the particles being within the detector volume, as this means that any particle travelling over 100 cm would have a very peculiar trajectory as the edge of the detector should never be more than 100 cm away from the starting position. The only exception to this is if a particle travelled along the $x$ axis to the other end of the detector, which, as discussed earlier, is a very problematic orientation to reconstruct as all of the charge would be deposited over a large range of time on very few collection plane wires. \\
 
 \begin{table}
-\caption{The properties of initial particles simulated in the muon and proton samples.}
+\caption{The properties of initial particles simulated in the muon and proton samples. The angles $\theta_{xz}$ and $\theta_{yz}$ are defined as the angle that a vector makes in the $xz$ and $yz$ planes respectively.}
 \centering
 \label{tab:IsolProp}
 \begin{tabular}{l c c}
@@ -369,9 +368,9 @@ Initial position (cm)              & (100 $\pm$ 50, 0 $\pm$ 30, 80 $\pm$ 20) & (
 
 Initial momentum (GeV)            & 0.3 $\pm$ 0.1 & 0.8 $\pm$ 0.5 \\
 
-Initial $\theta_{XZ}$ $(^{\circ})$ &   0 $\pm$ 180 &   0 $\pm$ 180 \\
+Initial $\theta_{xz}$ $(^{\circ})$ &   0 $\pm$ 180 &   0 $\pm$ 180 \\
 
-Initial $\theta_{YZ}$ $(^{\circ})$ & -45 $\pm$ 45  & -45 $\pm$ 45  \\
+Initial $\theta_{yz}$ $(^{\circ})$ & -45 $\pm$ 45  & -45 $\pm$ 45  \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -394,28 +393,28 @@ Initial $\theta_{YZ}$ $(^{\circ})$ & -45 $\pm$ 45  & -45 $\pm$ 45  \\
   \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_Theta}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta.}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\theta$.}
         \label{fig:Isol_Effic_Theta}
   \end{subfigure}%
   \hspace{0.03\textwidth}%
   \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Effic_SingSamps_Phi}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in phi.}
+        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\phi$.}
         \label{fig:Isol_Effic_Phi}
   \end{subfigure}
-  \begin{subfigure}{0.8\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Effic_SingSamps_PhiTheta}
-        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in theta and phi.}
-        \label{fig:Isol_Effic_PhiTheta}
-  \end{subfigure}%
+%  \begin{subfigure}{0.8\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{Effic_SingSamps_PhiTheta}
+%        \caption{The reconstruction efficiency as a function of Monte Carlo truth track angle in $\theta$ and $\phi$. The track angle in $\theta$ is shown on the $x$ axis, and the track angle in $\phi$ is shown on the $y$ axis. The colour $z$ axis shows the reconstruction efficency.}
+%        \label{fig:Isol_Effic_PhiTheta}
+%  \end{subfigure}%
   \caption[The reconstruction efficiencies for single muons and protons in the 35 ton.]
-          {The reconstruction efficiencies for single muons and protons in the 35 ton. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both muons (square blocks) and protons (triangle blocks).}
+          {The reconstruction efficiencies for single muons and protons in the 35 ton. Top left, shows the efficiencies as a fucntion of Monte Carlo truth track length. Top right, shows the efficiencies as a function of Monte Carlo truth deposited energy. Bottom left, shows the efficiencies as a function of Monte Carlo truth track angle in $\theta$. Bottom right, shows the efficiencies as a function of Monte Carlo truth track angle as a function of $\phi$. The efficiencies are shown for non-cheated reconstruction (red blocks) and cheated reconstruction (blue blocks) for both muons (square blocks) and protons (triangle blocks).}
   \label{fig:Isol_Effic}
 \end{figure}
 
-As the increase in $\frac{dE}{dx}$ is only visible when the particle stops in the detector it is necessary to remove exiting particles from the sample by applying a fiducial cut on the end point of the reconstructed track. It is important to only place this on the end point of the track, as one does not want to remove particles which enter the detector and then stop. When calorimetry is performed the end point of the track is determined using, among other metrics, the increase in $\frac{dE}{dx}$ and so the residual range of the track (a stored data member of the track object) should always refer to the distance to the end of the particles trajectory. For this study a fiducial cut of 5 cm is used, meaning that any track with hits within 5 cm of the edge of the detector volume is discarded and counted as an exiting particle. This should mean that very few tracks due to exiting particles are identified as stopping in the detector as it would require that a large section of the track would have to un-reconstructed. This will mean that some stopping particles are incorrectly assigned as exiting particles causing the identification efficiency to drop, but it is necessary to ensure that exiting particles are not included in the final distributions. A further cut that is applied is the requirement that there are a minimum of 5 continuous collection plane hits, this is to ensure that an adequate number of points are taken upon which to find an average value of PIDA for the track. Similar cuts are described in~\citep{PIDA_Paper}, and the resulting distributions of PIDA values for the single proton and muon samples are shown in Figure~\ref{fig:Isol_PIDA}. \\
+As the increase in $\frac{dE}{dx}$ is only visible when the particle stops in the detector it is necessary to remove exiting particles from the sample by applying a fiducial cut on the end point of the reconstructed track. It is important to only place this on the end point of the track, as one does not want to remove particles which enter the detector and then stop. When calorimetry is performed, the end point of the track is determined using, among other metrics, the increase in $\frac{dE}{dx}$ and so the residual range of the track (a stored data member of the track object), should always refer to the distance to the end of the particles trajectory. For this study a fiducial cut of 5 cm is used, meaning that any track with hits within 5 cm of the edge of the detector volume is discarded, and counted as an exiting particle. This should mean that very few tracks due to exiting particles are identified as stopping in the detector, as it would require the reconstruction algorithms to miss large section of the track. This will mean that some stopping particles are incorrectly assigned as exiting particles, causing the identification efficiency to drop, but it is necessary to ensure that exiting particles are not included in the final distributions. A further cut that is applied, is the requirement that there are a minimum of 5 collection plane hits, this is to ensure that an adequate number of points are taken upon which to find an average value of PIDA for the track. Similar cuts are described in~\citep{PIDA_Paper}, and the resulting distributions of PIDA values for the single proton and muon samples are shown in Figure~\ref{fig:Isol_PIDA}. \\
 
 \begin{figure}[h!]
   \centering
@@ -437,9 +436,9 @@ As the increase in $\frac{dE}{dx}$ is only visible when the particle stops in th
   \label{fig:Isol_PIDA}
 \end{figure}
 
-As can be seen from Figure~\ref{fig:Isol_PIDA} using truth information can make the distributions much cleaner, particularly when discounting particles for which the reconstruction algorithms do not track to their end point. A track is identified as having a correct end point if the reconstructed end point is within 2.5 cm of the true end point of the particle. It is reassuring to see that few tracks are reconstructed backwards, as if this were not the case then performing particle identification would be very difficult as it would indicate that the calorimetry and tracking algorithms are not performing well. Improvements can still be made though, as both plots in Figure~\ref{fig:Isol_PIDA} contain tracks which do not have the final energy depositions. This can seen as when tracks which do not match with the true end points of the particles are removed the low tails of the PIDA distributions are significantly reduced. It is observed that the PIDA distributions are cleaner when information from all three wire planes are used as opposed to only using the collection plane and so that is what is presented here. This shows how important it is to calibrate the electronics responses of all three wire planes and how additional wire planes can improve calorimetry as well as the accuracy of reconstruction algorithms. \\
+As can be seen from Figure~\ref{fig:Isol_PIDA} using truth information can make the distributions much cleaner, particularly when discounting particles for which the reconstruction algorithms do not track to their end point. A track is identified as having a correct end point if the reconstructed end point is within 2.5 cm of the true end point of the particle. It is reassuring to see that few tracks are reconstructed backwards, as if this were not the case then performing particle identification would be very difficult, as it would indicate that the calorimetry and tracking algorithms are not performing well. Improvements can still be made though, as both plots in Figure~\ref{fig:Isol_PIDA} contain tracks which do not have the final energy depositions. This can be seen as when the requirement that the reconstructed track end point is consistent with the true end point, the low tails of the PIDA distributions are significantly reduced. This is most noticeably the case in Figure~\ref{fig:Isol_PIDA_Proton}, where the peak at low values of PIDA is significantly reduced. It is observed that the PIDA distributions are cleaner when information from all three wire planes are used, as opposed to only using the collection plane, and so this is presented here. This shows how important it is to calibrate the electronics responses of all three wire planes, and how additional wire planes can improve calorimetry, as well as the accuracy of reconstruction algorithms. \\
 
-The relationship between the $\frac{dE}{dx}$ and residual range of a track is shown in Figure~\ref{fig:Isol_dEdx} for both protons and muons. The much steeper increase in $\frac{dE}{dx}$ at low residual range for protons compared to muons is clearly visible when comparing Figures~\ref{fig:Isol_dEdx_Proton} and~\ref{fig:Isol_dEdx_Muon}. The contamination in the proton sample at low PIDA can be seen in Figure~\ref{fig:Isol_dEdx_Proton} where there is a clear sample of tracks for which the $\frac{dE}{dx}$ does not increase for low residual ranges. These plots are filled after tracks which do not correlate to the ends of the true trajectories are removed, and so the tail of low $\frac{dE}{dx}$ values is due to particles for which the simulated detector did not find increased energy depositions as the particle stopped. It is interesting to note that when a simple version of PIDA is calculated using the MC truth energy deposits, shown in Figure~\ref{fig:MCPIDA}, these particles are also found to have low PIDA values. It is therefore possible that at least some of these protons do not in fact stop, but interact inelastically when they still have a significant amount of kinetic energy meaning that GEANT4 will create a new particle and the tracking algorithms are creating a new track after this interaction. \\
+The relationship between the $\frac{dE}{dx}$ and residual range of a track is shown in Figure~\ref{fig:Isol_dEdx} for both protons and muons. The much steeper increase in $\frac{dE}{dx}$ at low residual range for protons compared to muons is clearly visible when comparing Figures~\ref{fig:Isol_dEdx_Proton} and~\ref{fig:Isol_dEdx_Muon}. The contamination in the proton sample at low PIDA can be seen in Figure~\ref{fig:Isol_dEdx_Proton} where there is a clear sample of tracks for which the $\frac{dE}{dx}$ does not increase for low residual ranges. These plots are filled after tracks whose end points do not correlate with the true end points, are removed, and so the tail of low $\frac{dE}{dx}$ values is due to particles for which the simulated detector did not find increased energy depositions as the particle stopped. It is therefore possible that at least some of these protons do not in fact stop, but interact inelastically when they still have a significant amount of kinetic energy meaning that GEANT4 will create a new particle and that the tracking algorithms are creating a new track after this interaction. \\
 
 \begin{figure}[h!]
   \centering
@@ -457,21 +456,21 @@ The relationship between the $\frac{dE}{dx}$ and residual range of a track is sh
         \label{fig:Isol_dEdx_Muon}
   \end{subfigure}
   \caption[The $\frac{dE}{dx}$ versus residual range plot for single muons and protons in the 35 ton.]
-          {The measured relationship between $\frac{dE}{dx}$ and residual range for single muons and protons in the 35 ton. The plots are made after applying all of the cuts outlined in Figure~\ref{fig:Isol_PIDA}, meaning that the MIP peaks have been suppressed using truth information.}
+          {The measured relationship between $\frac{dE}{dx}$ and residual range for single muons and protons in the 35 ton. These plots are made after applying all of the cuts outlined in Figure~\ref{fig:Isol_PIDA}, meaning that only hits from tracks whose end points are consistent with the true end points are plotted.}
   \label{fig:Isol_dEdx}
 \end{figure}
 
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.5\textwidth]{IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA}
-  \caption[A comparison between PIDA values calculated using truth and reconstructed information]
-          {A comparison between PIDA values calculated using truth and reconstructed information}
-  \label{fig:MCPIDA}
-\end{figure}
+%\begin{figure}[h!]
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{IsolatedProtons_500V_Dec16_Proton_MCPIDA_PIDA}
+%  \caption[A comparison between PIDA values calculated using truth and reconstructed information]
+%          {A comparison between PIDA values calculated using truth and reconstructed information}
+%  \label{fig:MCPIDA}
+%\end{figure}
 
-It is useful to summarise the information shown in Figure~\ref{fig:Isol_PIDA} in a table so that an efficiency of identifying stopping particles can be found. This is shown in Table~\ref{tab:Isol_PIDA_Proton} for protons, and in Table~\ref{tab:Isol_PIDA_Muon} for muons. The efficiency shown in these tables is defined as the number of tracks in the PIDA range divided by the total number of stopping particles, this is why the 'efficiency' is more than 100\% for the number of reconstructed tracks in Table~\ref{tab:Isol_PIDA_Muon}. The purity shown in these tables is defined as the percentage of tracks in the PIDA range which are associated with particles which actually stop in the detector. As many of the reconstructed tracks shown in Table~\ref{tab:Isol_PIDA_Muon} are not due to stopping particles the purity is low. The PIDA ranges referred to are 14-18 and 5-9 for the protons and muons respectively, as these ranges cover the peaks of the distributions shown in Figure~\ref{fig:Isol_dEdx} and are centered on the peaks in Figure~\ref{fig:PIDA_MC}. \\
+It is useful to summarise the information shown in Figure~\ref{fig:Isol_PIDA} in a table so that an efficiency of identifying stopping particles can be found. This is shown in Table~\ref{tab:Isol_PIDA_Proton} for protons, and in Table~\ref{tab:Isol_PIDA_Muon} for muons. The efficiency shown in these tables is defined as the number of tracks in the PIDA range, divided by the total number of stopping particles. This means that, should more reconstructed tracks have PIDA values within the PIDA range than there are stopping particles, then the efficiency can be more than 100\%. This is the case in Table~\ref{tab:Isol_PIDA_Muon}. The purity shown in these tables is defined as the percentage of tracks in the PIDA range, which are associated with particles that stop in the detector. As many of the tracks shown in the 'reconstructed tracks' row in Table~\ref{tab:Isol_PIDA_Muon}, are not due to stopping particles the purity is low, but this increases markedly after the fiducial cut is applied. The PIDA ranges referred to are 14-18 and 5-9 for protons and muons respectively, as these ranges cover the peaks of the distributions shown in Figure~\ref{fig:Isol_dEdx}, and are centered on the peaks in Figure~\ref{fig:PIDA_MC}. \\
 
-As can be seen in Table~\ref{tab:Isol_PIDA_Proton} the efficiency upon which protons can be identified does not change significantly as the sequential criteria are applied, but as shown in Figure~\ref{fig:Isol_PIDA_Proton} the low PIDA peak decreases significantly. The same cannot be said for the muon sample however, as when the criteria that the tracking end point matches the true end point is applied a significant section of the tail within the PIDA range is removed. The resulting distribution is more similar to the distribution shown in Figure~\ref{fig:PIDA_MC} though, showing that it preserves the stopping tracks which are reconstructed best. The cut to remove tracks that do not have the correct end points reduces both sets of efficiencies, but if all the tracks were reconstructed with the correct end points then one can imagine that the number of tracks within the PIDA ranges would increase and the distributions would become more symmetrical as shown in Figure~\ref{fig:Isol_PIDA_Muon}. Both tables also exhibit high purities which shows that the fiducial cut designed to removing exiting particles is effective, with only 2 exiting protons being mis-identified in the proton sample. \\
+As can be seen in Table~\ref{tab:Isol_PIDA_Proton}, the efficiency upon which protons can be identified does not change significantly as the sequential criteria are applied, but, as shown in Figure~\ref{fig:Isol_PIDA_Proton}, the peak at low values of PIDA decreases significantly. The same cannot be said for the muon sample however, as when the criteria that the tracking end point matches the true end point is applied, a significant section of the tail within the PIDA range is removed which significantly reduces the PIDA efficiency. However, the resulting distribution is more similar to that shown in Figure~\ref{fig:PIDA_MC}, showing that the particles which survive the cut are those that are very well reconstructed. The cut to remove tracks that do not have the correct end points reduces both sets of efficiencies, but, if all particles were reconstructed with the correct end points, then one can imagine that the number of tracks within the PIDA ranges would increase, and the distributions would become more symmetrical, as shown in Figure~\ref{fig:Isol_PIDA_Muon}. Both tables also exhibit high purities, which shows that the fiducial cut designed to removing exiting particles is effective, with only 2 exiting protons being mis-identified in the proton sample. \\
 
 \begin{table}
   \caption[A summary of the PIDA values calculated for the proton sample as sequential cuts are applied]
@@ -500,8 +499,8 @@ As can be seen in Table~\ref{tab:Isol_PIDA_Proton} the efficiency upon which pro
 \end{table}
 
 \begin{table}
-  \caption[A summary of the PIDA values calculated for the proton sample as sequential cuts are applied]
-          {A summary of the PIDA values calculated for the proton sample as sequential cuts are applied.}
+  \caption[A summary of the PIDA values calculated for the muon sample as sequential cuts are applied]
+          {A summary of the PIDA values calculated for the muon sample as sequential cuts are applied.}
   \centering
   \label{tab:Isol_PIDA_Muon}
   \begin{tabular}{l c c c c}
@@ -525,7 +524,7 @@ As can be seen in Table~\ref{tab:Isol_PIDA_Proton} the efficiency upon which pro
   \end{tabular}
 \end{table}
 
-From Table~\ref{tab:Isol_PIDA_Proton} it can be seen that there are more stopping protons than primary protons as only 10,000 primary protons were generated. The effectiveness of the PIDA algorithm at identifying only primary protons is shown in Table~\ref{tab:Isol_PIDA_PrimProton}. Comparing both tables it can be seen that the efficiency with which the primary protons can be identified is larger than the secondary protons as the efficiencies shown in Table~\ref{tab:Isol_PIDA_Proton} are lower than those in Table~\ref{tab:Isol_PIDA_PrimProton}. It is thought that this is due to the low reconstruction efficiency for the very shortest tracks which many of the secondary protons have, as discussed in Section~\ref{sec:SimRecoEffic}. A similar table is not produced for primary muons as there were no secondary muons produced in the muon sample, and so Table~\ref{tab:Isol_PIDA_Muon} is itself the efficiency with which the primary muons can be identified. \\ 
+From Table~\ref{tab:Isol_PIDA_Proton} it can be seen that there are more stopping protons than primary protons, as only 10,000 primary protons were generated. The effectiveness of the PIDA algorithm at identifying only primary protons is shown in Table~\ref{tab:Isol_PIDA_PrimProton}. Comparing both tables, it can be seen that the efficiency with which the primary protons can be identified, is larger than the secondary protons, as the efficiencies shown in Table~\ref{tab:Isol_PIDA_Proton} are lower than those in Table~\ref{tab:Isol_PIDA_PrimProton}. It is thought that this is due to the low reconstruction efficiency for particles with the shortest track lengths, as many of the secondary protons will have, as discussed in Section~\ref{sec:SimRecoEffic}. A similar table is not produced for primary muons as there were no secondary muons produced in the muon sample, and so Table~\ref{tab:Isol_PIDA_Muon} is itself the efficiency with which the primary muons can be identified. \\ 
 
 \begin{table}
   \caption[A summary of the PIDA values calculated for the primary particles in the proton sample as sequential cuts are applied]
@@ -553,9 +552,9 @@ From Table~\ref{tab:Isol_PIDA_Proton} it can be seen that there are more stoppin
   \end{tabular}
 \end{table}
 
-Upon verifying that the PIDA metric can reliably determine particle type when they are simulated in isolation, the next step is to observe the accuracy upon which particles can be identified in a CRY sample. The sample used here differs from the CRY sample used earlier in that only events which contain a proton in the detector are reconstructed, this is done to reduce simulation time and storage space as this cut will still provide a substantial number of muons whilst ensuring that a large proton sample can be reconstructed. The process of calculating PIDA values for the tracks is identical in all samples, though as discussed in Section~\ref{sec:SimRecoEffic} the much more complicated event structure in the CRY sample affects the reconstruction efficiency and so will likely also affect the accuracy of the calorimetry. The calorimetry will be affected in two ways, firstly the reduced performance of the reconstruction algorithms will mean that some particles are not reconstructed at all, whilst those that are reconstructed may be more likely to have missing hits meaning that the end points may be less well reconstructed. This will cause the tail of low $\frac{dE}{dx}$ values seen in Figure~\ref{fig:Isol_dEdx_Proton} to be more pronounced. Secondly, as shown in Figure~\ref{fig:PD_MCPDDiff} though the photon detector time determination is very accurate for a large number of tracks it is also incorrect for a number of tracks, this will cause the recombination correction to be miscalculated which will in turn increase the calculated $\frac{dE}{dx}$ and hence PIDA values. \\
+Upon verifying that the PIDA metric can reliably determine particle type when they are simulated in isolation, the next step is to observe the accuracy upon which particles can be identified in a CRY sample. The sample used here differs from the CRY sample used earlier in that only events which contain a proton in the detector are reconstructed. This is done to reduce simulation time and storage space, as this cut will still provide a substantial number of muons, whilst ensuring that a large proton sample can be reconstructed. The process of calculating PIDA values for tracks is identical in all samples, though as discussed in Section~\ref{sec:SimRecoEffic} the much more complicated event structure in the CRY sample affects the reconstruction efficiency, and so will likely also affect the accuracy of the calorimetry. The calorimetry will be affected in two ways, firstly, the reduced performance of the reconstruction algorithms will mean that some particles are not reconstructed at all, whilst those that are reconstructed may be more likely to have missing hits, and so the end points may be reconstructed less accurately. This will cause the tail of low $\frac{dE}{dx}$ values, seen in Figure~\ref{fig:Isol_dEdx_Proton}, to be more pronounced. Secondly, though the photon detector time determination is very accurate for a large number of tracks it is also incorrect for a number of tracks, as shown in Figure~\ref{fig:PD_MCPDDiff}. This will cause the recombination correction to be miscalculated, which will in turn increase the calculated $\frac{dE}{dx}$, and hence PIDA values. \\
 
-The PIDA values calculated for protons and muons in the CRY sample are shown in Figure~\ref{fig:CRY_PIDA}. As can be seen from Figure~\ref{fig:CRY_PIDA_Muon} there is a tail of very high PIDA value muon tracks which contaminate the proton PIDA region of interest (ROI). This causes a serious problem when trying to identify protons from a cosmic sample as the number of muons present is significantly larger than the number of protons. The result of this will be a sample of tracks which will not be very pure, and so further cuts will have to be developed to enhance the purity of this sample whilst not reducing the efficiency upon which proton tracks are identified. \\
+The PIDA values calculated for protons and muons in the CRY sample are shown in Figure~\ref{fig:CRY_PIDA}. As can be seen from Figure~\ref{fig:CRY_PIDA_Muon}, there is a tail of very high PIDA value muon tracks which contaminate the proton PIDA region of interest (ROI). This causes a serious problem when trying to identify protons from a cosmic sample, as the muon flux is significantly higher than the number of protons. The result of this will be a sample of tracks which will not be very pure, and so further cuts will have to be developed to enhance the purity of this sample whilst not reducing the efficiency upon which proton tracks are identified. \\
 
 \begin{figure}[h!]
   \centering
