@@ -18,7 +18,6 @@
 \newlabel{fig:10ktPos}
 \newlabel{fig:35tonCounterLoc}
 \newlabel{fig:35tonWireGeom}
-\newlabel{fig:35tonWireGeom}
 \newlabel{fig:AngleCanvas}
 \newlabel{fig:BetheBloch}
 \newlabel{fig:CDiff4DataFit}
@@ -78,6 +77,7 @@
 \newlabel{fig:DiffLotsOfFlashes}
 \newlabel{fig:DiffMCDataCompFit}
 \newlabel{fig:DiffMCDataCompInt}
+\newlabel{fig:DiffMCHitFit_3}
 \newlabel{fig:DiffMCHitFit}
 \newlabel{fig:DiffNoiseStudy_AvDiffRMS_T}
 \newlabel{fig:DiffNoiseStudy_AvDiffRMS_X}
@@ -96,6 +96,7 @@
 \newlabel{fig:DiffOverlayAvDiff_RMS_T}
 \newlabel{fig:DiffOverlayAvDiff_RMS_X}
 \newlabel{fig:DiffOverlayAvDiff_RMS}
+\newlabel{fig:DiffOverlay_ChargeCut}
 \newlabel{fig:DistanceCanvas}
 \newlabel{fig:DomDiffSchem}
 \newlabel{fig:DomsHitModel}
@@ -116,6 +117,7 @@
 \newlabel{fig:Isol_dEdx_Muon}
 \newlabel{fig:Isol_dEdx_Proton}
 \newlabel{fig:Isol_dEdx}
+\newlabel{fig:K0LongBackground}
 \newlabel{fig:LArSoft_coords}
 \newlabel{fig:LotsOfHits_Big}
 \newlabel{fig:LotsOfHits_Col}
@@ -124,6 +126,8 @@
 \newlabel{fig:MUSUNIncorp}
 \newlabel{fig:NDK_CosmoBack_Norm}
 \newlabel{fig:NDK_CosmoBack_Raw}
+\newlabel{fig:NDK_Sig_Norm}
+\newlabel{fig:NDK_Sig_Raw}
 \newlabel{fig:NoiseRemoval}
 \newlabel{fig:PDYZDist}
 \newlabel{fig:PD_MCPDDiff}
@@ -172,6 +176,7 @@
 \newlabel{sec:MCCalib}
 \newlabel{sec:MCDataComp}
 \newlabel{sec:NDKCosmBk}
+\newlabel{sec:NDKEnCosmBk}
 \newlabel{sec:NDKImprov}
 \newlabel{sec:NDKSig}
 \newlabel{sec:NDK_Atmos}
@@ -201,6 +206,7 @@
 \newlabel{sub@fig:DiffLifeStudy_AvDiffRMS_X}
 \newlabel{sub@fig:DiffLifeStudy_AvDiff_RMS_Int_T}
 \newlabel{sub@fig:DiffLifeStudy_AvDiff_RMS_Int_X}
+\newlabel{sub@fig:DiffMCHitFit_3}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_T}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiffRMS_X}
 \newlabel{sub@fig:DiffNoiseStudy_AvDiff_RMS_Int_T}

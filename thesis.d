@@ -98,6 +98,9 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 -include Figs/University_Crest.pdf.gpi.d
 thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
+-include DUNE/Figs/Raster/KaonNDKInteraction.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/KaonNDKInteraction.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/KaonNDKInteraction.png)
 -include DUNE/Figs/Raster/35tonFullDetect.png.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35tonFullDetect.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35tonFullDetect.png)
@@ -281,6 +284,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Count
 -include 35tonData/Figs/Raster/InterceptCanvasOverlay.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
+-include 35tonData/Figs/Raster/ChargeCutOverlay.png.gpi.d
+thesis.d: $$(call graphics-source,35tonData/Figs/Raster/ChargeCutOverlay.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/ChargeCutOverlay.png)
 -include 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)

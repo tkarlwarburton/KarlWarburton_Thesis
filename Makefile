@@ -1370,7 +1370,7 @@ graphic_source_extensions	:= mp \
 				   eps.gz
 
 ifeq "$(strip $(BUILD_STRATEGY))" "latex"
-graphic_source_extensions	+= png jpg jpeg eps
+graphic_source_extensions	+= eps png jpg jpeg
 graphic_target_extensions	:= eps ps
 endif
 

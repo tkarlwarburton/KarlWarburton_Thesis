@@ -2,6 +2,9 @@
 % BIBLIOGRAPHY FILE
 % ------------------------------------------------------------------------
 
+% Examples of how to write references http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/IEEEtran/bibtex/IEEEexample.bib
+%  The pdf which goes with that .bib  http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf
+
 % ==================== DUNE chapter ====================
 @article{ROOT,
  author         = "Brun, R. and Rademakers, F.",
@@ -39,17 +42,17 @@
  SLACcitation   = "%%CITATION = ARXIV:1311.6774;%%"
 }
 
-@misc{LArSoftOrg,
- key = {The LArSoft Collaboration},
- title = {LArSoft},
- year = {2017},
- note = {[online] \url{http://larsoft.org}},
- url = {http://larsoft.org},
+@electronic{LArSoftOrg,
+ author = "{The LArSoft collabortion}",
+ title  = "{Software for LArTPCs}",
+ url    = "http://larsoft.org",
+ year   = "2017",
+ key    = "The LArSoft Collaboration"
 }
 
 @article{GENIE,
  author = "C. Andreopoulos and others",
- title = "The \{GENIE\} neutrino Monte Carlo generator ",
+ title = "{The GENIE neutrino Monte Carlo generator}",
  year = "2010",
  journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
  volume = "614",
@@ -78,16 +81,15 @@
  SLACcitation   = "%%CITATION = HEP-PH/0208030;%%"
 }
 
-@misc{CRY,
- key    = {Hagman, C. et al.},
- title  = {Cosmic-ray Shower Library \{CRY\}},
- year   = {2012},
- note   = {[online] \url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf}},
- url    = {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf},
+@electronic{CRY,
+ author = "C. Hagman and others",
+ title  = "{Cosmic-ray Shower Library CRY}",
+ url    = "http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf",
+ year   = "2012"
 }
 
 @article{MUSUN,
- title = "Muon simulation codes \{MUSIC\} and \{MUSUN\} for underground physics ",
+ title = "{Muon simulation codes MUSIC and MUSUN for underground physics}",
  journal = "Computer Physics Communications ",
  volume = "180",
  number = "3",
@@ -143,12 +145,12 @@
  SLACcitation   = "%%CITATION = HEP-PH/9911493;%%"
 }
 
-@misc{LArSoftRecoNote,
-  key   = {DUNE DocDB 1689},
-  title = {The Current Status of Simulation and Reconstruction for the DUNE Far Detector},
-  year  = {2016},
-  note  = {[online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}},
-  url   = {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689},
+@electronic{LArSoftRecoNote,
+  author = "J. Asaadi and others",
+  title  = "{The Current Status of Simulation and Reconstruction for the DUNE Far Detector}",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689",
+  month  = "Sept",
+  year   = "2016"
 }
 
 @inproceedings{HarrisTrans,
@@ -188,8 +190,7 @@
 
 @article{Pandora,
   author         = "Marshall, J. S. and Thomson, M. A.",
-  title          = "{The Pandora Software Development Kit for Pattern
-                     Recognition}",
+  title          = "{The Pandora Software Development Kit for Pattern Recognition}",
   journal        = "Eur. Phys. J.",
   volume         = "C75",
   year           = "2015",
@@ -202,12 +203,12 @@
   SLACcitation   = "%%CITATION = ARXIV:1506.05348;%%"
 }
 
-@misc{EMShower,
-  key   = {DUNE DocDB 1369},
-  title = {EMShower Reconstruction},
-  year  = {2016},
-  note  = {[online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}},
-  url   = {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369},
+@electronic{EMShower,
+  author = "Wallbank, M.",
+  title  = "{EMShower Reconstruction}",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369",
+  month  = "June",
+  year   = "2016"
 }
 
 @article{BirksModel,
@@ -296,12 +297,12 @@
 
 % ==================== 35 ton data chapter ====================
 
-@misc{InslerStuckCode,
-  key   = {Insler, J. LSU. 35 ton Meeting},
-  title = {Module to unstick ADC codes},
-  year  = {2016},
-  note  = {[online] \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}},
-  url   = {https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627},
+@electronic{InslerStuckCode,
+ author = "Insler, J.",
+ title  = "{Module to unstick ADC codes}",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627",
+ month  = "March",
+ year   = "2016"
 }
 
 @article{CoTuFFT,
@@ -321,36 +322,36 @@
   year   = "1942",
 }
 
-@misc{uBooNENoise,
-  key   = {MicroBooNE Collaboration},
-  title = {Noise Characterization and Filtering in the MicroBooNE TPC},
-  year  = {2016},
-  note  = {[online] \url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}},
-  url   = {http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf},
+@electronic{uBooNENoise,
+  author = "{\relax MicroBooNE Collaboration}",
+  title  = "{Noise Characterization and Filtering in the MicroBooNE TPC}",
+  url    = "http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf",
+  month  = "July",
+  year   = "2016"
 }
 
-@misc{35tonNoiseMeeting,
-  key   = {DUNE DocDB 1704},
-  title = {35T Observations and Measurements},
-  year  = {2016},
-  note  = {[online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}},
-  url   = {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704},
+@electronic{35tonNoiseMeeting,
+  author = "Johnson, M. and others",
+  title  = "{35T Observations and Measurements}",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704",
+  month  = "August",
+  year   = "2016"
 }
 
-@misc{35tonNoiseDoc,
-  key   = {DUNE DocDB 1834},
-  title = {35T Noise Studies Summary - APA wire readout noise},
-  year  = {2016},
-  note  = {[online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument}},
-  url   = {http://docs.dunescience.org:8080/cgi-bin/ShowDocument},
+@electronic{35tonNoiseDoc,
+  author = "Bagby, L. and others",
+  title  = "{35T Noise Studies Summary - APA wire readout noise}",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument",
+  month  = "Oct",
+  year   = "2016"
 }
 
-@misc{TingjunClustering,
-  key   = {Yang, T. Fermilab. 35 ton Meeting},
-  title = {Update on reconstruction of 35t data},
-  year  = {2016},
-  note  = {[online] \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}},
-  url   = {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349},
+@electronic{TingjunClustering,
+ author = "Yang, T.",
+ title  = "Update on reconstruction of 35t data",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349",
+ month  = "June",
+ year   = "2016"
 }
 
 @article{MLESAC,
@@ -364,12 +365,12 @@
   publisher={Elsevier},
 }
 
-@misc{MattMLESAC,
- key   = {Thiesse, M. Sheffield University. 35 ton Meeting},
- title = {SOMETHING},
- year  = {2016},
- note  = {[online] /url{SOMETHING}},
- url   = {SOMETHING},
+@electronic{MattMLESAC,
+ author = "Thiesse, M.",
+ title  = "Hit Reconstruction and Purity",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12859",
+ month  = "Aug",
+ year   = "2016"
 }
 
 @article{ArgoNeuT,
@@ -387,54 +388,54 @@
  SLACcitation   = "%%CITATION = ARXIV:1205.6747;%%"
 }
 
-@misc{TingjunLifetime,
-  key   = {Yang, T. Fermilab. 35 ton Meeting},
-  title = {Update on 35 ton analysis},
-  year  = {2016},
-  note  = {[online] \url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}},
-  url   = {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396},
+@electronic{TingjunLifetime,
+ author = "Yang, T.",
+ title  = "Update on 35 ton analysis",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396",
+ month  = "June",
+ year   = "2016"
 }
 
 @article{Atrazhev-Timoshkin,
-      author         = "V. M. Atrazhev and I. V. Timoshkin",
-      title          = "{Trasport of electrons in atomic liquids in high electric fields}",
-      journal        = "IEEE Trans. Dielectrics and Electrical Insulation",
-      volume         = "5",
-      year           = "1998",
-      pages          = "450-457",
-      doi            = "10.1109/94.689434",
+ author         = "V. M. Atrazhev and I. V. Timoshkin",
+ title          = "{Trasport of electrons in atomic liquids in high electric fields}",
+ journal        = "IEEE Trans. Dielectrics and Electrical Insulation",
+ volume         = "5",
+ year           = "1998",
+ pages          = "450-457",
+ doi            = "10.1109/94.689434",
 }
 
 @article{Li:2015rqa,
-      author         = "Li, Yichen and others",
-      title          = "{Measurement of Longitudinal Electron Diffusion in Liquid Argon}",
-      journal        = "Nucl. Instrum. Meth.",
-      volume         = "A816",
-      year           = "2016",
-      pages          = "160-170",
-      doi            = "10.1016/j.nima.2016.01.094",
-      eprint         = "1508.07059",
-      archivePrefix  = "arXiv",
-      primaryClass   = "physics.ins-det",
+ author         = "Li, Yichen and others",
+ title          = "{Measurement of Longitudinal Electron Diffusion in Liquid Argon}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A816",
+ year           = "2016",
+ pages          = "160-170",
+ doi            = "10.1016/j.nima.2016.01.094",
+ eprint         = "1508.07059",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
 }
 
-@misc{DomSeptMeeting,
-  key   = {Brailsford, D. Lancaster University. DUNE collaboration meeting},
-  title = {Looking at electron diffusion in 35t data and MC},
-  year  = {2016},
-  note  = {[online] \url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}},
-  url   = {https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613},
+@electronic{DomSeptMeeting,
+ author = "Brailsford, D.",
+ title  = "{Looking at electron diffusion in 35t data and MC}",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613",
+ month  = "Sept",
+ year   = "2016"
 }
 
 @article{LongBo,
-  title={Design and operation of LongBo: a 2 m long drift liquid argon TPC},
-  author={Bromberg, C and others},
-  journal={Journal of Instrumentation},
-  volume={10},
-  number={07},
-  pages={P07015},
-  year={2015},
-  publisher={IOP Publishing}
+ title    = {Design and operation of LongBo: a 2 m long drift liquid argon TPC},
+ author   = {Bromberg, C and others},
+ journal  = {Journal of Instrumentation},
+ volume   = {10},
+ number   = {07},
+ pages    = {P07015},
+ year     = {2015},
+ publisher= {IOP Publishing}
 }
 
 % ==================== Far detector chapter ====================
@@ -468,35 +469,42 @@
  url = {http://link.aps.org/doi/10.1103/PhysRevD.27.1444}
 }
 
-@misc{NDKTFNote,
-  key   = {DUNE DocDB 1644},
-  title = {September 2016 Progress Report from the Atmospheric Neutrinos, Nucleon Decay, and Cosmogenics Working Groups},
-  year  = {2016},
-  note  = {[online] \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644}},
-  url   = {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644},
+@electronic{NDKTFNote,
+ author = "Church, E.",
+ title  = "{September 2016 Progress Report from the Atmospheric Neutrinos, Nucleon Decay, and Cosmogenics Working Groups}",
+ url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644",
+ month  = "Sept",
+ year   = "2016"
 }
 
-@misc{MUSUNLBNE,
-  key   = {LBNE DocDB 9673},
-  title = {Muon simulations for LBNE using MUSIC and MUSUN},
-  year  = {2014},
-  note  = {[online] \url{http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673}},
-  url   = {http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673},
+@electronic{MUSUNLBNE,
+ author = "Kudryavtsev, V. A. and others",
+ title  = "{Muon simulations for LBNE using MUSIC and MUSUN}",
+ url    = "http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673",
+ year   = "2014",
 }
 
 @article{Bueno,
-  author         = "Bueno, A. and Dai, Z. and Ge, Y. and Laffranchi, M. and
-                    Melgarejo, A. J. and Meregaglia, A. and Navas, Sergio and
-                    Rubbia, A.",
-  title          = "{Nucleon decay searches with large liquid argon TPC detectors at shallow depths: Atmospheric neutrinos and cosmogenic backgrounds}",
-  journal        = "JHEP",
-  volume         = "04",
-  year           = "2007",
-  pages          = "041",
-  doi            = "10.1088/1126-6708/2007/04/041",
-  eprint         = "hep-ph/0701101",
-  archivePrefix  = "arXiv",
-  primaryClass   = "hep-ph",
-  SLACcitation   = "%%CITATION = HEP-PH/0701101;%%"
+ author         = "Bueno, A. and Dai, Z. and Ge, Y. and Laffranchi, M. and
+                   Melgarejo, A. J. and Meregaglia, A. and Navas, Sergio and
+                   Rubbia, A.",
+ title          = "{Nucleon decay searches with large liquid argon TPC detectors at shallow depths: Atmospheric neutrinos and cosmogenic backgrounds}",
+ journal        = "JHEP",
+ volume         = "04",
+ year           = "2007",
+ pages          = "041",
+ doi            = "10.1088/1126-6708/2007/04/041",
+ eprint         = "hep-ph/0701101",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = HEP-PH/0701101;%%"
+}
+
+@electronic{CosmoJanCollabMeeting,
+ author = "Robinson, M.",
+ title  = "Cosmogenic background to nucelon decay",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641",
+ month  = "Jan",
+ year   = "2017"
 }
 % ------------------------------------------------------------------------
