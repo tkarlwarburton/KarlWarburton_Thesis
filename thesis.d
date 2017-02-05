@@ -311,4 +311,7 @@ thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs
 -include FarDetectorSimulations/Figs/Raster/MuonPosCan.png.gpi.d
 thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+-include FarDetectorSimulations/Figs/Raster/MissedKaon.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

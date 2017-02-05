@@ -45,9 +45,9 @@
 \contentsline {section}{\numberline {7.2}The use of MUSUN in LArSoft}{102}{section.7.2}
 \contentsline {section}{\numberline {7.3}Nucleon decay channels in DUNE}{106}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{107}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{110}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Energy constraints on the cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{114}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Future improvements to nucleon decay studies}{114}{subsection.7.3.4}
-\contentsline {chapter}{References}{115}{chapter*.83}
-\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{119}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{128}{Appendix.a.B}
+\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{114}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Energy constraints on the cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{122}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Future improvements to nucleon decay studies}{128}{subsection.7.3.4}
+\contentsline {chapter}{References}{129}{chapter*.94}
+\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{133}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{142}{Appendix.a.B}

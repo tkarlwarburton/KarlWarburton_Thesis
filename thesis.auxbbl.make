@@ -685,7 +685,7 @@
 \@LN{1616}{106}
 \@LN{1617}{106}
 \@LN{1618}{106}
-\@LN{1619}{107}
+\@LN{1619}{106}
 \@LN{161}{25}
 \@LN{1620}{107}
 \@LN{1621}{107}
@@ -720,8 +720,8 @@
 \@LN{1648}{107}
 \@LN{1649}{107}
 \@LN{164}{25}
-\@LN{1650}{108}
-\@LN{1651}{108}
+\@LN{1650}{107}
+\@LN{1651}{107}
 \@LN{1652}{108}
 \@LN{1653}{108}
 \@LN{1654}{108}
@@ -758,8 +758,8 @@
 \@LN{1682}{108}
 \@LN{1683}{108}
 \@LN{1684}{108}
-\@LN{1685}{109}
-\@LN{1686}{109}
+\@LN{1685}{108}
+\@LN{1686}{108}
 \@LN{1687}{109}
 \@LN{1688}{109}
 \@LN{1689}{109}
@@ -798,25 +798,25 @@
 \@LN{1718}{109}
 \@LN{1719}{109}
 \@LN{171}{25}
-\@LN{1720}{111}
-\@LN{1721}{111}
-\@LN{1722}{111}
-\@LN{1723}{111}
-\@LN{1724}{111}
-\@LN{1725}{111}
-\@LN{1726}{111}
-\@LN{1727}{111}
-\@LN{1728}{111}
-\@LN{1729}{111}
+\@LN{1720}{109}
+\@LN{1721}{109}
+\@LN{1722}{109}
+\@LN{1723}{110}
+\@LN{1724}{110}
+\@LN{1725}{110}
+\@LN{1726}{110}
+\@LN{1727}{110}
+\@LN{1728}{110}
+\@LN{1729}{110}
 \@LN{172}{25}
-\@LN{1730}{111}
-\@LN{1731}{111}
-\@LN{1732}{111}
-\@LN{1733}{111}
-\@LN{1734}{111}
-\@LN{1735}{111}
-\@LN{1736}{111}
-\@LN{1737}{111}
+\@LN{1730}{110}
+\@LN{1731}{110}
+\@LN{1732}{110}
+\@LN{1733}{110}
+\@LN{1734}{110}
+\@LN{1735}{110}
+\@LN{1736}{110}
+\@LN{1737}{110}
 \@LN{1738}{111}
 \@LN{1739}{111}
 \@LN{173}{26}
@@ -837,27 +837,27 @@
 \@LN{1753}{111}
 \@LN{1754}{111}
 \@LN{1755}{111}
-\@LN{1756}{113}
-\@LN{1757}{113}
-\@LN{1758}{113}
-\@LN{1759}{113}
+\@LN{1756}{111}
+\@LN{1757}{112}
+\@LN{1758}{112}
+\@LN{1759}{112}
 \@LN{175}{26}
-\@LN{1760}{113}
-\@LN{1761}{113}
-\@LN{1762}{113}
-\@LN{1763}{113}
-\@LN{1764}{113}
-\@LN{1765}{113}
-\@LN{1766}{113}
-\@LN{1767}{113}
-\@LN{1768}{113}
-\@LN{1769}{113}
+\@LN{1760}{112}
+\@LN{1761}{112}
+\@LN{1762}{112}
+\@LN{1763}{112}
+\@LN{1764}{112}
+\@LN{1765}{112}
+\@LN{1766}{112}
+\@LN{1767}{112}
+\@LN{1768}{112}
+\@LN{1769}{112}
 \@LN{176}{26}
-\@LN{1770}{113}
-\@LN{1771}{113}
-\@LN{1772}{113}
-\@LN{1773}{113}
-\@LN{1774}{113}
+\@LN{1770}{112}
+\@LN{1771}{112}
+\@LN{1772}{112}
+\@LN{1773}{112}
+\@LN{1774}{112}
 \@LN{1775}{113}
 \@LN{1776}{113}
 \@LN{1777}{113}
@@ -867,23 +867,23 @@
 \@LN{1780}{113}
 \@LN{1781}{113}
 \@LN{1782}{113}
-\@LN{1783}{114}
-\@LN{1784}{114}
-\@LN{1785}{114}
-\@LN{1786}{114}
-\@LN{1787}{114}
-\@LN{1788}{114}
-\@LN{1789}{114}
+\@LN{1783}{113}
+\@LN{1784}{113}
+\@LN{1785}{113}
+\@LN{1786}{113}
+\@LN{1787}{113}
+\@LN{1788}{113}
+\@LN{1789}{113}
 \@LN{178}{27}
-\@LN{1790}{114}
-\@LN{1791}{114}
-\@LN{1792}{114}
-\@LN{1793}{114}
-\@LN{1794}{114}
-\@LN{1795}{114}
-\@LN{1796}{114}
-\@LN{1797}{114}
-\@LN{1798}{114}
+\@LN{1790}{113}
+\@LN{1791}{113}
+\@LN{1792}{113}
+\@LN{1793}{113}
+\@LN{1794}{113}
+\@LN{1795}{113}
+\@LN{1796}{113}
+\@LN{1797}{113}
+\@LN{1798}{113}
 \@LN{1799}{114}
 \@LN{179}{27}
 \@LN{17}{17}
@@ -902,164 +902,345 @@
 \@LN{1811}{114}
 \@LN{1812}{114}
 \@LN{1813}{114}
-\@LN{1814}{115}
-\@LN{1815}{115}
-\@LN{1816}{115}
-\@LN{1817}{115}
-\@LN{1818}{115}
-\@LN{1819}{115}
+\@LN{1814}{114}
+\@LN{1815}{114}
+\@LN{1816}{116}
+\@LN{1817}{116}
+\@LN{1818}{116}
+\@LN{1819}{116}
 \@LN{181}{27}
-\@LN{1820}{115}
-\@LN{1821}{115}
-\@LN{1822}{115}
-\@LN{1823}{115}
-\@LN{1824}{115}
-\@LN{1825}{115}
-\@LN{1826}{115}
-\@LN{1827}{115}
-\@LN{1828}{115}
-\@LN{1829}{115}
+\@LN{1820}{116}
+\@LN{1821}{116}
+\@LN{1822}{116}
+\@LN{1823}{116}
+\@LN{1824}{116}
+\@LN{1825}{116}
+\@LN{1826}{116}
+\@LN{1827}{116}
+\@LN{1828}{117}
+\@LN{1829}{117}
 \@LN{182}{27}
-\@LN{1830}{115}
-\@LN{1831}{115}
-\@LN{1832}{115}
-\@LN{1833}{115}
-\@LN{1834}{115}
-\@LN{1835}{115}
-\@LN{1836}{115}
-\@LN{1837}{115}
-\@LN{1838}{115}
-\@LN{1839}{115}
+\@LN{1830}{117}
+\@LN{1831}{117}
+\@LN{1832}{117}
+\@LN{1833}{117}
+\@LN{1834}{117}
+\@LN{1835}{117}
+\@LN{1836}{117}
+\@LN{1837}{117}
+\@LN{1838}{117}
+\@LN{1839}{117}
 \@LN{183}{27}
-\@LN{1840}{115}
-\@LN{1841}{115}
-\@LN{1842}{115}
-\@LN{1843}{115}
-\@LN{1844}{115}
-\@LN{1845}{115}
-\@LN{1846}{115}
-\@LN{1847}{115}
-\@LN{1848}{115}
-\@LN{1849}{115}
+\@LN{1840}{117}
+\@LN{1841}{117}
+\@LN{1842}{117}
+\@LN{1843}{117}
+\@LN{1844}{117}
+\@LN{1845}{117}
+\@LN{1846}{117}
+\@LN{1847}{117}
+\@LN{1848}{117}
+\@LN{1849}{117}
 \@LN{184}{27}
-\@LN{1850}{115}
-\@LN{1851}{115}
-\@LN{1852}{116}
-\@LN{1853}{116}
-\@LN{1854}{116}
-\@LN{1855}{116}
-\@LN{1856}{116}
-\@LN{1857}{116}
-\@LN{1858}{116}
-\@LN{1859}{116}
+\@LN{1850}{117}
+\@LN{1851}{117}
+\@LN{1852}{117}
+\@LN{1853}{117}
+\@LN{1854}{117}
+\@LN{1855}{117}
+\@LN{1856}{117}
+\@LN{1857}{117}
+\@LN{1858}{117}
+\@LN{1859}{117}
 \@LN{185}{28}
-\@LN{1860}{116}
-\@LN{1861}{116}
-\@LN{1862}{116}
-\@LN{1863}{116}
-\@LN{1864}{116}
-\@LN{1865}{116}
-\@LN{1866}{116}
-\@LN{1867}{116}
-\@LN{1868}{116}
-\@LN{1869}{116}
+\@LN{1860}{117}
+\@LN{1861}{117}
+\@LN{1862}{117}
+\@LN{1863}{117}
+\@LN{1864}{119}
+\@LN{1865}{119}
+\@LN{1866}{119}
+\@LN{1867}{119}
+\@LN{1868}{119}
+\@LN{1869}{119}
 \@LN{186}{28}
-\@LN{1870}{116}
-\@LN{1871}{116}
-\@LN{1872}{116}
-\@LN{1873}{116}
-\@LN{1874}{116}
-\@LN{1875}{116}
-\@LN{1876}{116}
-\@LN{1877}{116}
-\@LN{1878}{116}
-\@LN{1879}{116}
+\@LN{1870}{119}
+\@LN{1871}{119}
+\@LN{1872}{119}
+\@LN{1873}{119}
+\@LN{1874}{119}
+\@LN{1875}{119}
+\@LN{1876}{119}
+\@LN{1877}{119}
+\@LN{1878}{119}
+\@LN{1879}{119}
 \@LN{187}{28}
-\@LN{1880}{116}
-\@LN{1881}{116}
-\@LN{1882}{116}
-\@LN{1883}{116}
-\@LN{1884}{116}
-\@LN{1885}{116}
-\@LN{1886}{116}
-\@LN{1887}{116}
-\@LN{1888}{116}
-\@LN{1889}{116}
+\@LN{1880}{120}
+\@LN{1881}{120}
+\@LN{1882}{121}
+\@LN{1883}{121}
+\@LN{1884}{121}
+\@LN{1885}{121}
+\@LN{1886}{121}
+\@LN{1887}{121}
+\@LN{1888}{121}
+\@LN{1889}{121}
 \@LN{188}{28}
-\@LN{1890}{116}
-\@LN{1891}{117}
-\@LN{1892}{117}
-\@LN{1893}{117}
-\@LN{1894}{117}
-\@LN{1895}{117}
-\@LN{1896}{117}
-\@LN{1897}{117}
-\@LN{1898}{117}
-\@LN{1899}{117}
+\@LN{1890}{121}
+\@LN{1891}{121}
+\@LN{1892}{121}
+\@LN{1893}{121}
+\@LN{1894}{121}
+\@LN{1895}{121}
+\@LN{1896}{121}
+\@LN{1897}{121}
+\@LN{1898}{121}
+\@LN{1899}{121}
 \@LN{189}{28}
 \@LN{18}{18}
-\@LN{1900}{117}
-\@LN{1901}{118}
-\@LN{1902}{118}
-\@LN{1903}{118}
-\@LN{1904}{118}
-\@LN{1905}{118}
-\@LN{1906}{118}
-\@LN{1907}{118}
-\@LN{1908}{118}
-\@LN{1909}{118}
+\@LN{1900}{121}
+\@LN{1901}{121}
+\@LN{1902}{121}
+\@LN{1903}{121}
+\@LN{1904}{121}
+\@LN{1905}{121}
+\@LN{1906}{121}
+\@LN{1907}{121}
+\@LN{1908}{121}
+\@LN{1909}{121}
 \@LN{190}{28}
-\@LN{1910}{118}
-\@LN{1911}{118}
-\@LN{1912}{118}
-\@LN{1913}{118}
-\@LN{1914}{118}
-\@LN{1915}{118}
-\@LN{1916}{118}
-\@LN{1917}{118}
-\@LN{1918}{118}
-\@LN{1919}{118}
+\@LN{1910}{121}
+\@LN{1911}{121}
+\@LN{1912}{121}
+\@LN{1913}{121}
+\@LN{1914}{122}
+\@LN{1915}{122}
+\@LN{1916}{122}
+\@LN{1917}{122}
+\@LN{1918}{122}
+\@LN{1919}{122}
 \@LN{191}{28}
-\@LN{1920}{118}
-\@LN{1921}{118}
-\@LN{1922}{118}
-\@LN{1923}{118}
-\@LN{1924}{118}
-\@LN{1925}{119}
-\@LN{1926}{119}
-\@LN{1927}{119}
-\@LN{1928}{119}
-\@LN{1929}{119}
+\@LN{1920}{122}
+\@LN{1921}{122}
+\@LN{1922}{122}
+\@LN{1923}{122}
+\@LN{1924}{122}
+\@LN{1925}{122}
+\@LN{1926}{122}
+\@LN{1927}{122}
+\@LN{1928}{122}
+\@LN{1929}{122}
 \@LN{192}{28}
-\@LN{1930}{119}
-\@LN{1931}{119}
-\@LN{1932}{119}
-\@LN{1933}{120}
-\@LN{1934}{120}
-\@LN{1935}{120}
-\@LN{1936}{127}
-\@LN{1937}{127}
+\@LN{1930}{122}
+\@LN{1931}{122}
+\@LN{1932}{122}
+\@LN{1933}{122}
+\@LN{1934}{122}
+\@LN{1935}{122}
+\@LN{1936}{122}
+\@LN{1937}{122}
+\@LN{1938}{122}
+\@LN{1939}{122}
 \@LN{193}{28}
+\@LN{1940}{122}
+\@LN{1941}{122}
+\@LN{1942}{122}
+\@LN{1943}{122}
+\@LN{1944}{122}
+\@LN{1945}{122}
+\@LN{1946}{122}
+\@LN{1947}{123}
+\@LN{1948}{123}
+\@LN{1949}{127}
 \@LN{194}{28}
+\@LN{1950}{127}
+\@LN{1951}{127}
+\@LN{1952}{127}
+\@LN{1953}{127}
+\@LN{1954}{127}
+\@LN{1955}{127}
+\@LN{1956}{127}
+\@LN{1957}{127}
+\@LN{1958}{127}
+\@LN{1959}{127}
 \@LN{195}{28}
+\@LN{1960}{127}
+\@LN{1961}{127}
+\@LN{1962}{127}
+\@LN{1963}{127}
+\@LN{1964}{128}
+\@LN{1965}{128}
+\@LN{1966}{128}
+\@LN{1967}{128}
+\@LN{1968}{128}
+\@LN{1969}{128}
 \@LN{196}{28}
+\@LN{1970}{128}
+\@LN{1971}{128}
+\@LN{1972}{128}
+\@LN{1973}{128}
+\@LN{1974}{128}
+\@LN{1975}{128}
+\@LN{1976}{128}
+\@LN{1977}{128}
+\@LN{1978}{128}
+\@LN{1979}{128}
 \@LN{197}{28}
+\@LN{1980}{128}
+\@LN{1981}{128}
+\@LN{1982}{128}
+\@LN{1983}{128}
+\@LN{1984}{128}
+\@LN{1985}{128}
+\@LN{1986}{128}
+\@LN{1987}{128}
+\@LN{1988}{128}
+\@LN{1989}{128}
 \@LN{198}{28}
+\@LN{1990}{128}
+\@LN{1991}{128}
+\@LN{1992}{128}
+\@LN{1993}{128}
+\@LN{1994}{128}
+\@LN{1995}{129}
+\@LN{1996}{129}
+\@LN{1997}{129}
+\@LN{1998}{129}
+\@LN{1999}{129}
 \@LN{199}{28}
 \@LN{19}{18}
 \@LN{1}{15}
+\@LN{2000}{129}
+\@LN{2001}{129}
+\@LN{2002}{129}
+\@LN{2003}{129}
+\@LN{2004}{129}
+\@LN{2005}{129}
+\@LN{2006}{129}
+\@LN{2007}{129}
+\@LN{2008}{129}
+\@LN{2009}{129}
 \@LN{200}{28}
+\@LN{2010}{129}
+\@LN{2011}{129}
+\@LN{2012}{129}
+\@LN{2013}{129}
+\@LN{2014}{129}
+\@LN{2015}{129}
+\@LN{2016}{129}
+\@LN{2017}{129}
+\@LN{2018}{129}
+\@LN{2019}{129}
 \@LN{201}{28}
+\@LN{2020}{129}
+\@LN{2021}{129}
+\@LN{2022}{129}
+\@LN{2023}{129}
+\@LN{2024}{129}
+\@LN{2025}{129}
+\@LN{2026}{129}
+\@LN{2027}{129}
+\@LN{2028}{129}
+\@LN{2029}{129}
 \@LN{202}{28}
+\@LN{2030}{129}
+\@LN{2031}{129}
+\@LN{2032}{129}
+\@LN{2033}{130}
+\@LN{2034}{130}
+\@LN{2035}{130}
+\@LN{2036}{130}
+\@LN{2037}{130}
+\@LN{2038}{130}
+\@LN{2039}{130}
 \@LN{203}{28}
+\@LN{2040}{130}
+\@LN{2041}{130}
+\@LN{2042}{130}
+\@LN{2043}{130}
+\@LN{2044}{130}
+\@LN{2045}{130}
+\@LN{2046}{130}
+\@LN{2047}{130}
+\@LN{2048}{130}
+\@LN{2049}{130}
 \@LN{204}{28}
+\@LN{2050}{130}
+\@LN{2051}{130}
+\@LN{2052}{130}
+\@LN{2053}{130}
+\@LN{2054}{130}
+\@LN{2055}{130}
+\@LN{2056}{130}
+\@LN{2057}{130}
+\@LN{2058}{130}
+\@LN{2059}{130}
 \@LN{205}{28}
+\@LN{2060}{130}
+\@LN{2061}{130}
+\@LN{2062}{130}
+\@LN{2063}{130}
+\@LN{2064}{130}
+\@LN{2065}{130}
+\@LN{2066}{130}
+\@LN{2067}{130}
+\@LN{2068}{130}
+\@LN{2069}{130}
 \@LN{206}{28}
+\@LN{2070}{130}
+\@LN{2071}{130}
+\@LN{2072}{131}
+\@LN{2073}{131}
+\@LN{2074}{131}
+\@LN{2075}{131}
+\@LN{2076}{131}
+\@LN{2077}{131}
+\@LN{2078}{131}
+\@LN{2079}{131}
 \@LN{207}{28}
+\@LN{2080}{131}
+\@LN{2081}{131}
+\@LN{2082}{132}
+\@LN{2083}{132}
+\@LN{2084}{132}
+\@LN{2085}{132}
+\@LN{2086}{132}
+\@LN{2087}{132}
+\@LN{2088}{132}
+\@LN{2089}{132}
 \@LN{208}{28}
+\@LN{2090}{132}
+\@LN{2091}{132}
+\@LN{2092}{132}
+\@LN{2093}{132}
+\@LN{2094}{132}
+\@LN{2095}{132}
+\@LN{2096}{132}
+\@LN{2097}{132}
+\@LN{2098}{132}
+\@LN{2099}{132}
 \@LN{209}{28}
 \@LN{20}{18}
+\@LN{2100}{132}
+\@LN{2101}{132}
+\@LN{2102}{132}
+\@LN{2103}{132}
+\@LN{2104}{132}
+\@LN{2105}{132}
+\@LN{2106}{133}
+\@LN{2107}{133}
+\@LN{2108}{133}
+\@LN{2109}{133}
 \@LN{210}{28}
+\@LN{2110}{133}
+\@LN{2111}{133}
+\@LN{2112}{133}
+\@LN{2113}{133}
+\@LN{2114}{134}
+\@LN{2115}{134}
+\@LN{2116}{134}
+\@LN{2117}{141}
+\@LN{2118}{141}
 \@LN{211}{29}
 \@LN{212}{29}
 \@LN{213}{29}
@@ -2018,29 +2199,39 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces The effect of noise removal algorithms in the 35 ton}}{64}{figure.caption.44}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces $dQ/dx$ in the 35 ton as a function of drift time}}{67}{figure.caption.45}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.9}{\ignorespaces The numbering scheme for the East - West counters in the 35 ton}}{68}{figure.caption.46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces A simulated $n \rightarrow K^{+} + e^{-}$ decay where the kaon did not deposit any energy in the active volume}}{117}{figure.caption.86}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces The number of events, as a function of the energy deposited within 2 cm, 5 cm, and 10 cm of the detector edges.}}{119}{figure.caption.87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces The seperation of the kaon and the electron produced in the $n \rightarrow K^{+} + e^{-}$ decay channel}}{120}{figure.caption.88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces The normalised energy distribution of signal events, and cosmic background events, surviving the application of sequential cuts, after the fiducial cut is modified}}{121}{figure.caption.89}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces The energy directly deposited by kaons, as a function of the energy directly deposited by electrons, in the simulated nucleon decay, and cosmic background samples}}{124}{figure.caption.90}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces The energy directly deposited by kaons, plus the energy directly deposited by electrons, as a function of the energy deposited near the kaon and electron vertex, in the simulated nucleon decay, and cosmic background samples}}{125}{figure.caption.91}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces The energy directly deposited by kaons, plus the energy deposited by the kaon decay products, as a function of the energy depositions which do not fit any of the other criteria, in the simulated nucleon decay, and cosmic background samples}}{126}{figure.caption.92}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces The energy directly deposited by kaons, plus the energy deposited by the kaon decay products, plus the energy directly deposited by electrons, plus the energy deposited near the kaon and electron vertex, as a function of the energy depositions which do not fit any of the other criteria, in the simulated nucleon decay, and cosmic background samples}}{127}{figure.caption.93}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces The correlation between the surface profile and distribution of azimuthal angles at the DUNE far detector site}}{104}{figure.caption.75}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces The distributions of some of the important quantities for a sample of 10$^6$ muons generated by MUSUN in LArSoft}}{105}{figure.caption.77}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces The initial positions of muons generated by MUSUN around a DUNE 10 kt module}}{106}{figure.caption.78}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces The energy distribution of background events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{111}{figure.caption.79}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces The normalised energy distribution of background events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{111}{figure.caption.80}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces The energy distribution of signal events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{113}{figure.caption.81}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces The normalised energy distribution of signal events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{113}{figure.caption.82}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electric field changes}}{124}{figure.caption.93}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electric field changes}}{125}{figure.caption.94}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.12}{\ignorespaces The normalised hit charge distribution as the electric field changes}}{125}{figure.caption.95}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.13}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the constant of longitudinal diffusion changes}}{126}{figure.caption.96}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.14}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the constant of longitudinal diffusion changes}}{126}{figure.caption.97}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.15}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the constant of longitudinal changes}}{127}{figure.caption.98}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.16}{\ignorespaces The normalised hit charge distribution as the constant of longitudinal diffusion changes}}{127}{figure.caption.99}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electronics noise changes}}{120}{figure.caption.84}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electronics noise changes}}{120}{figure.caption.85}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electronics noise changes}}{121}{figure.caption.86}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces The normalised hit charge distribution as the electronics noise changes}}{121}{figure.caption.87}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.5}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electron lifetime changes}}{122}{figure.caption.88}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.6}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electron lifetime changes}}{122}{figure.caption.89}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electron lifetime changes}}{123}{figure.caption.90}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces The normalised hit charge distribution as the electron lifetime changes}}{123}{figure.caption.91}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electric field changes}}{124}{figure.caption.92}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces A simulated $n \rightarrow K^{+} + e^{-}$ decay which occured in a gap between TPCs}}{111}{figure.caption.79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces The energy distribution of background events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{112}{figure.caption.80}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces The normalised energy distribution of background events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{113}{figure.caption.81}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A simulated $n \rightarrow K^{+} + e^{-}$ decay which occured near the edge of the detector volume}}{115}{figure.caption.83}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces The energy distribution of signal events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{116}{figure.caption.84}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces The normalised energy distribution of signal events surviving the application of sequential cuts in the $n \rightarrow K^{+} + e^{-}$ channel}}{116}{figure.caption.85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.10}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electric field changes}}{138}{figure.caption.104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.11}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electric field changes}}{139}{figure.caption.105}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.12}{\ignorespaces The normalised hit charge distribution as the electric field changes}}{139}{figure.caption.106}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.13}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the constant of longitudinal diffusion changes}}{140}{figure.caption.107}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.14}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the constant of longitudinal diffusion changes}}{140}{figure.caption.108}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.15}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the constant of longitudinal changes}}{141}{figure.caption.109}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.16}{\ignorespaces The normalised hit charge distribution as the constant of longitudinal diffusion changes}}{141}{figure.caption.110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electronics noise changes}}{134}{figure.caption.95}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electronics noise changes}}{134}{figure.caption.96}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electronics noise changes}}{135}{figure.caption.97}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces The normalised hit charge distribution as the electronics noise changes}}{135}{figure.caption.98}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.5}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electron lifetime changes}}{136}{figure.caption.99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.6}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electron lifetime changes}}{136}{figure.caption.100}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.7}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electron lifetime changes}}{137}{figure.caption.101}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.8}{\ignorespaces The normalised hit charge distribution as the electron lifetime changes}}{137}{figure.caption.102}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.9}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electric field changes}}{138}{figure.caption.103}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -2058,12 +2249,13 @@
 \@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces A summary of the PIDA values calculated for the primary particles in the proton sample as sequential cuts are applied}}{53}{table.caption.36}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces The angles which tracks, with given counter differences have, relative to the APA frames}}{71}{table.caption.49}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Muon flux parameters as calculated with MUSIC/MUSUN.}}{103}{table.caption.76}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{119}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{128}{Appendix.a.B}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The number of events surviving isolated cuts which could mimic a $n \rightarrow K^{+} + e^{-}$ decay}}{114}{table.caption.82}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{133}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Something else mildly interesting}{142}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{9}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{14}{chapter*.6}}
 \@writefile{toc}{\contentsline {chapter}{Nomenclature}{15}{chapter*.7}}
-\@writefile{toc}{\contentsline {chapter}{References}{115}{chapter*.83}}
+\@writefile{toc}{\contentsline {chapter}{References}{129}{chapter*.94}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{16}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Theory}{17}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{18}{chapter.3}}
@@ -2107,9 +2299,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5.3}Discerning the impact of changing detector properties using Monte Carlo samples}{91}{subsection.6.5.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{95}{subsection.6.5.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{107}{subsection.7.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{110}{subsection.7.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Energy constraints on the cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{114}{subsection.7.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Future improvements to nucleon decay studies}{114}{subsection.7.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Signal events in the $n \rightarrow K^{+} + e^{-}$ decay channel}{114}{subsection.7.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Energy constraints on the cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{122}{subsection.7.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Future improvements to nucleon decay studies}{128}{subsection.7.3.4}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -2297,9 +2489,9 @@
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{LN@truepage}{101}
-\setcounter{LN@truepage}{114}
-\setcounter{LN@truepage}{127}
 \setcounter{LN@truepage}{128}
+\setcounter{LN@truepage}{141}
+\setcounter{LN@truepage}{142}
 \setcounter{LN@truepage}{16}
 \setcounter{LN@truepage}{17}
 \setcounter{LN@truepage}{27}
@@ -2422,10 +2614,10 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{16}
+\setcounter{figure}{17}
 \setcounter{figure}{18}
 \setcounter{figure}{36}
 \setcounter{figure}{6}
-\setcounter{figure}{7}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -2446,10 +2638,10 @@
 \setcounter{linenumber}{10}
 \setcounter{linenumber}{1492}
 \setcounter{linenumber}{177}
-\setcounter{linenumber}{1783}
 \setcounter{linenumber}{185}
-\setcounter{linenumber}{1936}
-\setcounter{linenumber}{1938}
+\setcounter{linenumber}{1964}
+\setcounter{linenumber}{2117}
+\setcounter{linenumber}{2119}
 \setcounter{linenumber}{4}
 \setcounter{linenumber}{685}
 \setcounter{mpfootnote}{0}
@@ -2466,9 +2658,9 @@
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{page}{102}
-\setcounter{page}{115}
-\setcounter{page}{128}
 \setcounter{page}{129}
+\setcounter{page}{142}
+\setcounter{page}{143}
 \setcounter{page}{17}
 \setcounter{page}{18}
 \setcounter{page}{28}
@@ -2553,7 +2745,7 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
+\setcounter{subfigure}{2}
 \setcounter{subfigure}{2}
 \setcounter{subfigure}{2}
 \setcounter{subparagraph}{0}
@@ -2619,7 +2811,7 @@
 \setcounter{table}{0}
 \setcounter{table}{1}
 \setcounter{table}{1}
-\setcounter{table}{1}
+\setcounter{table}{2}
 \setcounter{table}{5}
 }
 }

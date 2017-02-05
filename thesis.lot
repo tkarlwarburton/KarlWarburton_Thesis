@@ -13,5 +13,6 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces The angles which tracks, with given counter differences have, relative to the APA frames}}{71}{table.caption.49}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Muon flux parameters as calculated with MUSIC/MUSUN.}}{103}{table.caption.76}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The number of events surviving isolated cuts which could mimic a $n \rightarrow K^{+} + e^{-}$ decay}}{114}{table.caption.82}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
