@@ -1,32 +1,15 @@
 \begin{thenomenclature} 
 
- \nomgroup{A}
-
-  \item [{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {3.0}
-		\nompageref{11}
-
  \nomgroup{Z}
 
-  \item [{CRC}]\begingroup Cosmic Ray Counter\nomeqref {3.0}
-		\nompageref{11}
-  \item [{FD}]\begingroup Far Detector\nomeqref {3.0}\nompageref{11}
-  \item [{MIP}]\begingroup Minimally Ionising Particle\nomeqref {4.0}
-		\nompageref{22}
-  \item [{MPV}]\begingroup Most Probable Value\nomeqref {4.0}
-		\nompageref{22}
-  \item [{PID}]\begingroup Particle IDentification\nomeqref {4.0}
-		\nompageref{22}
-  \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {4.0}
-		\nompageref{22}
-  \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {6.0}
-		\nompageref{95}
-  \item [{ROI}]\begingroup Region Of Interest\nomeqref {4.0}
-		\nompageref{22}
-  \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {3.0}
-		\nompageref{11}
-  \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {3.0}
-		\nompageref{11}
-  \item [{TPC}]\begingroup Time Projection Chamber\nomeqref {3.0}
-		\nompageref{11}
+  \item [{CCD}]\begingroup Charge-Couple Device\nomeqref {1.0}
+		\nompageref{1}
+  \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {1.0}
+		\nompageref{1}
+  \item [{DVR}]\begingroup Digital Video Recorder\nomeqref {1.0}
+		\nompageref{1}
+  \item [{HV}]\begingroup High Voltage\nomeqref {1.0}\nompageref{1}
+  \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {1.0}
+		\nompageref{10}
 
 \end{thenomenclature}

@@ -1,72 +1,118 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Dedication/dedication.aux
-A level-1 auxiliary file: Declaration/declaration.aux
-A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
-A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Introduction/Introduction.aux
-A level-1 auxiliary file: Theory/Theory.aux
-A level-1 auxiliary file: DUNE/DUNE.aux
+I couldn't open auxiliary file Dedication/dedication.aux
+---line 19 of file thesis.aux
+ : \@input{Dedication/dedication.aux
+ :                                  }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Declaration/declaration.aux
+---line 20 of file thesis.aux
+ : \@input{Declaration/declaration.aux
+ :                                    }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Acknowledgement/acknowledgement.aux
+---line 21 of file thesis.aux
+ : \@input{Acknowledgement/acknowledgement.aux
+ :                                            }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Abstract/abstract.aux
+---line 22 of file thesis.aux
+ : \@input{Abstract/abstract.aux
+ :                              }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Introduction/Introduction.aux
+---line 23 of file thesis.aux
+ : \@input{Introduction/Introduction.aux
+ :                                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Theory/Theory.aux
+---line 24 of file thesis.aux
+ : \@input{Theory/Theory.aux
+ :                          }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file DUNE/DUNE.aux
+---line 25 of file thesis.aux
+ : \@input{DUNE/DUNE.aux
+ :                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: The35tonCameras/The35tonCameras.aux
-A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
-A level-1 auxiliary file: 35tonData/35tonData.aux
+I couldn't open auxiliary file 35tonSimulation/35tonSimulation.aux
+---line 28 of file thesis.aux
+ : \@input{35tonSimulation/35tonSimulation.aux
+ :                                            }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file 35tonData/35tonData.aux
+---line 29 of file thesis.aux
+ : \@input{35tonData/35tonData.aux
+ :                                }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
 The style file: IEEEtran.bst
-A level-1 auxiliary file: Appendix1/appendix1.aux
-A level-1 auxiliary file: Appendix2/appendix2.aux
+I couldn't open auxiliary file Appendix1/appendix1.aux
+---line 33 of file thesis.aux
+ : \@input{Appendix1/appendix1.aux
+ :                                }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Appendix2/appendix2.aux
+---line 34 of file thesis.aux
+ : \@input{Appendix2/appendix2.aux
+ :                                }
+I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References/references.bib
+Warning--I didn't find a database entry for "MartinsThesis"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in Church_LArSoft
-Warning--empty booktitle in HarrisTrans
+Warning--empty journal in DUNECDR
+Warning--empty journal in CameraPaper
+Warning--empty journal in SBNProposal
 
 Done.
-You've used 44 entries,
+You've used 34 entries,
             4039 wiz_defined-function locations,
-            1131 strings with 15230 characters,
-and the built_in function-call counts, 27468 in all, are:
-= -- 2381
-> -- 499
-< -- 194
-+ -- 281
-- -- 88
-* -- 1225
-:= -- 4484
-add.period$ -- 89
-call.type$ -- 44
-change.case$ -- 44
-chr.to.int$ -- 402
-cite$ -- 46
-duplicate$ -- 2065
-empty$ -- 2168
-format.name$ -- 114
-if$ -- 6236
+            1047 strings with 14193 characters,
+and the built_in function-call counts, 21363 in all, are:
+= -- 1803
+> -- 508
+< -- 122
++ -- 270
+- -- 103
+* -- 973
+:= -- 3437
+add.period$ -- 68
+call.type$ -- 34
+change.case$ -- 33
+chr.to.int$ -- 243
+cite$ -- 37
+duplicate$ -- 1624
+empty$ -- 1658
+format.name$ -- 126
+if$ -- 4835
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 358
-newline$ -- 201
-num.names$ -- 44
-pop$ -- 811
+int.to.str$ -- 34
+missing$ -- 302
+newline$ -- 163
+num.names$ -- 34
+pop$ -- 726
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2205
+skip$ -- 1696
 stack$ -- 0
-substring$ -- 1043
-swap$ -- 1645
-text.length$ -- 60
+substring$ -- 679
+swap$ -- 1281
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 44
-warning$ -- 2
-while$ -- 111
-width$ -- 46
-write$ -- 486
-(There were 2 warnings)
+type$ -- 34
+warning$ -- 3
+while$ -- 75
+width$ -- 36
+write$ -- 377
+(There were 11 error messages)

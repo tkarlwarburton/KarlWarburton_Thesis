@@ -1,12 +1,5 @@
-\nomenclatureentry{a-ticktick@[{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-CRCCRC@[{CRC}]\begingroup Cosmic Ray Counter\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-SiPMADC@[{ADC}]\begingroup Analogue to Digital Converter\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-TPCTPC@[{TPC}]\begingroup Time Projection Chamber\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-SiPMSiPM@[{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-FDFD@[{FD}]\begingroup Far Detector\nomeqref {3.0}|nompageref}{18}
-\nomenclatureentry{z-MIPMIP@[{MIP}]\begingroup Minimally Ionising Particle\nomeqref {4.0}|nompageref}{29}
-\nomenclatureentry{z-MPVMPV@[{MPV}]\begingroup Most Probable Value\nomeqref {4.0}|nompageref}{29}
-\nomenclatureentry{z-PIDPID@[{PID}]\begingroup Particle IDentification\nomeqref {4.0}|nompageref}{29}
-\nomenclatureentry{z-ROIROI@[{ROI}]\begingroup Region Of Interest\nomeqref {4.0}|nompageref}{29}
-\nomenclatureentry{z-PoCAPoCA@[{PoCA}]\begingroup Point of Closest Approach\nomeqref {4.0}|nompageref}{29}
-\nomenclatureentry{z-PoCAPoCA@[{PoCA}]\begingroup Point of Closest Approach\nomeqref {6.0}|nompageref}{102}
+\nomenclatureentry{z-HVHV@[{HV}]\begingroup High Voltage\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-CMOSCMOS@[{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-CCDCCD@[{CCD}]\begingroup Charge-Couple Device\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-DVRDVR@[{DVR}]\begingroup Digital Video Recorder\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-PoCAPoCA@[{PoCA}]\begingroup Point of Closest Approach\nomeqref {1.0}|nompageref}{11}
