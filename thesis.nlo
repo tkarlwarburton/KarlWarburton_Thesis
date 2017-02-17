@@ -1,5 +1,12 @@
-\nomenclatureentry{z-HVHV@[{HV}]\begingroup High Voltage\nomeqref {1.0}|nompageref}{2}
-\nomenclatureentry{z-CMOSCMOS@[{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {1.0}|nompageref}{2}
-\nomenclatureentry{z-CCDCCD@[{CCD}]\begingroup Charge-Couple Device\nomeqref {1.0}|nompageref}{2}
-\nomenclatureentry{z-DVRDVR@[{DVR}]\begingroup Digital Video Recorder\nomeqref {1.0}|nompageref}{2}
-\nomenclatureentry{z-PoCAPoCA@[{PoCA}]\begingroup Point of Closest Approach\nomeqref {1.0}|nompageref}{11}
+\nomenclatureentry{a-ticktick@[{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-CRCCRC@[{CRC}]\begingroup Cosmic Ray Counter\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-SiPMADC@[{ADC}]\begingroup Analogue to Digital Converter\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-SiPMSiPM@[{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-FDFD@[{FD}]\begingroup Far Detector\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-FDFD@[{FD}]\begingroup Far Detector\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-DUNEDUNE@[{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-LBNFLBNF@[{LBNF}]\begingroup Long Baseline Neutrino Facility\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-LBNFLBNE@[{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-LBNFLBNO@[{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-SURFSURF@[{SURF}]\begingroup Sanford Underground Research Facility\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{z-PIP-IIPIP-II@[{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {1.0}|nompageref}{2}

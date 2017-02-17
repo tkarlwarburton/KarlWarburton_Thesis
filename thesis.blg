@@ -22,40 +22,44 @@ I couldn't open auxiliary file Abstract/abstract.aux
  :                              }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Introduction/Introduction.aux
----line 23 of file thesis.aux
+---line 25 of file thesis.aux
  : \@input{Introduction/Introduction.aux
  :                                      }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Theory/Theory.aux
----line 24 of file thesis.aux
+---line 26 of file thesis.aux
  : \@input{Theory/Theory.aux
  :                          }
 I'm skipping whatever remains of this command
-I couldn't open auxiliary file DUNE/DUNE.aux
----line 25 of file thesis.aux
- : \@input{DUNE/DUNE.aux
- :                      }
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: The35tonCameras/The35tonCameras.aux
-I couldn't open auxiliary file 35tonSimulation/35tonSimulation.aux
+A level-1 auxiliary file: DUNE/DUNE.aux
+I couldn't open auxiliary file The35tonCameras/The35tonCameras.aux
 ---line 28 of file thesis.aux
+ : \@input{The35tonCameras/The35tonCameras.aux
+ :                                            }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file 35tonSimulation/35tonSimulation.aux
+---line 29 of file thesis.aux
  : \@input{35tonSimulation/35tonSimulation.aux
  :                                            }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file 35tonData/35tonData.aux
----line 29 of file thesis.aux
+---line 30 of file thesis.aux
  : \@input{35tonData/35tonData.aux
  :                                }
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
+I couldn't open auxiliary file FarDetectorSimulations/FarDetectorSimulations.aux
+---line 31 of file thesis.aux
+ : \@input{FarDetectorSimulations/FarDetectorSimulations.aux
+ :                                                          }
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 I couldn't open auxiliary file Appendix1/appendix1.aux
----line 33 of file thesis.aux
+---line 186 of file thesis.aux
  : \@input{Appendix1/appendix1.aux
  :                                }
 I'm skipping whatever remains of this command
 I couldn't open auxiliary file Appendix2/appendix2.aux
----line 34 of file thesis.aux
+---line 187 of file thesis.aux
  : \@input{Appendix2/appendix2.aux
  :                                }
 I'm skipping whatever remains of this command
@@ -65,54 +69,60 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References/references.bib
-Warning--I didn't find a database entry for "MartinsThesis"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in DUNECDR
-Warning--empty journal in CameraPaper
-Warning--empty journal in SBNProposal
+Warning--empty journal in P5Doc
+Warning--empty journal in LBNO_EOI
+Warning--empty journal in DUNECDR_V1
+Warning--empty journal in DUNECDR_V2
+Warning--empty journal in DUNECDR_V3
+Warning--empty journal in DUNECDR_V4
+Name 1 in "S.D. Holmes, and others" has a comma at the end for entry PIP-II
+while executing---line 2419 of file IEEEtran.bst
+Warning--empty journal in Church_LArSoft
+Warning--empty booktitle in HarrisTrans
 
 Done.
-You've used 34 entries,
+You've used 41 entries,
             4039 wiz_defined-function locations,
-            1047 strings with 14193 characters,
-and the built_in function-call counts, 21363 in all, are:
-= -- 1803
-> -- 508
-< -- 122
-+ -- 270
-- -- 103
-* -- 973
-:= -- 3437
-add.period$ -- 68
-call.type$ -- 34
-change.case$ -- 33
-chr.to.int$ -- 243
-cite$ -- 37
-duplicate$ -- 1624
-empty$ -- 1658
-format.name$ -- 126
-if$ -- 4835
+            1083 strings with 14911 characters,
+and the built_in function-call counts, 23134 in all, are:
+= -- 1965
+> -- 404
+< -- 147
++ -- 229
+- -- 72
+* -- 1021
+:= -- 3839
+add.period$ -- 82
+call.type$ -- 41
+change.case$ -- 42
+chr.to.int$ -- 318
+cite$ -- 49
+duplicate$ -- 1787
+empty$ -- 1881
+format.name$ -- 97
+if$ -- 5206
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 302
-newline$ -- 163
-num.names$ -- 34
-pop$ -- 726
+int.to.str$ -- 41
+missing$ -- 308
+newline$ -- 186
+num.names$ -- 40
+pop$ -- 743
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1696
+skip$ -- 1825
 stack$ -- 0
-substring$ -- 679
-swap$ -- 1281
+substring$ -- 818
+swap$ -- 1334
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 34
-warning$ -- 3
-while$ -- 75
-width$ -- 36
-write$ -- 377
-(There were 11 error messages)
+type$ -- 41
+warning$ -- 8
+while$ -- 89
+width$ -- 43
+write$ -- 429
+(There were 13 error messages)

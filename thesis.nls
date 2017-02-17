@@ -1,15 +1,30 @@
 \begin{thenomenclature} 
 
+ \nomgroup{A}
+
+  \item [{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {1.0}
+		\nompageref{1}
+
  \nomgroup{Z}
 
-  \item [{CCD}]\begingroup Charge-Couple Device\nomeqref {1.0}
+  \item [{CRC}]\begingroup Cosmic Ray Counter\nomeqref {1.0}
 		\nompageref{1}
-  \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {1.0}
+  \item [{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {1.0}
 		\nompageref{1}
-  \item [{DVR}]\begingroup Digital Video Recorder\nomeqref {1.0}
+  \item [{FD}]\begingroup Far Detector\nomeqref {1.0}\nompageref{1}
+  \item [{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {1.0}
 		\nompageref{1}
-  \item [{HV}]\begingroup High Voltage\nomeqref {1.0}\nompageref{1}
-  \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {1.0}
-		\nompageref{10}
+  \item [{LBNF}]\begingroup Long Baseline Neutrino Facility\nomeqref {1.0}
+		\nompageref{1}
+  \item [{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {1.0}
+		\nompageref{1}
+  \item [{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {1.0}
+		\nompageref{1}
+  \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SURF}]\begingroup Sanford Underground Research Facility\nomeqref {1.0}
+		\nompageref{1}
 
 \end{thenomenclature}

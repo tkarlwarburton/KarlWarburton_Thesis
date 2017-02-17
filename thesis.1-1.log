@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  15 FEB 2017 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  17 FEB 2017 17:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1255,40 +1255,40 @@ No file Acknowledgement/acknowledgement.aux.
 No file Abstract/abstract.aux.
 No file Introduction/Introduction.aux.
 No file Theory/Theory.aux.
-No file DUNE/DUNE.aux.
-(./The35tonCameras/The35tonCameras.aux)
+(./DUNE/DUNE.aux)
+No file The35tonCameras/The35tonCameras.aux.
 No file 35tonSimulation/35tonSimulation.aux.
 No file 35tonData/35tonData.aux.
-(./FarDetectorSimulations/FarDetectorSimulations.aux)
+No file FarDetectorSimulations/FarDetectorSimulations.aux.
 No file Appendix1/appendix1.aux.
 No file Appendix2/appendix2.aux.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 114.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 113.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 114.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1305,7 +1305,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count216
 \everyMPtoPDFconversion=\toks32
 ) ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 113.
+LaTeX Info: Redefining \microtypecontext on input line 114.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1319,7 +1319,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 114.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1327,9 +1327,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count217
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1382,7 +1382,7 @@ File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count218
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1391,31 +1391,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 114.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1437,9 +1437,9 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1448,11 +1448,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 
 
 ]
-\openout2 = `The35tonCameras/The35tonCameras.aux'.
+\openout2 = `DUNE/DUNE.aux'.
 
-(./The35tonCameras/The35tonCameras.tex
+(./DUNE/DUNE.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 5.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 4.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1461,1417 +1461,590 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-LaTeX Warning: Reference `sec:The35tonDetector' on page 2 undefined on input li
-ne 15.
+Package natbib Warning: Citation `P5Doc' on page 2 undefined on input line 26.
 
 
-Package natbib Warning: Citation `DUNECDR' on page 2 undefined on input line 15
-.
+Package natbib Warning: Citation `LBNE_CDR1' on page 2 undefined on input line 
+26.
 
 
-Package natbib Warning: Citation `BlatterEField' on page 2 undefined on input l
-ine 15.
+Package natbib Warning: Citation `LBNE_CDR2' on page 2 undefined on input line 
+26.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Package natbib Warning: Citation `LBNE_CDR3' on page 2 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `LBNE_CDR4' on page 2 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `LBNE_CDR5' on page 2 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `LBNE_CDR6' on page 2 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `LBNO_EOI' on page 2 undefined on input line 2
+6.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Package natbib Warning: Citation `DUNECDR_V1' on page 2 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 2 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `DUNECDR_V3' on page 2 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `DUNECDR_V4' on page 2 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `DUNEAtWork' on page 2 undefined on input line
+ 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
+<DUNE/Figs/Raster/DUNESchematic.png, id=66, 1003.75pt x 301.125pt>
+File: DUNE/Figs/Raster/DUNESchematic.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNESchematic.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNESchematic.png used on input line 
+32.
+(pdftex.def)             Requested size: 393.71233pt x 118.11371pt.
 
-Package natbib Warning: Citation `BlatterEField' on page 2 undefined on input l
-ine 17.
-
-
-Package natbib Warning: Citation `BERNcam' on page 2 undefined on input line 17
-.
-
-
-Package natbib Warning: Citation `LAPD' on page 2 undefined on input line 17.
-
-
-Package natbib Warning: Citation `Liverpool' on page 2 undefined on input line 
-17.
+Package natbib Warning: Citation `DUNECDR_V1' on page 2 undefined on input line
+ 34.
 
 
-Package natbib Warning: Citation `Weizmannbubbles' on page 2 undefined on input
- line 17.
+Package natbib Warning: Citation `DUNECDR_V1' on page 2 undefined on input line
+ 34.
 
 
-Package natbib Warning: Citation `CameraPaper' on page 2 undefined on input lin
-e 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
 
-Package natbib Warning: Citation `thermalnoise1' on page 2 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `thermalnoise2' on page 2 undefined on input l
-ine 21.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
+Overfull \hbox (2.0501pt too wide) in paragraph at lines 39--39
+[]\T1/ptm/b/n/17.28 LBNF - the DUNE de-tec-tor lo-ca-tion and neu-trino beam |
  []
+
+
+Package natbib Warning: Citation `DUNECDR_V1' on page 2 undefined on input line
+ 40.
 
 [2
 
 
 
 
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 42.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Package natbib Warning: Citation `DUNECDR_V1' on page 3 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `PIP-II' on page 3 undefined on input line 48.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[3 <./DUNE/Figs/Raster/DUNESchematic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Package natbib Warning: Citation `LBNEReconfig' on page 4 undefined on input li
+ne 56.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
+Package natbib Warning: Citation `SURFWebsite' on page 4 undefined on input lin
+e 58.
 
 
-LaTeX Warning: Reference `chap:35tondata' on page 4 undefined on input line 34.
+Package natbib Warning: Citation `RayDavis1968' on page 4 undefined on input li
+ne 58.
 
 
+Package natbib Warning: Citation `RayDavis1988' on page 4 undefined on input li
+ne 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-<The35tonCameras/Figs/Raster/cam_in_housing_diagram.png, id=93, 458.1918pt x 19
-7.0562pt>
-File: The35tonCameras/Figs/Raster/cam_in_housing_diagram.png Graphic file (type
- png)
-<use The35tonCameras/Figs/Raster/cam_in_housing_diagram.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cam_in_housing_diagram.png
- used on input line 44.
-(pdftex.def)             Requested size: 196.85616pt x 84.66034pt.
-
-<The35tonCameras/Figs/Raster/camera_module_explode_labels.png, id=95, 3276.24pt
- x 2457.18pt>
-File: The35tonCameras/Figs/Raster/camera_module_explode_labels.png Graphic file
- (type png)
-<use The35tonCameras/Figs/Raster/camera_module_explode_labels.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/camera_module_explode_labe
-ls.png used on input line 50.
-(pdftex.def)             Requested size: 196.85616pt x 147.61191pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+[4]
 
-<The35tonCameras/Figs/Raster/cammount35tcrop.png, id=97, 803.0pt x 813.0375pt>
-File: The35tonCameras/Figs/Raster/cammount35tcrop.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cammount35tcrop.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cammount35tcrop.png used o
-n input line 62.
-(pdftex.def)             Requested size: 196.85616pt x 199.31378pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 60.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 60.
 
- []
 
-[5 <./The35tonCameras/Figs/Raster/cam_in_housing_diagram.png> <./The35tonCamera
-s/Figs/Raster/camera_module_explode_labels.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-<The35tonCameras/Figs/Raster/Camera_Block_diagram.png, id=106, 1534.73375pt x 1
-015.795pt>
-File: The35tonCameras/Figs/Raster/Camera_Block_diagram.png Graphic file (type p
-ng)
-<use The35tonCameras/Figs/Raster/Camera_Block_diagram.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/Camera_Block_diagram.png u
-sed on input line 74.
-(pdftex.def)             Requested size: 415.58672pt x 275.0588pt.
+Package natbib Warning: Citation `DUNECDR_V1' on page 5 undefined on input line
+ 62.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 84.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [6 <./The35tonCameras/Figs/Raster/cammount35tcrop.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[7 <./The35tonCameras/Figs/Raster/Camera_Block_diagram.png>] <The35tonCameras/F
-igs/Raster/phasesep.png, id=119, 264.99pt x 216.81pt>
-File: The35tonCameras/Figs/Raster/phasesep.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/phasesep.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/phasesep.png used on input
- line 98.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/ullage.png, id=120, 529.98pt x 433.62pt>
-File: The35tonCameras/Figs/Raster/ullage.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/ullage.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/ullage.png used on input l
-ine 101.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodetr.png, id=121, 264.99pt x 216.81pt>
-File: The35tonCameras/Figs/Raster/cathodetr.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cathodetr.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodetr.png used on inpu
-t line 105.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodelr.png, id=122, 529.98pt x 433.62pt>
-File: The35tonCameras/Figs/Raster/cathodelr.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cathodelr.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodelr.png used on inpu
-t line 108.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cooldownsp.png, id=123, 264.99pt x 216.81pt>
-File: The35tonCameras/Figs/Raster/cooldownsp.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cooldownsp.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cooldownsp.png used on inp
-ut line 112.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodetl.png, id=124, 264.99pt x 216.81pt>
-File: The35tonCameras/Figs/Raster/cathodetl.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cathodetl.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodetl.png used on inpu
-t line 115.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodell.png, id=125, 264.99pt x 216.81pt>
-File: The35tonCameras/Figs/Raster/cathodell.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/cathodell.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodell.png used on inpu
-t line 119.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/hvft.png, id=126, 353.32pt x 289.08pt>
-File: The35tonCameras/Figs/Raster/hvft.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/hvft.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/hvft.png used on input lin
-e 122.
-(pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
+<DUNE/Figs/Raster/DUNECavernSystem.png, id=89, 968.61874pt x 638.385pt>
+File: DUNE/Figs/Raster/DUNECavernSystem.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNECavernSystem.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNECavernSystem.png used on input li
+ne 66.
+(pdftex.def)             Requested size: 306.22144pt x 201.8229pt.
 
-LaTeX Warning: Float too large for page by 53.38612pt on input line 127.
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-
-<The35tonCameras/Figs/Raster/Cam1degradation2.png, id=131, 1063.975pt x 289.08p
-t>
-File: The35tonCameras/Figs/Raster/Cam1degradation2.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/Cam1degradation2.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/Cam1degradation2.png used 
-on input line 135.
-(pdftex.def)             Requested size: 415.58672pt x 112.91277pt.
-
-<The35tonCameras/Figs/Raster/Cam4degradation2.png, id=132, 1056.94875pt x 289.0
-8pt>
-File: The35tonCameras/Figs/Raster/Cam4degradation2.png Graphic file (type png)
-<use The35tonCameras/Figs/Raster/Cam4degradation2.png>
-Package pdftex.def Info: The35tonCameras/Figs/Raster/Cam4degradation2.png used 
-on input line 140.
-(pdftex.def)             Requested size: 415.58672pt x 113.66264pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-
-Package natbib Warning: Citation `SBNProposal' on page 8 undefined on input lin
-e 150.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 152--143
-
- []
-
-[8] [9 <./The35tonCameras/Figs/Raster/phasesep.png> <./The35tonCameras/Figs/Ras
-ter/ullage.png> <./The35tonCameras/Figs/Raster/cathodetr.png> <./The35tonCamera
-s/Figs/Raster/cathodelr.png> <./The35tonCameras/Figs/Raster/cooldownsp.png> <./
-The35tonCameras/Figs/Raster/cathodetl.png> <./The35tonCameras/Figs/Raster/catho
-dell.png> <./The35tonCameras/Figs/Raster/hvft.png>] [10 <./The35tonCameras/Figs
-/Raster/Cam1degradation2.png> <./The35tonCameras/Figs/Raster/Cam4degradation2.p
-ng>]
-\openout2 = `FarDetectorSimulations/FarDetectorSimulations.aux'.
-
-(./FarDetectorSimulations/FarDetectorSimulations.tex
-Chapter 2.
-
-Package natbib Warning: Citation `MartinsThesis' on page 11 undefined on input 
-line 10.
-
-
-Package natbib Warning: Citation `MartinsThesis' on page 11 undefined on input 
-line 10.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Package natbib Warning: Citation `LBNE6493' on page 11 undefined on input line 
-14.
-
-
-Package natbib Warning: Citation `MartinsThesis' on page 11 undefined on input 
-line 14.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-[11
-
-
-
-
-
-]
-
-Package natbib Warning: Citation `Shielding' on page 12 undefined on input line
- 16.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Package natbib Warning: Citation `LBNE3383' on page 12 undefined on input line 
-25.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/SimpleDetector.png, id=161, 999.735pt x 313
-.17pt>
-File: FarDetectorSimulations/Figs/Raster/SimpleDetector.png Graphic file (type 
-png)
-<use FarDetectorSimulations/Figs/Raster/SimpleDetector.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/SimpleDetector.png 
-used on input line 29.
-(pdftex.def)             Requested size: 437.46112pt x 137.03542pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/ComplexGeom.png, id=162, 1369.115pt x 895.3
-45pt>
-File: FarDetectorSimulations/Figs/Raster/ComplexGeom.png Graphic file (type png
-)
-<use FarDetectorSimulations/Figs/Raster/ComplexGeom.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/ComplexGeom.png use
-d on input line 37.
-(pdftex.def)             Requested size: 349.97023pt x 228.86325pt.
-
-Package natbib Warning: Citation `MartinsThesis' on page 12 undefined on input 
-line 39.
-
-
-Package natbib Warning: Citation `MartinsThesis' on page 12 undefined on input 
-line 39.
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 68.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `Gaisser' on page 12 undefined on input line 4
-3.
+Package natbib Warning: Citation `DUNECDR_V2' on page 5 undefined on input line
+ 72.
 
 
-Package natbib Warning: Citation `PhysRevD.58.092005' on page 12 undefined on i
-nput line 43.
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 72.
 
 
-Package natbib Warning: Citation `CRY' on page 12 undefined on input line 43.
-
-
-Package natbib Warning: Citation `CRY2' on page 12 undefined on input line 43.
-
-
-Package natbib Warning: Citation `LBNE7517' on page 12 undefined on input line 
-43.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[12] [13 <./FarDetectorSimulations/Figs/Raster/SimpleDetector.png> <./FarDetect
-orSimulations/Figs/Raster/ComplexGeom.png>]
+<DUNE/Figs/Raster/NearDetectorComplex.png, id=92, 984.67876pt x 375.4025pt>
+File: DUNE/Figs/Raster/NearDetectorComplex.png Graphic file (type png)
+<use DUNE/Figs/Raster/NearDetectorComplex.png>
+Package pdftex.def Info: DUNE/Figs/Raster/NearDetectorComplex.png used on input
+ line 76.
+(pdftex.def)             Requested size: 393.71233pt x 150.10106pt.
+
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 78.
+
+
+Package natbib Warning: Citation `DUNECDR_V3' on page 5 undefined on input line
+ 78.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `PIP-II' on page 5 undefined on input line 82.
+
+
+
+Package natbib Warning: Citation `DUNECDR_V1' on page 5 undefined on input line
+ 82.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+[5]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./DUNE/Figs/Raster/DUNECavernSystem.png> <./DUNE/Figs/Raster/NearDetectorCo
+mplex.png>]
+
+Package natbib Warning: Citation `DUNECDR_V3' on page 7 undefined on input line
+ 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 91.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
+LaTeX Warning: Reference `sec:NeutPhys' on page 7 undefined on input line 92.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Package natbib Warning: Citation `DUNECDR_V2' on page 7 undefined on input line
+ 92.
 
- []
+[7]
 
-
-<FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png, id=189, 894.34125pt x 6
-67.49374pt>
-File: FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png Graphic file (type 
-png)
-<use FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png 
-used on input line 73.
-(pdftex.def)             Requested size: 262.47934pt x 195.90062pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `sec:NeutPhys' on page 8 undefined on input line 106.
 
 
-<FarDetectorSimulations/Figs/Raster/signal_PoCA.png, id=190, 501.37312pt x 155.
-07938pt>
-File: FarDetectorSimulations/Figs/Raster/signal_PoCA.png Graphic file (type png
-)
-<use FarDetectorSimulations/Figs/Raster/signal_PoCA.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/signal_PoCA.png use
-d on input line 81.
-(pdftex.def)             Requested size: 262.47934pt x 81.1907pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `Bass:2013vcg' on page 8 undefined on input li
+ne 106.
 
 
-Package natbib Warning: Citation `barker2012muon' on page 15 undefined on input
- line 87.
+Package natbib Warning: Citation `Diwan:2004bt' on page 8 undefined on input li
+ne 106.
 
 
-Package natbib Warning: Citation `LBNE6621' on page 15 undefined on input line 
-87.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-[15] [16 <./FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png> <./FarDetect
-orSimulations/Figs/Raster/signal_PoCA.png>]
-<FarDetectorSimulations/Figs/Raster/SurfBeamCut.png, id=207, 820.06375pt x 828.
-09375pt>
-File: FarDetectorSimulations/Figs/Raster/SurfBeamCut.png Graphic file (type png
-)
-<use FarDetectorSimulations/Figs/Raster/SurfBeamCut.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/SurfBeamCut.png use
-d on input line 91.
-(pdftex.def)             Requested size: 262.47934pt x 265.0586pt.
-
-Package natbib Warning: Citation `barker2012muon' on page 17 undefined on input
- line 93.
-
-
-Package natbib Warning: Citation `barker2012muon' on page 17 undefined on input
- line 93.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Package natbib Warning: Citation `LBNE8458' on page 17 undefined on input line 
-99.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[17 <./FarDetectorSimulations/Figs/Raster/SurfBeamCut.png>]
+<DUNE/Figs/Raster/DUNEOscillProb.png, id=119, 1446.40375pt x 687.56876pt>
+File: DUNE/Figs/Raster/DUNEOscillProb.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNEOscillProb.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNEOscillProb.png used on input line
+ 112.
+(pdftex.def)             Requested size: 393.71233pt x 187.15681pt.
 
-Package natbib Warning: Citation `PhysRevB.27.5279' on page 18 undefined on inp
-ut line 101.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 103.
-
-Package natbib Warning: Citation `PhysRevD.57.3873' on page 18 undefined on inp
-ut line 104.
+Package natbib Warning: Citation `DUNECDR_V2' on page 8 undefined on input line
+ 114.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
+Package natbib Warning: Citation `DUNECDR_V2' on page 8 undefined on input line
+ 114.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Package natbib Warning: Citation `DUNECDR_V3' on page 8 undefined on input line
+ 118.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
+<DUNE/Figs/Raster/DUNEMassHierarchy.png, id=122, 1405.25pt x 718.685pt>
+File: DUNE/Figs/Raster/DUNEMassHierarchy.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNEMassHierarchy.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNEMassHierarchy.png used on input l
+ine 124.
+(pdftex.def)             Requested size: 393.71233pt x 201.35106pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Package natbib Warning: Citation `DUNECDR_V2' on page 8 undefined on input line
+ 126.
+
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 8 undefined on input line
+ 126.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 8 undefined on input line
+ 130.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[21]
+[8] [9 <./DUNE/Figs/Raster/DUNEOscillProb.png> <./DUNE/Figs/Raster/DUNEMassHier
+archy.png>] <DUNE/Figs/Raster/DUNECPViolation.png, id=139, 1409.265pt x 713.666
+24pt>
+File: DUNE/Figs/Raster/DUNECPViolation.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNECPViolation.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNECPViolation.png used on input lin
+e 134.
+(pdftex.def)             Requested size: 393.71233pt x 199.37871pt.
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 10 undefined on input lin
+e 136.
+
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 10 undefined on input lin
+e 136.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+<DUNE/Figs/Raster/DUNECPViolationRes.png, id=143, 913.4125pt x 1001.7425pt>
+File: DUNE/Figs/Raster/DUNECPViolationRes.png Graphic file (type png)
+<use DUNE/Figs/Raster/DUNECPViolationRes.png>
+Package pdftex.def Info: DUNE/Figs/Raster/DUNECPViolationRes.png used on input 
+line 144.
+(pdftex.def)             Requested size: 393.71233pt x 431.78027pt.
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 10 undefined on input lin
+e 146.
+
+
+Package natbib Warning: Citation `DUNECDR_V2' on page 10 undefined on input lin
+e 146.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `sec:NeutPhys' on page 10 undefined on input line 150.
+
+
+[10 <./DUNE/Figs/Raster/DUNECPViolation.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./DUNE/Figs/Raster/DUNECPViolationRes.png>] <DUNE/Figs/Raster/KaonNDKInter
+action.png, id=156, 818.05624pt x 654.445pt>
+File: DUNE/Figs/Raster/KaonNDKInteraction.png Graphic file (type png)
+<use DUNE/Figs/Raster/KaonNDKInteraction.png>
+Package pdftex.def Info: DUNE/Figs/Raster/KaonNDKInteraction.png used on input 
+line 174.
+(pdftex.def)             Requested size: 218.73056pt x 174.98491pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<DUNE/Figs/Raster/35tonFullDetect.png, id=157, 1027.84pt x 770.88pt>
+File: DUNE/Figs/Raster/35tonFullDetect.png Graphic file (type png)
+<use DUNE/Figs/Raster/35tonFullDetect.png>
+Package pdftex.def Info: DUNE/Figs/Raster/35tonFullDetect.png used on input lin
+e 203.
+(pdftex.def)             Requested size: 371.84462pt x 278.88106pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Church_LArSoft' on page 12 undefined on input
+ line 211.
+
+
+Package natbib Warning: Citation `LArSoftOrg' on page 12 undefined on input lin
+e 211.
+
+
+Package natbib Warning: Citation `ROOT' on page 12 undefined on input line 211.
+
+
+
+Package natbib Warning: Citation `GEANT4' on page 12 undefined on input line 21
+1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
+
+[12 <./DUNE/Figs/Raster/KaonNDKInteraction.png>] [13 <./DUNE/Figs/Raster/35tonF
+ullDetect.png>]
+
+Package natbib Warning: Citation `GENIE' on page 14 undefined on input line 213
+.
+
+
+Package natbib Warning: Citation `Nuance' on page 14 undefined on input line 21
+3.
+
+
+Package natbib Warning: Citation `CRY' on page 14 undefined on input line 213.
+
+
+Package natbib Warning: Citation `CRY2' on page 14 undefined on input line 213.
+
+
+
+Package natbib Warning: Citation `MUSUN' on page 14 undefined on input line 213
+.
+
+
+Package natbib Warning: Citation `MUSUN2' on page 14 undefined on input line 21
+3.
+
+
+Package natbib Warning: Citation `MUSUN' on page 14 undefined on input line 213
+.
+
+
+Package natbib Warning: Citation `MUSIC' on page 14 undefined on input line 213
+.
+
+
+Package natbib Warning: Citation `MUSIC2' on page 14 undefined on input line 21
+3.
+
+
+LaTeX Warning: Reference `sec:FDIncorporation' on page 14 undefined on input li
+ne 213.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
+[14] <DUNE/Figs/Raster/35ton_APASchem.png, id=179, 427.5975pt x 492.84125pt>
+File: DUNE/Figs/Raster/35ton_APASchem.png Graphic file (type png)
+<use DUNE/Figs/Raster/35ton_APASchem.png>
+Package pdftex.def Info: DUNE/Figs/Raster/35ton_APASchem.png used on input line
+ 240.
+(pdftex.def)             Requested size: 196.85616pt x 226.8902pt.
+<DUNE/Figs/Raster/35ton_xCenter.png, id=180, 578.16pt x 433.62pt>
+File: DUNE/Figs/Raster/35ton_xCenter.png Graphic file (type png)
+<use DUNE/Figs/Raster/35ton_xCenter.png>
+Package pdftex.def Info: DUNE/Figs/Raster/35ton_xCenter.png used on input line 
+246.
+(pdftex.def)             Requested size: 196.85616pt x 147.64058pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[15]
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
+Package natbib Warning: Citation `LArSoftRecoNote' on page 16 undefined on inpu
+t line 263.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `LArSoftOrg' on page 16 undefined on input lin
+e 263.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+[16 <./DUNE/Figs/Raster/35ton_APASchem.png> <./DUNE/Figs/Raster/35ton_xCenter.p
+ng>] <DUNE/Figs/Raster/CollectionPlane.png, id=193, 1008.76875pt x 188.705pt>
+File: DUNE/Figs/Raster/CollectionPlane.png Graphic file (type png)
+<use DUNE/Figs/Raster/CollectionPlane.png>
+Package pdftex.def Info: DUNE/Figs/Raster/CollectionPlane.png used on input lin
+e 269.
+(pdftex.def)             Requested size: 415.58672pt x 77.74098pt.
+<DUNE/Figs/Raster/InductionPlane.png, id=194, 1006.76125pt x 190.7125pt>
+File: DUNE/Figs/Raster/InductionPlane.png Graphic file (type png)
+<use DUNE/Figs/Raster/InductionPlane.png>
+Package pdftex.def Info: DUNE/Figs/Raster/InductionPlane.png used on input line
+ 275.
+(pdftex.def)             Requested size: 415.58672pt x 78.72516pt.
+<DUNE/Figs/Raster/Complex.png, id=195, 1012.78375pt x 172.645pt>
+File: DUNE/Figs/Raster/Complex.png Graphic file (type png)
+<use DUNE/Figs/Raster/Complex.png>
+Package pdftex.def Info: DUNE/Figs/Raster/Complex.png used on input line 281.
+(pdftex.def)             Requested size: 415.58672pt x 70.84285pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
-
- []
-
-[24]
-<FarDetectorSimulations/Figs/Raster/SurfEDistAllCuts.png, id=285, 647.41875pt x
- 459.7175pt>
-File: FarDetectorSimulations/Figs/Raster/SurfEDistAllCuts.png Graphic file (typ
-e png)
-<use FarDetectorSimulations/Figs/Raster/SurfEDistAllCuts.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/SurfEDistAllCuts.pn
-g used on input line 335.
-(pdftex.def)             Requested size: 262.47934pt x 186.38097pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
- []
-
-[25]
-
-Package natbib Warning: Citation `MUSUN' on page 26 undefined on input line 347
-.
-
-
-Package natbib Warning: Citation `MUSIC' on page 26 undefined on input line 347
-.
-
-
-Package natbib Warning: Citation `MUSIC2' on page 26 undefined on input line 34
-7.
-
-
-Package natbib Warning: Citation `MUSUN' on page 26 undefined on input line 347
-.
-
-
-Package natbib Warning: Citation `MUSUN2' on page 26 undefined on input line 34
-7.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+[17 <./DUNE/Figs/Raster/CollectionPlane.png> <./DUNE/Figs/Raster/InductionPlane
+.png> <./DUNE/Figs/Raster/Complex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Package natbib Warning: Citation `Mei:2009py' on page 26 undefined on input lin
-e 349.
-
-
-Package natbib Warning: Citation `PhysRevD.27.1444' on page 26 undefined on inp
-ut line 349.
-
-
-Package natbib Warning: Citation `NDKTFNote' on page 26 undefined on input line
- 349.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
-[26 <./FarDetectorSimulations/Figs/Raster/SurfEDistAllCuts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+[18] <DUNE/Figs/Raster/WireAngleCondition.png, id=217, 722.7pt x 542.025pt>
+File: DUNE/Figs/Raster/WireAngleCondition.png Graphic file (type png)
+<use DUNE/Figs/Raster/WireAngleCondition.png>
+Package pdftex.def Info: DUNE/Figs/Raster/WireAngleCondition.png used on input 
+line 298.
+(pdftex.def)             Requested size: 371.84462pt x 278.88547pt.
+
+Package natbib Warning: Citation `HarrisTrans' on page 19 undefined on input li
+ne 304.
+
+
+Package natbib Warning: Citation `HoughTrans' on page 19 undefined on input lin
+e 304.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
+[19 <./DUNE/Figs/Raster/WireAngleCondition.png>]
 
-<FarDetectorSimulations/Figs/Raster/dune-surface-map.png, id=302, 703.62875pt x
- 543.02875pt>
-File: FarDetectorSimulations/Figs/Raster/dune-surface-map.png Graphic file (typ
-e png)
-<use FarDetectorSimulations/Figs/Raster/dune-surface-map.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/dune-surface-map.pn
-g used on input line 357.
-(pdftex.def)             Requested size: 196.85616pt x 151.92271pt.
-
-<FarDetectorSimulations/Figs/Raster/phi-map.png, id=303, 605.26125pt x 624.3325
-pt>
-File: FarDetectorSimulations/Figs/Raster/phi-map.png Graphic file (type png)
-<use FarDetectorSimulations/Figs/Raster/phi-map.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/phi-map.png used on
- input line 364.
-(pdftex.def)             Requested size: 196.85616pt x 203.05807pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `PMTrack' on page 20 undefined on input line 3
+06.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
-
- []
-
-[27 <./FarDetectorSimulations/Figs/Raster/dune-surface-map.png> <./FarDetectorS
-imulations/Figs/Raster/phi-map.png>]
-
-Package natbib Warning: Citation `MUSUNLBNE' on page 28 undefined on input line
- 389.
+Package natbib Warning: Citation `Pandora' on page 20 undefined on input line 3
+06.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
+Package natbib Warning: Citation `EMShower' on page 20 undefined on input line 
+306.
+
+
+Package natbib Warning: Citation `BirksModel' on page 20 undefined on input lin
+e 306.
+
+
+Package natbib Warning: Citation `PIDA_Paper' on page 20 undefined on input lin
+e 306.
+
+
+Package natbib Warning: Citation `BoxModel' on page 20 undefined on input line 
+306.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
-
-<FarDetectorSimulations/Figs/Raster/DepthCan.png, id=319, 851.18pt x 476.78125p
-t>
-File: FarDetectorSimulations/Figs/Raster/DepthCan.png Graphic file (type png)
-<use FarDetectorSimulations/Figs/Raster/DepthCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/DepthCan.png used o
-n input line 395.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-
-<FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png, id=320, 851.18pt x 476
-.78125pt>
-File: FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png Graphic file (type
- png)
-<use FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png
- used on input line 401.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-
-<FarDetectorSimulations/Figs/Raster/ZenithCan.png, id=321, 851.18pt x 476.78125
-pt>
-File: FarDetectorSimulations/Figs/Raster/ZenithCan.png Graphic file (type png)
-<use FarDetectorSimulations/Figs/Raster/ZenithCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/ZenithCan.png used 
-on input line 407.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-
-<FarDetectorSimulations/Figs/Raster/AzimuthCan.png, id=322, 851.18pt x 476.7812
-5pt>
-File: FarDetectorSimulations/Figs/Raster/AzimuthCan.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/AzimuthCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AzimuthCan.png used
- on input line 413.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-
-<FarDetectorSimulations/Figs/Raster/AziZenCan.png, id=323, 851.18pt x 476.78125
-pt>
-File: FarDetectorSimulations/Figs/Raster/AziZenCan.png Graphic file (type png)
-<use FarDetectorSimulations/Figs/Raster/AziZenCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AziZenCan.png used 
-on input line 419.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-
-<FarDetectorSimulations/Figs/Raster/AziZenColzCan.png, id=324, 851.18pt x 476.7
-8125pt>
-File: FarDetectorSimulations/Figs/Raster/AziZenColzCan.png Graphic file (type p
-ng)
-<use FarDetectorSimulations/Figs/Raster/AziZenColzCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AziZenColzCan.png u
-sed on input line 425.
-(pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 426.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/MuonPosCan.png, id=325, 851.18pt x 476.7812
-5pt>
-File: FarDetectorSimulations/Figs/Raster/MuonPosCan.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/MuonPosCan.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/MuonPosCan.png used
- on input line 435.
-(pdftex.def)             Requested size: 437.46112pt x 245.03946pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-[28]
-
-LaTeX Warning: Reference `sec:BkNDK' on page 29 undefined on input line 445.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
-
- []
-
-[29 <./FarDetectorSimulations/Figs/Raster/DepthCan.png> <./FarDetectorSimulatio
-ns/Figs/Raster/EnergyPerGeVCan.png> <./FarDetectorSimulations/Figs/Raster/Zenit
-hCan.png> <./FarDetectorSimulations/Figs/Raster/AzimuthCan.png> <./FarDetectorS
-imulations/Figs/Raster/AziZenCan.png> <./FarDetectorSimulations/Figs/Raster/Azi
-ZenColzCan.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
-
- []
-
-[30 <./FarDetectorSimulations/Figs/Raster/MuonPosCan.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-
- []
-
-
-LaTeX Warning: Reference `sec:NDK_Atmos' on page 31 undefined on input line 456
-.
-
-
-Package natbib Warning: Citation `NDKTFNote' on page 31 undefined on input line
- 456.
-
-
-Overfull \hbox (9.60114pt too wide) in paragraph at lines 456--457
-[]\T1/ptm/m/n/12 (-20) After ap-ply-ing this se-ries of cuts, the sam-ple of 2$
-\OMS/ztmcm/m/n/12 ^^B$\T1/ptm/m/n/12 (-20) 10$[]$ muons is re-duced to XXXX$\OM
-S/ztmcm/m/n/12 ^^B$\T1/ptm/m/n/12 (-20) 10$[]$|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 459.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 459.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 459.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 459.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 459.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 459.
-
-
-LaTeX Warning: Reference `tab:NDKLim' on page 31 undefined on input line 460.
-
-
-LaTeX Warning: Reference `sec:BkNDK' on page 31 undefined on input line 460.
-
-
-LaTeX Warning: Reference `fig:K0LongBackground' on page 31 undefined on input l
-ine 460.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-
- []
-
-[31] [32]
-
-Package natbib Warning: Citation `Bueno' on page 33 undefined on input line 486
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png, id=362, 1022.82124pt x 
-438.63875pt>
-File: FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png Graphic file (type 
-png)
-<use FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png 
-used on input line 498.
-(pdftex.def)             Requested size: 349.97023pt x 150.0856pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--505
-
- []
-
-[34]
-
-LaTeX Warning: Reference `sec:PID' on page 35 undefined on input line 506.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
-
- []
-
-[35 <./FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2cmCut.p
-ng, id=379, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2cm
-Cut.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2cmC
-ut.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_En
-ergyDepCuts_Raw_2cmCut.png used on input line 512.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2cmCut.
-png, id=380, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2c
-mCut.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2cm
-Cut.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_En
-ergyDepCuts_Norm_2cmCut.png used on input line 520.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
-
- []
-
-[36 <./FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2c
-mCut.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
-
- []
-
-[37 <./FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2
-cmCut.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 555.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 555.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 555.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 556--557
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/KaonElecNearEdge.png, id=399, 1017.8025pt x
- 433.62pt>
-File: FarDetectorSimulations/Figs/Raster/KaonElecNearEdge.png Graphic file (typ
-e png)
-<use FarDetectorSimulations/Figs/Raster/KaonElecNearEdge.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/KaonElecNearEdge.pn
-g used on input line 560.
-(pdftex.def)             Requested size: 349.97023pt x 149.0962pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
-
- []
-
-[38]
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut.png, 
-id=413, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut.
-png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut.p
-ng>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_Energy
-DepCuts_Raw_2cmCut.png used on input line 572.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cmCut.png,
- id=414, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cmCut
-.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cmCut.
-png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_Energy
-DepCuts_Norm_2cmCut.png used on input line 580.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--589
-
- []
-
-[39 <./FarDetectorSimulations/Figs/Raster/KaonElecNearEdge.png>]
-
-LaTeX Warning: Text page 40 contains only floats.
-
-[40 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut
-.png> <./FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cm
-Cut.png>]
-<FarDetectorSimulations/Figs/Raster/MissedKaon.png, id=431, 1020.81375pt x 616.
-3025pt>
-File: FarDetectorSimulations/Figs/Raster/MissedKaon.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/MissedKaon.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/MissedKaon.png used
- on input line 592.
-(pdftex.def)             Requested size: 349.97023pt x 211.28922pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
-
- []
-
-[41 <./FarDetectorSimulations/Figs/Raster/MissedKaon.png>]
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png, id=440, 700
-.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png Graphic
- file (type png)
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNe
-arEdges.png used on input line 604.
-(pdftex.def)             Requested size: 328.09584pt x 223.27968pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png, id=441,
- 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png Gra
-phic file (type png)
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_ED
-epNearEdges.png used on input line 610.
-(pdftex.def)             Requested size: 328.09584pt x 223.27968pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
-
- []
-
-[42]
-
-LaTeX Warning: Text page 43 contains only floats.
-
-
-Overfull \vbox (6.9742pt too high) has occurred while \output is active []
-
-[43 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png> <./Fa
-rDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png>]
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png, id=458, 700.6
-175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png Graphic f
-ile (type png)
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonEl
-ecSep.png used on input line 625.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png, id=460
-, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png Gr
-aphic file (type png)
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_Energy
-DepCuts_Norm.png used on input line 636.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.png, id
-=461, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.pn
-g Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.png
->
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_En
-ergyDepCuts_Norm.png used on input line 642.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
-
- []
-
-[44 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png>] [45 <.
-/FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png> <./Far
-DetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 656.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 656.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 656.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 656.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 656.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 665--666
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
-
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
-
- []
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png, id=492, 
-700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png Grap
-hic file (type png)
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_v
-s_Elec_Can.png used on input line 684.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png, id=4
-93, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png 
-Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Ka
-on_vs_Elec_Can.png used on input line 690.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png, id=4
-94, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png 
-Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonEl
-ec_vs_Near_Can.png used on input line 703.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.png, 
-id=495, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.
-png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.p
-ng>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Ka
-onElec_vs_Near_Can.png used on input line 709.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png, id=4
-96, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png 
-Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKao
-n_vs_Other_Can.png used on input line 722.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.png, 
-id=497, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.
-png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.p
-ng>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Al
-lKaon_vs_Other_Can.png used on input line 728.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_Can.p
-ng, id=498, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_
-Can.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_C
-an.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKao
-nNearElec_vs_Other_Can.png used on input line 741.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Other_C
-an.png, id=499, 700.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Ot
-her_Can.png Graphic file (type png)
-
-<use FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Oth
-er_Can.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Al
-lKaonNearElec_vs_Other_Can.png used on input line 747.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--758
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
-
- []
-
-[48] [49 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.pn
-g> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png>
-]
-
-LaTeX Warning: Text page 50 contains only floats.
-
-[50 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png
-> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.p
-ng>]
-
-LaTeX Warning: Text page 51 contains only floats.
-
-[51 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png
-> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.p
-ng>]
-
-LaTeX Warning: Text page 52 contains only floats.
-
-
-Overfull \vbox (7.74385pt too high) has occurred while \output is active []
-
-[52 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other
-_Can.png> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearEle
-c_vs_Other_Can.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 763--764
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
-
- []
-
-[53]
-
-Package natbib Warning: Citation `PDGReview' on page 54 undefined on input line
- 769.
-
-
-Package natbib Warning: Citation `PDGReview' on page 54 undefined on input line
- 769.
-
-
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png, id=536, 7
-00.6175pt x 476.78125pt>
-File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png Graph
-ic file (type png)
-<use FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png>
-Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDe
-cayEnergy.png used on input line 793.
-(pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
-
- []
-
-[54 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
-
- []
-
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 808--809
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
-
- []
-
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
-
- []
-
-
-Package natbib Warning: Citation `CosmoJanCollabMeeting' on page 57 undefined o
-n input line 816.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
-
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 824--825
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 826--146
-
- []
-
-
-Package lineno Warning: Linenumber reference failed, 
-(lineno)                rerun to get it right.
-
-[58] (./thesis.bbl [59
-
-
-
-] [60]) [61]
+) [20] [21]
+No file thesis.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
 (./thesis.aux
 No file Dedication/dedication.aux.
 No file Declaration/declaration.aux.
@@ -2879,28 +2052,24 @@ No file Acknowledgement/acknowledgement.aux.
 No file Abstract/abstract.aux.
 No file Introduction/Introduction.aux.
 No file Theory/Theory.aux.
-No file DUNE/DUNE.aux.
-(./The35tonCameras/The35tonCameras.aux)
+(./DUNE/DUNE.aux)
+No file The35tonCameras/The35tonCameras.aux.
 No file 35tonSimulation/35tonSimulation.aux.
 No file 35tonData/35tonData.aux.
-(./FarDetectorSimulations/FarDetectorSimulations.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
+No file FarDetectorSimulations/FarDetectorSimulations.aux.
 No file Appendix1/appendix1.aux.
 No file Appendix2/appendix2.aux.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 
 Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 173C590977240492F7296BCF7B5ADB8E;5095
-(rerunfilecheck)             After:  D6B8815D4AABE0907691DB57C82BB005;5294.
+(rerunfilecheck)             Before: AE51AFA6652195EA3F94D928BA71B99B;3189
+(rerunfilecheck)             After:  82601556C345D5CBB007C6457D0D0479;3293.
 
 LaTeX Warning: There were undefined references.
 
@@ -2909,45 +2078,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 25412 strings out of 493089
- 459146 string characters out of 6134843
- 520581 words of memory out of 5000000
- 28012 multiletter control sequences out of 15000+600000
- 106526 words of font info for 338 fonts, out of 8000000 for 9000
+ 24730 strings out of 493089
+ 440313 string characters out of 6134843
+ 505851 words of memory out of 5000000
+ 27588 multiletter control sequences out of 15000+600000
+ 66088 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,92p,10395b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.41} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.29} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.23} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.12} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.8} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.1} has been referenced but does not 
-exist, replaced by a fixed one
+ 55i,11n,92p,10395b,833s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.1} has been referenced but does no
+t exist, replaced by a fixed one
 
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texli
@@ -2957,14 +2096,14 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on thesis.pdf (61 pages, 19336503 bytes).
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on thesis.pdf (21 pages, 2122966 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
- 167 named destinations out of 1000 (max. 500000)
- 58235 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 38068 words of extra memory for PDF output out of 42996 (max. 10000000)
 

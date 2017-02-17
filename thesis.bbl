@@ -21,95 +21,158 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{DUNECDR}
+\bibitem{P5Doc}
+S.~Ritz \emph{et~al.}, ``{Building for Discovery: Strategic Plan for U.S.
+  Particle Physics in the Global Context},'' 2014.
+
+\bibitem{LBNE_CDR1}
+\BIBentryALTinterwordspacing
+{LBNE Collaboration}. (2012, October) {Long-Baseline Neutrino Experiment (LBNE)
+  Project, Volume 1: The LBNE Project}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5235&filename=CDR-intro-volume-2012nov20.pdf&version=9}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNE_CDR2}
+\BIBentryALTinterwordspacing
+------. (2012, October) {Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 2: The Beamline at the Near Site}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4317&filename=CDR-beam-volume-101812.pdf&version=25}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNE_CDR3}
+\BIBentryALTinterwordspacing
+------. (2012, October) {Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 3: Detectors at the Near Site}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4724&filename=CDR-NDC-volume-final-101912.pdf&version=12}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNE_CDR4}
+\BIBentryALTinterwordspacing
+------. (2012, October) {Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 4: The Liquird Argon Detector at the Far Site}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4892&filename=CDR-LArFD-volume-final-2012Oct22.pdf&version=12}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNE_CDR5}
+\BIBentryALTinterwordspacing
+------. (2012, October) {Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 5: Conventional Facilities at the Near Site}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4623&filename=CDR-NSCF-volume-final-2012Oct10.pdf&version=9}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNE_CDR6}
+\BIBentryALTinterwordspacing
+------. (2012, October) {Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 6: Conventional Facilities at the Far Site}. [Online]. Available:
+  \url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5017&filename=CDR-FSCF-volume-final-2012Oct10.pdf&version=5}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LBNO_EOI}
+A.~Stahl \emph{et~al.}, ``{Expression of Interest for a very long baseline
+  neutrino oscillation experiment (LBNO)},'' 2012.
+
+\bibitem{DUNECDR_V1}
 R.~Acciarri \emph{et~al.}, ``{Long-Baseline Neutrino Facility (LBNF) and Deep
-  Underground Neutrino Experiment (DUNE)},'' 2015.
+  Underground Neutrino Experiment (DUNE), Volume 1: The LBNF and DUNE
+  Projects},'' 2016.
 
-\bibitem{BlatterEField}
+\bibitem{DUNECDR_V2}
+------, ``{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE), Volume 2: The Physics Program for DUNE at LBNF},'' 2015.
+
+\bibitem{DUNECDR_V3}
+J.~Strait \emph{et~al.}, ``{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE), Volume 3: Long-Baseline Neutrino
+  Facility for DUNE},'' 2016.
+
+\bibitem{DUNECDR_V4}
+R.~Acciarri \emph{et~al.}, ``{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE), Volume 4: The DUNE Detectors at
+  LBNF},'' 2016.
+
+\bibitem{DUNEAtWork}
 \BIBentryALTinterwordspacing
-A.~Blatter, A.~Ereditato, C.~C. Hsu, S.~Janos, I.~Kreslo, M.~Luethi, C.~R. von
-  Rohr, M.~Schenk, T.~Strauss, M.~S. Weber, and M.~Zeller, ``Experimental study
-  of electric breakdowns in liquid argon at centimeter scale,'' \emph{Journal
-  of Instrumentation}, vol.~9, no.~04, p. P04006, 2014. [Online]. Available:
-  \url{http://stacks.iop.org/1748-0221/9/i=04/a=P04006}
-\BIBentrySTDinterwordspacing
-
-\bibitem{BERNcam}
-S.~C. Delaquis, R.~Gornea, S.~Janos, M.~Lüthi, C.~Rudolf~von Rohr, M.~Schenk,
-  and J.~L. Vuilleumier, ``{Development of a camera casing suited for cryogenic
-  and vacuum applications},'' \emph{JINST}, vol.~8, p. T12001, 2013.
-
-\bibitem{LAPD}
-M.~Adamowski \emph{et~al.}, ``{The Liquid Argon Purity Demonstrator},''
-  \emph{JINST}, vol.~9, p. P07005, 2014.
-
-\bibitem{Liverpool}
-K.~Mavrokoridis, F.~Ball, J.~Carroll, M.~Lazos, K.~J. McCormick, N.~A. Smith,
-  C.~Touramanis, and J.~Walker, ``{Optical Readout of a Two Phase Liquid Argon
-  TPC using CCD Camera and THGEMs},'' \emph{JINST}, vol.~9, p. P02006, 2014.
-
-\bibitem{Weizmannbubbles}
-E.~Erdal, L.~Arazi, V.~Chepe, M.~L. Rappaport, D.~Vartsky, and A.~Breskin,
-  ``{Direct observation of bubble-assisted electroluminescence in liquid
-  xeno},'' \emph{JINST}, vol.~10, no.~11, p. P11002, 2015.
-
-\bibitem{CameraPaper}
-N.~McConkey, N.~Spooner, M.~Thiesse, M.~Wallbank, and T.~K. Warburton,
-  ``{Cryogenic CMOS Cameras for High Voltage Monitoring in Liquid Argon},''
-  2016.
-
-\bibitem{thermalnoise1}
-\BIBentryALTinterwordspacing
-G.~Ghibaudo and F.~Balestra, ``Low temperature characterization of silicon cmos
-  devices,'' \emph{Microelectronics Reliability}, vol.~37, no.~9, pp. 1353 --
-  1366, 1997. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S0026271497000073}
-\BIBentrySTDinterwordspacing
-
-\bibitem{thermalnoise2}
-H.~{Zhao} and X.~{Liu}, ``{A low-power cryogenic analog to digital converter in
-  standard CMOS technology},'' \emph{Cryogenics}, vol.~55, pp. 79--83, May
-  2013.
-
-\bibitem{SBNProposal}
-M.~Antonello \emph{et~al.}, ``{A Proposal for a Three Detector Short-Baseline
-  Neutrino Oscillation Program in the Fermilab Booster Neutrino Beam},'' 2015.
-
-\bibitem{LBNE6493}
-\BIBentryALTinterwordspacing
-N.~S. Bowden. (2012, October) {Review Report: Mini-Review of Operation of the
-  LBNE Far Detector at the Surface}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6493&filename=LBNENearSurfaceReviewrReports.pdf&version=2}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Shielding}
-\BIBentryALTinterwordspacing
-D.~Wright. (2012, June) {Shielding Physics List Description}. [Online].
+{DUNE Collaboration}. (2017) {Proposals and Design Reports}. [Online].
   Available:
-  \url{http://www.slac.stanford.edu/comp/physics/geant4/slac_physics_lists/shielding/physlistdoc.html}
+  \url{https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx}
 \BIBentrySTDinterwordspacing
 
-\bibitem{LBNE3383}
+\bibitem{PIP-II}
 \BIBentryALTinterwordspacing
-B.~Baller. (2015, August) {LAr-FD Parameters Spreadsheet}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=3383&filename=ParametersAPAsOutsideAug11_2015.pdf&version=59}
+S.~Holmes \emph{et~al.}, ``{PIP-II Status and Strategy},'' \emph{{Proc. of
+  IPAC2015}}, pp. 3982--3985, {2015}. [Online]. Available:
+  \url{http://jacow.org/IPAC2015/papers/thpf116.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Gaisser}
+\bibitem{LBNEReconfig}
 \BIBentryALTinterwordspacing
-T.~K. Gaisser, \emph{{Cosmic rays and particle physics}}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Cambridge, UK: Univ. Pr. (1990) 279 p, 1990. [Online].
-  Available:
-  \url{http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521326672}
+Y.~Kim \emph{et~al.} (2012, August) {LBNE Reconfiguration: Steering Committee
+  Report}. [Online]. Available:
+  \url{http://www.fnal.gov/directorate/lbne_reconfiguration/index.shtml}
 \BIBentrySTDinterwordspacing
 
-\bibitem{PhysRevD.58.092005}
+\bibitem{SURFWebsite}
 \BIBentryALTinterwordspacing
-M.~Aglietta \emph{et~al.}, ``Muon ``depth-intensity'' relation measured by the
-  lvd underground experiment and cosmic-ray muon spectrum at sea level,''
-  \emph{Phys. Rev. D}, vol.~58, p. 092005, Oct 1998. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevD.58.092005}
+ [Online]. Available: \url{http://www.sanfordlab.org}
 \BIBentrySTDinterwordspacing
+
+\bibitem{RayDavis1968}
+\BIBentryALTinterwordspacing
+R.~Davis, D.~S. Harmer, and K.~C. Hoffman, ``Search for neutrinos from the
+  sun,'' \emph{Phys. Rev. Lett.}, vol.~20, pp. 1205--1209, May 1968. [Online].
+  Available: \url{http://link.aps.org/doi/10.1103/PhysRevLett.20.1205}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RayDavis1988}
+B.~T. Cleveland \emph{et~al.}, ``{Measurement of the solar electron neutrino
+  flux with the Homestake chlorine detector},'' \emph{Astrophys. J.}, vol. 496,
+  pp. 505--526, 1998.
+
+\bibitem{Bass:2013vcg}
+M.~Bass \emph{et~al.}, ``{Baseline Optimization for the Measurement of CP
+  Violation, Mass Hierarchy, and $\theta_{23}$ Octant in a Long-Baseline
+  Neutrino Oscillation Experiment},'' \emph{Phys. Rev.}, vol. D91, no.~5, p.
+  052015, 2015.
+
+\bibitem{Diwan:2004bt}
+M.~V. Diwan, ``{The Case for a super neutrino beam},'' \emph{Frascati Phys.
+  Ser.}, vol.~35, pp. 89--109, 2004, [,89(2004)].
+
+\bibitem{Church_LArSoft}
+E.~D. Church, ``{LArSoft: A Software Package for Liquid Argon Time Projection
+  Drift Chambers},'' 2013.
+
+\bibitem{LArSoftOrg}
+\BIBentryALTinterwordspacing
+{The LArSoft collabortion}. (2017) {Software for LArTPCs}. [Online]. Available:
+  \url{http://larsoft.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ROOT}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework},'' \emph{Nucl. Instrum. Meth.}, vol. A389, pp. 81--86, 1997.
+
+\bibitem{GEANT4}
+\BIBentryALTinterwordspacing
+S.~Agostinelli \emph{et~al.}, ``Geant4—a simulation toolkit,'' \emph{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol. 506, no.~3, pp. 250
+  -- 303, 2003. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}
+\BIBentrySTDinterwordspacing
+
+\bibitem{GENIE}
+\BIBentryALTinterwordspacing
+C.~Andreopoulos \emph{et~al.}, ``{The GENIE neutrino Monte Carlo generator},''
+  \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, vol. 614,
+  no.~1, pp. 87 -- 104, 2010. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900209023043}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Nuance}
+D.~Casper, ``{The Nuance neutrino physics simulation, and the future},''
+  \emph{Nucl. Phys. Proc. Suppl.}, vol. 112, pp. 161--170, 2002, [,161(2002)].
 
 \bibitem{CRY}
 \BIBentryALTinterwordspacing
@@ -122,50 +185,6 @@ C.~Hagmann, D.~Lange, and D.~Wright, ``Monte carlo simulation of proton-induced
   cosmic-ray cascades in the atmosphere,'' \emph{Lawrence Livermore National
   Laboratory}, 2007.
 
-\bibitem{LBNE7517}
-\BIBentryALTinterwordspacing
-M.~R. T.~Blackwell, V.A.~Kudryavtsev. (2013, July) {Cosmic-ray Spectra from
-  CRY}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7517&filename=cosmogenics-vk1-130712-v3.pdf&version=3}
-\BIBentrySTDinterwordspacing
-
-\bibitem{barker2012muon}
-\BIBentryALTinterwordspacing
-{Barker, D and others}. (2012, Aug) {Muon-induced background for beam neutrinos
-  at the surface}. [Online]. Available:
-  \url{http://www.fnal.gov/directorate/lbne_reconfiguration/files/LBNE-Reconfiguration-Surface-Detector-August2012.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{LBNE6621}
-\BIBentryALTinterwordspacing
-D.~B. D.~Mei, C.~Zhang. (2012, November) {USD Cosmogenics Backgrounds
-  Simulation Overview}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6621&filename=CosmogenicsSimulationOverview.pdf&version=1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{LBNE8458}
-\BIBentryALTinterwordspacing
-R.~S. D.~Coelho, M.~Szydagis. (2012, November) {Improving Electron / Gamma
-  Separation}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8458&filename=DC_LBNE_FEB1.pdf&version=1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{PhysRevB.27.5279}
-\BIBentryALTinterwordspacing
-A.~Hitachi \emph{et~al.}, ``Effect of ionization density on the time dependence
-  of luminescence from liquid argon and xenon,'' \emph{Phys. Rev. B}, vol.~27,
-  pp. 5279--5285, May 1983. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevB.27.5279}
-\BIBentrySTDinterwordspacing
-
-\bibitem{PhysRevD.57.3873}
-\BIBentryALTinterwordspacing
-G.~J. Feldman and R.~D. Cousins, ``Unified approach to the classical
-  statistical analysis of small signals,'' \emph{Phys. Rev. D}, vol.~57, pp.
-  3873--3889, Apr 1998. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevD.57.3873}
-\BIBentrySTDinterwordspacing
-
 \bibitem{MUSUN}
 \BIBentryALTinterwordspacing
 V.~Kudryavtsev, ``{Muon simulation codes MUSIC and MUSUN for underground
@@ -173,6 +192,11 @@ V.~Kudryavtsev, ``{Muon simulation codes MUSIC and MUSUN for underground
   -- 346, 2009. [Online]. Available:
   \url{http://www.sciencedirect.com/science/article/pii/S0010465508003640}
 \BIBentrySTDinterwordspacing
+
+\bibitem{MUSUN2}
+V.~A. Kudryavtsev, N.~J.~C. Spooner, and J.~E. McMillan, ``{Simulations of muon
+  induced neutron flux at large depths underground},'' \emph{Nucl. Instrum.
+  Meth.}, vol. A505, pp. 688--698, 2003.
 
 \bibitem{MUSIC}
 P.~Antonioli, C.~Ghetti, E.~V. Korolkova, V.~A. Kudryavtsev, and G.~Sartorelli,
@@ -184,54 +208,55 @@ V.~A. Kudryavtsev, E.~V. Korolkova, and N.~J.~C. Spooner, ``{Narrow muon
   bundles from muon pair production in rock},'' \emph{Phys. Lett.}, vol. B471,
   pp. 251--256, 1999.
 
-\bibitem{MUSUN2}
-V.~A. Kudryavtsev, N.~J.~C. Spooner, and J.~E. McMillan, ``{Simulations of muon
-  induced neutron flux at large depths underground},'' \emph{Nucl. Instrum.
-  Meth.}, vol. A505, pp. 688--698, 2003.
-
-\bibitem{Mei:2009py}
-D.~M. Mei, C.~Zhang, K.~Thomas, and F.~Gray, ``{Early Results on Radioactive
-  Background Characterization for Sanford Laboratory and DUSEL Experiments},''
-  \emph{Astropart. Phys.}, vol.~34, pp. 33--39, 2010.
-
-\bibitem{PhysRevD.27.1444}
+\bibitem{LArSoftRecoNote}
 \BIBentryALTinterwordspacing
-M.~L. Cherry, M.~Deakyne, K.~Lande, C.~K. Lee, R.~I. Steinberg, B.~Cleveland,
-  and E.~J. Fenyves, ``Multiple muons in the homestake underground detector,''
-  \emph{Phys. Rev. D}, vol.~27, pp. 1444--1447, Apr 1983. [Online]. Available:
-  \url{http://link.aps.org/doi/10.1103/PhysRevD.27.1444}
+J.~Asaadi \emph{et~al.} (2016, Sept) {The Current Status of Simulation and
+  Reconstruction for the DUNE Far Detector}. [Online]. Available:
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}
 \BIBentrySTDinterwordspacing
 
-\bibitem{NDKTFNote}
+\bibitem{HarrisTrans}
+C.~Harris and M.~Stephens, ``A combined corner and edge detector.''\hskip 1em
+  plus 0.5em minus 0.4em\relax Citeseer, 1988.
+
+\bibitem{HoughTrans}
 \BIBentryALTinterwordspacing
-E.~Church. (2016, Sept) {September 2016 Progress Report from the Atmospheric
-  Neutrinos, Nucleon Decay, and Cosmogenics Working Groups}. [Online].
-  Available:
-  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644}
+P.~V.~C. Hough, ``{Machine Analysis Of Bubble Chamber Pictures},'' in
+  \emph{{Proceedings, 2nd International Conference on High-Energy Accelerators
+  and Instrumentation, HEACC 1959: CERN, Geneva, Switzerland, September 14-19,
+  1959}}, vol. C590914, 1959, pp. 554--558. [Online]. Available:
+  \url{http://inspirehep.net/record/919922/files/HEACC59_598-602.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{MUSUNLBNE}
+\bibitem{PMTrack}
+M.~Antonello \emph{et~al.}, ``{Precise 3D track reconstruction algorithm for
+  the ICARUS T600 liquid argon time projection chamber detector},'' \emph{Adv.
+  High Energy Phys.}, vol. 2013, p. 260820, 2013.
+
+\bibitem{Pandora}
+J.~S. Marshall and M.~A. Thomson, ``{The Pandora Software Development Kit for
+  Pattern Recognition},'' \emph{Eur. Phys. J.}, vol. C75, no.~9, p. 439, 2015.
+
+\bibitem{EMShower}
 \BIBentryALTinterwordspacing
-V.~A. Kudryavtsev \emph{et~al.} (2014) {Muon simulations for LBNE using MUSIC
-  and MUSUN}. [Online]. Available:
-  \url{http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673}
+M.~Wallbank. (2016, June) {EMShower Reconstruction}. [Online]. Available:
+  \url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Bueno}
-A.~Bueno, Z.~Dai, Y.~Ge, M.~Laffranchi, A.~J. Melgarejo, A.~Meregaglia,
-  S.~Navas, and A.~Rubbia, ``{Nucleon decay searches with large liquid argon
-  TPC detectors at shallow depths: Atmospheric neutrinos and cosmogenic
-  backgrounds},'' \emph{JHEP}, vol.~04, p. 041, 2007.
+\bibitem{BirksModel}
+J.~Birks, ``The efficiency of organic scintillatois,'' \emph{ORGANIC}, p.~12,
+  1960.
 
-\bibitem{PDGReview}
-C.~Patrignani \emph{et~al.}, ``{Review of Particle Physics},'' \emph{Chin.
-  Phys.}, vol. C40, no.~10, p. 100001, 2016.
+\bibitem{PIDA_Paper}
+R.~Acciarri \emph{et~al.}, ``{A study of electron recombination using highly
+  ionizing particles in the ArgoNeuT Liquid Argon TPC},'' \emph{JINST}, vol.~8,
+  p. P08005, 2013.
 
-\bibitem{CosmoJanCollabMeeting}
+\bibitem{BoxModel}
 \BIBentryALTinterwordspacing
-M.~Robinson. (2017, Jan) Cosmogenic background to nucelon decay. [Online].
-  Available:
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641}
+J.~Thomas and D.~A. Imel, ``Recombination of electron-ion pairs in liquid argon
+  and liquid xenon,'' \emph{Phys. Rev. A}, vol.~36, pp. 614--616, Jul 1987.
+  [Online]. Available: \url{http://link.aps.org/doi/10.1103/PhysRevA.36.614}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
