@@ -2,7 +2,7 @@
 %*********************************** Chapter XXXXXXXX *****************************
 %*******************************************************************************
 
-\chapter{The 35 ton camera system}  %Title of chapter
+\chapter{The 35 ton camera system} \label{chap:Cameras} %Title of chapter
 
 \nomenclature[z-HV]{HV}{High Voltage}
 \nomenclature[z-CMOS]{CMOS}{Complementary Metal-Oxide Semiconductor}
@@ -12,7 +12,7 @@
 
 \graphicspath{{The35tonCameras/Figs/Raster/}{The35tonCameras/Figs/PDF/}{The35tonCameras/Figs/Vector/}}
 
-As noted in Section~\ref{sec:The35tonDetector}, a camera system which was designed and built by the University of Sheffield, was installed in Run II of the 35 ton prototype. The reason for this was to monitor the cryostat for any potential high voltage (HV) breakdowns. The occurrence of a HV breakdown in liquid Argon (LAr) in possible due to the large electric fields which are required for experiments such as DUNE. For example, when the drift field of 500 V cm$^{-1}$ will be applied to the DUNE far detector (FD), it will require a nominal drift voltage of -190 kV~\citep{DUNECDR_V2}. As the breakdown field has recently been measured to be much lower than this, at around 40 kV cm$^{-1}$~\citep{BlatterEField}, some form of monitoring is required. \\
+As noted in Section~\ref{sec:The35tonDetector}, a camera system which was designed and built by the University of Sheffield, was installed in Run II of the 35 ton prototype. The reason for this was to monitor the cryostat for any potential high voltage (HV) breakdowns. The occurrence of a HV breakdown in liquid Argon (LAr) in possible due to the large electric fields which are required for experiments such as DUNE. For example, when the drift field of 500 V cm$^{-1}$ will be applied to the DUNE far detector (FD), it will require a bias voltage of -180 kV~\citep{DUNECDR_V4} on the cathode plane. As the breakdown field has recently been measured to be much lower than this, at around 40 kV cm$^{-1}$~\citep{BlatterEField}, some form of monitoring is required. \\
 
 To this end, a Complementary Metal-Oxide Semiconductor (CMOS) camera is used within the LAr to observe any potential HV breakdowns in the 35 ton cryostat. Charge-Coupled Device (CCD), and CMOS cameras have been previously been used to do this. This has never before been done using cameras which are immersed in LAr. Previously, cameras have either used viewing ports which were built into the detector, or were inside enclosures which had a raised temperature~\citep{BlatterEField,BERNcam,LAPD,Liverpool,Weizmannbubbles}. As well as looking for HV breakdowns, the cameras also visually monitored the TPC and cryogenic components as filling occurred. The information contained in this section is a summary of the paper detailing the performance of the cameras in the 35 ton prototype~\citep{CameraPaper}. \\
 
@@ -31,13 +31,13 @@ The ability of the cameras to measure HV breakdowns, using the above triggering 
 %********************************** %Second Section  *************************************
 \section{The design of the camera system} \label{sec:CamDesign} %Section - X.2
 
-As will be noted at the start of Chapter~\ref{chap:35tondata}, the 35 ton detector was filled with LAr for over 3 months, and so the shock tests performed with liquid nitrogen were not sufficient to guarantee continuous running of the cameras during the entire 35 ton run. It is also necessary to protect against the prospect of a power failure, which could cause the cameras to be turned off for a large period of time. In this instance, they would have to be able to be power cycled at cryogenic temperatures. During testing, it was found that whilst some of the \emph{Floureon} cameras were able to do this, this was not the case for all cameras. Only cameras which were found to be able to be power cycled in the cold were used in the 35 ton. \\
+As will be noted at the start of Chapter~\ref{chap:35tonData}, the 35 ton detector was filled with LAr for over 3 months, and so the shock tests performed with liquid nitrogen were not sufficient to guarantee continuous running of the cameras during the entire 35 ton run. It is also necessary to protect against the prospect of a power failure, which could cause the cameras to be turned off for a large period of time. In this instance, they would have to be able to be power cycled at cryogenic temperatures. During testing, it was found that whilst some of the \emph{Floureon} cameras were able to do this, this was not the case for all cameras. Only cameras which were found to be able to be power cycled in the cold were used in the 35 ton. \\
 
 As the failure rate of the cameras was non-zero, and because the 35 ton run was scheduled to be much longer than any cameras had been tested in the cold, it was decided that it was prudent to build a self-contained module to house the cameras. A heater, consisting of two resistors placed either side of the camera, was installed inside the camera module. This is because it was found that some of the cameras which failed the shock tests, could be power cycled when they were exposed to an elevated, though still cryogenic, temperature. A temperature sensor was also placed in the modules, so that the increase in temperature during normal operation, and also during heating, could be measured. It was found that the cameras caused the internal temperature of the module to rise by roughly 15 K, though the temperature of the glass viewing panel, and the external camera module, were unchanged. It was also found that with the heater operational, the internal temperature of the module could rise by as much as 80 K after 17 minutes. During operation, the heaters and power supply to the cameras were controlled using a custom-built, remotely controllable device, built by Bob Bridgeland, at the University of Warwick. The temperature from the PT100 sensor was processed by another custom-made device, the output of which was read into a computer, using a NI USB-6009 device. \\
 
 A schematic of a camera module is shown in Figure~\ref{fig:CamModule}. Figure~\ref{fig:CamModule}, also shows a picture of a sealed camera module, with the individual components inside a module next to it. \\
 
-\begin{figure}[h!]
+\begin{figure}
   \centering
   \begin{subfigure}{0.45\textwidth}
     \centering
@@ -57,7 +57,7 @@ A schematic of a camera module is shown in Figure~\ref{fig:CamModule}. Figure~\r
 
 It was necessary to mount the camera modules inside the 35 ton. This was achieved using a custom-designed mounting bracket, an example of which is shown in Figure~\ref{fig:CamMount}. The mounts were fixed to existing cryogenic pipework, and could be freely rotated, so that the cameras could be pointed towards specific regions of interest. This meant that the camera mounts had two degrees of freedom, as well as being able to freely placed on the cryogenic pipes. \\
 
-\begin{figure}[h!]
+\begin{figure}
   \centering
   \includegraphics[width=0.45\textwidth]{cammount35tcrop}
   \caption[Two camera modules which are mounted in the 35 ton prototype detector]
@@ -69,7 +69,7 @@ However, before the cameras could be installed in the 35 ton cryostat, several s
 
 In order to satisfy the safety requirements, adequate grounding of the rack, and all of its components, had to be displayed. This requirement extended to ensuring that the cables used in the system, which were assembled at Fermilab, would not introduce any potential ground loops into the 35 ton system. This meant that detailed diagrams of the individual components, and how they linked together to form the camera system, had to be produced. The detailed diagram which was produced representing the entire camera system is shown in Figure~\ref{fig:CamSysDiagram}. \\
 
-\begin{figure}[h!]
+\begin{figure}
   \centering
   \includegraphics[width=0.95\textwidth]{Camera_Block_diagram}
   \caption[The system diagram for the 35 ton camera system]
@@ -128,7 +128,7 @@ Upon installation in the cryostat, some calibration images were taken for each c
 
 As previously mentioned, the cameras used were car reversing cameras, and so this is why there are distance lines on some of the images in Figure~\ref{fig:CamFOV}. From Figure~\ref{fig:CamFOV}, it also evident that there is a large variation in the picture quality of the different cameras. This is attributed to aspects of the cabling, as some cables were slightly longer than others, or had less reliable electrical connections. It could also be due to differences in the cameras, because, as discussed in Section~\ref{sec:CamDesign}, the stability of the cameras which were tested was not uniform. This variability in the camera stability, also manifested itself in the amount of signal degradation which was observed over time. The signal degradation over the course of the run, for two cameras, is shown in Figure~\ref{fig:CamSigDeg}. \\
 
-\begin{figure}[h!]
+\begin{figure}
   \centering
   \begin{subfigure}{0.95\textwidth}
     \centering
