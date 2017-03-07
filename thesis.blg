@@ -5,81 +5,98 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: Theory/Theory.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: The35tonCameras/The35tonCameras.aux
 A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
 A level-1 auxiliary file: 35tonData/35tonData.aux
 A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
-The style file: IEEEtran.bst
+A level-1 auxiliary file: Conclusion/Conclusion.aux
+The style file: unsrt.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10580 items from 5000.
 Database file #1: References/references.bib
--- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in P5Doc
+Warning--empty institution in LBNE_CDR1
+Warning--empty institution in LBNE_CDR2
+Warning--empty institution in LBNE_CDR3
+Warning--empty institution in LBNE_CDR4
+Warning--empty institution in LBNE_CDR5
+Warning--empty institution in LBNE_CDR6
 Warning--empty journal in LBNO_EOI
 Warning--empty journal in DUNECDR_V1
 Warning--empty journal in DUNECDR_V2
 Warning--empty journal in DUNECDR_V3
 Warning--empty journal in DUNECDR_V4
 Name 1 in "S.D. Holmes, and others" has a comma at the end for entry PIP-II
-while executing---line 2419 of file IEEEtran.bst
+while executing---line 944 of file unsrt.bst
+Warning--empty institution in Elizabeth_01_17
+Warning--empty institution in DUNE2332
+Warning--empty institution in DUNE2335
+Warning--empty institution in DUNE2377
+Warning--empty institution in DUNE2401
+Warning--empty institution in DUNE2407
+Warning--empty institution in MauryLifetime
 Warning--empty journal in Adams:2013qkq
+Warning--empty institution in LBNE8836
+Warning--empty institution in MarkReviewJuly2015
 Warning--empty journal in Church_LArSoft
-Warning--missing institution in CORSIKA
+Warning--empty institution in CORSIKA
+Warning--empty institution in LArSoftRecoNote
 Warning--empty booktitle in HarrisTrans
+Warning--empty institution in EMShower
 Warning--empty journal in CameraPaper
 Warning--empty journal in SBNProposal
-
-Done.
-You've used 124 entries,
-            4039 wiz_defined-function locations,
-            1574 strings with 30010 characters,
-and the built_in function-call counts, 71807 in all, are:
-= -- 6274
-> -- 1303
-< -- 420
-+ -- 720
-- -- 249
-* -- 3128
-:= -- 11879
-add.period$ -- 248
-call.type$ -- 124
-change.case$ -- 125
-chr.to.int$ -- 828
-cite$ -- 136
-duplicate$ -- 5588
-empty$ -- 5739
-format.name$ -- 324
-if$ -- 16252
+Warning--empty institution in uBooNENoise
+Warning--empty institution in 35tonNoiseMeeting
+Warning--empty institution in 35tonNoiseDoc
+Warning--empty institution in LBNE6493
+Warning--empty institution in LBNE3383
+Warning--empty institution in LBNE7806
+Warning--empty institution in LBNE6621
+Warning--empty institution in LBNE8458
+Warning--empty institution in LBNE7517
+Warning--empty institution in NDKTFNote
+Warning--empty institution in MUSUNLBNE
+You've used 143 entries,
+            1791 wiz_defined-function locations,
+            1306 strings with 26045 characters,
+and the built_in function-call counts, 27414 in all, are:
+= -- 2389
+> -- 1119
+< -- 33
++ -- 438
+- -- 295
+* -- 1702
+:= -- 4511
+add.period$ -- 429
+call.type$ -- 143
+change.case$ -- 140
+chr.to.int$ -- 0
+cite$ -- 183
+duplicate$ -- 1192
+empty$ -- 2765
+format.name$ -- 295
+if$ -- 6006
 int.to.chr$ -- 0
-int.to.str$ -- 124
-missing$ -- 989
-newline$ -- 531
-num.names$ -- 123
-pop$ -- 2299
+int.to.str$ -- 143
+missing$ -- 97
+newline$ -- 718
+num.names$ -- 142
+pop$ -- 386
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 5794
+quote$ -- 0
+skip$ -- 491
 stack$ -- 0
-substring$ -- 2321
-swap$ -- 4299
-text.length$ -- 144
+substring$ -- 1664
+swap$ -- 174
+text.length$ -- 33
 text.prefix$ -- 0
-top$ -- 5
-type$ -- 124
-warning$ -- 12
-while$ -- 270
-width$ -- 127
-write$ -- 1305
+top$ -- 0
+type$ -- 0
+warning$ -- 40
+while$ -- 244
+width$ -- 146
+write$ -- 1495
 (There was 1 error message)

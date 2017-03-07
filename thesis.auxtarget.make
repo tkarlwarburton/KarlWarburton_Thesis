@@ -1,14 +1,22 @@
+\newlabel{Neut_Effects}
+\newlabel{Neut_Hist}
+\newlabel{Neut_Oscil}
 \newlabel{Organisation of the data structure}
 \newlabel{Reformatting the data to the offline structure}
 \newlabel{chap:35tonData}
 \newlabel{chap:35tonSim}
 \newlabel{chap:Cameras}
+\newlabel{chap:Conc}
+\newlabel{chap:DUNE}
+\newlabel{chap:FDSims}
+\newlabel{chap:Theory}
 \newlabel{eq:Bethe-Bloch}
 \newlabel{eq:Birks_1}
 \newlabel{eq:Birks_A}
 \newlabel{eq:Birks_B}
 \newlabel{eq:Birks_Correc}
 \newlabel{eq:Birks}
+\newlabel{eq:Gaisser}
 \newlabel{eq:HitTime_Int}
 \newlabel{eq:HitTime}
 \newlabel{eq:ModBox_1}
@@ -54,6 +62,7 @@
 \newlabel{fig:CamFOV}
 \newlabel{fig:CamModule}
 \newlabel{fig:CamMount}
+\newlabel{fig:CamSchem}
 \newlabel{fig:CamSigDeg}
 \newlabel{fig:CamSysDiagram}
 \newlabel{fig:CoherentNoise}
@@ -227,14 +236,10 @@
 \newlabel{fig:SimEffic_Theta_CRY}
 \newlabel{fig:SimEffic_Theta}
 \newlabel{fig:StuckCodes}
-\newlabel{fig:SurfBeamCut}
 \newlabel{fig:SurfCompGeom}
-\newlabel{fig:SurfEDistCuts}
 \newlabel{fig:SurfPoCACut}
 \newlabel{fig:SurfProf_Azi}
 \newlabel{fig:SurfProf_Col}
-\newlabel{fig:SurfSigBack}
-\newlabel{fig:SurfSimpGeom}
 \newlabel{fig:TingjunLifetime}
 \newlabel{fig:TwoDimCanvas}
 \newlabel{fig:WirePitches}
@@ -296,6 +301,8 @@
 \newlabel{sub@fig:CRY_PIDA_Proton_NonCheat}
 \newlabel{sub@fig:CaloTune_After}
 \newlabel{sub@fig:CaloTune_Before}
+\newlabel{sub@fig:CamModule}
+\newlabel{sub@fig:CamSchem}
 \newlabel{sub@fig:CounterDiffFreq}
 \newlabel{sub@fig:DiffDataAvDiff_RMS_Int_T}
 \newlabel{sub@fig:DiffDataAvDiff_RMS_Int_X}
@@ -370,6 +377,7 @@
 \newlabel{tab:CDiffAng}
 \newlabel{tab:DUNEExposure}
 \newlabel{tab:DUNE_SP_WP}
+\newlabel{tab:FinalSurfRates}
 \newlabel{tab:IsolProp}
 \newlabel{tab:Isol_PIDA_Muon}
 \newlabel{tab:Isol_PIDA_PrimProton}
@@ -383,9 +391,5 @@
 \newlabel{tab:SurfEnPrim}
 \newlabel{tab:SurfMuComp}
 \newlabel{tab:SurfMuMissComp}
-\newlabel{tab:SurfMuMissSimp}
-\newlabel{tab:SurfMuSimp}
 \newlabel{tab:SurfNeuComp}
-\newlabel{tab:SurfNeuSimp}
 \newlabel{tab:SurfProComp}
-\newlabel{tab:SurfProSimp}

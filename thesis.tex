@@ -2,7 +2,7 @@
 % Please have a look at the README.md file for info on how to use the template
 
 % If I want to make the entire thesis....
-\documentclass[a4paper,12pt,times,oneside,numbered,print,index,draft,lineno]{Classes/PhDThesisPSnPDF}
+\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno]{Classes/PhDThesisPSnPDF}
 % If I only want to make a certain chapter....
 %\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno,chapter,draft]{Classes/PhDThesisPSnPDF}
 
@@ -12,12 +12,20 @@
 % Useful option to review a particular chapter or to send it to supervisior.
 % To use choose `chapter' option in the document class
 
+\usepackage{physics}
+\usepackage{xspace}
+
+\usepackage{enumitem}
+
+
+
 \ifdefineChapter
 %\includeonly{35tonData/35tonData}
-%\includeonly{FarDetectorSimulations/FarDetectorSimulations}
+\includeonly{FarDetectorSimulations/FarDetectorSimulations}
 %\includeonly{The35tonCameras/The35tonCameras, FarDetectorSimulations/FarDetectorSimulations}
 %\includeonly{DUNE/DUNE}
-\includeonly{35tonSimulation/35tonSimulation}
+%\includeonly{35tonSimulation/35tonSimulation}
+%\includeonly{Theory/Theory}
 \fi
 
 % ******************************************************************************
@@ -139,13 +147,13 @@
 % ******************************** Main Matter *********************************
 \mainmatter
 
-\include{Introduction/Introduction}
 \include{Theory/Theory}
 \include{DUNE/DUNE}
 \include{The35tonCameras/The35tonCameras}
 \include{35tonSimulation/35tonSimulation}
 \include{35tonData/35tonData}
 \include{FarDetectorSimulations/FarDetectorSimulations}
+\include{Conclusion/Conclusion}
 
 % ********************************** Back Matter *******************************
 % Backmatter should be commented out, if you are using appendices after References
@@ -159,9 +167,9 @@
 % Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
   
 %\bibliographystyle{ieeetr}
-\bibliographystyle{IEEEtran}
+%\bibliographystyle{IEEEtran}
 %\bibliographystyle{apalike}
-%\bibliographystyle{unsrt} % Use for unsorted references  
+\bibliographystyle{unsrt} % Use for unsorted references  
 %\bibliographystyle{plainnat} % use this to have URLs listed in References
 \cleardoublepage
 \bibliography{References/references} % Path to your References.bib file

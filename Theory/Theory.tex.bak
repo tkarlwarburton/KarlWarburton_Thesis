@@ -1,0 +1,61 @@
+%*******************************************************************************
+%******************************** Chapter XXXXXXXX *****************************
+%*******************************************************************************
+
+\chapter{Introduction and Theory}  %Title of chapter
+
+\graphicspath{{Theory/Figs/Raster/}{Theory/Figs/PDF/}{Theory/Figs/Vector/}}
+
+%%% Neutrino physics
+\nomenclature[z-CP]{CP}{Charge-Parity}
+\nomenclature[z-GUT]{GUT}{Grand Unified Theory}
+\nomenclature[z-SM]{SM}{Standard Model}
+
+%%% How LArTPCs work
+\nomenclature[z-LAr]{LAr}{Liquid Argon}
+\nomenclature[z-TPC]{TPC}{Time Projection Chamber}
+\nomenclature[z-LArTPC]{LArTPC}{Liquid Argon Time Projection Chamber}
+
+
+%%% An introduction to the standard model....
+The ``Standard Model of Particle Physics'' (SM) is a set of theories which has been widely tested and has been found to accurately predict the interactions of fundamental particles. These tests have come in many forms throughout the 20$^{th}$ and 21$^{st}$ centuries, and include the observation of all of the particles which it predicts, as well as measurements of the properties of these particles. The recent discovery of the Higgs boson~\citep{HiggsAtlas, HiggsCMS} ``completed'' the SM, as this was the last particle which it predicted to be observed. However, despite it's many successes the SM does not represent the ``final'' theory of fundamental particle physics, should one exist. This is because there are many questions made by recent experimental observations which the SM is unable to adress, some of these will be briefly discussed below. \\
+
+Firstly, though the SM accurately predicts the interactions made by the electromagnetic, weak nuclear, and strong nuclear forces, it makes no mention of gravity. This is a major flaw of the SM as gravity is one of the driving forces in the formation of astronomical objects such as planets, stars, and galaxies. With the recent detection of gravitational waves~\citep{LIGO} this issue has again be brought into focus. Secondly, when studying rotational velocities of galaxies, the measured velocities exceed the speeds predicted unless there is a significant amount of matter present in the galaxies which we are unable to detect. The SM makes no prediction as to what this ``dark-matter'' is comprised of. Thirdly, from measurements of distant supernovae it appears that the expansion of the universe is accelerating, not decelerating as would be expected, this implies the presence of some form of unknown energy source. Again, the SM makes no prediction as to what this unknown energy source, or ``dark-energy'' is. A further point of consternation with the SM is that it is not ``elegant,'' as it has as many as 19 free parameters, which each appear unrelated to eachother. There are also unresolved questions regarding the particles which are predicted by the SM, such as, why charge is quantised, why there are exactly 3 families of quarks and leptons, and why they have the observed hierarchy of masses. The SM also does not predict the matter-antimatter assymettry which is observed in the universe today. Finally, the neutrinos predicted by the SM are massless, however, numerous measurements of neutrino oscillation show that this is highly unlikely. This is because, it is largely accepted that in order for oscillations to occur, at least two of the neutrino flavours must have non-zero mass. A rigorous discussion of neutrino osscillations is presented in Section~\ref{sec:NeutPhys}. \\
+
+Extensive efforts have been made to resolve many of these issues with the SM, in the form of a so-called Grand Unifying Theory (GUT). Many of these theories propose that the electroweak and strong nuclear forces belong to an overarching symmetry group, though this is predicted to occur at extremely high energies, far beyong the reaches of current experimental limits. As a result, many of the experimental signatures which they GUTs predict are difficult to measure, however, many of the theories predict that the proton (a stable particle in the SM) should decay with lifetimes of the order of 10$^{34}$ years. Some of the more common GUTs are briefly discussed in Section~\ref{sec:Theory_GUT} with reference to the proton lifetimes which they predict. \\
+
+The Deep Underground Neutrino Experiment (DUNE) is a next generation experiment situated at the Sanford Underground Research Facility (SURF), which aims to measure many of the properties of neutrinos, as well as to search for proton decays. The experimental setup, physics capabilities, and prototyping schedule for DUNE is outlined in Chapter~\ref{chap:DUNE}. A camera system which was installed in the DUNE 35 ton protoype detector is described in Chapter~\ref{chap:Cameras}. Chapter~\ref{chap:35tonSim} describes simulations which were made in preparation for data taking of the 35 ton prototype, and conclude with a description of how Particle Identification (PID) could be performed in the 35 ton data. An overview of the data gathered by the 35 ton prototype is shown in Chapter~\ref{chap:35tonData}, and a novel method of interaction time determination using the effects of diffusion is presented. Following this, Chapter~\ref{chap:FDSims} concerns simulations of the cosmogenic backgrounds seen in large Liquid Argon Time Projection Chambers (LArTPCs) detectors at SURF. These simulations are frist presented with respect to a surface detector measuring neutrino oscillations, and then to a detector at depth searching for nucleon decay events. Finally, Chapter~\ref{chap:Conc} contains some final remarks and observations. \\
+
+%********************************** %First Section  **************************************
+\section{Neutrino physics} ~\label{sec:NeutPhys}  %Section - X.1 
+
+%%% The history
+\subsection{The history of neutrino oscillation}
+
+%%% The formalism...
+\subsection{The theory of neutrino oscillations}
+
+
+%%% Explanation of various mixing angles, and MSW effect etc.
+\subsection{CP-Violation and matter effects}
+
+%%%% DUNE CDR Volume 2 has a good overview of CP stuff....
+
+%%% Current best limits and overview of exisiting experiments.
+\subsection{Current experimental limits, and future experiments} \label{sec:Theory_Exp}
+
+
+%********************************** % Second Section  *************************************
+\section{Grand Unifying Theories and nucleon decay}  \label{sec:Theory_GUT} %Section - X.2
+
+%********************************** % Third Section  *************************************
+\subsection{The cosmogenic background to nucleon decay} \label{sec:BkNDK}  %Section - X.2.3
+
+\begin{figure}
+  \centering
+  %\includegraphics[width=0.5\textwidth]{KaonNDKInteraction}
+  \caption[How the interaction of a cosmic muon can mimic a nucleon decay signature]
+          {How the interaction of a cosmic muon can mimic a nucleon decay signature, by producing a $K^{0}_{L}$ which interacts far from the detector wall, producing an isolated kaon.}
+  \label{fig:K0LongBackground}
+\end{figure}
+
