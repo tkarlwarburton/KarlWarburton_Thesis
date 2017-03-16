@@ -9,6 +9,6 @@ Scanning style file /usr/local/texlive/2015/texmf-dist/makeindex/nomencl/nomencl
 ...done (10 attributes redefined, 3 ignored).
 Scanning input file thesis.nlo....done (49 entries accepted, 0 rejected).
 Sorting entries....done (294 comparisons).
-Generating output file thesis.nls....done (99 lines written, 0 warnings).
+Generating output file thesis.nls....done (100 lines written, 0 warnings).
 Output written in thesis.nls.
 Transcript written in thesis.nlg.

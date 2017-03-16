@@ -1,4 +1,3 @@
-\newlabel{Neut_Effects}
 \newlabel{Neut_Hist}
 \newlabel{Neut_Oscil}
 \newlabel{Organisation of the data structure}
@@ -16,6 +15,10 @@
 \newlabel{eq:Birks_B}
 \newlabel{eq:Birks_Correc}
 \newlabel{eq:Birks}
+\newlabel{eq:DecEEn}
+\newlabel{eq:DecEMom}
+\newlabel{eq:DecKEn}
+\newlabel{eq:DecKMom}
 \newlabel{eq:Gaisser}
 \newlabel{eq:HitTime_Int}
 \newlabel{eq:HitTime}
@@ -24,8 +27,29 @@
 \newlabel{eq:ModBox_B}
 \newlabel{eq:ModBox_Correc}
 \newlabel{eq:ModBox}
+\newlabel{eq:Oscil_Normalised}
+\newlabel{eq:Oscil_TwoNeut}
+\newlabel{eq:Oscill_3FlavFull}
+\newlabel{eq:Oscill_3Flav}
+\newlabel{eq:Oscill_ACP}
+\newlabel{eq:Oscill_Amp}
+\newlabel{eq:Oscill_ESub}
+\newlabel{eq:Oscill_Eigen}
+\newlabel{eq:Oscill_FinSub}
+\newlabel{eq:Oscill_MassProp1}
+\newlabel{eq:Oscill_MassProp2}
+\newlabel{eq:Oscill_Prob1}
+\newlabel{eq:Oscill_Prob2}
+\newlabel{eq:Oscill_TimeEigen}
+\newlabel{eq:Oscill_t2L}
 \newlabel{eq:PIDA_A}
 \newlabel{eq:PIDA}
+\newlabel{eq:PMNS_El}
+\newlabel{eq:PMNS_Exp}
+\newlabel{eq:PMNS_Short}
+\newlabel{eq:PMNS_Simp}
+\newlabel{eq:PMNS_Who}
+\newlabel{eq:RParity}
 \newlabel{fig:10ktPos}
 \newlabel{fig:35tonCounterLoc}
 \newlabel{fig:35tonSchem}
@@ -189,6 +213,8 @@
 \newlabel{fig:NDK_AllKaon_Other_EDist}
 \newlabel{fig:NDK_CosmoBack_Norm}
 \newlabel{fig:NDK_CosmoBack_Raw}
+\newlabel{fig:NDK_EDepNearEdge_Bk}
+\newlabel{fig:NDK_EDepNearEdge_Sig}
 \newlabel{fig:NDK_EDepNearEdge}
 \newlabel{fig:NDK_FidCut_EnLim_Cosmo}
 \newlabel{fig:NDK_FidCut_EnLim_Sig}
@@ -200,12 +226,14 @@
 \newlabel{fig:NDK_Kaon_Elec_EDist_Cosmo}
 \newlabel{fig:NDK_Kaon_Elec_EDist_Sig}
 \newlabel{fig:NDK_Kaon_Elec_EDist}
+\newlabel{fig:NDK_Sig_Cont}
 \newlabel{fig:NDK_Sig_KEBigGap}
 \newlabel{fig:NDK_Sig_KEDist}
 \newlabel{fig:NDK_Sig_KENearEdge}
 \newlabel{fig:NDK_Sig_MissedKaon}
 \newlabel{fig:NDK_Sig_Norm}
 \newlabel{fig:NDK_Sig_Raw}
+\newlabel{fig:Neut_MH}
 \newlabel{fig:NoiseRemoval}
 \newlabel{fig:NumPE_Distance}
 \newlabel{fig:PDYZDist}
@@ -271,6 +299,7 @@
 \newlabel{sec:NDKCosmBk}
 \newlabel{sec:NDKEnCosmBk}
 \newlabel{sec:NDKImprov}
+\newlabel{sec:NDKKin}
 \newlabel{sec:NDKSig}
 \newlabel{sec:NeutPhys}
 \newlabel{sec:PID}
@@ -349,6 +378,8 @@
 \newlabel{sub@fig:NDK_AllEDep_Other_EDist_Sig}
 \newlabel{sub@fig:NDK_AllKaon_Other_EDist_Cosmo}
 \newlabel{sub@fig:NDK_AllKaon_Other_EDist_Sig}
+\newlabel{sub@fig:NDK_EDepNearEdge_Bk}
+\newlabel{sub@fig:NDK_EDepNearEdge_Sig}
 \newlabel{sub@fig:NDK_FidCut_EnLim_Cosmo}
 \newlabel{sub@fig:NDK_FidCut_EnLim_Sig}
 \newlabel{sub@fig:NDK_KaonElec_Near_EDist_Cosmo}
@@ -386,6 +417,7 @@
 \newlabel{tab:NDKLim}
 \newlabel{tab:NDK_CosmoBack_EachCut}
 \newlabel{tab:NDK_KaonDecayRat}
+\newlabel{tab:NeutProp}
 \newlabel{tab:PIDAVals}
 \newlabel{tab:SimpSurfRates}
 \newlabel{tab:SurfEnPrim}

@@ -14,8 +14,9 @@ A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
 A level-1 auxiliary file: Conclusion/Conclusion.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
-A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
+Warning--empty journal in Tzanankos:2011zz
+Warning--empty journal in Abe:2011ts
 Warning--empty journal in P5Doc
 Warning--empty institution in LBNE_CDR1
 Warning--empty institution in LBNE_CDR2
@@ -56,47 +57,49 @@ Warning--empty institution in LBNE7806
 Warning--empty institution in LBNE6621
 Warning--empty institution in LBNE8458
 Warning--empty institution in LBNE7517
+Warning--empty journal in Abgrall:2016cfi
 Warning--empty institution in NDKTFNote
+Warning--empty institution in LBNE3144
 Warning--empty institution in MUSUNLBNE
-You've used 143 entries,
+You've used 178 entries,
             1791 wiz_defined-function locations,
-            1306 strings with 26045 characters,
-and the built_in function-call counts, 27414 in all, are:
-= -- 2389
-> -- 1119
-< -- 33
-+ -- 438
-- -- 295
-* -- 1702
-:= -- 4511
-add.period$ -- 429
-call.type$ -- 143
-change.case$ -- 140
+            1521 strings with 32206 characters,
+and the built_in function-call counts, 34397 in all, are:
+= -- 3027
+> -- 1346
+< -- 35
++ -- 530
+- -- 352
+* -- 2118
+:= -- 5616
+add.period$ -- 533
+call.type$ -- 178
+change.case$ -- 174
 chr.to.int$ -- 0
-cite$ -- 183
-duplicate$ -- 1192
-empty$ -- 2765
-format.name$ -- 295
-if$ -- 6006
+cite$ -- 222
+duplicate$ -- 1496
+empty$ -- 3516
+format.name$ -- 352
+if$ -- 7572
 int.to.chr$ -- 0
-int.to.str$ -- 143
-missing$ -- 97
-newline$ -- 718
-num.names$ -- 142
-pop$ -- 386
+int.to.str$ -- 178
+missing$ -- 126
+newline$ -- 892
+num.names$ -- 176
+pop$ -- 473
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 491
+skip$ -- 622
 stack$ -- 0
-substring$ -- 1664
-swap$ -- 174
-text.length$ -- 33
+substring$ -- 2216
+swap$ -- 214
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 40
-while$ -- 244
-width$ -- 146
-write$ -- 1495
+warning$ -- 44
+while$ -- 310
+width$ -- 181
+write$ -- 1862
 (There was 1 error message)

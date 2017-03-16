@@ -2,9 +2,9 @@
 % Please have a look at the README.md file for info on how to use the template
 
 % If I want to make the entire thesis....
-\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno]{Classes/PhDThesisPSnPDF}
+%\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno,draft]{Classes/PhDThesisPSnPDF}
 % If I only want to make a certain chapter....
-%\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno,chapter,draft]{Classes/PhDThesisPSnPDF}
+\documentclass[a4paper,12pt,times,oneside,numbered,print,index,lineno,draft,chapter]{Classes/PhDThesisPSnPDF}
 
 % ***************************** Chapter Mode ***********************************
 % The chapter mode allows user to only print particular chapters with references
@@ -17,8 +17,6 @@
 
 \usepackage{enumitem}
 
-
-
 \ifdefineChapter
 %\includeonly{35tonData/35tonData}
 \includeonly{FarDetectorSimulations/FarDetectorSimulations}
@@ -26,6 +24,7 @@
 %\includeonly{DUNE/DUNE}
 %\includeonly{35tonSimulation/35tonSimulation}
 %\includeonly{Theory/Theory}
+%\includeonly{Theory/Theory, DUNE/DUNE}
 \fi
 
 % ******************************************************************************
@@ -190,7 +189,7 @@
 \begin{appendices} % Using appendices environment for more functunality
 
 \include{Appendix1/appendix1}
-\include{Appendix2/appendix2}
+%\include{Appendix2/appendix2}
 
 \end{appendices}
 
