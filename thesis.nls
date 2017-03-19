@@ -11,29 +11,27 @@
 		\nompageref{28}
   \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {2.0}
 		\nompageref{28}
+  \item [{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {5.0}
+		\nompageref{104}
   \item [{APA}]\begingroup Anode Plane Assembly\nomeqref {2.0}
 		\nompageref{28}
   \item [{CCD}]\begingroup Charge-Couple Device\nomeqref {3.0}
-		\nompageref{69}
-  \item [{CDR}]\begingroup Conceptual Design Review\nomeqref {2.0}
+		\nompageref{59}
+  \item [{CDR}]\begingroup Conceptual Design Report\nomeqref {2.0}
 		\nompageref{28}
   \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {3.0}
-		\nompageref{69}
+		\nompageref{59}
   \item [{CPA}]\begingroup Cathode Plane Assembly\nomeqref {2.0}
 		\nompageref{28}
   \item [{CP}]\begingroup Charge-Parity\nomeqref {1.0}\nompageref{10}
   \item [{CRC}]\begingroup Cosmic Ray Counter\nomeqref {2.0}
-		\nompageref{28}
-  \item [{CRP}]\begingroup Charge Readout Planes\nomeqref {2.0}
 		\nompageref{28}
   \item [{CRY}]\begingroup Cosmic-ray Shower Library\nomeqref {2.0}
 		\nompageref{28}
   \item [{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {2.0}
 		\nompageref{28}
   \item [{DVR}]\begingroup Digital Video Recorder\nomeqref {3.0}
-		\nompageref{69}
-  \item [{ECal}]\begingroup Electromagnetic Calorimeter\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{59}
   \item [{FD}]\begingroup Far Detector\nomeqref {2.0}\nompageref{28}
   \item [{Fermilab}]\begingroup Fermi National Lab\nomeqref {2.0}
 		\nompageref{28}
@@ -45,26 +43,20 @@
 		\nompageref{28}
   \item [{GUT}]\begingroup Grand Unified Theory\nomeqref {1.0}
 		\nompageref{10}
-  \item [{HV}]\begingroup High Voltage\nomeqref {3.0}\nompageref{69}
+  \item [{HV}]\begingroup High Voltage\nomeqref {3.0}\nompageref{59}
   \item [{LAr}]\begingroup Liquid Argon\nomeqref {1.0}\nompageref{10}
   \item [{LArSoft}]\begingroup Liquid Argon Software\nomeqref {2.0}
 		\nompageref{28}
   \item [{LArTPC}]\begingroup Liquid Argon Time Projection Chamber\nomeqref {1.0}
 		\nompageref{10}
-  \item [{LAS}]\begingroup LEM/Anode Sandwiches\nomeqref {2.0}
-		\nompageref{28}
   \item [{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {2.0}
-		\nompageref{28}
-  \item [{LBNF}]\begingroup Long Baseline Neutrino Facility\nomeqref {2.0}
 		\nompageref{28}
   \item [{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {2.0}
 		\nompageref{28}
-  \item [{LEM}]\begingroup Large Electron Multipliers\nomeqref {2.0}
-		\nompageref{28}
   \item [{MIP}]\begingroup Minimally Ionising Particle\nomeqref {3.0}
-		\nompageref{79}
+		\nompageref{69}
   \item [{MPV}]\begingroup Most Probable Value\nomeqref {3.0}
-		\nompageref{79}
+		\nompageref{69}
   \item [{MUSIC}]\begingroup MUon Simulation Code\nomeqref {2.0}
 		\nompageref{28}
   \item [{MUSUN}]\begingroup MUon Simulations UNderground\nomeqref {2.0}
@@ -74,17 +66,15 @@
 		\nompageref{28}
   \item [{PD}]\begingroup Photon Detector\nomeqref {2.0}\nompageref{28}
   \item [{PID}]\begingroup Particle IDentification\nomeqref {3.0}
-		\nompageref{79}
+		\nompageref{69}
   \item [{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {2.0}
 		\nompageref{28}
-  \item [{PMT}]\begingroup Photo Multiplier Tubes\nomeqref {2.0}
-		\nompageref{28}
   \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {5.0}
-		\nompageref{166}
+		\nompageref{156}
+  \item [{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {5.0}
+		\nompageref{104}
   \item [{ROI}]\begingroup Region Of Interest\nomeqref {3.0}
-		\nompageref{79}
-  \item [{RPC}]\begingroup Resistive Plate Chambers\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{69}
   \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {2.0}
 		\nompageref{28}
   \item [{SK}]\begingroup Super Kamiokande\nomeqref {1.0}

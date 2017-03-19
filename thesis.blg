@@ -25,18 +25,17 @@ Warning--empty institution in LBNE_CDR4
 Warning--empty institution in LBNE_CDR5
 Warning--empty institution in LBNE_CDR6
 Warning--empty journal in LBNO_EOI
-Warning--empty journal in DUNECDR_V1
-Warning--empty journal in DUNECDR_V2
-Warning--empty journal in DUNECDR_V3
 Warning--empty journal in DUNECDR_V4
+Warning--empty journal in DUNECDR_V3
 Name 1 in "S.D. Holmes, and others" has a comma at the end for entry PIP-II
 while executing---line 944 of file unsrt.bst
+Warning--empty journal in DUNECDR_V1
+Warning--empty journal in DUNECDR_V2
 Warning--empty institution in Elizabeth_01_17
-Warning--empty institution in DUNE2332
 Warning--empty institution in DUNE2335
-Warning--empty institution in DUNE2377
 Warning--empty institution in DUNE2401
-Warning--empty institution in DUNE2407
+Warning--empty institution in DUNE2332
+Warning--empty institution in DUNE2377
 Warning--empty institution in MauryLifetime
 Warning--empty journal in Adams:2013qkq
 Warning--empty institution in LBNE8836
@@ -61,45 +60,45 @@ Warning--empty journal in Abgrall:2016cfi
 Warning--empty institution in NDKTFNote
 Warning--empty institution in LBNE3144
 Warning--empty institution in MUSUNLBNE
-You've used 178 entries,
+You've used 169 entries,
             1791 wiz_defined-function locations,
-            1521 strings with 32206 characters,
-and the built_in function-call counts, 34397 in all, are:
-= -- 3027
-> -- 1346
-< -- 35
-+ -- 530
-- -- 352
-* -- 2118
-:= -- 5616
-add.period$ -- 533
-call.type$ -- 178
-change.case$ -- 174
+            1476 strings with 30551 characters,
+and the built_in function-call counts, 32772 in all, are:
+= -- 2891
+> -- 1283
+< -- 34
++ -- 505
+- -- 336
+* -- 2022
+:= -- 5362
+add.period$ -- 508
+call.type$ -- 169
+change.case$ -- 166
 chr.to.int$ -- 0
-cite$ -- 222
-duplicate$ -- 1496
-empty$ -- 3516
-format.name$ -- 352
-if$ -- 7572
+cite$ -- 212
+duplicate$ -- 1429
+empty$ -- 3334
+format.name$ -- 336
+if$ -- 7207
 int.to.chr$ -- 0
-int.to.str$ -- 178
-missing$ -- 126
-newline$ -- 892
-num.names$ -- 176
-pop$ -- 473
+int.to.str$ -- 169
+missing$ -- 121
+newline$ -- 849
+num.names$ -- 168
+pop$ -- 443
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 622
+skip$ -- 587
 stack$ -- 0
-substring$ -- 2216
-swap$ -- 214
-text.length$ -- 35
+substring$ -- 2117
+swap$ -- 205
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 44
-while$ -- 310
-width$ -- 181
-write$ -- 1862
+warning$ -- 43
+while$ -- 297
+width$ -- 172
+write$ -- 1772
 (There was 1 error message)

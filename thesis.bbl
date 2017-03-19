@@ -315,6 +315,23 @@ A.~Stahl et~al.
   experiment (LBNO)}.
 \newblock 2012.
 
+\bibitem{DUNECDR_V4}
+R.~Acciarri et~al.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE), Volume 4: The DUNE Detectors at LBNF}.
+\newblock 2016.
+
+\bibitem{DUNECDR_V3}
+J.~Strait et~al.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE), Volume 3: Long-Baseline Neutrino Facility for DUNE}.
+\newblock 2016.
+
+\bibitem{PIP-II}
+S.D. Holmes et~al.
+\newblock {PIP-II Status and Strategy}.
+\newblock {\em {Proc. of IPAC2015}}, pages 3982--3985, {2015}.
+
 \bibitem{DUNECDR_V1}
 R.~Acciarri et~al.
 \newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
@@ -327,74 +344,11 @@ R.~Acciarri et~al.
   Experiment (DUNE), Volume 2: The Physics Program for DUNE at LBNF}.
 \newblock 2015.
 
-\bibitem{DUNECDR_V3}
-J.~Strait et~al.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE), Volume 3: Long-Baseline Neutrino Facility for DUNE}.
-\newblock 2016.
-
-\bibitem{DUNECDR_V4}
-R.~Acciarri et~al.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE), Volume 4: The DUNE Detectors at LBNF}.
-\newblock 2016.
-
 \bibitem{DUNEAtWork}
 {DUNE Collaboration}.
 \newblock {Proposals and Design Reports}.
 \newblock [online]
   \url{https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx}.
-
-\bibitem{PIP-II}
-S.D. Holmes et~al.
-\newblock {PIP-II Status and Strategy}.
-\newblock {\em {Proc. of IPAC2015}}, pages 3982--3985, {2015}.
-
-\bibitem{LBNEReconfig}
-Y.K. Kim et~al.
-\newblock {LBNE Reconfiguration: Steering Committee Report}, Aug 2012.
-\newblock [online]
-  \url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
-
-\bibitem{SURFWebsite}
-[online] \url{http://www.sanfordlab.org}.
-
-\bibitem{GLACIER}
-A.~Rubbia.
-\newblock {Final Report Summary - LAGUNA-LBNO (Design of a pan-European
-  Infrastructure for Large Apparatus studying Grand Unification, Neutrino
-  Astrophysics and Long Baseline Neutrino Oscillations)}, Dec 2015.
-
-\bibitem{1748-0221-8-04-P04012}
-A.~Badertscher et~al.
-\newblock First operation and performance of a 200 lt double phase lar lem-tpc
-  with a 40 × 76 cm 2 readout.
-\newblock {\em Journal of Instrumentation}, 8(04):P04012, 2013.
-
-\bibitem{1748-0221-7-08-P08026}
-A.~Badertscher et~al.
-\newblock First operation and drift field performance of a large area double
-  phase lar electron multiplier time projection chamber with an immersed
-  greinacher high-voltage multiplier.
-\newblock {\em Journal of Instrumentation}, 7(08):P08026, 2012.
-
-\bibitem{Badertscher:2010zg}
-A.~Badertscher et~al.
-\newblock {First operation of a double phase LAr Large Electron Multiplier Time
-  Projection Chamber with a two-dimensional projective readout anode}.
-\newblock {\em Nucl. Instrum. Meth.}, A641:48--57, 2011.
-
-\bibitem{1748-0221-6-01-C01081}
-J.~E. Campagne et~al.
-\newblock Pmm$^2$: R$\&$d on triggerless acquisition for next generation
-  neutrino experiments.
-\newblock {\em Journal of Instrumentation}, 6(01):C01081, 2011.
-
-\bibitem{Genolini:2008uc}
-B.~Genolini et~al.
-\newblock {PMm$^2$: Large photomultipliers and innovative electronics for the
-  next-generation neutrino experiments}.
-\newblock {\em Nucl. Instrum. Meth.}, A610:249--252, 2009.
 
 \bibitem{Elizabeth_01_17}
 E.~Worcester.
@@ -414,30 +368,31 @@ Milind~V. Diwan.
 \newblock {\em Frascati Phys. Ser.}, 35:89--109, 2004.
 \newblock [,89(2004)].
 
-\bibitem{DUNE2332}
-E.~Worcester.
-\newblock {LBL CPV Sensitivity: Standard Exposures}.
-\newblock Technical Report DUNE-doc-2332, Feb 2017.
-
 \bibitem{DUNE2335}
 E.~Worcester.
 \newblock {LBL MH Sensitivity: Standard Exposures}.
 \newblock Technical Report DUNE-doc-2335, Feb 2017.
-
-\bibitem{DUNE2377}
-E.~Worcester.
-\newblock {LBL Sensitivity: Staging Plots}.
-\newblock Technical Report DUNE-doc-2377, Feb 2017.
 
 \bibitem{DUNE2401}
 E.~Worcester.
 \newblock {LBL CPV Sensitivity: Exposure Plots}.
 \newblock Technical Report DUNE-doc-2401, Feb 2017.
 
-\bibitem{DUNE2407}
+\bibitem{DUNE2332}
 E.~Worcester.
-\newblock {LBL MH Sensitivity: Exposure Plots}.
-\newblock Technical Report DUNE-doc-2407, Feb 2017.
+\newblock {LBL CPV Sensitivity: Standard Exposures}.
+\newblock Technical Report DUNE-doc-2332, Feb 2017.
+
+\bibitem{DUNE2377}
+E.~Worcester.
+\newblock {LBL Sensitivity: Staging Plots}.
+\newblock Technical Report DUNE-doc-2377, Feb 2017.
+
+\bibitem{NuFit2014}
+M.~C. Gonzalez-Garcia, Michele Maltoni, and Thomas Schwetz.
+\newblock {Updated fit to three neutrino mixing: status of leptonic CP
+  violation}.
+\newblock {\em JHEP}, 11:052, 2014.
 
 \bibitem{PDG2012}
 J.~Beringer et~al.
@@ -508,13 +463,6 @@ R.~M. Bionta et~al.
 K.~Hirata et~al.
 \newblock Observation of a neutrino burst from the supernova sn1987a.
 \newblock {\em Phys. Rev. Lett.}, 58:1490--1493, Apr 1987.
-
-\bibitem{Huedepohl:2009wh}
-L.~Hudepohl, B.~Muller, H.~T. Janka, A.~Marek, and G.~G. Raffelt.
-\newblock {Neutrino Signal of Electron-Capture Supernovae from Core Collapse to
-  Cooling}.
-\newblock {\em Phys. Rev. Lett.}, 104:251101, 2010.
-\newblock [Erratum: Phys. Rev. Lett.105,249901(2010)].
 
 \bibitem{Aartsen:2012kia}
 M.~G. Aartsen et~al.
