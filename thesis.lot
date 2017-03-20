@@ -2,8 +2,8 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Three-flavor oscillation parameters from a fit to global data after the NOW\nobreakspace {}2016 and ICHEP-2016 conference}}{33}{table.caption.9}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces The parameters of the wire planes in the DUNE FD single phase design}}{43}{table.caption.13}
-\contentsline {table}{\numberline {2.2}{\ignorespaces The exposure in units in units of kt$\cdot $MW$\cdot $years, as a function of time, assuming a staged DUNE construction}}{47}{table.caption.15}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Nucleon decay limits in DUNE and Super-Kamiokande, in some favoured decay channels}}{55}{table.caption.25}
+\contentsline {table}{\numberline {2.2}{\ignorespaces The beam exposure in units in units of\nobreakspace {}kt$\cdot $MW$\cdot $years, as a function of time, assuming a staged DUNE construction}}{47}{table.caption.15}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Nucleon decay limits in DUNE and Super-Kamiokande, in some favoured decay channels}}{56}{table.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Stopping power parameterisation for various particle types in liquid argon}}{98}{table.caption.49}

@@ -97,6 +97,144 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Theory/Theory.t
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
+-include Figs/University_Crest.png.gpi.d
+thesis.d: $$(call graphics-source,Figs/University_Crest.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.png)
+-include Theory/Figs/Raster/MassHierarchy.png.gpi.d
+thesis.d: $$(call graphics-source,Theory/Figs/Raster/MassHierarchy.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Theory/Figs/Raster/MassHierarchy.png)
+-include Theory/Figs/Raster/KaonNDKInteraction.png.gpi.d
+thesis.d: $$(call graphics-source,Theory/Figs/Raster/KaonNDKInteraction.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,Theory/Figs/Raster/KaonNDKInteraction.png)
+-include DUNE/Figs/Raster/DUNESchematic.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNESchematic.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNESchematic.png)
+-include DUNE/Figs/Raster/FarDetectorSchem.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/FarDetectorSchem.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/FarDetectorSchem.png)
+-include DUNE/Figs/Raster/tpc_apa_cross_sections.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/tpc_apa_cross_sections.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/tpc_apa_cross_sections.png)
+-include DUNE/Figs/Raster/DUNEOscillProb.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNEOscillProb.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNEOscillProb.png)
+-include DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png)
+-include DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png)
+-include DUNE/Figs/Raster/DUNEOctantDetermination.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNEOctantDetermination.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNEOctantDetermination.png)
+-include DUNE/Figs/Raster/DUNETheta23Res.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNETheta23Res.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNETheta23Res.png)
+-include DUNE/Figs/Raster/DUNETheta13Res.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNETheta13Res.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNETheta13Res.png)
+-include DUNE/Figs/Raster/DUNEDeltaMRes.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/DUNEDeltaMRes.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/DUNEDeltaMRes.png)
+-include DUNE/Figs/Raster/NucleonDecayLimits.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/NucleonDecayLimits.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/NucleonDecayLimits.png)
+-include DUNE/Figs/Raster/ICARUSKaon_Col.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/ICARUSKaon_Col.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/ICARUSKaon_Col.png)
+-include DUNE/Figs/Raster/ICARUSKaon_Ind.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/ICARUSKaon_Ind.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/ICARUSKaon_Ind.png)
+-include DUNE/Figs/Raster/PrototypeSched.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/PrototypeSched.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/PrototypeSched.png)
+-include DUNE/Figs/Raster/35tonSchem.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35tonSchem.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35tonSchem.png)
+-include DUNE/Figs/Raster/35tonFullDetect.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35tonFullDetect.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35tonFullDetect.png)
+-include DUNE/Figs/Raster/35ton_APASchem.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35ton_APASchem.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_APASchem.png)
+-include DUNE/Figs/Raster/35ton_xCenter.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/35ton_xCenter.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/35ton_xCenter.png)
+-include DUNE/Figs/Raster/CollectionPlane.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/CollectionPlane.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/CollectionPlane.png)
+-include DUNE/Figs/Raster/InductionPlane.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/InductionPlane.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/InductionPlane.png)
+-include DUNE/Figs/Raster/Complex.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/Complex.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/Complex.png)
+-include DUNE/Figs/Raster/WireAngleCondition.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/Raster/WireAngleCondition.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/Raster/WireAngleCondition.png)
+-include The35tonCameras/Figs/Raster/cammount35tcrop.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cammount35tcrop.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cammount35tcrop.png)
+-include The35tonCameras/Figs/Raster/phasesep.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/phasesep.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/phasesep.png)
+-include The35tonCameras/Figs/Raster/ullage.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/ullage.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/ullage.png)
+-include The35tonCameras/Figs/Raster/cathodetr.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cathodetr.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cathodetr.png)
+-include The35tonCameras/Figs/Raster/cathodelr.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cathodelr.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cathodelr.png)
+-include The35tonCameras/Figs/Raster/cooldownsp.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cooldownsp.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cooldownsp.png)
+-include The35tonCameras/Figs/Raster/cathodetl.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cathodetl.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cathodetl.png)
+-include The35tonCameras/Figs/Raster/cathodell.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/cathodell.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/cathodell.png)
+-include The35tonCameras/Figs/Raster/hvft.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/hvft.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/hvft.png)
+-include The35tonCameras/Figs/Raster/Cam1degradation2.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/Cam1degradation2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/Cam1degradation2.png)
+-include The35tonCameras/Figs/Raster/Cam4degradation2.png.gpi.d
+thesis.d: $$(call graphics-source,The35tonCameras/Figs/Raster/Cam4degradation2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,The35tonCameras/Figs/Raster/Cam4degradation2.png)
+-include 35tonSimulation/Figs/Raster/DiffTrackSeps.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffTrackSeps.png)
+-include 35tonSimulation/Figs/Raster/NumPE_Distance.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/NumPE_Distance.png)
+-include 35tonSimulation/Figs/Raster/DiffFlashPredReco.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/DiffFlashPredReco.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png)
+-include 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png)
+-include 35tonSimulation/Figs/Raster/UnCorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/UnCorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/CorrectedCanvas.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/CorrectedCanvas.png)
+-include 35tonSimulation/Figs/Raster/Bethe-Bloch.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/Bethe-Bloch.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/Bethe-Bloch.png)
+-include 35tonSimulation/Figs/Raster/StoppingPower.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/StoppingPower.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/StoppingPower.png)
+-include 35tonSimulation/Figs/Raster/TruthPIDA.png.gpi.d
+thesis.d: $$(call graphics-source,35tonSimulation/Figs/Raster/TruthPIDA.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonSimulation/Figs/Raster/TruthPIDA.png)
 -include 35tonData/Figs/Raster/DataCollected.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)
@@ -238,4 +376,25 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overl
 -include 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png.gpi.d
 thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
+-include FarDetectorSimulations/Figs/Raster/phi-map.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/phi-map.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/phi-map.png)
+-include FarDetectorSimulations/Figs/Raster/DepthCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/DepthCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/DepthCan.png)
+-include FarDetectorSimulations/Figs/Raster/ZenithCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
+-include FarDetectorSimulations/Figs/Raster/AzimuthCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
+-include FarDetectorSimulations/Figs/Raster/AziZenCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
+-include FarDetectorSimulations/Figs/Raster/MuonPosCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+-include FarDetectorSimulations/Figs/Raster/MissedKaon.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

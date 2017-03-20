@@ -12,7 +12,7 @@
   \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {2.0}
 		\nompageref{28}
   \item [{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {5.0}
-		\nompageref{104}
+		\nompageref{105}
   \item [{APA}]\begingroup Anode Plane Assembly\nomeqref {2.0}
 		\nompageref{28}
   \item [{CCD}]\begingroup Charge-Couple Device\nomeqref {3.0}
@@ -70,9 +70,9 @@
   \item [{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {2.0}
 		\nompageref{28}
   \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {5.0}
-		\nompageref{156}
+		\nompageref{157}
   \item [{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {5.0}
-		\nompageref{104}
+		\nompageref{105}
   \item [{ROI}]\begingroup Region Of Interest\nomeqref {3.0}
 		\nompageref{69}
   \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {2.0}

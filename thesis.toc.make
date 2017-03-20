@@ -13,10 +13,10 @@
 \contentsline {chapter}{\numberline {2}The Deep Underground Neutrino Experiment}{40}{chapter.2}
 \contentsline {section}{\numberline {2.1}Brief experimental overview}{40}{section.2.1}
 \contentsline {section}{\numberline {2.2}The single phase detector design}{41}{section.2.2}
-\contentsline {section}{\numberline {2.3}The physics capabilities of DUNE}{46}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Neutrino physics}{46}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Nucleon decay}{53}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Additional physics opportunities}{56}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.3}The physics capabilities of DUNE}{45}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Neutrino physics}{45}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Nucleon decay}{52}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Additional physics opportunities}{55}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Path to building DUNE - The 35 ton prototype}{57}{section.2.4}
 \contentsline {section}{\numberline {2.5}The DUNE software}{62}{section.2.5}
 \contentsline {chapter}{\numberline {3}The 35 ton camera system}{71}{chapter.3}
@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {5.5}Measuring interaction times using electron diffusion}{136}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Determining interaction times in 35 ton data}{139}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Determining interaction times in a low-noise detector using Monte Carlo, and differences with data}{148}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Discerning the impact of changing detector properties using Monte Carlo samples}{156}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.3}Impact of changing detector properties using Monte Carlo samples}{156}{subsection.5.5.3}
 \contentsline {subsection}{\numberline {5.5.4}The limitations of and future improvements to the method of interaction time determination using diffusion}{167}{subsection.5.5.4}
 \contentsline {chapter}{\numberline {6}Simulations of the DUNE Far Detector}{169}{chapter.6}
 \contentsline {section}{\numberline {6.1}Simulations of the LBNE surface detector}{169}{section.6.1}
@@ -52,5 +52,4 @@
 \contentsline {subsection}{\numberline {6.3.3}Energy constraints on the cosmogenic background to the $n \rightarrow K^{+} + e^{-}$ decay channel}{207}{subsection.6.3.3}
 \contentsline {subsection}{\numberline {6.3.4}Future improvements to nucleon decay studies and conclusions}{216}{subsection.6.3.4}
 \contentsline {chapter}{\numberline {7}Conclusion}{218}{chapter.7}
-\contentsline {chapter}{References}{219}{chapter*.133}
-\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{230}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{219}{Appendix.a.A}

@@ -4,21 +4,21 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces A representation of the DUNE experimental setup}}{42}{figure.caption.11}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A cross section of the DUNE single phase detector design, showing 8 TPCs}}{44}{figure.caption.12}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces An illustration of the wire wrapping in the DUNE single phase design}}{45}{figure.caption.14}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The $\nu _e$ appearance probability at 1300 km as a function of neutrino energy, for a range of values of $\delta _{CP}$}}{48}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces An illustration of the wire wrapping in the DUNE single phase design}}{46}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The $\nu _e$ appearance probability at 1300\nobreakspace {}km as a function of neutrino energy, for a range of values of $\delta _{CP}$}}{48}{figure.caption.16}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces The significance with which DUNE will be able to determine the neutrino mass hierarchy, for all values of $\delta _{CP}$}}{49}{figure.caption.17}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The significance with which DUNE will be able to determine the value of $\delta _{CP}$, for all values of $\delta _{CP}$}}{49}{figure.caption.18}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\delta _{CP}$, for increasing exposures}}{50}{figure.caption.19}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The significance with which DUNE will be able to determine the value of $\delta _{CP}$, for all values of $\delta _{CP}$}}{50}{figure.caption.18}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\delta _{CP}$, for increasing beam exposures}}{50}{figure.caption.19}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces The significance to which the octant of $\theta _{23}$ can be determined, for different values of $\theta _{23}$}}{51}{figure.caption.20}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\sin ^{2}\theta _{23}$ for increasing exposures}}{52}{figure.caption.21}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\sin ^{2}\theta _{13}$ for increasing exposures}}{52}{figure.caption.22}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\Delta m^{2}_{31}$ for increasing exposures}}{53}{figure.caption.23}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\sin ^{2}\theta _{23}$ for increasing beam exposures}}{52}{figure.caption.21}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\sin ^{2}\theta _{13}$ for increasing beam exposures}}{53}{figure.caption.22}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The resolution with which DUNE will be able to determine the value of $\Delta m^{2}_{31}$ for increasing beam exposures}}{53}{figure.caption.23}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces A comparison of current, and future, nucleon decay lifetime limits, compared with the ranges predicted by Grand Unified Theories.}}{55}{figure.caption.24}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces A kaon event which was observed in the ICARUS T600 detector, in the CNGS data}}{56}{figure.caption.26}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces An overview of the DUNE prototyping schedule, including complementary experiments}}{57}{figure.caption.27}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces A schematic representation of the 35 ton prototype detector, for the Phase II run}}{60}{figure.caption.28}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces An overview of the DUNE prototyping schedule, including complementary experiments}}{58}{figure.caption.27}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces A schematic representation of the 35 ton prototype detector during the Phase II run}}{60}{figure.caption.28}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces A representation of the counter locations in the 35 ton}}{61}{figure.caption.29}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces The LArSoft coordinate system as it is represented in the 35 ton.}}{64}{figure.caption.30}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces The LArSoft coordinate system as it is represented in the 35 ton detector}}{64}{figure.caption.30}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces A selection of reconstructed hits from simulated energy depositions}}{66}{figure.caption.31}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Performing disambiguation with different wire pitches.}}{68}{figure.caption.32}
 \addvspace {10\p@ }
@@ -44,7 +44,7 @@
 \contentsline {figure}{\numberline {4.14}{\ignorespaces The reconstruction efficiencies for protons in a sample generated using CRY.}}{101}{figure.caption.52}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces The reconstruction efficiencies for the simulated isolated muon and proton samples in the 35 ton detector.}}{103}{figure.caption.54}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces The calculated PIDA values for the simulated isolated muon and proton samples in the 35 ton detector.}}{104}{figure.caption.55}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces The $\frac {dE}{dx}$ versus residual range plot for the simulated isolated muon and proton samples in the 35 ton detector.}}{105}{figure.caption.56}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The $\frac {dE}{dx}$ versus residual range plot for the simulated isolated muon and proton samples in the 35 ton detector.}}{106}{figure.caption.56}
 \contentsline {figure}{\numberline {4.18}{\ignorespaces The calculated PIDA values for the simulated proton enriched sample in the 35 ton detector}}{110}{figure.caption.60}
 \contentsline {figure}{\numberline {4.19}{\ignorespaces The calculated PIDA values, as a function of the reconstructed track length, for the simulated proton enriched sample in the 35 ton detector}}{112}{figure.caption.61}
 \contentsline {figure}{\numberline {4.20}{\ignorespaces The calculated PIDA values, as a function of the reconstructed track length, for the simulated proton enriched sample in the 35 ton detector}}{113}{figure.caption.62}
@@ -64,20 +64,20 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces The alignment of reconstructed tracks with the vectors joining the centres of the coincidence counters}}{133}{figure.caption.75}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Reconstruction efficiencies of through going tracks in the 35 ton data}}{135}{figure.caption.77}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Schematic showing the process of diffusion}}{137}{figure.caption.78}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton}}{139}{figure.caption.79}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces A simulated event display showing multiple tracks and flashes in the 35 ton detector}}{139}{figure.caption.79}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces The effect of adding a noise baseline to a hit}}{140}{figure.caption.80}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data}}{141}{figure.caption.81}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces The distributions of the $RMS$ and $RMS/Charge$ values for tracks with a counter difference of 4 in the 35 ton data}}{141}{figure.caption.81}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset for coincidences with a counter difference of 4}}{142}{figure.caption.82}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset for hits within 10 cm of the APAs}}{143}{figure.caption.83}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces The distribution of normalised hit charge in the 35 ton dataset}}{144}{figure.caption.84}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces The difference between the predicted and reconstructed hit times in the 35 ton dataset}}{145}{figure.caption.85}
 \contentsline {figure}{\numberline {5.21}{\ignorespaces The accuracy of the hit $RMS$ method in the 35 ton dataset}}{146}{figure.caption.86}
 \contentsline {figure}{\numberline {5.22}{\ignorespaces The accuracy of the hit $RMS/Charge$ method in the 35 ton dataset}}{147}{figure.caption.87}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces The most probable values of the $RMS$ and $RMS/Charge$ distributions for tracks with a counter difference of 4 in the 35 ton data and a low noise 35 ton detector}}{150}{figure.caption.88}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces The distributions of hit $RMS$ and $RMS/Charge$ for tracks with a counter difference of 4 in the 35 ton dataset, and a low noise 35 ton detector}}{150}{figure.caption.88}
 \contentsline {figure}{\numberline {5.24}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4}}{151}{figure.caption.89}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs}}{151}{figure.caption.90}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs}}{152}{figure.caption.90}
 \contentsline {figure}{\numberline {5.26}{\ignorespaces The distribution of normalised hit charge in the 35 ton dataset and a Monte Carlo sample}}{152}{figure.caption.91}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Comparing the accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation}}{153}{figure.caption.92}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Comparing the accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation}}{154}{figure.caption.92}
 \contentsline {figure}{\numberline {5.28}{\ignorespaces Comparing the accuracy of the hit $RMS$ method in the 35 ton dataset and a Monte Carlo simulation}}{155}{figure.caption.93}
 \contentsline {figure}{\numberline {5.29}{\ignorespaces Comparing the accuracy of the hit $RMS$ method, as the electronic noise changes}}{158}{figure.caption.94}
 \contentsline {figure}{\numberline {5.30}{\ignorespaces Comparing the accuracy of the hit $RMS$ method, as the electronic noise level changes}}{159}{figure.caption.95}
@@ -111,19 +111,19 @@
 \contentsline {figure}{\numberline {6.21}{\ignorespaces The energy directly deposited by kaons, plus the energy deposited by the kaon decay products, plus the energy directly deposited by electrons, plus the energy deposited near the kaon and electron vertex versus the energy depositions which do not fit any of the other criteria, in the simulated nucleon decay and cosmic background samples}}{213}{figure.caption.132}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electronics noise changes}}{231}{figure.caption.134}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electronics noise changes}}{231}{figure.caption.135}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electronics noise changes}}{232}{figure.caption.136}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces The normalised hit charge distribution as the electronics noise changes}}{232}{figure.caption.137}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electron lifetime changes}}{233}{figure.caption.138}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electron lifetime changes}}{233}{figure.caption.139}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electron lifetime changes}}{234}{figure.caption.140}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces The normalised hit charge distribution as the electron lifetime changes}}{234}{figure.caption.141}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electric field changes}}{235}{figure.caption.142}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electric field changes}}{236}{figure.caption.143}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electric field changes}}{236}{figure.caption.144}
-\contentsline {figure}{\numberline {A.12}{\ignorespaces The normalised hit charge distribution as the electric field changes}}{237}{figure.caption.145}
-\contentsline {figure}{\numberline {A.13}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the constant of longitudinal diffusion changes}}{237}{figure.caption.146}
-\contentsline {figure}{\numberline {A.14}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the constant of longitudinal diffusion changes}}{238}{figure.caption.147}
-\contentsline {figure}{\numberline {A.15}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the constant of longitudinal changes}}{238}{figure.caption.148}
-\contentsline {figure}{\numberline {A.16}{\ignorespaces The normalised hit charge distribution as the constant of longitudinal diffusion changes}}{239}{figure.caption.149}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electronics noise changes}}{220}{figure.caption.133}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electronics noise changes}}{220}{figure.caption.134}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electronics noise changes}}{221}{figure.caption.135}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces The normalised hit charge distribution as the electronics noise changes}}{221}{figure.caption.136}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electron lifetime changes}}{222}{figure.caption.137}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electron lifetime changes}}{222}{figure.caption.138}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electron lifetime changes}}{223}{figure.caption.139}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces The normalised hit charge distribution as the electron lifetime changes}}{223}{figure.caption.140}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the electric field changes}}{224}{figure.caption.141}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the electric field changes}}{225}{figure.caption.142}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the electric field changes}}{225}{figure.caption.143}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces The normalised hit charge distribution as the electric field changes}}{226}{figure.caption.144}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces The most probable values of the hit $RMS$ and hit $RMS/Charge$ distributions for tracks with a counter difference of 4, as the constant of longitudinal diffusion changes}}{226}{figure.caption.145}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces The drift distance dependence of diffusion in the 35 ton dataset and Monte Carlo for coincidences with a counter difference of 4, as the constant of longitudinal diffusion changes}}{227}{figure.caption.146}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces The angular dependence of diffusion in the 35 ton dataset and Monte Carlo for hits within 10 cm of the APAs, as the constant of longitudinal changes}}{227}{figure.caption.147}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces The normalised hit charge distribution as the constant of longitudinal diffusion changes}}{228}{figure.caption.148}

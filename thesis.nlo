@@ -1,2 +1,44 @@
+\nomenclatureentry{z-SKSK@[{SK}]\begingroup Super Kamiokande\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-CPCP@[{CP}]\begingroup Charge-Parity\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-GUTGUT@[{GUT}]\begingroup Grand Unified Theory\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-SMSM@[{SM}]\begingroup Standard Model\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-LArLAr@[{LAr}]\begingroup Liquid Argon\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-TPCTPC@[{TPC}]\begingroup Time Projection Chamber\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-LArTPCLArTPC@[{LArTPC}]\begingroup Liquid Argon Time Projection Chamber\nomeqref {1.0}|nompageref}{22}
+\nomenclatureentry{z-FDFD@[{FD}]\begingroup Far Detector\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-NDND@[{ND}]\begingroup Near Detector\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-FNALFNAL@[{FNAL}]\begingroup Fermi National Lab\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-FermilabFermilab@[{Fermilab}]\begingroup Fermi National Lab\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-DUNEDUNE@[{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-LBNELBNE@[{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-LBNFLBNO@[{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-SURFSURF@[{SURF}]\begingroup Sanford Underground Research Facility\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-PIP-IIPIP-II@[{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-CDRCDR@[{CDR}]\begingroup Conceptual Design Report\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-APAAPA@[{APA}]\begingroup Anode Plane Assembly\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-CPACPA@[{CPA}]\begingroup Cathode Plane Assembly\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-PDPD@[{PD}]\begingroup Photon Detector\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-PCBPCB@[{PCB}]\begingroup Printed Circuit Board\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-SiPMSiPM@[{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-SSPSSP@[{SSP}]\begingroup SiPM Signal Processor\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-FGTFGT@[{FGT}]\begingroup Fine-Grained Tracker\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-CRCCRC@[{CRC}]\begingroup Cosmic Ray Counter\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-LArSoftLArSoft@[{LArSoft}]\begingroup Liquid Argon Software\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-\emph{art}\emph{art}@[{\emph{art}}]\begingroup \emph{analysis reconstruction framework}\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{a-ticktick@[{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-ADCADC@[{ADC}]\begingroup Analogue to Digital Converter\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-CRYCRY@[{CRY}]\begingroup Cosmic-ray Shower Library\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-GENIEGENIE@[{GENIE}]\begingroup Generates Events for Neutrino Interaction Experiments\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-MUSUNMUSUN@[{MUSUN}]\begingroup MUon Simulations UNderground\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-MUSICMUSIC@[{MUSIC}]\begingroup MUon Simulation Code\nomeqref {2.0}|nompageref}{40}
+\nomenclatureentry{z-HVHV@[{HV}]\begingroup High Voltage\nomeqref {3.0}|nompageref}{71}
+\nomenclatureentry{z-CMOSCMOS@[{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {3.0}|nompageref}{71}
+\nomenclatureentry{z-CCDCCD@[{CCD}]\begingroup Charge-Couple Device\nomeqref {3.0}|nompageref}{71}
+\nomenclatureentry{z-DVRDVR@[{DVR}]\begingroup Digital Video Recorder\nomeqref {3.0}|nompageref}{71}
+\nomenclatureentry{z-MIPMIP@[{MIP}]\begingroup Minimally Ionising Particle\nomeqref {3.0}|nompageref}{81}
+\nomenclatureentry{z-MPVMPV@[{MPV}]\begingroup Most Probable Value\nomeqref {3.0}|nompageref}{81}
+\nomenclatureentry{z-PIDPID@[{PID}]\begingroup Particle IDentification\nomeqref {3.0}|nompageref}{81}
+\nomenclatureentry{z-ROIROI@[{ROI}]\begingroup Region Of Interest\nomeqref {3.0}|nompageref}{81}
 \nomenclatureentry{z-RCERCE@[{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {5.0}|nompageref}{117}
 \nomenclatureentry{z-ADCADC@[{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {5.0}|nompageref}{117}
+\nomenclatureentry{z-PoCAPoCA@[{PoCA}]\begingroup Point of Closest Approach\nomeqref {5.0}|nompageref}{169}
