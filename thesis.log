@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  20 MAR 2017 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.5)  24 MAR 2017 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2308,7 +2308,7 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 126.
 \PHD@crest=\box57
-<Figs/University_Crest.png, id=229, 260.4129pt x 104.0688pt>
+<Figs/University_Crest.png, id=233, 260.4129pt x 104.0688pt>
 File: Figs/University_Crest.png Graphic file (type png)
 <use Figs/University_Crest.png>
 Package pdftex.def Info: Figs/University_Crest.png used on input line 126.
@@ -2407,7 +2407,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 ]
 \openout2 = `Abstract/abstract.aux'.
 
-(./Abstract/abstract.tex) [6
+(./Abstract/abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+) [6
 
 
 
@@ -2426,13 +2441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
-[16] (./thesis.lot
-Overfull \hbox (8.11732pt too wide) in paragraph at lines 2--2
- [][] []\T1/ptm/m/n/12 (-20) Three-flavor os-cil-la-tion pa-ram-e-ters from a f
-it to global data af-ter the NOW 2016 |
- []
-
-[17
+[16] (./thesis.lot [17
 
 ])
 \tf@lot=\write8
@@ -2454,19 +2463,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-[22
-
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -2476,25 +2472,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
+[22
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 [23]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-[24]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
@@ -2504,157 +2503,164 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 71.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-[26] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+[26]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 79.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [27]
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
 [29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-<Theory/Figs/Raster/MassHierarchy.png, id=849, 611.28375pt x 548.0475pt>
+<Theory/Figs/Raster/MassHierarchy.png, id=857, 611.28375pt x 548.0475pt>
 File: Theory/Figs/Raster/MassHierarchy.png Graphic file (type png)
 <use Theory/Figs/Raster/MassHierarchy.png>
 Package pdftex.def Info: Theory/Figs/Raster/MassHierarchy.png used on input lin
-e 186.
+e 192.
 (pdftex.def)             Requested size: 218.73056pt x 196.1011pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 [32] [33 <./Theory/Figs/Raster/MassHierarchy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 290--292
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-<Theory/Figs/Raster/KaonNDKInteraction.png, id=931, 818.05624pt x 654.445pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+[37] <Theory/Figs/Raster/KaonNDKInteraction.png, id=970, 818.05624pt x 654.445p
+t>
 File: Theory/Figs/Raster/KaonNDKInteraction.png Graphic file (type png)
 <use Theory/Figs/Raster/KaonNDKInteraction.png>
 Package pdftex.def Info: Theory/Figs/Raster/KaonNDKInteraction.png used on inpu
-t line 305.
+t line 314.
 (pdftex.def)             Requested size: 218.73056pt x 174.98491pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-[37 <./Theory/Figs/Raster/KaonNDKInteraction.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 332--149
+Underfull \hbox (badness 10000) in paragraph at lines 322--149
 
  []
 
-[39]
+[38 <./Theory/Figs/Raster/KaonNDKInteraction.png>] [39]
 \openout2 = `DUNE/DUNE.aux'.
 
 (./DUNE/DUNE.tex
@@ -2688,7 +2694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-<DUNE/Figs/Raster/DUNESchematic.png, id=984, 1003.75pt x 301.125pt>
+<DUNE/Figs/Raster/DUNESchematic.png, id=1008, 1003.75pt x 301.125pt>
 File: DUNE/Figs/Raster/DUNESchematic.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNESchematic.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNESchematic.png used on input line 
@@ -2699,18 +2705,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[41]
+
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 [42 <./DUNE/Figs/Raster/DUNESchematic.png>] <DUNE/Figs/Raster/FarDetectorSchem.
-png, id=1008, 1027.84pt x 770.88pt>
+png, id=1032, 1027.84pt x 770.88pt>
 File: DUNE/Figs/Raster/FarDetectorSchem.png Graphic file (type png)
 <use DUNE/Figs/Raster/FarDetectorSchem.png>
 Package pdftex.def Info: DUNE/Figs/Raster/FarDetectorSchem.png used on input li
@@ -2732,7 +2738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 [43] [44 <./DUNE/Figs/Raster/FarDetectorSchem.png>]
-<DUNE/Figs/Raster/tpc_apa_cross_sections.png, id=1024, 320.19624pt x 856.19875p
+<DUNE/Figs/Raster/tpc_apa_cross_sections.png, id=1048, 320.19624pt x 856.19875p
 t>
 File: DUNE/Figs/Raster/tpc_apa_cross_sections.png Graphic file (type png)
 <use DUNE/Figs/Raster/tpc_apa_cross_sections.png>
@@ -2764,7 +2770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<DUNE/Figs/Raster/DUNEOscillProb.png, id=1048, 1446.40375pt x 687.56876pt>
+<DUNE/Figs/Raster/DUNEOscillProb.png, id=1072, 1446.40375pt x 687.56876pt>
 File: DUNE/Figs/Raster/DUNEOscillProb.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNEOscillProb.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNEOscillProb.png used on input line
@@ -2781,7 +2787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
  []
 
 
-<DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png, id=1070, 2370.8575pt x 2304
+<DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png, id=1094, 2370.8575pt x 2304
 .61pt>
 File: DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png Graphic file (type png)
 
@@ -2790,7 +2796,7 @@ Package pdftex.def Info: DUNE/Figs/Raster/mh_two_exps_th23band_no_2017.png used
  on input line 187.
 (pdftex.def)             Requested size: 214.35834pt x 208.35542pt.
 
-<DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png, id=1071, 2370.8575pt x 2304
+<DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png, id=1095, 2370.8575pt x 2304
 .61pt>
 File: DUNE/Figs/Raster/mh_two_exps_th23band_io_2017.png Graphic file (type png)
 
@@ -2804,7 +2810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
  []
 
 [48 <./DUNE/Figs/Raster/DUNEOscillProb.png>]
-<DUNE/Figs/Raster/cpv_two_exps_th23band_no_2017.png, id=1083, 2370.8575pt x 230
+<DUNE/Figs/Raster/cpv_two_exps_th23band_no_2017.png, id=1108, 2370.8575pt x 230
 4.61pt>
 File: DUNE/Figs/Raster/cpv_two_exps_th23band_no_2017.png Graphic file (type png
 )
@@ -2813,7 +2819,7 @@ Package pdftex.def Info: DUNE/Figs/Raster/cpv_two_exps_th23band_no_2017.png use
 d on input line 206.
 (pdftex.def)             Requested size: 214.35834pt x 208.35542pt.
 
-<DUNE/Figs/Raster/cpv_two_exps_th23band_io_2017.png, id=1084, 2370.8575pt x 230
+<DUNE/Figs/Raster/cpv_two_exps_th23band_io_2017.png, id=1109, 2370.8575pt x 230
 4.61pt>
 File: DUNE/Figs/Raster/cpv_two_exps_th23band_io_2017.png Graphic file (type png
 )
@@ -2827,7 +2833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--220
  []
 
 
-<DUNE/Figs/Raster/resdcp_exp_staging_th23band_2017.png, id=1088, 2370.8575pt x 
+<DUNE/Figs/Raster/resdcp_exp_staging_th23band_2017.png, id=1113, 2370.8575pt x 
 2304.61pt>
 File: DUNE/Figs/Raster/resdcp_exp_staging_th23band_2017.png Graphic file (type 
 png)
@@ -2844,14 +2850,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 h_two_exps_th23band_io_2017.png>] [50 <./DUNE/Figs/Raster/cpv_two_exps_th23band
 _no_2017.png> <./DUNE/Figs/Raster/cpv_two_exps_th23band_io_2017.png> <./DUNE/Fi
 gs/Raster/resdcp_exp_staging_th23band_2017.png>]
-<DUNE/Figs/Raster/DUNEOctantDetermination.png, id=1113, 929.4725pt x 981.6675pt
+<DUNE/Figs/Raster/DUNEOctantDetermination.png, id=1137, 929.4725pt x 981.6675pt
 >
 File: DUNE/Figs/Raster/DUNEOctantDetermination.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNEOctantDetermination.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNEOctantDetermination.png used on i
 nput line 233.
 (pdftex.def)             Requested size: 218.73056pt x 231.00645pt.
-<DUNE/Figs/Raster/DUNETheta23Res.png, id=1118, 948.54375pt x 997.7275pt>
+<DUNE/Figs/Raster/DUNETheta23Res.png, id=1142, 948.54375pt x 997.7275pt>
 File: DUNE/Figs/Raster/DUNETheta23Res.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNETheta23Res.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNETheta23Res.png used on input line
@@ -2862,36 +2868,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-[51 <./DUNE/Figs/Raster/DUNEOctantDetermination.png>] <DUNE/Figs/Raster/DUNEThe
-ta13Res.png, id=1132, 950.55125pt x 1002.74625pt>
+<DUNE/Figs/Raster/DUNETheta13Res.png, id=1152, 950.55125pt x 1002.74625pt>
 File: DUNE/Figs/Raster/DUNETheta13Res.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNETheta13Res.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNETheta13Res.png used on input line
  251.
 (pdftex.def)             Requested size: 218.73056pt x 230.73389pt.
-<DUNE/Figs/Raster/DUNEDeltaMRes.png, id=1139, 947.54pt x 996.72375pt>
+<DUNE/Figs/Raster/DUNEDeltaMRes.png, id=1159, 947.54pt x 996.72375pt>
 File: DUNE/Figs/Raster/DUNEDeltaMRes.png Graphic file (type png)
 <use DUNE/Figs/Raster/DUNEDeltaMRes.png>
 Package pdftex.def Info: DUNE/Figs/Raster/DUNEDeltaMRes.png used on input line 
 259.
 (pdftex.def)             Requested size: 218.73056pt x 230.07813pt.
-
+[51 <./DUNE/Figs/Raster/DUNEOctantDetermination.png>] [52 <./DUNE/Figs/Raster/D
+UNETheta23Res.png> <./DUNE/Figs/Raster/DUNETheta13Res.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-[52 <./DUNE/Figs/Raster/DUNETheta23Res.png>] [53 <./DUNE/Figs/Raster/DUNETheta1
-3Res.png> <./DUNE/Figs/Raster/DUNEDeltaMRes.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-
+[53 <./DUNE/Figs/Raster/DUNEDeltaMRes.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-<DUNE/Figs/Raster/NucleonDecayLimits.png, id=1163, 1011.78pt x 584.1825pt>
+<DUNE/Figs/Raster/NucleonDecayLimits.png, id=1188, 1011.78pt x 584.1825pt>
 File: DUNE/Figs/Raster/NucleonDecayLimits.png Graphic file (type png)
 <use DUNE/Figs/Raster/NucleonDecayLimits.png>
 Package pdftex.def Info: DUNE/Figs/Raster/NucleonDecayLimits.png used on input 
@@ -2902,13 +2907,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-[54] <DUNE/Figs/Raster/ICARUSKaon_Col.png, id=1185, 469.755pt x 299.1175pt>
+[54] <DUNE/Figs/Raster/ICARUSKaon_Col.png, id=1211, 469.755pt x 299.1175pt>
 File: DUNE/Figs/Raster/ICARUSKaon_Col.png Graphic file (type png)
 <use DUNE/Figs/Raster/ICARUSKaon_Col.png>
 Package pdftex.def Info: DUNE/Figs/Raster/ICARUSKaon_Col.png used on input line
  318.
 (pdftex.def)             Requested size: 209.97946pt x 133.70248pt.
-<DUNE/Figs/Raster/ICARUSKaon_Ind.png, id=1186, 416.55624pt x 303.1325pt>
+<DUNE/Figs/Raster/ICARUSKaon_Ind.png, id=1212, 416.55624pt x 303.1325pt>
 File: DUNE/Figs/Raster/ICARUSKaon_Ind.png Graphic file (type png)
 <use DUNE/Figs/Raster/ICARUSKaon_Ind.png>
 Package pdftex.def Info: DUNE/Figs/Raster/ICARUSKaon_Ind.png used on input line
@@ -2935,7 +2940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<DUNE/Figs/Raster/PrototypeSched.png, id=1222, 963.6pt x 542.025pt>
+<DUNE/Figs/Raster/PrototypeSched.png, id=1249, 963.6pt x 542.025pt>
 File: DUNE/Figs/Raster/PrototypeSched.png Graphic file (type png)
 <use DUNE/Figs/Raster/PrototypeSched.png>
 Package pdftex.def Info: DUNE/Figs/Raster/PrototypeSched.png used on input line
@@ -2946,12 +2951,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
-[57]
+
 Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-[58 <./DUNE/Figs/Raster/PrototypeSched.png>]
+[57] [58 <./DUNE/Figs/Raster/PrototypeSched.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
@@ -2961,7 +2966,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
-[59] <DUNE/Figs/Raster/35tonSchem.png, id=1263, 619.31375pt x 481.8pt>
+<DUNE/Figs/Raster/35tonSchem.png, id=1284, 619.31375pt x 481.8pt>
 File: DUNE/Figs/Raster/35tonSchem.png Graphic file (type png)
 <use DUNE/Figs/Raster/35tonSchem.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35tonSchem.png used on input line 373
@@ -2972,8 +2977,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--380
 
  []
 
-[60 <./DUNE/Figs/Raster/35tonSchem.png>] <DUNE/Figs/Raster/35tonFullDetect.png,
- id=1275, 1027.84pt x 770.88pt>
+[59] [60 <./DUNE/Figs/Raster/35tonSchem.png>] <DUNE/Figs/Raster/35tonFullDetect
+.png, id=1300, 1027.84pt x 770.88pt>
 File: DUNE/Figs/Raster/35tonFullDetect.png Graphic file (type png)
 <use DUNE/Figs/Raster/35tonFullDetect.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35tonFullDetect.png used on input lin
@@ -2984,12 +2989,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
-
+[61 <./DUNE/Figs/Raster/35tonFullDetect.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 391--392
 
  []
 
-[61 <./DUNE/Figs/Raster/35tonFullDetect.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 393--394
 
  []
@@ -3009,13 +3014,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
 
-<DUNE/Figs/Raster/35ton_APASchem.png, id=1316, 427.5975pt x 492.84125pt>
+[63] <DUNE/Figs/Raster/35ton_APASchem.png, id=1345, 427.5975pt x 492.84125pt>
 File: DUNE/Figs/Raster/35ton_APASchem.png Graphic file (type png)
 <use DUNE/Figs/Raster/35ton_APASchem.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35ton_APASchem.png used on input line
  426.
 (pdftex.def)             Requested size: 209.97946pt x 242.0132pt.
-<DUNE/Figs/Raster/35ton_xCenter.png, id=1317, 578.16pt x 433.62pt>
+<DUNE/Figs/Raster/35ton_xCenter.png, id=1346, 578.16pt x 433.62pt>
 File: DUNE/Figs/Raster/35ton_xCenter.png Graphic file (type png)
 <use DUNE/Figs/Raster/35ton_xCenter.png>
 Package pdftex.def Info: DUNE/Figs/Raster/35ton_xCenter.png used on input line 
@@ -3026,64 +3031,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
-[63] [64 <./DUNE/Figs/Raster/35ton_APASchem.png> <./DUNE/Figs/Raster/35ton_xCen
-ter.png>]
+[64 <./DUNE/Figs/Raster/35ton_APASchem.png> <./DUNE/Figs/Raster/35ton_xCenter.p
+ng>]
 Underfull \hbox (badness 10000) in paragraph at lines 449--450
 
  []
 
-<DUNE/Figs/Raster/CollectionPlane.png, id=1334, 1008.76875pt x 188.705pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+
+ []
+
+<DUNE/Figs/Raster/CollectionPlane.png, id=1359, 1008.76875pt x 188.705pt>
 File: DUNE/Figs/Raster/CollectionPlane.png Graphic file (type png)
 <use DUNE/Figs/Raster/CollectionPlane.png>
 Package pdftex.def Info: DUNE/Figs/Raster/CollectionPlane.png used on input lin
-e 455.
+e 457.
 (pdftex.def)             Requested size: 415.58672pt x 77.74098pt.
-<DUNE/Figs/Raster/InductionPlane.png, id=1335, 1006.76125pt x 190.7125pt>
+<DUNE/Figs/Raster/InductionPlane.png, id=1360, 1006.76125pt x 190.7125pt>
 File: DUNE/Figs/Raster/InductionPlane.png Graphic file (type png)
 <use DUNE/Figs/Raster/InductionPlane.png>
 Package pdftex.def Info: DUNE/Figs/Raster/InductionPlane.png used on input line
- 461.
+ 463.
 (pdftex.def)             Requested size: 415.58672pt x 78.72516pt.
-<DUNE/Figs/Raster/Complex.png, id=1336, 1012.78375pt x 172.645pt>
+<DUNE/Figs/Raster/Complex.png, id=1361, 1012.78375pt x 172.645pt>
 File: DUNE/Figs/Raster/Complex.png Graphic file (type png)
 <use DUNE/Figs/Raster/Complex.png>
-Package pdftex.def Info: DUNE/Figs/Raster/Complex.png used on input line 467.
+Package pdftex.def Info: DUNE/Figs/Raster/Complex.png used on input line 469.
 (pdftex.def)             Requested size: 415.58672pt x 70.84285pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--477
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 [65] [66 <./DUNE/Figs/Raster/CollectionPlane.png> <./DUNE/Figs/Raster/Induction
 Plane.png> <./DUNE/Figs/Raster/Complex.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
-[67] <DUNE/Figs/Raster/WireAngleCondition.png, id=1363, 722.7pt x 542.025pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
+
+ []
+
+[67] <DUNE/Figs/Raster/WireAngleCondition.png, id=1388, 722.7pt x 542.025pt>
 File: DUNE/Figs/Raster/WireAngleCondition.png Graphic file (type png)
 <use DUNE/Figs/Raster/WireAngleCondition.png>
 Package pdftex.def Info: DUNE/Figs/Raster/WireAngleCondition.png used on input 
-line 484.
+line 486.
 (pdftex.def)             Requested size: 371.84462pt x 278.88547pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
 
  []
 
 [68 <./DUNE/Figs/Raster/WireAngleCondition.png>]
-Overfull \hbox (0.49083pt too wide) in paragraph at lines 492--493
+Overfull \hbox (0.49083pt too wide) in paragraph at lines 494--495
 \T1/ptm/m/n/12 (-20) Track [[]] and Pan-dora [[]], and the most com-mon show-er
 -ing al-go-rithm is EMShower [[]].|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
@@ -3147,7 +3162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 
-<The35tonCameras/Figs/Raster/cam_in_housing_diagram.png, id=1439, 458.1918pt x 
+<The35tonCameras/Figs/Raster/cam_in_housing_diagram.png, id=1469, 458.1918pt x 
 197.0562pt>
 File: The35tonCameras/Figs/Raster/cam_in_housing_diagram.png Graphic file (type
  png)
@@ -3156,7 +3171,7 @@ Package pdftex.def Info: The35tonCameras/Figs/Raster/cam_in_housing_diagram.png
  used on input line 44.
 (pdftex.def)             Requested size: 196.85616pt x 84.66034pt.
 
-<The35tonCameras/Figs/Raster/camera_module_explode_labels.png, id=1440, 3276.24
+<The35tonCameras/Figs/Raster/camera_module_explode_labels.png, id=1470, 3276.24
 pt x 2457.18pt>
 File: The35tonCameras/Figs/Raster/camera_module_explode_labels.png Graphic file
  (type png)
@@ -3170,7 +3185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
-<The35tonCameras/Figs/Raster/cammount35tcrop.png, id=1442, 803.0pt x 813.0375pt
+<The35tonCameras/Figs/Raster/cammount35tcrop.png, id=1472, 803.0pt x 813.0375pt
 >
 File: The35tonCameras/Figs/Raster/cammount35tcrop.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cammount35tcrop.png>
@@ -3189,7 +3204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
  []
 
 
-<The35tonCameras/Figs/Raster/Camera_Block_diagram.png, id=1449, 1534.73375pt x 
+<The35tonCameras/Figs/Raster/Camera_Block_diagram.png, id=1479, 1534.73375pt x 
 1015.795pt>
 File: The35tonCameras/Figs/Raster/Camera_Block_diagram.png Graphic file (type p
 ng)
@@ -3203,49 +3218,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<The35tonCameras/Figs/Raster/phasesep.png, id=1459, 264.99pt x 216.81pt>
+<The35tonCameras/Figs/Raster/phasesep.png, id=1489, 264.99pt x 216.81pt>
 File: The35tonCameras/Figs/Raster/phasesep.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/phasesep.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/phasesep.png used on input
  line 99.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/ullage.png, id=1460, 529.98pt x 433.62pt>
+<The35tonCameras/Figs/Raster/ullage.png, id=1490, 529.98pt x 433.62pt>
 File: The35tonCameras/Figs/Raster/ullage.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/ullage.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/ullage.png used on input l
 ine 102.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodetr.png, id=1461, 264.99pt x 216.81pt>
+<The35tonCameras/Figs/Raster/cathodetr.png, id=1491, 264.99pt x 216.81pt>
 File: The35tonCameras/Figs/Raster/cathodetr.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cathodetr.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodetr.png used on inpu
 t line 106.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodelr.png, id=1462, 529.98pt x 433.62pt>
+<The35tonCameras/Figs/Raster/cathodelr.png, id=1492, 529.98pt x 433.62pt>
 File: The35tonCameras/Figs/Raster/cathodelr.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cathodelr.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodelr.png used on inpu
 t line 109.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cooldownsp.png, id=1463, 264.99pt x 216.81pt>
+<The35tonCameras/Figs/Raster/cooldownsp.png, id=1493, 264.99pt x 216.81pt>
 File: The35tonCameras/Figs/Raster/cooldownsp.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cooldownsp.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/cooldownsp.png used on inp
 ut line 113.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodetl.png, id=1464, 264.99pt x 216.81pt>
+<The35tonCameras/Figs/Raster/cathodetl.png, id=1494, 264.99pt x 216.81pt>
 File: The35tonCameras/Figs/Raster/cathodetl.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cathodetl.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodetl.png used on inpu
 t line 116.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/cathodell.png, id=1465, 264.99pt x 216.81pt>
+<The35tonCameras/Figs/Raster/cathodell.png, id=1495, 264.99pt x 216.81pt>
 File: The35tonCameras/Figs/Raster/cathodell.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/cathodell.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/cathodell.png used on inpu
 t line 120.
 (pdftex.def)             Requested size: 174.98177pt x 143.16782pt.
-<The35tonCameras/Figs/Raster/hvft.png, id=1466, 353.32pt x 289.08pt>
+<The35tonCameras/Figs/Raster/hvft.png, id=1496, 353.32pt x 289.08pt>
 File: The35tonCameras/Figs/Raster/hvft.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/hvft.png>
 Package pdftex.def Info: The35tonCameras/Figs/Raster/hvft.png used on input lin
@@ -3260,7 +3275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
  []
 
 
-<The35tonCameras/Figs/Raster/Cam1degradation2.png, id=1471, 1063.975pt x 289.08
+<The35tonCameras/Figs/Raster/Cam1degradation2.png, id=1501, 1063.975pt x 289.08
 pt>
 File: The35tonCameras/Figs/Raster/Cam1degradation2.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/Cam1degradation2.png>
@@ -3268,7 +3283,7 @@ Package pdftex.def Info: The35tonCameras/Figs/Raster/Cam1degradation2.png used
 on input line 136.
 (pdftex.def)             Requested size: 415.58672pt x 112.91277pt.
 
-<The35tonCameras/Figs/Raster/Cam4degradation2.png, id=1472, 1056.94875pt x 289.
+<The35tonCameras/Figs/Raster/Cam4degradation2.png, id=1502, 1056.94875pt x 289.
 08pt>
 File: The35tonCameras/Figs/Raster/Cam4degradation2.png Graphic file (type png)
 <use The35tonCameras/Figs/Raster/Cam4degradation2.png>
@@ -3321,7 +3336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-<35tonSimulation/Figs/Raster/DiffTrackSeps.png, id=1505, 700.6175pt x 476.78125
+<35tonSimulation/Figs/Raster/DiffTrackSeps.png, id=1535, 700.6175pt x 476.78125
 pt>
 File: 35tonSimulation/Figs/Raster/DiffTrackSeps.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/DiffTrackSeps.png>
@@ -3334,7 +3349,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 [82]
-<35tonSimulation/Figs/Raster/NumPE_Distance.png, id=1513, 700.6175pt x 476.7812
+<35tonSimulation/Figs/Raster/NumPE_Distance.png, id=1543, 700.6175pt x 476.7812
 5pt>
 File: 35tonSimulation/Figs/Raster/NumPE_Distance.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/NumPE_Distance.png>
@@ -3342,7 +3357,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/NumPE_Distance.png used on
  input line 35.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonSimulation/Figs/Raster/DiffFlashPredReco.png, id=1514, 700.6175pt x 476.7
+<35tonSimulation/Figs/Raster/DiffFlashPredReco.png, id=1544, 700.6175pt x 476.7
 8125pt>
 File: 35tonSimulation/Figs/Raster/DiffFlashPredReco.png Graphic file (type png)
 
@@ -3356,7 +3371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
  []
 
 
-<35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png, id=1518, 700.6175pt x 476.78
+<35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png, id=1548, 700.6175pt x 476.78
 125pt>
 File: 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png>
@@ -3364,7 +3379,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Pred_Reco_T_Full.png used
 on input line 55.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png, id=1519, 700.6175pt x 476.78
+<35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png, id=1549, 700.6175pt x 476.78
 125pt>
 File: 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/Pred_Reco_T_Zoom.png>
@@ -3390,7 +3405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 [86]
-<35tonSimulation/Figs/Raster/UnCorrectedCanvas.png, id=1546, 700.6175pt x 476.7
+<35tonSimulation/Figs/Raster/UnCorrectedCanvas.png, id=1576, 700.6175pt x 476.7
 8125pt>
 File: 35tonSimulation/Figs/Raster/UnCorrectedCanvas.png Graphic file (type png)
 
@@ -3399,7 +3414,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/UnCorrectedCanvas.png used
  on input line 84.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonSimulation/Figs/Raster/CorrectedCanvas.png, id=1547, 700.6175pt x 476.781
+<35tonSimulation/Figs/Raster/CorrectedCanvas.png, id=1577, 700.6175pt x 476.781
 25pt>
 File: 35tonSimulation/Figs/Raster/CorrectedCanvas.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/CorrectedCanvas.png>
@@ -3428,7 +3443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
  []
 
 
-<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Length.png, id=1571, 700.6
+<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Length.png, id=1601, 700.6
 175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Length.png Graphic fi
 le (type png)
@@ -3437,7 +3452,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Le
 ngth.png used on input line 126.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Length.png, id=1572, 700.61
+<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Length.png, id=1602, 700.61
 75pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Length.png Graphic fil
 e (type png)
@@ -3446,7 +3461,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Len
 gth.png used on input line 133.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_EnDepos.png, id=1577, 700.
+<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_EnDepos.png, id=1607, 700.
 6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_EnDepos.png Graphic f
 ile (type png)
@@ -3455,7 +3470,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_En
 Depos.png used on input line 146.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_EnDepos.png, id=1578, 700.6
+<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_EnDepos.png, id=1608, 700.6
 175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_EnDepos.png Graphic fi
 le (type png)
@@ -3464,7 +3479,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_EnD
 epos.png used on input line 153.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Theta.png, id=1583, 700.61
+<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Theta.png, id=1613, 700.61
 75pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Theta.png Graphic fil
 e (type png)
@@ -3473,7 +3488,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Th
 eta.png used on input line 166.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Theta.png, id=1584, 700.617
+<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Theta.png, id=1614, 700.617
 5pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Theta.png Graphic file
  (type png)
@@ -3482,7 +3497,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_The
 ta.png used on input line 173.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Phi.png, id=1589, 700.6175
+<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Phi.png, id=1619, 700.6175
 pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Phi.png Graphic file 
 (type png)
@@ -3491,7 +3506,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Ph
 i.png used on input line 186.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Phi.png, id=1590, 700.6175p
+<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Phi.png, id=1620, 700.6175p
 t x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Phi.png Graphic file (
 type png)
@@ -3500,7 +3515,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_Phi
 .png used on input line 193.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_PhiTheta.png, id=1595, 700
+<35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_PhiTheta.png, id=1625, 700
 .6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_PhiTheta.png Graphic 
 file (type png)
@@ -3509,7 +3524,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_AntiMuon_500V_All_Ph
 iTheta.png used on input line 206.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
-<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_PhiTheta.png, id=1596, 700.
+<35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_PhiTheta.png, id=1626, 700.
 6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_Cosmics_500V_All_PhiTheta.png Graphic f
 ile (type png)
@@ -3561,7 +3576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
  []
 
 [96]
-<35tonSimulation/Figs/Raster/Bethe-Bloch.png, id=1658, 589.20125pt x 654.445pt>
+<35tonSimulation/Figs/Raster/Bethe-Bloch.png, id=1689, 589.20125pt x 654.445pt>
 File: 35tonSimulation/Figs/Raster/Bethe-Bloch.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/Bethe-Bloch.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/Bethe-Bloch.png used on in
@@ -3588,7 +3603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--296
  []
 
 
-<35tonSimulation/Figs/Raster/StoppingPower.png, id=1681, 691.58376pt x 584.1825
+<35tonSimulation/Figs/Raster/StoppingPower.png, id=1712, 691.58376pt x 584.1825
 pt>
 File: 35tonSimulation/Figs/Raster/StoppingPower.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/StoppingPower.png>
@@ -3601,7 +3616,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
  []
 
 [98]
-<35tonSimulation/Figs/Raster/TruthPIDA.png, id=1698, 595.22375pt x 534.99875pt>
+<35tonSimulation/Figs/Raster/TruthPIDA.png, id=1729, 595.22375pt x 534.99875pt>
 File: 35tonSimulation/Figs/Raster/TruthPIDA.png Graphic file (type png)
 <use 35tonSimulation/Figs/Raster/TruthPIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/TruthPIDA.png used on inpu
@@ -3613,7 +3628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--316
  []
 
 [99 <./35tonSimulation/Figs/Raster/StoppingPower.png>]
-<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Length.png, id=1711
+<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Length.png, id=1742
 , 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Length.png Gra
 phic file (type png)
@@ -3622,8 +3637,8 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Pr
 oton_Length.png used on input line 321.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_EnDepos.png, id=171
-2, 700.6175pt x 476.78125pt>
+<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_EnDepos.png, id=174
+3, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_EnDepos.png Gr
 aphic file (type png)
 <use 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_EnDepos.png>
@@ -3631,7 +3646,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Pr
 oton_EnDepos.png used on input line 328.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Theta.png, id=1713,
+<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Theta.png, id=1744,
  700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Theta.png Grap
 hic file (type png)
@@ -3646,7 +3661,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 335.
 
-<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Phi.png, id=1714, 7
+<35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Phi.png, id=1745, 7
 00.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_ProtonEnrich_500V_Proton_Phi.png Graphi
 c file (type png)
@@ -3674,7 +3689,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--362
  []
 
 
-<35tonSimulation/Figs/Raster/Effic_SingSamps_Length.png, id=1739, 700.6175pt x 
+<35tonSimulation/Figs/Raster/Effic_SingSamps_Length.png, id=1770, 700.6175pt x 
 476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_SingSamps_Length.png Graphic file (type
  png)
@@ -3683,7 +3698,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_SingSamps_Length.png
  used on input line 386.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_SingSamps_EnDepos.png, id=1740, 700.6175pt x
+<35tonSimulation/Figs/Raster/Effic_SingSamps_EnDepos.png, id=1771, 700.6175pt x
  476.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_SingSamps_EnDepos.png Graphic file (typ
 e png)
@@ -3692,7 +3707,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_SingSamps_EnDepos.pn
 g used on input line 393.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_SingSamps_Theta.png, id=1741, 700.6175pt x 4
+<35tonSimulation/Figs/Raster/Effic_SingSamps_Theta.png, id=1772, 700.6175pt x 4
 76.78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_SingSamps_Theta.png Graphic file (type 
 png)
@@ -3701,7 +3716,7 @@ Package pdftex.def Info: 35tonSimulation/Figs/Raster/Effic_SingSamps_Theta.png
 used on input line 399.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/Effic_SingSamps_Phi.png, id=1742, 700.6175pt x 476
+<35tonSimulation/Figs/Raster/Effic_SingSamps_Phi.png, id=1773, 700.6175pt x 476
 .78125pt>
 File: 35tonSimulation/Figs/Raster/Effic_SingSamps_Phi.png Graphic file (type pn
 g)
@@ -3718,139 +3733,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--422
 imulation/Figs/Raster/Effic_SingSamps_EnDepos.png> <./35tonSimulation/Figs/Rast
 er/Effic_SingSamps_Theta.png> <./35tonSimulation/Figs/Raster/Effic_SingSamps_Ph
 i.png>]
-<35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png, id=1758, 7
-00.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png Graphi
-c file (type png)
-<use 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_M
-uon_PIDA.png used on input line 427.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-
-<35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PIDA.png, id=175
+<35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PIDA.png, id=178
 9, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PIDA.png Gr
 aphic file (type png)
 <use 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16
-_Proton_PIDA.png used on input line 434.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+_Proton_PIDA.png used on input line 427.
+(pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+<35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png, id=1790, 7
+00.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png Graphi
+c file (type png)
+<use 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_M
+uon_PIDA.png used on input line 433.
+(pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
 
-[104 <./35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png> <./
-35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PIDA.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
-
-<35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_dEdx.png, id=177
-3, 700.6175pt x 476.78125pt>
+[104] [105 <./35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_PID
+A.png> <./35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_PIDA.png>]
+<35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_dEdx.png, id=180
+9, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_dEdx.png Gr
 aphic file (type png)
 <use 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_dEdx.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16
-_Proton_dEdx.png used on input line 451.
+_Proton_dEdx.png used on input line 450.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_dEdx.png, id=1774, 7
+<35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_dEdx.png, id=1810, 7
 00.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_dEdx.png Graphi
 c file (type png)
 <use 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_dEdx.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_M
-uon_dEdx.png used on input line 458.
+uon_dEdx.png used on input line 457.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
-
- []
-
-[105]
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
 [106 <./35tonSimulation/Figs/Raster/IsolatedProtons_500V_Dec16_Proton_dEdx.png>
  <./35tonSimulation/Figs/Raster/IsolatedMuons_500V_Dec16_Muon_dEdx.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
 [107]
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
 [108]
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Proton_
-PIDA.png, id=1816, 700.6175pt x 476.78125pt>
+PIDA.png, id=1847, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Pr
 oton_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Pro
 ton_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_Proton_PIDA.png used on input line 570.
+0_trackpmtrackT0_Proton_PIDA.png used on input line 569.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Muon_PI
-DA.png, id=1817, 700.6175pt x 476.78125pt>
+DA.png, id=1848, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mu
 on_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Muo
 n_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_Muon_PIDA.png used on input line 577.
+0_trackpmtrackT0_Muon_PIDA.png used on input line 576.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Proton_
-PIDA.png, id=1818, 700.6175pt x 476.78125pt>
+PIDA.png, id=1849, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pr
 oton_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pro
 ton_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Proton_PIDA.png used on input line 584.
+0_trackpmtrackdc_Proton_PIDA.png used on input line 583.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_PI
-DA.png, id=1819, 700.6175pt x 476.78125pt>
+DA.png, id=1850, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
 on_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
 n_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Muon_PIDA.png used on input line 591.
+0_trackpmtrackdc_Muon_PIDA.png used on input line 590.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--603
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
@@ -3859,186 +3869,137 @@ ackT0_Proton_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_
 00_trackpmtrackT0_Muon_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_50
 0V_v05_14_00_trackpmtrackdc_Proton_PIDA.png> <./35tonSimulation/Figs/Raster/Pro
 tonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_PIDA.png>]
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_Al
-l_PIDA_TrackLen.png, id=1850, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
-on_All_PIDA_TrackLen.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
 
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
-n_All_PIDA_TrackLen.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Muon_All_PIDA_TrackLen.png used on input line 611.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+ []
 
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_En
-d_PIDA_TrackLen.png, id=1851, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
-on_End_PIDA_TrackLen.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
-n_End_PIDA_TrackLen.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Muon_End_PIDA_TrackLen.png used on input line 618.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Proton_
-All_PIDA_TrackLen.png, id=1852, 700.6175pt x 476.78125pt>
+All_PIDA_TrackLen.png, id=1881, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pr
 oton_All_PIDA_TrackLen.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pro
 ton_All_PIDA_TrackLen.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Proton_All_PIDA_TrackLen.png used on input line 625.
+0_trackpmtrackdc_Proton_All_PIDA_TrackLen.png used on input line 610.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Proton_
-End_PIDA_TrackLen.png, id=1853, 700.6175pt x 476.78125pt>
+End_PIDA_TrackLen.png, id=1882, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pr
 oton_End_PIDA_TrackLen.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pro
 ton_End_PIDA_TrackLen.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Proton_End_PIDA_TrackLen.png used on input line 632.
+0_trackpmtrackdc_Proton_End_PIDA_TrackLen.png used on input line 617.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_Al
-l_MCRecoTrackRatio.png, id=1854, 700.6175pt x 476.78125pt>
+l_PIDA_TrackLen.png, id=1883, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
+on_All_PIDA_TrackLen.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
+n_All_PIDA_TrackLen.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackdc_Muon_All_PIDA_TrackLen.png used on input line 624.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_En
+d_PIDA_TrackLen.png, id=1884, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
+on_End_PIDA_TrackLen.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
+n_End_PIDA_TrackLen.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackdc_Muon_End_PIDA_TrackLen.png used on input line 631.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_Al
+l_MCRecoTrackRatio.png, id=1885, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
 on_All_MCRecoTrackRatio.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
 n_All_MCRecoTrackRatio.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Muon_All_MCRecoTrackRatio.png used on input line 646.
+0_trackpmtrackdc_Muon_All_MCRecoTrackRatio.png used on input line 645.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_Al
-l_MCRecoTrackLength.png, id=1855, 700.6175pt x 476.78125pt>
+l_MCRecoTrackLength.png, id=1886, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mu
 on_All_MCRecoTrackLength.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muo
 n_All_MCRecoTrackLength.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_Muon_All_MCRecoTrackLength.png used on input line 653.
+0_trackpmtrackdc_Muon_All_MCRecoTrackLength.png used on input line 652.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--663
-
- []
-
-
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
-t_Proton_PIDA.png, id=1857, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
-nTrCut_Proton_PIDA.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
-TrCut_Proton_PIDA.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_MinTrCut_Proton_PIDA.png used on input line 669.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
-t_Muon_PIDA.png, id=1858, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
-nTrCut_Muon_PIDA.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
-TrCut_Muon_PIDA.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_MinTrCut_Muon_PIDA.png used on input line 676.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
-t_Proton_PIDA.png, id=1859, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
-nTrCut_Proton_PIDA.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
-TrCut_Proton_PIDA.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_MinTrCut_Proton_PIDA.png used on input line 683.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-
-<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
-t_Muon_PIDA.png, id=1860, 700.6175pt x 476.78125pt>
-File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
-nTrCut_Muon_PIDA.png Graphic file (type png)
-
-<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
-TrCut_Muon_PIDA.png>
-Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_MinTrCut_Muon_PIDA.png used on input line 690.
-(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 699--700
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
 [111] [112 <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtr
-ackdc_Muon_All_PIDA_TrackLen.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_5
-00V_v05_14_00_trackpmtrackdc_Muon_End_PIDA_TrackLen.png> <./35tonSimulation/Fig
-s/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Proton_All_PIDA_TrackLen.pn
-g> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Pr
-oton_End_PIDA_TrackLen.png>]
+ackdc_Proton_All_PIDA_TrackLen.png> <./35tonSimulation/Figs/Raster/ProtonEnrich
+_500V_v05_14_00_trackpmtrackdc_Proton_End_PIDA_TrackLen.png> <./35tonSimulation
+/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Muon_All_PIDA_TrackLen.
+png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_
+Muon_End_PIDA_TrackLen.png>]
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
-t_MCCont_Proton_PIDA.png, id=1874, 700.6175pt x 476.78125pt>
+t_Proton_PIDA.png, id=1896, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
-nTrCut_MCCont_Proton_PIDA.png Graphic file (type png)
+nTrCut_Proton_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
-TrCut_MCCont_Proton_PIDA.png>
+TrCut_Proton_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_MinTrCut_MCCont_Proton_PIDA.png used on input line 708.
+0_trackpmtrackT0_MinTrCut_Proton_PIDA.png used on input line 668.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
-t_MCCont_Muon_PIDA.png, id=1875, 700.6175pt x 476.78125pt>
+t_Muon_PIDA.png, id=1897, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
-nTrCut_MCCont_Muon_PIDA.png Graphic file (type png)
+nTrCut_Muon_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
-TrCut_MCCont_Muon_PIDA.png>
+TrCut_Muon_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackT0_MinTrCut_MCCont_Muon_PIDA.png used on input line 715.
+0_trackpmtrackT0_MinTrCut_Muon_PIDA.png used on input line 675.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
-t_MCCont_Proton_PIDA.png, id=1876, 700.6175pt x 476.78125pt>
+t_Proton_PIDA.png, id=1898, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
-nTrCut_MCCont_Proton_PIDA.png Graphic file (type png)
+nTrCut_Proton_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
-TrCut_MCCont_Proton_PIDA.png>
+TrCut_Proton_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_MinTrCut_MCCont_Proton_PIDA.png used on input line 722.
+0_trackpmtrackdc_MinTrCut_Proton_PIDA.png used on input line 682.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
 <35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
-t_MCCont_Muon_PIDA.png, id=1877, 700.6175pt x 476.78125pt>
+t_Muon_PIDA.png, id=1899, 700.6175pt x 476.78125pt>
 File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
-nTrCut_MCCont_Muon_PIDA.png Graphic file (type png)
+nTrCut_Muon_PIDA.png Graphic file (type png)
 
 <use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
-TrCut_MCCont_Muon_PIDA.png>
+TrCut_Muon_PIDA.png>
 Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
-0_trackpmtrackdc_MinTrCut_MCCont_Muon_PIDA.png used on input line 729.
+0_trackpmtrackdc_MinTrCut_Muon_PIDA.png used on input line 689.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--739
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 740--152
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
@@ -4049,13 +4010,66 @@ ion/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCut_Proton_PIDA
 .png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0
 _MinTrCut_Muon_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_1
 4_00_trackpmtrackdc_MinTrCut_Proton_PIDA.png> <./35tonSimulation/Figs/Raster/Pr
-otonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCut_Muon_PIDA.png>] [115 <./35ton
-Simulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCut_MCCo
-nt_Proton_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_
-trackpmtrackT0_MinTrCut_MCCont_Muon_PIDA.png> <./35tonSimulation/Figs/Raster/Pr
-otonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCut_MCCont_Proton_PIDA.png> <./35
-tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCut_M
-CCont_Muon_PIDA.png>] [116]
+otonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCut_Muon_PIDA.png>]
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
+t_MCCont_Proton_PIDA.png, id=1913, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
+nTrCut_MCCont_Proton_PIDA.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
+TrCut_MCCont_Proton_PIDA.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackT0_MinTrCut_MCCont_Proton_PIDA.png used on input line 707.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_MinTrCu
+t_MCCont_Muon_PIDA.png, id=1914, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Mi
+nTrCut_MCCont_Muon_PIDA.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackT0_Min
+TrCut_MCCont_Muon_PIDA.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackT0_MinTrCut_MCCont_Muon_PIDA.png used on input line 714.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
+t_MCCont_Proton_PIDA.png, id=1915, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
+nTrCut_MCCont_Proton_PIDA.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
+TrCut_MCCont_Proton_PIDA.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackdc_MinTrCut_MCCont_Proton_PIDA.png used on input line 721.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+<35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCu
+t_MCCont_Muon_PIDA.png, id=1916, 700.6175pt x 476.78125pt>
+File: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Mi
+nTrCut_MCCont_Muon_PIDA.png Graphic file (type png)
+
+<use 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_Min
+TrCut_MCCont_Muon_PIDA.png>
+Package pdftex.def Info: 35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_0
+0_trackpmtrackdc_MinTrCut_MCCont_Muon_PIDA.png used on input line 728.
+(pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 739--152
+
+ []
+
+[115] [116 <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtr
+ackT0_MinTrCut_MCCont_Proton_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnr
+ich_500V_v05_14_00_trackpmtrackT0_MinTrCut_MCCont_Muon_PIDA.png> <./35tonSimula
+tion/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackpmtrackdc_MinTrCut_MCCont_Pro
+ton_PIDA.png> <./35tonSimulation/Figs/Raster/ProtonEnrich_500V_v05_14_00_trackp
+mtrackdc_MinTrCut_MCCont_Muon_PIDA.png>]
 \openout2 = `35tonData/35tonData.aux'.
 
 (./35tonData/35tonData.tex
@@ -4070,7 +4084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<35tonData/Figs/Raster/DataCollected.png, id=1897, 1020.4524pt x 509.7444pt>
+<35tonData/Figs/Raster/DataCollected.png, id=1928, 1020.4524pt x 509.7444pt>
 File: 35tonData/Figs/Raster/DataCollected.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCollected.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCollected.png used on input 
@@ -4105,7 +4119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[119] <35tonData/Figs/Raster/DataStructure.png, id=1914, 1027.84pt x 770.88pt>
+[119] <35tonData/Figs/Raster/DataStructure.png, id=1946, 1027.84pt x 770.88pt>
 File: 35tonData/Figs/Raster/DataStructure.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataStructure.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataStructure.png used on input 
@@ -4131,7 +4145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-<35tonData/Figs/Raster/DataDrops.png, id=1931, 757.229pt x 360.547pt>
+<35tonData/Figs/Raster/DataDrops.png, id=1962, 757.229pt x 360.547pt>
 File: 35tonData/Figs/Raster/DataDrops.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataDrops.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataDrops.png used on input line
@@ -4156,13 +4170,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
  []
 
 [122] [123 <./35tonData/Figs/Raster/DataDrops.png>] <35tonData/Figs/Raster/Stuc
-kCodes.png, id=1944, 502.87875pt x 521.95pt>
+kCodes.png, id=1974, 502.87875pt x 521.95pt>
 File: 35tonData/Figs/Raster/StuckCodes.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes.png used on input lin
 e 75.
 (pdftex.def)             Requested size: 209.97946pt x 217.9432pt.
-<35tonData/Figs/Raster/StuckCodes2.png, id=1945, 678.535pt x 692.5875pt>
+<35tonData/Figs/Raster/StuckCodes2.png, id=1975, 678.535pt x 692.5875pt>
 File: 35tonData/Figs/Raster/StuckCodes2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/StuckCodes2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/StuckCodes2.png used on input li
@@ -4173,13 +4187,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-<35tonData/Figs/Raster/BeforeCoherent.png, id=1951, 851.18pt x 476.78125pt>
+[124 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCod
+es2.png>] <35tonData/Figs/Raster/BeforeCoherent.png, id=1990, 851.18pt x 476.78
+125pt>
 File: 35tonData/Figs/Raster/BeforeCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/BeforeCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/BeforeCoherent.png used on input
  line 93.
 (pdftex.def)             Requested size: 209.97946pt x 117.61632pt.
-<35tonData/Figs/Raster/AfterCoherent.png, id=1952, 851.18pt x 476.78125pt>
+<35tonData/Figs/Raster/AfterCoherent.png, id=1991, 851.18pt x 476.78125pt>
 File: 35tonData/Figs/Raster/AfterCoherent.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AfterCoherent.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AfterCoherent.png used on input 
@@ -4190,26 +4206,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[124 <./35tonData/Figs/Raster/StuckCodes.png> <./35tonData/Figs/Raster/StuckCod
-es2.png>] <35tonData/Figs/Raster/Waveforms.png, id=1965, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Waveforms.png, id=1996, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Waveforms.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Waveforms.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Waveforms.png used on input line
  113.
 (pdftex.def)             Requested size: 209.97946pt x 117.3687pt.
-<35tonData/Figs/Raster/NoiseFFTs.png, id=1966, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/NoiseFFTs.png, id=1997, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/NoiseFFTs.png Graphic file (type png)
 <use 35tonData/Figs/Raster/NoiseFFTs.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/NoiseFFTs.png used on input line
  120.
 (pdftex.def)             Requested size: 209.97946pt x 117.3687pt.
-<35tonData/Figs/Raster/Collection.png, id=1967, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Collection.png, id=1998, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Collection.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Collection.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Collection.png used on input lin
 e 126.
 (pdftex.def)             Requested size: 209.97946pt x 117.3687pt.
-<35tonData/Figs/Raster/Induction.png, id=1968, 851.18pt x 475.7775pt>
+<35tonData/Figs/Raster/Induction.png, id=1999, 851.18pt x 475.7775pt>
 File: 35tonData/Figs/Raster/Induction.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Induction.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Induction.png used on input line
@@ -4220,23 +4235,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-<35tonData/Figs/Raster/Evd_BeforeNoise.png, id=1974, 1027.84pt x 770.88pt>
+[125 <./35tonData/Figs/Raster/BeforeCoherent.png> <./35tonData/Figs/Raster/Afte
+rCoherent.png>] [126 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Figs/
+Raster/NoiseFFTs.png> <./35tonData/Figs/Raster/Collection.png> <./35tonData/Fig
+s/Raster/Induction.png>] <35tonData/Figs/Raster/Evd_BeforeNoise.png, id=2016, 1
+027.84pt x 770.88pt>
 File: 35tonData/Figs/Raster/Evd_BeforeNoise.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Evd_BeforeNoise.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Evd_BeforeNoise.png used on inpu
 t line 148.
 (pdftex.def)             Requested size: 240.60495pt x 180.45107pt.
-<35tonData/Figs/Raster/Evd_AfterNoise.png, id=1975, 1027.84pt x 770.88pt>
+<35tonData/Figs/Raster/Evd_AfterNoise.png, id=2017, 1027.84pt x 770.88pt>
 File: 35tonData/Figs/Raster/Evd_AfterNoise.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Evd_AfterNoise.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Evd_AfterNoise.png used on input
  line 154.
 (pdftex.def)             Requested size: 240.60495pt x 180.45107pt.
-[125 <./35tonData/Figs/Raster/BeforeCoherent.png> <./35tonData/Figs/Raster/Afte
-rCoherent.png>] [126 <./35tonData/Figs/Raster/Waveforms.png> <./35tonData/Figs/
-Raster/NoiseFFTs.png> <./35tonData/Figs/Raster/Collection.png> <./35tonData/Fig
-s/Raster/Induction.png>] [127 <./35tonData/Figs/Raster/Evd_BeforeNoise.png> <./
-35tonData/Figs/Raster/Evd_AfterNoise.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
@@ -4246,7 +4261,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[128]
+[127] [128 <./35tonData/Figs/Raster/Evd_BeforeNoise.png> <./35tonData/Figs/Rast
+er/Evd_AfterNoise.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
@@ -4256,7 +4272,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-[129] <35tonData/Figs/Raster/TingjunLifetime.png, id=2016, 1201.48875pt x 554.0
+[129] <35tonData/Figs/Raster/TingjunLifetime.png, id=2047, 1201.48875pt x 554.0
 7pt>
 File: 35tonData/Figs/Raster/TingjunLifetime.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TingjunLifetime.png>
@@ -4268,7 +4284,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<35tonData/Figs/Raster/CounterSchematic.png, id=2022, 1027.84pt x 770.88pt>
+[130 <./35tonData/Figs/Raster/TingjunLifetime.png>] <35tonData/Figs/Raster/Coun
+terSchematic.png, id=2060, 1027.84pt x 770.88pt>
 File: 35tonData/Figs/Raster/CounterSchematic.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterSchematic.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterSchematic.png used on inp
@@ -4279,28 +4296,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
-[130 <./35tonData/Figs/Raster/TingjunLifetime.png>] [131 <./35tonData/Figs/Rast
-er/CounterSchematic.png>] <35tonData/Figs/Raster/CosTheta_Data.png, id=2040, 56
-9.0058pt x 534.798pt>
+<35tonData/Figs/Raster/CosTheta_Data.png, id=2065, 700.6175pt x 475.7775pt>
 File: 35tonData/Figs/Raster/CosTheta_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosTheta_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosTheta_Data.png used on input 
 line 217.
-(pdftex.def)             Requested size: 209.97946pt x 197.3499pt.
+(pdftex.def)             Requested size: 209.97946pt x 142.58914pt.
 
-<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=2041, 569.0058pt x 534.798pt>
+<35tonData/Figs/Raster/CosThetaZoom_Data.png, id=2066, 700.6175pt x 475.7775pt>
 File: 35tonData/Figs/Raster/CosThetaZoom_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CosThetaZoom_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CosThetaZoom_Data.png used on in
 put line 223.
-(pdftex.def)             Requested size: 209.97946pt x 197.3499pt.
-<35tonData/Figs/Raster/north-south.png, id=2042, 543.02875pt x 496.85625pt>
+(pdftex.def)             Requested size: 209.97946pt x 142.58914pt.
+<35tonData/Figs/Raster/north-south.png, id=2067, 543.02875pt x 496.85625pt>
 File: 35tonData/Figs/Raster/north-south.png Graphic file (type png)
 <use 35tonData/Figs/Raster/north-south.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/north-south.png used on input li
 ne 235.
 (pdftex.def)             Requested size: 209.97946pt x 192.12799pt.
-<35tonData/Figs/Raster/east-west.png, id=2043, 553.06625pt x 492.84125pt>
+<35tonData/Figs/Raster/east-west.png, id=2068, 553.06625pt x 492.84125pt>
 File: 35tonData/Figs/Raster/east-west.png Graphic file (type png)
 <use 35tonData/Figs/Raster/east-west.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/east-west.png used on input line
@@ -4311,40 +4326,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-[132 <./35tonData/Figs/Raster/CosTheta_Data.png> <./35tonData/Figs/Raster/CosTh
-etaZoom_Data.png>]
+[131 <./35tonData/Figs/Raster/CounterSchematic.png>] [132 <./35tonData/Figs/Ras
+ter/CosTheta_Data.png> <./35tonData/Figs/Raster/CosThetaZoom_Data.png> <./35ton
+Data/Figs/Raster/north-south.png> <./35tonData/Figs/Raster/east-west.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
-[133 <./35tonData/Figs/Raster/north-south.png> <./35tonData/Figs/Raster/east-we
-st.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
-<35tonData/Figs/Raster/AngleCanvas_50.png, id=2063, 851.18pt x 476.78125pt>
+[133] <35tonData/Figs/Raster/AngleCanvas_50.png, id=2092, 851.18pt x 476.78125p
+t>
 File: 35tonData/Figs/Raster/AngleCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/AngleCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/AngleCanvas_50.png used on input
  line 291.
 (pdftex.def)             Requested size: 284.34705pt x 159.27347pt.
 
-<35tonData/Figs/Raster/DistanceCanvas_50.png, id=2064, 851.18pt x 476.78125pt>
+<35tonData/Figs/Raster/DistanceCanvas_50.png, id=2093, 851.18pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DistanceCanvas_50.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DistanceCanvas_50.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DistanceCanvas_50.png used on in
 put line 298.
 (pdftex.def)             Requested size: 284.34705pt x 159.27347pt.
 
-<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=2065, 851.18pt x 476.78125pt
+<35tonData/Figs/Raster/TwoDimensional_50cm.png, id=2094, 851.18pt x 476.78125pt
 >
 File: 35tonData/Figs/Raster/TwoDimensional_50cm.png Graphic file (type png)
 <use 35tonData/Figs/Raster/TwoDimensional_50cm.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/TwoDimensional_50cm.png used on 
 input line 305.
 (pdftex.def)             Requested size: 209.97946pt x 117.61632pt.
-<35tonData/Figs/Raster/CounterDiffCan.png, id=2066, 851.18pt x 476.78125pt>
+<35tonData/Figs/Raster/CounterDiffCan.png, id=2095, 851.18pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CounterDiffCan.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiffCan.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiffCan.png used on input
@@ -4358,7 +4374,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
  []
 
 
-<35tonData/Figs/PDF/DiffusionSchematic.pdf, id=2085, 883.04514pt x 647.35571pt>
+<35tonData/Figs/PDF/DiffusionSchematic.pdf, id=2114, 883.04514pt x 647.35571pt>
 File: 35tonData/Figs/PDF/DiffusionSchematic.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/DiffusionSchematic.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/DiffusionSchematic.pdf used on inpu
@@ -4369,515 +4385,517 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-[136] [137 <./35tonData/Figs/PDF/DiffusionSchematic.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
-
+[136] [137 <./35tonData/Figs/PDF/DiffusionSchematic.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
-<35tonData/Figs/Raster/LotsOfTrackFlash.png, id=2385, 885.3075pt x 333.245pt>
+<35tonData/Figs/Raster/LotsOfTrackFlash.png, id=2413, 885.3075pt x 333.245pt>
 File: 35tonData/Figs/Raster/LotsOfTrackFlash.png Graphic file (type png)
 <use 35tonData/Figs/Raster/LotsOfTrackFlash.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/LotsOfTrackFlash.png used on inp
 ut line 343.
 (pdftex.def)             Requested size: 415.58672pt x 156.43701pt.
-[138]
+[138 <./35tonData/Figs/Raster/LotsOfTrackFlash.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
-[139 <./35tonData/Figs/Raster/LotsOfTrackFlash.png>] <35tonData/Figs/PDF/ToyGau
-ss_Raw.pdf, id=2400, 827.98923pt x 562.80447pt>
+<35tonData/Figs/PDF/ToyGauss_Raw.pdf, id=2422, 827.98923pt x 562.80447pt>
 File: 35tonData/Figs/PDF/ToyGauss_Raw.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/ToyGauss_Raw.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/ToyGauss_Raw.pdf used on input line
  364.
 (pdftex.def)             Requested size: 209.97946pt x 142.72746pt.
-<35tonData/Figs/PDF/ToyGauss_Noise.pdf, id=2401, 829.22296pt x 558.91623pt>
+<35tonData/Figs/PDF/ToyGauss_Noise.pdf, id=2423, 829.22296pt x 558.91623pt>
 File: 35tonData/Figs/PDF/ToyGauss_Noise.pdf Graphic file (type pdf)
 <use 35tonData/Figs/PDF/ToyGauss_Noise.pdf>
 Package pdftex.def Info: 35tonData/Figs/PDF/ToyGauss_Noise.pdf used on input li
 ne 370.
 (pdftex.def)             Requested size: 209.97946pt x 141.5282pt.
-[140 <./35tonData/Figs/PDF/ToyGauss_Raw.pdf> <./35tonData/Figs/PDF/ToyGauss_Noi
-se.pdf>]
+[139]
 Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
-<35tonData/Figs/Raster/DataCan_0.png, id=2472, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_0.png, id=2433, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_0.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_0.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_0.png used on input line
  392.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/DataCan_1.png, id=2473, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_1.png, id=2434, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_1.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_1.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_1.png used on input line
  398.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/DataCan_2.png, id=2474, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_2.png, id=2435, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_2.png used on input line
  403.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/DataCan_3.png, id=2475, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/DataCan_3.png, id=2436, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/DataCan_3.png Graphic file (type png)
 <use 35tonData/Figs/Raster/DataCan_3.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DataCan_3.png used on input line
- 409.
+ 410.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
-
- []
-
-[141 <./35tonData/Figs/Raster/DataCan_0.png> <./35tonData/Figs/Raster/DataCan_1
-.png> <./35tonData/Figs/Raster/DataCan_2.png> <./35tonData/Figs/Raster/DataCan_
-3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
-<35tonData/Figs/Raster/CounterDiff4_Data.png, id=2483, 700.6175pt x 476.78125pt
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+[140 <./35tonData/Figs/PDF/ToyGauss_Raw.pdf> <./35tonData/Figs/PDF/ToyGauss_Noi
+se.pdf>] [141 <./35tonData/Figs/Raster/DataCan_0.png> <./35tonData/Figs/Raster/
+DataCan_1.png> <./35tonData/Figs/Raster/DataCan_2.png> <./35tonData/Figs/Raster
+/DataCan_3.png>]
+<35tonData/Figs/Raster/CounterDiff4_Data.png, id=2510, 700.6175pt x 476.78125pt
 >
 File: 35tonData/Figs/Raster/CounterDiff4_Data.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CounterDiff4_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiff4_Data.png used on in
-put line 423.
+put line 424.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
 
  []
 
 
-<35tonData/Figs/Raster/InterceptCanvasData.png, id=2485, 700.6175pt x 476.78125
+<35tonData/Figs/Raster/InterceptCanvasData.png, id=2512, 700.6175pt x 476.78125
 pt>
 File: 35tonData/Figs/Raster/InterceptCanvasData.png Graphic file (type png)
 <use 35tonData/Figs/Raster/InterceptCanvasData.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/InterceptCanvasData.png used on 
-input line 433.
+input line 434.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
-[142 <./35tonData/Figs/Raster/CounterDiff4_Data.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
 
-<35tonData/Figs/Raster/ChargeCutData.png, id=2495, 700.6175pt x 476.78125pt>
+[142 <./35tonData/Figs/Raster/CounterDiff4_Data.png>] <35tonData/Figs/Raster/Ch
+argeCutData.png, id=2522, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/ChargeCutData.png Graphic file (type png)
 <use 35tonData/Figs/Raster/ChargeCutData.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/ChargeCutData.png used on input 
-line 445.
+line 446.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 [143 <./35tonData/Figs/Raster/InterceptCanvasData.png>]
-<35tonData/Figs/Raster/DifferenceInteractionTime_Data.png, id=2501, 700.6175pt 
+<35tonData/Figs/Raster/DifferenceInteractionTime_Data.png, id=2528, 700.6175pt 
 x 476.78125pt>
 File: 35tonData/Figs/Raster/DifferenceInteractionTime_Data.png Graphic file (ty
 pe png)
 <use 35tonData/Figs/Raster/DifferenceInteractionTime_Data.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/DifferenceInteractionTime_Data.p
-ng used on input line 455.
+ng used on input line 456.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
 [144 <./35tonData/Figs/Raster/ChargeCutData.png>]
-<35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png, id=2514, 700.6175pt x 476.78125
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+[145 <./35tonData/Figs/Raster/DifferenceInteractionTime_Data.png>]
+<35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png, id=2549, 700.6175pt x 476.78125
 pt>
 File: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png used on 
-input line 469.
+input line 472.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png, id=2515, 700.6175pt x 476.78125
+<35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png, id=2550, 700.6175pt x 476.78125
 pt>
 File: 35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png used on 
-input line 476.
+input line 479.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 
  []
 
 
-<35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png, id=2517, 700.6175pt x 476.7
+<35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png, id=2552, 700.6175pt x 476.7
 8125pt>
 File: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png Graphic file (type png)
 
 <use 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png used
- on input line 491.
+ on input line 494.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png, id=2518, 700.6175pt x 476.7
+<35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png, id=2553, 700.6175pt x 476.7
 8125pt>
 File: 35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png Graphic file (type png)
 
 <use 35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png used
- on input line 498.
+ on input line 501.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
-
- []
-
-[145 <./35tonData/Figs/Raster/DifferenceInteractionTime_Data.png>] [146 <./35to
-nData/Figs/Raster/Data_AvTimeDiff_RMS.png> <./35tonData/Figs/Raster/Data_AvXPos
-Diff_RMS.png>] [147 <./35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png> <./35
-tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
 
-Overfull \hbox (5.03183pt too wide) in paragraph at lines 512--512
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+ []
+
+
+Overfull \hbox (5.03183pt too wide) in paragraph at lines 515--515
 []\T1/ptm/b/n/14.4 Determining in-ter-ac-tion times in a low-noise de-tec-tor u
 s-ing Monte|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
+[146] [147 <./35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png> <./35tonData/Figs/
+Raster/Data_AvXPosDiff_RMS.png>] [148 <./35tonData/Figs/Raster/Data_AvTimeDiff_
+RMS_Int.png> <./35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
-[148] <35tonData/Figs/Raster/CombCan_0.png, id=2544, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/CombCan_0.png, id=2574, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_0.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_0.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_0.png used on input line
- 521.
+ 524.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/CombCan_1.png, id=2545, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/CombCan_1.png, id=2575, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_1.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_1.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_1.png used on input line
- 527.
+ 530.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/CombCan_2.png, id=2546, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/CombCan_2.png, id=2576, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_2.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_2.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_2.png used on input line
- 532.
+ 535.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
-<35tonData/Figs/Raster/CombCan_3.png, id=2547, 700.6175pt x 476.78125pt>
+<35tonData/Figs/Raster/CombCan_3.png, id=2577, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/CombCan_3.png Graphic file (type png)
 <use 35tonData/Figs/Raster/CombCan_3.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/CombCan_3.png used on input line
- 538.
+ 541.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
-
- []
-
-
-<35tonData/Figs/Raster/CounterDiff4_Overlay.png, id=2551, 700.6175pt x 476.7812
-5pt>
-File: 35tonData/Figs/Raster/CounterDiff4_Overlay.png Graphic file (type png)
-<use 35tonData/Figs/Raster/CounterDiff4_Overlay.png>
-Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiff4_Overlay.png used on
- input line 551.
-(pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
 [149] [150 <./35tonData/Figs/Raster/CombCan_0.png> <./35tonData/Figs/Raster/Com
 bCan_1.png> <./35tonData/Figs/Raster/CombCan_2.png> <./35tonData/Figs/Raster/Co
 mbCan_3.png>]
-<35tonData/Figs/Raster/InterceptCanvasOverlay.png, id=2561, 700.6175pt x 476.78
+<35tonData/Figs/Raster/CounterDiff4_Overlay.png, id=2589, 700.6175pt x 476.7812
+5pt>
+File: 35tonData/Figs/Raster/CounterDiff4_Overlay.png Graphic file (type png)
+<use 35tonData/Figs/Raster/CounterDiff4_Overlay.png>
+Package pdftex.def Info: 35tonData/Figs/Raster/CounterDiff4_Overlay.png used on
+ input line 554.
+(pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+
+ []
+
+
+<35tonData/Figs/Raster/InterceptCanvasOverlay.png, id=2591, 700.6175pt x 476.78
 125pt>
 File: 35tonData/Figs/Raster/InterceptCanvasOverlay.png Graphic file (type png)
 <use 35tonData/Figs/Raster/InterceptCanvasOverlay.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/InterceptCanvasOverlay.png used 
-on input line 561.
+on input line 564.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-
-<35tonData/Figs/Raster/ChargeCutOverlay.png, id=2564, 700.6175pt x 476.78125pt>
+[151 <./35tonData/Figs/Raster/CounterDiff4_Overlay.png>]
+<35tonData/Figs/Raster/ChargeCutOverlay.png, id=2599, 700.6175pt x 476.78125pt>
 File: 35tonData/Figs/Raster/ChargeCutOverlay.png Graphic file (type png)
 <use 35tonData/Figs/Raster/ChargeCutOverlay.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/ChargeCutOverlay.png used on inp
-ut line 571.
+ut line 574.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
-[151 <./35tonData/Figs/Raster/CounterDiff4_Overlay.png>] [152 <./35tonData/Figs
-/Raster/InterceptCanvasOverlay.png> <./35tonData/Figs/Raster/ChargeCutOverlay.p
-ng>]
-<35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png, id=2576, 700.6175pt x 476.78
+
+<35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png, id=2601, 700.6175pt x 476.78
 125pt>
 File: 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png used 
-on input line 583.
+on input line 586.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png, id=2577, 700.6175pt x 476.78
+<35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png, id=2602, 700.6175pt x 476.78
 125pt>
 File: 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png Graphic file (type png)
 <use 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png used 
-on input line 590.
+on input line 593.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
 
-<35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png, id=2579, 700.6175pt x 47
+<35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png, id=2604, 700.6175pt x 47
 6.78125pt>
 File: 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png Graphic file (type p
 ng)
 <use 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png u
-sed on input line 605.
+sed on input line 608.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png, id=2580, 700.6175pt x 47
+<35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png, id=2605, 700.6175pt x 47
 6.78125pt>
 File: 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png Graphic file (type p
 ng)
 <use 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png u
-sed on input line 612.
+sed on input line 615.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--622
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+[152 <./35tonData/Figs/Raster/InterceptCanvasOverlay.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+[153 <./35tonData/Figs/Raster/ChargeCutOverlay.png>] [154 <./35tonData/Figs/Ras
+ter/Overlay_AvTimeDiff_RMS.png> <./35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS
+.png>] [155 <./35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS_Int.png> <./35tonDa
+ta/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
-[153] [154 <./35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png> <./35tonData/Fi
-gs/Raster/Overlay_AvXPosDiff_RMS.png>] [155 <./35tonData/Figs/Raster/Overlay_Av
-TimeDiff_RMS_Int.png> <./35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS_Int.png>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 
  []
 
 [156]
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--640
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_NoiseLevel.png, id=2610, 700.6175pt 
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
+
+ []
+
+
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_NoiseLevel.png, id=2639, 700.6175pt 
 x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_NoiseLevel.png Graphic file (ty
 pe png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_NoiseLevel.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_NoiseLevel.p
-ng used on input line 646.
+ng used on input line 649.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_NoiseLevel.png, id=2611, 700.6175pt 
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_NoiseLevel.png, id=2640, 700.6175pt 
 x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_NoiseLevel.png Graphic file (ty
 pe png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_NoiseLevel.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_NoiseLevel.p
-ng used on input line 652.
+ng used on input line 655.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_NoiseLevel.png, id=2612, 700.6175p
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_NoiseLevel.png, id=2641, 700.6175p
 t x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_NoiseLevel.png Graphic file (
 type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_NoiseLevel.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_NoiseLevel
-.png used on input line 665.
+.png used on input line 668.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_NoiseLevel.png, id=2613, 700.6175p
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_NoiseLevel.png, id=2642, 700.6175p
 t x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_NoiseLevel.png Graphic file (
 type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_NoiseLevel.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_NoiseLevel
-.png used on input line 671.
+.png used on input line 674.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecLifetime.png, id=2614, 700.6175p
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecLifetime.png, id=2643, 700.6175p
 t x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecLifetime.png Graphic file (
 type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecLifetime
-.png used on input line 685.
+.png used on input line 688.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecLifetime.png, id=2615, 700.6175p
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecLifetime.png, id=2644, 700.6175p
 t x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecLifetime.png Graphic file (
 type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecLifetime
-.png used on input line 691.
+.png used on input line 694.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecLifetime.png, id=2616, 700.617
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecLifetime.png, id=2645, 700.617
 5pt x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecLifetime.png Graphic file
  (type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecLifeti
-me.png used on input line 704.
+me.png used on input line 707.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecLifetime.png, id=2617, 700.617
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecLifetime.png, id=2646, 700.617
 5pt x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecLifetime.png Graphic file
  (type png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecLifetime.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecLifeti
-me.png used on input line 710.
+me.png used on input line 713.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecField.png, id=2618, 700.6175pt x
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecField.png, id=2647, 700.6175pt x
  476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecField.png Graphic file (typ
 e png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecField.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_ElecField.pn
-g used on input line 724.
+g used on input line 727.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecField.png, id=2619, 700.6175pt x
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecField.png, id=2648, 700.6175pt x
  476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecField.png Graphic file (typ
 e png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecField.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_ElecField.pn
-g used on input line 730.
+g used on input line 733.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecField.png, id=2620, 700.6175pt
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecField.png, id=2649, 700.6175pt
  x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecField.png Graphic file (t
 ype png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecField.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_ElecField.
-png used on input line 743.
+png used on input line 746.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.png, id=2621, 700.6175pt
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.png, id=2650, 700.6175pt
  x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.png Graphic file (t
 ype png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.
-png used on input line 749.
+png used on input line 752.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Diffusion.png, id=2622, 700.6175pt x
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Diffusion.png, id=2651, 700.6175pt x
  476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Diffusion.png Graphic file (typ
 e png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Diffusion.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Diffusion.pn
-g used on input line 764.
+g used on input line 767.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Diffusion.png, id=2623, 700.6175pt x
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Diffusion.png, id=2652, 700.6175pt x
  476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Diffusion.png Graphic file (typ
 e png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Diffusion.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Diffusion.pn
-g used on input line 770.
+g used on input line 773.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_Diffusion.png, id=2624, 700.6175pt
+<35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_Diffusion.png, id=2653, 700.6175pt
  x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_Diffusion.png Graphic file (t
 ype png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_Diffusion.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_T_RMS_Q_Diffusion.
-png used on input line 783.
+png used on input line 786.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_Diffusion.png, id=2625, 700.6175pt
+<35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_Diffusion.png, id=2654, 700.6175pt
  x 476.78125pt>
 File: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_Diffusion.png Graphic file (t
 ype png)
 <use 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_Diffusion.png>
 Package pdftex.def Info: 35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_Diffusion.
-png used on input line 789.
+png used on input line 792.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 802--803
 
  []
 
@@ -4895,17 +4913,12 @@ _ElecField.png> <./35tonData/Figs/Raster/Canvas_AvDiff_X_RMS_Q_ElecField.png>]
 igs/Raster/Canvas_AvDiff_X_RMS_Diffusion.png>] [165 <./35tonData/Figs/Raster/Ca
 nvas_AvDiff_T_RMS_Q_Diffusion.png> <./35tonData/Figs/Raster/Canvas_AvDiff_X_RMS
 _Q_Diffusion.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 808--809
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 812--813
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
@@ -4914,23 +4927,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 815--816
 
  []
 
-[166]
+
 Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+[166]
+Underfull \hbox (badness 10000) in paragraph at lines 821--822
 
  []
 
-[167])
-Underfull \hbox (badness 10000) in paragraph at lines 831--153
+
+Underfull \hbox (badness 10000) in paragraph at lines 828--829
+
+ []
+
+[167]
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 834--153
 
  []
 
@@ -4969,7 +4987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 [170]
-<FarDetectorSimulations/Figs/Raster/ComplexGeom.png, id=2724, 1369.115pt x 895.
+<FarDetectorSimulations/Figs/Raster/ComplexGeom.png, id=2753, 1369.115pt x 895.
 345pt>
 File: FarDetectorSimulations/Figs/Raster/ComplexGeom.png Graphic file (type png
 )
@@ -5018,7 +5036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 [173]
-<FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png, id=2751, 894.34125pt x 
+<FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png, id=2780, 894.34125pt x 
 667.49374pt>
 File: FarDetectorSimulations/Figs/Raster/PoCA_Beam_Cuts.png Graphic file (type 
 png)
@@ -5142,7 +5160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
  []
 
 
-<FarDetectorSimulations/Figs/Raster/dune-surface-map.png, id=2879, 703.62875pt 
+<FarDetectorSimulations/Figs/Raster/dune-surface-map.png, id=2908, 703.62875pt 
 x 543.02875pt>
 File: FarDetectorSimulations/Figs/Raster/dune-surface-map.png Graphic file (typ
 e png)
@@ -5151,7 +5169,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/dune-surface-map.pn
 g used on input line 289.
 (pdftex.def)             Requested size: 244.97716pt x 189.0603pt.
 
-<FarDetectorSimulations/Figs/Raster/phi-map.png, id=2882, 605.26125pt x 624.332
+<FarDetectorSimulations/Figs/Raster/phi-map.png, id=2911, 605.26125pt x 624.332
 5pt>
 File: FarDetectorSimulations/Figs/Raster/phi-map.png Graphic file (type png)
 <use FarDetectorSimulations/Figs/Raster/phi-map.png>
@@ -5170,7 +5188,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
 [184 <./FarDetectorSimulations/Figs/Raster/dune-surface-map.png> <./FarDetector
 Simulations/Figs/Raster/phi-map.png>]
-<FarDetectorSimulations/Figs/Raster/DepthCan.png, id=2909, 851.18pt x 476.78125
+<FarDetectorSimulations/Figs/Raster/DepthCan.png, id=2938, 851.18pt x 476.78125
 pt>
 File: FarDetectorSimulations/Figs/Raster/DepthCan.png Graphic file (type png)
 <use FarDetectorSimulations/Figs/Raster/DepthCan.png>
@@ -5178,7 +5196,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/DepthCan.png used o
 n input line 327.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png, id=2910, 851.18pt x 47
+<FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png, id=2939, 851.18pt x 47
 6.78125pt>
 File: FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png Graphic file (type
  png)
@@ -5187,7 +5205,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/EnergyPerGeVCan.png
  used on input line 333.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/ZenithCan.png, id=2911, 851.18pt x 476.7812
+<FarDetectorSimulations/Figs/Raster/ZenithCan.png, id=2940, 851.18pt x 476.7812
 5pt>
 File: FarDetectorSimulations/Figs/Raster/ZenithCan.png Graphic file (type png)
 <use FarDetectorSimulations/Figs/Raster/ZenithCan.png>
@@ -5195,7 +5213,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/ZenithCan.png used
 on input line 339.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/AzimuthCan.png, id=2912, 851.18pt x 476.781
+<FarDetectorSimulations/Figs/Raster/AzimuthCan.png, id=2941, 851.18pt x 476.781
 25pt>
 File: FarDetectorSimulations/Figs/Raster/AzimuthCan.png Graphic file (type png)
 
@@ -5204,7 +5222,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AzimuthCan.png used
  on input line 345.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/AziZenCan.png, id=2913, 851.18pt x 476.7812
+<FarDetectorSimulations/Figs/Raster/AziZenCan.png, id=2942, 851.18pt x 476.7812
 5pt>
 File: FarDetectorSimulations/Figs/Raster/AziZenCan.png Graphic file (type png)
 <use FarDetectorSimulations/Figs/Raster/AziZenCan.png>
@@ -5212,7 +5230,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AziZenCan.png used
 on input line 351.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/AziZenColzCan.png, id=2914, 851.18pt x 476.
+<FarDetectorSimulations/Figs/Raster/AziZenColzCan.png, id=2943, 851.18pt x 476.
 78125pt>
 File: FarDetectorSimulations/Figs/Raster/AziZenColzCan.png Graphic file (type p
 ng)
@@ -5221,7 +5239,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/AziZenColzCan.png u
 sed on input line 357.
 (pdftex.def)             Requested size: 196.85616pt x 110.2612pt.
 
-<FarDetectorSimulations/Figs/Raster/MuonPosCan.png, id=2915, 851.18pt x 476.781
+<FarDetectorSimulations/Figs/Raster/MuonPosCan.png, id=2944, 851.18pt x 476.781
 25pt>
 File: FarDetectorSimulations/Figs/Raster/MuonPosCan.png Graphic file (type png)
 
@@ -5316,7 +5334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
  []
 
 [190]
-<FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png, id=2964, 1022.82124pt x
+<FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png, id=2993, 1022.82124pt x
  438.63875pt>
 File: FarDetectorSimulations/Figs/Raster/KaonElecBigGap.png Graphic file (type 
 png)
@@ -5341,7 +5359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
 [192]
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2cmCut.p
-ng, id=2981, 700.6175pt x 476.78125pt>
+ng, id=3010, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Raw_2cm
 Cut.png Graphic file (type png)
 
@@ -5352,7 +5370,7 @@ ergyDepCuts_Raw_2cmCut.png used on input line 447.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2cmCut.
-png, id=2982, 700.6175pt x 476.78125pt>
+png, id=3011, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm_2c
 mCut.png Graphic file (type png)
 
@@ -5405,7 +5423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--494
  []
 
 
-<FarDetectorSimulations/Figs/Raster/NearEdgeDecay.png, id=3003, 1027.84pt x 770
+<FarDetectorSimulations/Figs/Raster/NearEdgeDecay.png, id=3032, 1027.84pt x 770
 .88pt>
 File: FarDetectorSimulations/Figs/Raster/NearEdgeDecay.png Graphic file (type p
 ng)
@@ -5414,7 +5432,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NearEdgeDecay.png u
 sed on input line 497.
 (pdftex.def)             Requested size: 349.97023pt x 262.4839pt.
 
-<FarDetectorSimulations/Figs/Raster/FullyContained.png, id=3004, 1027.84pt x 77
+<FarDetectorSimulations/Figs/Raster/FullyContained.png, id=3033, 1027.84pt x 77
 0.88pt>
 File: FarDetectorSimulations/Figs/Raster/FullyContained.png Graphic file (type 
 png)
@@ -5434,7 +5452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
 
 <FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut.png, 
-id=3010, 700.6175pt x 476.78125pt>
+id=3039, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Raw_2cmCut.
 png Graphic file (type png)
 
@@ -5445,7 +5463,7 @@ DepCuts_Raw_2cmCut.png used on input line 517.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cmCut.png,
- id=3011, 700.6175pt x 476.78125pt>
+ id=3040, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm_2cmCut
 .png Graphic file (type png)
 
@@ -5468,7 +5486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 534--535
  []
 
 
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png, id=3041, 
+<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png, id=3070, 
 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonDecayEnergy.png Graph
 ic file (type png)
@@ -5488,7 +5506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--572
  []
 
 
-<FarDetectorSimulations/Figs/Raster/MissedKaon.png, id=3055, 1020.81375pt x 616
+<FarDetectorSimulations/Figs/Raster/MissedKaon.png, id=3085, 1020.81375pt x 616
 .3025pt>
 File: FarDetectorSimulations/Figs/Raster/MissedKaon.png Graphic file (type png)
 
@@ -5502,7 +5520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 581--582
  []
 
 
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png, id=3061, 70
+<FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png, id=3091, 70
 0.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNearEdges.png Graphic
  file (type png)
@@ -5511,7 +5529,7 @@ Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_EDepNe
 arEdges.png used on input line 587.
 (pdftex.def)             Requested size: 328.09584pt x 223.27968pt.
 
-<FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png, id=3062
+<FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png, id=3092
 , 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EDepNearEdges.png Gra
 phic file (type png)
@@ -5537,7 +5555,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--609
  []
 
 
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png, id=3083, 700.
+<FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png, id=3112, 700.
 6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png Graphic f
 ile (type png)
@@ -5551,8 +5569,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--619
  []
 
 [204]
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png, id=309
-1, 700.6175pt x 476.78125pt>
+<FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png, id=312
+0, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png Gr
 aphic file (type png)
 <use FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png>
@@ -5561,7 +5579,7 @@ DepCuts_Norm.png used on input line 623.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.png, id
-=3092, 700.6175pt x 476.78125pt>
+=3121, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.pn
 g Graphic file (type png)
 
@@ -5583,183 +5601,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 [205 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElecSep.png>] [206 
 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_EnergyDepCuts_Norm.png> <./F
 arDetectorSimulations/Figs/Raster/CosmicBackground_EnergyDepCuts_Norm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 655--657
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 643.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 643.
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 643.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 643.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 643.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
 
  []
 
 [207]
-Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 661.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--664
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 661.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 661.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
 
 [208]
-<FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png, id=3120,
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
+
+ []
+
+[209]
+<FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png, id=3161,
  700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png Grap
 hic file (type png)
 <use FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_v
-s_Elec_Can.png used on input line 669.
+s_Elec_Can.png used on input line 687.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png, id=3
-121, 700.6175pt x 476.78125pt>
+162, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png 
 Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Ka
-on_vs_Elec_Can.png used on input line 675.
+on_vs_Elec_Can.png used on input line 693.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png, id=3
-124, 700.6175pt x 476.78125pt>
+165, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png 
 Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Can.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonEl
-ec_vs_Near_Can.png used on input line 688.
+ec_vs_Near_Can.png used on input line 706.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.png, 
-id=3125, 700.6175pt x 476.78125pt>
+id=3166, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.
 png Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_Can.p
 ng>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Ka
-onElec_vs_Near_Can.png used on input line 694.
+onElec_vs_Near_Can.png used on input line 712.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png, id=3
-128, 700.6175pt x 476.78125pt>
+169, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png 
 Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Other_Can.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKao
-n_vs_Other_Can.png used on input line 707.
+n_vs_Other_Can.png used on input line 725.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.png, 
-id=3129, 700.6175pt x 476.78125pt>
+id=3170, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.
 png Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_Other_Can.p
 ng>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Al
-lKaon_vs_Other_Can.png used on input line 713.
+lKaon_vs_Other_Can.png used on input line 731.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_Can.p
-ng, id=3132, 700.6175pt x 476.78125pt>
+ng, id=3173, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_
 Can.png Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaonNearElec_vs_Other_C
 an.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKao
-nNearElec_vs_Other_Can.png used on input line 726.
+nNearElec_vs_Other_Can.png used on input line 744.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
 <FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Other_C
-an.png, id=3133, 700.6175pt x 476.78125pt>
+an.png, id=3174, 700.6175pt x 476.78125pt>
 File: FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Ot
 her_Can.png Graphic file (type png)
 
 <use FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaonNearElec_vs_Oth
 er_Can.png>
 Package pdftex.def Info: FarDetectorSimulations/Figs/Raster/CosmicBackground_Al
-lKaonNearElec_vs_Other_Can.png used on input line 732.
+lKaonNearElec_vs_Other_Can.png used on input line 750.
 (pdftex.def)             Requested size: 349.97023pt x 238.1645pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--743
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--746
+Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 748--749
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
-[209] [210 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.
+[210] [211 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_Kaon_vs_Elec_Can.
 png> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_Kaon_vs_Elec_Can.pn
-g>] [211 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Ca
+g>] [212 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_KaonElec_vs_Near_Ca
 n.png> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_KaonElec_vs_Near_
-Can.png>] [212 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Ot
+Can.png>] [213 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon_vs_Ot
 her_Can.png> <./FarDetectorSimulations/Figs/Raster/CosmicBackground_AllKaon_vs_
-Other_Can.png>] [213 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon
+Other_Can.png>] [214 <./FarDetectorSimulations/Figs/Raster/NucleonDecay_AllKaon
 NearElec_vs_Other_Can.png> <./FarDetectorSimulations/Figs/Raster/CosmicBackgrou
 nd_AllKaonNearElec_vs_Other_Can.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 751--752
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 753--754
-
- []
-
-[214]
-Underfull \hbox (badness 10000) in paragraph at lines 755--756
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--758
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
 
  []
 
 [215]
-Underfull \hbox (badness 10000) in paragraph at lines 765--766
-
- []
-
-[216]
 Underfull \hbox (badness 10000) in paragraph at lines 773--774
 
  []
@@ -5774,282 +5777,505 @@ Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 779--154
+[216]
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
 
 [217]
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--794
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 797--154
+
+ []
+
+[218]
 \openout2 = `Conclusion/Conclusion.aux'.
 
 (./Conclusion/Conclusion.tex
 Chapter 7.
-) [218
 
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
-
-] (./thesis.bbl [219
-
-
-
-] [220] [221] [222] [223] [224] [225] [226]
-Underfull \hbox (badness 7869) in paragraph at lines 840--844
-[]\T1/ptm/m/n/12 (+20) D. Barker et al.  Muon-induced back-ground for beam neu-
-tri-nos at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--844
-\T1/ptm/m/n/12 (+20) the sur-face.  LBNE Re-con-fig-u-ra-tion Re-port, Aug 2012
-. [on-line]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
  []
 
-[227] [228]) [229]
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[219
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[220])
+Underfull \hbox (badness 10000) in paragraph at lines 18--155
+
+ []
+
+[221] (./thesis.bbl [222
+
+
+
+] [223]
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+[]\T1/ptm/m/n/12 (+20) LBNE Col-lab-o-ra-tion, Tech. Rep. LBNE-doc-5235 (2012),
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+[][]$\T1/ptm/m/n/12 (+20) http : / / lbne2-[]docdb . fnal . gov / cgi-[]bin / R
+etrieveFile ? docid = 5235 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--349
+\T1/ptm/m/n/12 (+20) fnal . gov / cgi-[]bin / RetrieveFile ? docid = 4317 & ^^\
+lename = CDR-[]beam-[]volume-[]101812 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--354
+[]\T1/ptm/m/n/12 (+20) LBNE Col-lab-o-ra-tion, Tech. Rep. LBNE-doc-4724 (2012),
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--354
+[][]$\T1/ptm/m/n/12 (+20) http : / / lbne2-[]docdb . fnal . gov / cgi-[]bin / R
+etrieveFile ? docid = 4724 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
+[]\T1/ptm/m/n/12 (+20) LBNE Col-lab-o-ra-tion, Tech. Rep. LBNE-doc-4892 (2012),
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
+[][]$\T1/ptm/m/n/12 (+20) http : / / lbne2-[]docdb . fnal . gov / cgi-[]bin / R
+etrieveFile ? docid = 4892 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--364
+[]\T1/ptm/m/n/12 (+20) LBNE Col-lab-o-ra-tion, Tech. Rep. LBNE-doc-4623 (2012),
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--364
+[][]$\T1/ptm/m/n/12 (+20) http : / / lbne2-[]docdb . fnal . gov / cgi-[]bin / R
+etrieveFile ? docid = 4623 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
+[]\T1/ptm/m/n/12 (+20) LBNE Col-lab-o-ra-tion, Tech. Rep. LBNE-doc-5017 (2012),
+ URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
+[][]$\T1/ptm/m/n/12 (+20) http : / / lbne2-[]docdb . fnal . gov / cgi-[]bin / R
+etrieveFile ? docid = 5017 & ^^\lename =
+ []
+
+[224]
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
+[][]$\T1/ptm/m/n/12 (+20) https : / / web . fnal . gov / project / LBNF / SiteP
+ages / Proposals % 20and % 20Design %
+ []
+
+[225]
+Underfull \hbox (badness 10000) in paragraph at lines 505--508
+\T1/ptm/m/n/12 (+20) 8080 / cgi-[]bin / RetrieveFile ? docid = 8836 & ^^\lename
+ = AtmosphericNeutrinos _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--562
+[]\T1/ptm/m/n/12 (+20) M. Thom-son, Tech. Rep. LBNE-doc-11100 (2015), URL [][]$
+http : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--562
+\T1/ptm/m/n/12 (+20) lbne2-[]docdb . fnal . gov : 8080 / cgi-[]bin / RetrieveFi
+le ? docid = 11100 & ^^\lename =
+ []
+
+[226] [227]
+Underfull \hbox (badness 1275) in paragraph at lines 769--773
+\T1/ptm/m/n/12 (+20) work-ing group meet-ing (2016), URL [][]$https : / / indic
+o . fnal . gov / getFile . py / access ?
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 775--779
+\T1/ptm/m/n/12 (+20) URL [][]$https : / / indico . fnal . gov / getFile . py / 
+access ? contribId = 2 & resId = 0 & materialId =
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 781--785
+[]\T1/ptm/m/n/12 (+20) MicroBooNE Col-lab-o-ra-tion, Tech. Rep. MICROBOONE-NOTE
+-1016-PUB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--785
+\T1/ptm/m/n/12 (+20) (2016), URL [][]$http : / / www-[]microboone . fnal . gov 
+/ publications / publicnotes /
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 823--827
+[]\T1/ptm/m/n/12 (+20) M. Thiesse, \T1/ptm/m/it/12 (+20) Hit re-con-struc-tion 
+and pu-rity\T1/ptm/m/n/12 (+20) , 35 ton work-ing group meet-
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 834--838
+\T1/ptm/m/n/12 (+20) URL [][]$https : / / indico . fnal . gov / getFile . py / 
+access ? contribId = 1 & resId = 0 & materialId =
+ []
+
+[228]
+Underfull \hbox (badness 10000) in paragraph at lines 884--888
+[]\T1/ptm/m/n/12 (+20) N. S. Bow-den, Tech. Rep. LBNE-doc-6493 (2012), URL [][]
+$http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 884--888
+\T1/ptm/m/n/12 (+20) / / lbne2-[]docdb . fnal . gov : 8080 / cgi-[]bin / Retrie
+veFile ? docid = 6493 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--899
+\T1/ptm/m/n/12 (+13) 8080 / cgi-[]bin / RetrieveFile ? docid = 3383 & ^^\lename
+ = ParametersAPAsOutsideAug11 _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--905
+\T1/ptm/m/n/12 (+7) 8080 / cgi-[]bin / RetrieveFile ? docid = 7806 & ^^\lename 
+= SoftwarePreMeeting _ Talk _ DDC .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--917
+[]\T1/ptm/m/n/12 (+20) D. Mei et al., Tech. Rep. LBNE-doc-6621 (2012), URL [][]
+$http : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--917
+\T1/ptm/m/n/12 (+20) lbne2-[]docdb . fnal . gov : 8080 / cgi-[]bin / RetrieveFi
+le ? docid = 6621 & ^^\lename =
+ []
+
+[229]
+Underfull \hbox (badness 10000) in paragraph at lines 947--951
+[]\T1/ptm/m/n/12 (+20) T. Black-well et al., Tech. Rep. LBNE-doc-7517 (2013), U
+RL [][]$http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 947--951
+\T1/ptm/m/n/12 (+20) / / lbne2-[]docdb . fnal . gov : 8080 / cgi-[]bin / Retrie
+veFile ? docid = 7517 & ^^\lename =
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 1026--1030
+\T1/ptm/m/n/12 (+20) URL [][]$https : / / indico . fnal . gov / getFile . py / 
+access ? contribId = 2 & resId = 0 & materialId =
+ []
+
+) [230]
 \openout2 = `Appendix1/appendix1.aux'.
 
 (./Appendix1/appendix1.tex
 Appendix A.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-<Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png, id=3332, 700.6175pt x 47
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+[231
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+<Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png, id=3521, 700.6175pt x 47
 6.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png Graphic file (type p
 ng)
 <use Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png u
-sed on input line 13.
+sed on input line 19.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png, id=3333, 700.6175pt x 
+<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png, id=3522, 700.6175pt x 
 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png Graphic file (type
  png)
 <use Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png
- used on input line 19.
+ used on input line 25.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_NoiseLevel.png, id=3334,
+<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_NoiseLevel.png, id=3523,
  700.6175pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_NoiseLevel.png Grap
 hic file (type png)
 <use Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_NoiseLevel.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_
-NoiseLevel.png used on input line 29.
+NoiseLevel.png used on input line 35.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_NoiseLevel.png, id=3335, 700.61
+<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_NoiseLevel.png, id=3524, 700.61
 75pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_NoiseLevel.png Graphic fil
 e (type png)
 <use Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_NoiseLevel.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_NoiseLe
-vel.png used on input line 37.
+vel.png used on input line 43.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseLevel.png, id=3336, 700.6175pt x 4
+<Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseLevel.png, id=3525, 700.6175pt x 4
 76.78125pt>
 File: Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseLevel.png Graphic file (type 
 png)
 <use Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseLevel.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseLevel.png 
-used on input line 45.
+used on input line 51.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-<Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png, id=3340, 700.6175pt x 
+<Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png, id=3526, 700.6175pt x 
 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png Graphic file (type
  png)
 <use Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png
- used on input line 58.
+ used on input line 63.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png, id=3341, 700.6175pt 
+<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png, id=3527, 700.6175pt 
 x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png Graphic file (ty
 pe png)
 <use Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.p
-ng used on input line 64.
+ng used on input line 69.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecLifetime.png, id=334
-2, 700.6175pt x 476.78125pt>
+<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecLifetime.png, id=352
+8, 700.6175pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecLifetime.png Gr
 aphic file (type png)
 <use Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecLifetime.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_
-ElecLifetime.png used on input line 74.
+ElecLifetime.png used on input line 79.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecLifetime.png, id=3343, 700.
+<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecLifetime.png, id=3529, 700.
 6175pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecLifetime.png Graphic f
 ile (type png)
 <use Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecLifetime.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecLif
-etime.png used on input line 82.
+etime.png used on input line 87.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_ChargeCut_ElecLifetime.png, id=3344, 700.6175pt x
+<Appendix1/Figs/Raster/Canvas_ChargeCut_ElecLifetime.png, id=3530, 700.6175pt x
  476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_ChargeCut_ElecLifetime.png Graphic file (typ
 e png)
 <use Appendix1/Figs/Raster/Canvas_ChargeCut_ElecLifetime.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_ChargeCut_ElecLifetime.pn
-g used on input line 90.
+g used on input line 95.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-[230
-
-
-] [231 <./Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png> <./Appendix1/Fi
-gs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png> <./Appendix1/Figs/Raster/Canvas_Cou
-ntDiff4_All_Positions_NoiseLevel.png>] [232 <./Appendix1/Figs/Raster/Canvas_All
-_Angles_RMS0cm_NoiseLevel.png> <./Appendix1/Figs/Raster/Canvas_ChargeCut_NoiseL
-evel.png>] [233 <./Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png> <./A
-ppendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png> <./Appendix1/Figs/Rast
-er/Canvas_CountDiff4_All_Positions_ElecLifetime.png>] [234 <./Appendix1/Figs/Ra
-ster/Canvas_All_Angles_RMS0cm_ElecLifetime.png> <./Appendix1/Figs/Raster/Canvas
-_ChargeCut_ElecLifetime.png>]
-<Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png, id=3369, 700.6175pt x 476
+<Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png, id=3531, 700.6175pt x 476
 .78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png Graphic file (type pn
 g)
 <use Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png us
-ed on input line 103.
+ed on input line 107.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png, id=3370, 700.6175pt x 4
+<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png, id=3532, 700.6175pt x 4
 76.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png Graphic file (type 
 png)
 <use Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png 
-used on input line 109.
+used on input line 113.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecField.png, id=3371, 
+<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecField.png, id=3533, 
 700.6175pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecField.png Graph
 ic file (type png)
 <use Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecField.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_
-ElecField.png used on input line 119.
+ElecField.png used on input line 123.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecField.png, id=3372, 700.617
+<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecField.png, id=3534, 700.617
 5pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecField.png Graphic file
  (type png)
 <use Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecField.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecFie
-ld.png used on input line 127.
+ld.png used on input line 131.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_ChargeCut_ElecField.png, id=3373, 700.6175pt x 47
+<Appendix1/Figs/Raster/Canvas_ChargeCut_ElecField.png, id=3535, 700.6175pt x 47
 6.78125pt>
 File: Appendix1/Figs/Raster/Canvas_ChargeCut_ElecField.png Graphic file (type p
 ng)
 <use Appendix1/Figs/Raster/Canvas_ChargeCut_ElecField.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_ChargeCut_ElecField.png u
-sed on input line 135.
+sed on input line 139.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-<Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png, id=3377, 700.6175pt x 476
+<Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png, id=3536, 700.6175pt x 476
 .78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png Graphic file (type pn
 g)
 <use Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png us
-ed on input line 148.
+ed on input line 151.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png, id=3378, 700.6175pt x 4
+<Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png, id=3537, 700.6175pt x 4
 76.78125pt>
 File: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png Graphic file (type 
 png)
 <use Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png 
-used on input line 154.
+used on input line 157.
 (pdftex.def)             Requested size: 209.97946pt x 142.88997pt.
 
-<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_Diffusion.png, id=3379, 
+<Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_Diffusion.png, id=3538, 
 700.6175pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_Diffusion.png Graph
 ic file (type png)
 <use Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_Diffusion.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_
-Diffusion.png used on input line 164.
+Diffusion.png used on input line 167.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusion.png, id=3380, 700.617
+<Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusion.png, id=3539, 700.617
 5pt x 476.78125pt>
 File: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusion.png Graphic file
  (type png)
 <use Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusion.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusi
-on.png used on input line 172.
+on.png used on input line 175.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
 
-<Appendix1/Figs/Raster/Canvas_ChargeCut_Diffusion.png, id=3381, 700.6175pt x 47
+<Appendix1/Figs/Raster/Canvas_ChargeCut_Diffusion.png, id=3540, 700.6175pt x 47
 6.78125pt>
 File: Appendix1/Figs/Raster/Canvas_ChargeCut_Diffusion.png Graphic file (type p
 ng)
 <use Appendix1/Figs/Raster/Canvas_ChargeCut_Diffusion.png>
 Package pdftex.def Info: Appendix1/Figs/Raster/Canvas_ChargeCut_Diffusion.png u
-sed on input line 180.
+sed on input line 183.
 (pdftex.def)             Requested size: 262.47934pt x 178.6252pt.
-) [235 <./Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecField.png> <./Appendix1/Fig
-s/Raster/Canvas_RMS_Q_20cm_ElecField.png>] [236 <./Appendix1/Figs/Raster/Canvas
-_CountDiff4_All_Positions_ElecField.png> <./Appendix1/Figs/Raster/Canvas_All_An
-gles_RMS0cm_ElecField.png>] [237 <./Appendix1/Figs/Raster/Canvas_ChargeCut_Elec
-Field.png> <./Appendix1/Figs/Raster/Canvas_RMS_20cm_Diffusion.png> <./Appendix1
-/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png>] [238 <./Appendix1/Figs/Raster/Ca
-nvas_CountDiff4_All_Positions_Diffusion.png> <./Appendix1/Figs/Raster/Canvas_Al
-l_Angles_RMS0cm_Diffusion.png>] [239 <./Appendix1/Figs/Raster/Canvas_ChargeCut_
-Diffusion.png>] (./thesis.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
+) [232 <./Appendix1/Figs/Raster/Canvas_RMS_20cm_NoiseLevel.png> <./Appendix1/Fi
+gs/Raster/Canvas_RMS_Q_20cm_NoiseLevel.png>] [233 <./Appendix1/Figs/Raster/Canv
+as_CountDiff4_All_Positions_NoiseLevel.png> <./Appendix1/Figs/Raster/Canvas_All
+_Angles_RMS0cm_NoiseLevel.png>] [234 <./Appendix1/Figs/Raster/Canvas_ChargeCut_
+NoiseLevel.png> <./Appendix1/Figs/Raster/Canvas_RMS_20cm_ElecLifetime.png> <./A
+ppendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecLifetime.png>] [235 <./Appendix1/Fig
+s/Raster/Canvas_CountDiff4_All_Positions_ElecLifetime.png> <./Appendix1/Figs/Ra
+ster/Canvas_All_Angles_RMS0cm_ElecLifetime.png>] [236 <./Appendix1/Figs/Raster/
+Canvas_ChargeCut_ElecLifetime.png> <./Appendix1/Figs/Raster/Canvas_RMS_20cm_Ele
+cField.png> <./Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_ElecField.png>] [237 <./
+Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_ElecField.png> <./Appendi
+x1/Figs/Raster/Canvas_All_Angles_RMS0cm_ElecField.png>] [238 <./Appendix1/Figs/
+Raster/Canvas_ChargeCut_ElecField.png> <./Appendix1/Figs/Raster/Canvas_RMS_20cm
+_Diffusion.png> <./Appendix1/Figs/Raster/Canvas_RMS_Q_20cm_Diffusion.png>] [239
+ <./Appendix1/Figs/Raster/Canvas_CountDiff4_All_Positions_Diffusion.png> <./App
+endix1/Figs/Raster/Canvas_All_Angles_RMS0cm_Diffusion.png>] [240 <./Appendix1/F
+igs/Raster/Canvas_ChargeCut_Diffusion.png>] (./thesis.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
 Acknowledgement/acknowledgement.aux) (./Abstract/abstract.aux) (./Theory/Theory
 .aux) (./DUNE/DUNE.aux) (./The35tonCameras/The35tonCameras.aux) (./35tonSimulat
 ion/35tonSimulation.aux) (./35tonData/35tonData.aux) (./FarDetectorSimulations/
 FarDetectorSimulations.aux) (./Conclusion/Conclusion.aux) (./Appendix1/appendix
 1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3AB2DF155C0E692BDEC749C8427CB606;15732.
+(rerunfilecheck)             Checksum: 4F4FA6F14B0AFF39C698C5641AF668D6;16051.
  ) 
 Here is how much of TeX's memory you used:
- 28551 strings out of 493089
- 537523 string characters out of 6134843
- 606474 words of memory out of 5000000
- 30320 multiletter control sequences out of 15000+600000
- 117267 words of font info for 398 fonts, out of 8000000 for 9000
+ 28598 strings out of 493089
+ 538615 string characters out of 6134843
+ 624787 words of memory out of 5000000
+ 30375 multiletter control sequences out of 15000+600000
+ 115692 words of font info for 384 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,92p,10397b,1562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,92p,10397b,1253s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -6063,10 +6289,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on thesis.pdf (239 pages, 35226655 bytes).
+Output written on thesis.pdf (240 pages, 33991047 bytes).
 PDF statistics:
- 3600 PDF objects out of 4296 (max. 8388607)
- 2815 compressed objects within 29 object streams
- 657 named destinations out of 1000 (max. 500000)
- 66528 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 3777 PDF objects out of 4296 (max. 8388607)
+ 2992 compressed objects within 30 object streams
+ 670 named destinations out of 1000 (max. 500000)
+ 66536 words of extra memory for PDF output out of 74296 (max. 10000000)
 

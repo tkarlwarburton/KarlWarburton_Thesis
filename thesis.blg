@@ -12,93 +12,86 @@ A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
 A level-1 auxiliary file: 35tonData/35tonData.aux
 A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
 A level-1 auxiliary file: Conclusion/Conclusion.aux
-The style file: unsrt.bst
+The style file: apsrev.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10580 items from 5000.
 Database file #1: References/references.bib
-Warning--empty journal in Tzanankos:2011zz
-Warning--empty journal in Abe:2011ts
-Warning--empty journal in P5Doc
-Warning--empty institution in LBNE_CDR1
-Warning--empty institution in LBNE_CDR2
-Warning--empty institution in LBNE_CDR3
-Warning--empty institution in LBNE_CDR4
-Warning--empty institution in LBNE_CDR5
-Warning--empty institution in LBNE_CDR6
-Warning--empty journal in LBNO_EOI
-Warning--empty journal in DUNECDR_V4
-Warning--empty journal in DUNECDR_V3
-Name 1 in "S.D. Holmes, and others" has a comma at the end for entry PIP-II
-while executing---line 944 of file unsrt.bst
-Warning--empty journal in DUNECDR_V1
-Warning--empty journal in DUNECDR_V2
-Warning--empty institution in Elizabeth_01_17
-Warning--empty institution in DUNE2335
-Warning--empty institution in DUNE2401
-Warning--empty institution in DUNE2332
-Warning--empty institution in DUNE2377
-Warning--empty institution in MauryLifetime
-Warning--empty journal in Adams:2013qkq
-Warning--empty institution in LBNE8836
-Warning--empty institution in MarkReviewJuly2015
-Warning--empty journal in Church_LArSoft
-Warning--empty institution in CORSIKA
-Warning--empty institution in LArSoftRecoNote
-Warning--empty booktitle in HarrisTrans
-Warning--empty institution in EMShower
-Warning--empty journal in CameraPaper
-Warning--empty journal in SBNProposal
-Warning--empty institution in uBooNENoise
-Warning--empty institution in 35tonNoiseMeeting
-Warning--empty institution in 35tonNoiseDoc
-Warning--empty institution in LBNE6493
-Warning--empty institution in LBNE3383
-Warning--empty institution in LBNE7806
-Warning--empty institution in LBNE6621
-Warning--empty institution in LBNE8458
-Warning--empty institution in LBNE7517
-Warning--empty journal in Abgrall:2016cfi
-Warning--empty institution in NDKTFNote
-Warning--empty institution in LBNE3144
-Warning--empty institution in MUSUNLBNE
-You've used 169 entries,
-            1791 wiz_defined-function locations,
-            1476 strings with 30551 characters,
-and the built_in function-call counts, 32772 in all, are:
-= -- 2891
-> -- 1283
-< -- 34
-+ -- 505
-- -- 336
-* -- 2022
-:= -- 5362
-add.period$ -- 508
-call.type$ -- 169
-change.case$ -- 166
-chr.to.int$ -- 0
-cite$ -- 212
-duplicate$ -- 1429
-empty$ -- 3334
-format.name$ -- 336
-if$ -- 7207
-int.to.chr$ -- 0
-int.to.str$ -- 169
-missing$ -- 121
-newline$ -- 849
-num.names$ -- 168
-pop$ -- 443
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing institution in Tzanankos:2011zz
+Warning--missing institution in Hewett:2012ns
+Warning--missing institution in LBNE_CDR1
+Warning--missing institution in LBNE_CDR2
+Warning--missing institution in LBNE_CDR3
+Warning--missing institution in LBNE_CDR4
+Warning--missing institution in LBNE_CDR5
+Warning--missing institution in LBNE_CDR6
+Warning--missing institution in LBNO_EOI
+Warning--missing institution in Elizabeth_01_17
+Warning--missing institution in DUNE2335
+Warning--missing institution in DUNE2401
+Warning--missing institution in DUNE2332
+Warning--missing institution in DUNE2377
+Warning--missing institution in MauryLifetime
+Warning--missing institution in LBNE8836
+Warning--missing institution in MarkReviewJuly2015
+Warning--missing institution in CRY
+Warning--missing institution in CRY2
+Warning--missing institution in CORSIKA
+Warning--missing institution in LArSoftRecoNote
+Warning--missing institution in EMShower
+Warning--missing institution in uBooNENoise
+Warning--missing institution in 35tonNoiseMeeting
+Warning--missing institution in 35tonNoiseDoc
+Warning--missing institution in LBNE6493
+Warning--missing institution in LBNE3383
+Warning--missing institution in LBNE7806
+Warning--missing institution in LBNE6621
+Warning--missing institution in LBNE8458
+Warning--missing institution in LBNE7517
+Warning--missing institution in NDKTFNote
+Warning--missing institution in LBNE3144
+Warning--missing institution in MUSUNLBNE
+You've used 180 entries,
+            3411 wiz_defined-function locations,
+            2330 strings with 40698 characters,
+and the built_in function-call counts, 98792 in all, are:
+= -- 6329
+> -- 2317
+< -- 410
++ -- 1661
+- -- 590
+* -- 12248
+:= -- 11896
+add.period$ -- 180
+call.type$ -- 180
+change.case$ -- 765
+chr.to.int$ -- 167
+cite$ -- 214
+duplicate$ -- 9221
+empty$ -- 8667
+format.name$ -- 1723
+if$ -- 18807
+int.to.chr$ -- 14
+int.to.str$ -- 181
+missing$ -- 1448
+newline$ -- 555
+num.names$ -- 540
+pop$ -- 2383
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 720
 quote$ -- 0
-skip$ -- 587
+skip$ -- 3863
 stack$ -- 0
-substring$ -- 2117
-swap$ -- 205
-text.length$ -- 34
+substring$ -- 3513
+swap$ -- 6566
+text.length$ -- 231
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 43
-while$ -- 297
-width$ -- 172
-write$ -- 1772
-(There was 1 error message)
+type$ -- 1076
+warning$ -- 34
+while$ -- 477
+width$ -- 0
+write$ -- 1815
+(There were 34 warnings)

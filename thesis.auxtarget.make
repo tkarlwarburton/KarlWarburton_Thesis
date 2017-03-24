@@ -114,6 +114,7 @@
 \newlabel{fig:DiffDataAvDiff_RMS_T}
 \newlabel{fig:DiffDataAvDiff_RMS_X}
 \newlabel{fig:DiffDataAvDiff_RMS}
+\newlabel{fig:DiffDataHitFit_RMSQ20}
 \newlabel{fig:DiffDataHitFit}
 \newlabel{fig:DiffDataPredHit}
 \newlabel{fig:DiffData_AngFit}
@@ -301,6 +302,7 @@
 \newlabel{sec:The35tonDetector}
 \newlabel{sec:Theory_Exp}
 \newlabel{sec:Theory_GUT}
+\newlabel{sec:Theory_NDK}
 \newlabel{sub@fig:AngleCanvas}
 \newlabel{sub@fig:CRY_MCRecoRat_Muon_All}
 \newlabel{sub@fig:CRY_MCRecoTrack_Muon_All}
@@ -329,6 +331,7 @@
 \newlabel{sub@fig:DiffDataAvDiff_RMS_Int_X}
 \newlabel{sub@fig:DiffDataAvDiff_RMS_T}
 \newlabel{sub@fig:DiffDataAvDiff_RMS_X}
+\newlabel{sub@fig:DiffDataHitFit_RMSQ20}
 \newlabel{sub@fig:DiffElecStudy_AvDiffRMS_T}
 \newlabel{sub@fig:DiffElecStudy_AvDiffRMS_X}
 \newlabel{sub@fig:DiffElecStudy_AvDiff_RMS_Int_T}

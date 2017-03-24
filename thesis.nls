@@ -3,87 +3,92 @@
  \nomgroup{A}
 
   \item [{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
 
  \nomgroup{Z}
 
   \item [{\emph{art}}]\begingroup \emph{analysis reconstruction framework}\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {5.0}
-		\nompageref{105}
+		\nompageref{104}
   \item [{APA}]\begingroup Anode Plane Assembly\nomeqref {2.0}
-		\nompageref{28}
-  \item [{CCD}]\begingroup Charge-Couple Device\nomeqref {3.0}
-		\nompageref{59}
+		\nompageref{27}
+  \item [{CCD}]\begingroup Charge-Coupled Device\nomeqref {3.0}
+		\nompageref{58}
   \item [{CDR}]\begingroup Conceptual Design Report\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {3.0}
-		\nompageref{59}
+		\nompageref{58}
   \item [{CPA}]\begingroup Cathode Plane Assembly\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{CP}]\begingroup Charge-Parity\nomeqref {1.0}\nompageref{10}
   \item [{CRC}]\begingroup Cosmic Ray Counter\nomeqref {2.0}
-		\nompageref{28}
-  \item [{CRY}]\begingroup Cosmic-ray Shower Library\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
+  \item [{CRY}]\begingroup Cosmic RaY shower library\nomeqref {2.0}
+		\nompageref{27}
   \item [{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{DVR}]\begingroup Digital Video Recorder\nomeqref {3.0}
-		\nompageref{59}
-  \item [{FD}]\begingroup Far Detector\nomeqref {2.0}\nompageref{28}
-  \item [{Fermilab}]\begingroup Fermi National Lab\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{58}
+  \item [{FD}]\begingroup Far Detector\nomeqref {2.0}\nompageref{27}
+  \item [{Fermilab}]\begingroup Fermi National Laboratory\nomeqref {2.0}
+		\nompageref{27}
   \item [{FGT}]\begingroup Fine-Grained Tracker\nomeqref {2.0}
-		\nompageref{28}
-  \item [{FNAL}]\begingroup Fermi National Lab\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
+  \item [{FNAL}]\begingroup Fermi National Laboratory\nomeqref {2.0}
+		\nompageref{27}
   \item [{GENIE}]\begingroup Generates Events for Neutrino Interaction Experiments\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{GUT}]\begingroup Grand Unified Theory\nomeqref {1.0}
 		\nompageref{10}
-  \item [{HV}]\begingroup High Voltage\nomeqref {3.0}\nompageref{59}
+  \item [{HV}]\begingroup High Voltage\nomeqref {3.0}\nompageref{58}
   \item [{LAr}]\begingroup Liquid Argon\nomeqref {1.0}\nompageref{10}
   \item [{LArSoft}]\begingroup Liquid Argon Software\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{LArTPC}]\begingroup Liquid Argon Time Projection Chamber\nomeqref {1.0}
 		\nompageref{10}
   \item [{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
+  \item [{LSP}]\begingroup Lightest Supersymmetric Particle\nomeqref {1.0}
+		\nompageref{10}
   \item [{MIP}]\begingroup Minimally Ionising Particle\nomeqref {3.0}
-		\nompageref{69}
+		\nompageref{68}
   \item [{MPV}]\begingroup Most Probable Value\nomeqref {3.0}
-		\nompageref{69}
+		\nompageref{68}
+  \item [{MSSM}]\begingroup Minimally Supersymmetric Standard Model\nomeqref {1.0}
+		\nompageref{10}
   \item [{MUSIC}]\begingroup MUon Simulation Code\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{MUSUN}]\begingroup MUon Simulations UNderground\nomeqref {2.0}
-		\nompageref{28}
-  \item [{ND}]\begingroup Near Detector\nomeqref {2.0}\nompageref{28}
+		\nompageref{27}
+  \item [{ND}]\begingroup Near Detector\nomeqref {2.0}\nompageref{27}
   \item [{PCB}]\begingroup Printed Circuit Board\nomeqref {2.0}
-		\nompageref{28}
-  \item [{PD}]\begingroup Photon Detector\nomeqref {2.0}\nompageref{28}
+		\nompageref{27}
+  \item [{PD}]\begingroup Photon Detector\nomeqref {2.0}\nompageref{27}
   \item [{PID}]\begingroup Particle IDentification\nomeqref {3.0}
-		\nompageref{69}
+		\nompageref{68}
   \item [{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {5.0}
-		\nompageref{157}
+		\nompageref{156}
   \item [{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {5.0}
-		\nompageref{105}
+		\nompageref{104}
   \item [{ROI}]\begingroup Region Of Interest\nomeqref {3.0}
-		\nompageref{69}
-  \item [{SiPM}]\begingroup Silicon Photo Multiplier\nomeqref {2.0}
-		\nompageref{28}
-  \item [{SK}]\begingroup Super Kamiokande\nomeqref {1.0}
+		\nompageref{68}
+  \item [{SiPM}]\begingroup Silicon PhotoMultiplier\nomeqref {2.0}
+		\nompageref{27}
+  \item [{SK}]\begingroup Super-Kamiokande\nomeqref {1.0}
 		\nompageref{10}
   \item [{SM}]\begingroup Standard Model\nomeqref {1.0}\nompageref{10}
   \item [{SSP}]\begingroup SiPM Signal Processor\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
   \item [{SURF}]\begingroup Sanford Underground Research Facility\nomeqref {2.0}
-		\nompageref{28}
+		\nompageref{27}
+  \item [{SUSY}]\begingroup SUperSymmetrY\nomeqref {1.0}\nompageref{10}
   \item [{TPC}]\begingroup Time Projection Chamber\nomeqref {1.0}
 		\nompageref{10}
 
