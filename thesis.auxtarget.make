@@ -50,6 +50,8 @@
 \newlabel{eq:PMNS_Simp}
 \newlabel{eq:PMNS_Who}
 \newlabel{eq:RParity}
+\newlabel{eq:SigCol}
+\newlabel{eq:SigInd}
 \newlabel{fig:10ktPos}
 \newlabel{fig:35tonCounterLoc}
 \newlabel{fig:35tonSchem}

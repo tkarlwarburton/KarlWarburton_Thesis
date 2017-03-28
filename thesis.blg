@@ -12,13 +12,26 @@ A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
 A level-1 auxiliary file: 35tonData/35tonData.aux
 A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
 A level-1 auxiliary file: Conclusion/Conclusion.aux
-The style file: apsrev.bst
+The style file: apsrev4-1.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10580 items from 5000.
-Database file #1: References/references.bib
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 11697 items from 5000.
+Database file #1: References/references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
 Warning--missing institution in Tzanankos:2011zz
 Warning--missing institution in Hewett:2012ns
 Warning--missing institution in LBNE_CDR1
@@ -53,45 +66,46 @@ Warning--missing institution in LBNE7517
 Warning--missing institution in NDKTFNote
 Warning--missing institution in LBNE3144
 Warning--missing institution in MUSUNLBNE
-You've used 180 entries,
-            3411 wiz_defined-function locations,
-            2330 strings with 40698 characters,
-and the built_in function-call counts, 98792 in all, are:
-= -- 6329
-> -- 2317
-< -- 410
-+ -- 1661
-- -- 590
-* -- 12248
-:= -- 11896
-add.period$ -- 180
-call.type$ -- 180
-change.case$ -- 765
-chr.to.int$ -- 167
-cite$ -- 214
-duplicate$ -- 9221
-empty$ -- 8667
-format.name$ -- 1723
-if$ -- 18807
-int.to.chr$ -- 14
-int.to.str$ -- 181
-missing$ -- 1448
-newline$ -- 555
-num.names$ -- 540
-pop$ -- 2383
+Warning--missing institution in FDTFMarch2017
+You've used 181 entries,
+            5847 wiz_defined-function locations,
+            2936 strings with 50116 characters,
+and the built_in function-call counts, 145653 in all, are:
+= -- 10855
+> -- 2698
+< -- 824
++ -- 978
+- -- 594
+* -- 20951
+:= -- 15716
+add.period$ -- 211
+call.type$ -- 181
+change.case$ -- 769
+chr.to.int$ -- 169
+cite$ -- 216
+duplicate$ -- 13940
+empty$ -- 11134
+format.name$ -- 1740
+if$ -- 28668
+int.to.chr$ -- 13
+int.to.str$ -- 189
+missing$ -- 1719
+newline$ -- 658
+num.names$ -- 543
+pop$ -- 5529
 preamble$ -- 1
-purify$ -- 720
+purify$ -- 905
 quote$ -- 0
-skip$ -- 3863
+skip$ -- 5623
 stack$ -- 0
-substring$ -- 3513
-swap$ -- 6566
-text.length$ -- 231
+substring$ -- 3898
+swap$ -- 12323
+text.length$ -- 238
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 1076
-warning$ -- 34
-while$ -- 477
+top$ -- 8
+type$ -- 2286
+warning$ -- 35
+while$ -- 480
 width$ -- 0
-write$ -- 1815
-(There were 34 warnings)
+write$ -- 1561
+(There were 35 warnings)

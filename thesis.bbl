@@ -1,1038 +1,1616 @@
-\begin{thebibliography}{180}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\expandafter\ifx\csname bibnamefont\endcsname\relax
-  \def\bibnamefont#1{#1}\fi
-\expandafter\ifx\csname bibfnamefont\endcsname\relax
-  \def\bibfnamefont#1{#1}\fi
-\expandafter\ifx\csname citenamefont\endcsname\relax
-  \def\citenamefont#1{#1}\fi
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\providecommand{\bibinfo}[2]{#2}
-\providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem[{\citenamefont{Aad et~al.}(2012)}]{HiggsAtlas}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Aad}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{ATLAS Collaboration}), \bibinfo{journal}{Phys.
-  Lett.} \textbf{\bibinfo{volume}{B716}}, \bibinfo{pages}{1}
-  (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Chatrchyan et~al.}(2012)}]{HiggsCMS}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Chatrchyan}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{CMS Collaboration}),
-  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B716}},
-  \bibinfo{pages}{30} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Abbott et~al.}(2016)}]{LIGO}
-\bibinfo{author}{\bibfnamefont{B.~P.} \bibnamefont{Abbott}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{LIGO Scientific Collaboration
-  and Virgo Collaboration}), \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{061102}
-  (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Fukuda et~al.}(1998)}]{PhysRevLett.81.1562}
-\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Fukuda}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Super-Kamiokande Collaboration}),
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
-  \bibinfo{pages}{1562} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Ahmad et~al.}(2002)}]{PhysRevLett.89.011301}
-\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SNO Collaboration}), \bibinfo{journal}{Phys. Rev.
-  Lett.} \textbf{\bibinfo{volume}{89}}, \bibinfo{pages}{011301}
-  (\bibinfo{year}{2002}).
-
-\bibitem[{\citenamefont{Pauli}(1930)}]{Pauli}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Pauli}},
-  \emph{\bibinfo{title}{{Open letter to the Gauverein meeting in Tubingen}}}
-  (\bibinfo{year}{1930}).
-
-\bibitem[{\citenamefont{Fermi}(1934)}]{Fermi:1934hr}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Fermi}}, \bibinfo{journal}{Z.
-  Phys.} \textbf{\bibinfo{volume}{88}}, \bibinfo{pages}{161}
-  (\bibinfo{year}{1934}).
-
-\bibitem[{\citenamefont{Kofoed-Hansen}(1947)}]{NeutMassLim1}
-\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Kofoed-Hansen}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{71}},
-  \bibinfo{pages}{451} (\bibinfo{year}{1947}).
-
-\bibitem[{\citenamefont{Hanna and Pontecorvo}(1949)}]{NeutMassLim2}
-\bibinfo{author}{\bibfnamefont{G.~C.} \bibnamefont{Hanna}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{75}},
-  \bibinfo{pages}{983} (\bibinfo{year}{1949}).
-
-\bibitem[{\citenamefont{Langer and Moffat}(1952)}]{NeutMassLim3}
-\bibinfo{author}{\bibfnamefont{L.~M.} \bibnamefont{Langer}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{R.~J.~D.} \bibnamefont{Moffat}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{88}},
-  \bibinfo{pages}{689} (\bibinfo{year}{1952}).
-
-\bibitem[{\citenamefont{Cowan et~al.}(1956)}]{Cowan:1992xc}
-\bibinfo{author}{\bibfnamefont{C.~L.} \bibnamefont{Cowan}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Science}
-  \textbf{\bibinfo{volume}{124}}, \bibinfo{pages}{103} (\bibinfo{year}{1956}).
-
-\bibitem[{\citenamefont{Danby et~al.}(1962)}]{PhysRevLett.9.36}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Danby}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{9}},
-  \bibinfo{pages}{36} (\bibinfo{year}{1962}).
-
-\bibitem[{\citenamefont{Davis et~al.}(1968)}]{RayDavis1968}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Davis}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{20}},
-  \bibinfo{pages}{1205} (\bibinfo{year}{1968}).
-
-\bibitem[{\citenamefont{Cleveland et~al.}(1998)}]{RayDavis1988}
-\bibinfo{author}{\bibfnamefont{B.~T.} \bibnamefont{Cleveland}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Astrophys. J.}
-  \textbf{\bibinfo{volume}{496}}, \bibinfo{pages}{505} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Pontecorvo}(1957)}]{Pontecorvo1957}
-\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Pontecorvo}},
-  \bibinfo{journal}{Sov. Phys. JETP} \textbf{\bibinfo{volume}{6}},
-  \bibinfo{pages}{429} (\bibinfo{year}{1957}), \bibinfo{note}{[Zh. Eksp. Teor.
-  Fiz.33,549(1957)]}.
-
-\bibitem[{\citenamefont{Hirata et~al.}(1989)}]{PhysRevLett.63.16}
-\bibinfo{author}{\bibfnamefont{K.~S.} \bibnamefont{Hirata}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{63}}, \bibinfo{pages}{16} (\bibinfo{year}{1989}).
-
-\bibitem[{\citenamefont{Perl et~al.}(1975)}]{PhysRevLett.35.1489}
-\bibinfo{author}{\bibfnamefont{M.~L.} \bibnamefont{Perl}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{35}},
-  \bibinfo{pages}{1489} (\bibinfo{year}{1975}).
-
-\bibitem[{\citenamefont{Kodama et~al.}(2001)}]{Kodama2001218}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Kodama}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Physics Letters B} \textbf{\bibinfo{volume}{504}},
-  \bibinfo{pages}{218 } (\bibinfo{year}{2001}), ISSN \bibinfo{issn}{0370-2693}.
-
-\bibitem[{\citenamefont{Ahmad et~al.}(2001)}]{Ahmad:2001an}
-\bibinfo{author}{\bibfnamefont{Q.~R.} \bibnamefont{Ahmad}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SNO}), \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{87}}, \bibinfo{pages}{071301}
-  (\bibinfo{year}{2001}).
-
-\bibitem[{\citenamefont{Maki et~al.}(1962)}]{PMNS}
-\bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{Maki}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Progress of Theoretical Physics}
-  \textbf{\bibinfo{volume}{28}}, \bibinfo{pages}{870} (\bibinfo{year}{1962}).
-
-\bibitem[{\citenamefont{Andringa et~al.}(2016)}]{SNO+}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Andringa}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SNO+ Collaboration}), \bibinfo{journal}{Adv. High
-  Energy Phys.} \textbf{\bibinfo{volume}{2016}}, \bibinfo{pages}{6194250}
-  (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Arnold et~al.}(2010)}]{SuperNEMO}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Arnold}} \bibnamefont{et~al.},
-  \bibinfo{journal}{The European Physical Journal C}
-  \textbf{\bibinfo{volume}{70}}, \bibinfo{pages}{927} (\bibinfo{year}{2010}),
-  ISSN \bibinfo{issn}{1434-6052}.
-
-\bibitem[{\citenamefont{Michael et~al.}(2008)}]{2008NIMPA.596..190M}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Michael}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{{Minos Collaboration}}), \bibinfo{journal}{{Nuclear
-  Instruments and Methods in Physics Research A}}
-  \textbf{\bibinfo{volume}{596}}, \bibinfo{pages}{190} (\bibinfo{year}{2008}).
-
-\bibitem[{\citenamefont{Tzanankos et~al.}(2011)}]{Tzanankos:2011zz}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Tzanankos}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{MINOS+ Collaboration}),
-  \bibinfo{type}{Tech. Rep.} (\bibinfo{year}{2011}).
-
-\bibitem[{\citenamefont{Nunokawa et~al.}(2008)}]{Nunokawa:2007qh}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Nunokawa}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Prog. Part. Nucl. Phys.}
-  \textbf{\bibinfo{volume}{60}}, \bibinfo{pages}{338} (\bibinfo{year}{2008}).
-
-\bibitem[{\citenamefont{Patrignani et~al.}(2016)}]{PDGReview}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Patrignani}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{Particle Data Group}),
-  \bibinfo{journal}{Chin. Phys.} \textbf{\bibinfo{volume}{C40}},
-  \bibinfo{pages}{100001} (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Cabibbo}(1963)}]{PhysRevLett.10.531}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Cabibbo}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{10}},
-  \bibinfo{pages}{531} (\bibinfo{year}{1963}).
-
-\bibitem[{\citenamefont{Kobayashi and Maskawa}(1973)}]{Kobayashi:1973fv}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Kobayashi}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Maskawa}},
-  \bibinfo{journal}{Prog. Theor. Phys.} \textbf{\bibinfo{volume}{49}},
-  \bibinfo{pages}{652} (\bibinfo{year}{1973}).
-
-\bibitem[{\citenamefont{Wolfenstein}(1978)}]{PhysRevD.17.2369}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Wolfenstein}},
-  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{17}},
-  \bibinfo{pages}{2369} (\bibinfo{year}{1978}).
-
-\bibitem[{\citenamefont{Mikheev and Smirnov}(1985)}]{Mikheev:1986gs}
-\bibinfo{author}{\bibfnamefont{S.~P.} \bibnamefont{Mikheev}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~{\relax Yu}.} \bibnamefont{Smirnov}},
-  \bibinfo{journal}{Sov. J. Nucl. Phys.} \textbf{\bibinfo{volume}{42}},
-  \bibinfo{pages}{913} (\bibinfo{year}{1985}), \bibinfo{note}{[Yad.
-  Fiz.42,1441(1985)]}.
-
-\bibitem[{\citenamefont{Fogli et~al.}(2004)}]{Fogli2004149}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Fogli}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Physics Letters B} \textbf{\bibinfo{volume}{583}},
-  \bibinfo{pages}{149 } (\bibinfo{year}{2004}).
-
-\bibitem[{\citenamefont{{Hewett, J. L. and others}}(2012)}]{Hewett:2012ns}
-\bibinfo{author}{\bibnamefont{{Hewett, J. L. and others}}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{ANL-HEP-TR-12-25, SLAC-R-991,
-  FERMILAB-CONF-12-879-PPD} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Esteban et~al.}(2017)}]{NuFit2016}
-\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Esteban}} \bibnamefont{et~al.},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{01}}, \bibinfo{pages}{087}
-  (\bibinfo{year}{2017}).
-
-\bibitem[{\citenamefont{Ade et~al.}(2016)}]{Planck}
-\bibinfo{author}{\bibfnamefont{P.~A.~R.} \bibnamefont{Ade}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{Planck}),
-  \bibinfo{journal}{Astron. Astrophys.} \textbf{\bibinfo{volume}{594}},
-  \bibinfo{pages}{A13} (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Mertens}(2015)}]{KATRIN}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Mertens}},
-  \bibinfo{journal}{Physics Procedia} \textbf{\bibinfo{volume}{61}},
-  \bibinfo{pages}{267 } (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Schael et~al.}(2006)}]{LEP}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Schael}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{SLD Electroweak Group, DELPHI, ALEPH, SLD, SLD Heavy
-  Flavour Group, OPAL, LEP Electroweak Working Group, L3}),
-  \bibinfo{journal}{Phys. Rept.} \textbf{\bibinfo{volume}{427}},
-  \bibinfo{pages}{257} (\bibinfo{year}{2006}).
-
-\bibitem[{\citenamefont{Athanassopoulos et~al.}(1998)}]{LSND1}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Athanassopoulos}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{LSND Collaboration}),
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{81}},
-  \bibinfo{pages}{1774} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Aguilar et~al.}(2001)}]{LSND2}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Aguilar}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{LSND Collaboration}), \bibinfo{journal}{Phys. Rev.
-  D} \textbf{\bibinfo{volume}{64}}, \bibinfo{pages}{112007}
-  (\bibinfo{year}{2001}).
-
-\bibitem[{\citenamefont{Aguilar-Arevalo et~al.}(2013)}]{MiniBooNE}
-\bibinfo{author}{\bibfnamefont{A.~A.} \bibnamefont{Aguilar-Arevalo}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{MiniBooNE Collaboration}),
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}},
-  \bibinfo{pages}{161801} (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Marciano and Senjanovi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}(1982)}]{PhysRevD.25.3092}
-\bibinfo{author}{\bibfnamefont{W.~J.} \bibnamefont{Marciano}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Senjanovi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}}, \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{25}},
-  \bibinfo{pages}{3092} (\bibinfo{year}{1982}).
-
-\bibitem[{\citenamefont{Georgi and Glashow}(1974)}]{PhysRevLett.32.438}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Georgi}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{S.~L.} \bibnamefont{Glashow}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{32}},
-  \bibinfo{pages}{438} (\bibinfo{year}{1974}).
-
-\bibitem[{\citenamefont{Weyl}(1929)}]{Weyl1929}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Weyl}},
-  \bibinfo{journal}{Zeitschrift f{\"u}r Physik} \textbf{\bibinfo{volume}{56}},
-  \bibinfo{pages}{330} (\bibinfo{year}{1929}).
-
-\bibitem[{\citenamefont{Senjanovic}(2010)}]{Senjanovic:2009kr}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Senjanovic}},
-  \bibinfo{journal}{AIP Conf. Proc.} \textbf{\bibinfo{volume}{1200}},
-  \bibinfo{pages}{131} (\bibinfo{year}{2010}).
-
-\bibitem[{\citenamefont{Foot et~al.}(1989)}]{Foot1989}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Foot}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Zeitschrift f{\"u}r Physik C Particles and Fields}
-  \textbf{\bibinfo{volume}{44}}, \bibinfo{pages}{441} (\bibinfo{year}{1989}).
-
-\bibitem[{\citenamefont{Dorsner and Fileviez~Perez}(2005)}]{Dorsner:2005fq}
-\bibinfo{author}{\bibfnamefont{I.}~\bibnamefont{Dorsner}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Fileviez~Perez}},
-  \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B723}},
-  \bibinfo{pages}{53} (\bibinfo{year}{2005}), \eprint{hep-ph/0504276}.
-
-\bibitem[{\citenamefont{Martin}(1997)}]{Martin:1997ns}
-\bibinfo{author}{\bibfnamefont{S.~P.} \bibnamefont{Martin}}
-  (\bibinfo{year}{1997}), \bibinfo{note}{[Adv. Ser. Direct. High Energy
-  Phys.18,1(1998)]}, \eprint{arXiv: hep-ph/9709356}.
-
-\bibitem[{\citenamefont{Castano et~al.}(1994)}]{Castano:1993ri}
-\bibinfo{author}{\bibfnamefont{D.~J.} \bibnamefont{Castano}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev.}
-  \textbf{\bibinfo{volume}{D49}}, \bibinfo{pages}{4882} (\bibinfo{year}{1994}),
-  \eprint{hep-ph/9308335}.
-
-\bibitem[{\citenamefont{Gomez}(1999)}]{Gomez:1999kv}
-\bibinfo{author}{\bibfnamefont{M.~E.} \bibnamefont{Gomez}},
-  \bibinfo{journal}{PoS} \textbf{\bibinfo{volume}{trieste99}},
-  \bibinfo{pages}{006} (\bibinfo{year}{1999}), \eprint{hep-ph/9908419}.
-
-\bibitem[{\citenamefont{Farrar and Fayet}(1978)}]{FARRAR1978575}
-\bibinfo{author}{\bibfnamefont{G.~R.} \bibnamefont{Farrar}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Fayet}},
-  \bibinfo{journal}{Physics Letters B} \textbf{\bibinfo{volume}{76}},
-  \bibinfo{pages}{575 } (\bibinfo{year}{1978}), ISSN \bibinfo{issn}{0370-2693}.
-
-\bibitem[{\citenamefont{Vissani}(1995)}]{Vissani:1995hp}
-\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Vissani}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D52}},
-  \bibinfo{pages}{4245} (\bibinfo{year}{1995}).
-
-\bibitem[{\citenamefont{Severson}(2015)}]{Severson:2015dta}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Severson}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D92}},
-  \bibinfo{pages}{095026} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Battistoni et~al.}(1983)}]{BATTISTONI1983454}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Battistoni}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Physics Letters B}
-  \textbf{\bibinfo{volume}{133}}, \bibinfo{pages}{454 } (\bibinfo{year}{1983}).
-
-\bibitem[{\citenamefont{Berger et~al.}(1991)}]{berger:in2p3-00015565}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Berger}} \bibnamefont{et~al.},
-  \bibinfo{journal}{{Physics Letters B}} \textbf{\bibinfo{volume}{269}},
-  \bibinfo{pages}{227} (\bibinfo{year}{1991}).
-
-\bibitem[{\citenamefont{Goodman}(1999)}]{SoudanLim}
-\bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{Goodman}}
-  (\bibinfo{collaboration}{Soudan-2}), in
-  \emph{\bibinfo{booktitle}{{Proceedings of the 26th International Cosmic Ray
-  Conference. August 17-25, 1999. Salt Lake City, Utah, USA}}}
-  (\bibinfo{year}{1999}), p. \bibinfo{pages}{364}.
-
-\bibitem[{\citenamefont{Gajewski et~al.}(1990)}]{Gajewski:1989gh}
-\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Gajewski}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev.}
-  \textbf{\bibinfo{volume}{D42}}, \bibinfo{pages}{2974} (\bibinfo{year}{1990}).
-
-\bibitem[{\citenamefont{Abe et~al.}(2017)}]{PhysRevD.95.012004}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Abe}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Super-Kamiokande Collaboration}),
-  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{95}},
-  \bibinfo{pages}{012004} (\bibinfo{year}{2017}).
-
-\bibitem[{\citenamefont{Abe et~al.}(2011)}]{Abe:2011ts}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Abe}} \bibnamefont{et~al.},
-  \emph{\bibinfo{title}{{Letter of Intent: The Hyper-Kamiokande Experiment ---
-  Detector Design and Physics Potential ---}}} (\bibinfo{year}{2011}),
-  \bibinfo{note}{arXiv:1109.3262}.
-
-\bibitem[{\citenamefont{Ritz et~al.}(2014)}]{P5Doc}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Ritz}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{HEPAP Subcommittee}),
-  \emph{\bibinfo{title}{{Building for Discovery: Strategic Plan for U.S.
-  Particle Physics in the Global Context}}} (\bibinfo{year}{2014}),
-  \bibinfo{note}{{INSPIRE-1299183}}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{a}})}]{LBNE_CDR1}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-5235} (\bibinfo{year}{2012}{\natexlab{a}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5235&filename=CDR-intro-volume-2012nov20.pdf&version=9}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{b}})}]{LBNE_CDR2}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-4317} (\bibinfo{year}{2012}{\natexlab{b}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4317&filename=CDR-beam-volume-101812.pdf&version=25}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{c}})}]{LBNE_CDR3}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-4724} (\bibinfo{year}{2012}{\natexlab{c}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4724&filename=CDR-NDC-volume-final-101912.pdf&version=12}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{d}})}]{LBNE_CDR4}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-4892} (\bibinfo{year}{2012}{\natexlab{d}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4892&filename=CDR-LArFD-volume-final-2012Oct22.pdf&version=12}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{e}})}]{LBNE_CDR5}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-4623} (\bibinfo{year}{2012}{\natexlab{e}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4623&filename=CDR-NSCF-volume-final-2012Oct10.pdf&version=9}.
-
-\bibitem[{\citenamefont{{LBNE Collaboration}}(2012{\natexlab{f}})}]{LBNE_CDR6}
-\bibinfo{author}{\bibnamefont{{LBNE Collaboration}}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-5017} (\bibinfo{year}{2012}{\natexlab{f}}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5017&filename=CDR-FSCF-volume-final-2012Oct10.pdf&version=5}.
-
-\bibitem[{\citenamefont{Stahl et~al.}(2012)}]{LBNO_EOI}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Stahl}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{CERN-SPSC-2012-021, SPSC-EOI-007}
-  (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Acciarri et~al.}(2016{\natexlab{a}})}]{DUNECDR_V4}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Acciarri}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DUNE Collaboration}),
-  \emph{\bibinfo{title}{{Long-Baseline Neutrino Facility (LBNF) and Deep
-  Underground Neutrino Experiment (DUNE), Volume 4: The DUNE Detectors at
-  LBNF}}} (\bibinfo{year}{2016}{\natexlab{a}}), \bibinfo{note}{arXiv:
-  1601.02984}.
-
-\bibitem[{\citenamefont{Strait et~al.}(2016)}]{DUNECDR_V3}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Strait}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DUNE Collaboration}),
-  \emph{\bibinfo{title}{{Long-Baseline Neutrino Facility (LBNF) and Deep
-  Underground Neutrino Experiment (DUNE), Volume 3: Long-Baseline Neutrino
-  Facility for DUNE}}} (\bibinfo{year}{2016}), \bibinfo{note}{arXiv:
-  1601.05823}.
-
-\bibitem[{\citenamefont{Holmes et~al.}({2015})}]{PIP-II}
-\bibinfo{author}{\bibfnamefont{S.~D.} \bibnamefont{Holmes}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{{Proc. of IPAC 2015}} pp.
-  \bibinfo{pages}{3982--3985} (\bibinfo{year}{{2015}}).
-
-\bibitem[{\citenamefont{Acciarri et~al.}(2016{\natexlab{b}})}]{DUNECDR_V1}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Acciarri}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DUNE Collaboration}),
-  \emph{\bibinfo{title}{{Long-Baseline Neutrino Facility (LBNF) and Deep
-  Underground Neutrino Experiment (DUNE), Volume 1: The LBNF and DUNE
-  Projects}}} (\bibinfo{year}{2016}{\natexlab{b}}), \bibinfo{note}{arXiv:
-  1601.05471}.
-
-\bibitem[{\citenamefont{Acciarri et~al.}(2015)}]{DUNECDR_V2}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Acciarri}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{DUNE Collaboration}),
-  \emph{\bibinfo{title}{{Long-Baseline Neutrino Facility (LBNF) and Deep
-  Underground Neutrino Experiment (DUNE), Volume 2: The Physics Program for
-  DUNE at LBNF}}} (\bibinfo{year}{2015}), \bibinfo{note}{arXiv: 1512.06148}.
-
-\bibitem[{\citenamefont{{DUNE Collaboration}}()}]{DUNEAtWork}
-\bibinfo{author}{\bibnamefont{{DUNE Collaboration}}},
-  \emph{\bibinfo{title}{{Proposals and Design Reports}}},
-  \bibinfo{note}{[online]
-  \url{https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx}},
-  \urlprefix\url{https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx}.
-
-\bibitem[{\citenamefont{Worcester}(2017{\natexlab{a}})}]{Elizabeth_01_17}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Worcester}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-2329}
-  (\bibinfo{year}{2017}{\natexlab{a}}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2329}.
-
-\bibitem[{\citenamefont{Bass et~al.}(2015)}]{Bass:2013vcg}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Bass}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D91}},
-  \bibinfo{pages}{052015} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Diwan}(2004)}]{Diwan:2004bt}
-\bibinfo{author}{\bibfnamefont{M.~V.} \bibnamefont{Diwan}},
-  \bibinfo{journal}{Frascati Phys. Ser.} \textbf{\bibinfo{volume}{35}},
-  \bibinfo{pages}{89} (\bibinfo{year}{2004}).
-
-\bibitem[{\citenamefont{Worcester}(2017{\natexlab{b}})}]{DUNE2335}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Worcester}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-2335}
-  (\bibinfo{year}{2017}{\natexlab{b}}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2335}.
-
-\bibitem[{\citenamefont{Worcester}(2017{\natexlab{c}})}]{DUNE2401}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Worcester}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-2401}
-  (\bibinfo{year}{2017}{\natexlab{c}}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2401}.
-
-\bibitem[{\citenamefont{Worcester}(2017{\natexlab{d}})}]{DUNE2332}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Worcester}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-2332}
-  (\bibinfo{year}{2017}{\natexlab{d}}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2332}.
-
-\bibitem[{\citenamefont{Worcester}(2017{\natexlab{e}})}]{DUNE2377}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Worcester}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-2377}
-  (\bibinfo{year}{2017}{\natexlab{e}}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2377}.
-
-\bibitem[{\citenamefont{Gonzalez-Garcia et~al.}(2014)}]{NuFit2014}
-\bibinfo{author}{\bibfnamefont{M.~C.} \bibnamefont{Gonzalez-Garcia}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{11}},
-  \bibinfo{pages}{052} (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Beringer et~al.}(2012)}]{PDG2012}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Beringer}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Particle Data Group}), \bibinfo{journal}{Phys. Rev.
-  D} \textbf{\bibinfo{volume}{86}}, \bibinfo{pages}{010001}
-  (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Nishino et~al.}(2012)}]{Nishino:2012bnw}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Nishino}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Super-Kamiokande Collaboration}),
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D85}},
-  \bibinfo{pages}{112001} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Bueno et~al.}(2007)}]{Bueno}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bueno}} \bibnamefont{et~al.},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{04}}, \bibinfo{pages}{041}
-  (\bibinfo{year}{2007}).
-
-\bibitem[{\citenamefont{Klinger et~al.}(2015)}]{Klinger:2015kva}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Klinger}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B746}},
-  \bibinfo{pages}{44} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Antonello et~al.}(2013)}]{PMTrack}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Antonello}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Adv. High Energy Phys.}
-  \textbf{\bibinfo{volume}{2013}}, \bibinfo{pages}{260820}
-  (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Lin and Goodman}(2016)}]{MauryLifetime}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Lin}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Goodman}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-679}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=679}.
-
-\bibitem[{\citenamefont{Adams et~al.}(2013)}]{Adams:2013qkq}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Adams}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{LBNE Collaboration}), \emph{\bibinfo{title}{{The
-  Long-Baseline Neutrino Experiment: Exploring Fundamental Symmetries of the
-  Universe}}} (\bibinfo{year}{2013}), \bibinfo{note}{arXiv: 1307.7335}.
-
-\bibitem[{\citenamefont{Blake}(2014)}]{LBNE8836}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Blake}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-8836} (\bibinfo{year}{2014}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8836&filename=AtmosphericNeutrinos_20140402.pdf&version=1}.
-
-\bibitem[{\citenamefont{Scholberg}(2012)}]{KScholSND}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Scholberg}},
-  \bibinfo{journal}{Annual Review of Nuclear and Particle Science}
-  \textbf{\bibinfo{volume}{62}}, \bibinfo{pages}{81} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Laha and Beacom}(2014)}]{Laha:2013hva}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Laha}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Beacom}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D89}},
-  \bibinfo{pages}{063007} (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Bionta et~al.}(1987)}]{PhysRevLett.58.1494}
-\bibinfo{author}{\bibfnamefont{R.~M.} \bibnamefont{Bionta}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. Lett.}
-  \textbf{\bibinfo{volume}{58}}, \bibinfo{pages}{1494} (\bibinfo{year}{1987}).
-
-\bibitem[{\citenamefont{Hirata et~al.}(1987)}]{PhysRevLett.58.1490}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Hirata}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{58}},
-  \bibinfo{pages}{1490} (\bibinfo{year}{1987}).
-
-\bibitem[{\citenamefont{Aartsen et~al.}(2013)}]{Aartsen:2012kia}
-\bibinfo{author}{\bibfnamefont{M.~G.} \bibnamefont{Aartsen}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{IceCube}),
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{110}},
-  \bibinfo{pages}{131302} (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Choi et~al.}(2015)}]{Choi:2015ara}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Choi}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{Super-Kamiokande}), \bibinfo{journal}{Phys. Rev.
-  Lett.} \textbf{\bibinfo{volume}{114}}, \bibinfo{pages}{141301}
-  (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Beacom}(2010)}]{Beacom:2010kk}
-\bibinfo{author}{\bibfnamefont{J.~F.} \bibnamefont{Beacom}},
-  \bibinfo{journal}{Ann. Rev. Nucl. Part. Sci.} \textbf{\bibinfo{volume}{60}},
-  \bibinfo{pages}{439} (\bibinfo{year}{2010}).
-
-\bibitem[{\citenamefont{Caballero et~al.}(2012)}]{Caballero:2011dw}
-\bibinfo{author}{\bibfnamefont{O.~L.} \bibnamefont{Caballero}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Astrophys. J.}
-  \textbf{\bibinfo{volume}{745}}, \bibinfo{pages}{170} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Caballero et~al.}(2009)}]{Caballero:2009ww}
-\bibinfo{author}{\bibfnamefont{O.~L.} \bibnamefont{Caballero}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev.}
-  \textbf{\bibinfo{volume}{D80}}, \bibinfo{pages}{123004}
-  (\bibinfo{year}{2009}).
-
-\bibitem[{\citenamefont{Thomson}(2015)}]{MarkReviewJuly2015}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Thomson}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-11100} (\bibinfo{year}{2015}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=11100&filename=P03-Thomson-DUNE-CollaborationStrategy.pdf&asof=2015-6-2}.
-
-\bibitem[{\citenamefont{Adamowski et~al.}(2014)}]{LAPD}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Adamowski}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{9}},
-  \bibinfo{pages}{P07005} (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Montanari et~al.}(2015)}]{35tonMontanari}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Montanari}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Procedia}
-  \textbf{\bibinfo{volume}{67}}, \bibinfo{pages}{308} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Hahn et~al.}(2016)}]{35tonHahn}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hahn}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{LBNE}), in \emph{\bibinfo{booktitle}{{Proceedings,
-  21st Symposium on Room-Temperature Semiconductor X-ray and Gamma-ray
-  Detectors (RTSD 2014): Seattle, WA, USA, November 8-15, 2014}}}
-  (\bibinfo{year}{2016}), p. \bibinfo{pages}{7431158}.
-
-\bibitem[{\citenamefont{Church}(2013)}]{Church_LArSoft}
-\bibinfo{author}{\bibfnamefont{E.~D.} \bibnamefont{Church}},
-  \emph{\bibinfo{title}{{LArSoft: A Software Package for Liquid Argon Time
-  Projection Drift Chambers}}} (\bibinfo{year}{2013}), \eprint{arXiv:
-  1311.6774}.
-
-\bibitem[{\citenamefont{{The LArSoft collabortion}}(2017)}]{LArSoftOrg}
-\bibinfo{author}{\bibnamefont{{The LArSoft collabortion}}},
-  \emph{\bibinfo{title}{{Software for LArTPCs}}} (\bibinfo{year}{2017}),
-  \urlprefix\url{http://larsoft.org}.
-
-\bibitem[{\citenamefont{Brun and Rademakers}(1997)}]{ROOT}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Brun}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Rademakers}},
-  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A389}},
-  \bibinfo{pages}{81} (\bibinfo{year}{1997}).
-
-\bibitem[{\citenamefont{Agostinelli et~al.}(2003)}]{GEANT4}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Agostinelli}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Nuclear Instruments and Methods in
-  Physics Research Section A: Accelerators, Spectrometers, Detectors and
-  Associated Equipment} \textbf{\bibinfo{volume}{506}}, \bibinfo{pages}{250 }
-  (\bibinfo{year}{2003}).
-
-\bibitem[{\citenamefont{Andreopoulos et~al.}(2010)}]{GENIE}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Andreopoulos}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Nuclear Instruments and Methods in
-  Physics Research Section A: Accelerators, Spectrometers, Detectors and
-  Associated Equipment} \textbf{\bibinfo{volume}{614}}, \bibinfo{pages}{87 }
-  (\bibinfo{year}{2010}).
-
-\bibitem[{\citenamefont{Casper}(2002)}]{Nuance}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Casper}},
-  \bibinfo{journal}{Nucl. Phys. Proc. Suppl.} \textbf{\bibinfo{volume}{112}},
-  \bibinfo{pages}{161} (\bibinfo{year}{2002}).
-
-\bibitem[{\citenamefont{Hagman et~al.}(2012)}]{CRY}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Hagman}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{UCRL-TM-229453}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf}.
-
-\bibitem[{\citenamefont{Hagmann et~al.}(2012)}]{CRY2}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Hagmann}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{UCRL-TM-229452}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry_physics.pdf}.
-
-\bibitem[{\citenamefont{Heck et~al.}(1998)}]{CORSIKA}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Heck}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Kudryavtsev}(2009)}]{MUSUN}
-\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Kudryavtsev}},
-  \bibinfo{journal}{Computer Physics Communications}
-  \textbf{\bibinfo{volume}{180}}, \bibinfo{pages}{339 } (\bibinfo{year}{2009}).
-
-\bibitem[{\citenamefont{Kudryavtsev et~al.}(2003)\citenamefont{Kudryavtsev,
-  Spooner, and McMillan}}]{MUSUN2}
-\bibinfo{author}{\bibfnamefont{V.~A.} \bibnamefont{Kudryavtsev}},
-  \bibinfo{author}{\bibfnamefont{N.~J.~C.} \bibnamefont{Spooner}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{J.~E.}
-  \bibnamefont{McMillan}}, \bibinfo{journal}{Nucl. Instrum. Meth.}
-  \textbf{\bibinfo{volume}{A505}}, \bibinfo{pages}{688} (\bibinfo{year}{2003}).
-
-\bibitem[{\citenamefont{Antonioli et~al.}(1997)}]{MUSIC}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Antonioli}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Astropart. Phys.}
-  \textbf{\bibinfo{volume}{7}}, \bibinfo{pages}{357} (\bibinfo{year}{1997}).
-
-\bibitem[{\citenamefont{Kudryavtsev et~al.}(1999)}]{MUSIC2}
-\bibinfo{author}{\bibfnamefont{V.~A.} \bibnamefont{Kudryavtsev}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Lett.}
-  \textbf{\bibinfo{volume}{B471}}, \bibinfo{pages}{251} (\bibinfo{year}{1999}).
-
-\bibitem[{\citenamefont{Alion}(2014)}]{35tonGeomPage}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Alion}},
-  \emph{\bibinfo{title}{{LBNE Geometries}}} (\bibinfo{year}{2014}),
-  \urlprefix\url{https://cdcvs.fnal.gov/redmine/projects/lbnecode/wiki/LBNE_Geometries}.
-
-\bibitem[{\citenamefont{Asaadi et~al.}(2016)}]{LArSoftRecoNote}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Asaadi}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-1689}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689}.
-
-\bibitem[{\citenamefont{Harris and Stephens}(1988)}]{HarrisTrans}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Harris}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Stephens}}, in
-  \emph{\bibinfo{booktitle}{In Proc. of Fourth Alvey Vision Conference}}
-  (\bibinfo{year}{1988}), pp. \bibinfo{pages}{147--151}.
-
-\bibitem[{\citenamefont{Hough}(1959)}]{HoughTrans}
-\bibinfo{author}{\bibfnamefont{P.~V.~C.} \bibnamefont{Hough}}, in
-  \emph{\bibinfo{booktitle}{{Proceedings, 2nd International Conference on
-  High-Energy Accelerators and Instrumentation, HEACC 1959: CERN, Geneva,
-  Switzerland, September 14-19, 1959}}} (\bibinfo{year}{1959}), vol.
-  \bibinfo{volume}{C590914}, pp. \bibinfo{pages}{554--558}.
-
-\bibitem[{\citenamefont{Marshall and Thomson}(2015)}]{Pandora}
-\bibinfo{author}{\bibfnamefont{J.~S.} \bibnamefont{Marshall}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.~A.} \bibnamefont{Thomson}},
-  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{C75}},
-  \bibinfo{pages}{439} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Wallbank}(2016)}]{EMShower}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Wallbank}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-1369}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369}.
-
-\bibitem[{\citenamefont{Sulej and Stefan}()}]{PMTrackJanCollab}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Sulej}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Stefan}},
-  \emph{\bibinfo{title}{{Reconstruction: Projection Matching}}},
-  \bibinfo{note}{{Reconstruction working group meeting (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=62&sessionId=40&resId=1&materialId=slides&confId=10276}.
-
-\bibitem[{\citenamefont{Birks}(1951)}]{BirksModel}
-\bibinfo{author}{\bibfnamefont{J.~B.} \bibnamefont{Birks}},
-  \bibinfo{journal}{Proc. Phys. Soc.} \textbf{\bibinfo{volume}{A64}},
-  \bibinfo{pages}{874} (\bibinfo{year}{1951}).
-
-\bibitem[{\citenamefont{Acciarri et~al.}(2013)}]{PIDA_Paper}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Acciarri}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{ArgoNeuT Collaboration}), \bibinfo{journal}{JINST}
-  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{P08005} (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Thomas and Imel}(1987)}]{BoxModel}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Thomas}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{D.~A.} \bibnamefont{Imel}},
-  \bibinfo{journal}{Phys. Rev. A} \textbf{\bibinfo{volume}{36}},
-  \bibinfo{pages}{614} (\bibinfo{year}{1987}).
-
-\bibitem[{\citenamefont{Blatter et~al.}(2014)}]{BlatterEField}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Blatter}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Journal of Instrumentation} \textbf{\bibinfo{volume}{9}},
-  \bibinfo{pages}{P04006} (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Delaquis et~al.}(2013)}]{BERNcam}
-\bibinfo{author}{\bibfnamefont{S.~C.} \bibnamefont{Delaquis}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{8}},
-  \bibinfo{pages}{T12001} (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Mavrokoridis et~al.}(2014)}]{Liverpool}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Mavrokoridis}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{9}},
-  \bibinfo{pages}{P02006} (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Erdal et~al.}(2015)}]{Weizmannbubbles}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Erdal}} \bibnamefont{et~al.},
-  \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{10}},
-  \bibinfo{pages}{P11002} (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{McConkey et~al.}(2017)}]{CameraPaper}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{McConkey}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{12}},
-  \bibinfo{pages}{P03014} (\bibinfo{year}{2017}).
-
-\bibitem[{\citenamefont{Ghibaudo and Balestra}(1997)}]{thermalnoise1}
-\bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{Ghibaudo}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Balestra}},
-  \bibinfo{journal}{Microelectronics Reliability}
-  \textbf{\bibinfo{volume}{37}}, \bibinfo{pages}{1353 } (\bibinfo{year}{1997}).
-
-\bibitem[{\citenamefont{{Zhao} and {Liu}}(2013)}]{thermalnoise2}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{{Zhao}}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Liu}}},
-  \bibinfo{journal}{Cryogenics} \textbf{\bibinfo{volume}{55}},
-  \bibinfo{pages}{79} (\bibinfo{year}{2013}).
-
-\bibitem[{\citenamefont{Antonello et~al.}(2015)}]{SBNProposal}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Antonello}}
-  \bibnamefont{et~al.} (\bibinfo{collaboration}{LAr1-ND, ICARUS-WA104 and
-  MicroBooNE Collaborations}), \emph{\bibinfo{title}{{A Proposal for a Three
-  Detector Short-Baseline Neutrino Oscillation Program in the Fermilab Booster
-  Neutrino Beam}}} (\bibinfo{year}{2015}), \eprint{arXiv:1503.01520}.
-
-\bibitem[{\citenamefont{Bethe}(1930)}]{Bethe}
-\bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Bethe}},
-  \bibinfo{journal}{Annalen der Physik} \textbf{\bibinfo{volume}{397}},
-  \bibinfo{pages}{325} (\bibinfo{year}{1930}).
-
-\bibitem[{\citenamefont{Bloch}(1933)}]{Bloch}
-\bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Bloch}},
-  \bibinfo{journal}{Annalen der Physik} \textbf{\bibinfo{volume}{408}},
-  \bibinfo{pages}{285} (\bibinfo{year}{1933}).
-
-\bibitem[{\citenamefont{Qian}()}]{XinSeptFNAL}
-\bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Qian}},
-  \emph{\bibinfo{title}{{A Four-Plane proposal for Single-Phase LArTPC}}},
-  \bibinfo{note}{{Far Detector Sim/Reco working group meeting (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=78&sessionId=20&resId=0&materialId=slides&confId=10613}.
-
-\bibitem[{\citenamefont{Insler}()}]{InslerStuckCode}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Insler}},
-  \emph{\bibinfo{title}{{Module to unstick ADC codes}}}, \bibinfo{note}{{35 ton
-  working group meeting (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}.
-
-\bibitem[{\citenamefont{{\relax MicroBooNE Collaboration}}(2016)}]{uBooNENoise}
-\bibinfo{author}{\bibnamefont{{\relax MicroBooNE Collaboration}}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{MICROBOONE-NOTE-1016-PUB}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}.
-
-\bibitem[{\citenamefont{Cooley and Turkey}(1965)}]{CoTuFFT}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Cooley}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Turkey}},
-  \bibinfo{journal}{Math. Comp.} \textbf{\bibinfo{volume}{19}},
-  \bibinfo{pages}{297} (\bibinfo{year}{1965}).
-
-\bibitem[{\citenamefont{Wiener}(1942)}]{WienerFilter}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Wiener}},
-  \emph{\bibinfo{title}{Extrapolation, Interpolation, and Smoothing of
-  Stationary Time Series}} (\bibinfo{publisher}{[Cambridge]: Technology Press
-  of the Massachusetts Institute of Technology.}, \bibinfo{year}{1942}).
-
-\bibitem[{\citenamefont{Johnson et~al.}(2016)}]{35tonNoiseMeeting}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Johnson}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-1704}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704}.
-
-\bibitem[{\citenamefont{Bagby et~al.}(2016)}]{35tonNoiseDoc}
-\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Bagby}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{DUNE-doc-1834}
-  (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1834}.
-
-\bibitem[{\citenamefont{Yang}({\natexlab{a}})}]{TingjunClustering}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yang}},
-  \emph{\bibinfo{title}{Update on reconstruction of 35t data}},
-  \bibinfo{note}{{35 ton working group meeting (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}.
-
-\bibitem[{\citenamefont{Torr and Zisserman}(2000)}]{MLESAC}
-\bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Torr}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Zisserman}},
-  \bibinfo{journal}{Computer Vision and Image Understanding}
-  \textbf{\bibinfo{volume}{78}}, \bibinfo{pages}{138} (\bibinfo{year}{2000}).
-
-\bibitem[{\citenamefont{Thiesse}()}]{MattMLESAC}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Thiesse}},
-  \emph{\bibinfo{title}{Hit reconstruction and purity}}, \bibinfo{note}{{35 ton
-  working group meeting (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12859}.
-
-\bibitem[{\citenamefont{Anderson et~al.}(2012)}]{ArgoNeuT}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Anderson}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{JINST} \textbf{\bibinfo{volume}{7}},
-  \bibinfo{pages}{P10019} (\bibinfo{year}{2012}).
-
-\bibitem[{\citenamefont{Yang}({\natexlab{b}})}]{TingjunLifetime}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yang}},
-  \emph{\bibinfo{title}{Update on 35 ton analysis}}, \bibinfo{note}{35 ton
-  working group meeting (2016)},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}.
-
-\bibitem[{\citenamefont{Derenzo et~al.}(1974)}]{1974NucIM.122..319D}
-\bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Derenzo}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Nuclear Instruments and Methods}
-  \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{319} (\bibinfo{year}{1974}).
-
-\bibitem[{\citenamefont{Derenzo}(1974)}]{Derenzo}
-\bibinfo{author}{\bibfnamefont{S.~E.} \bibnamefont{Derenzo}},
-  \emph{\bibinfo{title}{{LBL Physics Note No. 786: Electron diffusion and
-  positive ion charge retention in liquid-filled high-resolution multi- strip
-  ionization-mode chambers.}}} (\bibinfo{year}{1974}),
-  \bibinfo{note}{unpublished}.
-
-\bibitem[{\citenamefont{Shibamura et~al.}(1979)}]{PhysRevA.20.2547}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Shibamura}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. A}
-  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{2547} (\bibinfo{year}{1979}).
-
-\bibitem[{\citenamefont{Atrazhev and Timoshkin}(1998)}]{Atrazhev-Timoshkin}
-\bibinfo{author}{\bibfnamefont{V.~M.} \bibnamefont{Atrazhev}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{I.~V.} \bibnamefont{Timoshkin}},
-  \bibinfo{journal}{IEEE Trans. Dielectrics and Electrical Insulation}
-  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{450} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Li et~al.}(2016)}]{Li:2015rqa}
-\bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Li}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A816}},
-  \bibinfo{pages}{160} (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Brailsford}()}]{DomSeptMeeting}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Brailsford}},
-  \emph{\bibinfo{title}{{Looking at electron diffusion in 35t data and MC}}},
-  \bibinfo{note}{35 ton working group meeting (2016)},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}.
-
-\bibitem[{\citenamefont{Bromberg et~al.}(2015)}]{LongBo}
-\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Bromberg}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Journal of Instrumentation}
-  \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{P07015}
-  (\bibinfo{year}{2015}).
-
-\bibitem[{\citenamefont{Richardson}(2016)}]{MartinsThesis}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Richardson}}, Ph.D. thesis,
-  \bibinfo{school}{The University of Sheffield} (\bibinfo{year}{2016}).
-
-\bibitem[{\citenamefont{Bowden}(2012)}]{LBNE6493}
-\bibinfo{author}{\bibfnamefont{N.~S.} \bibnamefont{Bowden}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{LBNE-doc-6493}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6493&filename=LBNENearSurfaceReviewrReports.pdf&version=2}.
-
-\bibitem[{\citenamefont{Wright}(2012)}]{Shielding}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Wright}},
-  \emph{\bibinfo{title}{{Shielding Physics List Description}}}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://www.slac.stanford.edu/comp/physics/geant4/slac_physics_lists/shielding/physlistdoc.html}.
-
-\bibitem[{\citenamefont{Baller}(2015)}]{LBNE3383}
-\bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Baller}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{LBNE-doc-3383} (\bibinfo{year}{2015}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=3383&filename=ParametersAPAsOutsideAug11_2015.pdf&version=59}.
-
-\bibitem[{\citenamefont{Cherdack}(2013)}]{LBNE7806}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Cherdack}},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{LBNE-doc-7806}
-  (\bibinfo{year}{2013}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7806&filename=SoftwarePreMeeting_Talk_DDC.pdf&version=1}.
-
-\bibitem[{\citenamefont{Barker et~al.}()}]{barker2012muon}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Barker}} \bibnamefont{et~al.},
-  \emph{\bibinfo{title}{{Muon-induced background for beam neutrinos at the
-  surface}}}, \bibinfo{note}{lBNE Reconfiguration Report (2012)},
-  \urlprefix\url{http://www.fnal.gov/directorate/lbne_reconfiguration/files/LBNE-Reconfiguration-Surface-Detector-August2012.pdf}.
-
-\bibitem[{\citenamefont{Mei et~al.}(2012)}]{LBNE6621}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Mei}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{LBNE-doc-6621}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6621&filename=CosmogenicsSimulationOverview.pdf&version=1}.
-
-\bibitem[{\citenamefont{Coelho et~al.}(2012)}]{LBNE8458}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Coelho}} \bibnamefont{et~al.},
-  \bibinfo{type}{Tech. Rep.} \bibinfo{number}{LBNE-doc-8458}
-  (\bibinfo{year}{2012}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8458&filename=DC_LBNE_FEB1.pdf&version=1}.
-
-\bibitem[{\citenamefont{Hitachi et~al.}(1983)}]{PhysRevB.27.5279}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hitachi}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Phys. Rev. B} \textbf{\bibinfo{volume}{27}},
-  \bibinfo{pages}{5279} (\bibinfo{year}{1983}).
-
-\bibitem[{\citenamefont{Gaisser}(1990)}]{Gaisser}
-\bibinfo{author}{\bibfnamefont{T.~K.} \bibnamefont{Gaisser}},
-  \emph{\bibinfo{title}{{Cosmic rays and particle physics}}}
-  (\bibinfo{publisher}{Cambridge, UK: Univ. Pr. (1990) 279 p},
-  \bibinfo{year}{1990}).
-
-\bibitem[{\citenamefont{Aglietta et~al.}(1998)}]{PhysRevD.58.092005}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Aglietta}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{LVD Collaboration}), \bibinfo{journal}{Phys. Rev. D}
-  \textbf{\bibinfo{volume}{58}}, \bibinfo{pages}{092005}
-  (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Dar}(1983)}]{PhysRevLett.51.227}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Dar}}, \bibinfo{journal}{Phys.
-  Rev. Lett.} \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{227}
-  (\bibinfo{year}{1983}).
-
-\bibitem[{\citenamefont{Blackwell et~al.}(2013)}]{LBNE7517}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Blackwell}}
-  \bibnamefont{et~al.}, \bibinfo{type}{Tech. Rep.}
-  \bibinfo{number}{LBNE-doc-7517} (\bibinfo{year}{2013}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7517&filename=cosmogenics-vk1-130712-v3.pdf&version=3}.
-
-\bibitem[{\citenamefont{Feldman and Cousins}(1998)}]{PhysRevD.57.3873}
-\bibinfo{author}{\bibfnamefont{G.~J.} \bibnamefont{Feldman}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{R.~D.} \bibnamefont{Cousins}},
-  \bibinfo{journal}{Phys. Rev. D} \textbf{\bibinfo{volume}{57}},
-  \bibinfo{pages}{3873} (\bibinfo{year}{1998}).
-
-\bibitem[{\citenamefont{Mei et~al.}(2010)}]{Mei:2009py}
-\bibinfo{author}{\bibfnamefont{D.~M.} \bibnamefont{Mei}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Astropart. Phys.} \textbf{\bibinfo{volume}{34}},
-  \bibinfo{pages}{33} (\bibinfo{year}{2010}).
-
-\bibitem[{\citenamefont{Gray et~al.}(2011)}]{Gray:2010nc}
-\bibinfo{author}{\bibfnamefont{F.~E.} \bibnamefont{Gray}} \bibnamefont{et~al.},
-  \bibinfo{journal}{Nucl. Instrum. Meth.} \textbf{\bibinfo{volume}{A638}},
-  \bibinfo{pages}{63} (\bibinfo{year}{2011}).
-
-\bibitem[{\citenamefont{Heise}(2014)}]{Heise:2014gta}
-\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Heise}}, \bibinfo{journal}{AIP
-  Conf. Proc.} \textbf{\bibinfo{volume}{1604}}, \bibinfo{pages}{331}
-  (\bibinfo{year}{2014}).
-
-\bibitem[{\citenamefont{Cherry et~al.}(1983)}]{PhysRevD.27.1444}
-\bibinfo{author}{\bibfnamefont{M.~L.} \bibnamefont{Cherry}}
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys. Rev. D}
-  \textbf{\bibinfo{volume}{27}}, \bibinfo{pages}{1444} (\bibinfo{year}{1983}).
-
-\bibitem[{\citenamefont{Abgrall et~al.}(2016)}]{Abgrall:2016cfi}
-\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Abgrall}} \bibnamefont{et~al.}
-  (\bibinfo{collaboration}{MAJORANA}) (\bibinfo{year}{2016}), \eprint{arXiv:
-  1602.07742}.
-
-\bibitem[{\citenamefont{Church}(2016)}]{NDKTFNote}
-\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Church}}, \bibinfo{type}{Tech.
-  Rep.} \bibinfo{number}{DUNE-doc-1644} (\bibinfo{year}{2016}),
-  \urlprefix\url{http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644}.
-
-\bibitem[{\citenamefont{de~Jong. J.~K.}(2012)}]{LBNE3144}
-\bibinfo{author}{\bibnamefont{de~Jong. J.~K.}}, \bibinfo{type}{Tech. Rep.}
-  \bibinfo{number}{LBNE-doc-3144} (\bibinfo{year}{2012}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=3144}.
-
-\bibitem[{\citenamefont{Kudryavtsev et~al.}(2014)}]{MUSUNLBNE}
-\bibinfo{author}{\bibfnamefont{V.~A.} \bibnamefont{Kudryavtsev}}
-  \bibnamefont{et~al.}, \bibinfo{type}{Tech. Rep.}
-  \bibinfo{number}{LBNE-doc-9673} (\bibinfo{year}{2014}),
-  \urlprefix\url{http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673}.
-
-\bibitem[{\citenamefont{Robinson}()}]{CosmoJanCollabMeeting}
-\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Robinson}},
-  \emph{\bibinfo{title}{Cosmogenic background to nucelon decay}},
-  \bibinfo{note}{{Cosmogenics working group meeting (2017)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641}.
-
-\bibitem[{\citenamefont{Stefan and Ankowski}(2009)}]{Stefan:2008zi}
-\bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Stefan}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Ankowski}},
-  \bibinfo{journal}{Acta Phys. Polon.} \textbf{\bibinfo{volume}{B40}},
-  \bibinfo{pages}{671} (\bibinfo{year}{2009}).
-
-\bibitem[{\citenamefont{Wood}()}]{KevinSeptCollab}
-\bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Wood}},
-  \emph{\bibinfo{title}{{Reconstruction Efficiencies of Scintillation Light
-  from PDK events}}}, \bibinfo{note}{{Cosmogenics working group meeting
-  (2016)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=98&sessionId=25&resId=0&materialId=slides&confId=10613}.
-
-\bibitem[{\citenamefont{Higuera}({\natexlab{a}})}]{AAron_17_02_08}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Higuera}},
-  \emph{\bibinfo{title}{{Proton Decay at DUNE $p \rightarrow $K$^{+} +
-  \overline{\nu_{e}}$}}}, \bibinfo{note}{cosmogenics working group meeting
-  (2017)},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=13789}.
-
-\bibitem[{\citenamefont{Yang}({\natexlab{c}})}]{Tingjun_17_02_08}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Yang}},
-  \emph{\bibinfo{title}{{Updates on reconstruction}}},
-  \bibinfo{note}{{Cosmogenics working group meeting (2017)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=13789}.
-
-\bibitem[{\citenamefont{Higuera}({\natexlab{b}})}]{Aaron_17_03_01}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Higuera}},
-  \emph{\bibinfo{title}{{Proton Decay at DUNE $p \rightarrow $K$^{+} +
-  \overline{\nu_{e}}$ and $^{39}$Ar}}}, \bibinfo{note}{{Cosmogenics working
-  group meeting (2017)}},
-  \urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13947}.
-
-\end{thebibliography}
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{181}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Aad}\ \emph {et~al.}(2012)\citenamefont {Aad} \emph
+  {et~al.}}]{HiggsAtlas}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Aad}} \emph {et~al.} (\bibinfo {collaboration} {ATLAS Collaboration}),\
+  }\href {\doibase 10.1016/j.physletb.2012.08.020} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B716}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1207.7214;%%
+\bibitem [{\citenamefont {Chatrchyan}\ \emph {et~al.}(2012)\citenamefont
+  {Chatrchyan} \emph {et~al.}}]{HiggsCMS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chatrchyan}} \emph {et~al.} (\bibinfo {collaboration} {CMS Collaboration}),\
+  }\href {\doibase 10.1016/j.physletb.2012.08.021} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B716}},\
+  \bibinfo {pages} {30} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1207.7235;%%
+\bibitem [{\citenamefont {Abbott}\ \emph {et~al.}(2016)\citenamefont {Abbott}
+  \emph {et~al.}}]{LIGO}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Abbott}} \emph {et~al.} (\bibinfo {collaboration} {LIGO Scientific
+  Collaboration and Virgo Collaboration}),\ }\href {\doibase
+  10.1103/PhysRevLett.116.061102} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {061102} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fukuda}\ \emph {et~al.}(1998)\citenamefont {Fukuda}
+  \emph {et~al.}}]{PhysRevLett.81.1562}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Fukuda}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.81.1562} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {81}},\ \bibinfo {pages} {1562} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ahmad}\ \emph {et~al.}(2002)\citenamefont {Ahmad}
+  \emph {et~al.}}]{PhysRevLett.89.011301}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.~R.}\ \bibnamefont
+  {Ahmad}} \emph {et~al.} (\bibinfo {collaboration} {SNO Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevLett.89.011301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {89}},\
+  \bibinfo {pages} {011301} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pauli}(1930)}]{Pauli}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Pauli}},\ }\href@noop {} {\enquote {\bibinfo {title} {\emph{Open letter to
+  the Gauverein meeting in Tubingen}},}\ } (\bibinfo {year} {1930})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fermi}(1934)}]{Fermi:1934hr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Fermi}},\ }\href {\doibase 10.1007/BF01351864} {\bibfield  {journal}
+  {\bibinfo  {journal} {Z. Phys.}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo
+  {pages} {161} (\bibinfo {year} {1934})}\BibitemShut {NoStop}%
+%%CITATION = ZEPYA,88,161;%%
+\bibitem [{\citenamefont {Kofoed-Hansen}(1947)}]{NeutMassLim1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Kofoed-Hansen}},\ }\href {\doibase 10.1103/PhysRev.71.451} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {71}},\ \bibinfo {pages} {451} (\bibinfo {year} {1947})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hanna}\ and\ \citenamefont
+  {Pontecorvo}(1949)}]{NeutMassLim2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {Hanna}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Pontecorvo}},\ }\href {\doibase 10.1103/PhysRev.75.983.3} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {75}},\ \bibinfo {pages} {983} (\bibinfo {year} {1949})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Langer}\ and\ \citenamefont
+  {Moffat}(1952)}]{NeutMassLim3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Langer}}\ and\ \bibinfo {author} {\bibfnamefont {R.~J.~D.}\ \bibnamefont
+  {Moffat}},\ }\href {\doibase 10.1103/PhysRev.88.689} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {88}},\
+  \bibinfo {pages} {689} (\bibinfo {year} {1952})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cowan}\ \emph {et~al.}(1956)\citenamefont {Cowan}
+  \emph {et~al.}}]{Cowan:1992xc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Cowan}} \emph {et~al.},\ }\href {\doibase 10.1126/science.124.3212.103}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {124}},\ \bibinfo {pages} {103} (\bibinfo {year}
+  {1956})}\BibitemShut {NoStop}%
+%%CITATION = SCIEA,124,103;%%
+\bibitem [{\citenamefont {Danby}\ \emph {et~al.}(1962)\citenamefont {Danby}
+  \emph {et~al.}}]{PhysRevLett.9.36}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Danby}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.9.36}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {36} (\bibinfo {year}
+  {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Davis}\ \emph {et~al.}(1968)\citenamefont {Davis}
+  \emph {et~al.}}]{RayDavis1968}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Davis}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.20.1205}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {20}},\ \bibinfo {pages} {1205} (\bibinfo {year}
+  {1968})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cleveland}\ \emph {et~al.}(1998)\citenamefont
+  {Cleveland} \emph {et~al.}}]{RayDavis1988}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~T.}\ \bibnamefont
+  {Cleveland}} \emph {et~al.},\ }\href {\doibase 10.1086/305343} {\bibfield
+  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume}
+  {496}},\ \bibinfo {pages} {505} (\bibinfo {year} {1998})}\BibitemShut
+  {NoStop}%
+%%CITATION = ASJOA,496,505;%%
+\bibitem [{\citenamefont {Pontecorvo}(1957)}]{Pontecorvo1957}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Pontecorvo}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Sov. Phys. JETP}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {429}
+  (\bibinfo {year} {1957})},\ \bibinfo {note} {[Zh. Eksp. Teor.
+  Fiz.33,549(1957)]}\BibitemShut {NoStop}%
+%%CITATION = SPHJA,6,429;%%
+\bibitem [{\citenamefont {Hirata}\ \emph {et~al.}(1989)\citenamefont {Hirata}
+  \emph {et~al.}}]{PhysRevLett.63.16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Hirata}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.63.16}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {63}},\ \bibinfo {pages} {16} (\bibinfo {year}
+  {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perl}\ \emph {et~al.}(1975)\citenamefont {Perl} \emph
+  {et~al.}}]{PhysRevLett.35.1489}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Perl}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.35.1489}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {35}},\ \bibinfo {pages} {1489} (\bibinfo {year}
+  {1975})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kodama}\ \emph {et~al.}(2001)\citenamefont {Kodama}
+  \emph {et~al.}}]{Kodama2001218}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kodama}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/S0370-2693(01)00307-0} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume}
+  {504}},\ \bibinfo {pages} {218 } (\bibinfo {year} {2001})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ahmad}\ \emph {et~al.}(2001)\citenamefont {Ahmad}
+  \emph {et~al.}}]{Ahmad:2001an}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.~R.}\ \bibnamefont
+  {Ahmad}} \emph {et~al.} (\bibinfo {collaboration} {SNO}),\ }\href {\doibase
+  10.1103/PhysRevLett.87.071301} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages}
+  {071301} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+%%CITATION = NUCL-EX/0106015;%%
+\bibitem [{\citenamefont {Maki}\ \emph {et~al.}(1962)\citenamefont {Maki} \emph
+  {et~al.}}]{PMNS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Maki}} \emph {et~al.},\ }\href {\doibase 10.1143/PTP.28.870} {\bibfield
+  {journal} {\bibinfo  {journal} {Progress of Theoretical Physics}\ }\textbf
+  {\bibinfo {volume} {28}},\ \bibinfo {pages} {870} (\bibinfo {year}
+  {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andringa}\ \emph {et~al.}(2016)\citenamefont
+  {Andringa} \emph {et~al.}}]{SNO+}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Andringa}} \emph {et~al.} (\bibinfo {collaboration} {SNO+ Collaboration}),\
+  }\href {\doibase 10.1155/2016/6194250} {\bibfield  {journal} {\bibinfo
+  {journal} {Adv. High Energy Phys.}\ }\textbf {\bibinfo {volume} {2016}},\
+  \bibinfo {pages} {6194250} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1508.05759;%%
+\bibitem [{\citenamefont {Arnold}\ \emph {et~al.}(2010)\citenamefont {Arnold}
+  \emph {et~al.}}]{SuperNEMO}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Arnold}} \emph {et~al.},\ }\href {\doibase 10.1140/epjc/s10052-010-1481-5}
+  {\bibfield  {journal} {\bibinfo  {journal} {The European Physical Journal C}\
+  }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {927} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Michael}\ \emph {et~al.}(2008)\citenamefont {Michael}
+  \emph {et~al.}}]{2008NIMPA.596..190M}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Michael}} \emph {et~al.} (\bibinfo {collaboration} {{Minos
+  Collaboration}}),\ }\href {\doibase 10.1016/j.nima.2008.08.003} {\bibfield
+  {journal} {\bibinfo  {journal} {{Nuclear Instruments and Methods in Physics
+  Research A}}\ }\textbf {\bibinfo {volume} {596}},\ \bibinfo {pages} {190}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tzanankos}\ \emph {et~al.}(2011)\citenamefont
+  {Tzanankos} \emph {et~al.}}]{Tzanankos:2011zz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Tzanankos}} \emph {et~al.} (\bibinfo {collaboration} {MINOS+
+  Collaboration}),\ }\href@noop {} {\emph {\bibinfo {title} {{MINOS+: a
+  Proposal to FNAL to run MINOS with the medium energy NuMI beam}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {FERMILAB-PROPOSAL-1016}\ (\bibinfo
+  {year} {2011})\BibitemShut {NoStop}%
+%%CITATION = FERMILAB-PROPOSAL-1016;%%
+\bibitem [{\citenamefont {Nunokawa}\ \emph {et~al.}(2008)\citenamefont
+  {Nunokawa} \emph {et~al.}}]{Nunokawa:2007qh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Nunokawa}} \emph {et~al.},\ }\href {\doibase 10.1016/j.ppnp.2007.10.001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Prog. Part. Nucl. Phys.}\
+  }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages} {338} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0710.0554;%%
+\bibitem [{\citenamefont {Patrignani}\ \emph {et~al.}(2016)\citenamefont
+  {Patrignani} \emph {et~al.}}]{PDGReview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Patrignani}} \emph {et~al.} (\bibinfo {collaboration} {Particle Data
+  Group}),\ }\href {\doibase 10.1088/1674-1137/40/10/100001} {\bibfield
+  {journal} {\bibinfo  {journal} {Chin. Phys.}\ }\textbf {\bibinfo {volume}
+  {C40}},\ \bibinfo {pages} {100001} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+%%CITATION = CHPHD,C40,100001;%%
+\bibitem [{\citenamefont {Cabibbo}(1963)}]{PhysRevLett.10.531}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Cabibbo}},\ }\href {\doibase 10.1103/PhysRevLett.10.531} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {10}},\ \bibinfo {pages} {531} (\bibinfo {year} {1963})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kobayashi}\ and\ \citenamefont
+  {Maskawa}(1973)}]{Kobayashi:1973fv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kobayashi}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Maskawa}},\ }\href {\doibase 10.1143/PTP.49.652} {\bibfield  {journal}
+  {\bibinfo  {journal} {Prog. Theor. Phys.}\ }\textbf {\bibinfo {volume}
+  {49}},\ \bibinfo {pages} {652} (\bibinfo {year} {1973})}\BibitemShut
+  {NoStop}%
+%%CITATION = PTPKA,49,652;%%
+\bibitem [{\citenamefont {Wolfenstein}(1978)}]{PhysRevD.17.2369}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Wolfenstein}},\ }\href {\doibase 10.1103/PhysRevD.17.2369} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {17}},\ \bibinfo {pages} {2369} (\bibinfo {year} {1978})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mikheev}\ and\ \citenamefont
+  {Smirnov}(1985)}]{Mikheev:1986gs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
+  {Mikheev}}\ and\ \bibinfo {author} {\bibfnamefont {A.~{\relax Yu}.}\
+  \bibnamefont {Smirnov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Sov. J. Nucl. Phys.}\ }\textbf {\bibinfo {volume} {42}},\ \bibinfo
+  {pages} {913} (\bibinfo {year} {1985})},\ \bibinfo {note} {[Yad.
+  Fiz.42,1441(1985)]}\BibitemShut {NoStop}%
+%%CITATION = SJNCA,42,913;%%
+\bibitem [{\citenamefont {Fogli}\ \emph {et~al.}(2004)\citenamefont {Fogli}
+  \emph {et~al.}}]{Fogli2004149}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Fogli}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/j.physletb.2003.12.045} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume}
+  {583}},\ \bibinfo {pages} {149 } (\bibinfo {year} {2004})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hewett}\ \emph {et~al.}(2012)\citenamefont {Hewett}
+  \emph {et~al.}}]{Hewett:2012ns}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Hewett}} \emph {et~al.},\ }\href@noop {} {\emph {\bibinfo {title}
+  {{Fundamental Physics at the Intensity Frontier}}}},\ \bibinfo {type} {Tech.
+  Rep.}\ \bibinfo {number} {ANL-HEP-TR-12-25, SLAC-R-991,
+  FERMILAB-CONF-12-879-PPD}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Esteban}\ \emph {et~al.}(2017)\citenamefont {Esteban}
+  \emph {et~al.}}]{NuFit2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Esteban}} \emph {et~al.},\ }\href {\doibase 10.1007/JHEP01(2017)087}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {01}},\ \bibinfo {pages} {087} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1611.01514;%%
+\bibitem [{\citenamefont {Ade}\ \emph {et~al.}(2016)\citenamefont {Ade} \emph
+  {et~al.}}]{Planck}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~A.~R.}\
+  \bibnamefont {Ade}} \emph {et~al.} (\bibinfo {collaboration} {Planck}),\
+  }\href {\doibase 10.1051/0004-6361/201525830} {\bibfield  {journal} {\bibinfo
+   {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo {volume} {594}},\
+  \bibinfo {pages} {A13} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1502.01589;%%
+\bibitem [{\citenamefont {Mertens}(2015)}]{KATRIN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Mertens}},\ }\href {\doibase http://dx.doi.org/10.1016/j.phpro.2014.12.043}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physics Procedia}\ }\textbf
+  {\bibinfo {volume} {61}},\ \bibinfo {pages} {267 } (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schael}\ \emph {et~al.}(2006)\citenamefont {Schael}
+  \emph {et~al.}}]{LEP}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Schael}} \emph {et~al.} (\bibinfo {collaboration} {SLD Electroweak Group,
+  DELPHI, ALEPH, SLD, SLD Heavy Flavour Group, OPAL, LEP Electroweak Working
+  Group, L3}),\ }\href {\doibase 10.1016/j.physrep.2005.12.006} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume}
+  {427}},\ \bibinfo {pages} {257} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+%%CITATION = HEP-EX/0509008;%%
+\bibitem [{\citenamefont {Athanassopoulos}\ \emph {et~al.}(1998)\citenamefont
+  {Athanassopoulos} \emph {et~al.}}]{LSND1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Athanassopoulos}} \emph {et~al.} (\bibinfo {collaboration} {LSND
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.81.1774} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {81}},\ \bibinfo {pages} {1774} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aguilar}\ \emph {et~al.}(2001)\citenamefont {Aguilar}
+  \emph {et~al.}}]{LSND2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Aguilar}} \emph {et~al.} (\bibinfo {collaboration} {LSND Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.64.112007} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo
+  {pages} {112007} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aguilar-Arevalo}\ \emph {et~al.}(2013)\citenamefont
+  {Aguilar-Arevalo} \emph {et~al.}}]{MiniBooNE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Aguilar-Arevalo}} \emph {et~al.} (\bibinfo {collaboration} {MiniBooNE
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.110.161801} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {110}},\ \bibinfo {pages} {161801} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Marciano}\ and\ \citenamefont
+  {Senjanovi\ifmmode~\acute{c}\else \'{c}\fi{}}(1982)}]{PhysRevD.25.3092}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont
+  {Marciano}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Senjanovi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
+  10.1103/PhysRevD.25.3092} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. D}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {3092}
+  (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Georgi}\ and\ \citenamefont
+  {Glashow}(1974)}]{PhysRevLett.32.438}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Georgi}}\ and\ \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
+  {Glashow}},\ }\href {\doibase 10.1103/PhysRevLett.32.438} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {32}},\ \bibinfo {pages} {438} (\bibinfo {year} {1974})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Weyl}(1929)}]{Weyl1929}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Weyl}},\ }\href {\doibase 10.1007/BF01339504} {\bibfield  {journal}
+  {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik}\ }\textbf {\bibinfo
+  {volume} {56}},\ \bibinfo {pages} {330} (\bibinfo {year} {1929})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Senjanovic}(2010)}]{Senjanovic:2009kr}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Senjanovic}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{15th
+  International Symposium on Particles, Strings and Cosmology (PASCOS 2009)
+  Hamburg, Germany, July 6-10, 2009}}},\ }\href {\doibase 10.1063/1.3327552}
+  {\bibfield  {journal} {\bibinfo  {journal} {AIP Conf. Proc.}\ }\textbf
+  {\bibinfo {volume} {1200}},\ \bibinfo {pages} {131} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0912.5375;%%
+\bibitem [{\citenamefont {Foot}\ \emph {et~al.}(1989)\citenamefont {Foot} \emph
+  {et~al.}}]{Foot1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Foot}} \emph {et~al.},\ }\href {\doibase 10.1007/BF01415558} {\bibfield
+  {journal} {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik C Particles and
+  Fields}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo {pages} {441} (\bibinfo
+  {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dorsner}\ and\ \citenamefont
+  {Fileviez~Perez}(2005)}]{Dorsner:2005fq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Dorsner}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Fileviez~Perez}},\ }\href {\doibase 10.1016/j.nuclphysb.2005.06.016}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Phys.}\ }\textbf {\bibinfo
+  {volume} {B723}},\ \bibinfo {pages} {53} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/0504276;%%
+\bibitem [{\citenamefont {Martin}(2010)}]{Martin:1997ns}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~P.}\ \bibnamefont
+  {Martin}},\ }\href {\doibase 10.1142/9789814307505_0001} {\bibfield
+  {journal} {\bibinfo  {journal} {Adv. Ser. Direct. High Energy Phys}\ }\textbf
+  {\bibinfo {volume} {21}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9709356;%%
+\bibitem [{\citenamefont {Castano}\ \emph {et~al.}(1994)\citenamefont {Castano}
+  \emph {et~al.}}]{Castano:1993ri}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Castano}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.49.4882}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D49}},\ \bibinfo {pages} {4882} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9308335;%%
+\bibitem [{\citenamefont {Gomez}(1999)}]{Gomez:1999kv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Gomez}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {{Proceedings,
+  European Network Meeting on Physics Beyond the Standard Model: Trieste,
+  Italy, February 24-27, 1999}}}}\ (\bibinfo {year} {1999})\ p.\ \bibinfo
+  {pages} {006}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Farrar}\ and\ \citenamefont
+  {Fayet}(1978)}]{FARRAR1978575}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~R.}\ \bibnamefont
+  {Farrar}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Fayet}},\
+  }\href {\doibase http://dx.doi.org/10.1016/0370-2693(78)90858-4} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo
+  {volume} {76}},\ \bibinfo {pages} {575 } (\bibinfo {year}
+  {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vissani}(1995)}]{Vissani:1995hp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Vissani}},\ }\href {\doibase 10.1103/PhysRevD.52.4245} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {D52}},\
+  \bibinfo {pages} {4245} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9503227;%%
+\bibitem [{\citenamefont {Severson}(2015)}]{Severson:2015dta}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Severson}},\ }\href {\doibase 10.1103/PhysRevD.92.095026} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D92}},\ \bibinfo {pages} {095026} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1506.08468;%%
+\bibitem [{\citenamefont {Battistoni}\ \emph {et~al.}(1983)\citenamefont
+  {Battistoni} \emph {et~al.}}]{BATTISTONI1983454}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Battistoni}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/0370-2693(83)90827-4} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume}
+  {133}},\ \bibinfo {pages} {454 } (\bibinfo {year} {1983})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Berger}\ \emph {et~al.}(1991)\citenamefont {Berger}
+  \emph {et~al.}}]{berger:in2p3-00015565}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Berger}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {{Physics Letters B}}\ }\textbf {\bibinfo {volume} {269}},\
+  \bibinfo {pages} {227} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goodman}(1999)}]{SoudanLim}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Goodman}} (\bibinfo {collaboration} {Soudan-2}),\ }in\ \href@noop {} {\emph
+  {\bibinfo {booktitle} {{Proceedings of the 26th International Cosmic Ray
+  Conference. August 17-25, 1999. Salt Lake City, Utah, USA}}}}\ (\bibinfo
+  {year} {1999})\ p.\ \bibinfo {pages} {364}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gajewski}\ \emph {et~al.}(1990)\citenamefont
+  {Gajewski} \emph {et~al.}}]{Gajewski:1989gh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Gajewski}} \emph {et~al.},\ }\bibfield  {booktitle} {\emph {\bibinfo
+  {booktitle} {{10th and Final Workshop on Grand Unification Chapel Hill, North
+  Carolina, April 20-22, 1989}}},\ }\href {\doibase 10.1103/PhysRevD.42.2974}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D42}},\ \bibinfo {pages} {2974} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+%%CITATION = PHRVA,D42,2974;%%
+\bibitem [{\citenamefont {Abe}\ \emph {et~al.}(2017)\citenamefont {Abe} \emph
+  {et~al.}}]{PhysRevD.95.012004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Abe}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevD.95.012004} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {95}},\ \bibinfo {pages} {012004} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Abe}\ \emph {et~al.}(2011)\citenamefont {Abe} \emph
+  {et~al.}}]{Abe:2011ts}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Abe}} \emph {et~al.},\ }\href@noop {} {\enquote {\bibinfo {title}
+  {\emph{Letter of Intent: The Hyper-Kamiokande Experiment --- Detector Design
+  and Physics Potential ---}},}\ } (\bibinfo {year} {2011}),\ \bibinfo {note}
+  {arXiv:1109.3262}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ritz}\ \emph {et~al.}(2014)\citenamefont {Ritz} \emph
+  {et~al.}}]{P5Doc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ritz}} \emph {et~al.} (\bibinfo {collaboration} {HEPAP Subcommittee}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{Building for Discovery:
+  Strategic Plan for U.S. Particle Physics in the Global Context}},}\ }
+  (\bibinfo {year} {2014}),\ \bibinfo {note} {{INSPIRE-1299183}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{a}})}]{LBNE_CDR1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5235&filename=CDR-intro-volume-2012nov20.pdf&version=9}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 1: The LBNE Project}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {LBNE-doc-5235}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{b}})}]{LBNE_CDR2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4317&filename=CDR-beam-volume-101812.pdf&version=25}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 2: The Beamline at the Near Site}}}},\ \bibinfo {type} {Tech. Rep.}\
+  \bibinfo {number} {LBNE-doc-4317}\ (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{c}})}]{LBNE_CDR3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4724&filename=CDR-NDC-volume-final-101912.pdf&version=12}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 3: Detectors at the Near Site}}}},\ \bibinfo {type} {Tech. Rep.}\
+  \bibinfo {number} {LBNE-doc-4724}\ (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{d}})}]{LBNE_CDR4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4892&filename=CDR-LArFD-volume-final-2012Oct22.pdf&version=12}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 4: The Liquird Argon Detector at the Far Site}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-4892}\ (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{e}})}]{LBNE_CDR5}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4623&filename=CDR-NSCF-volume-final-2012Oct10.pdf&version=9}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 5: Conventional Facilities at the Near Site}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-4623}\ (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{LBNE
+  Collaboration}}(2012{\natexlab{f}})}]{LBNE_CDR6}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{LBNE
+  Collaboration}}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5017&filename=CDR-FSCF-volume-final-2012Oct10.pdf&version=5}
+  {\emph {\bibinfo {title} {{Long-Baseline Neutrino Experiment (LBNE) Project,
+  Volume 6: Conventional Facilities at the Far Site}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-5017}\ (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stahl}\ \emph {et~al.}(2012)\citenamefont {Stahl}
+  \emph {et~al.}}]{LBNO_EOI}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Stahl}} \emph {et~al.},\ }\href@noop {} {\emph {\bibinfo {title}
+  {{Expression of Interest for a very long baseline neutrino oscillation
+  experiment (LBNO)}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {CERN-SPSC-2012-021, SPSC-EOI-007}\ (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+%%CITATION = CERN-SPSC-2012-021;%%
+\bibitem [{\citenamefont {Acciarri}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Acciarri} \emph
+  {et~al.}}]{DUNECDR_V4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 4:
+  The DUNE Detectors at LBNF}},}\ } (\bibinfo {year} {2016}{\natexlab{a}}),\
+  \bibinfo {note} {arXiv: 1601.02984}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Strait}\ \emph {et~al.}(2016)\citenamefont {Strait}
+  \emph {et~al.}}]{DUNECDR_V3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Strait}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 3:
+  Long-Baseline Neutrino Facility for DUNE}},}\ } (\bibinfo {year} {2016}),\
+  \bibinfo {note} {arXiv: 1601.05823}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holmes}\ \emph {et~al.}(2015)\citenamefont {Holmes}
+  \emph {et~al.}}]{PIP-II}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Holmes}} \emph {et~al.},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  {{Proc. 6th International Particle Accelerator Conference, Richmond, VA,
+  USA}}}}\ (\bibinfo {year} {{2015}})\ pp.\ \bibinfo {pages}
+  {3982--3985}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Acciarri} \emph
+  {et~al.}}]{DUNECDR_V1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 1:
+  The LBNF and DUNE Projects}},}\ } (\bibinfo {year} {2016}{\natexlab{b}}),\
+  \bibinfo {note} {arXiv: 1601.05471}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2015)\citenamefont
+  {Acciarri} \emph {et~al.}}]{DUNECDR_V2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {DUNE Collaboration}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{Long-Baseline Neutrino
+  Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 2:
+  The Physics Program for DUNE at LBNF}},}\ } (\bibinfo {year} {2015}),\
+  \bibinfo {note} {arXiv: 1512.06148}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{DUNE Collaboration}}(2017)}]{DUNEAtWork}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{DUNE
+  Collaboration}}},\ }\href
+  {https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx}
+  {\enquote {\bibinfo {title} {\emph{Proposals and Design Reports}},}\ }
+  (\bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Worcester}(2017{\natexlab{a}})}]{Elizabeth_01_17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Worcester}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2329} {\emph
+  {\bibinfo {title} {{PRESENTING LONG-BASELINE SENSITIVITIES}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-2329}\ (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bass}\ \emph {et~al.}(2015)\citenamefont {Bass} \emph
+  {et~al.}}]{Bass:2013vcg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bass}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.91.052015}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D91}},\ \bibinfo {pages} {052015} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1311.0212;%%
+\bibitem [{\citenamefont {Diwan}(2004)}]{Diwan:2004bt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~V.}\ \bibnamefont
+  {Diwan}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Heavy
+  quarks and leptons. Proceedings, 7th International Conference, San Juan,
+  Puerto Rico, June 1-5, 2004}}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Frascati Phys. Ser.}\ }\textbf {\bibinfo {volume}
+  {35}},\ \bibinfo {pages} {89} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0407047;%%
+\bibitem [{\citenamefont {Worcester}(2017{\natexlab{b}})}]{DUNE2335}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Worcester}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2335} {\emph
+  {\bibinfo {title} {{LBL MH Sensitivity: Standard Exposures}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-2335}\ (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Worcester}(2017{\natexlab{c}})}]{DUNE2401}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Worcester}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2401} {\emph
+  {\bibinfo {title} {{LBL CPV Sensitivity: Exposure Plots}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-2401}\ (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Worcester}(2017{\natexlab{d}})}]{DUNE2332}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Worcester}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2332} {\emph
+  {\bibinfo {title} {{LBL CPV Sensitivity: Standard Exposures}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-2332}\ (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Worcester}(2017{\natexlab{e}})}]{DUNE2377}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Worcester}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2377} {\emph
+  {\bibinfo {title} {{LBL Sensitivity: Staging Plots}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-2377}\ (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gonzalez-Garcia}\ \emph {et~al.}(2014)\citenamefont
+  {Gonzalez-Garcia} \emph {et~al.}}]{NuFit2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Gonzalez-Garcia}} \emph {et~al.},\ }\href {\doibase 10.1007/JHEP11(2014)052}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {052} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1409.5439;%%
+\bibitem [{\citenamefont {Beringer}\ \emph {et~al.}(2012)\citenamefont
+  {Beringer} \emph {et~al.}}]{PDG2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Beringer}} \emph {et~al.} (\bibinfo {collaboration} {Particle Data Group}),\
+  }\href {\doibase 10.1103/PhysRevD.86.010001} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo
+  {pages} {010001} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nishino}\ \emph {et~al.}(2012)\citenamefont {Nishino}
+  \emph {et~al.}}]{Nishino:2012bnw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Nishino}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevD.85.112001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D85}},\ \bibinfo {pages} {112001} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1203.4030;%%
+\bibitem [{\citenamefont {Bueno}\ \emph {et~al.}(2007)\citenamefont {Bueno}
+  \emph {et~al.}}]{Bueno}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bueno}} \emph {et~al.},\ }\href {\doibase 10.1088/1126-6708/2007/04/041}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {04}},\ \bibinfo {pages} {041} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+%%CITATION = HEP-PH/0701101;%%
+\bibitem [{\citenamefont {Klinger}\ \emph {et~al.}(2015)\citenamefont {Klinger}
+  \emph {et~al.}}]{Klinger:2015kva}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Klinger}} \emph {et~al.},\ }\href {\doibase 10.1016/j.physletb.2015.04.054}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett.}\ }\textbf {\bibinfo
+  {volume} {B746}},\ \bibinfo {pages} {44} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1504.06520;%%
+\bibitem [{\citenamefont {Antonello}\ \emph {et~al.}(2013)\citenamefont
+  {Antonello} \emph {et~al.}}]{PMTrack}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Antonello}} \emph {et~al.},\ }\href {\doibase 10.1155/2013/260820}
+  {\bibfield  {journal} {\bibinfo  {journal} {Adv. High Energy Phys.}\ }\textbf
+  {\bibinfo {volume} {2013}},\ \bibinfo {pages} {260820} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1210.5089;%%
+\bibitem [{\citenamefont {Lin}\ and\ \citenamefont
+  {Goodman}(2016)}]{MauryLifetime}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Lin}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Goodman}},\
+  }\href {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=679}
+  {\emph {\bibinfo {title} {{Comprehensive list of nucleon decay modes}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-679}\ (\bibinfo
+  {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2013)\citenamefont {Adams}
+  \emph {et~al.}}]{Adams:2013qkq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {LBNE Collaboration}),\
+  }\href@noop {} {\enquote {\bibinfo {title} {\emph{The Long-Baseline Neutrino
+  Experiment: Exploring Fundamental Symmetries of the Universe}},}\ } (\bibinfo
+  {year} {2013}),\ \bibinfo {note} {arXiv: 1307.7335}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1307.7335;%%
+\bibitem [{\citenamefont {Blake}(2014)}]{LBNE8836}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Blake}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8836&filename=AtmosphericNeutrinos_20140402.pdf&version=1}
+  {\emph {\bibinfo {title} {{Studying Atmospheric Neutrino Backgrounds to $p
+  \rightarrow K^{+} \overline{\nu{e}}$ Decay}}}},\ \bibinfo {type} {Tech.
+  Rep.}\ \bibinfo {number} {LBNE-doc-8836}\ (\bibinfo {year}
+  {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Scholberg}(2012)}]{KScholSND}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Scholberg}},\ }\href {\doibase 10.1146/annurev-nucl-102711-095006}
+  {\bibfield  {journal} {\bibinfo  {journal} {Annual Review of Nuclear and
+  Particle Science}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages} {81}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Laha}\ and\ \citenamefont
+  {Beacom}(2014)}]{Laha:2013hva}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Laha}}\ and\ \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Beacom}},\ }\href {\doibase 10.1103/PhysRevD.89.063007} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {D89}},\ \bibinfo {pages} {063007} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1311.6407;%%
+\bibitem [{\citenamefont {Bionta}\ \emph {et~al.}(1987)\citenamefont {Bionta}
+  \emph {et~al.}}]{PhysRevLett.58.1494}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Bionta}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.58.1494}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {58}},\ \bibinfo {pages} {1494} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hirata}\ \emph {et~al.}(1987)\citenamefont {Hirata}
+  \emph {et~al.}}]{PhysRevLett.58.1490}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hirata}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevLett.58.1490}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {58}},\ \bibinfo {pages} {1490} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aartsen}\ \emph {et~al.}(2013)\citenamefont {Aartsen}
+  \emph {et~al.}}]{Aartsen:2012kia}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {Aartsen}} \emph {et~al.} (\bibinfo {collaboration} {IceCube}),\ }\href
+  {\doibase 10.1103/PhysRevLett.110.131302} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo
+  {pages} {131302} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1212.4097;%%
+\bibitem [{\citenamefont {Choi}\ \emph {et~al.}(2015)\citenamefont {Choi} \emph
+  {et~al.}}]{Choi:2015ara}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Choi}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande}),\ }\href
+  {\doibase 10.1103/PhysRevLett.114.141301} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo
+  {pages} {141301} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1503.04858;%%
+\bibitem [{\citenamefont {Beacom}(2010)}]{Beacom:2010kk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Beacom}},\ }\href {\doibase 10.1146/annurev.nucl.010909.083331} {\bibfield
+  {journal} {\bibinfo  {journal} {Ann. Rev. Nucl. Part. Sci.}\ }\textbf
+  {\bibinfo {volume} {60}},\ \bibinfo {pages} {439} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1004.3311;%%
+\bibitem [{\citenamefont {Caballero}\ \emph {et~al.}(2012)\citenamefont
+  {Caballero} \emph {et~al.}}]{Caballero:2011dw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.~L.}\ \bibnamefont
+  {Caballero}} \emph {et~al.},\ }\href {\doibase 10.1088/0004-637X/745/2/170}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf
+  {\bibinfo {volume} {745}},\ \bibinfo {pages} {170} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1105.6371;%%
+\bibitem [{\citenamefont {Caballero}\ \emph {et~al.}(2009)\citenamefont
+  {Caballero} \emph {et~al.}}]{Caballero:2009ww}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.~L.}\ \bibnamefont
+  {Caballero}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.80.123004}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo
+  {volume} {D80}},\ \bibinfo {pages} {123004} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0910.1385;%%
+\bibitem [{\citenamefont {Thomson}(2015)}]{MarkReviewJuly2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Thomson}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=11100&filename=P03-Thomson-DUNE-CollaborationStrategy.pdf&asof=2015-6-2}
+  {\emph {\bibinfo {title} {{DUNE Collaboration, Strategy and Detector
+  Requirements}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {LBNE-doc-11100}\ (\bibinfo {year} {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adamowski}\ \emph {et~al.}(2014)\citenamefont
+  {Adamowski} \emph {et~al.}}]{LAPD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Adamowski}} \emph {et~al.},\ }\href {\doibase 10.1088/1748-0221/9/07/P07005}
+  {\bibfield  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {P07005} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1403.7236;%%
+\bibitem [{\citenamefont {Montanari}\ \emph {et~al.}(2014)\citenamefont
+  {Montanari} \emph {et~al.}}]{35tonMontanari}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Montanari}} \emph {et~al.} (\bibinfo {collaboration} {LBNE}),\ }in\ \href
+  {\doibase 10.1016/j.phpro.2015.06.092} {\emph {\bibinfo {booktitle}
+  {{Proceedings, International Cryogenic Engineering Conference and
+  International Cryogenic Materials Conference 2014 (ICEC 25 – ICMC 2014):
+  Enschede, The Netherlands, July 7-11, 2014}}}},\ Vol.~\bibinfo {volume} {67}\
+  (\bibinfo {year} {2014})\ pp.\ \bibinfo {pages} {308--313}\BibitemShut
+  {NoStop}%
+%%CITATION = FERMILAB-CONF-14-223-PPD;%%
+\bibitem [{\citenamefont {Hahn}\ \emph {et~al.}(2014)\citenamefont {Hahn} \emph
+  {et~al.}}]{35tonHahn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Hahn}} \emph {et~al.} (\bibinfo {collaboration} {LBNE}),\ }in\ \href
+  {\doibase 10.1109/NSSMIC.2014.7431158} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 21st Symposium on Room-Temperature Semiconductor X-ray and
+  Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15, 2014}}}}\
+  (\bibinfo {year} {2014})\ p.\ \bibinfo {pages} {7431158}\BibitemShut
+  {NoStop}%
+%%CITATION = FERMILAB-CONF-14-420-PPD;%%
+\bibitem [{\citenamefont {Church}(2013)}]{Church_LArSoft}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont
+  {Church}},\ }\href@noop {} {\enquote {\bibinfo {title} {\emph{LArSoft: A
+  Software Package for Liquid Argon Time Projection Drift Chambers}},}\ }
+  (\bibinfo {year} {2013}),\ \Eprint {http://arxiv.org/abs/arXiv: 1311.6774}
+  {arXiv: 1311.6774} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1311.6774;%%
+\bibitem [{\citenamefont {{The LArSoft collabortion}}(2017)}]{LArSoftOrg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{The LArSoft
+  collabortion}}},\ }\href {http://larsoft.org} {\enquote {\bibinfo {title}
+  {\emph{Software for LArTPCs}},}\ } (\bibinfo {year} {2017})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Brun}\ and\ \citenamefont {Rademakers}(1997)}]{ROOT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Brun}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Rademakers}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{New
+  computing techniques in physics research V. Proceedings, 5th International
+  Workshop, AIHENP '96, Lausanne, Switzerland, September 2-6, 1996}}},\ }\href
+  {\doibase 10.1016/S0168-9002(97)00048-X} {\bibfield  {journal} {\bibinfo
+  {journal} {Nucl. Instrum. Meth.}\ }\textbf {\bibinfo {volume} {A389}},\
+  \bibinfo {pages} {81} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+%%CITATION = NUIMA,A389,81;%%
+\bibitem [{\citenamefont {Agostinelli}\ \emph {et~al.}(2003)\citenamefont
+  {Agostinelli} \emph {et~al.}}]{GEANT4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Agostinelli}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/S0168-9002(03)01368-8} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}\
+  }\textbf {\bibinfo {volume} {506}},\ \bibinfo {pages} {250 } (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andreopoulos}\ \emph {et~al.}(2015)\citenamefont
+  {Andreopoulos} \emph {et~al.}}]{GENIE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Andreopoulos}} \emph {et~al.},\ }\href@noop {} {\enquote {\bibinfo {title}
+  {\emph{The GENIE Neutrino Monte Carlo Generator: Physics and User Manual}},}\
+  } (\bibinfo {year} {2015}),\ \bibinfo {note} {arXiv: 1510.05494}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1510.05494;%%
+\bibitem [{\citenamefont {Casper}(2002)}]{Nuance}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Casper}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 1st International Workshop on Neutrino-nucleus interactions in
+  the few GeV region (NuInt 01): Tsukuba, Japan, December 13-16, 2001}}},\
+  }\href {\doibase 10.1016/S0920-5632(02)01756-5} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl. Phys. Proc. Suppl.}\ }\textbf {\bibinfo {volume}
+  {112}},\ \bibinfo {pages} {161} (\bibinfo {year} {2002})}\BibitemShut
+  {NoStop}%
+%%CITATION = HEP-PH/0208030;%%
+\bibitem [{\citenamefont {Hagman}\ \emph {et~al.}(2012)\citenamefont {Hagman}
+  \emph {et~al.}}]{CRY}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hagman}} \emph {et~al.},\ }\href
+  {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf} {\emph {\bibinfo
+  {title} {{Cosmic-ray Shower Library CRY}}}},\ \bibinfo {type} {Tech. Rep.}\
+  \bibinfo {number} {UCRL-TM-229453}\ (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hagmann}\ \emph {et~al.}(2012)\citenamefont {Hagmann}
+  \emph {et~al.}}]{CRY2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hagmann}} \emph {et~al.},\ }\href
+  {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry_physics.pdf} {\emph
+  {\bibinfo {title} {Monte carlo simulation of proton-induced cosmic-ray
+  cascades in the atmosphere}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {UCRL-TM-229452}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Heck}\ \emph {et~al.}(1998)\citenamefont {Heck} \emph
+  {et~al.}}]{CORSIKA}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Heck}} \emph {et~al.},\ }\href
+  {https://inspirehep.net/record/469835/files/FZKA6019.pdf} {\emph {\bibinfo
+  {title} {{CORSIKA: A Monte Carlo code to simulate extensive air showers}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {FZKA-6019}\ (\bibinfo {year}
+  {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}(2009)}]{MUSUN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Kudryavtsev}},\ }\href {\doibase
+  http://dx.doi.org/10.1016/j.cpc.2008.10.013} {\bibfield  {journal} {\bibinfo
+  {journal} {Computer Physics Communications}\ }\textbf {\bibinfo {volume}
+  {180}},\ \bibinfo {pages} {339 } (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(2003)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSUN2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href {\doibase
+  10.1016/S0168-9002(03)00983-5} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Instrum. Meth.}\ }\textbf {\bibinfo {volume} {A505}},\ \bibinfo
+  {pages} {688} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0303007;%%
+\bibitem [{\citenamefont {Antonioli}\ \emph {et~al.}(1997)\citenamefont
+  {Antonioli} \emph {et~al.}}]{MUSIC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Antonioli}} \emph {et~al.},\ }\href {\doibase 10.1016/S0927-6505(97)00035-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astropart. Phys.}\ }\textbf
+  {\bibinfo {volume} {7}},\ \bibinfo {pages} {357} (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9705408;%%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(1999)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSIC2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href {\doibase
+  10.1016/S0370-2693(99)01378-7} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B471}},\ \bibinfo {pages} {251}
+  (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9911493;%%
+\bibitem [{\citenamefont {Alion}(2014)}]{35tonGeomPage}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Alion}},\ }\href
+  {https://cdcvs.fnal.gov/redmine/projects/lbnecode/wiki/LBNE_Geometries}
+  {\enquote {\bibinfo {title} {\emph{LBNE Geometries}},}\ } (\bibinfo {year}
+  {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Asaadi}\ \emph {et~al.}(2016)\citenamefont {Asaadi}
+  \emph {et~al.}}]{LArSoftRecoNote}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Asaadi}} \emph {et~al.},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689} {\emph
+  {\bibinfo {title} {{The Current Status of Simulation and Reconstruction for
+  the DUNE Far Detector}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {DUNE-doc-1689}\ (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Harris}\ and\ \citenamefont
+  {Stephens}(1988)}]{HarrisTrans}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Harris}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Stephens}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {In Proc. of
+  Fourth Alvey Vision Conference}}}\ (\bibinfo {year} {1988})\ pp.\ \bibinfo
+  {pages} {147--151}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hough}(1959)}]{HoughTrans}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~V.~C.}\
+  \bibnamefont {Hough}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  {{Proceedings, 2nd International Conference on High-Energy Accelerators and
+  Instrumentation, HEACC 1959: CERN, Geneva, Switzerland, September 14-19,
+  1959}}}},\ Vol.\ \bibinfo {volume} {C590914}\ (\bibinfo {year} {1959})\ pp.\
+  \bibinfo {pages} {554--558}\BibitemShut {NoStop}%
+%%CITATION = INSPIRE-919922;%%
+\bibitem [{\citenamefont {Marshall}\ and\ \citenamefont
+  {Thomson}(2015)}]{Pandora}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont
+  {Marshall}}\ and\ \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Thomson}},\ }\href {\doibase 10.1140/epjc/s10052-015-3659-3} {\bibfield
+  {journal} {\bibinfo  {journal} {Eur. Phys. J.}\ }\textbf {\bibinfo {volume}
+  {C75}},\ \bibinfo {pages} {439} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1506.05348;%%
+\bibitem [{\citenamefont {Wallbank}(2016)}]{EMShower}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wallbank}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369} {\emph
+  {\bibinfo {title} {{EMShower Reconstruction}}}},\ \bibinfo {type} {Tech.
+  Rep.}\ \bibinfo {number} {DUNE-doc-1369}\ (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sulej}\ and\ \citenamefont
+  {Stefan}(2016)}]{PMTrackJanCollab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Sulej}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Stefan}},\
+  }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=62&sessionId=40&resId=1&materialId=slides&confId=10276}
+  {\enquote {\bibinfo {title} {\emph{Reconstruction: Projection Matching}},}\
+  }\bibinfo {howpublished} {{Reconstruction working group meeting}} (\bibinfo
+  {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Birks}(1951)}]{BirksModel}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Birks}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Proc.
+  Phys. Soc.}\ }\textbf {\bibinfo {volume} {A64}},\ \bibinfo {pages} {874}
+  (\bibinfo {year} {1951})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acciarri}\ \emph {et~al.}(2013)\citenamefont
+  {Acciarri} \emph {et~al.}}]{PIDA_Paper}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Acciarri}} \emph {et~al.} (\bibinfo {collaboration} {ArgoNeuT
+  Collaboration}),\ }\href {\doibase 10.1088/1748-0221/8/08/P08005} {\bibfield
+  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo {volume} {8}},\
+  \bibinfo {pages} {P08005} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1306.1712;%%
+\bibitem [{\citenamefont {Thomas}\ and\ \citenamefont {Imel}(1987)}]{BoxModel}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Thomas}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Imel}},\ }\href {\doibase 10.1103/PhysRevA.36.614} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {36}},\
+  \bibinfo {pages} {614} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blatter}\ \emph {et~al.}(2014)\citenamefont {Blatter}
+  \emph {et~al.}}]{BlatterEField}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Blatter}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Instrumentation}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {P04006} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Delaquis}\ \emph {et~al.}(2013)\citenamefont
+  {Delaquis} \emph {et~al.}}]{BERNcam}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~C.}\ \bibnamefont
+  {Delaquis}} \emph {et~al.},\ }\href {\doibase 10.1088/1748-0221/8/12/T12001}
+  {\bibfield  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {T12001} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1310.6601;%%
+\bibitem [{\citenamefont {Mavrokoridis}\ \emph {et~al.}(2014)\citenamefont
+  {Mavrokoridis} \emph {et~al.}}]{Liverpool}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Mavrokoridis}} \emph {et~al.},\ }\href {\doibase
+  10.1088/1748-0221/9/02/P02006} {\bibfield  {journal} {\bibinfo  {journal}
+  {JINST}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {P02006}
+  (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1401.0525;%%
+\bibitem [{\citenamefont {Erdal}\ \emph {et~al.}(2015)\citenamefont {Erdal}
+  \emph {et~al.}}]{Weizmannbubbles}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Erdal}} \emph {et~al.},\ }\href {\doibase 10.1088/1748-0221/10/11/P11002}
+  {\bibfield  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo
+  {volume} {10}},\ \bibinfo {pages} {P11002} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1509.02354;%%
+\bibitem [{\citenamefont {McConkey}\ \emph {et~al.}(2017)\citenamefont
+  {McConkey} \emph {et~al.}}]{CameraPaper}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {McConkey}} \emph {et~al.},\ }\href {\doibase 10.1088/1748-0221/12/03/P03014}
+  {\bibfield  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo
+  {volume} {12}},\ \bibinfo {pages} {P03014} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1612.06124;%%
+\bibitem [{\citenamefont {Ghibaudo}\ and\ \citenamefont
+  {Balestra}(1997)}]{thermalnoise1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ghibaudo}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Balestra}},\ }\href {\doibase
+  http://dx.doi.org/10.1016/S0026-2714(97)00007-3} {\bibfield  {journal}
+  {\bibinfo  {journal} {Microelectronics Reliability}\ }\textbf {\bibinfo
+  {volume} {37}},\ \bibinfo {pages} {1353 } (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Zhao}}\ and\ \citenamefont
+  {{Liu}}(2013)}]{thermalnoise2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Zhao}}}\ and\ \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {{Liu}}},\
+  }\href {\doibase 10.1016/j.cryogenics.2013.03.005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Cryogenics}\ }\textbf {\bibinfo {volume} {55}},\
+  \bibinfo {pages} {79} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Antonello}\ \emph {et~al.}(2015)\citenamefont
+  {Antonello} \emph {et~al.}}]{SBNProposal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Antonello}} \emph {et~al.} (\bibinfo {collaboration} {LAr1-ND, ICARUS-WA104
+  and MicroBooNE Collaborations}),\ }\href@noop {} {\enquote {\bibinfo {title}
+  {\emph{A Proposal for a Three Detector Short-Baseline Neutrino Oscillation
+  Program in the Fermilab Booster Neutrino Beam}},}\ } (\bibinfo {year}
+  {2015}),\ \Eprint {http://arxiv.org/abs/arXiv:1503.01520} {arXiv:1503.01520}
+  \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1503.01520;%%
+\bibitem [{\citenamefont {Bethe}(1930)}]{Bethe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Bethe}},\ }\href {\doibase 10.1002/andp.19303970303} {\bibfield  {journal}
+  {\bibinfo  {journal} {Annalen der Physik}\ }\textbf {\bibinfo {volume}
+  {397}},\ \bibinfo {pages} {325} (\bibinfo {year} {1930})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bloch}(1933)}]{Bloch}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Bloch}},\ }\href {\doibase 10.1002/andp.19334080303} {\bibfield  {journal}
+  {\bibinfo  {journal} {Annalen der Physik}\ }\textbf {\bibinfo {volume}
+  {408}},\ \bibinfo {pages} {285} (\bibinfo {year} {1933})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Qian}(2016)}]{XinSeptFNAL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Qian}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=78&sessionId=20&resId=0&materialId=slides&confId=10613}
+  {\enquote {\bibinfo {title} {\emph{A Four-Plane proposal for Single-Phase
+  LArTPC}},}\ }\bibinfo {howpublished} {{Far Detector Sim/Reco working group
+  meeting}} (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Insler}(2016)}]{InslerStuckCode}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Insler}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}
+  {\enquote {\bibinfo {title} {\emph{Module to unstick ADC codes}},}\ }\bibinfo
+  {howpublished} {{35 ton working group meeting}} (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{\relax MicroBooNE
+  Collaboration}}(2016)}]{uBooNENoise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{\relax MicroBooNE
+  Collaboration}}},\ }\href
+  {http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf}
+  {\emph {\bibinfo {title} {{Noise Characterization and Filtering in the
+  MicroBooNE TPC}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {MICROBOONE-NOTE-1016-PUB}\ (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cooley}\ and\ \citenamefont
+  {Turkey}(1965)}]{CoTuFFT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cooley}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Turkey}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Math.
+  Comp.}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {297} (\bibinfo
+  {year} {1965})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wiener}(1942)}]{WienerFilter}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Wiener}},\ }\href@noop {} {\emph {\bibinfo {title} {Extrapolation,
+  Interpolation, and Smoothing of Stationary Time Series}}}\ (\bibinfo
+  {publisher} {[Cambridge]: Technology Press of the Massachusetts Institute of
+  Technology.},\ \bibinfo {year} {1942})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ \emph {et~al.}(2016)\citenamefont {Johnson}
+  \emph {et~al.}}]{35tonNoiseMeeting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Johnson}} \emph {et~al.},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704} {\emph
+  {\bibinfo {title} {{35T Observations and Measurements}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-1704}\ (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bagby}\ \emph {et~al.}(2016)\citenamefont {Bagby}
+  \emph {et~al.}}]{35tonNoiseDoc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Bagby}} \emph {et~al.},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1834} {\emph
+  {\bibinfo {title} {{35T Noise Studies Summary - APA wire readout noise}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-1834}\ (\bibinfo
+  {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}(2016{\natexlab{a}})}]{TingjunClustering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yang}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349}
+  {\enquote {\bibinfo {title} {\emph{Update on reconstruction of 35t data}},}\
+  }\bibinfo {howpublished} {{35 ton working group meeting}} (\bibinfo {year}
+  {2016}{\natexlab{a}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Torr}\ and\ \citenamefont
+  {Zisserman}(2000)}]{MLESAC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Torr}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zisserman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computer Vision and Image Understanding}\ }\textbf {\bibinfo {volume}
+  {78}},\ \bibinfo {pages} {138} (\bibinfo {year} {2000})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Thiesse}(2016)}]{MattMLESAC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Thiesse}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12859}
+  {\enquote {\bibinfo {title} {\emph{Hit Reconstruction and Purity}},}\
+  }\bibinfo {howpublished} {{35 ton working group meeting}} (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Anderson}\ \emph {et~al.}(2012)\citenamefont
+  {Anderson} \emph {et~al.}}]{ArgoNeuT}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Anderson}} \emph {et~al.},\ }\href {\doibase 10.1088/1748-0221/7/10/P10019}
+  {\bibfield  {journal} {\bibinfo  {journal} {JINST}\ }\textbf {\bibinfo
+  {volume} {7}},\ \bibinfo {pages} {P10019} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1205.6747;%%
+\bibitem [{\citenamefont {Yang}(2016{\natexlab{b}})}]{TingjunLifetime}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yang}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396}
+  {\enquote {\bibinfo {title} {\emph{Update on 35 ton analysis}},}\ }\bibinfo
+  {howpublished} {{35 ton working group meeting}} (\bibinfo {year}
+  {2016}{\natexlab{b}})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Derenzo}\ \emph {et~al.}(1974)\citenamefont {Derenzo}
+  \emph {et~al.}}]{1974NucIM.122..319D}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Derenzo}} \emph {et~al.},\ }\href {\doibase 10.1016/0029-554X(74)90495-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Instruments and Methods}\
+  }\textbf {\bibinfo {volume} {122}},\ \bibinfo {pages} {319} (\bibinfo {year}
+  {1974})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Derenzo}(1974)}]{Derenzo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont
+  {Derenzo}},\ }\href@noop {} {\enquote {\bibinfo {title} {\emph{LBL Physics
+  Note No. 786: Electron diffusion and positive ion charge retention in
+  liquid-filled high-resolution multi- strip ionization-mode chambers.}}}\ }
+  (\bibinfo {year} {1974}),\ \bibinfo {note} {unpublished}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Shibamura}\ \emph {et~al.}(1979)\citenamefont
+  {Shibamura} \emph {et~al.}}]{PhysRevA.20.2547}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Shibamura}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevA.20.2547}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo
+  {volume} {20}},\ \bibinfo {pages} {2547} (\bibinfo {year}
+  {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Atrazhev}\ and\ \citenamefont
+  {Timoshkin}(1998)}]{Atrazhev-Timoshkin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~M.}\ \bibnamefont
+  {Atrazhev}}\ and\ \bibinfo {author} {\bibfnamefont {I.~V.}\ \bibnamefont
+  {Timoshkin}},\ }\href {\doibase 10.1109/94.689434} {\bibfield  {journal}
+  {\bibinfo  {journal} {IEEE Trans. Dielectrics and Electrical Insulation}\
+  }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {450} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2016)\citenamefont {Li} \emph
+  {et~al.}}]{Li:2015rqa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Li}}
+  \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2016.01.094} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf {\bibinfo
+  {volume} {A816}},\ \bibinfo {pages} {160} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brailsford}(2016)}]{DomSeptMeeting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Brailsford}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613}
+  {\enquote {\bibinfo {title} {\emph{Looking at electron diffusion in 35t data
+  and MC}},}\ }\bibinfo {howpublished} {{35 ton working group meeting}}
+  (\bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bromberg}\ \emph {et~al.}(2015)\citenamefont
+  {Bromberg} \emph {et~al.}}]{LongBo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Bromberg}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Instrumentation}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {P07015} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Richardson}(2016)}]{MartinsThesis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Richardson}},\ }\emph {\bibinfo {title} {Cosmic ray background estimations
+  in large liquid argon detectors for proton decay via $p \rightarrow K^{+}
+  \bar{\nu}$ and $\nu_{e}$ appearance from $\nu_{\mu}$ beam}},\ \href@noop {}
+  {Ph.D. thesis},\ \bibinfo  {school} {The University of Sheffield} (\bibinfo
+  {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bowden}(2012)}]{LBNE6493}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Bowden}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6493&filename=LBNENearSurfaceReviewrReports.pdf&version=2}
+  {\emph {\bibinfo {title} {{Review Report: Mini-Review of Operation of the
+  LBNE Far Detector at the Surface}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {LBNE-doc-6493}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wright}(2012)}]{Shielding}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Wright}},\ }\href
+  {http://www.slac.stanford.edu/comp/physics/geant4/slac_physics_lists/shielding/physlistdoc.html}
+  {\enquote {\bibinfo {title} {\emph{Shielding Physics List Description}},}\ }
+  (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baller}(2015)}]{LBNE3383}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Baller}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=3383&filename=ParametersAPAsOutsideAug11_2015.pdf&version=59}
+  {\emph {\bibinfo {title} {{LAr-FD Parameters Spreadsheet}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-3383}\ (\bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cherdack}(2013)}]{LBNE7806}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Cherdack}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7806&filename=SoftwarePreMeeting_Talk_DDC.pdf&version=1}
+  {\emph {\bibinfo {title} {{The LBNE Fast MC}}}},\ \bibinfo {type} {Tech.
+  Rep.}\ \bibinfo {number} {LBNE-doc-7806}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barker}\ \emph {et~al.}(2012)\citenamefont {Barker}
+  \emph {et~al.}}]{barker2012muon}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Barker}} \emph {et~al.},\ }\href
+  {http://www.fnal.gov/directorate/lbne_reconfiguration/files/LBNE-Reconfiguration-Surface-Detector-August2012.pdf}
+  {\enquote {\bibinfo {title} {\emph{Muon-induced background for beam neutrinos
+  at the surface}},}\ }\bibinfo {howpublished} {LBNE Reconfiguration Report}
+  (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mei}\ \emph {et~al.}(2012)\citenamefont {Mei} \emph
+  {et~al.}}]{LBNE6621}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Mei}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6621&filename=CosmogenicsSimulationOverview.pdf&version=1}
+  {\emph {\bibinfo {title} {{USD Cosmogenics Backgrounds Simulation
+  Overview}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {LBNE-doc-6621}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coelho}\ \emph {et~al.}(2012)\citenamefont {Coelho}
+  \emph {et~al.}}]{LBNE8458}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Coelho}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8458&filename=DC_LBNE_FEB1.pdf&version=1}
+  {\emph {\bibinfo {title} {{Improving Electron / Gamma Separation}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-8458}\ (\bibinfo
+  {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hitachi}\ \emph {et~al.}(1983)\citenamefont {Hitachi}
+  \emph {et~al.}}]{PhysRevB.27.5279}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Hitachi}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevB.27.5279}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {27}},\ \bibinfo {pages} {5279} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaisser}(1990)}]{Gaisser}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Gaisser}},\ }\href@noop {} {\emph {\bibinfo {title} {{Cosmic rays and
+  particle physics}}}}\ (\bibinfo  {publisher} {Cambridge, UK: Univ. Pr. (1990)
+  279 p},\ \bibinfo {year} {1990})\BibitemShut {NoStop}%
+%%CITATION = ISBN-9780521339315;%%
+\bibitem [{\citenamefont {Aglietta}\ \emph {et~al.}(1998)\citenamefont
+  {Aglietta} \emph {et~al.}}]{PhysRevD.58.092005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Aglietta}} \emph {et~al.} (\bibinfo {collaboration} {LVD Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.58.092005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo
+  {pages} {092005} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dar}(1983)}]{PhysRevLett.51.227}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Dar}},\ }\href {\doibase 10.1103/PhysRevLett.51.227} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {227} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blackwell}\ \emph {et~al.}(2013)\citenamefont
+  {Blackwell} \emph {et~al.}}]{LBNE7517}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Blackwell}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7517&filename=cosmogenics-vk1-130712-v3.pdf&version=3}
+  {\emph {\bibinfo {title} {{Cosmic-ray Spectra from CRY}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-7517}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feldman}\ and\ \citenamefont
+  {Cousins}(1998)}]{PhysRevD.57.3873}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {Feldman}}\ and\ \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Cousins}},\ }\href {\doibase 10.1103/PhysRevD.57.3873} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {57}},\
+  \bibinfo {pages} {3873} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mei}\ \emph {et~al.}(2010)\citenamefont {Mei} \emph
+  {et~al.}}]{Mei:2009py}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Mei}} \emph {et~al.},\ }\href {\doibase 10.1016/j.astropartphys.2010.04.003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astropart. Phys.}\ }\textbf
+  {\bibinfo {volume} {34}},\ \bibinfo {pages} {33} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0912.0211;%%
+\bibitem [{\citenamefont {Gray}\ \emph {et~al.}(2011)\citenamefont {Gray} \emph
+  {et~al.}}]{Gray:2010nc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~E.}\ \bibnamefont
+  {Gray}} \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2011.02.032}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A638}},\ \bibinfo {pages} {63} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1007.1921;%%
+\bibitem [{\citenamefont {Heise}(2014)}]{Heise:2014gta}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Heise}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, Workshop on Dark Matter, Neutrino Physics and Astrophysics
+  CETUP* 2013: 7th International Conference on Interconnection between Particle
+  Physics and Cosmology (PPC 2013): Lead/Deadwood, South Dakota, USA, July,
+  8-13, 2013}}},\ }\href {\doibase 10.1063/1.4883449} {\bibfield  {journal}
+  {\bibinfo  {journal} {AIP Conf. Proc.}\ }\textbf {\bibinfo {volume} {1604}},\
+  \bibinfo {pages} {331} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1401.0861;%%
+\bibitem [{\citenamefont {Cherry}\ \emph {et~al.}(1983)\citenamefont {Cherry}
+  \emph {et~al.}}]{PhysRevD.27.1444}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Cherry}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.27.1444}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {27}},\ \bibinfo {pages} {1444} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abgrall}\ \emph {et~al.}(2016)\citenamefont {Abgrall}
+  \emph {et~al.}}]{Abgrall:2016cfi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Abgrall}} \emph {et~al.} (\bibinfo {collaboration} {MAJORANA}),\ }\href@noop
+  {} {\enquote {\bibinfo {title} {\emph{Muon Flux Measurements at the Davis
+  Campus of the Sanford Underground Research Facility with the Majorana
+  Demonstrator Veto System}},}\ } (\bibinfo {year} {2016}),\ \bibinfo {note}
+  {arXiv: 1602.07742}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1602.07742;%%
+\bibitem [{\citenamefont {Church}(2016)}]{NDKTFNote}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Church}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644} {\emph
+  {\bibinfo {title} {{September 2016 Progress Report from the Atmospheric
+  Neutrinos, Nucleon Decay, and Cosmogenics Working Groups}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-1644}\ (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {de~Jong}(2012)}]{LBNE3144}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {de~Jong}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=3144} {\emph
+  {\bibinfo {title} {{Atmospheric Muon Simulation for LBNE}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-3144}\ (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(2014)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSUNLBNE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673} {\emph
+  {\bibinfo {title} {{Muon simulations for LBNE using MUSIC and MUSUN}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-9673}\ (\bibinfo
+  {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Robinson}(2017)}]{CosmoJanCollabMeeting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Robinson}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641}
+  {\enquote {\bibinfo {title} {\emph{Cosmogenic background to nucelon
+  decay}},}\ }\bibinfo {howpublished} {{Cosmogenics working group meeting}}
+  (\bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barrow}\ and\ \citenamefont
+  {others.}(2017)}]{FDTFMarch2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Barrow}}\ and\ \bibinfo {author} {\bibnamefont {others.}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2689} {\emph
+  {\bibinfo {title} {{Nucleon Decay, Atmospheric Neutrino, and Cosmogenic
+  Physics for FDTF Final Report}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {DUNE-doc-2689}\ (\bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stefan}\ and\ \citenamefont
+  {Ankowski}(2009)}]{Stefan:2008zi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Stefan}}\ and\ \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Ankowski}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Trends
+  in nuclear physics. Proceedings, 43rd Conference on Nuclear Physics,
+  Zakopane, Poland, September 1-7, 2008}}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Phys. Polon.}\ }\textbf {\bibinfo
+  {volume} {B40}},\ \bibinfo {pages} {671} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0811.1892;%%
+\bibitem [{\citenamefont {Wood}(2016)}]{KevinSeptCollab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Wood}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=98&sessionId=25&resId=0&materialId=slides&confId=10613}
+  {\enquote {\bibinfo {title} {\emph{Reconstruction Efficiencies of
+  Scintillation Light from PDK events}},}\ }\bibinfo {howpublished}
+  {{Cosmogenics working group meeting}} (\bibinfo {year} {2016})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Higuera}(2017{\natexlab{a}})}]{AAron_17_02_08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Higuera}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=13789}
+  {\enquote {\bibinfo {title} {\emph{Proton Decay at DUNE $p \rightarrow
+  $K$^{+} + \overline{\nu_{e}}$}},}\ }\bibinfo {howpublished} {Cosmogenics
+  working group meeting} (\bibinfo {year} {2017}{\natexlab{a}})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yang}(2017)}]{Tingjun_17_02_08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yang}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=13789}
+  {\enquote {\bibinfo {title} {\emph{Updates on reconstruction}},}\ }\bibinfo
+  {howpublished} {{Cosmogenics working group meeting}} (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Higuera}(2017{\natexlab{b}})}]{Aaron_17_03_01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Higuera}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13947}
+  {\enquote {\bibinfo {title} {\emph{Proton Decay at DUNE $p \rightarrow
+  $K$^{+} + \overline{\nu_{e}}$ and $^{39}$Ar}},}\ }\bibinfo {howpublished}
+  {{Cosmogenics working group meeting}} (\bibinfo {year}
+  {2017}{\natexlab{b}})\BibitemShut {NoStop}%
+\end{thebibliography}%

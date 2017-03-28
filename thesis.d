@@ -39,7 +39,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texl
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/everypage/everypage.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcprefix.sty)
@@ -57,9 +56,7 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texl
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.sty)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/nomencl/nomencl.sty)
@@ -73,7 +70,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texl
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/mathptmx.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx.sty)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/textpos/textpos.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty)
@@ -97,9 +93,9 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Theory/Theory.t
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
--include Figs/University_Crest.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/University_Crest.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.png)
+-include Figs/University_Crest.pdf.gpi.d
+thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
 -include Theory/Figs/Raster/MassHierarchy.png.gpi.d
 thesis.d: $$(call graphics-source,Theory/Figs/Raster/MassHierarchy.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,Theory/Figs/Raster/MassHierarchy.png)
