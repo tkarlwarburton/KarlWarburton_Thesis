@@ -21,7 +21,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 11697 items from 5000.
+Reallocated field_info (elt_size=4) to 11808 items from 5000.
 Database file #1: References/references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
@@ -67,45 +67,45 @@ Warning--missing institution in NDKTFNote
 Warning--missing institution in LBNE3144
 Warning--missing institution in MUSUNLBNE
 Warning--missing institution in FDTFMarch2017
-You've used 181 entries,
+You've used 184 entries,
             5847 wiz_defined-function locations,
-            2936 strings with 50116 characters,
-and the built_in function-call counts, 145653 in all, are:
-= -- 10855
-> -- 2698
-< -- 824
-+ -- 978
-- -- 594
-* -- 20951
-:= -- 15716
-add.period$ -- 211
-call.type$ -- 181
-change.case$ -- 769
-chr.to.int$ -- 169
-cite$ -- 216
-duplicate$ -- 13940
-empty$ -- 11134
-format.name$ -- 1740
-if$ -- 28668
+            2954 strings with 50830 characters,
+and the built_in function-call counts, 148059 in all, are:
+= -- 11039
+> -- 2744
+< -- 838
++ -- 994
+- -- 604
+* -- 21299
+:= -- 15976
+add.period$ -- 215
+call.type$ -- 184
+change.case$ -- 782
+chr.to.int$ -- 172
+cite$ -- 219
+duplicate$ -- 14166
+empty$ -- 11315
+format.name$ -- 1770
+if$ -- 29144
 int.to.chr$ -- 13
-int.to.str$ -- 189
-missing$ -- 1719
-newline$ -- 658
-num.names$ -- 543
-pop$ -- 5529
+int.to.str$ -- 192
+missing$ -- 1746
+newline$ -- 667
+num.names$ -- 552
+pop$ -- 5617
 preamble$ -- 1
-purify$ -- 905
+purify$ -- 920
 quote$ -- 0
-skip$ -- 5623
+skip$ -- 5718
 stack$ -- 0
-substring$ -- 3898
-swap$ -- 12323
-text.length$ -- 238
+substring$ -- 3964
+swap$ -- 12526
+text.length$ -- 242
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 2286
+type$ -- 2324
 warning$ -- 35
-while$ -- 480
+while$ -- 488
 width$ -- 0
-write$ -- 1561
+write$ -- 1585
 (There were 35 warnings)

@@ -15,12 +15,12 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces The angles which tracks, with given counter differences, have relative to the APA frames}}{113}{table.caption.76}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {6.1}{\ignorespaces The minimum energies of simulated particles, when determining the cosmogenic background for the LBNE surface detector}}{155}{table.caption.104}
-\contentsline {table}{\numberline {6.2}{\ignorespaces The normalised background rate per calender year for the \emph {simple} detector geometry, using the flat surface profile}}{156}{table.caption.105}
-\contentsline {table}{\numberline {6.3}{\ignorespaces The normalised background rate per calender year, for events where a primary muon enters the active volume of the detector, for the \emph {complex} geometry and accurate surface profile}}{157}{table.caption.106}
-\contentsline {table}{\numberline {6.4}{\ignorespaces The normalised background rate per calender year, for events where a primary muon misses the active volume of the detector, for the \emph {complex} geometry and accurate surface profile}}{158}{table.caption.107}
-\contentsline {table}{\numberline {6.5}{\ignorespaces The normalised background rate per calender year, for proton induced events, for the \emph {complex} geometry}}{159}{table.caption.108}
-\contentsline {table}{\numberline {6.6}{\ignorespaces The normalised background rate per calender year, for neutron induced events, for the \emph {complex} geometry}}{160}{table.caption.109}
-\contentsline {table}{\numberline {6.7}{\ignorespaces The normalised background rate per calender year for the \emph {simple} detector geometry and flat surface profile, and for the \emph {complex} geometry and accurate surface profile}}{161}{table.caption.110}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The normalised background rate per calendar year for the \emph {simple} detector geometry, using the flat surface profile}}{156}{table.caption.105}
+\contentsline {table}{\numberline {6.3}{\ignorespaces The normalised background rate per calendar year, for events where a primary muon enters the active volume of the detector, for the \emph {complex} geometry and accurate surface profile}}{157}{table.caption.106}
+\contentsline {table}{\numberline {6.4}{\ignorespaces The normalised background rate per calendar year, for events where a primary muon misses the active volume of the detector, for the \emph {complex} geometry and accurate surface profile}}{158}{table.caption.107}
+\contentsline {table}{\numberline {6.5}{\ignorespaces The normalised background rate per calendar year, for proton induced events, for the \emph {complex} geometry}}{159}{table.caption.108}
+\contentsline {table}{\numberline {6.6}{\ignorespaces The normalised background rate per calendar year, for neutron induced events, for the \emph {complex} geometry}}{160}{table.caption.109}
+\contentsline {table}{\numberline {6.7}{\ignorespaces The normalised background rate per calendar year for the \emph {simple} detector geometry and flat surface profile, and for the \emph {complex} geometry and accurate surface profile}}{161}{table.caption.110}
 \contentsline {table}{\numberline {6.8}{\ignorespaces Muon flux parameters as calculated with MUSIC/MUSUN.}}{163}{table.caption.112}
 \contentsline {table}{\numberline {6.9}{\ignorespaces The number of events which could mimic a $n \rightarrow K^{+} + e^{-}$ decay, when cuts are applied in isolation}}{175}{table.caption.118}
 \contentsline {table}{\numberline {6.10}{\ignorespaces The most common decay modes of charged kaons, and their probabilities}}{180}{table.caption.123}

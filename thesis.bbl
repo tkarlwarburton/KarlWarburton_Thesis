@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{181}%
+\begin{thebibliography}{184}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -202,10 +202,10 @@
   \emph {et~al.}}]{Ahmad:2001an}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.~R.}\ \bibnamefont
-  {Ahmad}} \emph {et~al.} (\bibinfo {collaboration} {SNO}),\ }\href {\doibase
-  10.1103/PhysRevLett.87.071301} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {pages}
-  {071301} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+  {Ahmad}} \emph {et~al.} (\bibinfo {collaboration} {SNO Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevLett.87.071301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {87}},\
+  \bibinfo {pages} {071301} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
 %%CITATION = NUCL-EX/0106015;%%
 \bibitem [{\citenamefont {Maki}\ \emph {et~al.}(1962)\citenamefont {Maki} \emph
   {et~al.}}]{PMNS}%
@@ -334,10 +334,11 @@
   {et~al.}}]{Planck}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~A.~R.}\
-  \bibnamefont {Ade}} \emph {et~al.} (\bibinfo {collaboration} {Planck}),\
-  }\href {\doibase 10.1051/0004-6361/201525830} {\bibfield  {journal} {\bibinfo
-   {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo {volume} {594}},\
-  \bibinfo {pages} {A13} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+  \bibnamefont {Ade}} \emph {et~al.} (\bibinfo {collaboration} {Planck
+  Collaboration}),\ }\href {\doibase 10.1051/0004-6361/201525830} {\bibfield
+  {journal} {\bibinfo  {journal} {Astron. Astrophys.}\ }\textbf {\bibinfo
+  {volume} {594}},\ \bibinfo {pages} {A13} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
 %%CITATION = ARXIV:1502.01589;%%
 \bibitem [{\citenamefont {Mertens}(2015)}]{KATRIN}%
   \BibitemOpen
@@ -469,6 +470,33 @@
   {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo
   {volume} {76}},\ \bibinfo {pages} {575 } (\bibinfo {year}
   {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pati}\ \emph {et~al.}(1983)\citenamefont {Pati} \emph
+  {et~al.}}]{PATI1983330}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Pati}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/0370-2693(83)90157-0} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume}
+  {133}},\ \bibinfo {pages} {330 } (\bibinfo {year} {1983})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mohapatra}\ and\ \citenamefont
+  {Marshak}(1980)}]{PhysRevLett.44.1316}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~N.}\ \bibnamefont
+  {Mohapatra}}\ and\ \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Marshak}},\ }\href {\doibase 10.1103/PhysRevLett.44.1316} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {44}},\ \bibinfo {pages} {1316} (\bibinfo {year}
+  {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berger}\ \emph {et~al.}(1991)\citenamefont {Berger}
+  \emph {et~al.}}]{berger:in2p3-00015565}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Berger}} \emph {et~al.} (\bibinfo {collaboration} {Fr\'{e}jus
+  Collaboration}),\ }\href {http://hal.in2p3.fr/in2p3-00015565} {\bibfield
+  {journal} {\bibinfo  {journal} {{Physics Letters B}}\ }\textbf {\bibinfo
+  {volume} {269}},\ \bibinfo {pages} {227} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Vissani}(1995)}]{Vissani:1995hp}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
@@ -493,20 +521,14 @@
   {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo {volume}
   {133}},\ \bibinfo {pages} {454 } (\bibinfo {year} {1983})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {Berger}\ \emph {et~al.}(1991)\citenamefont {Berger}
-  \emph {et~al.}}]{berger:in2p3-00015565}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Berger}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {{Physics Letters B}}\ }\textbf {\bibinfo {volume} {269}},\
-  \bibinfo {pages} {227} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Goodman}(1999)}]{SoudanLim}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
-  {Goodman}} (\bibinfo {collaboration} {Soudan-2}),\ }in\ \href@noop {} {\emph
-  {\bibinfo {booktitle} {{Proceedings of the 26th International Cosmic Ray
-  Conference. August 17-25, 1999. Salt Lake City, Utah, USA}}}}\ (\bibinfo
-  {year} {1999})\ p.\ \bibinfo {pages} {364}\BibitemShut {NoStop}%
+  {Goodman}} (\bibinfo {collaboration} {Soudan-2 Collaboration}),\ }in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {{Proceedings of the 26th
+  International Cosmic Ray Conference. August 17-25, 1999. Salt Lake City,
+  Utah, USA}}}}\ (\bibinfo {year} {1999})\ p.\ \bibinfo {pages}
+  {364}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gajewski}\ \emph {et~al.}(1990)\citenamefont
   {Gajewski} \emph {et~al.}}]{Gajewski:1989gh}%
   \BibitemOpen
@@ -842,19 +864,21 @@
   \emph {et~al.}}]{Aartsen:2012kia}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
-  {Aartsen}} \emph {et~al.} (\bibinfo {collaboration} {IceCube}),\ }\href
-  {\doibase 10.1103/PhysRevLett.110.131302} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo
-  {pages} {131302} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  {Aartsen}} \emph {et~al.} (\bibinfo {collaboration} {IceCube
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.110.131302} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {110}},\ \bibinfo {pages} {131302} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
 %%CITATION = ARXIV:1212.4097;%%
 \bibitem [{\citenamefont {Choi}\ \emph {et~al.}(2015)\citenamefont {Choi} \emph
   {et~al.}}]{Choi:2015ara}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Choi}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande}),\ }\href
-  {\doibase 10.1103/PhysRevLett.114.141301} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {114}},\ \bibinfo
-  {pages} {141301} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+  {Choi}} \emph {et~al.} (\bibinfo {collaboration} {Super-Kamiokande
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.114.141301} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {114}},\ \bibinfo {pages} {141301} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 %%CITATION = ARXIV:1503.04858;%%
 \bibitem [{\citenamefont {Beacom}(2010)}]{Beacom:2010kk}%
   \BibitemOpen
@@ -903,9 +927,9 @@
   {Montanari} \emph {et~al.}}]{35tonMontanari}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Montanari}} \emph {et~al.} (\bibinfo {collaboration} {LBNE}),\ }in\ \href
-  {\doibase 10.1016/j.phpro.2015.06.092} {\emph {\bibinfo {booktitle}
-  {{Proceedings, International Cryogenic Engineering Conference and
+  {Montanari}} \emph {et~al.} (\bibinfo {collaboration} {LBNE Collaboration}),\
+  }in\ \href {\doibase 10.1016/j.phpro.2015.06.092} {\emph {\bibinfo
+  {booktitle} {{Proceedings, International Cryogenic Engineering Conference and
   International Cryogenic Materials Conference 2014 (ICEC 25 – ICMC 2014):
   Enschede, The Netherlands, July 7-11, 2014}}}},\ Vol.~\bibinfo {volume} {67}\
   (\bibinfo {year} {2014})\ pp.\ \bibinfo {pages} {308--313}\BibitemShut
@@ -915,8 +939,8 @@
   {et~al.}}]{35tonHahn}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Hahn}} \emph {et~al.} (\bibinfo {collaboration} {LBNE}),\ }in\ \href
-  {\doibase 10.1109/NSSMIC.2014.7431158} {\emph {\bibinfo {booktitle}
+  {Hahn}} \emph {et~al.} (\bibinfo {collaboration} {LBNE Collaboration}),\ }in\
+  \href {\doibase 10.1109/NSSMIC.2014.7431158} {\emph {\bibinfo {booktitle}
   {{Proceedings, 21st Symposium on Room-Temperature Semiconductor X-ray and
   Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15, 2014}}}}\
   (\bibinfo {year} {2014})\ p.\ \bibinfo {pages} {7431158}\BibitemShut
@@ -1004,6 +1028,21 @@
   {title} {{CORSIKA: A Monte Carlo code to simulate extensive air showers}}}},\
   \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {FZKA-6019}\ (\bibinfo {year}
   {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaisser}(1990)}]{Gaisser}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Gaisser}},\ }\href@noop {} {\emph {\bibinfo {title} {{Cosmic rays and
+  particle physics}}}}\ (\bibinfo  {publisher} {Cambridge, UK: Univ. Pr. (1990)
+  279 p},\ \bibinfo {year} {1990})\BibitemShut {NoStop}%
+%%CITATION = ISBN-9780521339315;%%
+\bibitem [{\citenamefont {Warburton}(2015)}]{GaisserPres}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Warburton}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=9922}
+  {\enquote {\bibinfo {title} {\emph{PLAN TO ADD T0 CALCULATIONS TO
+  CALORIMETRY}},}\ }\bibinfo {howpublished} {{35 ton working group meeting}}
+  (\bibinfo {year} {2015})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kudryavtsev}(2009)}]{MUSUN}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
@@ -1438,13 +1477,6 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
   {volume} {27}},\ \bibinfo {pages} {5279} (\bibinfo {year}
   {1983})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gaisser}(1990)}]{Gaisser}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
-  {Gaisser}},\ }\href@noop {} {\emph {\bibinfo {title} {{Cosmic rays and
-  particle physics}}}}\ (\bibinfo  {publisher} {Cambridge, UK: Univ. Pr. (1990)
-  279 p},\ \bibinfo {year} {1990})\BibitemShut {NoStop}%
-%%CITATION = ISBN-9780521339315;%%
 \bibitem [{\citenamefont {Aglietta}\ \emph {et~al.}(1998)\citenamefont
   {Aglietta} \emph {et~al.}}]{PhysRevD.58.092005}%
   \BibitemOpen
@@ -1517,11 +1549,11 @@
   \emph {et~al.}}]{Abgrall:2016cfi}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {Abgrall}} \emph {et~al.} (\bibinfo {collaboration} {MAJORANA}),\ }\href@noop
-  {} {\enquote {\bibinfo {title} {\emph{Muon Flux Measurements at the Davis
-  Campus of the Sanford Underground Research Facility with the Majorana
-  Demonstrator Veto System}},}\ } (\bibinfo {year} {2016}),\ \bibinfo {note}
-  {arXiv: 1602.07742}\BibitemShut {NoStop}%
+  {Abgrall}} \emph {et~al.} (\bibinfo {collaboration} {MAJORANA
+  Collaboration}),\ }\href@noop {} {\enquote {\bibinfo {title} {\emph{Muon Flux
+  Measurements at the Davis Campus of the Sanford Underground Research Facility
+  with the Majorana Demonstrator Veto System}},}\ } (\bibinfo {year} {2016}),\
+  \bibinfo {note} {arXiv: 1602.07742}\BibitemShut {NoStop}%
 %%CITATION = ARXIV:1602.07742;%%
 \bibitem [{\citenamefont {Church}(2016)}]{NDKTFNote}%
   \BibitemOpen

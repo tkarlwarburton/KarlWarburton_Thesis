@@ -159,12 +159,12 @@
 \@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces The angles which tracks, with given counter differences, have relative to the APA frames}}{113}{table.caption.76}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.10}{\ignorespaces The most common decay modes of charged kaons, and their probabilities}}{180}{table.caption.123}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces The minimum energies of simulated particles, when determining the cosmogenic background for the LBNE surface detector}}{155}{table.caption.104}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces The normalised background rate per calender year for the \emph  {simple} detector geometry, using the flat surface profile}}{156}{table.caption.105}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces The normalised background rate per calender year, for events where a primary muon enters the active volume of the detector, for the \emph  {complex} geometry and accurate surface profile}}{157}{table.caption.106}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces The normalised background rate per calender year, for events where a primary muon misses the active volume of the detector, for the \emph  {complex} geometry and accurate surface profile}}{158}{table.caption.107}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.5}{\ignorespaces The normalised background rate per calender year, for proton induced events, for the \emph  {complex} geometry}}{159}{table.caption.108}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.6}{\ignorespaces The normalised background rate per calender year, for neutron induced events, for the \emph  {complex} geometry}}{160}{table.caption.109}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.7}{\ignorespaces The normalised background rate per calender year for the \emph  {simple} detector geometry and flat surface profile, and for the \emph  {complex} geometry and accurate surface profile}}{161}{table.caption.110}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces The normalised background rate per calendar year for the \emph  {simple} detector geometry, using the flat surface profile}}{156}{table.caption.105}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces The normalised background rate per calendar year, for events where a primary muon enters the active volume of the detector, for the \emph  {complex} geometry and accurate surface profile}}{157}{table.caption.106}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces The normalised background rate per calendar year, for events where a primary muon misses the active volume of the detector, for the \emph  {complex} geometry and accurate surface profile}}{158}{table.caption.107}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.5}{\ignorespaces The normalised background rate per calendar year, for proton induced events, for the \emph  {complex} geometry}}{159}{table.caption.108}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.6}{\ignorespaces The normalised background rate per calendar year, for neutron induced events, for the \emph  {complex} geometry}}{160}{table.caption.109}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.7}{\ignorespaces The normalised background rate per calendar year for the \emph  {simple} detector geometry and flat surface profile, and for the \emph  {complex} geometry and accurate surface profile}}{161}{table.caption.110}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.8}{\ignorespaces Muon flux parameters as calculated with MUSIC/MUSUN.}}{163}{table.caption.112}}
 \@writefile{lot}{\contentsline {table}{\numberline {6.9}{\ignorespaces The number of events which could mimic a $n \rightarrow K^{+} + e^{-}$ decay, when cuts are applied in isolation}}{175}{table.caption.118}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}Supporting figures to Monte Carlo studies concerning determining interaction times using the effects of diffusion}{212}{Appendix.a.A}}
@@ -334,6 +334,8 @@
 \citation{GEANT4}
 \citation{GENIE}
 \citation{GENIE}
+\citation{GaisserPres}
+\citation{Gaisser}
 \citation{Gaisser}
 \citation{Gaisser}
 \citation{Gajewski:1989gh}
@@ -437,8 +439,10 @@
 \citation{Nuance}
 \citation{Nunokawa:2007qh}
 \citation{P5Doc}
+\citation{PATI1983330,PhysRevLett.44.1316}
 \citation{PDG2012,Nishino:2012bnw}
 \citation{PDG2012,Nishino:2012bnw}
+\citation{PDGReview}
 \citation{PDGReview}
 \citation{PDGReview}
 \citation{PDGReview}
@@ -554,6 +558,7 @@
 \citation{XinSeptFNAL}
 \citation{barker2012muon}
 \citation{berger:in2p3-00015565}
+\citation{berger:in2p3-00015565}
 \citation{thermalnoise1,thermalnoise2}
 \citation{uBooNENoise}
 \citation{uBooNENoise}
@@ -668,7 +673,7 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{181}
+\setcounter{NAT@ctr}{184}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
