@@ -1,0 +1,2361 @@
+% ------------A------------------------------------------------------------
+% BIBLIOGRAPHY FILE
+% ------------------------------------------------------------------------
+
+% Examples of how to write references http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/IEEEtran/bibtex/IEEEexample.bib
+%  The pdf which goes with that .bib  http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf
+
+% ==================== Intro/Theory chapter ====================
+@article{HiggsAtlas,
+ author         = "Aad, G. and others",
+ title          = "{Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC}",
+ collaboration  = "ATLAS Collaboration",
+ journal        = "Phys. Lett.",
+ volume         = "B716",
+ year           = "2012",
+ pages          = "1-29",
+ doi            = "10.1016/j.physletb.2012.08.020",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ reportNumber   = "CERN-PH-EP-2012-218",
+ SLACcitation   = "%%CITATION = ARXIV:1207.7214;%%"
+}
+%eprint         = "1207.7214",
+
+@article{HiggsCMS,
+ author         = "Chatrchyan, S. and others",
+ title          = "{Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC}",
+ collaboration  = "CMS Collaboration",
+ journal        = "Phys. Lett.",
+ volume         = "B716",
+ year           = "2012",
+ pages          = "30-61",
+ doi            = "10.1016/j.physletb.2012.08.021",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ reportNumber   = "CMS-HIG-12-028, CERN-PH-EP-2012-220",
+ SLACcitation   = "%%CITATION = ARXIV:1207.7235;%%"
+}
+%eprint         = "1207.7235",
+ 
+@article{LIGO,
+  title = {Observation of Gravitational Waves from a Binary Black Hole Merger},
+  author = "Abbott, B. P. and others",
+  collaboration = {LIGO Scientific Collaboration and Virgo Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {116},
+  issue = {6},
+  pages = {061102},
+  numpages = {16},
+  year = {2016},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.116.061102}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.116.061102}
+
+@article{PhysRevLett.81.1562,
+  title = {Evidence for Oscillation of Atmospheric Neutrinos},
+  author = "Fukuda, Y. and others",
+  collaboration = {Super-Kamiokande Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {81},
+  issue = {8},
+  pages = {1562--1567},
+  numpages = {0},
+  year = {1998},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.81.1562}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.1562}
+
+@article{PhysRevLett.89.011301,
+  title = {Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory},
+  author = "Ahmad, Q. R. and others",
+  collaboration = {SNO Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {89},
+  issue = {1},
+  pages = {011301},
+  numpages = {6},
+  year = {2002},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.89.011301}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.89.011301}
+
+%%%% Translation at http://aapt.scitation.org/doi/10.1119/1.1974382
+@article{Fermi:1934hr,
+ author         = "Fermi, E.",
+ title          = "{An attempt of a theory of beta radiation. 1.}",
+ journal        = "Z. Phys.",
+ volume         = "88",
+ year           = "1934",
+ pages          = "161-177",
+ doi            = "10.1007/BF01351864",
+ reportNumber   = "UCRL-TRANS-726",
+ SLACcitation   = "%%CITATION = ZEPYA,88,161;%%"
+}
+
+@Misc{Pauli,
+  author = "Pauli, W.",
+  title  = "\emph{Open letter to the Gauverein meeting in Tubingen}",
+  month  = "Dec",
+  year   = "1930"
+}
+%url    = "http://microboone-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=953;filename=pauli\%20letter1930.pdf",
+
+@article{NeutMassLim1,
+  title = {Maximum $\ensuremath{\beta}$-Energies and the Mass of the Neutrino},
+  author = {Kofoed-Hansen, O.},
+  journal = {Phys. Rev.},
+  volume = {71},
+  issue = {7},
+  pages = {451--452},
+  numpages = {0},
+  year = {1947},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.71.451}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRev.71.451}
+
+@article{NeutMassLim2,
+  title = {The $\ensuremath{\beta}$-Spectrum of ${\mathrm{H}}^{3}$},
+  author = {Hanna, G. C. and Pontecorvo, B.},
+  journal = {Phys. Rev.},
+  volume = {75},
+  issue = {6},
+  pages = {983--984},
+  numpages = {0},
+  year = {1949},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.75.983.3}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRev.75.983.3}
+
+@article{NeutMassLim3,
+  title = {The Beta-Spectrum of Tritium and the Mass of the Neutrino},
+  author = {Langer, L. M. and Moffat, R. J. D.},
+  journal = {Phys. Rev.},
+  volume = {88},
+  issue = {4},
+  pages = {689--694},
+  numpages = {0},
+  year = {1952},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRev.88.689}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRev.88.689}
+
+@article{Cowan:1992xc,
+ author         = "Cowan, C. L. and others",
+ title          = "{Detection of the free neutrino: A Confirmation}",
+ journal        = "Science",
+ volume         = "124",
+ year           = "1956",
+ pages          = "103-104",
+ doi            = "10.1126/science.124.3212.103",
+ SLACcitation   = "%%CITATION = SCIEA,124,103;%%"
+}
+
+@article{PhysRevLett.9.36,
+  title = {Observation of High-Energy Neutrino Reactions and the Existence of Two Kinds of Neutrinos},
+  author = "Danby, G. and others",
+  journal = {Phys. Rev. Lett.},
+  volume = {9},
+  issue = {1},
+  pages = {36--44},
+  numpages = {0},
+  year = {1962},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.9.36}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.9.36}
+
+@article{RayDavis1968,
+ title = {Search for Neutrinos from the Sun},
+ author = {Davis, R. and others},
+ journal = {Phys. Rev. Lett.},
+ volume = {20},
+ issue = {21},
+ pages = {1205--1209},
+ numpages = {0},
+ year = {1968},
+ month = {May},
+ publisher = {American Physical Society},
+ doi = {10.1103/PhysRevLett.20.1205}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.20.1205}
+
+%Daily, Timothy and Davis, Jr., Raymond and Distel, James R. and Lande, Kenneth and Lee, C. K. and Wildenhain, Paul S. and Ullman, Jack",
+@article{RayDavis1988,
+ author         = "Cleveland, B. T. and others",
+ title          = "{Measurement of the solar electron neutrino flux with the Homestake chlorine detector}",
+ journal        = "Astrophys. J.",
+ volume         = "496",
+ year           = "1998",
+ pages          = "505-526",
+ doi            = "10.1086/305343",
+ SLACcitation   = "%%CITATION = ASJOA,496,505;%%"
+}
+
+@article{Pontecorvo1957,
+ author         = "Pontecorvo, B.",
+ title          = "{Mesonium and anti-mesonium}",
+ journal        = "Sov. Phys. JETP",
+ volume         = "6",
+ year           = "1957",
+ pages          = "429",
+ note           = "[Zh. Eksp. Teor. Fiz.33,549(1957)]",
+ SLACcitation   = "%%CITATION = SPHJA,6,429;%%"
+}
+
+@article{PhysRevLett.63.16,
+  title = {Observation of $^{8}$B solar neutrinos in the Kamiokande-II detector},
+  author = "Hirata, K. S. and others",
+  journal = {Phys. Rev. Lett.},
+  volume = {63},
+  issue = {1},
+  pages = {16--19},
+  numpages = {0},
+  year = {1989},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.63.16}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.63.16}
+
+@article{PhysRevLett.35.1489,
+  title = {Evidence for Anomalous Lepton Production in ${e}^{+}\ensuremath{-}{e}^{\ensuremath{-}}$ Annihilation},
+  author = "Perl, M. L. and others",
+  journal = {Phys. Rev. Lett.},
+  volume = {35},
+  issue = {22},
+  pages = {1489--1492},
+  numpages = {0},
+  year = {1975},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.35.1489}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.35.1489}
+
+@article{Kodama2001218,
+ author = "K. Kodama and others",
+ title = "Observation of tau neutrino interactions ",
+ journal = "Physics Letters B ",
+ volume = "504",
+ number = "3",
+ pages = "218 - 224",
+ year = "2001",
+ note = "",
+ issn = "0370-2693",
+ doi = "http://dx.doi.org/10.1016/S0370-2693(01)00307-0"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/S0370269301003070"
+
+@article{Ahmad:2001an,
+ author         = "Ahmad, Q. R. and others",
+ title          = "{Measurement of the rate of $\nu_e+d \to p+p+e^-$ interactions produced by $^8B$ solar neutrinos at the Sudbury Neutrino Observatory}",
+ collaboration  = "SNO Collaboration",
+ journal        = "Phys. Rev. Lett.",
+ volume         = "87",
+ year           = "2001",
+ pages          = "071301",
+ doi            = "10.1103/PhysRevLett.87.071301",
+ archivePrefix  = "arXiv",
+ primaryClass   = "nucl-ex",
+ reportNumber   = "UPR-0240E",
+ SLACcitation   = "%%CITATION = NUCL-EX/0106015;%%"
+}
+%eprint         = "nucl-ex/0106015",
+
+@article{PMNS,
+ author = {Maki, Z. and others},
+ title = {Remarks on the Unified Model of Elementary Particles},
+ journal = {Progress of Theoretical Physics},
+ volume = {28},
+ number = {5},
+ pages = {870},
+ year = {1962},
+ doi = {10.1143/PTP.28.870}
+}
+%URL = { + http://dx.doi.org/10.1143/PTP.28.870}
+%eprint = {/oup/backfile/Content_public/Journal/ptp/28/5/10.1143/PTP.28.870/2/28-5-870.pdf}
+
+@article{SNO+,
+ author         = "Andringa, S. and others",
+ title          = "{Current Status and Future Prospects of the SNO+ Experiment}",
+ collaboration  = "SNO+ Collaboration",
+ journal        = "Adv. High Energy Phys.",
+ volume         = "2016",
+ year           = "2016",
+ pages          = "6194250",
+ doi            = "10.1155/2016/6194250",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1508.05759;%%"
+}
+%eprint         = "1508.05759",
+
+@Article{SuperNEMO,
+ author="Arnold, R. and others",
+ title="Probing new physics models of neutrinoless double beta decay with SuperNEMO",
+ journal="The European Physical Journal C",
+ year="2010",
+ volume="70",
+ number="4",
+ pages="927--943",
+ issn="1434-6052",
+ doi="10.1140/epjc/s10052-010-1481-5"
+}
+%url="http://dx.doi.org/10.1140/epjc/s10052-010-1481-5"
+
+@article{2008NIMPA.596..190M,
+ author        = "Michael, D. and others",
+ collaboration = "{Minos Collaboration}",
+ title         = "{The magnetized steel and scintillator calorimeters of the MINOS experiment}",
+ journal       = "{Nuclear Instruments and Methods in Physics Research A}",
+ year   = {2008},
+ month  = {Nov},
+ volume = {596},
+ pages  = {190-228},
+ doi    = {10.1016/j.nima.2008.08.003}
+}
+
+@techreport{Tzanankos:2011zz,
+ author         = "Tzanankos, G. and others",
+ title          = "{MINOS+: a Proposal to FNAL to run MINOS with the medium energy NuMI beam}",
+ collaboration  = "MINOS+ Collaboration",
+ year           = "2011",
+ number         = "FERMILAB-PROPOSAL-1016",
+ SLACcitation   = "%%CITATION = FERMILAB-PROPOSAL-1016;%%"
+}
+
+@article{Nunokawa:2007qh,
+ author         = "Nunokawa, H. and others",
+ title          = "{CP Violation and Neutrino Oscillations}",
+ journal        = "Prog. Part. Nucl. Phys.",
+ volume         = "60",
+ year           = "2008",
+ pages          = "338-402",
+ doi            = "10.1016/j.ppnp.2007.10.001",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "FERMILAB-PUB-07-521-T, IFIC-07-58",
+ SLACcitation   = "%%CITATION = ARXIV:0710.0554;%%"
+}
+%eprint         = "0710.0554",
+
+@article{PhysRevLett.10.531,
+  title = {Unitary Symmetry and Leptonic Decays},
+  author = {Cabibbo, Nicola},
+  journal = {Phys. Rev. Lett.},
+  volume = {10},
+  issue = {12},
+  pages = {531--533},
+  numpages = {0},
+  year = {1963},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.10.531}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.10.531}
+
+@article{Kobayashi:1973fv,
+ author         = "Kobayashi, Makoto and Maskawa, Toshihide",
+ title          = "{CP Violation in the Renormalizable Theory of Weak Interaction}",
+ journal        = "Prog. Theor. Phys.",
+ volume         = "49",
+ year           = "1973",
+ pages          = "652-657",
+ doi            = "10.1143/PTP.49.652",
+ reportNumber   = "KUNS-242",
+ SLACcitation   = "%%CITATION = PTPKA,49,652;%%"
+}
+
+@article{PhysRevD.17.2369,
+ title = {Neutrino oscillations in matter},
+ author = {Wolfenstein, L.},
+ journal = {Phys. Rev. D},
+ volume = {17},
+ issue = {9},
+ pages = {2369--2374},
+ numpages = {0},
+ year = {1978},
+ month = {May},
+ publisher = {American Physical Society},
+ doi = {10.1103/PhysRevD.17.2369}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.17.2369}
+
+@article{Mikheev:1986gs,
+ author         = "Mikheev, S. P. and Smirnov, A. {\relax Yu}.",
+ title          = "{Resonance Amplification of Oscillations in Matter and Spectroscopy of Solar Neutrinos}",
+ journal        = "Sov. J. Nucl. Phys.",
+ volume         = "42",
+ year           = "1985",
+ pages          = "913-917",
+ note           = "[Yad. Fiz.42,1441(1985)]",
+ SLACcitation   = "%%CITATION = SJNCA,42,913;%%"
+}
+
+@article{Fogli2004149,
+ author = "G.L Fogli and others",
+ title = "Evidence for Mikheyev–Smirnov–Wolfenstein effects in solar neutrino flavor transitions",
+ journal = "Physics Letters B ",
+ volume = "583",
+ number = "1–2",
+ pages = "149 - 156",
+ year = "2004",
+ note = "",
+ doi = "http://dx.doi.org/10.1016/j.physletb.2003.12.045"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/S0370269304000358"
+%issn = "0370-2693",
+
+@techreport{Hewett:2012ns,
+ author = "Hewett, J. L. and others",
+ title  = "{Fundamental Physics at the Intensity Frontier}",
+ number = "ANL-HEP-TR-12-25, SLAC-R-991, FERMILAB-CONF-12-879-PPD",
+ month  = "May",
+ year   = "2012"
+}
+%url            = "https://inspirehep.net/record/1114323/files/arXiv:1205.2671.pdf",
+%eprint         = "1205.2671",
+
+@article{Planck,
+ author         = "Ade, P. A. R. and others",
+ title          = "{Planck 2015 results. XIII. Cosmological parameters}",
+ collaboration  = "Planck Collaboration",
+ journal        = "Astron. Astrophys.",
+ volume         = "594",
+ year           = "2016",
+ pages          = "A13",
+ doi            = "10.1051/0004-6361/201525830",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.CO",
+ SLACcitation   = "%%CITATION = ARXIV:1502.01589;%%"
+}
+%eprint         = "1502.01589",
+ 
+@article{KATRIN,
+ author = "Susanne Mertens",
+ title = "Status of the KATRIN Experiment and Prospects to Search for keV-mass Sterile Neutrinos in Tritium $\beta$-decay",
+ journal = "Physics Procedia",
+ volume = "61",
+ number = "",
+ pages = "267 - 273",
+ year = "2015",
+ note = "",
+ doi = "http://dx.doi.org/10.1016/j.phpro.2014.12.043"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/S1875389214006567"
+%issn = "1875-3892",
+
+@article{LEP,
+ author         = "Schael, S. and others",
+ title          = "{Precision electroweak measurements on the $Z$ resonance}",
+ collaboration  = "SLD Electroweak Group, DELPHI, ALEPH, SLD, SLD Heavy Flavour Group, OPAL, LEP Electroweak Working Group, L3",
+ journal        = "Phys. Rept.",
+ volume         = "427",
+ year           = "2006",
+ pages          = "257-454",
+ doi            = "10.1016/j.physrep.2005.12.006",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ reportNumber   = "SLAC-R-774",
+ SLACcitation   = "%%CITATION = HEP-EX/0509008;%%"
+}
+%eprint         = "hep-ex/0509008",
+
+@article{LSND1,
+  title = {Results on ${\ensuremath{\nu}}_{\mathit{\ensuremath{\mu}}}\phantom{\rule{0ex}{0ex}}\ensuremath{\rightarrow}\phantom{\rule{0ex}{0ex}}{\ensuremath{\nu}}_{\mathit{e}}$ Neutrino Oscillations from the LSND Experiment},
+  author = "Athanassopoulos, C. and others",
+  collaboration = {LSND Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {81},
+  issue = {9},
+  pages = {1774--1777},
+  numpages = {0},
+  year = {1998},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.81.1774}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.81.1774}
+
+@article{LSND2,
+  title = {Evidence for neutrino oscillations from the observation of ${\overline{\ensuremath{\nu}}}_{e}$ appearance in a ${\overline{\ensuremath{\nu}}}_{\ensuremath{\mu}}$ beam},
+  author = "Aguilar, A. and others",
+  collaboration = {LSND Collaboration},
+  journal = {Phys. Rev. D},
+  volume = {64},
+  issue = {11},
+  pages = {112007},
+  numpages = {22},
+  year = {2001},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.64.112007}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.64.112007}
+
+@article{MiniBooNE,
+  title = {Improved Search for ${\overline{\ensuremath{\nu}}}_{\ensuremath{\mu}}\ensuremath{\rightarrow}{\overline{\ensuremath{\nu}}}_{e}$ Oscillations in the MiniBooNE Experiment},
+  author = "Aguilar-Arevalo, A. A. and others",
+  collaboration = {MiniBooNE Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {110},
+  issue = {16},
+  pages = {161801},
+  numpages = {6},
+  year = {2013},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.110.161801}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.110.161801}
+
+@article{Senjanovic:2009kr,
+ author         = "Senjanovic, Goran",
+ title          = "{Proton decay and grand unification}",
+ booktitle      = "{15th International Symposium on Particles, Strings and Cosmology (PASCOS 2009) Hamburg, Germany, July 6-10, 2009}",
+ journal        = "AIP Conf. Proc.",
+ volume         = "1200",
+ year           = "2010",
+ pages          = "131-141",
+ doi            = "10.1063/1.3327552",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = ARXIV:0912.5375;%%"
+}
+%eprint         = "0912.5375",
+
+@article{PhysRevD.25.3092,
+  title = {Predictions of supersymmetric grand unified theories},
+  author = {Marciano, William J. and Senjanovi\ifmmode \acute{c}\else \'{c}\fi{}, Goran},
+  journal = {Phys. Rev. D},
+  volume = {25},
+  issue = {11},
+  pages = {3092--3095},
+  numpages = {0},
+  year = {1982},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.25.3092}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.25.3092}
+
+@article{PhysRevLett.32.438,
+  title = {Unity of All Elementary-Particle Forces},
+  author = {Georgi, Howard and Glashow, S. L.},
+  journal = {Phys. Rev. Lett.},
+  volume = {32},
+  issue = {8},
+  pages = {438--441},
+  numpages = {0},
+  year = {1974},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.32.438}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.32.438}
+
+@Article{Weyl1929,
+ author="Weyl, Hermann",
+ title="Elektron und Gravitation. I",
+ journal="Zeitschrift f{\"u}r Physik",
+ year="1929",
+ volume="56",
+ number="5",
+ pages="330--352",
+ doi="10.1007/BF01339504"
+}
+%url="http://dx.doi.org/10.1007/BF01339504"
+%issn="0044-3328",
+
+@article{Dorsner:2005fq,
+ author         = "Dorsner, Ilja and Fileviez Perez, Pavel",
+ title          = "{Unification without supersymmetry: Neutrino mass, proton decay and light leptoquarks}",
+ journal        = "Nucl. Phys.",
+ volume         = "B723",
+ year           = "2005",
+ pages          = "53-76",
+ doi            = "10.1016/j.nuclphysb.2005.06.016",
+ SLACcitation   = "%%CITATION = HEP-PH/0504276;%%"
+}
+%eprint         = "hep-ph/0504276",
+%archivePrefix  = "arXiv",
+
+@Article{Foot1989,
+ author="Foot, R. and others",
+ title="See-saw neutrino masses induced by a triplet of leptons",
+ journal="Zeitschrift f{\"u}r Physik C Particles and Fields",
+ year="1989",
+ volume="44",
+ number="3",
+ pages="441--444",
+ doi="10.1007/BF01415558"
+}
+%url="http://dx.doi.org/10.1007/BF01415558"
+%issn="1431-5858",
+
+@article{Martin:1997ns,
+ author         = "Martin, Stephen P.",
+ title          = "{A Supersymmetry primer}",
+ year           = "2010",
+ journal        = "Adv. Ser. Direct. High Energy Phys",
+ volume         = "21",
+ pages          = "1-153",
+ doi            = "10.1142/9789814307505_0001",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "FERMILAB-PUB-97-425-T",
+ SLACcitation   = "%%CITATION = HEP-PH/9709356;%%"
+}
+%eprint         = "arXiv: hep-ph/9709356",
+
+@article{Castano:1993ri,
+ author         = "Castano, D. J. and others",
+ title          = "{Renormalization group study of the Standard Model and its extensions. 2. The Minimal supersymmetric Standard Model}",
+ journal        = "Phys. Rev.",
+ volume         = "D49",
+ year           = "1994",
+ pages          = "4882-4901",
+ doi            = "10.1103/PhysRevD.49.4882",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "UFIFT-HEP-93-18",
+ SLACcitation   = "%%CITATION = HEP-PH/9308335;%%"
+}
+%eprint         = "hep-ph/9308335",
+
+@inproceedings{Gomez:1999kv,
+ author         = "Gomez, Mario E.",
+ title          = "{Yukawa couplings and proton decay in SUSY models}",
+ booktitle      = "{Proceedings, European Network Meeting on Physics Beyond the Standard Model: Trieste, Italy, February 24-27, 1999}",
+ year           = "1999",
+ pages          = "006",
+}
+%archivePrefix  = "arXiv",
+%eprint         = "hep-ph/9908419",
+
+@article{berger:in2p3-00015565,
+  TITLE = {{Lifetime limits on ($B-L$)-violating nucleon decay and di-nucleon decay modes from the Frejus experiment}},
+  AUTHOR = "Berger, C. and others",
+  Collaboration = "Fr\'{e}jus Collaboration",
+  URL = {http://hal.in2p3.fr/in2p3-00015565},
+  JOURNAL = {{Physics Letters B}},
+  HAL_LOCAL_REFERENCE = {LAL 9146},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {269},
+  PAGES = {227-233},
+  YEAR = {1991},
+  HAL_ID = {in2p3-00015565},
+  HAL_VERSION = {v1},
+}
+
+@article{PhysRevLett.44.1316,
+  title = {Local $B\ensuremath{-}L$ Symmetry of Electroweak Interactions, Majorana Neutrinos, and Neutron Oscillations},
+  author = {Mohapatra, R. N. and Marshak, R. E.},
+  journal = {Phys. Rev. Lett.},
+  volume = {44},
+  issue = {20},
+  pages = {1316--1319},
+  numpages = {0},
+  year = {1980},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.44.1316}
+}
+%url = {https://link.aps.org/doi/10.1103/PhysRevLett.44.1316}
+
+@article{PATI1983330,
+ author = "Jogesh C. Pati and others",
+ title = "ΔB = −ΔL, neutron →e−π+, e−K+, μ−π+ and μ−K+ decay modes in SU(2)L × SU(2)R × SU(4)col or SO(10)",
+ journal = "Physics Letters B",
+ volume = "133",
+ number = "5",
+ pages = "330 - 336",
+ year = "1983",
+ note = "",
+ issn = "0370-2693",
+ doi = "http://dx.doi.org/10.1016/0370-2693(83)90157-0"
+ }
+%url = "http://www.sciencedirect.com/science/article/pii/0370269383901570",
+
+@article{FARRAR1978575,
+author = "Glennys R. Farrar and Pierre Fayet",
+title = "Phenomenology of the production, decay, and detection of new hadronic states associated with supersymmetry",
+journal = "Physics Letters B",
+volume = "76",
+number = "5",
+pages = "575 - 579",
+year = "1978",
+note = "",
+issn = "0370-2693",
+doi = "http://dx.doi.org/10.1016/0370-2693(78)90858-4"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/0370269378908584",
+
+@article{Vissani:1995hp,
+ author         = "Vissani, Francesco",
+ title          = "{(B+L) conserving nucleon decays in supersymmetric models}",
+ journal        = "Phys. Rev.",
+ volume         = "D52",
+ year           = "1995",
+ pages          = "4245-4247",
+ doi            = "10.1103/PhysRevD.52.4245",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "IC-95-25",
+ SLACcitation   = "%%CITATION = HEP-PH/9503227;%%"
+}
+%eprint         = "hep-ph/9503227",
+
+@article{Severson:2015dta,
+ author         = "Severson, Matthew",
+ title          = "{Neutrino Sector and Proton Lifetime in a Realistic SUSY SO(10) Model}",
+ journal        = "Phys. Rev.",
+ volume         = "D92",
+ year           = "2015",
+ number         = "9",
+ pages          = "095026",
+ doi            = "10.1103/PhysRevD.92.095026",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = ARXIV:1506.08468;%%"
+}
+%eprint         = "1506.08468",
+
+@article{BATTISTONI1983454,
+ author = "G. Battistoni and others",
+ title = "Nucleon stability, magnetic monopoles and atmospheric neutrinos in the Mont-Blanc experiment",
+ journal = "Physics Letters B",
+ volume = "133",
+ number = "6",
+ pages = "454 - 460",
+ year = "1983",
+ note = "",
+ doi = "http://dx.doi.org/10.1016/0370-2693(83)90827-4"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/0370269383908274"
+%issn = "0370-2693",
+
+@inproceedings{SoudanLim,
+ author         = "Goodman, M. C",
+ title          = "{Nucleon Decay in Soudan-2}",
+ booktitle      = "{Proceedings of the 26th International Cosmic Ray Conference. August 17-25, 1999. Salt Lake City, Utah, USA}",
+ collaboration  = "Soudan-2 Collaboration",
+ year           = "1999",
+ pages          = "364"
+}
+%url            = "http://adsabs.harvard.edu/full/1999ICRC....2..364G",
+
+@article{Gajewski:1989gh,
+ author         = "Gajewski, W. and others",
+ title          = "{Search for proton decay into e+ + pi0 in IMB-3 detector}",
+ booktitle      = "{10th and Final Workshop on Grand Unification Chapel Hill, North Carolina, April 20-22, 1989}",
+ journal        = "Phys. Rev.",
+ volume         = "D42",
+ year           = "1990",
+ pages          = "2974-2976",
+ doi            = "10.1103/PhysRevD.42.2974",
+ SLACcitation   = "%%CITATION = PHRVA,D42,2974;%%"
+}
+
+@article{PhysRevD.95.012004,
+  title = {Search for proton decay via $p\ensuremath{\rightarrow}{e}^{+}{\ensuremath{\pi}}^{0}$ and $p\ensuremath{\rightarrow}{\ensuremath{\mu}}^{+}{\ensuremath{\pi}}^{0}$ in $0.31\text{ }\text{ }\mathbf{\text{megaton}}\ifmmode\cdot\else\textperiodcentered\fi{}\mathbf{\text{years}}$ exposure of the Super-Kamiokande water Cherenkov detector},
+  author = "Abe, K. and others",
+  collaboration = {Super-Kamiokande Collaboration},
+  journal = {Phys. Rev. D},
+  volume = {95},
+  issue = {1},
+  pages = {012004},
+  numpages = {10},
+  year = {2017},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.95.012004}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.95.012004}
+
+%%%% Has some references to broad reviews of GUTs...
+@Misc{Abe:2011ts,
+ author = "Abe, K. and others",
+ title  = "\emph{Letter of Intent: The Hyper-Kamiokande Experiment --- Detector Design and Physics Potential ---}",
+ year   = "2011",
+ note   = {arXiv:1109.3262}
+}
+
+@article{Stefan:2008zi,
+ author         = "Stefan, Dorota and Ankowski, Artur M.",
+ title          = "{Nuclear effects in proton decay}",
+ booktitle      = "{Trends in nuclear physics. Proceedings, 43rd Conference on Nuclear Physics, Zakopane, Poland, September 1-7, 2008}",
+ journal        = "Acta Phys. Polon.",
+ volume         = "B40",
+ year           = "2009",
+ pages          = "671-674",
+ archivePrefix  = "arXiv",
+ primaryClass   = "nucl-th",
+ SLACcitation   = "%%CITATION = ARXIV:0811.1892;%%"
+}
+%eprint         = "0811.1892",
+
+@techreport{LBNE8836,
+  author = "Blake, A",
+  title  = "{Studying Atmospheric Neutrino Backgrounds to $p \to K^+ \nu$ Decay}",
+  number = "LBNE-doc-8836",
+  url    = "https://lbne2-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=8836&filename=AtmosphericNeutrinos_20140402.pdf&version=1",
+  month  = "Apr",
+  year   = "2014"
+}
+
+% ==================== THE DUNE CONCEPTUAL DESIGN REVIEWS ====================
+ %%%% The LBNF and DUNE Projects
+@Misc{DUNECDR_V1,
+ author         = "Acciarri, R. and others",
+ title          = "\emph{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 1: The LBNF and DUNE Projects}",
+ collaboration  = "DUNE Collaboration",
+ year           = "2016",
+ note           = "arXiv: 1601.05471"
+}
+
+%%%% The Physics Program for DUNE at LBNF
+@Misc{DUNECDR_V2, 
+ author         = "Acciarri, R. and others",
+ title          = "\emph{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 2: The Physics Program for DUNE at LBNF}",
+ collaboration  = "DUNE Collaboration",
+ year           = "2015",
+ note           = "arXiv: 1512.06148"
+}
+
+ %%%% Long-Baseline Neutrino Facility for DUNE
+@Misc{DUNECDR_V3,
+ author         = "Strait, J. and others",
+ title          = "\emph{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 3: Long-Baseline Neutrino Facility for DUNE}",
+ collaboration  = "DUNE Collaboration",
+ year           = "2016",
+ note           = "arXiv: 1601.05823"
+}
+
+%%%% The DUNE Detectors at LBNF
+@Misc{DUNECDR_V4,
+ author         = "Acciarri, R. and others",
+ title          = "\emph{Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino Experiment (DUNE), Volume 4: The DUNE Detectors at LBNF}",
+ collaboration  = "DUNE Collaboration",
+ year           = "2016",
+ note           = "arXiv: 1601.02984"
+}
+
+%%%% The long list of annexes...
+@Misc{DUNEAtWork,
+ author = "{DUNE Collaboration}",
+ title  = "\emph{Proposals and Design Reports}",
+ year   = "2017",
+ url    = "https://web.fnal.gov/project/LBNF/SitePages/Proposals\%20and\%20Design\%20Reports.aspx"
+}
+
+% ==================== DUNE chapter ====================
+@Misc{P5Doc,
+ author         = "Ritz, S. and others",
+ title          = "\emph{Building for Discovery: Strategic Plan for U.S. Particle Physics in the Global Context}",
+ collaboration  = "HEPAP Subcommittee",
+ year           = "2014",
+ note           = "{INSPIRE-1299183}"
+}
+
+@techreport{LBNO_EOI,
+ author       = "Stahl, A. and others",
+ title        = "{Expression of Interest for a very long baseline neutrino oscillation experiment (LBNO)}",
+ year         = "2012",
+ number       = "CERN-SPSC-2012-021, SPSC-EOI-007",
+ SLACcitation   = "%%CITATION = CERN-SPSC-2012-021;%%"
+}
+
+%%%% ====== THE LBNE CDRs
+@techreport{LBNE_CDR1,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 1: The LBNE Project}",
+  number = "LBNE-doc-5235",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5235&filename=CDR-intro-volume-2012nov20.pdf&version=9",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@techreport{LBNE_CDR2,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 2: The Beamline at the Near Site}",
+  number = "LBNE-doc-4317",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4317&filename=CDR-beam-volume-101812.pdf&version=25",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@techreport{LBNE_CDR3,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 3: Detectors at the Near Site}",
+  number = "LBNE-doc-4724",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4724&filename=CDR-NDC-volume-final-101912.pdf&version=12",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@techreport{LBNE_CDR4,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 4: The Liquird Argon Detector at the Far Site}",
+  number = "LBNE-doc-4892",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4892&filename=CDR-LArFD-volume-final-2012Oct22.pdf&version=12",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@techreport{LBNE_CDR5,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 5: Conventional Facilities at the Near Site}",
+  number = "LBNE-doc-4623",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=4623&filename=CDR-NSCF-volume-final-2012Oct10.pdf&version=9",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@techreport{LBNE_CDR6,
+  author = "{LBNE Collaboration}",
+  title  = "{Long-Baseline Neutrino Experiment (LBNE) Project, Volume 6: Conventional Facilities at the Far Site}",
+  number = "LBNE-doc-5017",
+  url    = "http://lbne2-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=5017&filename=CDR-FSCF-volume-final-2012Oct10.pdf&version=5",
+  month  = "Oct",
+  year   = "2012"
+}
+%%%% ====== THE LBNE CDRs
+
+@inproceedings{PIP-II,
+ author    = "Holmes, S. D. and others",
+ title     = "{PIP-II Status and Strategy}",
+ booktitle = "{Proc. 6th International Particle Accelerator Conference, Richmond, VA, USA}",
+ year      = "{2015}",
+ pages     = "3982-3985"
+}
+%url       = "http://jacow.org/IPAC2015/papers/thpf116.pdf"
+
+@Misc{LBNEReconfig,
+ author = "Kim, Y.K. and others",
+ title  = "\emph{LBNE Reconfiguration: Steering Committee Report}",
+ url    = "http://www.fnal.gov/directorate/lbne_reconfiguration/index.shtml",
+ month  = "Aug",
+ year   = "2012"
+}
+
+@Misc{SURFWebsite,
+ note = {[online] \url{http://www.sanfordlab.org}},
+ url  = "http://www.sanfordlab.org"
+}
+
+@Misc{GLACIER,
+ author = "A. Rubbia",
+ title  = "\emph{Final Report Summary - LAGUNA-LBNO (Design of a pan-European Infrastructure for Large Apparatus studying Grand Unification, Neutrino Astrophysics and Long Baseline Neutrino Oscillations)}",
+ url    = "http://cordis.europa.eu/result/rcn/173788_en.html",
+ month  = "Dec",
+ year   = "2015"
+}
+
+@article{1748-0221-8-04-P04012,
+ author="Badertscher, A. and others",
+ title={First operation and performance of a 200 lt double phase LAr LEM-TPC with a 40 × 76 cm 2 readout},
+ journal={Journal of Instrumentation},
+ volume={8},
+ number={04},
+ pages={P04012},
+ year={2013}
+}
+%url={http://stacks.iop.org/1748-0221/8/i=04/a=P04012},
+
+@article{1748-0221-7-08-P08026,
+ author="Badertscher, A. and others",
+ title={First operation and drift field performance of a large area double phase LAr Electron Multiplier Time Projection Chamber with an immersed Greinacher high-voltage multiplier},
+ journal={Journal of Instrumentation},
+ volume={7},
+ number={08},
+ pages={P08026},
+ year={2012}
+}
+%url={http://stacks.iop.org/1748-0221/7/i=08/a=P08026},
+
+@article{Badertscher:2010zg,
+ author         = "Badertscher, A. and others",
+ title          = "{First operation of a double phase LAr Large Electron Multiplier Time Projection Chamber with a two-dimensional projective readout anode}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A641",
+ year           = "2011",
+ pages          = "48-57",
+ doi            = "10.1016/j.nima.2011.02.100",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1012.0483;%%"
+}
+%eprint         = "1012.0483",
+
+@article{Chepel:2012sj,
+ author         = "Chepel, V. and Araujo, H.",
+ title          = "{Liquid noble gas detectors for low energy particle physics}",
+ journal        = "JINST",
+ volume         = "8",
+ year           = "2013",
+ pages          = "R04001",
+ doi            = "10.1088/1748-0221/8/04/R04001",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1207.2292;%%"
+}
+%eprint         = "1207.2292",
+
+@article{1748-0221-6-01-C01081,
+ author="Campagne, J. E. and others",
+ title={PMm$^2$: R$\&$D on triggerless acquisition for next generation neutrino experiments},
+ journal={Journal of Instrumentation},
+ volume={6},
+ number={01},
+ pages={C01081},
+ year={2011}
+}
+%url={http://stacks.iop.org/1748-0221/6/i=01/a=C01081},
+
+@article{Genolini:2008uc,
+ author         = "Genolini, B. and others",
+ title          = "{PMm$^2$: Large photomultipliers and innovative electronics for the next-generation neutrino experiments}",
+ booktitle      = "{Proceedings, 5th International Conference on New developments in photodetection (NDIP08): Aix-les-Bains, France, June 15-20, 2008}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A610",
+ year           = "2009",
+ pages          = "249-252",
+ doi            = "10.1016/j.nima.2009.05.135",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:0811.2681;%%"
+}
+%eprint         = "0811.2681",
+
+@techreport{Elizabeth_01_17,
+ author = "Worcester, E.",
+ title  = "{PRESENTING LONG-BASELINE SENSITIVITIES}",
+ number = "DUNE-doc-2329",
+ url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2329",
+ month  = "Jan",
+ year   = "2017"
+}
+
+@article{NuFit2016,
+ author         = "Esteban, I. and others",
+ title          = "{Updated fit to three neutrino mixing: exploring the accelerator-reactor complementarity}",
+ journal        = "JHEP",
+ volume         = "01",
+ year           = "2017",
+ pages          = "087",
+ doi            = "10.1007/JHEP01(2017)087",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "IFT-UAM-CSIC-16-114, YITP-SB-16-45",
+ SLACcitation   = "%%CITATION = ARXIV:1611.01514;%%"
+}
+%eprint         = "1611.01514",
+
+@article{NuFit2014,
+ author         = "Gonzalez-Garcia, M. C. and others",
+ title          = "{Updated fit to three neutrino mixing: status of leptonic CP violation}",
+ journal        = "JHEP",
+ volume         = "11",
+ year           = "2014",
+ pages          = "052",
+ doi            = "10.1007/JHEP11(2014)052",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "IFT-UAM-CSIC-14-095, YITP-SB-14-31",
+ SLACcitation   = "%%CITATION = ARXIV:1409.5439;%%"
+}
+%eprint         = "1409.5439",
+
+@techreport{DUNE2332,
+  author = "Worcester, E.",
+  title  = "{LBL CPV Sensitivity: Standard Exposures}",
+  number = "DUNE-doc-2332",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2332",
+  month  = "Feb",
+  year   = "2017"
+}
+
+@techreport{DUNE2335,
+  author = "Worcester, E.",
+  title  = "{LBL MH Sensitivity: Standard Exposures}",
+  number = "DUNE-doc-2335",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2335",
+  month  = "Feb",
+  year   = "2017"
+}
+
+@techreport{DUNE2377,
+  author = "Worcester, E.",
+  title  = "{LBL Sensitivity: Staging Plots}",
+  number = "DUNE-doc-2377",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2377",
+  month  = "Feb",
+  year   = "2017"
+}
+
+@techreport{DUNE2401,
+  author = "Worcester, E.",
+  title  = "{LBL CPV Sensitivity: Exposure Plots}",
+  number = "DUNE-doc-2401",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2401",
+  month  = "Feb",
+  year   = "2017",
+}
+
+@techreport{DUNE2407,
+  author = "Worcester, E.",
+  title  = "{LBL MH Sensitivity: Exposure Plots}",
+  number = "DUNE-doc-2407",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2407",
+  month  = "Feb",
+  year   = "2017"
+}
+
+@article{Bass:2013vcg,
+ author         = "Bass, M. and others",
+ title          = "{Baseline Optimization for the Measurement of CP Violation, Mass Hierarchy, and $\theta_{23}$ Octant in a Long-Baseline Neutrino Oscillation Experiment}",
+ journal        = "Phys. Rev.",
+ volume         = "D91",
+ year           = "2015",
+ number         = "5",
+ pages          = "052015",
+ doi            = "10.1103/PhysRevD.91.052015",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ reportNumber   = "FERMILAB-PUB-13-506-E, FERMILAB-PUB-14-379-PPD",
+ SLACcitation   = "%%CITATION = ARXIV:1311.0212;%%"
+}
+%eprint         = "1311.0212",
+
+@article{PDG2012,
+  title = {Review of Particle Physics},
+  author = {Beringer, J. and others},
+  collaboration = {Particle Data Group},
+  journal = {Phys. Rev. D},
+  volume = {86},
+  issue = {1},
+  pages = {010001},
+  numpages = {1528},
+  year = {2012},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.86.010001}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.86.010001}
+
+@techreport{MauryLifetime,
+  author = "Lin, L. and Goodman, M.",
+  title  = "{Comprehensive list of nucleon decay modes}",
+  number = "DUNE-doc-679",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=679",
+  month  = "Apr",
+  year   = "2016"
+}
+
+@article{Nishino:2012bnw,
+ author         = "Nishino, H. and others",
+ title          = "{Search for Nucleon Decay into Charged Anti-lepton plus Meson in Super-Kamiokande I and II}",
+ collaboration  = "Super-Kamiokande Collaboration",
+ journal        = "Phys. Rev.",
+ volume         = "D85",
+ year           = "2012",
+ pages          = "112001",
+ doi            = "10.1103/PhysRevD.85.112001",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ SLACcitation   = "%%CITATION = ARXIV:1203.4030;%%"
+}
+%eprint         = "1203.4030",
+
+@article{Diwan:2004bt,
+ author         = "Diwan, Milind V.",
+ title          = "{The Case for a super neutrino beam}",
+ booktitle      = "{Heavy quarks and leptons. Proceedings, 7th International Conference, San Juan, Puerto Rico, June 1-5, 2004}",
+ journal        = "Frascati Phys. Ser.",
+ volume         = "35",
+ year           = "2004",
+ pages          = "89-109",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ SLACcitation   = "%%CITATION = HEP-EX/0407047;%%"
+}
+%eprint         = "hep-ex/0407047",
+
+@article{Klinger:2015kva,
+ author         = "Klinger, J. and others",
+ title          = "{Muon-induced background to proton decay in the $p \to K^+ \nu$ decay channel with large underground liquid argon TPC detectors}",
+ journal        = "Phys. Lett.",
+ volume         = "B746",
+ year           = "2015",
+ pages          = "44-47",
+ doi            = "10.1016/j.physletb.2015.04.054",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1504.06520;%%"
+}
+%eprint         = "1504.06520",
+x
+@Misc{Adams:2013qkq,
+ author         = "Adams, C. and others",
+ title          = "\emph{The Long-Baseline Neutrino Experiment: Exploring Fundamental Symmetries of the Universe}",
+ collaboration  = "LBNE Collaboration",
+ year           = "2013",
+ note           = "arXiv: 1307.7335",
+ reportNumber   = "BNL-101354-2013-JA, BNL-101354-2014-JA, FERMILAB-PUB-14-022, LA-UR-14-20881",
+ SLACcitation   = "%%CITATION = ARXIV:1307.7335;%%"
+}
+
+@techreport{LBNE8836,
+  author = "A. Blake",
+  title  = "{Studying Atmospheric Neutrino Backgrounds to $p \rightarrow K^{+} \overline{\nu{e}}$ Decay}",
+  number = "LBNE-doc-8836",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8836&filename=AtmosphericNeutrinos_20140402.pdf&version=1",
+  month  = "Apr",
+  year   = "2014"
+}
+
+@techreport{MarkReviewJuly2015,
+  author = "M. Thomson",
+  title  = "{DUNE Collaboration, Strategy and Detector Requirements}",
+  number = "LBNE-doc-11100",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=11100&filename=P03-Thomson-DUNE-CollaborationStrategy.pdf&asof=2015-6-2",
+  month  = "June",
+  year   = "2015"
+}
+
+@article{KScholSND,
+ author= {K. Scholberg},
+ title = {Supernova Neutrino Detection},
+ journal = {Annual Review of Nuclear and Particle Science},
+ volume = {62},
+ number = {1},
+ pages = {81-103},
+ year = {2012},
+ doi = {10.1146/annurev-nucl-102711-095006}
+}
+%URL = {http://dx.doi.org/10.1146/annurev-nucl-102711-095006},
+%eprint = {http://dx.doi.org/10.1146/annurev-nucl-102711-095006}
+
+@article{Laha:2013hva,
+ author         = "Laha, R. and Beacom, J. F.",
+ title          = "{Gadolinium in water Cherenkov detectors improves detection of supernova $\nu_e$}",
+ journal        = "Phys. Rev.",
+ volume         = "D89",
+ year           = "2014",
+ pages          = "063007",
+ doi            = "10.1103/PhysRevD.89.063007",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.HE",
+ SLACcitation   = "%%CITATION = ARXIV:1311.6407;%%"
+}
+%eprint         = "1311.6407",
+
+@article{PhysRevLett.58.1494,
+  title = {Observation of a neutrino burst in coincidence with supernova 1987A in the Large Magellanic Cloud},
+  author = {Bionta, R. M. and others},
+  journal = {Phys. Rev. Lett.},
+  volume = {58},
+  issue = {14},
+  pages = {1494--1496},
+  numpages = {0},
+  year = {1987},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.58.1494}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.58.1494}
+
+@article{PhysRevLett.58.1490,
+  title = {Observation of a neutrino burst from the supernova SN1987A},
+  author = {Hirata, K. and others},
+  journal = {Phys. Rev. Lett.},
+  volume = {58},
+  issue = {14},
+  pages = {1490--1493},
+  numpages = {0},
+  year = {1987},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.58.1490}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.58.1490}
+
+@article{Huedepohl:2009wh,
+ author         = "Hudepohl, L. and Muller, B. and Janka, H. -T. and Marek, A. and Raffelt, G. G.",
+ title          = "{Neutrino Signal of Electron-Capture Supernovae from Core Collapse to Cooling}",
+ journal        = "Phys. Rev. Lett.",
+ volume         = "104",
+ year           = "2010",
+ pages          = "251101",
+ doi            = "10.1103/PhysRevLett.104.251101,
+                   10.1103/PhysRevLett.105.249901",
+ note           = "[Erratum: Phys. Rev. Lett.105,249901(2010)]",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.SR",
+ SLACcitation   = "%%CITATION = ARXIV:0912.0260;%%"
+}
+%eprint         = "0912.0260",
+
+@article{Aartsen:2012kia,
+ author         = "Aartsen, M. G. and others",
+ title          = "{Search for dark matter annihilations in the Sun with the 79-string IceCube detector}",
+ collaboration  = "IceCube Collaboration",
+ journal        = "Phys. Rev. Lett.",
+ volume         = "110",
+ year           = "2013",
+ number         = "13",
+ pages          = "131302",
+ doi            = "10.1103/PhysRevLett.110.131302",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.HE",
+ SLACcitation   = "%%CITATION = ARXIV:1212.4097;%%"
+}
+%eprint         = "1212.4097",
+
+@article{Choi:2015ara,
+ author         = "Choi, K. and others",
+ title          = "{Search for neutrinos from annihilation of captured low-mass dark matter particles in the Sun by Super-Kamiokande}",
+ collaboration  = "Super-Kamiokande Collaboration",
+ journal        = "Phys. Rev. Lett.",
+ volume         = "114",
+ year           = "2015",
+ number         = "14",
+ pages          = "141301",
+ doi            = "10.1103/PhysRevLett.114.141301",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ SLACcitation   = "%%CITATION = ARXIV:1503.04858;%%"
+}
+%eprint         = "1503.04858",
+
+@article{Beacom:2010kk,
+ author         = "Beacom, J. F.",
+ title          = "{The Diffuse Supernova Neutrino Background}",
+ journal        = "Ann. Rev. Nucl. Part. Sci.",
+ volume         = "60",
+ year           = "2010",
+ pages          = "439-462",
+ doi            = "10.1146/annurev.nucl.010909.083331",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.HE",
+ SLACcitation   = "%%CITATION = ARXIV:1004.3311;%%"
+}
+%eprint         = "1004.3311",
+
+@article{Caballero:2011dw,
+ author         = "Caballero, O. L. and others",
+ title          = "{Neutrino Spectra from Accretion Disks: Neutrino General Relativistic Effects and the Consequences for Nucleosynthesis}",
+ journal        = "Astrophys. J.",
+ volume         = "745",
+ year           = "2012",
+ pages          = "170",
+ doi            = "10.1088/0004-637X/745/2/170",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.HE",
+ SLACcitation   = "%%CITATION = ARXIV:1105.6371;%%"
+}
+%eprint         = "1105.6371",
+
+@article{Caballero:2009ww,
+ author         = "Caballero, O. L. and others",
+ title          = "{Detecting neutrinos from black hole neutron stars mergers}",
+ journal        = "Phys. Rev.",
+ volume         = "D80",
+ year           = "2009",
+ pages          = "123004",
+ doi            = "10.1103/PhysRevD.80.123004",
+ archivePrefix  = "arXiv",
+ primaryClass   = "astro-ph.HE",
+ SLACcitation   = "%%CITATION = ARXIV:0910.1385;%%"
+}
+%eprint         = "0910.1385",
+
+%%%%% 35 ton proc.
+@inproceedings{35tonMontanari,
+ author         = "Montanari, D. and others",
+ title          = "{Performance and Results of the LBNE 35 Ton Membrane Cryostat Prototype}",
+ booktitle      = "{Proceedings, International Cryogenic Engineering Conference and International Cryogenic Materials Conference 2014 (ICEC 25 – ICMC 2014): Enschede, The Netherlands, July 7-11, 2014}",
+ collaboration  = "LBNE Collaboration",
+ journal        = "Phys. Procedia",
+ volume         = "67",
+ year           = "2014",
+ pages          = "308-313",
+ doi            = "10.1016/j.phpro.2015.06.092",
+ reportNumber   = "FERMILAB-CONF-14-223-PPD",
+ SLACcitation   = "%%CITATION = FERMILAB-CONF-14-223-PPD;%%"
+}
+
+@inproceedings{35tonHahn,
+ author         = "Hahn, A. and others",
+ title          = "{The LBNE 35 Ton Prototype Cryostat}",
+ booktitle      = "{Proceedings, 21st Symposium on Room-Temperature Semiconductor X-ray and Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15, 2014}",
+ collaboration  = "LBNE Collaboration",
+ year           = "2014",
+ pages          = "7431158",
+ doi            = "10.1109/NSSMIC.2014.7431158",
+ reportNumber   = "FERMILAB-CONF-14-420-PPD",
+ SLACcitation   = "%%CITATION = FERMILAB-CONF-14-420-PPD;%%"
+}
+%url            = "http://lss.fnal.gov/archive/2014/conf/fermilab-conf-14-420-ppd.pdf",
+
+%%%%% LArSoft
+@article{ROOT,
+ author         = "Brun, R. and Rademakers, F.",
+ title          = "{ROOT: An object oriented data analysis framework}",
+ booktitle      = "{New computing techniques in physics research V. Proceedings, 5th International Workshop, AIHENP '96, Lausanne, Switzerland, September 2-6, 1996}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A389",
+ year           = "1997",
+ pages          = "81-86",
+ doi            = "10.1016/S0168-9002(97)00048-X",
+ SLACcitation   = "%%CITATION = NUIMA,A389,81;%%"
+}
+
+@article{GEANT4,
+ author = "S. Agostinelli and others",
+ title = "Geant4—a simulation toolkit ",
+ journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment ",
+ volume = "506",
+ number = "3",
+ pages = "250 - 303",
+ year = "2003",
+ doi = "http://dx.doi.org/10.1016/S0168-9002(03)01368-8"
+}
+%issn = "0168-9002",
+%url = "http://www.sciencedirect.com/science/article/pii/S0168900203013688",
+
+
+@Misc{Church_LArSoft,
+ author         = "Church, E. D.",
+ title          = "\emph{LArSoft: A Software Package for Liquid Argon Time Projection Drift Chambers}",
+ year           = "2013",
+ eprint         = "arXiv: 1311.6774",
+ SLACcitation   = "%%CITATION = ARXIV:1311.6774;%%"
+}
+
+@Misc{LArSoftOrg,
+ author = "{The LArSoft collabortion}",
+ title  = "\emph{Software for LArTPCs}",
+ url    = {http://larsoft.org},
+ year   = "2017"
+}
+
+@Misc{GENIE,
+ author         = "Andreopoulos, Costas and others",
+ title          = "\emph{The GENIE Neutrino Monte Carlo Generator: Physics and User Manual}",
+ year           = "2015",
+ note           = "arXiv: 1510.05494",
+ reportNumber   = "FERMILAB-FN-1004-CD",
+ SLACcitation   = "%%CITATION = ARXIV:1510.05494;%%"
+}
+
+@article{Nuance,
+ author         = "Casper, D.",
+ title          = "{The Nuance neutrino physics simulation, and the future}",
+ booktitle      = "{Proceedings, 1st International Workshop on
+                    Neutrino-nucleus interactions in the few GeV region (NuInt
+                    01): Tsukuba, Japan, December 13-16, 2001}",
+ journal        = "Nucl. Phys. Proc. Suppl.",
+ volume         = "112",
+ year           = "2002",
+ pages          = "161-170",
+ doi            = "10.1016/S0920-5632(02)01756-5",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = HEP-PH/0208030;%%"
+}
+%eprint         = "hep-ph/0208030",
+
+@techreport{CRY,
+ author = "C. Hagman and others",
+ title  = "{Cosmic-ray Shower Library CRY}",
+ number = "UCRL-TM-229453",
+ url    = {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf},
+ year   = "2012"
+}
+
+@techreport{CRY2,
+ author = {Hagmann, C. and others},
+ title  = {Monte carlo simulation of proton-induced cosmic-ray cascades in the atmosphere},
+ number = "UCRL-TM-229452",
+ url    = {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry_physics.pdf},
+ year   = "2012"
+}
+
+@techreport{CORSIKA,
+  title ="{CORSIKA: A Monte Carlo code to simulate extensive air showers}",
+  author={Heck, D. and others},
+  year  ={1998},
+  number= "FZKA-6019",
+  url   = {https://inspirehep.net/record/469835/files/FZKA6019.pdf}
+}
+
+@Misc{GaisserPres,
+ author = "Warburton, T. K.",
+ title  = "\emph{PLAN TO ADD T0 CALCULATIONS TO CALORIMETRY}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2015",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=9922"
+}
+
+@article{MUSUN,
+ author = "V.A. Kudryavtsev",
+ title = "{Muon simulation codes MUSIC and MUSUN for underground physics}",
+ journal = "Computer Physics Communications ",
+ volume = "180",
+ number = "3",
+ pages = "339 - 346",
+ year = "2009",
+ note = "",
+ doi = "http://dx.doi.org/10.1016/j.cpc.2008.10.013"
+}
+%url = "http://www.sciencedirect.com/science/article/pii/S0010465508003640",
+%issn = "0010-4655",
+
+@article{MUSUN2,
+ author         = "Kudryavtsev, V. A. and others",
+ title          = "{Simulations of muon induced neutron flux at large depths underground}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A505",
+ year           = "2003",
+ pages          = "688-698",
+ doi            = "10.1016/S0168-9002(03)00983-5",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ex",
+ SLACcitation   = "%%CITATION = HEP-EX/0303007;%%"
+}
+%eprint         = "hep-ex/0303007",
+
+@article{MUSIC,
+ author         = "Antonioli, P. and others",
+ title          = "{A Three-dimensional code for muon propagation through the rock: Music}",
+ journal        = "Astropart. Phys.",
+ volume         = "7",
+ year           = "1997",
+ pages          = "357-368",
+ doi            = "10.1016/S0927-6505(97)00035-2",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ reportNumber   = "INFN-AE-97-12",
+ SLACcitation   = "%%CITATION = HEP-PH/9705408;%%"
+}
+%eprint         = "hep-ph/9705408",
+%Ghetti, C. and Korolkova, E. V. and Kudryavtsev, V. A. and Sartorelli, G.",
+
+@article{MUSIC2,
+ author         = "Kudryavtsev, V. A. and others",
+ title          = "{Narrow muon bundles from muon pair production in rock}",
+ journal        = "Phys. Lett.",
+ volume         = "B471",
+ year           = "1999",
+ pages          = "251-256",
+ doi            = "10.1016/S0370-2693(99)01378-7",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = HEP-PH/9911493;%%"
+}
+%eprint         = "hep-ph/9911493",
+%Korolkova, E. V. and Spooner, N. J. C.",
+
+@Misc{35tonGeomPage,
+ author = "T. Alion",
+ title  = "\emph{LBNE Geometries}",
+ url    = "https://cdcvs.fnal.gov/redmine/projects/lbnecode/wiki/LBNE_Geometries",
+ month  = "Aug",
+ year   = "2014"
+}
+
+@techreport{LArSoftRecoNote,
+  author = "J. Asaadi and others",
+  title  = "{The Current Status of Simulation and Reconstruction for the DUNE Far Detector}",
+  number = "DUNE-doc-1689",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1689",
+  month  = "Sept",
+  year   = "2016"
+}
+
+@INPROCEEDINGS{HarrisTrans,
+ author = {Harris, C. and Stephens, M.},
+ title = {A combined corner and edge detector},
+ booktitle = {In Proc. of Fourth Alvey Vision Conference},
+ year = {1988},
+ pages = {147--151}
+}
+
+@inproceedings{HoughTrans,
+ author         = "Hough, P. V. C.",
+ title          = "{Machine Analysis Of Bubble Chamber Pictures}",
+ booktitle      = "{Proceedings, 2nd International Conference on High-Energy
+                    Accelerators and Instrumentation, HEACC 1959: CERN,
+                    Geneva, Switzerland, September 14-19, 1959}",
+ volume         = "C590914",
+ year           = "1959",
+ pages          = "554-558",
+ SLACcitation   = "%%CITATION = INSPIRE-919922;%%"
+}
+%url            = "http://inspirehep.net/record/919922/files/HEACC59_598-602.pdf",
+
+@article{PMTrack,
+  author         = "Antonello, M. and others",
+  title          = "{Precise 3D track reconstruction algorithm for the ICARUS
+                     T600 liquid argon time projection chamber detector}",
+  journal        = "Adv. High Energy Phys.",
+  volume         = "2013",
+  year           = "2013",
+  pages          = "260820",
+  doi            = "10.1155/2013/260820",
+  archivePrefix  = "arXiv",
+  primaryClass   = "physics.ins-det",
+  SLACcitation   = "%%CITATION = ARXIV:1210.5089;%%"
+}
+%eprint         = "1210.5089",
+
+@article{Pandora,
+  author         = "Marshall, J. S. and Thomson, M. A.",
+  title          = "{The Pandora Software Development Kit for Pattern Recognition}",
+  journal        = "Eur. Phys. J.",
+  volume         = "C75",
+  year           = "2015",
+  number         = "9",
+  pages          = "439",
+  doi            = "10.1140/epjc/s10052-015-3659-3",
+  archivePrefix  = "arXiv",
+  primaryClass   = "physics.data-an",
+  SLACcitation   = "%%CITATION = ARXIV:1506.05348;%%"
+}
+%eprint         = "1506.05348",
+
+@Misc{PMTrackJanCollab,
+ author = "Sulej, R. and Stefan, D.",
+ title  = "\emph{Reconstruction: Projection Matching}",
+ howpublished = "{Reconstruction working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=62&sessionId=40&resId=1&materialId=slides&confId=10276",
+}
+
+@techreport{EMShower,
+  author = "Wallbank, M.",
+  title  = "{EMShower Reconstruction}",
+  number = "DUNE-doc-1369",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1369",
+  month  = "June",
+  year   = "2016"
+}
+
+@article{BirksModel,
+  title={THE EFFICIENCY OF ORGANIC SCINTILLATOIS},
+  author={Birks, J. B.},
+  journal={Proc. Phys. Soc.},
+  volume= {A64},
+  pages={874},
+  year={1951}
+}
+
+@article{BoxModel,
+  title = {Recombination of electron-ion pairs in liquid argon and liquid xenon},
+  author = {Thomas, J. and Imel, D. A.},
+  journal = {Phys. Rev. A},
+  volume = {36},
+  issue = {2},
+  pages = {614--616},
+  numpages = {0},
+  year = {1987},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.36.614},
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevA.36.614}
+
+% ==================== 35 ton cameras chapter ====================
+@article{CameraPaper,
+ author         = "McConkey, Nicola and others",
+ title          = "{Cryogenic CMOS Cameras for High Voltage Monitoring in Liquid Argon}",
+ journal        = "JINST",
+ volume         = "12",
+ year           = "2017",
+ number         = "03",
+ pages          = "P03014",
+ doi            = "10.1088/1748-0221/12/03/P03014",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1612.06124;%%"
+}
+%eprint         = "1612.06124",
+
+@article{BlatterEField,
+ author="Blatter, A. and others",
+ title={Experimental study of electric breakdowns in liquid argon at centimeter scale},
+ journal={Journal of Instrumentation},
+ volume={9},
+ number={04},
+ pages={P04006},
+ year={2014}
+}
+%url={http://stacks.iop.org/1748-0221/9/i=04/a=P04006},
+
+@article{BERNcam,
+ author         = "Delaquis, S. C. and others",
+ title          = "{Development of a camera casing suited for cryogenic and vacuum applications}",
+ journal        = "JINST",
+ volume         = "8",
+ year           = "2013",
+ pages          = "T12001",
+ doi            = "10.1088/1748-0221/8/12/T12001",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1310.6601;%%"
+}
+%eprint         = "1310.6601",
+
+@article{LAPD,
+ author         = "Adamowski, M. and others",
+ title          = "{The Liquid Argon Purity Demonstrator}",
+ journal        = "JINST",
+ volume         = "9",
+ year           = "2014",
+ pages          = "P07005",
+ doi            = "10.1088/1748-0221/9/07/P07005",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ reportNumber   = "FERMILAB-PUB-14-059-E",
+ SLACcitation   = "%%CITATION = ARXIV:1403.7236;%%"
+}
+%eprint         = "1403.7236",
+
+@article{Liverpool,
+ author         = "Mavrokoridis, K. and others",
+ title          = "{Optical Readout of a Two Phase Liquid Argon TPC using CCD Camera and THGEMs}",
+ journal        = "JINST",
+ volume         = "9",
+ year           = "2014",
+ pages          = "P02006",
+ doi            = "10.1088/1748-0221/9/02/P02006",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1401.0525;%%"
+}
+%eprint         = "1401.0525",
+
+@article{Weizmannbubbles,
+ author         = "Erdal, E. and others",
+ title          = "{Direct observation of bubble-assisted electroluminescence in liquid xeno}",
+ journal        = "JINST",
+ volume         = "10",
+ year           = "2015",
+ number         = "11",
+ pages          = "P11002",
+ doi            = "10.1088/1748-0221/10/11/P11002",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1509.02354;%%"
+}
+%eprint         = "1509.02354",
+
+@article{thermalnoise1,
+ author = "G. Ghibaudo and F. Balestra",
+ title = "Low temperature characterization of silicon CMOS devices",
+ journal = "Microelectronics Reliability",
+ volume = "37",
+ number = "9",
+ pages = "1353 - 1366",
+ year = "1997",
+ note = "",
+ doi = "http://dx.doi.org/10.1016/S0026-2714(97)00007-3"
+}
+%issn = "0026-2714",
+%url = "http://www.sciencedirect.com/science/article/pii/S0026271497000073",
+
+@ARTICLE{thermalnoise2,
+ author = {{Zhao}, H. and {Liu}, X.},
+ title = "{A low-power cryogenic analog to digital converter in standard CMOS technology}",
+ journal = {Cryogenics},
+ year = 2013,
+ month = may,
+ volume = 55,
+ pages = {79-83},
+ doi = {10.1016/j.cryogenics.2013.03.005},
+ adsurl = {http://adsabs.harvard.edu/abs/2013Cryo...55...79Z},
+ adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@Misc{SBNProposal,
+ author         = "Antonello, M. and others",
+ title          = "\emph{A Proposal for a Three Detector Short-Baseline Neutrino Oscillation Program in the Fermilab Booster Neutrino Beam}",
+ collaboration  = "LAr1-ND, ICARUS-WA104 and MicroBooNE Collaborations",
+ year           = "2015",
+ eprint         = "arXiv:1503.01520",
+ SLACcitation   = "%%CITATION = ARXIV:1503.01520;%%"
+}
+%eprint         = "1503.01520",
+
+% ==================== 35 ton simulation chapter ====================
+
+@article {Bethe,
+ author = {Bethe, H.},
+ title = {Zur Theorie des Durchgangs schneller Korpuskularstrahlen durch Materie},
+ journal = {Annalen der Physik},
+ volume = {397},
+ number = {3},
+ publisher = {WILEY-VCH Verlag},
+ doi = {10.1002/andp.19303970303},
+ pages = {325--400},
+ year = {1930},
+}
+%url = {http://dx.doi.org/10.1002/andp.19303970303},
+%issn = {1521-3889},
+
+@article {Bloch,
+ author = {Bloch, F.},
+ title = {Zur Bremsung rasch bewegter Teilchen beim Durchgang durch Materie},
+ journal = {Annalen der Physik},
+ volume = {408}, 
+ number = {3},
+ publisher = {WILEY-VCH Verlag},
+ doi = {10.1002/andp.19334080303},
+ pages = {285--320},
+ year = {1933},
+}
+%url = {http://dx.doi.org/10.1002/andp.19334080303},
+%issn = {1521-3889},
+
+@article{PDGReview,
+ author         = "Patrignani, C. and others",
+ title          = "{Review of Particle Physics}",
+ collaboration  = "Particle Data Group",
+ journal        = "Chin. Phys.",
+ volume         = "C40",
+ year           = "2016",
+ number         = "10",
+ pages          = "100001",
+ doi            = "10.1088/1674-1137/40/10/100001",
+ SLACcitation   = "%%CITATION = CHPHD,C40,100001;%%"
+}
+
+@article{PIDA_Paper,
+ author         = "Acciarri, R. and others",
+ title          = "{A study of electron recombination using highly ionizing particles in the ArgoNeuT Liquid Argon TPC}",
+ collaboration  = "ArgoNeuT Collaboration",
+ journal        = "JINST",
+ volume         = "8",
+ year           = "2013",
+ pages          = "P08005",
+ doi            = "10.1088/1748-0221/8/08/P08005",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ reportNumber   = "FERMILAB-PUB-13-184-E",
+ SLACcitation   = "%%CITATION = ARXIV:1306.1712;%%"
+}
+%eprint = "1306.1712",
+
+@Misc{XinSeptFNAL,
+ author = "Qian, X.",
+ title  = "\emph{A Four-Plane proposal for Single-Phase LArTPC}",
+ howpublished = "{Far Detector Sim/Reco working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=78&sessionId=20&resId=0&materialId=slides&confId=10613"
+}
+
+% ==================== 35 ton data chapter ====================
+
+@Misc{InslerStuckCode,
+ author = "Insler, J.",
+ title  = "\emph{Module to unstick ADC codes}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627"
+}
+
+@article{CoTuFFT,
+  author  = {J. Cooley and J. Turkey},
+  title   = {An algorithm for the machine calculation of complex Fourier series},
+  journal = {Math. Comp.},
+  volume  = {19},
+  number  = {},
+  year    = {1965},
+  pages   = {297-301},
+}
+
+@BOOK{WienerFilter,
+  author = "N. Wiener",
+  title  = "Extrapolation, Interpolation, and Smoothing of Stationary Time Series",
+  publisher = "[Cambridge]: Technology Press of the Massachusetts Institute of Technology.",
+  year   = "1942",
+}
+
+@techreport{uBooNENoise,
+  author = "{\relax MicroBooNE Collaboration}",
+  title  = "{Noise Characterization and Filtering in the MicroBooNE TPC}",
+  number = "MICROBOONE-NOTE-1016-PUB",
+  url    = "http://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1016-PUB.pdf",
+  month  = "July",
+  year   = "2016"
+}
+
+@techreport{35tonNoiseMeeting,
+  author = "Johnson, M. and others",
+  title  = "{35T Observations and Measurements}",
+  number = "DUNE-doc-1704",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1704",
+  month  = "Aug",
+  year   = "2016"
+}
+
+@techreport{35tonNoiseDoc,
+  author = "Bagby, L. and others",
+  title  = "{35T Noise Studies Summary - APA wire readout noise}",
+  number = "DUNE-doc-1834",
+  url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1834",
+  month  = "Oct",
+  year   = "2016"
+}
+
+@Misc{TingjunClustering,
+ author = "Yang, T.",
+ title  = "\emph{Update on reconstruction of 35t data}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12349"
+}
+
+@article{MLESAC,
+ author={Torr, P.H.S and Zisserman, A.},
+ title={MLESAC: A new robust estimator with application to estimating image geometry},
+ journal={Computer Vision and Image Understanding},
+ volume={78},
+ number={1},
+ pages={138--156},
+ year={2000},
+ publisher={Elsevier},
+}
+
+@Misc{MattMLESAC,
+ author = "Thiesse, M.",
+ title  = "\emph{Hit Reconstruction and Purity}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12859"
+}
+
+@article{ArgoNeuT,
+ author         = "Anderson, C. and others",
+ title          = "{The ArgoNeuT Detector in the NuMI Low-Energy beam line at Fermilab}",
+ journal        = "JINST",
+ volume         = "7",
+ year           = "2012",
+ pages          = "P10019",
+ doi            = "10.1088/1748-0221/7/10/P10019",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ reportNumber   = "FERMILAB-PUB-12-877-PPD",
+ SLACcitation   = "%%CITATION = ARXIV:1205.6747;%%"
+}
+%eprint         = "1205.6747",
+
+@Misc{TingjunLifetime,
+ author = "Yang, T.",
+ title  = "\emph{Update on 35 ton analysis}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=12396"
+}
+
+@article{PhysRevA.20.2547,
+  title = {Ratio of diffusion coefficient to mobility for electrons in liquid argon},
+  author = {Shibamura, E. and others},
+  journal = {Phys. Rev. A},
+  volume = {20},
+  issue = {6},
+  pages = {2547--2554},
+  numpages = {0},
+  year = {1979},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.20.2547}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevA.20.2547}
+
+@ARTICLE{1974NucIM.122..319D,
+ author = "Derenzo, S.E. and others",
+ title = "{Test of a liquid argon chamber with 20 {$\mu$}m RMS resolution}",
+ journal = {Nuclear Instruments and Methods},
+ year = 1974,
+ month = dec,
+ volume = 122,
+ pages = {319-327},
+ doi = {10.1016/0029-554X(74)90495-9},
+ adsurl = {http://adsabs.harvard.edu/abs/1974NucIM.122..319D},
+ adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@Misc{Derenzo,
+ author = "Derenzo, S. E.",
+ title = "\emph{LBL Physics Note No. 786: Electron diffusion and positive ion charge retention in liquid-filled high-resolution multi- strip ionization-mode chambers.}",
+ note = "unpublished",
+ year = "1974"
+}
+
+@article{Atrazhev-Timoshkin,
+ author         = "V. M. Atrazhev and I. V. Timoshkin",
+ title          = "{Trasport of electrons in atomic liquids in high electric fields}",
+ journal        = "IEEE Trans. Dielectrics and Electrical Insulation",
+ volume         = "5",
+ year           = "1998",
+ pages          = "450-457",
+ doi            = "10.1109/94.689434",
+}
+
+@article{Li:2015rqa,
+ author         = "Li, Y. and others",
+ title          = "{Measurement of Longitudinal Electron Diffusion in Liquid Argon}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A816",
+ year           = "2016",
+ pages          = "160-170",
+ doi            = "10.1016/j.nima.2016.01.094",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+}
+%eprint         = "1508.07059",
+
+@Misc{DomSeptMeeting,
+ author = "Brailsford, D.",
+ title  = "\emph{Looking at electron diffusion in 35t data and MC}",
+ howpublished = "{35 ton working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=43&sessionId=19&resId=0&materialId=slides&confId=10613"
+}
+
+@article{LongBo,
+ title    = {Design and operation of LongBo: a 2 m long drift liquid argon TPC},
+ author   = {Bromberg, C and others},
+ journal  = {Journal of Instrumentation},
+ volume   = {10},
+ number   = {07},
+ pages    = {P07015},
+ year     = {2015},
+ publisher= {IOP Publishing}
+}
+
+% ==================== Far detector chapter ====================
+
+@PHDTHESIS{MartinsThesis,
+  author = {M. Richardson},
+  title  = {Cosmic ray background estimations in large liquid argon detectors for proton decay via $p \rightarrow K^{+} \bar{\nu}$ and $\nu_{e}$ appearance from $\nu_{\mu}$ beam},
+  school = {The University of Sheffield},
+  year   = "2016"
+}
+
+@techreport{LBNE6493,
+  author = "N. S. Bowden",
+  title  = "{Review Report: Mini-Review of Operation of the LBNE Far Detector at the Surface}",
+  number = "LBNE-doc-6493",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6493&filename=LBNENearSurfaceReviewrReports.pdf&version=2",
+  month  = "Oct",
+  year   = "2012"
+}
+
+@Misc{Shielding,
+  author = "D. Wright",
+  title  = "\emph{Shielding Physics List Description}",
+  url    = "http://www.slac.stanford.edu/comp/physics/geant4/slac_physics_lists/shielding/physlistdoc.html",
+  month  = "June",
+  year   = "2012"
+}
+
+@techreport{LBNE3383,
+  author = "B. Baller",
+  title  = "{LAr-FD Parameters Spreadsheet}",
+  number = "LBNE-doc-3383",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=3383&filename=ParametersAPAsOutsideAug11_2015.pdf&version=59",
+  month  = "Aug",
+  year   = "2015"
+}
+
+@techreport{LBNE7806,
+  author = "D. Cherdack",
+  title  = "{The LBNE Fast MC}",
+  number = "LBNE-doc-7806",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7806&filename=SoftwarePreMeeting_Talk_DDC.pdf&version=1",
+  month  = "Sept",
+  year   = "2013"
+}
+
+@book{Gaisser,
+  author         = "Gaisser, T. K.",
+  title          = "{Cosmic rays and particle physics}",
+  publisher      = "Cambridge, UK: Univ. Pr. (1990) 279 p",
+  year           = "1990",
+  reportNumber   = "ISBN-9780521339315",
+  SLACcitation   = "%%CITATION = ISBN-9780521339315;%%"
+}
+%url            = "http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521326672",
+
+@article{PhysRevLett.51.227,
+  title = {Atmospheric Neutrinos, Astrophysical Neutrons, and Proton-Decay Experiments},
+  author = {Dar, A.},
+  journal = {Phys. Rev. Lett.},
+  volume = {51},
+  issue = {3},
+  pages = {227--230},
+  numpages = {0},
+  year = {1983},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.51.227}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevLett.51.227}
+
+@article{PhysRevD.58.092005,
+  title = {Muon ``depth-intensity'' relation measured by the LVD underground experiment and cosmic-ray muon spectrum at sea level},
+  author = {Aglietta, M. and others},
+  collaboration = {LVD Collaboration},
+  journal = {Phys. Rev. D},
+  volume = {58},
+  issue = {9},
+  pages = {092005},
+  numpages = {6},
+  year = {1998},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.58.092005}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.58.092005}
+
+@techreport{LBNE7517,
+  author = "Blackwell, T. and others",
+  title  = "{Cosmic-ray Spectra from CRY}",
+  number = "LBNE-doc-7517",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7517&filename=cosmogenics-vk1-130712-v3.pdf&version=3",
+  month  = "July",
+  year   = "2013"
+}
+
+@Misc{barker2012muon,
+  title = "\emph{Muon-induced background for beam neutrinos at the surface}",
+  author= "Barker, D. and others",
+  howpublished  = {LBNE Reconfiguration Report},
+  year  = "2012",
+  url   = {http://www.fnal.gov/directorate/lbne_reconfiguration/files/LBNE-Reconfiguration-Surface-Detector-August2012.pdf}
+}
+
+@techreport{LBNE6621,
+  author = "Mei, D. and others",
+  title  = "{USD Cosmogenics Backgrounds Simulation Overview}",
+  number = "LBNE-doc-6621",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6621&filename=CosmogenicsSimulationOverview.pdf&version=1",
+  month  = "Nov",
+  year   = "2012"
+}
+
+@techreport{LBNE8458,
+  author = "Coelho, D. and others",
+  title  = "{Improving Electron / Gamma Separation}",
+  number = "LBNE-doc-8458",
+  url    = "http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8458&filename=DC_LBNE_FEB1.pdf&version=1",
+  month  = "Nov",
+  year   = "2012"
+}
+
+@article{PhysRevB.27.5279,
+  title = {Effect of ionization density on the time dependence of luminescence from liquid argon and xenon},
+  author = {Hitachi, A. and others},
+  journal = {Phys. Rev. B},
+  volume = {27},
+  issue = {9},
+  pages = {5279--5285},
+  numpages = {0},
+  year = {1983},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.27.5279}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevB.27.5279}
+
+@article{PhysRevD.57.3873,
+  title = {Unified approach to the classical statistical analysis of small signals},
+  author = {Feldman, G. J. and Cousins, R. D.},
+  journal = {Phys. Rev. D},
+  volume = {57},
+  issue = {7},
+  pages = {3873--3889},
+  numpages = {0},
+  year = {1998},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.57.3873}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.57.3873}
+
+%%%%%%% Start of MUSUN stuff
+@article{Mei:2009py,
+ author         = "Mei, D. M. and others",
+ title          = "{Early Results on Radioactive Background Characterization for Sanford Laboratory and DUSEL Experiments}",
+ journal        = "Astropart. Phys.",
+ volume         = "34",
+ year           = "2010",
+ pages          = "33-39",
+ doi            = "10.1016/j.astropartphys.2010.04.003",
+ archivePrefix  = "arXiv",
+ primaryClass   = "nucl-ex",
+ SLACcitation   = "%%CITATION = ARXIV:0912.0211;%%"
+}
+%eprint         = "0912.0211",
+
+@article{Gray:2010nc,
+ author         = "Gray, F. E. and others",
+ title          = "{Cosmic Ray Muon Flux at the Sanford Underground Laboratory at Homestake}",
+ journal        = "Nucl. Instrum. Meth.",
+ volume         = "A638",
+ year           = "2011",
+ pages          = "63-66",
+ doi            = "10.1016/j.nima.2011.02.032",
+ archivePrefix  = "arXiv",
+ primaryClass   = "nucl-ex",
+ SLACcitation   = "%%CITATION = ARXIV:1007.1921;%%"
+}
+%eprint         = "1007.1921",
+
+@article{Heise:2014gta,
+ author         = "Heise, J.",
+ title          = "{The Sanford Underground Research Facility at Homestake}",
+ booktitle      = "{Proceedings, Workshop on Dark Matter, Neutrino Physics and Astrophysics CETUP* 2013: 7th International Conference on Interconnection between Particle Physics and Cosmology (PPC 2013): Lead/Deadwood, South Dakota, USA, July, 8-13, 2013}",
+ journal        = "AIP Conf. Proc.",
+ volume         = "1604",
+ year           = "2014",
+ pages          = "331-344",
+ doi            = "10.1063/1.4883449",
+ archivePrefix  = "arXiv",
+ primaryClass   = "physics.ins-det",
+ SLACcitation   = "%%CITATION = ARXIV:1401.0861;%%"
+}
+%eprint         = "1401.0861",
+
+@article{PhysRevD.27.1444,
+ title = {Multiple muons in the Homestake underground detector},
+ author = {Cherry, M. L. and others},
+ journal = {Phys. Rev. D},
+ volume = {27},
+ issue = {7},
+ pages = {1444--1447},
+ numpages = {0},
+ year = {1983},
+ month = {Apr},
+ publisher = {American Physical Society},
+ doi = {10.1103/PhysRevD.27.1444}
+}
+%url = {http://link.aps.org/doi/10.1103/PhysRevD.27.1444}
+
+@Misc{Abgrall:2016cfi,
+ author         = "Abgrall, N. and others",
+ title          = "\emph{Muon Flux Measurements at the Davis Campus of the Sanford Underground Research Facility with the Majorana Demonstrator Veto System}",
+ collaboration  = "MAJORANA Collaboration",
+ year           = "2016",
+ note           = "arXiv: 1602.07742",
+ SLACcitation   = "%%CITATION = ARXIV:1602.07742;%%"
+}
+
+@techreport{NDKTFNote,
+ author = "Church, E.",
+ title  = "{September 2016 Progress Report from the Atmospheric Neutrinos, Nucleon Decay, and Cosmogenics Working Groups}",
+ number = "DUNE-doc-1644",
+ url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644",
+ month  = "Sept",
+ year   = "2016"
+}
+
+@techreport{FDTFMarch2017,
+ author = "Barrow, J. and others.",
+ title  = "{Nucleon Decay, Atmospheric Neutrino, and Cosmogenic Physics for FDTF Final Report}",
+ number = "DUNE-doc-2689",
+ url    = "http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2689",
+ month  = "March",
+ year   = "2017"
+}
+
+@techreport{LBNE3144,
+ author = "de Jong, J. K.",
+ title  = "{Atmospheric Muon Simulation for LBNE}",
+ number = "LBNE-doc-3144",
+ url    = "http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=3144",
+ month  = "July",
+ year   = "2012"
+}
+
+@techreport{MUSUNLBNE,
+ author = "Kudryavtsev, V. A. and others",
+ title  = "{Muon simulations for LBNE using MUSIC and MUSUN}",
+ number = "LBNE-doc-9673",
+ url    = "http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673",
+ month  = "Sept",
+ year   = "2014"
+}
+
+@article{Bueno,
+ author         = "Bueno, A. and others",
+ title          = "{Nucleon decay searches with large liquid argon TPC detectors at shallow depths: Atmospheric neutrinos and cosmogenic backgrounds}",
+ journal        = "JHEP",
+ volume         = "04",
+ year           = "2007",
+ pages          = "041",
+ doi            = "10.1088/1126-6708/2007/04/041",
+ archivePrefix  = "arXiv",
+ primaryClass   = "hep-ph",
+ SLACcitation   = "%%CITATION = HEP-PH/0701101;%%"
+}
+%eprint         = "hep-ph/0701101",
+
+@Misc{CosmoJanCollabMeeting,
+ author = "Robinson, M.",
+ title  = "\emph{Cosmogenic background to nucelon decay}",
+ howpublished = "{Cosmogenics working group meeting}",
+ year   = "2017",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641"
+}
+
+@Misc{KevinSeptCollab,
+ author = "Wood, K.",
+ title  = "\emph{Reconstruction Efficiencies of Scintillation Light from PDK events}",
+ howpublished = "{Cosmogenics working group meeting}",
+ year   = "2016",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=98&sessionId=25&resId=0&materialId=slides&confId=10613"
+}
+
+@Misc{AAron_17_02_08,
+ author = "Higuera, A.",
+ title  = "\emph{Proton Decay at DUNE $p \rightarrow $K$^{+} + \overline{\nu_{e}}$}",
+ howpublished = {Cosmogenics working group meeting},
+ year   = "2017",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=13789"
+}
+
+@Misc{Tingjun_17_02_08,
+ author = "Yang, T.",
+ title  = "\emph{Updates on reconstruction}",
+ howpublished = "{Cosmogenics working group meeting}",
+ year   = "2017",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=13789"
+}
+
+@Misc{AAron_17_03_01,
+ author = "Higuera, A.",
+ title  = "\emph{Proton Decay at DUNE $p \rightarrow $K$^{+} + \overline{\nu_{e}}$ and $^{39}$Ar}",
+ howpublished = "{Cosmogenics working group meeting}",
+ year   = "2017",
+ url    = "https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13947"
+}
+% ------------------------------------------------------------------------

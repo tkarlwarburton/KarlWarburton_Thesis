@@ -1,19 +1,63 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Dedication/dedication.aux
-A level-1 auxiliary file: Declaration/declaration.aux
-A level-1 auxiliary file: Acknowledgement/acknowledgement.aux
-A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Theory/Theory.aux
-A level-1 auxiliary file: DUNE/DUNE.aux
-A level-1 auxiliary file: The35tonCameras/The35tonCameras.aux
-A level-1 auxiliary file: 35tonSimulation/35tonSimulation.aux
+I couldn't open auxiliary file Dedication/dedication.aux
+---line 19 of file thesis.aux
+ : \@input{Dedication/dedication.aux
+ :                                  }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Declaration/declaration.aux
+---line 20 of file thesis.aux
+ : \@input{Declaration/declaration.aux
+ :                                    }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Acknowledgement/acknowledgement.aux
+---line 21 of file thesis.aux
+ : \@input{Acknowledgement/acknowledgement.aux
+ :                                            }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Abstract/abstract.aux
+---line 22 of file thesis.aux
+ : \@input{Abstract/abstract.aux
+ :                              }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Theory/Theory.aux
+---line 25 of file thesis.aux
+ : \@input{Theory/Theory.aux
+ :                          }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file DUNE/DUNE.aux
+---line 26 of file thesis.aux
+ : \@input{DUNE/DUNE.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file The35tonCameras/The35tonCameras.aux
+---line 27 of file thesis.aux
+ : \@input{The35tonCameras/The35tonCameras.aux
+ :                                            }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file 35tonSimulation/35tonSimulation.aux
+---line 28 of file thesis.aux
+ : \@input{35tonSimulation/35tonSimulation.aux
+ :                                            }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: 35tonData/35tonData.aux
-A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
-A level-1 auxiliary file: Conclusion/Conclusion.aux
+I couldn't open auxiliary file FarDetectorSimulations/FarDetectorSimulations.aux
+---line 30 of file thesis.aux
+ : \@input{FarDetectorSimulations/FarDetectorSimulations.aux
+ :                                                          }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file Conclusion/Conclusion.aux
+---line 31 of file thesis.aux
+ : \@input{Conclusion/Conclusion.aux
+ :                                  }
+I'm skipping whatever remains of this command
 The style file: apsrev4-1.bst
-A level-1 auxiliary file: Appendix1/appendix1.aux
+I couldn't open auxiliary file Appendix1/appendix1.aux
+---line 34 of file thesis.aux
+ : \@input{Appendix1/appendix1.aux
+ :                                }
+I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -21,7 +65,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 11808 items from 5000.
 Database file #1: References/references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
@@ -32,80 +75,48 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-Warning--missing institution in Tzanankos:2011zz
-Warning--missing institution in Hewett:2012ns
-Warning--missing institution in LBNE_CDR1
-Warning--missing institution in LBNE_CDR2
-Warning--missing institution in LBNE_CDR3
-Warning--missing institution in LBNE_CDR4
-Warning--missing institution in LBNE_CDR5
-Warning--missing institution in LBNE_CDR6
-Warning--missing institution in LBNO_EOI
-Warning--missing institution in Elizabeth_01_17
-Warning--missing institution in DUNE2335
-Warning--missing institution in DUNE2401
-Warning--missing institution in DUNE2332
-Warning--missing institution in DUNE2377
-Warning--missing institution in MauryLifetime
-Warning--missing institution in LBNE8836
-Warning--missing institution in MarkReviewJuly2015
-Warning--missing institution in CRY
-Warning--missing institution in CRY2
-Warning--missing institution in CORSIKA
-Warning--missing institution in LArSoftRecoNote
-Warning--missing institution in EMShower
 Warning--missing institution in uBooNENoise
 Warning--missing institution in 35tonNoiseMeeting
 Warning--missing institution in 35tonNoiseDoc
-Warning--missing institution in LBNE6493
-Warning--missing institution in LBNE3383
-Warning--missing institution in LBNE7806
-Warning--missing institution in LBNE6621
-Warning--missing institution in LBNE8458
-Warning--missing institution in LBNE7517
-Warning--missing institution in NDKTFNote
-Warning--missing institution in LBNE3144
-Warning--missing institution in MUSUNLBNE
-Warning--missing institution in FDTFMarch2017
-You've used 184 entries,
+You've used 18 entries,
             5847 wiz_defined-function locations,
-            2954 strings with 50830 characters,
-and the built_in function-call counts, 148059 in all, are:
-= -- 11039
-> -- 2744
-< -- 838
-+ -- 994
-- -- 604
-* -- 21299
-:= -- 15976
-add.period$ -- 215
-call.type$ -- 184
-change.case$ -- 782
-chr.to.int$ -- 172
-cite$ -- 219
-duplicate$ -- 14166
-empty$ -- 11315
-format.name$ -- 1770
-if$ -- 29144
-int.to.chr$ -- 13
-int.to.str$ -- 192
-missing$ -- 1746
-newline$ -- 667
-num.names$ -- 552
-pop$ -- 5617
+            1737 strings with 18184 characters,
+and the built_in function-call counts, 14032 in all, are:
+= -- 1046
+> -- 257
+< -- 80
++ -- 97
+- -- 56
+* -- 2019
+:= -- 1544
+add.period$ -- 24
+call.type$ -- 18
+change.case$ -- 79
+chr.to.int$ -- 17
+cite$ -- 21
+duplicate$ -- 1333
+empty$ -- 1045
+format.name$ -- 163
+if$ -- 2711
+int.to.chr$ -- 2
+int.to.str$ -- 26
+missing$ -- 152
+newline$ -- 107
+num.names$ -- 54
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 920
+purify$ -- 90
 quote$ -- 0
-skip$ -- 5718
+skip$ -- 546
 stack$ -- 0
-substring$ -- 3964
-swap$ -- 12526
-text.length$ -- 242
+substring$ -- 345
+swap$ -- 1163
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 2324
-warning$ -- 35
-while$ -- 488
+type$ -- 225
+warning$ -- 3
+while$ -- 44
 width$ -- 0
-write$ -- 1585
-(There were 35 warnings)
+write$ -- 196
+(There were 11 error messages)

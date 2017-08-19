@@ -1,96 +1,10 @@
 \begin{thenomenclature} 
 
- \nomgroup{A}
-
-  \item [{tick}]\begingroup Unit of time equal to 500 ns\nomeqref {2.0}
-		\nompageref{18}
-
  \nomgroup{Z}
 
-  \item [{\emph{art}}]\begingroup \emph{analysis reconstruction framework}\nomeqref {2.0}
-		\nompageref{18}
-  \item [{ADC}]\begingroup Analogue to Digital Converter\nomeqref {2.0}
-		\nompageref{18}
-  \item [{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {5.0}
-		\nompageref{95}
-  \item [{APA}]\begingroup Anode Plane Assembly\nomeqref {2.0}
-		\nompageref{18}
-  \item [{CCD}]\begingroup Charge-Coupled Device\nomeqref {3.0}
-		\nompageref{49}
-  \item [{CDR}]\begingroup Conceptual Design Report\nomeqref {2.0}
-		\nompageref{18}
-  \item [{CMOS}]\begingroup Complementary Metal-Oxide Semiconductor\nomeqref {3.0}
-		\nompageref{49}
-  \item [{CPA}]\begingroup Cathode Plane Assembly\nomeqref {2.0}
-		\nompageref{18}
-  \item [{CP}]\begingroup Charge-Parity\nomeqref {1.0}\nompageref{1}
-  \item [{CRC}]\begingroup Cosmic Ray Counter\nomeqref {2.0}
-		\nompageref{18}
-  \item [{CRY}]\begingroup Cosmic RaY shower library\nomeqref {2.0}
-		\nompageref{18}
-  \item [{DUNE}]\begingroup Deep Underground Neutrino Experiment\nomeqref {2.0}
-		\nompageref{18}
-  \item [{DVR}]\begingroup Digital Video Recorder\nomeqref {3.0}
-		\nompageref{49}
-  \item [{FD}]\begingroup Far Detector\nomeqref {2.0}\nompageref{18}
-  \item [{Fermilab}]\begingroup Fermi National Laboratory\nomeqref {2.0}
-		\nompageref{18}
-  \item [{FGT}]\begingroup Fine-Grained Tracker\nomeqref {2.0}
-		\nompageref{18}
-  \item [{FNAL}]\begingroup Fermi National Laboratory\nomeqref {2.0}
-		\nompageref{18}
-  \item [{GENIE}]\begingroup Generates Events for Neutrino Interaction Experiments\nomeqref {2.0}
-		\nompageref{18}
-  \item [{GUT}]\begingroup Grand Unified Theory\nomeqref {1.0}
+  \item [{ADC}]\begingroup Analogue-to-Digital Converter\nomeqref {1.0}
 		\nompageref{1}
-  \item [{HV}]\begingroup High Voltage\nomeqref {3.0}\nompageref{49}
-  \item [{LAr}]\begingroup Liquid Argon\nomeqref {1.0}\nompageref{1}
-  \item [{LArSoft}]\begingroup Liquid Argon Software\nomeqref {2.0}
-		\nompageref{18}
-  \item [{LArTPC}]\begingroup Liquid Argon Time Projection Chamber\nomeqref {1.0}
-		\nompageref{1}
-  \item [{LBNE}]\begingroup Long Baseline Neutrino Experiment\nomeqref {2.0}
-		\nompageref{18}
-  \item [{LBNO}]\begingroup Long Baseline Neutrino Observatory\nomeqref {2.0}
-		\nompageref{18}
-  \item [{LSP}]\begingroup Lightest Supersymmetric Particle\nomeqref {1.0}
-		\nompageref{1}
-  \item [{MIP}]\begingroup Minimum Ionising Particle\nomeqref {3.0}
-		\nompageref{59}
-  \item [{MPV}]\begingroup Most Probable Value\nomeqref {3.0}
-		\nompageref{59}
-  \item [{MSSM}]\begingroup Minimally Supersymmetric Standard Model\nomeqref {1.0}
-		\nompageref{1}
-  \item [{MUSIC}]\begingroup MUon Simulation Code\nomeqref {2.0}
-		\nompageref{18}
-  \item [{MUSUN}]\begingroup MUon Simulations UNderground\nomeqref {2.0}
-		\nompageref{18}
-  \item [{ND}]\begingroup Near Detector\nomeqref {2.0}\nompageref{18}
-  \item [{PCB}]\begingroup Printed Circuit Board\nomeqref {2.0}
-		\nompageref{18}
-  \item [{PD}]\begingroup Photon Detector\nomeqref {2.0}\nompageref{18}
-  \item [{PID}]\begingroup Particle IDentification A\nomeqref {3.0}
-		\nompageref{59}
-  \item [{PID}]\begingroup Particle IDentification\nomeqref {3.0}
-		\nompageref{59}
-  \item [{PIP-II}]\begingroup Proton Improvement Plan II\nomeqref {2.0}
-		\nompageref{18}
-  \item [{PoCA}]\begingroup Point of Closest Approach\nomeqref {5.2}
-		\nompageref{147}
-  \item [{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {5.0}
-		\nompageref{95}
-  \item [{ROI}]\begingroup Region Of Interest\nomeqref {3.0}
-		\nompageref{59}
-  \item [{SiPM}]\begingroup Silicon PhotoMultiplier\nomeqref {2.0}
-		\nompageref{18}
-  \item [{SK}]\begingroup Super-Kamiokande\nomeqref {1.0}\nompageref{1}
-  \item [{SM}]\begingroup Standard Model\nomeqref {1.0}\nompageref{1}
-  \item [{SSP}]\begingroup SiPM Signal Processor\nomeqref {2.0}
-		\nompageref{18}
-  \item [{SURF}]\begingroup Sanford Underground Research Facility\nomeqref {2.0}
-		\nompageref{18}
-  \item [{SUSY}]\begingroup SUperSYmmetry\nomeqref {1.0}\nompageref{1}
-  \item [{TPC}]\begingroup Time Projection Chamber\nomeqref {1.0}
+  \item [{RCE}]\begingroup Reconfigurable Computing Element\nomeqref {1.0}
 		\nompageref{1}
 
 \end{thenomenclature}
