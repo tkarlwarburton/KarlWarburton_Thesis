@@ -42,11 +42,7 @@ I couldn't open auxiliary file 35tonSimulation/35tonSimulation.aux
  :                                            }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: 35tonData/35tonData.aux
-I couldn't open auxiliary file FarDetectorSimulations/FarDetectorSimulations.aux
----line 30 of file thesis.aux
- : \@input{FarDetectorSimulations/FarDetectorSimulations.aux
- :                                                          }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: FarDetectorSimulations/FarDetectorSimulations.aux
 I couldn't open auxiliary file Conclusion/Conclusion.aux
 ---line 31 of file thesis.aux
  : \@input{Conclusion/Conclusion.aux
@@ -54,7 +50,7 @@ I couldn't open auxiliary file Conclusion/Conclusion.aux
 I'm skipping whatever remains of this command
 The style file: apsrev4-1.bst
 I couldn't open auxiliary file Appendix1/appendix1.aux
----line 34 of file thesis.aux
+---line 53 of file thesis.aux
  : \@input{Appendix1/appendix1.aux
  :                                }
 I'm skipping whatever remains of this command
@@ -78,45 +74,57 @@ Control: production of eprint (0) enabled
 Warning--missing institution in uBooNENoise
 Warning--missing institution in 35tonNoiseMeeting
 Warning--missing institution in 35tonNoiseDoc
-You've used 18 entries,
+Warning--missing institution in LBNE6493
+Warning--missing institution in LBNE3383
+Warning--missing institution in LBNE7806
+Warning--missing institution in LBNE6621
+Warning--missing institution in LBNE8458
+Warning--missing institution in CRY
+Warning--missing institution in CRY2
+Warning--missing institution in LBNE7517
+Warning--missing institution in NDKTFNote
+Warning--missing institution in LBNE3144
+Warning--missing institution in MUSUNLBNE
+Warning--missing institution in FDTFMarch2017
+You've used 56 entries,
             5847 wiz_defined-function locations,
-            1737 strings with 18184 characters,
-and the built_in function-call counts, 14032 in all, are:
-= -- 1046
-> -- 257
-< -- 80
-+ -- 97
-- -- 56
-* -- 2019
-:= -- 1544
-add.period$ -- 24
-call.type$ -- 18
-change.case$ -- 79
-chr.to.int$ -- 17
-cite$ -- 21
-duplicate$ -- 1333
-empty$ -- 1045
-format.name$ -- 163
-if$ -- 2711
-int.to.chr$ -- 2
-int.to.str$ -- 26
-missing$ -- 152
-newline$ -- 107
-num.names$ -- 54
-pop$ -- 537
+            2007 strings with 25782 characters,
+and the built_in function-call counts, 43071 in all, are:
+= -- 3231
+> -- 794
+< -- 238
++ -- 294
+- -- 176
+* -- 6235
+:= -- 4740
+add.period$ -- 71
+call.type$ -- 56
+change.case$ -- 242
+chr.to.int$ -- 54
+cite$ -- 71
+duplicate$ -- 4136
+empty$ -- 3252
+format.name$ -- 510
+if$ -- 8358
+int.to.chr$ -- 3
+int.to.str$ -- 64
+missing$ -- 480
+newline$ -- 232
+num.names$ -- 168
+pop$ -- 1636
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 280
 quote$ -- 0
-skip$ -- 546
+skip$ -- 1649
 stack$ -- 0
-substring$ -- 345
-swap$ -- 1163
-text.length$ -- 23
+substring$ -- 1029
+swap$ -- 3624
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 225
-warning$ -- 3
-while$ -- 44
+type$ -- 702
+warning$ -- 15
+while$ -- 135
 width$ -- 0
-write$ -- 196
-(There were 11 error messages)
+write$ -- 512
+(There were 10 error messages)

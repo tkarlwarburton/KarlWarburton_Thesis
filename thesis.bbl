@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{18}%
+\begin{thebibliography}{56}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -198,4 +198,335 @@
   {Bromberg}} \emph {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
   {journal} {Journal of Instrumentation}\ }\textbf {\bibinfo {volume} {10}},\
   \bibinfo {pages} {P07015} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Richardson}(2016)}]{MartinsThesis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Richardson}},\ }\emph {\bibinfo {title} {Cosmic ray background estimations
+  in large liquid argon detectors for proton decay via $p \rightarrow K^{+}
+  \bar{\nu}$ and $\nu_{e}$ appearance from $\nu_{\mu}$ beam}},\ \href@noop {}
+  {Ph.D. thesis},\ \bibinfo  {school} {The University of Sheffield} (\bibinfo
+  {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bowden}(2012)}]{LBNE6493}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~S.}\ \bibnamefont
+  {Bowden}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6493&filename=LBNENearSurfaceReviewrReports.pdf&version=2}
+  {\emph {\bibinfo {title} {{Review Report: Mini-Review of Operation of the
+  LBNE Far Detector at the Surface}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {LBNE-doc-6493}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wright}(2012)}]{Shielding}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Wright}},\ }\href
+  {http://www.slac.stanford.edu/comp/physics/geant4/slac_physics_lists/shielding/physlistdoc.html}
+  {\enquote {\bibinfo {title} {\emph{Shielding Physics List Description}},}\ }
+  (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baller}(2015)}]{LBNE3383}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Baller}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=3383&filename=ParametersAPAsOutsideAug11_2015.pdf&version=59}
+  {\emph {\bibinfo {title} {{LAr-FD Parameters Spreadsheet}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-3383}\ (\bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agostinelli}\ \emph {et~al.}(2003)\citenamefont
+  {Agostinelli} \emph {et~al.}}]{GEANT4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Agostinelli}} \emph {et~al.},\ }\href {\doibase
+  http://dx.doi.org/10.1016/S0168-9002(03)01368-8} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}\
+  }\textbf {\bibinfo {volume} {506}},\ \bibinfo {pages} {250 } (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cherdack}(2013)}]{LBNE7806}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Cherdack}},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7806&filename=SoftwarePreMeeting_Talk_DDC.pdf&version=1}
+  {\emph {\bibinfo {title} {{The LBNE Fast MC}}}},\ \bibinfo {type} {Tech.
+  Rep.}\ \bibinfo {number} {LBNE-doc-7806}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barker}\ \emph {et~al.}(2012)\citenamefont {Barker}
+  \emph {et~al.}}]{barker2012muon}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Barker}} \emph {et~al.},\ }\href
+  {http://www.fnal.gov/directorate/lbne_reconfiguration/files/LBNE-Reconfiguration-Surface-Detector-August2012.pdf}
+  {\enquote {\bibinfo {title} {\emph{Muon-induced background for beam neutrinos
+  at the surface}},}\ }\bibinfo {howpublished} {LBNE Reconfiguration Report}
+  (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mei}\ \emph {et~al.}(2012)\citenamefont {Mei} \emph
+  {et~al.}}]{LBNE6621}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Mei}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=6621&filename=CosmogenicsSimulationOverview.pdf&version=1}
+  {\emph {\bibinfo {title} {{USD Cosmogenics Backgrounds Simulation
+  Overview}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo {number}
+  {LBNE-doc-6621}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coelho}\ \emph {et~al.}(2012)\citenamefont {Coelho}
+  \emph {et~al.}}]{LBNE8458}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Coelho}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=8458&filename=DC_LBNE_FEB1.pdf&version=1}
+  {\emph {\bibinfo {title} {{Improving Electron / Gamma Separation}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-8458}\ (\bibinfo
+  {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hitachi}\ \emph {et~al.}(1983)\citenamefont {Hitachi}
+  \emph {et~al.}}]{PhysRevB.27.5279}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Hitachi}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevB.27.5279}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {27}},\ \bibinfo {pages} {5279} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaisser}(1990)}]{Gaisser}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont
+  {Gaisser}},\ }\href@noop {} {\emph {\bibinfo {title} {{Cosmic rays and
+  particle physics}}}}\ (\bibinfo  {publisher} {Cambridge, UK: Univ. Pr. (1990)
+  279 p},\ \bibinfo {year} {1990})\BibitemShut {NoStop}%
+%%CITATION = ISBN-9780521339315;%%
+\bibitem [{\citenamefont {Aglietta}\ \emph {et~al.}(1998)\citenamefont
+  {Aglietta} \emph {et~al.}}]{PhysRevD.58.092005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Aglietta}} \emph {et~al.} (\bibinfo {collaboration} {LVD Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevD.58.092005} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo
+  {pages} {092005} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dar}(1983)}]{PhysRevLett.51.227}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Dar}},\ }\href {\doibase 10.1103/PhysRevLett.51.227} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {227} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}(2009)}]{MUSUN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Kudryavtsev}},\ }\href {\doibase
+  http://dx.doi.org/10.1016/j.cpc.2008.10.013} {\bibfield  {journal} {\bibinfo
+  {journal} {Computer Physics Communications}\ }\textbf {\bibinfo {volume}
+  {180}},\ \bibinfo {pages} {339 } (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(2003)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSUN2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href {\doibase
+  10.1016/S0168-9002(03)00983-5} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Instrum. Meth.}\ }\textbf {\bibinfo {volume} {A505}},\ \bibinfo
+  {pages} {688} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+%%CITATION = HEP-EX/0303007;%%
+\bibitem [{\citenamefont {Hagman}\ \emph {et~al.}(2012)\citenamefont {Hagman}
+  \emph {et~al.}}]{CRY}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hagman}} \emph {et~al.},\ }\href
+  {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry.pdf} {\emph {\bibinfo
+  {title} {{Cosmic-ray Shower Library CRY}}}},\ \bibinfo {type} {Tech. Rep.}\
+  \bibinfo {number} {UCRL-TM-229453}\ (\bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hagmann}\ \emph {et~al.}(2012)\citenamefont {Hagmann}
+  \emph {et~al.}}]{CRY2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hagmann}} \emph {et~al.},\ }\href
+  {http://nuclear.llnl.gov/simulation/doc_cry_v1.7/cry_physics.pdf} {\emph
+  {\bibinfo {title} {Monte carlo simulation of proton-induced cosmic-ray
+  cascades in the atmosphere}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {UCRL-TM-229452}\ (\bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blackwell}\ \emph {et~al.}(2013)\citenamefont
+  {Blackwell} \emph {et~al.}}]{LBNE7517}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Blackwell}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov:8080/cgi-bin/RetrieveFile?docid=7517&filename=cosmogenics-vk1-130712-v3.pdf&version=3}
+  {\emph {\bibinfo {title} {{Cosmic-ray Spectra from CRY}}}},\ \bibinfo {type}
+  {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-7517}\ (\bibinfo {year}
+  {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feldman}\ and\ \citenamefont
+  {Cousins}(1998)}]{PhysRevD.57.3873}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {Feldman}}\ and\ \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Cousins}},\ }\href {\doibase 10.1103/PhysRevD.57.3873} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {57}},\
+  \bibinfo {pages} {3873} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Antonioli}\ \emph {et~al.}(1997)\citenamefont
+  {Antonioli} \emph {et~al.}}]{MUSIC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Antonioli}} \emph {et~al.},\ }\href {\doibase 10.1016/S0927-6505(97)00035-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astropart. Phys.}\ }\textbf
+  {\bibinfo {volume} {7}},\ \bibinfo {pages} {357} (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9705408;%%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(1999)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSIC2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href {\doibase
+  10.1016/S0370-2693(99)01378-7} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Lett.}\ }\textbf {\bibinfo {volume} {B471}},\ \bibinfo {pages} {251}
+  (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+%%CITATION = HEP-PH/9911493;%%
+\bibitem [{\citenamefont {Mei}\ \emph {et~al.}(2010)\citenamefont {Mei} \emph
+  {et~al.}}]{Mei:2009py}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont
+  {Mei}} \emph {et~al.},\ }\href {\doibase 10.1016/j.astropartphys.2010.04.003}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astropart. Phys.}\ }\textbf
+  {\bibinfo {volume} {34}},\ \bibinfo {pages} {33} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0912.0211;%%
+\bibitem [{\citenamefont {Gray}\ \emph {et~al.}(2011)\citenamefont {Gray} \emph
+  {et~al.}}]{Gray:2010nc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~E.}\ \bibnamefont
+  {Gray}} \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2011.02.032}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A638}},\ \bibinfo {pages} {63} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1007.1921;%%
+\bibitem [{\citenamefont {Heise}(2014)}]{Heise:2014gta}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Heise}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {{Proceedings, Workshop on Dark Matter, Neutrino Physics and Astrophysics
+  CETUP* 2013: 7th International Conference on Interconnection between Particle
+  Physics and Cosmology (PPC 2013): Lead/Deadwood, South Dakota, USA, July,
+  8-13, 2013}}},\ }\href {\doibase 10.1063/1.4883449} {\bibfield  {journal}
+  {\bibinfo  {journal} {AIP Conf. Proc.}\ }\textbf {\bibinfo {volume} {1604}},\
+  \bibinfo {pages} {331} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1401.0861;%%
+\bibitem [{\citenamefont {Cherry}\ \emph {et~al.}(1983)\citenamefont {Cherry}
+  \emph {et~al.}}]{PhysRevD.27.1444}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Cherry}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevD.27.1444}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {27}},\ \bibinfo {pages} {1444} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abgrall}\ \emph {et~al.}(2016)\citenamefont {Abgrall}
+  \emph {et~al.}}]{Abgrall:2016cfi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Abgrall}} \emph {et~al.} (\bibinfo {collaboration} {MAJORANA
+  Collaboration}),\ }\href@noop {} {\enquote {\bibinfo {title} {\emph{Muon Flux
+  Measurements at the Davis Campus of the Sanford Underground Research Facility
+  with the Majorana Demonstrator Veto System}},}\ } (\bibinfo {year} {2016}),\
+  \bibinfo {note} {arXiv: 1602.07742}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:1602.07742;%%
+\bibitem [{\citenamefont {Church}(2016)}]{NDKTFNote}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Church}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=1644} {\emph
+  {\bibinfo {title} {{September 2016 Progress Report from the Atmospheric
+  Neutrinos, Nucleon Decay, and Cosmogenics Working Groups}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {DUNE-doc-1644}\ (\bibinfo {year}
+  {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {de~Jong}(2012)}]{LBNE3144}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {de~Jong}},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=3144} {\emph
+  {\bibinfo {title} {{Atmospheric Muon Simulation for LBNE}}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-3144}\ (\bibinfo {year}
+  {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kudryavtsev}\ \emph {et~al.}(2014)\citenamefont
+  {Kudryavtsev} \emph {et~al.}}]{MUSUNLBNE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Kudryavtsev}} \emph {et~al.},\ }\href
+  {http://lbne2-docdb.fnal.gov/cgi-bin/ShowDocument?docid=9673} {\emph
+  {\bibinfo {title} {{Muon simulations for LBNE using MUSIC and MUSUN}}}},\
+  \bibinfo {type} {Tech. Rep.}\ \bibinfo {number} {LBNE-doc-9673}\ (\bibinfo
+  {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Robinson}(2017)}]{CosmoJanCollabMeeting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Robinson}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=104&sessionId=14&resId=0&materialId=slides&confId=10641}
+  {\enquote {\bibinfo {title} {\emph{Cosmogenic background to nucelon
+  decay}},}\ }\bibinfo {howpublished} {{Cosmogenics working group meeting}}
+  (\bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Patrignani}\ \emph {et~al.}(2016)\citenamefont
+  {Patrignani} \emph {et~al.}}]{PDGReview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Patrignani}} \emph {et~al.} (\bibinfo {collaboration} {Particle Data
+  Group}),\ }\href {\doibase 10.1088/1674-1137/40/10/100001} {\bibfield
+  {journal} {\bibinfo  {journal} {Chin. Phys.}\ }\textbf {\bibinfo {volume}
+  {C40}},\ \bibinfo {pages} {100001} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+%%CITATION = CHPHD,C40,100001;%%
+\bibitem [{\citenamefont {Andreopoulos}\ \emph {et~al.}(2015)\citenamefont
+  {Andreopoulos} \emph {et~al.}}]{GENIE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Andreopoulos}} \emph {et~al.},\ }\href@noop {} {\enquote {\bibinfo {title}
+  {\emph{The GENIE Neutrino Monte Carlo Generator: Physics and User Manual}},}\
+  } (\bibinfo {year} {2015}),\ \bibinfo {note} {arXiv: 1510.05494}\BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1510.05494;%%
+\bibitem [{\citenamefont {Barrow}\ and\ \citenamefont
+  {others.}(2017)}]{FDTFMarch2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Barrow}}\ and\ \bibinfo {author} {\bibnamefont {others.}},\ }\href
+  {http://docs.dunescience.org:8080/cgi-bin/ShowDocument?docid=2689} {\emph
+  {\bibinfo {title} {{Nucleon Decay, Atmospheric Neutrino, and Cosmogenic
+  Physics for FDTF Final Report}}}},\ \bibinfo {type} {Tech. Rep.}\ \bibinfo
+  {number} {DUNE-doc-2689}\ (\bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stefan}\ and\ \citenamefont
+  {Ankowski}(2009)}]{Stefan:2008zi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Stefan}}\ and\ \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Ankowski}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle} {{Trends
+  in nuclear physics. Proceedings, 43rd Conference on Nuclear Physics,
+  Zakopane, Poland, September 1-7, 2008}}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Phys. Polon.}\ }\textbf {\bibinfo
+  {volume} {B40}},\ \bibinfo {pages} {671} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0811.1892;%%
+\bibitem [{\citenamefont {Wood}(2016)}]{KevinSeptCollab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Wood}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=98&sessionId=25&resId=0&materialId=slides&confId=10613}
+  {\enquote {\bibinfo {title} {\emph{Reconstruction Efficiencies of
+  Scintillation Light from PDK events}},}\ }\bibinfo {howpublished}
+  {{Cosmogenics working group meeting}} (\bibinfo {year} {2016})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Higuera}(2017{\natexlab{a}})}]{AAron_17_02_08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Higuera}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=slides&confId=13789}
+  {\enquote {\bibinfo {title} {\emph{Proton Decay at DUNE $p \rightarrow
+  $K$^{+} + \overline{\nu_{e}}$}},}\ }\bibinfo {howpublished} {Cosmogenics
+  working group meeting} (\bibinfo {year} {2017}{\natexlab{a}})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yang}(2017)}]{Tingjun_17_02_08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yang}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=13789}
+  {\enquote {\bibinfo {title} {\emph{Updates on reconstruction}},}\ }\bibinfo
+  {howpublished} {{Cosmogenics working group meeting}} (\bibinfo {year}
+  {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Higuera}(2017{\natexlab{b}})}]{Aaron_17_03_01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Higuera}},\ }\href
+  {https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13947}
+  {\enquote {\bibinfo {title} {\emph{Proton Decay at DUNE $p \rightarrow
+  $K$^{+} + \overline{\nu_{e}}$ and $^{39}$Ar}},}\ }\bibinfo {howpublished}
+  {{Cosmogenics working group meeting}} (\bibinfo {year}
+  {2017}{\natexlab{b}})\BibitemShut {NoStop}%
 \end{thebibliography}%

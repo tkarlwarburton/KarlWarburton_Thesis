@@ -78,149 +78,30 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texl
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,35tonData/35tonData.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Classes/PhDThesisPSnPDF.cls)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorSimulations/FarDetectorSimulations.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Preamble/preamble.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
--include 35tonData/Figs/Raster/DataCollected.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCollected.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCollected.png)
--include 35tonData/Figs/Raster/DataStructure.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataStructure.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataStructure.png)
--include 35tonData/Figs/Raster/DataDrops.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataDrops.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataDrops.png)
--include 35tonData/Figs/Raster/StuckCodes.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/StuckCodes.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/StuckCodes.png)
--include 35tonData/Figs/Raster/StuckCodes2.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/StuckCodes2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/StuckCodes2.png)
--include 35tonData/Figs/Raster/BeforeCoherent.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/BeforeCoherent.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/BeforeCoherent.png)
--include 35tonData/Figs/Raster/AfterCoherent.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/AfterCoherent.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/AfterCoherent.png)
--include 35tonData/Figs/Raster/Waveforms.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Waveforms.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Waveforms.png)
--include 35tonData/Figs/Raster/NoiseFFTs.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/NoiseFFTs.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/NoiseFFTs.png)
--include 35tonData/Figs/Raster/Collection.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Collection.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Collection.png)
--include 35tonData/Figs/Raster/Induction.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Induction.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Induction.png)
--include 35tonData/Figs/Raster/Evd_BeforeNoise.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Evd_BeforeNoise.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Evd_BeforeNoise.png)
--include 35tonData/Figs/Raster/Evd_AfterNoise.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Evd_AfterNoise.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Evd_AfterNoise.png)
--include 35tonData/Figs/Raster/TingjunLifetime.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/TingjunLifetime.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/TingjunLifetime.png)
--include 35tonData/Figs/Raster/CounterSchematic.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CounterSchematic.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CounterSchematic.png)
--include 35tonData/Figs/Raster/CosTheta_Data.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CosTheta_Data.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CosTheta_Data.png)
--include 35tonData/Figs/Raster/CosThetaZoom_Data.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CosThetaZoom_Data.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CosThetaZoom_Data.png)
--include 35tonData/Figs/Raster/north-south.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/north-south.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/north-south.png)
--include 35tonData/Figs/Raster/east-west.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/east-west.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/east-west.png)
--include 35tonData/Figs/Raster/AngleCanvas_50.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/AngleCanvas_50.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/AngleCanvas_50.png)
--include 35tonData/Figs/Raster/DistanceCanvas_50.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DistanceCanvas_50.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DistanceCanvas_50.png)
--include 35tonData/Figs/Raster/TwoDimensional_50cm.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/TwoDimensional_50cm.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/TwoDimensional_50cm.png)
--include 35tonData/Figs/Raster/CounterDiffCan.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CounterDiffCan.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CounterDiffCan.png)
--include 35tonData/Figs/PDF/DiffusionSchematic.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/PDF/DiffusionSchematic.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/PDF/DiffusionSchematic.pdf)
--include 35tonData/Figs/Raster/LotsOfTrackFlash.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/LotsOfTrackFlash.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/LotsOfTrackFlash.png)
--include 35tonData/Figs/PDF/ToyGauss_Raw.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/PDF/ToyGauss_Raw.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/PDF/ToyGauss_Raw.pdf)
--include 35tonData/Figs/PDF/ToyGauss_Noise.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/PDF/ToyGauss_Noise.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/PDF/ToyGauss_Noise.pdf)
--include 35tonData/Figs/Raster/DataCan_0.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCan_0.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCan_0.png)
--include 35tonData/Figs/Raster/DataCan_1.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCan_1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCan_1.png)
--include 35tonData/Figs/Raster/DataCan_2.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCan_2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCan_2.png)
--include 35tonData/Figs/Raster/DataCan_3.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/DataCan_3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/DataCan_3.png)
--include 35tonData/Figs/Raster/CounterDiff4_Data.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CounterDiff4_Data.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CounterDiff4_Data.png)
--include 35tonData/Figs/Raster/InterceptCanvasData.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/InterceptCanvasData.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/InterceptCanvasData.png)
--include 35tonData/Figs/Raster/ChargeCutData.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/ChargeCutData.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/ChargeCutData.png)
--include 35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_AvTimeDiff_RMS.png)
--include 35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_AvXPosDiff_RMS.png)
--include 35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_AvTimeDiff_RMS_Int.png)
--include 35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Data_AvXPosDiff_RMS_Int.png)
--include 35tonData/Figs/Raster/CombCan_0.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_0.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_0.png)
--include 35tonData/Figs/Raster/CombCan_1.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_1.png)
--include 35tonData/Figs/Raster/CombCan_2.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_2.png)
--include 35tonData/Figs/Raster/CombCan_3.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CombCan_3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CombCan_3.png)
--include 35tonData/Figs/Raster/CounterDiff4_Overlay.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/CounterDiff4_Overlay.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/CounterDiff4_Overlay.png)
--include 35tonData/Figs/Raster/InterceptCanvasOverlay.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/InterceptCanvasOverlay.png)
--include 35tonData/Figs/Raster/ChargeCutOverlay.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/ChargeCutOverlay.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/ChargeCutOverlay.png)
--include 35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvTimeDiff_RMS.png)
--include 35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png.gpi.d
-thesis.d: $$(call graphics-source,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonData/Figs/Raster/Overlay_AvXPosDiff_RMS.png)
+-include FarDetectorSimulations/Figs/Raster/phi-map.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/phi-map.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/phi-map.png)
+-include FarDetectorSimulations/Figs/Raster/DepthCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/DepthCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/DepthCan.png)
+-include FarDetectorSimulations/Figs/Raster/ZenithCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/ZenithCan.png)
+-include FarDetectorSimulations/Figs/Raster/AzimuthCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AzimuthCan.png)
+-include FarDetectorSimulations/Figs/Raster/AziZenCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/AziZenCan.png)
+-include FarDetectorSimulations/Figs/Raster/MuonPosCan.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MuonPosCan.png)
+-include FarDetectorSimulations/Figs/Raster/MissedKaon.png.gpi.d
+thesis.d: $$(call graphics-source,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,FarDetectorSimulations/Figs/Raster/MissedKaon.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)
